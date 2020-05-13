@@ -19,7 +19,11 @@ class DiscourseToken:
         self.characterEndIndex = val
 
     def setSyntaxSentenceId(self, val):
-        self.syntaxSentenceId = val
+        self.sentenceId = val
+    def setFullSentence(self, val):
+        self.fullSentence = val
+    def setSentencePosition(self, val):
+        self.sentencePosition = val
 
 class DiscourseRelation:
 
@@ -63,12 +67,12 @@ def parseConnectorFile(cxml):
             for cts in relation.findall('.//connective_tokens'):
                 for ct in cts:
                     if 'id' in ct.attrib: # not the case for implicit connectives
-                        dr.addConnectiveToken(int(ct.get('id')))
+                        dr.addConnectiveToken(tokens[int(ct.get('id'))])
                         tokens[int(ct.get('id'))].isConnective = True # setting token.isConnective boolean to True here
             for iat in relation.findall('.//int_arg_token'):
-                dr.addIntArgToken(int(iat.get('id')))
+                dr.addIntArgToken(tokens[int(iat.get('id'))])
             for eat in relation.findall('.//ext_arg_token'):
-                dr.addExtArgToken(int(eat.get('id')))
+                dr.addExtArgToken(tokens[int(eat.get('id'))])
             dr.filterIntArgForConnectiveTokens()
             relations.append(dr)
          
@@ -97,6 +101,8 @@ def parseSyntaxFile(sxml, tokens):
                 sToken = t.get('word')
                 dt = tokens[syntaxTokenId]
                 dt.setSyntaxSentenceId(elemid)
+                dt.setFullSentence(tokenizedSentence)
+                dt.setSentencePosition(sentencePosition)
                 if not sToken == dt.token:
                     sys.stderr.write('FATAL ERROR: Tokens do not match in %s: %s(%s) vs. %s(%s).\n' % (sxml, sToken, str(syntaxTokenId), tokens[syntaxTokenId].token, str(tokens[syntaxTokenId].tokenId)))
                     sys.exit(1)
@@ -125,5 +131,5 @@ def wrapTokensInSentences(tokens):
 
     sid = defaultdict(list)
     for _id in tokens:
-        sid[tokens[_id].syntaxSentenceId].append(tokens[_id])
+        sid[tokens[_id].sentenceId].append(tokens[_id])
     return sid

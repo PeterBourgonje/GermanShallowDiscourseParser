@@ -6,6 +6,8 @@ import numpy
 import codecs
 import argparse
 import dill as pickle
+import configparser
+from nltk.parse import stanford
 from collections import defaultdict
 from nltk import word_tokenize
 from nltk.tree import ParentedTree
@@ -18,16 +20,21 @@ from sklearn.preprocessing import LabelEncoder
 from tqdm import tqdm
 
 # custom modules
-from Parser import Parser
 import PCCParser
 import DimLexParser
 import utils
 
 
-class ConnectiveClassifier(Parser):
+class ConnectiveClassifier():
 
     def __init__(self):
-        Parser.__init__(self)
+        self.config = configparser.ConfigParser()
+        self.config.read('config.ini')
+        os.environ['JAVAHOME'] = self.config['lexparser']['javahome']
+        os.environ['STANFORD_PARSER'] = self.config['lexparser']['parserdir']
+        os.environ['STANFORD_MODELS'] = self.config['lexparser']['parserdir']
+        os.environ['CLASSPATH'] = '%s/stanford-parser.jar' % self.config['lexparser']['parserdir']
+        self.lexparser = stanford.StanfordParser(model_path='edu/stanford/nlp/models/lexparser/germanPCFG.ser.gz')
         self.bertclient = None
         self.labelencodict = {}
         self.labeldecodict = {}

@@ -4,13 +4,15 @@ import os
 import sys
 import json
 import codecs
-import configparser
-from nltk.parse import stanford
+#import configparser
+#from nltk.parse import stanford
+import dill as pickle
 from spacy.lang.de import German
 
 # custom modules
 import utils
 import ConnectiveClassifier
+import ExplicitArgumentExtractor
 
 nlp = German()
 sentencizer = nlp.create_pipe("sentencizer")
@@ -19,7 +21,8 @@ nlp.add_pipe(sentencizer)
 class Parser:
 
     def __init__(self):
-
+        # doing this in sub-modules now. Check back in later to see if there's a central solution
+        """
         self.config = configparser.ConfigParser()
         self.config.read('config.ini')
         os.environ['JAVAHOME'] = self.config['lexparser']['javahome']
@@ -27,7 +30,7 @@ class Parser:
         os.environ['STANFORD_MODELS'] = self.config['lexparser']['parserdir']
         os.environ['CLASSPATH'] = '%s/stanford-parser.jar' % self.config['lexparser']['parserdir']
         self.lexparser = stanford.StanfordParser(model_path='edu/stanford/nlp/models/lexparser/germanPCFG.ser.gz')
-
+        """
 class Token:
 
     def __init__(self, token, sentenceId, sentenceTokenId):
@@ -44,6 +47,8 @@ class Token:
         if not hasattr(self, 'multiTokenIds'):
             self.multiTokenIds = []
         self.multiTokenIds.append(y)
+    def setFullSentence(self, val):
+        self.fullSentence = val
 
 class Relation:
 
@@ -69,6 +74,7 @@ def custom_tokenize(inp):
         senttokens = []
         for ti, token in enumerate(sent):
             t = Token(token, si, ti)
+            t.setFullSentence(sent.text)
             senttokens.append(t)
             tokens[t.tokenId] = t
         sents[si] = senttokens
@@ -81,13 +87,18 @@ if __name__ == '__main__':
 
 
     cc = ConnectiveClassifier.ConnectiveClassifier()
+    eae = ExplicitArgumentExtractor.ExplicitArgumentExtractor()
+
+    """
     cc.train() # TODO: currently training on PCC only, allow setting to combine PCC+WN, or train on one of the two only (PCC and WN files should have the same format, so should be no problem)
+    eae.train() # training position classifiers for ext args
 
     inp = 'Wie schwierig es ist, in dieser Region einen Ausbildungsplatz zu finden, haben wir an dieser und anderer Stelle oft und ausführlich bewertet. Trotzdem bemühen sich Unternehmen sowie die Industrie- und Handelskammer Potsdam den Schulabgängern Wege in die Ausbildung aufzuzeigen. Und ein Beispiel mit entweder dies oder das und anstatt dass. Entweder bezahlen für die Schülung, oder später im Arsch gehen.' 
 
     sents, tokens = custom_tokenize(inp)
     cc.predict(sents)
 
+    # populating list of relations, starting point are explicits/connectives
     relations = []
     _id = 1
     already_processed = [] # for phrasal connectives...
@@ -102,10 +113,24 @@ if __name__ == '__main__':
                         already_processed.append(ot)
                 relations.append(rel)
                 _id += 1
+
+    # for dev/debugging, pickling result of the above
+    pickle.dump(sents, codecs.open('sents_debug.pickle', 'wb'))
+    pickle.dump(tokens, codecs.open('tokens_debug.pickle', 'wb'))
+    pickle.dump(relations, codecs.open('relations_debug.pickle', 'wb'))
+    """
+    sents = pickle.load(codecs.open('sents_debug.pickle', 'rb'))
+    tokens = pickle.load(codecs.open('tokens_debug.pickle', 'rb'))
+    relations = pickle.load(codecs.open('relations_debug.pickle', 'rb'))
+    eae.train() # training position classifiers for ext args # TAKE THIS OUT AFTER DEV PHASE (ALREADY DONE ABOVE)
+    eae.predict(relations, sents, tokens)
+    
+                
     """
     for rel in relations:
         print('relid:', rel.relationId)
         print('type:', rel.relationType)
         print('conns:', [x.token for x in rel.connective])
     """
+    
     
