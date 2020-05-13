@@ -191,7 +191,7 @@ class ConnectiveClassifier(Parser):
                     features.append(currWord)
                     features.append(currPos)
                     ln = "SOS" if i == 0 else parentedTree.pos()[i-1]
-                    rn = "EOS" if i == len(parentedTree.pos())-len(reftoken)-1 else parentedTree.pos()[i+len(reftoken)]
+                    rn = "EOS" if i == len(parentedTree.pos()) - len(reftoken) else parentedTree.pos()[i+len(reftoken)]
                     lpos = "_" if ln == "SOS" else ln[1]
                     rpos = "_" if rn == "EOS" else rn[1]
                     lstr = ln if ln == "SOS" else ln[0]
@@ -294,7 +294,7 @@ class ConnectiveClassifier(Parser):
             self.bertclient = BertClient(timeout=10000) # milliseconds...
             self.bertclient.encode(["I'm gone, and I best believe I'm leaving.", "Pack up my belongings then it's off into the evening.", "Now I haven't exactly been embraced by the populace.", "Set sail upon the seven deadly seas of the anonymous."])
         except TimeoutError:
-            sys.stderr.write('ERROR: Time-out! Please verify that bert-serving server is running (see docs).\n')
+            sys.stderr.write('ERROR: Time-out! Please verify that bert-serving server is running (see docs).\n') # example call: bert-serving-start -model_dir /share/bert-base-german-cased_tf_version/ -num_worker=4 -max_seq_len=52
             return
             # code to start bert-serving server inside python. Rather hacky though, and could not find how to stop server when done, so decided to make it a requirement to manually start this before running the parser (or starting it first in Dockerfile)
             """
@@ -395,6 +395,11 @@ class ConnectiveClassifier(Parser):
                 if self.dimlextuples[dc]['type'] == 'cont': # continuous connectives
                     if utils.contains_sublist(sentlist, list(dc)):
                         match_positions = utils.get_match_positions(sentlist, list(dc))
+                        if len(dc) > 1: # establishing link between phrasal connectives (continuous)
+                            for mp in match_positions:
+                                for k in range(mp+1, mp+len(dc)):
+                                    sents[sid][mp].setMultiToken(sents[sid][k].tokenId)
+                                    sents[sid][k].setMultiToken(sents[sid][mp].tokenId)
                         if not utils.iscontinuous(match_positions):
                             for submatch in match_positions:
                                 bertfeats, synfeats = self.getFeatures(sents, sid, dc)
@@ -417,6 +422,10 @@ class ConnectiveClassifier(Parser):
                 elif self.dimlextuples[dc]['type'] == 'discont': # discontinuous connectives
                     if utils.contains_discont_sublist(sentlist, list(dc)):
                         match_positions = utils.get_discont_match_positions(sentlist, list(dc))
+                        for k in range(len(match_positions)-1): # establishing link between phrasal connectives (discontinuous)
+                            sents[sid][match_positions[k]].setMultiToken(sents[sid][match_positions[k+1]].tokenId)
+                            sents[sid][match_positions[k+1]].setMultiToken(sents[sid][match_positions[k]].tokenId)
+                            # due to known bug in utils.get_discont_match_positions, only one discont conn per sent is detected. Should this behaviour in get_discont_match_positions change, this needs changing too.
                         bertfeats, synfeats = self.getFeatures(sents, sid, dc)
                         lc = []
                         for mp in match_positions:

@@ -40,16 +40,40 @@ class Token:
     def setConnective(self):
         self.isConnective = True
 
+    def setMultiToken(self, y):
+        if not hasattr(self, 'multiTokenIds'):
+            self.multiTokenIds = []
+        self.multiTokenIds.append(y)
+
+class Relation:
+
+    def __init__(self, _id, _type, docId):
+        self.relationId = _id
+        self.relationType = _type
+        self.docId = docId
+        self.connective = []
+        self.arg1 = []
+        self.arg2 = []
+        
+    def addConnectiveToken(self, token):
+        self.connective.append(token)
+
+        
 def custom_tokenize(inp):
 
     # using spacy sentencizer/tokenizer since most(all?) nltk ones replace double quotes (and some other chars: https://www.nltk.org/_modules/nltk/tokenize/treebank.html)
     doc = nlp(inp)
     sents = {}
+    tokens = {}
     for si, sent in enumerate(doc.sents):
-        tokens = [Token(token, si, ti) for ti, token in enumerate(sent)]
-        sents[si] = tokens
+        senttokens = []
+        for ti, token in enumerate(sent):
+            t = Token(token, si, ti)
+            senttokens.append(t)
+            tokens[t.tokenId] = t
+        sents[si] = senttokens
         
-    return sents
+    return sents, tokens
     
     
 
@@ -59,16 +83,29 @@ if __name__ == '__main__':
     cc = ConnectiveClassifier.ConnectiveClassifier()
     cc.train() # TODO: currently training on PCC only, allow setting to combine PCC+WN, or train on one of the two only (PCC and WN files should have the same format, so should be no problem)
 
-    inp = 'Wie schwierig es ist, in dieser Region einen Ausbildungsplatz zu finden, haben wir an dieser und anderer Stelle oft und ausführlich bewertet. Trotzdem bemühen sich Unternehmen sowie die Industrie- und Handelskammer Potsdam den Schulabgängern Wege in die Ausbildung aufzuzeigen. Und ein Beispiel mit entweder dies oder das und anstatt dass.'
+    inp = 'Wie schwierig es ist, in dieser Region einen Ausbildungsplatz zu finden, haben wir an dieser und anderer Stelle oft und ausführlich bewertet. Trotzdem bemühen sich Unternehmen sowie die Industrie- und Handelskammer Potsdam den Schulabgängern Wege in die Ausbildung aufzuzeigen. Und ein Beispiel mit entweder dies oder das und anstatt dass. Entweder bezahlen für die Schülung, oder später im Arsch gehen.' 
 
-    sents = custom_tokenize(inp)
+    sents, tokens = custom_tokenize(inp)
     cc.predict(sents)
 
+    relations = []
+    _id = 1
+    already_processed = [] # for phrasal connectives...
     for sid in sents:
-        print('sid:', sid)
-        print('sent:', ' '.join([x.token for x in sents[sid]]))
-        print('connective tokenIds:', [(x.tokenId, x.token) for x in sents[sid] if hasattr(x, 'isConnective')])
-    # OK, NOTE TO SELF: connective prediction done. Note that from now on, consecutive isConnective tokens have to be treated as one connective (make sure this is the case, as they are not marked as belonging together, other than by the fact that they are consecutive (filtering on cc.predict makes sure this is the case, think this is a reasonable assumption, it does mean however that compounded connectives are always treated as one connective and cannot have different args))
-
-    # move on with args, eval function can come last, to make sure all work with the same train/test file split...
+        for i, token in enumerate(sents[sid]):
+            if hasattr(token, 'isConnective') and not token.tokenId in already_processed:
+                rel = Relation(_id, 'Explicit', 'dummy')
+                rel.addConnectiveToken(token)
+                if hasattr(token, 'multiTokenIds'):
+                    for ot in token.multiTokenIds:
+                        rel.addConnectiveToken(tokens[ot])
+                        already_processed.append(ot)
+                relations.append(rel)
+                _id += 1
+    """
+    for rel in relations:
+        print('relid:', rel.relationId)
+        print('type:', rel.relationType)
+        print('conns:', [x.token for x in rel.connective])
+    """
     

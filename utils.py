@@ -24,7 +24,7 @@ def get_match_positions(lst, sublst):
     return [i for i, j in enumerate(lst) if lst[i:i+len(sublst)] == sublst]
 
 def get_discont_match_positions(lst, sublst):
-    # just taking first index. Might be wrong.
+    # known bug: this function only returns the first match. Chances of multiple discontinuous connectives in one sentence are low though.
     positions = []
     for item in sublst:
         positions.append(lst.index(item))
