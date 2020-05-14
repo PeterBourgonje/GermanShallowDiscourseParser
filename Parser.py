@@ -62,7 +62,10 @@ class Relation:
         
     def addConnectiveToken(self, token):
         self.connective.append(token)
-
+    def addIntArgToken(self, token):
+        self.arg2.append(token)
+    def addExtArgToken(self, token):
+        self.arg1.append(token)
         
 def custom_tokenize(inp):
 
@@ -72,9 +75,10 @@ def custom_tokenize(inp):
     tokens = {}
     for si, sent in enumerate(doc.sents):
         senttokens = []
+        fullsent = ' '.join([t.text for t in sent])
         for ti, token in enumerate(sent):
             t = Token(token, si, ti)
-            t.setFullSentence(sent.text)
+            t.setFullSentence(fullsent)
             senttokens.append(t)
             tokens[t.tokenId] = t
         sents[si] = senttokens
@@ -93,7 +97,7 @@ if __name__ == '__main__':
     cc.train() # TODO: currently training on PCC only, allow setting to combine PCC+WN, or train on one of the two only (PCC and WN files should have the same format, so should be no problem)
     eae.train() # training position classifiers for ext args
 
-    inp = 'Wie schwierig es ist, in dieser Region einen Ausbildungsplatz zu finden, haben wir an dieser und anderer Stelle oft und ausführlich bewertet. Trotzdem bemühen sich Unternehmen sowie die Industrie- und Handelskammer Potsdam den Schulabgängern Wege in die Ausbildung aufzuzeigen. Und ein Beispiel mit entweder dies oder das und anstatt dass. Entweder bezahlen für die Schülung, oder später im Arsch gehen.' 
+    inp = 'Wie schwierig es ist, in dieser Region einen Ausbildungsplatz zu finden, haben wir an dieser und anderer Stelle oft und ausführlich bewertet. Trotzdem bemühen sich Unternehmen sowie die Industrie- und Handelskammer Potsdam den Schulabgängern Wege in die Ausbildung aufzuzeigen. Und Beispielsweise gibt es ein mit entweder dies oder das, und dazu gibt es noch anstatt dass aapjes. Entweder bezahlen für die Schülung, oder später im Arsch gehen. Und das ist ein guter erster Schritt. Das weiß jedes Kind, aber nicht jeder hält sich daran. Das Schlimmste aber ist, dass noch heute versucht wird, zu mauscheln.' 
 
     sents, tokens = custom_tokenize(inp)
     cc.predict(sents)
@@ -122,15 +126,20 @@ if __name__ == '__main__':
     sents = pickle.load(codecs.open('sents_debug.pickle', 'rb'))
     tokens = pickle.load(codecs.open('tokens_debug.pickle', 'rb'))
     relations = pickle.load(codecs.open('relations_debug.pickle', 'rb'))
-    eae.train() # training position classifiers for ext args # TAKE THIS OUT AFTER DEV PHASE (ALREADY DONE ABOVE)
+    #eae.train() # training position classifiers for ext args # TAKE THIS OUT AFTER DEV PHASE (ALREADY DONE ABOVE)
     eae.predict(relations, sents, tokens)
-    
+
+    # TODO: next up: senses
+    # then implicits, then evaluation...
                 
-    """
+    #"""
     for rel in relations:
         print('relid:', rel.relationId)
         print('type:', rel.relationType)
         print('conns:', [x.token for x in rel.connective])
-    """
+        print('arg2:', [x.token for x in rel.arg2])
+        print('arg1:', [x.token for x in rel.arg1])
+        print()
+    #"""
     
     
