@@ -36,6 +36,8 @@ class DiscourseRelation:
 
     def setSense(self, sense):
         self.sense = sense
+    def setType(self, _type):
+        self.relationType = _type
 
     def addConnectiveToken(self, tid):
         self.connectiveTokens.append(tid)
@@ -64,6 +66,7 @@ def parseConnectorFile(cxml):
         if relation.get('type') == 'explicit':
             dr = DiscourseRelation(relation.get('relation_id'))
             dr.setSense(relation.get('pdtb3_sense'))
+            dr.setType(relation.get('type'))
             for cts in relation.findall('.//connective_tokens'):
                 for ct in cts:
                     if 'id' in ct.attrib: # not the case for implicit connectives

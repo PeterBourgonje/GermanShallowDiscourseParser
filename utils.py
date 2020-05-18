@@ -184,3 +184,149 @@ def getLeaveNr(refcon, tree):
         assert restored # if this is not the case, something else went wrong locating the token in the tree (any other special characters NLTK treats differently during parsing?)
     return leavenr
     
+def getFeaturesFromTreeDiscont(ptree, positions, reftoken):
+
+    features = []
+    parentedTree = ParentedTree.convert(ptree)
+    for i, node in enumerate(parentedTree.pos()):
+        if i == positions[0] and node[0] == reftoken[0]:
+            currWord = '_'.join(reftoken)
+            currPos = '_'.join([x[1] for i2, x in enumerate(parentedTree.pos()) if i2 in positions])
+            features.append(currWord)
+            features.append(currPos)
+            ln = "SOS" if i == 0 else parentedTree.pos()[i-1]
+            rn = 'EOS' if positions[-1] == len(parentedTree.pos()) else parentedTree.pos()[positions[-1]+1]
+            lpos = "_" if ln == "SOS" else ln[1]
+            rpos = "_" if rn == "EOS" else rn[1]
+            lstr = ln if ln == "SOS" else ln[0]
+            rstr = rn if rn == "EOS" else rn[0]
+            lbigram = lstr + '_' + currWord
+            rbigram = currWord + '_' + rstr
+            lposbigram = lpos + '_' + currPos
+            rposbigram = currPos + '_' + rpos
+            features.append(lbigram)
+            features.append(lpos)
+            features.append(lposbigram)
+            features.append(rbigram)
+            features.append(rpos)
+            features.append(rposbigram)
+
+            parent = get_parent(parentedTree, i)
+            selfnode = find_lowest_embracing_node_discont(parent, reftoken)
+            selfcat = selfnode.label()
+            parentcat = 'ROOT'
+            if not selfnode.label() == 'ROOT':
+                parentnode = selfnode.parent()
+                parentcat = parentnode.label()
+            ls = selfnode.left_sibling()
+            rs = selfnode.right_sibling()
+            lsCat = False if not ls else ls.label()
+            rsCat = False if not rs else rs.label() 
+            features.append(lsCat)
+            features.append(rsCat)
+            rsContainsVP = False
+            if rs:
+                if list(rs.subtrees(filter=lambda x: x.label()=='VP')):
+                    rsContainsVP = True
+            features.append(rsContainsVP)
+            rootRoute = getPathToRoot(selfnode, [])
+            cRoute = compressRoute([x for x in rootRoute])
+            features.append('_'.join(rootRoute))
+
+    return features
+
+
+def getFeaturesFromTreeCont(ptree, position, reftoken):
+
+    features = []
+    parentedTree = ParentedTree.convert(ptree)
+    if isinstance(position, int): # single token
+        for i, node in enumerate(parentedTree.pos()):
+            if i == position and node[0] == reftoken:
+                currWord = node[0]
+                currPos = node[1]
+                features.append(currWord)
+                features.append(currPos)                        
+                ln = "SOS" if i == 0 else parentedTree.pos()[i-1]
+                rn = "EOS" if i == len(parentedTree.pos())-1 else parentedTree.pos()[i+1]
+                lpos = "_" if ln == "SOS" else ln[1]
+                rpos = "_" if rn == "EOS" else rn[1]
+                lstr = ln if ln == "SOS" else ln[0]
+                rstr = rn if rn == "EOS" else rn[0]
+                lbigram = lstr + '_' + currWord
+                rbigram = currWord + '_' + rstr
+                lposbigram = lpos + '_' + currPos
+                rposbigram = currPos + '_' + rpos
+                features.append(lbigram)
+                features.append(lpos)
+                features.append(lposbigram)
+                features.append(rbigram)
+                features.append(rpos)
+                features.append(rposbigram)
+
+                selfcat = currPos # always POS for single words
+                nodePosition = parentedTree.leaf_treeposition(i)
+                parent = parentedTree[nodePosition[:-1]].parent()
+                parentCategory = parent.label()
+                ls = parent.left_sibling()
+                lsCat = False if not ls else ls.label()
+                rs = parent.right_sibling()
+                rsCat = False if not rs else rs.label()
+                features.append(lsCat)
+                features.append(rsCat)
+                rsContainsVP = False
+                if rs:
+                    if list(rs.subtrees(filter=lambda x: x.label()=='VP')):
+                        rsContainsVP = True
+                features.append(rsContainsVP)
+                rootRoute = getPathToRoot(parent, [])
+                features.append('_'.join(rootRoute))
+                cRoute = compressRoute([x for x in rootRoute])
+
+    elif isinstance(position, list): # phrasal
+        for i, node in enumerate(parentedTree.pos()):
+            if i == position[0] and node[0] == reftoken[0]:
+                currWord = '_'.join([x[0] for x in parentedTree.pos()[i:i+len(reftoken)]])
+                currPos = '_'.join([x[1] for x in parentedTree.pos()[i:i+len(reftoken)]])
+                features.append(currWord)
+                features.append(currPos)
+                ln = "SOS" if i == 0 else parentedTree.pos()[i-1]
+                rn = "EOS" if i == len(parentedTree.pos()) - len(reftoken) else parentedTree.pos()[i+len(reftoken)]
+                lpos = "_" if ln == "SOS" else ln[1]
+                rpos = "_" if rn == "EOS" else rn[1]
+                lstr = ln if ln == "SOS" else ln[0]
+                rstr = rn if rn == "EOS" else rn[0]
+                lbigram = lstr + '_' + currWord
+                rbigram = currWord + '_' + rstr
+                lposbigram = lpos + '_' + currPos
+                rposbigram = currPos + '_' + rpos
+                features.append(lbigram)
+                features.append(lpos)
+                features.append(lposbigram)
+                features.append(rbigram)
+                features.append(rpos)
+                features.append(rposbigram)
+
+                parent = get_parent(parentedTree, i)
+                selfnode = find_lowest_embracing_node(parent, reftoken)
+                selfcat = selfnode.label() # cat of lowest level node containing all tokens of connective
+                parentcat = 'ROOT'
+                if not selfnode.label() == 'ROOT':
+                    parentnode = selfnode.parent()
+                    parentcat = parentnode.label()
+                ls = selfnode.left_sibling()
+                rs = selfnode.right_sibling()
+                lsCat = False if not ls else ls.label()
+                rsCat = False if not rs else rs.label() 
+                features.append(lsCat)
+                features.append(rsCat)
+                rsContainsVP = False
+                if rs:
+                    if list(rs.subtrees(filter=lambda x: x.label()=='VP')):
+                        rsContainsVP = True
+                features.append(rsContainsVP)
+                rootRoute = getPathToRoot(selfnode, [])
+                cRoute = compressRoute([x for x in rootRoute])
+                features.append('_'.join(rootRoute))
+
+    return features

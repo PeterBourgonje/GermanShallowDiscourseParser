@@ -4,7 +4,6 @@ import sys
 import time
 import numpy
 import codecs
-import argparse
 import dill as pickle
 import configparser
 from nltk.parse import stanford
@@ -12,8 +11,8 @@ from collections import defaultdict
 from nltk import word_tokenize
 from nltk.tree import ParentedTree
 from bert_serving.client import BertClient
-from bert_serving.server import BertServer
-from bert_serving.server.helper import get_run_args
+#from bert_serving.server import BertServer
+#from bert_serving.server.helper import get_run_args
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.preprocessing import LabelEncoder
@@ -91,155 +90,6 @@ class ConnectiveClassifier():
                     self.dimlextuples[tupl] = {'type':'discont','surefire':entry.surefire, 'syncat':syncat}
 
 
-    def getFeaturesFromTreeDiscont(self, ptree, positions, reftoken):
-
-        features = []
-        parentedTree = ParentedTree.convert(ptree)
-        for i, node in enumerate(parentedTree.pos()):
-            if i == positions[0] and node[0] == reftoken[0]:
-                currWord = '_'.join(reftoken)
-                currPos = '_'.join([x[1] for i2, x in enumerate(parentedTree.pos()) if i2 in positions])
-                features.append(currWord)
-                features.append(currPos)
-                ln = "SOS" if i == 0 else parentedTree.pos()[i-1]
-                rn = 'EOS' if positions[-1] == len(parentedTree.pos()) else parentedTree.pos()[positions[-1]+1]
-                lpos = "_" if ln == "SOS" else ln[1]
-                rpos = "_" if rn == "EOS" else rn[1]
-                lstr = ln if ln == "SOS" else ln[0]
-                rstr = rn if rn == "EOS" else rn[0]
-                lbigram = lstr + '_' + currWord
-                rbigram = currWord + '_' + rstr
-                lposbigram = lpos + '_' + currPos
-                rposbigram = currPos + '_' + rpos
-                features.append(lbigram)
-                features.append(lpos)
-                features.append(lposbigram)
-                features.append(rbigram)
-                features.append(rpos)
-                features.append(rposbigram)
-
-                parent = utils.get_parent(parentedTree, i)
-                selfnode = utils.find_lowest_embracing_node_discont(parent, reftoken)
-                selfcat = selfnode.label()
-                parentcat = 'ROOT'
-                if not selfnode.label() == 'ROOT':
-                    parentnode = selfnode.parent()
-                    parentcat = parentnode.label()
-                ls = selfnode.left_sibling()
-                rs = selfnode.right_sibling()
-                lsCat = False if not ls else ls.label()
-                rsCat = False if not rs else rs.label() 
-                features.append(lsCat)
-                features.append(rsCat)
-                rsContainsVP = False
-                if rs:
-                    if list(rs.subtrees(filter=lambda x: x.label()=='VP')):
-                        rsContainsVP = True
-                features.append(rsContainsVP)
-                rootRoute = utils.getPathToRoot(selfnode, [])
-                cRoute = utils.compressRoute([x for x in rootRoute])
-                features.append('_'.join(rootRoute))
-
-        return features
-
-
-    def getFeaturesFromTreeCont(self, ptree, position, reftoken):
-
-        features = []
-        parentedTree = ParentedTree.convert(ptree)
-        if isinstance(position, int): # single token
-            for i, node in enumerate(parentedTree.pos()):
-                if i == position and node[0] == reftoken:
-                    currWord = node[0]
-                    currPos = node[1]
-                    features.append(currWord)
-                    features.append(currPos)                        
-                    ln = "SOS" if i == 0 else parentedTree.pos()[i-1]
-                    rn = "EOS" if i == len(parentedTree.pos())-1 else parentedTree.pos()[i+1]
-                    lpos = "_" if ln == "SOS" else ln[1]
-                    rpos = "_" if rn == "EOS" else rn[1]
-                    lstr = ln if ln == "SOS" else ln[0]
-                    rstr = rn if rn == "EOS" else rn[0]
-                    lbigram = lstr + '_' + currWord
-                    rbigram = currWord + '_' + rstr
-                    lposbigram = lpos + '_' + currPos
-                    rposbigram = currPos + '_' + rpos
-                    features.append(lbigram)
-                    features.append(lpos)
-                    features.append(lposbigram)
-                    features.append(rbigram)
-                    features.append(rpos)
-                    features.append(rposbigram)
-
-                    selfcat = currPos # always POS for single words
-                    nodePosition = parentedTree.leaf_treeposition(i)
-                    parent = parentedTree[nodePosition[:-1]].parent()
-                    parentCategory = parent.label()
-                    ls = parent.left_sibling()
-                    lsCat = False if not ls else ls.label()
-                    rs = parent.right_sibling()
-                    rsCat = False if not rs else rs.label()
-                    features.append(lsCat)
-                    features.append(rsCat)
-                    rsContainsVP = False
-                    if rs:
-                        if list(rs.subtrees(filter=lambda x: x.label()=='VP')):
-                            rsContainsVP = True
-                    features.append(rsContainsVP)
-                    rootRoute = utils.getPathToRoot(parent, [])
-                    features.append('_'.join(rootRoute))
-                    cRoute = utils.compressRoute([x for x in rootRoute])
-
-        elif isinstance(position, list): # phrasal
-            for i, node in enumerate(parentedTree.pos()):
-                if i == position[0] and node[0] == reftoken[0]:
-                    currWord = '_'.join([x[0] for x in parentedTree.pos()[i:i+len(reftoken)]])
-                    currPos = '_'.join([x[1] for x in parentedTree.pos()[i:i+len(reftoken)]])
-                    features.append(currWord)
-                    features.append(currPos)
-                    ln = "SOS" if i == 0 else parentedTree.pos()[i-1]
-                    rn = "EOS" if i == len(parentedTree.pos()) - len(reftoken) else parentedTree.pos()[i+len(reftoken)]
-                    lpos = "_" if ln == "SOS" else ln[1]
-                    rpos = "_" if rn == "EOS" else rn[1]
-                    lstr = ln if ln == "SOS" else ln[0]
-                    rstr = rn if rn == "EOS" else rn[0]
-                    lbigram = lstr + '_' + currWord
-                    rbigram = currWord + '_' + rstr
-                    lposbigram = lpos + '_' + currPos
-                    rposbigram = currPos + '_' + rpos
-                    features.append(lbigram)
-                    features.append(lpos)
-                    features.append(lposbigram)
-                    features.append(rbigram)
-                    features.append(rpos)
-                    features.append(rposbigram)
-
-                    parent = utils.get_parent(parentedTree, i)
-                    selfnode = utils.find_lowest_embracing_node(parent, reftoken)
-                    selfcat = selfnode.label() # cat of lowest level node containing all tokens of connective
-                    parentcat = 'ROOT'
-                    if not selfnode.label() == 'ROOT':
-                        parentnode = selfnode.parent()
-                        parentcat = parentnode.label()
-                    ls = selfnode.left_sibling()
-                    rs = selfnode.right_sibling()
-                    lsCat = False if not ls else ls.label()
-                    rsCat = False if not rs else rs.label() 
-                    features.append(lsCat)
-                    features.append(rsCat)
-                    rsContainsVP = False
-                    if rs:
-                        if list(rs.subtrees(filter=lambda x: x.label()=='VP')):
-                            rsContainsVP = True
-                    features.append(rsContainsVP)
-                    rootRoute = utils.getPathToRoot(selfnode, [])
-                    cRoute = utils.compressRoute([x for x in rootRoute])
-                    features.append('_'.join(rootRoute))
-
-        return features
-
-
-
     def getFeatures(self, sd, sid, dc):
 
         tokens = [x.token for x in sd[sid]]
@@ -264,15 +114,15 @@ class ConnectiveClassifier():
                 match_positions = utils.get_match_positions(tokens, list(dc))
                 if len(dc) == 1:
                     for position in match_positions:
-                        feat = self.getFeaturesFromTreeCont(ptree, position, dc[0])
+                        feat = utils.getFeaturesFromTreeCont(ptree, position, dc[0])
                 elif len(dc) > 1:
                     for startposition in match_positions:
                         positions = list(range(startposition, startposition+len(dc)))
-                        feat = self.getFeaturesFromTreeCont(ptree, list(positions), dc)
+                        feat = utils.getFeaturesFromTreeCont(ptree, list(positions), dc)
         elif self.dimlextuples[dc]['type'] == 'discont':
             if utils.contains_discont_sublist(tokens, list(dc)):
                 match_positions = utils.get_discont_match_positions(tokens, list(dc))
-                feat = self.getFeaturesFromTreeDiscont(ptree, match_positions, dc)
+                feat = utils.getFeaturesFromTreeDiscont(ptree, match_positions, dc)
 
         synfeats = [self.encode(v) for v in feat]
         

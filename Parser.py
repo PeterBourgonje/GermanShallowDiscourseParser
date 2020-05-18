@@ -13,6 +13,7 @@ from spacy.lang.de import German
 import utils
 import ConnectiveClassifier
 import ExplicitArgumentExtractor
+import ExplicitSenseClassifier
 
 nlp = German()
 sentencizer = nlp.create_pipe("sentencizer")
@@ -92,6 +93,7 @@ if __name__ == '__main__':
 
     cc = ConnectiveClassifier.ConnectiveClassifier()
     eae = ExplicitArgumentExtractor.ExplicitArgumentExtractor()
+    esc = ExplicitSenseClassifier.ExplicitSenseClassifier()
 
     """
     cc.train() # TODO: currently training on PCC only, allow setting to combine PCC+WN, or train on one of the two only (PCC and WN files should have the same format, so should be no problem)
@@ -127,9 +129,10 @@ if __name__ == '__main__':
     tokens = pickle.load(codecs.open('tokens_debug.pickle', 'rb'))
     relations = pickle.load(codecs.open('relations_debug.pickle', 'rb'))
     #eae.train() # training position classifiers for ext args # TAKE THIS OUT AFTER DEV PHASE (ALREADY DONE ABOVE)
-    eae.predict(relations, sents, tokens)
+    esc.train()
+    #eae.predict(relations, sents, tokens)
 
-    # TODO: next up: senses
+    # TODO: next up: senses: training done, now do esc.predict()
     # then implicits, then evaluation...
                 
     #"""

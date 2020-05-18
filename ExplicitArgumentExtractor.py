@@ -177,42 +177,43 @@ class ExplicitArgumentExtractor:
             pccTokens, relations = PCCParser.parseConnectorFile(fd[f]['connectives'])
             pccTokens = PCCParser.parseSyntaxFile(fd[f]['syntax'], pccTokens)
             for rel in relations:
-                connective = ' '.join([x.token for x in rel.connectiveTokens])
-                refcon = rel.connectiveTokens[0]
-                sentence = refcon.fullSentence
-                ptree = None
-                if sentence in self.parsermap:
-                    ptree = self.parsermap[sentence]
-                else:
-                    tree = self.lexparser.parse(re.sub('\)', ']', re.sub('\(', '[', sentence)).split())
-                    ptreeiter = ParentedTree.convert(tree)
-                    for t in ptreeiter:
-                        ptree = t
-                        self.parsermap[sentence] = ptree
-                        break # always taking the first, assuming that this is the best scoring tree.
-                ptree = ParentedTree.convert(ptree)
-                postag = ptree.pos()[refcon.sentencePosition][1]
-                ln = 'SOS' if refcon.sentencePosition == 0 else ptree.pos()[refcon.sentencePosition-1][0]
-                rn = 'EOS' if refcon.sentencePosition == len(ptree.pos()) else ptree.pos()[refcon.sentencePosition+1][0]
-                lnpos = 'SOS' if refcon.sentencePosition == 0 else ptree.pos()[refcon.sentencePosition-1][1]
-                rnpos = 'EOS' if refcon.sentencePosition == len(ptree.pos()) else ptree.pos()[refcon.sentencePosition+1][1]
-                nodePosition = ptree.leaf_treeposition(refcon.sentencePosition)
-                parent = ptree[nodePosition[:-1]].parent()
-                rootroute = utils.getPathToRoot(parent, [])
-                feat = [connective, postag, ln, rn, lnpos, rnpos, '-'.join(rootroute), refcon.sentencePosition]
-                enc_feat = [self.encode(v) for v in feat]
-                extargsent = list(set(t.sentenceId for t in rel.extArgTokens))[0] # taking first sent only in case ext arg is spread over multiple sentences
-                sentposlabel = extargsent - refcon.sentenceId
-                X_train_pos.append(enc_feat)
-                y_train_pos.append(sentposlabel)
-                if sentposlabel == 0:
-                    X_train_samesent.append(enc_feat)
-                    if rel.extArgTokens[-1].tokenId < refcon.tokenId:
-                        y_train_samesent.append(-1)
+                if rel.relationType == 'explicit':
+                    connective = ' '.join([x.token for x in rel.connectiveTokens])
+                    refcon = rel.connectiveTokens[0]
+                    sentence = refcon.fullSentence
+                    ptree = None
+                    if sentence in self.parsermap:
+                        ptree = self.parsermap[sentence]
                     else:
-                        y_train_samesent.append(1)
+                        tree = self.lexparser.parse(re.sub('\)', ']', re.sub('\(', '[', sentence)).split())
+                        ptreeiter = ParentedTree.convert(tree)
+                        for t in ptreeiter:
+                            ptree = t
+                            self.parsermap[sentence] = ptree
+                            break # always taking the first, assuming that this is the best scoring tree.
+                    ptree = ParentedTree.convert(ptree)
+                    postag = ptree.pos()[refcon.sentencePosition][1]
+                    ln = 'SOS' if refcon.sentencePosition == 0 else ptree.pos()[refcon.sentencePosition-1][0]
+                    rn = 'EOS' if refcon.sentencePosition == len(ptree.pos()) else ptree.pos()[refcon.sentencePosition+1][0]
+                    lnpos = 'SOS' if refcon.sentencePosition == 0 else ptree.pos()[refcon.sentencePosition-1][1]
+                    rnpos = 'EOS' if refcon.sentencePosition == len(ptree.pos()) else ptree.pos()[refcon.sentencePosition+1][1]
+                    nodePosition = ptree.leaf_treeposition(refcon.sentencePosition)
+                    parent = ptree[nodePosition[:-1]].parent()
+                    rootroute = utils.getPathToRoot(parent, [])
+                    feat = [connective, postag, ln, rn, lnpos, rnpos, '-'.join(rootroute), refcon.sentencePosition]
+                    enc_feat = [self.encode(v) for v in feat]
+                    extargsent = list(set(t.sentenceId for t in rel.extArgTokens))[0] # taking first sent only in case ext arg is spread over multiple sentences
+                    sentposlabel = extargsent - refcon.sentenceId
+                    X_train_pos.append(enc_feat)
+                    y_train_pos.append(sentposlabel)
+                    if sentposlabel == 0:
+                        X_train_samesent.append(enc_feat)
+                        if rel.extArgTokens[-1].tokenId < refcon.tokenId:
+                            y_train_samesent.append(-1)
+                        else:
+                            y_train_samesent.append(1)
 
-                        
+
                 
         self.sentposclf = RandomForestClassifier(class_weight='balanced', n_estimators=1000)
         self.samesentclf = RandomForestClassifier(class_weight='balanced', n_estimators=1000)
