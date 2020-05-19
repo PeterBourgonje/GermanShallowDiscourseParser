@@ -67,6 +67,8 @@ class Relation:
         self.arg2.append(token)
     def addExtArgToken(self, token):
         self.arg1.append(token)
+    def addSense(self, sense):
+        self.sense = sense
         
 def custom_tokenize(inp):
 
@@ -125,15 +127,23 @@ if __name__ == '__main__':
     pickle.dump(tokens, codecs.open('tokens_debug.pickle', 'wb'))
     pickle.dump(relations, codecs.open('relations_debug.pickle', 'wb'))
     """
+    #eae.train() # training position classifiers for ext args # TAKE THIS OUT AFTER DEV PHASE (ALREADY DONE ABOVE)
+    #eae.predict(relations, sents, tokens)
+    
+    #esc.train() # MOVE THIS ON TOP AFTER DEV PHASE AS WELL
+    #esc.predict(relations)
+
+    #pickle.dump(sents, codecs.open('sents_debug.pickle', 'wb'))
+    #pickle.dump(tokens, codecs.open('tokens_debug.pickle', 'wb'))
+    #pickle.dump(relations, codecs.open('relations_debug.pickle', 'wb'))
+
     sents = pickle.load(codecs.open('sents_debug.pickle', 'rb'))
     tokens = pickle.load(codecs.open('tokens_debug.pickle', 'rb'))
     relations = pickle.load(codecs.open('relations_debug.pickle', 'rb'))
-    #eae.train() # training position classifiers for ext args # TAKE THIS OUT AFTER DEV PHASE (ALREADY DONE ABOVE)
-    esc.train()
-    #eae.predict(relations, sents, tokens)
-
-    # TODO: next up: senses: training done, now do esc.predict()
-    # then implicits, then evaluation...
+    
+    # TODO:
+    # then wrap in flask/dockerise, such that Olha can use it,
+    # then evaluation...
                 
     #"""
     for rel in relations:
@@ -142,6 +152,7 @@ if __name__ == '__main__':
         print('conns:', [x.token for x in rel.connective])
         print('arg2:', [x.token for x in rel.arg2])
         print('arg1:', [x.token for x in rel.arg1])
+        print('sense.', rel.sense)
         print()
     #"""
     

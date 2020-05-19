@@ -18,6 +18,7 @@ from tqdm import tqdm
 
 # custom modules
 import PCCParser
+import DimLexParser
 import utils
 
 
@@ -115,7 +116,7 @@ class ExplicitSenseClassifier():
     def train(self):
 
         start = time.time()
-        sys.stderr.write('INFO: Starting training of connective classifier...\n')
+        sys.stderr.write('INFO: Starting training of explicit sense classifier...\n')
         # check if there is a BertServer instance running:
         try:
             self.bertclient = BertClient(timeout=10000) # milliseconds...
@@ -130,6 +131,7 @@ class ExplicitSenseClassifier():
         fd = defaultdict(lambda : defaultdict(str))
         fd = utils.addAnnotationLayerToDict(connectivefiles, fd, 'connectives')
         fd = utils.addAnnotationLayerToDict(syntaxfiles, fd, 'syntax')
+        self.conn2mostfrequent = defaultdict(lambda : defaultdict(int)) # getting this over the training data, to override with the most frequent sense in post-processing if predicted sense does not match with dimlex
 
         X_train_bert = []
         X_train_syn = []
@@ -144,6 +146,7 @@ class ExplicitSenseClassifier():
                     X_train_bert.append(bertfeats)
                     X_train_syn.append(synfeats)
                     y_train.append(rel.sense)
+                    self.conn2mostfrequent[tuple([x.token for x in rel.connectiveTokens])][rel.sense] += 1
 
         # overwriting memory maps
         pickle.dump(self.bertmap, codecs.open(os.path.join(os.getcwd(), 'bert_client_encodings.pickle'), 'wb'))
@@ -154,10 +157,102 @@ class ExplicitSenseClassifier():
 
         clfs = [rf, mlp]
         X_train = [X_train_syn, X_train_bert]
+        self.le = LabelEncoder()
+        self.le.fit(y_train)
         self.clfs = [clf.fit(X, y_train) for clf, X in zip(clfs, X_train)]
+
+        # get conn2senses from dimlex for manual overriding as post-processing step
+        self.conn2senses = {}
+        dimlex = DimLexParser.parseXML(os.path.join(self.config['DiMLex']['dimlexdir'], 'DimLex.xml'))
+        for entry in dimlex:
+            altdict = entry.alternativeSpellings
+            senses = entry.sense2Probs.keys()
+            for item in altdict: # canonical form is always in list of alt spellings
+                tupl = tuple(word_tokenize(item))
+                self.conn2senses[tupl] = senses
+
 
         end = time.time()
         hours, rem = divmod(end-start, 3600)
         minutes, seconds = divmod(rem, 60)
         sys.stderr.write('INFO: Done training explicit sense classifier...({:0>2}:{:0>2}:{:0>2})\n'.format(int(hours), int(minutes), int(seconds)))
 
+
+    def predict(self, relations):
+
+        X_test_syn = []
+        X_test_bert = []
+        candidates = []
+        for rel in relations:
+            sentence = rel.connective[0].fullSentence
+            tokens = sentence.split()
+            ptree = None
+            tree = self.lexparser.parse(re.sub('\)', ']', re.sub('\(', '[', sentence)).split())
+            ptreeiter = ParentedTree.convert(tree)
+            for t in ptreeiter:
+                ptree = t
+                self.parsermap[sentence] = ptree
+                break # always taking the first, assuming that this is the best scoring tree.
+            feat = ['_']*12
+            match_positions = None
+            if utils.iscontinuous([int(x.tokenId) for x in rel.connective]): # continuous connective
+                if utils.contains_sublist(tokens, [x.token for x in rel.connective]):
+                    match_positions = utils.get_match_positions(tokens, [x.token for x in rel.connective])
+                    if len(rel.connective) == 1:
+                        for position in match_positions:
+                            feat = utils.getFeaturesFromTreeCont(ptree, position, rel.connective[0].token)
+                    elif len(rel.connective) > 1:
+                        for startposition in match_positions:
+                            positions = list(range(startposition, startposition+len(rel.connective)))
+                            feat = utils.getFeaturesFromTreeCont(ptree, list(positions), tuple([x.token for x in rel.connective]))
+            else: # discontinuous connective
+                if utils.contains_discont_sublist(tokens, [x.token for x in rel.connective]):
+                    match_positions = utils.get_discont_match_positions(tokens, [x.token for x in rel.connective])
+                    feat = utils.getFeaturesFromTreeDiscont(ptree, match_positions, tuple([x.token for x in rel.connective]))
+            synfeats = [self.encode(v) for v in feat]
+            
+            conn = ' '.join([x.token for x in rel.connective])
+            intarg = ' '.join([x.token for x in rel.arg2])
+            extarg = ' '.join([x.token for x in rel.arg1])
+            leftarg = extarg # unmarked order
+            rightarg = intarg
+            try:
+                if rel.arg2[-1].tokenId < rel.arg1[0].tokenId: # marked order
+                    leftarg = intarg
+                    rightarg = extarg
+            except IndexError:
+                pass # one of the two (or both) not found/empty
+                
+            enc = self.bertclient.encode([leftarg.split(), rightarg.split(), conn.split()], is_tokenized=True)
+            bertfeats = numpy.concatenate(enc)
+
+            X_test_syn.append(synfeats)
+            X_test_bert.append(bertfeats)
+            candidates.append(tuple([x.token for x in rel.connective]))
+
+            
+        X_test = [X_test_bert, X_test_syn]
+        pred1 = numpy.asarray([clf.predict_proba(X) for clf, X in zip(self.clfs, X_test)])
+        pred2 = numpy.average(pred1, axis=0)
+        pred = numpy.argmax(pred2, axis=1)
+
+        assert len(pred) == len(candidates)
+
+        pred = self.le.inverse_transform(pred)
+
+        # checking predicted sense with dimlex and overriding if not matching:
+        for i, t in enumerate(zip(pred, candidates)):
+            p, s = t
+            if s in self.conn2senses:
+                if not p in self.conn2senses[s]:
+                    if len(self.conn2senses[s]) == 1:
+                        pred[i] = list(self.conn2senses[s])[0]
+                    else:
+                        if s in self.conn2mostfrequent:
+                            top = sorted(self.conn2mostfrequent[s].items(), key = lambda x: x[1], reverse=True)[0][0]
+                            pred[i] = top
+
+        for pair in zip(relations, pred):
+            rel, prediction = pair
+            rel.addSense(prediction)
+            
