@@ -36,8 +36,18 @@ class ImplicitSenseClassifier():
             self.bertmap = pickle.load(codecs.open(os.path.join(os.getcwd(), 'bert_client_encodings.pickle'), 'rb'))
         else:
             self.bertmap = {}
-        
 
+
+    def explicitRelationExists(self, relations, i, j):
+
+        for rel in relations:
+            intargsids = set([x.sentenceId for x in rel.arg2])
+            extargsids = set([x.sentenceId for x in rel.arg1])
+            if i in intargsids and j in extargsids:
+                return True
+            elif j in intargsids and i in extargsids:
+                return True
+        return False
 
     def train(self):
 
@@ -96,3 +106,22 @@ class ImplicitSenseClassifier():
         sys.stderr.write('INFO: Done training implicit sense classifier...({:0>2}:{:0>2}:{:0>2})\n'.format(int(hours), int(minutes), int(seconds)))
 
 
+
+    def predict(self, relations, sents):
+
+        newrels = []
+        for i in range(len(sents)-1):
+            if self.explicitRelationExists(relations, i, i+1):
+                pass
+            else:
+                i_tokens = [x.token for x in sents[i]]
+                j_tokens = [x.token for x in sents[i+1]]
+                enc = self.bertclient.encode([i_tokens, j_tokens], is_tokenized=True)
+                bertfeats = numpy.concatenate(enc)
+                pred = self.mlp.predict(bertfeats.reshape(1, -1))
+                newrels.append([[t for t in sents[i]], [t for t in sents[i+1]], pred[0]])
+                
+        return newrels
+
+
+                

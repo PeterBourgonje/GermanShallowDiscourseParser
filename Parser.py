@@ -100,13 +100,13 @@ if __name__ == '__main__':
     esc = ExplicitSenseClassifier.ExplicitSenseClassifier()
     isc = ImplicitSenseClassifier.ImplicitSenseClassifier()
 
-    cc.train()
-    eae.train()
-    esc.train()
-    isc.train()
+    #cc.train()
+    #eae.train()
+    #esc.train()
+    #isc.train()
     
     """
-    inp = 'Wie schwierig es ist, in dieser Region einen Ausbildungsplatz zu finden, haben wir an dieser und anderer Stelle oft und ausführlich bewertet. Trotzdem bemühen sich Unternehmen sowie die Industrie- und Handelskammer Potsdam den Schulabgängern Wege in die Ausbildung aufzuzeigen. Und Beispielsweise gibt es ein mit entweder dies oder das, und dazu gibt es noch anstatt dass aapjes. Entweder bezahlen für die Schülung, oder später im Arsch gehen. Und das ist ein guter erster Schritt. Das weiß jedes Kind, aber nicht jeder hält sich daran. Das Schlimmste aber ist, dass noch heute versucht wird, zu mauscheln.' 
+    inp = 'Wie schwierig es ist, in dieser Region einen Ausbildungsplatz zu finden, haben wir an dieser und anderer Stelle oft und ausführlich bewertet. Trotzdem bemühen sich Unternehmen sowie die Industrie- und Handelskammer Potsdam den Schulabgängern Wege in die Ausbildung aufzuzeigen. Und Beispielsweise gibt es ein mit entweder dies oder das, und dazu gibt es noch anstatt dass aapjes. Entweder bezahlen für die Schülung, oder später im Arsch gehen. Und das ist ein guter erster Schritt. Das weiß jedes Kind, aber nicht jeder hält sich daran. Das Schlimmste aber ist, dass noch heute versucht wird, zu mauscheln. Hier gibt es ein Satz. Hier gibt es noch ein Satz.' 
 
     sents, tokens = custom_tokenize(inp)
     cc.predict(sents)
@@ -143,9 +143,21 @@ if __name__ == '__main__':
     tokens = pickle.load(codecs.open('tokens_debug.pickle', 'rb'))
     relations = pickle.load(codecs.open('relations_debug.pickle', 'rb'))
 
+    """
+    newrels = isc.predict(relations, sents)
+    maxrelid = max([x.relationId for x in relations])
+    for nr in newrels:
+        r = Relation(maxrelid+1, 'Implicit', 'dummy')
+        maxrelid += 1
+        for t in nr[0]:
+            r.addExtArgToken(t)
+        for t in nr[1]:
+            r.addIntArgToken(t)
+        r.addSense(nr[2])
+        relations.append(r)
+    """
     
     # TODO:
-    # then implicits (predict)
     # then wrap in flask/dockerise, such that Olha can use it,
     # then evaluation...
                 
@@ -154,8 +166,8 @@ if __name__ == '__main__':
         print('relid:', rel.relationId)
         print('type:', rel.relationType)
         print('conns:', [x.token for x in rel.connective])
-        print('arg2:', [x.token for x in rel.arg2])
         print('arg1:', [x.token for x in rel.arg1])
+        print('arg2:', [x.token for x in rel.arg2])
         print('sense:', rel.sense)
         print()
     #"""
