@@ -217,9 +217,9 @@ class ConnectiveClassifier():
                             y_train.append(isConnective)
                 
 
-        # overwriting memory maps
-        pickle.dump(self.bertmap, codecs.open(os.path.join(os.getcwd(), 'bert_client_encodings.pickle'), 'wb'))
-        pickle.dump(self.parsermap, codecs.open(os.path.join(os.getcwd(), 'pcc_memorymap.pickle'), 'wb'))
+        # overwriting memory maps (commented out because the ones uploaded to github contain all training input)
+        #pickle.dump(self.bertmap, codecs.open(os.path.join(os.getcwd(), 'bert_client_encodings.pickle'), 'wb'))
+        #pickle.dump(self.parsermap, codecs.open(os.path.join(os.getcwd(), 'pcc_memorymap.pickle'), 'wb'))
         
         rf = RandomForestClassifier(class_weight='balanced', n_estimators=1000)
         mlp = MLPClassifier()
@@ -299,6 +299,7 @@ class ConnectiveClassifier():
         assert len(pred) == len(candidates)
 
         # overriding predictions with dimlex surefires:
+        # one way to speed this up would be to do surefire connectives first, so that they don't even have to be considered during prediction
         for index, item in enumerate(zip(pred, candidates)):
             if self.dimlextuples[tuple(x.token for x in item[1])]['surefire']:
                 pred[index] = 1

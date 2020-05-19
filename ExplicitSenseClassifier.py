@@ -148,9 +148,9 @@ class ExplicitSenseClassifier():
                     y_train.append(rel.sense)
                     self.conn2mostfrequent[tuple([x.token for x in rel.connectiveTokens])][rel.sense] += 1
 
-        # overwriting memory maps
-        pickle.dump(self.bertmap, codecs.open(os.path.join(os.getcwd(), 'bert_client_encodings.pickle'), 'wb'))
-        pickle.dump(self.parsermap, codecs.open(os.path.join(os.getcwd(), 'pcc_memorymap.pickle'), 'wb'))
+        # overwriting memory maps (commented out because the ones uploaded to github contain all training input)
+        #pickle.dump(self.bertmap, codecs.open(os.path.join(os.getcwd(), 'bert_client_encodings.pickle'), 'wb'))
+        #pickle.dump(self.parsermap, codecs.open(os.path.join(os.getcwd(), 'pcc_memorymap.pickle'), 'wb'))
         
         rf = RandomForestClassifier(class_weight='balanced', n_estimators=1000)
         mlp = MLPClassifier()
@@ -241,6 +241,7 @@ class ExplicitSenseClassifier():
         pred = self.le.inverse_transform(pred)
 
         # checking predicted sense with dimlex and overriding if not matching:
+        # one way to speed up this code is to take unambiguous sense conns from dimlex right away, without the prediction part
         for i, t in enumerate(zip(pred, candidates)):
             p, s = t
             if s in self.conn2senses:

@@ -14,24 +14,26 @@ import utils
 import ConnectiveClassifier
 import ExplicitArgumentExtractor
 import ExplicitSenseClassifier
+import ImplicitSenseClassifier
 
 nlp = German()
 sentencizer = nlp.create_pipe("sentencizer")
 nlp.add_pipe(sentencizer)
 
+"""
 class Parser:
 
     def __init__(self):
         # doing this in sub-modules now. Check back in later to see if there's a central solution
-        """
-        self.config = configparser.ConfigParser()
-        self.config.read('config.ini')
-        os.environ['JAVAHOME'] = self.config['lexparser']['javahome']
-        os.environ['STANFORD_PARSER'] = self.config['lexparser']['parserdir']
-        os.environ['STANFORD_MODELS'] = self.config['lexparser']['parserdir']
-        os.environ['CLASSPATH'] = '%s/stanford-parser.jar' % self.config['lexparser']['parserdir']
-        self.lexparser = stanford.StanfordParser(model_path='edu/stanford/nlp/models/lexparser/germanPCFG.ser.gz')
-        """
+        #self.config = configparser.ConfigParser()
+        #self.config.read('config.ini')
+        #os.environ['JAVAHOME'] = self.config['lexparser']['javahome']
+        #os.environ['STANFORD_PARSER'] = self.config['lexparser']['parserdir']
+        #os.environ['STANFORD_MODELS'] = self.config['lexparser']['parserdir']
+        #os.environ['CLASSPATH'] = '%s/stanford-parser.jar' % self.config['lexparser']['parserdir']
+        #self.lexparser = stanford.StanfordParser(model_path='edu/stanford/nlp/models/lexparser/germanPCFG.ser.gz')
+"""
+
 class Token:
 
     def __init__(self, token, sentenceId, sentenceTokenId):
@@ -96,11 +98,14 @@ if __name__ == '__main__':
     cc = ConnectiveClassifier.ConnectiveClassifier()
     eae = ExplicitArgumentExtractor.ExplicitArgumentExtractor()
     esc = ExplicitSenseClassifier.ExplicitSenseClassifier()
+    isc = ImplicitSenseClassifier.ImplicitSenseClassifier()
 
+    cc.train()
+    eae.train()
+    esc.train()
+    isc.train()
+    
     """
-    cc.train() # TODO: currently training on PCC only, allow setting to combine PCC+WN, or train on one of the two only (PCC and WN files should have the same format, so should be no problem)
-    eae.train() # training position classifiers for ext args
-
     inp = 'Wie schwierig es ist, in dieser Region einen Ausbildungsplatz zu finden, haben wir an dieser und anderer Stelle oft und ausführlich bewertet. Trotzdem bemühen sich Unternehmen sowie die Industrie- und Handelskammer Potsdam den Schulabgängern Wege in die Ausbildung aufzuzeigen. Und Beispielsweise gibt es ein mit entweder dies oder das, und dazu gibt es noch anstatt dass aapjes. Entweder bezahlen für die Schülung, oder später im Arsch gehen. Und das ist ein guter erster Schritt. Das weiß jedes Kind, aber nicht jeder hält sich daran. Das Schlimmste aber ist, dass noch heute versucht wird, zu mauscheln.' 
 
     sents, tokens = custom_tokenize(inp)
@@ -127,10 +132,7 @@ if __name__ == '__main__':
     pickle.dump(tokens, codecs.open('tokens_debug.pickle', 'wb'))
     pickle.dump(relations, codecs.open('relations_debug.pickle', 'wb'))
     """
-    #eae.train() # training position classifiers for ext args # TAKE THIS OUT AFTER DEV PHASE (ALREADY DONE ABOVE)
     #eae.predict(relations, sents, tokens)
-    
-    #esc.train() # MOVE THIS ON TOP AFTER DEV PHASE AS WELL
     #esc.predict(relations)
 
     #pickle.dump(sents, codecs.open('sents_debug.pickle', 'wb'))
@@ -140,8 +142,10 @@ if __name__ == '__main__':
     sents = pickle.load(codecs.open('sents_debug.pickle', 'rb'))
     tokens = pickle.load(codecs.open('tokens_debug.pickle', 'rb'))
     relations = pickle.load(codecs.open('relations_debug.pickle', 'rb'))
+
     
     # TODO:
+    # then implicits (predict)
     # then wrap in flask/dockerise, such that Olha can use it,
     # then evaluation...
                 
@@ -152,7 +156,7 @@ if __name__ == '__main__':
         print('conns:', [x.token for x in rel.connective])
         print('arg2:', [x.token for x in rel.arg2])
         print('arg1:', [x.token for x in rel.arg1])
-        print('sense.', rel.sense)
+        print('sense:', rel.sense)
         print()
     #"""
     

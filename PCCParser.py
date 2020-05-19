@@ -79,8 +79,17 @@ def parseConnectorFile(cxml):
             dr.filterIntArgForConnectiveTokens()
             relations.append(dr)
          
-        # TODO: other relation types here!
-        #elif relation.get('type') == 'implicit':
+        elif relation.get('type') == 'implicit':
+            dr = DiscourseRelation(relation.get('relation_id'))
+            dr.setSense(relation.get('pdtb3_sense'))
+            dr.setType(relation.get('type'))
+            for iat in relation.findall('.//int_arg_token'):
+                dr.addIntArgToken(tokens[int(iat.get('id'))])
+            for eat in relation.findall('.//ext_arg_token'):
+                dr.addExtArgToken(tokens[int(eat.get('id'))])
+            relations.append(dr)
+
+        # this is where this PCCParser should be continued if other relation types (AltLex, EntRel, NoRel) should also be included, i.e. elif relation.get('type') == 'AltLex':, etc.
 
     return tokens, relations
 
