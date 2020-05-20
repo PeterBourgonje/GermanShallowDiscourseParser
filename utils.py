@@ -37,6 +37,12 @@ def iscontinuous(l):
             return False
     return True
 
+def get_chunks(l):
+    l = sorted(set(l)) # to be sure; probably input is always sorted already though
+    gaps = [[s, e] for s, e in zip(l, l[1:]) if s+1 < e]
+    edges = iter(l[:1] + sum(gaps, []) + l[-1:])
+    return list(zip(edges, edges))
+
 def getPathToRoot(ptree, route):
     if ptree.parent() == None:
         route.append(ptree.label())

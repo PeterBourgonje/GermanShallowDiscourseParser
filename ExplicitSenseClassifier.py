@@ -230,30 +230,30 @@ class ExplicitSenseClassifier():
             X_test_bert.append(bertfeats)
             candidates.append(tuple([x.token for x in rel.connective]))
 
-            
-        X_test = [X_test_bert, X_test_syn]
-        pred1 = numpy.asarray([clf.predict_proba(X) for clf, X in zip(self.clfs, X_test)])
-        pred2 = numpy.average(pred1, axis=0)
-        pred = numpy.argmax(pred2, axis=1)
+        if candidates:
+            X_test = [X_test_bert, X_test_syn]
+            pred1 = numpy.asarray([clf.predict_proba(X) for clf, X in zip(self.clfs, X_test)])
+            pred2 = numpy.average(pred1, axis=0)
+            pred = numpy.argmax(pred2, axis=1)
 
-        assert len(pred) == len(candidates)
+            assert len(pred) == len(candidates)
 
-        pred = self.le.inverse_transform(pred)
+            pred = self.le.inverse_transform(pred)
 
-        # checking predicted sense with dimlex and overriding if not matching:
-        # one way to speed up this code is to take unambiguous sense conns from dimlex right away, without the prediction part
-        for i, t in enumerate(zip(pred, candidates)):
-            p, s = t
-            if s in self.conn2senses:
-                if not p in self.conn2senses[s]:
-                    if len(self.conn2senses[s]) == 1:
-                        pred[i] = list(self.conn2senses[s])[0]
-                    else:
-                        if s in self.conn2mostfrequent:
-                            top = sorted(self.conn2mostfrequent[s].items(), key = lambda x: x[1], reverse=True)[0][0]
-                            pred[i] = top
+            # checking predicted sense with dimlex and overriding if not matching:
+            # one way to speed up this code is to take unambiguous sense conns from dimlex right away, without the prediction part
+            for i, t in enumerate(zip(pred, candidates)):
+                p, s = t
+                if s in self.conn2senses:
+                    if not p in self.conn2senses[s]:
+                        if len(self.conn2senses[s]) == 1:
+                            pred[i] = list(self.conn2senses[s])[0]
+                        else:
+                            if s in self.conn2mostfrequent:
+                                top = sorted(self.conn2mostfrequent[s].items(), key = lambda x: x[1], reverse=True)[0][0]
+                                pred[i] = top
 
-        for pair in zip(relations, pred):
-            rel, prediction = pair
-            rel.addSense(prediction)
+            for pair in zip(relations, pred):
+                rel, prediction = pair
+                rel.addSense(prediction)
             

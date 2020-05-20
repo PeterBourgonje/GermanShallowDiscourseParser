@@ -160,8 +160,6 @@ class ConnectiveClassifier():
             bs = BertServer(args)
             bs.start()
             """
-
-            #TODO: NOTE (IN DOCS) THAT BERT-CLIENT NEEDS TENSORFLOW==1.10
         
 
         connectivefiles = [x for x  in utils.listfolder(os.path.join(self.config['PCC']['pccdir'], 'connectives')) if re.search('/maz-\d+.xml', x)] # filtering out temp/hidden files that may be there
@@ -290,36 +288,38 @@ class ConnectiveClassifier():
                         candidates.append(tuple(lc))
                         X_test_syn.append(synfeats)
                         X_test_bert.append(bertfeats)
-
-        X_test = [X_test_syn, X_test_bert]
-        pred1 = numpy.asarray([clf.predict_proba(X) for clf, X in zip(self.clfs, X_test)])
-        pred2 = numpy.average(pred1, axis=0)
-        pred = numpy.argmax(pred2, axis=1)
-
-        assert len(pred) == len(candidates)
-
-        # overriding predictions with dimlex surefires:
-        # one way to speed this up would be to do surefire connectives first, so that they don't even have to be considered during prediction
-        for index, item in enumerate(zip(pred, candidates)):
-            if self.dimlextuples[tuple(x.token for x in item[1])]['surefire']:
-                pred[index] = 1
+                        
         
-        # filtering out submatches (for multiword connectives that also work stand-alone (anstatt dass/anstatt), we get multiple predictions; taking the longest version)
-        delpositions = []
-        for k in range(len(pred)):
-            for l in range(k+1, len(pred)):
-                k_indices = [x.tokenId for x in candidates[k]]
-                l_indices = [x.tokenId for x in candidates[l]]
-                if set(k_indices).intersection(set(l_indices)):
-                    if len(k_indices) > len(l_indices):
-                        delpositions.append(l)
-                    else:
-                        delpositions.append(k)
-        candidates = [x for i, x in enumerate(candidates) if not i in delpositions]
-        pred = [x for i, x in enumerate(pred) if not i in delpositions]
-        
-        for index, p in enumerate(pred):
-            if p == 1:
-                for x in candidates[index]:
-                    x.setConnective()
+        if candidates: # do not predict if input didn't contain a candidate
+            X_test = [X_test_syn, X_test_bert]
+            pred1 = numpy.asarray([clf.predict_proba(X) for clf, X in zip(self.clfs, X_test)])
+            pred2 = numpy.average(pred1, axis=0)
+            pred = numpy.argmax(pred2, axis=1)
+
+            assert len(pred) == len(candidates)
+
+            # overriding predictions with dimlex surefires:
+            # one way to speed this up would be to do surefire connectives first, so that they don't even have to be considered during prediction
+            for index, item in enumerate(zip(pred, candidates)):
+                if self.dimlextuples[tuple(x.token for x in item[1])]['surefire']:
+                    pred[index] = 1
+
+            # filtering out submatches (for multiword connectives that also work stand-alone (anstatt dass/anstatt), we get multiple predictions; taking the longest version)
+            delpositions = []
+            for k in range(len(pred)):
+                for l in range(k+1, len(pred)):
+                    k_indices = [x.tokenId for x in candidates[k]]
+                    l_indices = [x.tokenId for x in candidates[l]]
+                    if set(k_indices).intersection(set(l_indices)):
+                        if len(k_indices) > len(l_indices):
+                            delpositions.append(l)
+                        else:
+                            delpositions.append(k)
+            candidates = [x for i, x in enumerate(candidates) if not i in delpositions]
+            pred = [x for i, x in enumerate(pred) if not i in delpositions]
+
+            for index, p in enumerate(pred):
+                if p == 1:
+                    for x in candidates[index]:
+                        x.setConnective()
         
