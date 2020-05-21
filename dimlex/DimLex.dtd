@@ -1,0 +1,120 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT dimlex (entry)+>
+<!ATTLIST dimlex
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT entry (orths,ambiguity,focuspart,non_conn_reading,stts,syn+)>
+<!ATTLIST entry
+  xmlns CDATA #FIXED ''
+  id NMTOKEN #REQUIRED
+  word CDATA #REQUIRED>
+
+<!ELEMENT orths (orth)+>
+<!ATTLIST orths
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ambiguity (non_conn,sem_ambiguity)>
+<!ATTLIST ambiguity
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT focuspart (#PCDATA)>
+<!ATTLIST focuspart
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT non_conn_reading (#PCDATA|example)*>
+<!ATTLIST non_conn_reading
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT stts (example)*>
+<!ATTLIST stts
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT syn (cat,praep?,(integr|ordering)+,sem+)>
+<!ATTLIST syn
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT orth (part)+>
+<!ATTLIST orth
+  xmlns CDATA #FIXED ''
+  canonical CDATA #REQUIRED
+  onr NMTOKEN #REQUIRED
+  type NMTOKEN #REQUIRED>
+
+<!ELEMENT non_conn (#PCDATA)>
+<!ATTLIST non_conn
+  xmlns CDATA #FIXED ''
+  anno_N CDATA #IMPLIED
+  freq CDATA #IMPLIED>
+
+<!ELEMENT sem_ambiguity (#PCDATA)>
+<!ATTLIST sem_ambiguity
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cat (#PCDATA)>
+<!ATTLIST cat
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT praep (ante,post,circum,case+)>
+<!ATTLIST praep
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT integr EMPTY>
+<!ATTLIST integr
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
+
+<!ELEMENT ordering ((ante,post,insert)?,desintegr?)>
+<!ATTLIST ordering
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
+
+<!ELEMENT sem (pdtb3_relation)?>
+<!ATTLIST sem
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
+
+<!ELEMENT part (#PCDATA)>
+<!ATTLIST part
+  xmlns CDATA #FIXED ''
+  type NMTOKEN #REQUIRED>
+
+<!ELEMENT circum (#PCDATA)>
+<!ATTLIST circum
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT case (#PCDATA)>
+<!ATTLIST case
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
+
+<!ELEMENT insert (#PCDATA)>
+<!ATTLIST insert
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT desintegr (#PCDATA)>
+<!ATTLIST desintegr
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT pdtb3_relation EMPTY>
+<!ATTLIST pdtb3_relation
+  xmlns CDATA #FIXED ''
+  anno_N CDATA #REQUIRED
+  freq CDATA #REQUIRED
+  sense CDATA #REQUIRED>
+
+<!ELEMENT example (#PCDATA)>
+<!ATTLIST example
+  xmlns CDATA #FIXED ''
+  tfreq CDATA #IMPLIED
+  type NMTOKEN #IMPLIED>
+
+<!ELEMENT ante (#PCDATA)>
+<!ATTLIST ante
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
+
+<!ELEMENT post (#PCDATA)>
+<!ATTLIST post
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>

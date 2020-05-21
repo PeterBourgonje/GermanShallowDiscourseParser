@@ -1,0 +1,650 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Stadtkern</token>
+    <token id="2">aufwerten</token>
+    <token id="3">Im</token>
+    <token id="4">Streit</token>
+    <token id="5">zwischen</token>
+    <token id="6">der</token>
+    <token id="7">Stadt</token>
+    <token id="8">Wittstock</token>
+    <token id="9">und</token>
+    <token id="10">dem</token>
+    <token id="11">Landesstraßenbauamt</token>
+    <token id="12">Kyritz</token>
+    <token id="13">hat</token>
+    <token id="14">Bürgermeister</token>
+    <token id="15">Lutz</token>
+    <token id="16">Scheidemann</token>
+    <token id="17">einen</token>
+    <token id="18">klaren</token>
+    <token id="19">Sieg</token>
+    <token id="20">errungen</token>
+    <token id="21">.</token>
+    <token id="22">Wittstock</token>
+    <token id="23">wird</token>
+    <token id="24">in</token>
+    <token id="25">einigen</token>
+    <token id="26">Jahren</token>
+    <token id="27">frei</token>
+    <token id="28">von</token>
+    <token id="29">Lkw-Verkehr</token>
+    <token id="30">sein</token>
+    <token id="31">,</token>
+    <token id="32">eine</token>
+    <token id="33">Umgehung</token>
+    <token id="34">entlastet</token>
+    <token id="35">die</token>
+    <token id="36">Innenstadt</token>
+    <token id="37">.</token>
+    <token id="38">Klirrende</token>
+    <token id="39">Gläser</token>
+    <token id="40">in</token>
+    <token id="41">den</token>
+    <token id="42">Wohnzimmerschränken</token>
+    <token id="43">sind</token>
+    <token id="44">dann</token>
+    <token id="45">Geschichte</token>
+    <token id="46">.</token>
+    <token id="47">Wer</token>
+    <token id="48">sein</token>
+    <token id="49">Haus</token>
+    <token id="50">bereits</token>
+    <token id="51">saniert</token>
+    <token id="52">hat</token>
+    <token id="53">,</token>
+    <token id="54">muss</token>
+    <token id="55">auch</token>
+    <token id="56">nicht</token>
+    <token id="57">mehr</token>
+    <token id="58">befürchten</token>
+    <token id="59">,</token>
+    <token id="60">dass</token>
+    <token id="61">der</token>
+    <token id="62">Putz</token>
+    <token id="63">von</token>
+    <token id="64">der</token>
+    <token id="65">Fassade</token>
+    <token id="66">fällt</token>
+    <token id="67">.</token>
+    <token id="68">Mit</token>
+    <token id="69">der</token>
+    <token id="70">Einigung</token>
+    <token id="71">kommt</token>
+    <token id="72">aber</token>
+    <token id="73">auf</token>
+    <token id="74">die</token>
+    <token id="75">Wittstocker</token>
+    <token id="76">eine</token>
+    <token id="77">große</token>
+    <token id="78">Herausforderung</token>
+    <token id="79">zu</token>
+    <token id="80">.</token>
+    <token id="81">Sie</token>
+    <token id="82">sind</token>
+    <token id="83">aufgefordert</token>
+    <token id="84">,</token>
+    <token id="85">über</token>
+    <token id="86">neue</token>
+    <token id="87">,</token>
+    <token id="88">sinnvolle</token>
+    <token id="89">Verkehrsabläufe</token>
+    <token id="90">in</token>
+    <token id="91">der</token>
+    <token id="92">Innenstadt</token>
+    <token id="93">nachzudenken</token>
+    <token id="94">.</token>
+    <token id="95">Die</token>
+    <token id="96">Entlastungsstraße</token>
+    <token id="97">für</token>
+    <token id="98">Lkw</token>
+    <token id="99">führt</token>
+    <token id="100">zwar</token>
+    <token id="101">um</token>
+    <token id="102">die</token>
+    <token id="103">Altstadt</token>
+    <token id="104">herum</token>
+    <token id="105">,</token>
+    <token id="106">doch</token>
+    <token id="107">eine</token>
+    <token id="108">autofreie</token>
+    <token id="109">Stadt</token>
+    <token id="110">wird</token>
+    <token id="111">es</token>
+    <token id="112">nicht</token>
+    <token id="113">geben</token>
+    <token id="114">.</token>
+    <token id="115">So</token>
+    <token id="116">braucht</token>
+    <token id="117">sich</token>
+    <token id="118">auch</token>
+    <token id="119">kein</token>
+    <token id="120">Geschäftsmann</token>
+    <token id="121">vor</token>
+    <token id="122">einer</token>
+    <token id="123">leeren</token>
+    <token id="124">Altstadt</token>
+    <token id="125">zu</token>
+    <token id="126">fürchten</token>
+    <token id="127">.</token>
+    <token id="128">Gut</token>
+    <token id="129">beraten</token>
+    <token id="130">ist</token>
+    <token id="131">allerdings</token>
+    <token id="132">,</token>
+    <token id="133">wer</token>
+    <token id="134">sich</token>
+    <token id="135">jetzt</token>
+    <token id="136">ernsthafte</token>
+    <token id="137">Gedanken</token>
+    <token id="138">um</token>
+    <token id="139">kundenfreundliche</token>
+    <token id="140">Parkmöglichkeiten</token>
+    <token id="141">macht</token>
+    <token id="142">.</token>
+    <token id="143">Auch</token>
+    <token id="144">Flaniermeilen</token>
+    <token id="145">in</token>
+    <token id="146">der</token>
+    <token id="147">Wittstocker</token>
+    <token id="148">Altstadt</token>
+    <token id="149">sind</token>
+    <token id="150">gefragt</token>
+    <token id="151">.</token>
+    <token id="152">Denn</token>
+    <token id="153">ohne</token>
+    <token id="154">Lkw-Verkehr</token>
+    <token id="155">wird</token>
+    <token id="156">es</token>
+    <token id="157">ruhiger</token>
+    <token id="158">werden</token>
+    <token id="159">,</token>
+    <token id="160">der</token>
+    <token id="161">Stadtbummel</token>
+    <token id="162">kann</token>
+    <token id="163">wieder</token>
+    <token id="164">Spaß</token>
+    <token id="165">machen</token>
+    <token id="166">.</token>
+    <token id="167">Deshalb</token>
+    <token id="168">müssen</token>
+    <token id="169">neue</token>
+    <token id="170">Ideen</token>
+    <token id="171">her</token>
+    <token id="172">,</token>
+    <token id="173">um</token>
+    <token id="174">die</token>
+    <token id="175">Wittstocker</token>
+    <token id="176">Altstadt</token>
+    <token id="177">lebenswerter</token>
+    <token id="178">zu</token>
+    <token id="179">machen</token>
+    <token id="180">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="3" pdtb3_sense="Temporal.Asynchronous.Precedence" type="explicit">
+      <connective_tokens>
+        <connective_token id="44" token="dann"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="22" token="Wittstock"/>
+        <ext_arg_token id="23" token="wird"/>
+        <ext_arg_token id="24" token="in"/>
+        <ext_arg_token id="25" token="einigen"/>
+        <ext_arg_token id="26" token="Jahren"/>
+        <ext_arg_token id="27" token="frei"/>
+        <ext_arg_token id="28" token="von"/>
+        <ext_arg_token id="29" token="Lkw-Verkehr"/>
+        <ext_arg_token id="30" token="sein"/>
+        <ext_arg_token id="31" token=","/>
+        <ext_arg_token id="32" token="eine"/>
+        <ext_arg_token id="33" token="Umgehung"/>
+        <ext_arg_token id="34" token="entlastet"/>
+        <ext_arg_token id="35" token="die"/>
+        <ext_arg_token id="36" token="Innenstadt"/>
+        <ext_arg_token id="37" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="38" token="Klirrende"/>
+        <int_arg_token id="39" token="Gläser"/>
+        <int_arg_token id="40" token="in"/>
+        <int_arg_token id="41" token="den"/>
+        <int_arg_token id="42" token="Wohnzimmerschränken"/>
+        <int_arg_token id="43" token="sind"/>
+        <int_arg_token id="45" token="Geschichte"/>
+        <int_arg_token id="46" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="55" token="auch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="38" token="Klirrende"/>
+        <ext_arg_token id="39" token="Gläser"/>
+        <ext_arg_token id="40" token="in"/>
+        <ext_arg_token id="41" token="den"/>
+        <ext_arg_token id="42" token="Wohnzimmerschränken"/>
+        <ext_arg_token id="43" token="sind"/>
+        <ext_arg_token id="44" token="dann"/>
+        <ext_arg_token id="45" token="Geschichte"/>
+        <ext_arg_token id="46" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="47" token="Wer"/>
+        <int_arg_token id="48" token="sein"/>
+        <int_arg_token id="49" token="Haus"/>
+        <int_arg_token id="50" token="bereits"/>
+        <int_arg_token id="51" token="saniert"/>
+        <int_arg_token id="52" token="hat"/>
+        <int_arg_token id="53" token=","/>
+        <int_arg_token id="54" token="muss"/>
+        <int_arg_token id="56" token="nicht"/>
+        <int_arg_token id="57" token="mehr"/>
+        <int_arg_token id="58" token="befürchten"/>
+        <int_arg_token id="59" token=","/>
+        <int_arg_token id="60" token="dass"/>
+        <int_arg_token id="61" token="der"/>
+        <int_arg_token id="62" token="Putz"/>
+        <int_arg_token id="63" token="von"/>
+        <int_arg_token id="64" token="der"/>
+        <int_arg_token id="65" token="Fassade"/>
+        <int_arg_token id="66" token="fällt"/>
+        <int_arg_token id="67" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="72" token="aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="21" token="."/>
+        <ext_arg_token id="22" token="Wittstock"/>
+        <ext_arg_token id="23" token="wird"/>
+        <ext_arg_token id="24" token="in"/>
+        <ext_arg_token id="25" token="einigen"/>
+        <ext_arg_token id="26" token="Jahren"/>
+        <ext_arg_token id="27" token="frei"/>
+        <ext_arg_token id="28" token="von"/>
+        <ext_arg_token id="29" token="Lkw-Verkehr"/>
+        <ext_arg_token id="30" token="sein"/>
+        <ext_arg_token id="31" token=","/>
+        <ext_arg_token id="32" token="eine"/>
+        <ext_arg_token id="33" token="Umgehung"/>
+        <ext_arg_token id="34" token="entlastet"/>
+        <ext_arg_token id="35" token="die"/>
+        <ext_arg_token id="36" token="Innenstadt"/>
+        <ext_arg_token id="37" token="."/>
+        <ext_arg_token id="38" token="Klirrende"/>
+        <ext_arg_token id="39" token="Gläser"/>
+        <ext_arg_token id="40" token="in"/>
+        <ext_arg_token id="41" token="den"/>
+        <ext_arg_token id="42" token="Wohnzimmerschränken"/>
+        <ext_arg_token id="43" token="sind"/>
+        <ext_arg_token id="44" token="dann"/>
+        <ext_arg_token id="45" token="Geschichte"/>
+        <ext_arg_token id="46" token="."/>
+        <ext_arg_token id="47" token="Wer"/>
+        <ext_arg_token id="48" token="sein"/>
+        <ext_arg_token id="49" token="Haus"/>
+        <ext_arg_token id="50" token="bereits"/>
+        <ext_arg_token id="51" token="saniert"/>
+        <ext_arg_token id="52" token="hat"/>
+        <ext_arg_token id="53" token=","/>
+        <ext_arg_token id="54" token="muss"/>
+        <ext_arg_token id="55" token="auch"/>
+        <ext_arg_token id="56" token="nicht"/>
+        <ext_arg_token id="57" token="mehr"/>
+        <ext_arg_token id="58" token="befürchten"/>
+        <ext_arg_token id="59" token=","/>
+        <ext_arg_token id="60" token="dass"/>
+        <ext_arg_token id="61" token="der"/>
+        <ext_arg_token id="62" token="Putz"/>
+        <ext_arg_token id="63" token="von"/>
+        <ext_arg_token id="64" token="der"/>
+        <ext_arg_token id="65" token="Fassade"/>
+        <ext_arg_token id="66" token="fällt"/>
+        <ext_arg_token id="67" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="68" token="Mit"/>
+        <int_arg_token id="69" token="der"/>
+        <int_arg_token id="70" token="Einigung"/>
+        <int_arg_token id="71" token="kommt"/>
+        <int_arg_token id="73" token="auf"/>
+        <int_arg_token id="74" token="die"/>
+        <int_arg_token id="75" token="Wittstocker"/>
+        <int_arg_token id="76" token="eine"/>
+        <int_arg_token id="77" token="große"/>
+        <int_arg_token id="78" token="Herausforderung"/>
+        <int_arg_token id="79" token="zu"/>
+        <int_arg_token id="80" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Comparison.Concession.Arg1-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="100" token="zwar"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="95" token="Die"/>
+        <int_arg_token id="96" token="Entlastungsstraße"/>
+        <int_arg_token id="97" token="für"/>
+        <int_arg_token id="98" token="Lkw"/>
+        <int_arg_token id="99" token="führt"/>
+        <int_arg_token id="101" token="um"/>
+        <int_arg_token id="102" token="die"/>
+        <int_arg_token id="103" token="Altstadt"/>
+        <int_arg_token id="104" token="herum"/>
+        <int_arg_token id="105" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="106" token="doch"/>
+        <ext_arg_token id="107" token="eine"/>
+        <ext_arg_token id="108" token="autofreie"/>
+        <ext_arg_token id="109" token="Stadt"/>
+        <ext_arg_token id="110" token="wird"/>
+        <ext_arg_token id="111" token="es"/>
+        <ext_arg_token id="112" token="nicht"/>
+        <ext_arg_token id="113" token="geben"/>
+        <ext_arg_token id="114" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="106" token="doch"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="107" token="eine"/>
+        <int_arg_token id="108" token="autofreie"/>
+        <int_arg_token id="109" token="Stadt"/>
+        <int_arg_token id="110" token="wird"/>
+        <int_arg_token id="111" token="es"/>
+        <int_arg_token id="112" token="nicht"/>
+        <int_arg_token id="113" token="geben"/>
+        <int_arg_token id="114" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="95" token="Die"/>
+        <ext_arg_token id="96" token="Entlastungsstraße"/>
+        <ext_arg_token id="97" token="für"/>
+        <ext_arg_token id="98" token="Lkw"/>
+        <ext_arg_token id="99" token="führt"/>
+        <ext_arg_token id="100" token="zwar"/>
+        <ext_arg_token id="101" token="um"/>
+        <ext_arg_token id="102" token="die"/>
+        <ext_arg_token id="103" token="Altstadt"/>
+        <ext_arg_token id="104" token="herum"/>
+        <ext_arg_token id="105" token=","/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Contingency.Purpose.Arg2-as-goal" type="explicit">
+      <connective_tokens>
+        <connective_token id="115" token="So"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="95" token="Die"/>
+        <ext_arg_token id="96" token="Entlastungsstraße"/>
+        <ext_arg_token id="97" token="für"/>
+        <ext_arg_token id="98" token="Lkw"/>
+        <ext_arg_token id="99" token="führt"/>
+        <ext_arg_token id="100" token="zwar"/>
+        <ext_arg_token id="101" token="um"/>
+        <ext_arg_token id="102" token="die"/>
+        <ext_arg_token id="103" token="Altstadt"/>
+        <ext_arg_token id="104" token="herum"/>
+        <ext_arg_token id="105" token=","/>
+        <ext_arg_token id="106" token="doch"/>
+        <ext_arg_token id="107" token="eine"/>
+        <ext_arg_token id="108" token="autofreie"/>
+        <ext_arg_token id="109" token="Stadt"/>
+        <ext_arg_token id="110" token="wird"/>
+        <ext_arg_token id="111" token="es"/>
+        <ext_arg_token id="112" token="nicht"/>
+        <ext_arg_token id="113" token="geben"/>
+        <ext_arg_token id="114" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="116" token="braucht"/>
+        <int_arg_token id="117" token="sich"/>
+        <int_arg_token id="118" token="auch"/>
+        <int_arg_token id="119" token="kein"/>
+        <int_arg_token id="120" token="Geschäftsmann"/>
+        <int_arg_token id="121" token="vor"/>
+        <int_arg_token id="122" token="einer"/>
+        <int_arg_token id="123" token="leeren"/>
+        <int_arg_token id="124" token="Altstadt"/>
+        <int_arg_token id="125" token="zu"/>
+        <int_arg_token id="126" token="fürchten"/>
+        <int_arg_token id="127" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Comparison.Contrast" type="explicit">
+      <connective_tokens>
+        <connective_token id="131" token="allerdings"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="115" token="So"/>
+        <ext_arg_token id="116" token="braucht"/>
+        <ext_arg_token id="117" token="sich"/>
+        <ext_arg_token id="118" token="auch"/>
+        <ext_arg_token id="119" token="kein"/>
+        <ext_arg_token id="120" token="Geschäftsmann"/>
+        <ext_arg_token id="121" token="vor"/>
+        <ext_arg_token id="122" token="einer"/>
+        <ext_arg_token id="123" token="leeren"/>
+        <ext_arg_token id="124" token="Altstadt"/>
+        <ext_arg_token id="125" token="zu"/>
+        <ext_arg_token id="126" token="fürchten"/>
+        <ext_arg_token id="127" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="128" token="Gut"/>
+        <int_arg_token id="129" token="beraten"/>
+        <int_arg_token id="130" token="ist"/>
+        <int_arg_token id="132" token=","/>
+        <int_arg_token id="133" token="wer"/>
+        <int_arg_token id="134" token="sich"/>
+        <int_arg_token id="135" token="jetzt"/>
+        <int_arg_token id="136" token="ernsthafte"/>
+        <int_arg_token id="137" token="Gedanken"/>
+        <int_arg_token id="138" token="um"/>
+        <int_arg_token id="139" token="kundenfreundliche"/>
+        <int_arg_token id="140" token="Parkmöglichkeiten"/>
+        <int_arg_token id="141" token="macht"/>
+        <int_arg_token id="142" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="152" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="143" token="Auch"/>
+        <ext_arg_token id="144" token="Flaniermeilen"/>
+        <ext_arg_token id="145" token="in"/>
+        <ext_arg_token id="146" token="der"/>
+        <ext_arg_token id="147" token="Wittstocker"/>
+        <ext_arg_token id="148" token="Altstadt"/>
+        <ext_arg_token id="149" token="sind"/>
+        <ext_arg_token id="150" token="gefragt"/>
+        <ext_arg_token id="151" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="153" token="ohne"/>
+        <int_arg_token id="154" token="Lkw-Verkehr"/>
+        <int_arg_token id="155" token="wird"/>
+        <int_arg_token id="156" token="es"/>
+        <int_arg_token id="157" token="ruhiger"/>
+        <int_arg_token id="158" token="werden"/>
+        <int_arg_token id="159" token=","/>
+        <int_arg_token id="160" token="der"/>
+        <int_arg_token id="161" token="Stadtbummel"/>
+        <int_arg_token id="162" token="kann"/>
+        <int_arg_token id="163" token="wieder"/>
+        <int_arg_token id="164" token="Spaß"/>
+        <int_arg_token id="165" token="machen"/>
+        <int_arg_token id="166" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="167" token="Deshalb"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="143" token="Auch"/>
+        <ext_arg_token id="144" token="Flaniermeilen"/>
+        <ext_arg_token id="145" token="in"/>
+        <ext_arg_token id="146" token="der"/>
+        <ext_arg_token id="147" token="Wittstocker"/>
+        <ext_arg_token id="148" token="Altstadt"/>
+        <ext_arg_token id="149" token="sind"/>
+        <ext_arg_token id="150" token="gefragt"/>
+        <ext_arg_token id="151" token="."/>
+        <ext_arg_token id="152" token="Denn"/>
+        <ext_arg_token id="153" token="ohne"/>
+        <ext_arg_token id="154" token="Lkw-Verkehr"/>
+        <ext_arg_token id="155" token="wird"/>
+        <ext_arg_token id="156" token="es"/>
+        <ext_arg_token id="157" token="ruhiger"/>
+        <ext_arg_token id="158" token="werden"/>
+        <ext_arg_token id="159" token=","/>
+        <ext_arg_token id="160" token="der"/>
+        <ext_arg_token id="161" token="Stadtbummel"/>
+        <ext_arg_token id="162" token="kann"/>
+        <ext_arg_token id="163" token="wieder"/>
+        <ext_arg_token id="164" token="Spaß"/>
+        <ext_arg_token id="165" token="machen"/>
+        <ext_arg_token id="166" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="168" token="müssen"/>
+        <int_arg_token id="169" token="neue"/>
+        <int_arg_token id="170" token="Ideen"/>
+        <int_arg_token id="171" token="her"/>
+        <int_arg_token id="172" token=","/>
+        <int_arg_token id="173" token="um"/>
+        <int_arg_token id="174" token="die"/>
+        <int_arg_token id="175" token="Wittstocker"/>
+        <int_arg_token id="176" token="Altstadt"/>
+        <int_arg_token id="177" token="lebenswerter"/>
+        <int_arg_token id="178" token="zu"/>
+        <int_arg_token id="179" token="machen"/>
+        <int_arg_token id="180" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>nämlich</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="68" token="Mit"/>
+        <ext_arg_token id="69" token="der"/>
+        <ext_arg_token id="70" token="Einigung"/>
+        <ext_arg_token id="71" token="kommt"/>
+        <ext_arg_token id="72" token="aber"/>
+        <ext_arg_token id="73" token="auf"/>
+        <ext_arg_token id="74" token="die"/>
+        <ext_arg_token id="75" token="Wittstocker"/>
+        <ext_arg_token id="76" token="eine"/>
+        <ext_arg_token id="77" token="große"/>
+        <ext_arg_token id="78" token="Herausforderung"/>
+        <ext_arg_token id="79" token="zu"/>
+        <ext_arg_token id="80" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="81" token="Sie"/>
+        <int_arg_token id="82" token="sind"/>
+        <int_arg_token id="83" token="aufgefordert"/>
+        <int_arg_token id="84" token=","/>
+        <int_arg_token id="85" token="über"/>
+        <int_arg_token id="86" token="neue"/>
+        <int_arg_token id="87" token=","/>
+        <int_arg_token id="88" token="sinnvolle"/>
+        <int_arg_token id="89" token="Verkehrsabläufe"/>
+        <int_arg_token id="90" token="in"/>
+        <int_arg_token id="91" token="der"/>
+        <int_arg_token id="92" token="Innenstadt"/>
+        <int_arg_token id="93" token="nachzudenken"/>
+        <int_arg_token id="94" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="81" token="Sie"/>
+        <ext_arg_token id="82" token="sind"/>
+        <ext_arg_token id="83" token="aufgefordert"/>
+        <ext_arg_token id="84" token=","/>
+        <ext_arg_token id="85" token="über"/>
+        <ext_arg_token id="86" token="neue"/>
+        <ext_arg_token id="87" token=","/>
+        <ext_arg_token id="88" token="sinnvolle"/>
+        <ext_arg_token id="89" token="Verkehrsabläufe"/>
+        <ext_arg_token id="90" token="in"/>
+        <ext_arg_token id="91" token="der"/>
+        <ext_arg_token id="92" token="Innenstadt"/>
+        <ext_arg_token id="93" token="nachzudenken"/>
+        <ext_arg_token id="94" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="95" token="Die"/>
+        <int_arg_token id="96" token="Entlastungsstraße"/>
+        <int_arg_token id="97" token="für"/>
+        <int_arg_token id="98" token="Lkw"/>
+        <int_arg_token id="99" token="führt"/>
+        <int_arg_token id="100" token="zwar"/>
+        <int_arg_token id="101" token="um"/>
+        <int_arg_token id="102" token="die"/>
+        <int_arg_token id="103" token="Altstadt"/>
+        <int_arg_token id="104" token="herum"/>
+        <int_arg_token id="105" token=","/>
+        <int_arg_token id="106" token="doch"/>
+        <int_arg_token id="107" token="eine"/>
+        <int_arg_token id="108" token="autofreie"/>
+        <int_arg_token id="109" token="Stadt"/>
+        <int_arg_token id="110" token="wird"/>
+        <int_arg_token id="111" token="es"/>
+        <int_arg_token id="112" token="nicht"/>
+        <int_arg_token id="113" token="geben"/>
+        <int_arg_token id="114" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="128" token="Gut"/>
+        <ext_arg_token id="129" token="beraten"/>
+        <ext_arg_token id="130" token="ist"/>
+        <ext_arg_token id="131" token="allerdings"/>
+        <ext_arg_token id="132" token=","/>
+        <ext_arg_token id="133" token="wer"/>
+        <ext_arg_token id="134" token="sich"/>
+        <ext_arg_token id="135" token="jetzt"/>
+        <ext_arg_token id="136" token="ernsthafte"/>
+        <ext_arg_token id="137" token="Gedanken"/>
+        <ext_arg_token id="138" token="um"/>
+        <ext_arg_token id="139" token="kundenfreundliche"/>
+        <ext_arg_token id="140" token="Parkmöglichkeiten"/>
+        <ext_arg_token id="141" token="macht"/>
+        <ext_arg_token id="142" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="143" token="Auch"/>
+        <int_arg_token id="144" token="Flaniermeilen"/>
+        <int_arg_token id="145" token="in"/>
+        <int_arg_token id="146" token="der"/>
+        <int_arg_token id="147" token="Wittstocker"/>
+        <int_arg_token id="148" token="Altstadt"/>
+        <int_arg_token id="149" token="sind"/>
+        <int_arg_token id="150" token="gefragt"/>
+        <int_arg_token id="151" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

@@ -1,0 +1,680 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">In</token>
+    <token id="2">Sorge</token>
+    <token id="3">Schon</token>
+    <token id="4">machen</token>
+    <token id="5">die</token>
+    <token id="6">ersten</token>
+    <token id="7">Witze</token>
+    <token id="8">die</token>
+    <token id="9">Runde</token>
+    <token id="10">.</token>
+    <token id="11">Darin</token>
+    <token id="12">kommt</token>
+    <token id="13">weißes</token>
+    <token id="14">Pulver</token>
+    <token id="15">vor</token>
+    <token id="16">.</token>
+    <token id="17">Makabres</token>
+    <token id="18">wird</token>
+    <token id="19">immer</token>
+    <token id="20">aus</token>
+    <token id="21">todernster</token>
+    <token id="22">Wirklichkeit</token>
+    <token id="23">geboren</token>
+    <token id="24">.</token>
+    <token id="25">Es</token>
+    <token id="26">hat</token>
+    <token id="27">wieder</token>
+    <token id="28">den</token>
+    <token id="29">Anschein</token>
+    <token id="30">,</token>
+    <token id="31">als</token>
+    <token id="32">würden</token>
+    <token id="33">Menschen</token>
+    <token id="34">nur</token>
+    <token id="35">galgenhumorig</token>
+    <token id="36">Tatsachen</token>
+    <token id="37">ins</token>
+    <token id="38">Auge</token>
+    <token id="39">sehen</token>
+    <token id="40">können</token>
+    <token id="41">,</token>
+    <token id="42">denen</token>
+    <token id="43">sie</token>
+    <token id="44">machtlos</token>
+    <token id="45">ausgeliefert</token>
+    <token id="46">sind</token>
+    <token id="47">.</token>
+    <token id="48">Jetzt</token>
+    <token id="49">haben</token>
+    <token id="50">sich</token>
+    <token id="51">auch</token>
+    <token id="52">die</token>
+    <token id="53">Verantwortlichen</token>
+    <token id="54">des</token>
+    <token id="55">Landkreises</token>
+    <token id="56">mit</token>
+    <token id="57">der</token>
+    <token id="58">Weltlage</token>
+    <token id="59">beschäftigen</token>
+    <token id="60">müssen</token>
+    <token id="61">.</token>
+    <token id="62">Der</token>
+    <token id="63">zuständige</token>
+    <token id="64">Stab</token>
+    <token id="65">kennt</token>
+    <token id="66">Gefahrenlagen</token>
+    <token id="67">,</token>
+    <token id="68">die</token>
+    <token id="69">von</token>
+    <token id="70">schweren</token>
+    <token id="71">Unglücken</token>
+    <token id="72">ausgehen</token>
+    <token id="73">können</token>
+    <token id="74">,</token>
+    <token id="75">zum</token>
+    <token id="76">Beispiel</token>
+    <token id="77">mit</token>
+    <token id="78">Zügen</token>
+    <token id="79">.</token>
+    <token id="80">Auf</token>
+    <token id="81">dem</token>
+    <token id="82">Bahnhof</token>
+    <token id="83">Neustadt</token>
+    <token id="84">hat</token>
+    <token id="85">man</token>
+    <token id="86">schon</token>
+    <token id="87">mehrfach</token>
+    <token id="88">Szenarien</token>
+    <token id="89">durchgespielt</token>
+    <token id="90">und</token>
+    <token id="91">Gegenmaßnahmen</token>
+    <token id="92">geprobt</token>
+    <token id="93">.</token>
+    <token id="94">Das</token>
+    <token id="95">reicht</token>
+    <token id="96">nicht</token>
+    <token id="97">mehr</token>
+    <token id="98">aus</token>
+    <token id="99">.</token>
+    <token id="100">Und</token>
+    <token id="101">so</token>
+    <token id="102">muss</token>
+    <token id="103">Landrat</token>
+    <token id="104">Christian</token>
+    <token id="105">Gilde</token>
+    <token id="106">jetzt</token>
+    <token id="107">eine</token>
+    <token id="108">gewisse</token>
+    <token id="109">Hilflosigkeit</token>
+    <token id="110">erkennen</token>
+    <token id="111">lassen</token>
+    <token id="112">,</token>
+    <token id="113">was</token>
+    <token id="114">das</token>
+    <token id="115">Reagieren</token>
+    <token id="116">auf</token>
+    <token id="117">möglichen</token>
+    <token id="118">Terror</token>
+    <token id="119">und</token>
+    <token id="120">seine</token>
+    <token id="121">Folgen</token>
+    <token id="122">angeht</token>
+    <token id="123">.</token>
+    <token id="124">Da</token>
+    <token id="125">ist</token>
+    <token id="126">nichts</token>
+    <token id="127">vorzuwerfen</token>
+    <token id="128">.</token>
+    <token id="129">Niemand</token>
+    <token id="130">hat</token>
+    <token id="131">verschlampt</token>
+    <token id="132">,</token>
+    <token id="133">was</token>
+    <token id="134">er</token>
+    <token id="135">besser</token>
+    <token id="136">hätte</token>
+    <token id="137">vorbereiten</token>
+    <token id="138">sollen</token>
+    <token id="139">.</token>
+    <token id="140">Keiner</token>
+    <token id="141">hat</token>
+    <token id="142">sich</token>
+    <token id="143">schließlich</token>
+    <token id="144">vor</token>
+    <token id="145">dem</token>
+    <token id="146">11.</token>
+    <token id="147">September</token>
+    <token id="148">vorstellen</token>
+    <token id="149">können</token>
+    <token id="150">,</token>
+    <token id="151">wozu</token>
+    <token id="152">Menschen</token>
+    <token id="153">,</token>
+    <token id="154">von</token>
+    <token id="155">Fanatismus</token>
+    <token id="156">getrieben</token>
+    <token id="157">,</token>
+    <token id="158">fähig</token>
+    <token id="159">sind</token>
+    <token id="160">.</token>
+    <token id="161">Nun</token>
+    <token id="162">wird</token>
+    <token id="163">der</token>
+    <token id="164">Katastrophenschutz</token>
+    <token id="165">einen</token>
+    <token id="166">neuen</token>
+    <token id="167">Stellenwert</token>
+    <token id="168">bekommen</token>
+    <token id="169">.</token>
+    <token id="170">Der</token>
+    <token id="171">Landkreis</token>
+    <token id="172">und</token>
+    <token id="173">die</token>
+    <token id="174">Kommunen</token>
+    <token id="175">,</token>
+    <token id="176">vordergründig</token>
+    <token id="177">bedroht</token>
+    <token id="178">oder</token>
+    <token id="179">einfach</token>
+    <token id="180">nur</token>
+    <token id="181">in</token>
+    <token id="182">verständlicher</token>
+    <token id="183">Sorge</token>
+    <token id="184">,</token>
+    <token id="185">sind</token>
+    <token id="186">auf</token>
+    <token id="187">Hilfe</token>
+    <token id="188">angewiesen</token>
+    <token id="189">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="3" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="explicit">
+      <connective_tokens>
+        <connective_token id="75" token="zum"/>
+        <connective_token id="76" token="Beispiel"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="62" token="Der"/>
+        <ext_arg_token id="63" token="zuständige"/>
+        <ext_arg_token id="64" token="Stab"/>
+        <ext_arg_token id="65" token="kennt"/>
+        <ext_arg_token id="66" token="Gefahrenlagen"/>
+        <ext_arg_token id="67" token=","/>
+        <ext_arg_token id="68" token="die"/>
+        <ext_arg_token id="69" token="von"/>
+        <ext_arg_token id="70" token="schweren"/>
+        <ext_arg_token id="71" token="Unglücken"/>
+        <ext_arg_token id="72" token="ausgehen"/>
+        <ext_arg_token id="73" token="können"/>
+        <ext_arg_token id="74" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="77" token="mit"/>
+        <int_arg_token id="78" token="Zügen"/>
+        <int_arg_token id="79" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="101" token="so"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="94" token="Das"/>
+        <ext_arg_token id="95" token="reicht"/>
+        <ext_arg_token id="96" token="nicht"/>
+        <ext_arg_token id="97" token="mehr"/>
+        <ext_arg_token id="98" token="aus"/>
+        <ext_arg_token id="99" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="100" token="Und"/>
+        <int_arg_token id="102" token="muss"/>
+        <int_arg_token id="103" token="Landrat"/>
+        <int_arg_token id="104" token="Christian"/>
+        <int_arg_token id="105" token="Gilde"/>
+        <int_arg_token id="106" token="jetzt"/>
+        <int_arg_token id="107" token="eine"/>
+        <int_arg_token id="108" token="gewisse"/>
+        <int_arg_token id="109" token="Hilflosigkeit"/>
+        <int_arg_token id="110" token="erkennen"/>
+        <int_arg_token id="111" token="lassen"/>
+        <int_arg_token id="112" token=","/>
+        <int_arg_token id="113" token="was"/>
+        <int_arg_token id="114" token="das"/>
+        <int_arg_token id="115" token="Reagieren"/>
+        <int_arg_token id="116" token="auf"/>
+        <int_arg_token id="117" token="möglichen"/>
+        <int_arg_token id="118" token="Terror"/>
+        <int_arg_token id="119" token="und"/>
+        <int_arg_token id="120" token="seine"/>
+        <int_arg_token id="121" token="Folgen"/>
+        <int_arg_token id="122" token="angeht"/>
+        <int_arg_token id="123" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Expansion.Disjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="178" token="oder"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="176" token="vordergründig"/>
+        <ext_arg_token id="177" token="bedroht"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="179" token="einfach"/>
+        <int_arg_token id="180" token="nur"/>
+        <int_arg_token id="181" token="in"/>
+        <int_arg_token id="182" token="verständlicher"/>
+        <int_arg_token id="183" token="Sorge"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="90" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="86" token="schon"/>
+        <ext_arg_token id="87" token="mehrfach"/>
+        <ext_arg_token id="88" token="Szenarien"/>
+        <ext_arg_token id="89" token="durchgespielt"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="91" token="Gegenmaßnahmen"/>
+        <int_arg_token id="92" token="geprobt"/>
+        <int_arg_token id="93" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="100" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="94" token="Das"/>
+        <ext_arg_token id="95" token="reicht"/>
+        <ext_arg_token id="96" token="nicht"/>
+        <ext_arg_token id="97" token="mehr"/>
+        <ext_arg_token id="98" token="aus"/>
+        <ext_arg_token id="99" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="101" token="so"/>
+        <int_arg_token id="102" token="muss"/>
+        <int_arg_token id="103" token="Landrat"/>
+        <int_arg_token id="104" token="Christian"/>
+        <int_arg_token id="105" token="Gilde"/>
+        <int_arg_token id="106" token="jetzt"/>
+        <int_arg_token id="107" token="eine"/>
+        <int_arg_token id="108" token="gewisse"/>
+        <int_arg_token id="109" token="Hilflosigkeit"/>
+        <int_arg_token id="110" token="erkennen"/>
+        <int_arg_token id="111" token="lassen"/>
+        <int_arg_token id="112" token=","/>
+        <int_arg_token id="113" token="was"/>
+        <int_arg_token id="114" token="das"/>
+        <int_arg_token id="115" token="Reagieren"/>
+        <int_arg_token id="116" token="auf"/>
+        <int_arg_token id="117" token="möglichen"/>
+        <int_arg_token id="118" token="Terror"/>
+        <int_arg_token id="119" token="und"/>
+        <int_arg_token id="120" token="seine"/>
+        <int_arg_token id="121" token="Folgen"/>
+        <int_arg_token id="122" token="angeht"/>
+        <int_arg_token id="123" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Schon"/>
+        <ext_arg_token id="4" token="machen"/>
+        <ext_arg_token id="5" token="die"/>
+        <ext_arg_token id="6" token="ersten"/>
+        <ext_arg_token id="7" token="Witze"/>
+        <ext_arg_token id="8" token="die"/>
+        <ext_arg_token id="9" token="Runde"/>
+        <ext_arg_token id="10" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="11" token="Darin"/>
+        <int_arg_token id="12" token="kommt"/>
+        <int_arg_token id="13" token="weißes"/>
+        <int_arg_token id="14" token="Pulver"/>
+        <int_arg_token id="15" token="vor"/>
+        <int_arg_token id="16" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Equivalence" type="implicit">
+      <connective_tokens>
+        <implicit_connective>anders gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="11" token="Darin"/>
+        <ext_arg_token id="12" token="kommt"/>
+        <ext_arg_token id="13" token="weißes"/>
+        <ext_arg_token id="14" token="Pulver"/>
+        <ext_arg_token id="15" token="vor"/>
+        <ext_arg_token id="16" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="17" token="Makabres"/>
+        <int_arg_token id="18" token="wird"/>
+        <int_arg_token id="19" token="immer"/>
+        <int_arg_token id="20" token="aus"/>
+        <int_arg_token id="21" token="todernster"/>
+        <int_arg_token id="22" token="Wirklichkeit"/>
+        <int_arg_token id="23" token="geboren"/>
+        <int_arg_token id="24" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="17" token="Makabres"/>
+        <ext_arg_token id="18" token="wird"/>
+        <ext_arg_token id="19" token="immer"/>
+        <ext_arg_token id="20" token="aus"/>
+        <ext_arg_token id="21" token="todernster"/>
+        <ext_arg_token id="22" token="Wirklichkeit"/>
+        <ext_arg_token id="23" token="geboren"/>
+        <ext_arg_token id="24" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="25" token="Es"/>
+        <int_arg_token id="26" token="hat"/>
+        <int_arg_token id="27" token="wieder"/>
+        <int_arg_token id="28" token="den"/>
+        <int_arg_token id="29" token="Anschein"/>
+        <int_arg_token id="30" token=","/>
+        <int_arg_token id="31" token="als"/>
+        <int_arg_token id="32" token="würden"/>
+        <int_arg_token id="33" token="Menschen"/>
+        <int_arg_token id="34" token="nur"/>
+        <int_arg_token id="35" token="galgenhumorig"/>
+        <int_arg_token id="36" token="Tatsachen"/>
+        <int_arg_token id="37" token="ins"/>
+        <int_arg_token id="38" token="Auge"/>
+        <int_arg_token id="39" token="sehen"/>
+        <int_arg_token id="40" token="können"/>
+        <int_arg_token id="41" token=","/>
+        <int_arg_token id="42" token="denen"/>
+        <int_arg_token id="43" token="sie"/>
+        <int_arg_token id="44" token="machtlos"/>
+        <int_arg_token id="45" token="ausgeliefert"/>
+        <int_arg_token id="46" token="sind"/>
+        <int_arg_token id="47" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="48" token="Jetzt"/>
+        <ext_arg_token id="49" token="haben"/>
+        <ext_arg_token id="50" token="sich"/>
+        <ext_arg_token id="51" token="auch"/>
+        <ext_arg_token id="52" token="die"/>
+        <ext_arg_token id="53" token="Verantwortlichen"/>
+        <ext_arg_token id="54" token="des"/>
+        <ext_arg_token id="55" token="Landkreises"/>
+        <ext_arg_token id="56" token="mit"/>
+        <ext_arg_token id="57" token="der"/>
+        <ext_arg_token id="58" token="Weltlage"/>
+        <ext_arg_token id="59" token="beschäftigen"/>
+        <ext_arg_token id="60" token="müssen"/>
+        <ext_arg_token id="61" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="62" token="Der"/>
+        <int_arg_token id="63" token="zuständige"/>
+        <int_arg_token id="64" token="Stab"/>
+        <int_arg_token id="65" token="kennt"/>
+        <int_arg_token id="66" token="Gefahrenlagen"/>
+        <int_arg_token id="67" token=","/>
+        <int_arg_token id="68" token="die"/>
+        <int_arg_token id="69" token="von"/>
+        <int_arg_token id="70" token="schweren"/>
+        <int_arg_token id="71" token="Unglücken"/>
+        <int_arg_token id="72" token="ausgehen"/>
+        <int_arg_token id="73" token="können"/>
+        <int_arg_token id="74" token=","/>
+        <int_arg_token id="75" token="zum"/>
+        <int_arg_token id="76" token="Beispiel"/>
+        <int_arg_token id="77" token="mit"/>
+        <int_arg_token id="78" token="Zügen"/>
+        <int_arg_token id="79" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="62" token="Der"/>
+        <ext_arg_token id="63" token="zuständige"/>
+        <ext_arg_token id="64" token="Stab"/>
+        <ext_arg_token id="65" token="kennt"/>
+        <ext_arg_token id="66" token="Gefahrenlagen"/>
+        <ext_arg_token id="67" token=","/>
+        <ext_arg_token id="68" token="die"/>
+        <ext_arg_token id="69" token="von"/>
+        <ext_arg_token id="70" token="schweren"/>
+        <ext_arg_token id="71" token="Unglücken"/>
+        <ext_arg_token id="72" token="ausgehen"/>
+        <ext_arg_token id="73" token="können"/>
+        <ext_arg_token id="74" token=","/>
+        <ext_arg_token id="75" token="zum"/>
+        <ext_arg_token id="76" token="Beispiel"/>
+        <ext_arg_token id="77" token="mit"/>
+        <ext_arg_token id="78" token="Zügen"/>
+        <ext_arg_token id="79" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="80" token="Auf"/>
+        <int_arg_token id="81" token="dem"/>
+        <int_arg_token id="82" token="Bahnhof"/>
+        <int_arg_token id="83" token="Neustadt"/>
+        <int_arg_token id="84" token="hat"/>
+        <int_arg_token id="85" token="man"/>
+        <int_arg_token id="86" token="schon"/>
+        <int_arg_token id="87" token="mehrfach"/>
+        <int_arg_token id="88" token="Szenarien"/>
+        <int_arg_token id="89" token="durchgespielt"/>
+        <int_arg_token id="90" token="und"/>
+        <int_arg_token id="91" token="Gegenmaßnahmen"/>
+        <int_arg_token id="92" token="geprobt"/>
+        <int_arg_token id="93" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="implicit">
+      <connective_tokens>
+        <implicit_connective>aber</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="100" token="Und"/>
+        <ext_arg_token id="101" token="so"/>
+        <ext_arg_token id="102" token="muss"/>
+        <ext_arg_token id="103" token="Landrat"/>
+        <ext_arg_token id="104" token="Christian"/>
+        <ext_arg_token id="105" token="Gilde"/>
+        <ext_arg_token id="106" token="jetzt"/>
+        <ext_arg_token id="107" token="eine"/>
+        <ext_arg_token id="108" token="gewisse"/>
+        <ext_arg_token id="109" token="Hilflosigkeit"/>
+        <ext_arg_token id="110" token="erkennen"/>
+        <ext_arg_token id="111" token="lassen"/>
+        <ext_arg_token id="112" token=","/>
+        <ext_arg_token id="113" token="was"/>
+        <ext_arg_token id="114" token="das"/>
+        <ext_arg_token id="115" token="Reagieren"/>
+        <ext_arg_token id="116" token="auf"/>
+        <ext_arg_token id="117" token="möglichen"/>
+        <ext_arg_token id="118" token="Terror"/>
+        <ext_arg_token id="119" token="und"/>
+        <ext_arg_token id="120" token="seine"/>
+        <ext_arg_token id="121" token="Folgen"/>
+        <ext_arg_token id="122" token="angeht"/>
+        <ext_arg_token id="123" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="124" token="Da"/>
+        <int_arg_token id="125" token="ist"/>
+        <int_arg_token id="126" token="nichts"/>
+        <int_arg_token id="127" token="vorzuwerfen"/>
+        <int_arg_token id="128" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="124" token="Da"/>
+        <ext_arg_token id="125" token="ist"/>
+        <ext_arg_token id="126" token="nichts"/>
+        <ext_arg_token id="127" token="vorzuwerfen"/>
+        <ext_arg_token id="128" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="129" token="Niemand"/>
+        <int_arg_token id="130" token="hat"/>
+        <int_arg_token id="131" token="verschlampt"/>
+        <int_arg_token id="132" token=","/>
+        <int_arg_token id="133" token="was"/>
+        <int_arg_token id="134" token="er"/>
+        <int_arg_token id="135" token="besser"/>
+        <int_arg_token id="136" token="hätte"/>
+        <int_arg_token id="137" token="vorbereiten"/>
+        <int_arg_token id="138" token="sollen"/>
+        <int_arg_token id="139" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="129" token="Niemand"/>
+        <ext_arg_token id="130" token="hat"/>
+        <ext_arg_token id="131" token="verschlampt"/>
+        <ext_arg_token id="132" token=","/>
+        <ext_arg_token id="133" token="was"/>
+        <ext_arg_token id="134" token="er"/>
+        <ext_arg_token id="135" token="besser"/>
+        <ext_arg_token id="136" token="hätte"/>
+        <ext_arg_token id="137" token="vorbereiten"/>
+        <ext_arg_token id="138" token="sollen"/>
+        <ext_arg_token id="139" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="140" token="Keiner"/>
+        <int_arg_token id="141" token="hat"/>
+        <int_arg_token id="142" token="sich"/>
+        <int_arg_token id="143" token="schließlich"/>
+        <int_arg_token id="144" token="vor"/>
+        <int_arg_token id="145" token="dem"/>
+        <int_arg_token id="146" token="11."/>
+        <int_arg_token id="147" token="September"/>
+        <int_arg_token id="148" token="vorstellen"/>
+        <int_arg_token id="149" token="können"/>
+        <int_arg_token id="150" token=","/>
+        <int_arg_token id="151" token="wozu"/>
+        <int_arg_token id="152" token="Menschen"/>
+        <int_arg_token id="153" token=","/>
+        <int_arg_token id="154" token="von"/>
+        <int_arg_token id="155" token="Fanatismus"/>
+        <int_arg_token id="156" token="getrieben"/>
+        <int_arg_token id="157" token=","/>
+        <int_arg_token id="158" token="fähig"/>
+        <int_arg_token id="159" token="sind"/>
+        <int_arg_token id="160" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="161" token="Nun"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="140" token="Keiner"/>
+        <ext_arg_token id="141" token="hat"/>
+        <ext_arg_token id="142" token="sich"/>
+        <ext_arg_token id="143" token="schließlich"/>
+        <ext_arg_token id="144" token="vor"/>
+        <ext_arg_token id="145" token="dem"/>
+        <ext_arg_token id="146" token="11."/>
+        <ext_arg_token id="147" token="September"/>
+        <ext_arg_token id="148" token="vorstellen"/>
+        <ext_arg_token id="149" token="können"/>
+        <ext_arg_token id="150" token=","/>
+        <ext_arg_token id="151" token="wozu"/>
+        <ext_arg_token id="152" token="Menschen"/>
+        <ext_arg_token id="153" token=","/>
+        <ext_arg_token id="154" token="von"/>
+        <ext_arg_token id="155" token="Fanatismus"/>
+        <ext_arg_token id="156" token="getrieben"/>
+        <ext_arg_token id="157" token=","/>
+        <ext_arg_token id="158" token="fähig"/>
+        <ext_arg_token id="159" token="sind"/>
+        <ext_arg_token id="160" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="161" token="Nun"/>
+        <int_arg_token id="162" token="wird"/>
+        <int_arg_token id="163" token="der"/>
+        <int_arg_token id="164" token="Katastrophenschutz"/>
+        <int_arg_token id="165" token="einen"/>
+        <int_arg_token id="166" token="neuen"/>
+        <int_arg_token id="167" token="Stellenwert"/>
+        <int_arg_token id="168" token="bekommen"/>
+        <int_arg_token id="169" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="161" token="Nun"/>
+        <ext_arg_token id="162" token="wird"/>
+        <ext_arg_token id="163" token="der"/>
+        <ext_arg_token id="164" token="Katastrophenschutz"/>
+        <ext_arg_token id="165" token="einen"/>
+        <ext_arg_token id="166" token="neuen"/>
+        <ext_arg_token id="167" token="Stellenwert"/>
+        <ext_arg_token id="168" token="bekommen"/>
+        <ext_arg_token id="169" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="170" token="Der"/>
+        <int_arg_token id="171" token="Landkreis"/>
+        <int_arg_token id="172" token="und"/>
+        <int_arg_token id="173" token="die"/>
+        <int_arg_token id="174" token="Kommunen"/>
+        <int_arg_token id="175" token=","/>
+        <int_arg_token id="176" token="vordergründig"/>
+        <int_arg_token id="177" token="bedroht"/>
+        <int_arg_token id="178" token="oder"/>
+        <int_arg_token id="179" token="einfach"/>
+        <int_arg_token id="180" token="nur"/>
+        <int_arg_token id="181" token="in"/>
+        <int_arg_token id="182" token="verständlicher"/>
+        <int_arg_token id="183" token="Sorge"/>
+        <int_arg_token id="184" token=","/>
+        <int_arg_token id="185" token="sind"/>
+        <int_arg_token id="186" token="auf"/>
+        <int_arg_token id="187" token="Hilfe"/>
+        <int_arg_token id="188" token="angewiesen"/>
+        <int_arg_token id="189" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

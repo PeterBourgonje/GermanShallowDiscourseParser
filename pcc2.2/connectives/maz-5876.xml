@@ -1,0 +1,649 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Einmalig</token>
+    <token id="2">Unvorstellbar</token>
+    <token id="3">,</token>
+    <token id="4">aber</token>
+    <token id="5">wahr</token>
+    <token id="6">:</token>
+    <token id="7">Eine</token>
+    <token id="8">Medizinerin</token>
+    <token id="9">lässt</token>
+    <token id="10">ihre</token>
+    <token id="11">Patienten</token>
+    <token id="12">,</token>
+    <token id="13">ihr</token>
+    <token id="14">Personal</token>
+    <token id="15">und</token>
+    <token id="16">die</token>
+    <token id="17">Kassenärztliche</token>
+    <token id="18">Vereinigung</token>
+    <token id="19">völlig</token>
+    <token id="20">im</token>
+    <token id="21">Unklaren</token>
+    <token id="22">.</token>
+    <token id="23">Niemand</token>
+    <token id="24">weiß</token>
+    <token id="25">,</token>
+    <token id="26">warum</token>
+    <token id="27">sie</token>
+    <token id="28">nicht</token>
+    <token id="29">kommt</token>
+    <token id="30">,</token>
+    <token id="31">wer</token>
+    <token id="32">sie</token>
+    <token id="33">vertritt</token>
+    <token id="34">,</token>
+    <token id="35">wann</token>
+    <token id="36">oder</token>
+    <token id="37">ob</token>
+    <token id="38">sie</token>
+    <token id="39">wiederkommt</token>
+    <token id="40">.</token>
+    <token id="41">Ein</token>
+    <token id="42">solcher</token>
+    <token id="43">Fall</token>
+    <token id="44">wie</token>
+    <token id="45">in</token>
+    <token id="46">Ludwigsfelde</token>
+    <token id="47">sei</token>
+    <token id="48">ihm</token>
+    <token id="49">in</token>
+    <token id="50">den</token>
+    <token id="51">sieben</token>
+    <token id="52">Jahren</token>
+    <token id="53">,</token>
+    <token id="54">die</token>
+    <token id="55">er</token>
+    <token id="56">jetzt</token>
+    <token id="57">Pressesprecher</token>
+    <token id="58">der</token>
+    <token id="59">Kassenärztlichen</token>
+    <token id="60">Vereinigung</token>
+    <token id="61">Brandenburg</token>
+    <token id="62">ist</token>
+    <token id="63">,</token>
+    <token id="64">"</token>
+    <token id="65">noch</token>
+    <token id="66">nicht</token>
+    <token id="67">bekannt</token>
+    <token id="68">geworden</token>
+    <token id="69">"</token>
+    <token id="70">,</token>
+    <token id="71">sagt</token>
+    <token id="72">Ralf</token>
+    <token id="73">Herre</token>
+    <token id="74">.</token>
+    <token id="75">Mediziner</token>
+    <token id="76">stehen</token>
+    <token id="77">im</token>
+    <token id="78">Land</token>
+    <token id="79">nicht</token>
+    <token id="80">Schlange</token>
+    <token id="81">,</token>
+    <token id="82">um</token>
+    <token id="83">sich</token>
+    <token id="84">niederzulassen</token>
+    <token id="85">.</token>
+    <token id="86">132</token>
+    <token id="87">allgemeinärztliche</token>
+    <token id="88">und</token>
+    <token id="89">60</token>
+    <token id="90">fachärztliche</token>
+    <token id="91">Praxen</token>
+    <token id="92">könnten</token>
+    <token id="93">noch</token>
+    <token id="94">besetzt</token>
+    <token id="95">werden</token>
+    <token id="96">.</token>
+    <token id="97">Das</token>
+    <token id="98">hat</token>
+    <token id="99">ganz</token>
+    <token id="100">sicher</token>
+    <token id="101">damit</token>
+    <token id="102">zu</token>
+    <token id="103">tun</token>
+    <token id="104">,</token>
+    <token id="105">dass</token>
+    <token id="106">in</token>
+    <token id="107">Brandenburg</token>
+    <token id="108">die</token>
+    <token id="109">niedrigsten</token>
+    <token id="110">Arzthonorare</token>
+    <token id="111">der</token>
+    <token id="112">ganzen</token>
+    <token id="113">Bundesrepublik</token>
+    <token id="114">gezahlt</token>
+    <token id="115">werden</token>
+    <token id="116">.</token>
+    <token id="117">Doch</token>
+    <token id="118">das</token>
+    <token id="119">,</token>
+    <token id="120">was</token>
+    <token id="121">sich</token>
+    <token id="122">bei</token>
+    <token id="123">3600</token>
+    <token id="124">Praxen</token>
+    <token id="125">im</token>
+    <token id="126">Land</token>
+    <token id="127">in</token>
+    <token id="128">dieser</token>
+    <token id="129">einen</token>
+    <token id="130">Praxis</token>
+    <token id="131">in</token>
+    <token id="132">Ludwigsfelde</token>
+    <token id="133">abspielt</token>
+    <token id="134">,</token>
+    <token id="135">das</token>
+    <token id="136">geht</token>
+    <token id="137">rein</token>
+    <token id="138">menschlich</token>
+    <token id="139">nicht</token>
+    <token id="140">.</token>
+    <token id="141">Weder</token>
+    <token id="142">in</token>
+    <token id="143">der</token>
+    <token id="144">Familie</token>
+    <token id="145">noch</token>
+    <token id="146">unter</token>
+    <token id="147">Kollegen</token>
+    <token id="148">oder</token>
+    <token id="149">Freunden</token>
+    <token id="150">lässt</token>
+    <token id="151">man</token>
+    <token id="152">Leute</token>
+    <token id="153">einfach</token>
+    <token id="154">stehen</token>
+    <token id="155">.</token>
+    <token id="156">Abgesehen</token>
+    <token id="157">vom</token>
+    <token id="158">Verfahren</token>
+    <token id="159">über</token>
+    <token id="160">den</token>
+    <token id="161">Zulassungsentzug</token>
+    <token id="162">und</token>
+    <token id="163">davon</token>
+    <token id="164">,</token>
+    <token id="165">dass</token>
+    <token id="166">eine</token>
+    <token id="167">nicht</token>
+    <token id="168">anwesende</token>
+    <token id="169">Ärztin</token>
+    <token id="170">nicht</token>
+    <token id="171">helfen</token>
+    <token id="172">kann</token>
+    <token id="173">-</token>
+    <token id="174">ohne</token>
+    <token id="175">Verabredungen</token>
+    <token id="176">einzuhalten</token>
+    <token id="177">steht</token>
+    <token id="178">auch</token>
+    <token id="179">eine</token>
+    <token id="180">noch</token>
+    <token id="181">so</token>
+    <token id="182">gute</token>
+    <token id="183">Medizinerin</token>
+    <token id="184">auf</token>
+    <token id="185">dem</token>
+    <token id="186">Abstellgleis</token>
+    <token id="187">.</token>
+    <token id="188">Und</token>
+    <token id="189">Sprechzeiten</token>
+    <token id="190">sind</token>
+    <token id="191">für</token>
+    <token id="192">Patienten</token>
+    <token id="193">und</token>
+    <token id="194">Personal</token>
+    <token id="195">eine</token>
+    <token id="196">solche</token>
+    <token id="197">feste</token>
+    <token id="198">Verabredung</token>
+    <token id="199">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="4" token="aber"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="5" token="wahr"/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="2" token="Unvorstellbar"/>
+        <ext_arg_token id="3" token=","/>
+        <ext_arg_token id="6" token=":"/>
+        <ext_arg_token id="7" token="Eine"/>
+        <ext_arg_token id="8" token="Medizinerin"/>
+        <ext_arg_token id="9" token="lässt"/>
+        <ext_arg_token id="10" token="ihre"/>
+        <ext_arg_token id="11" token="Patienten"/>
+        <ext_arg_token id="12" token=","/>
+        <ext_arg_token id="13" token="ihr"/>
+        <ext_arg_token id="14" token="Personal"/>
+        <ext_arg_token id="15" token="und"/>
+        <ext_arg_token id="16" token="die"/>
+        <ext_arg_token id="17" token="Kassenärztliche"/>
+        <ext_arg_token id="18" token="Vereinigung"/>
+        <ext_arg_token id="19" token="völlig"/>
+        <ext_arg_token id="20" token="im"/>
+        <ext_arg_token id="21" token="Unklaren"/>
+        <ext_arg_token id="22" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="2" pdtb3_sense="Contingency.Purpose.Arg2-as-goal" type="explicit">
+      <connective_tokens>
+        <connective_token id="82" token="um"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="75" token="Mediziner"/>
+        <ext_arg_token id="76" token="stehen"/>
+        <ext_arg_token id="77" token="im"/>
+        <ext_arg_token id="78" token="Land"/>
+        <ext_arg_token id="79" token="nicht"/>
+        <ext_arg_token id="80" token="Schlange"/>
+        <ext_arg_token id="81" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="83" token="sich"/>
+        <int_arg_token id="84" token="niederzulassen"/>
+        <int_arg_token id="85" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="188" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="174" token="ohne"/>
+        <ext_arg_token id="175" token="Verabredungen"/>
+        <ext_arg_token id="176" token="einzuhalten"/>
+        <ext_arg_token id="177" token="steht"/>
+        <ext_arg_token id="178" token="auch"/>
+        <ext_arg_token id="179" token="eine"/>
+        <ext_arg_token id="180" token="noch"/>
+        <ext_arg_token id="181" token="so"/>
+        <ext_arg_token id="182" token="gute"/>
+        <ext_arg_token id="183" token="Medizinerin"/>
+        <ext_arg_token id="184" token="auf"/>
+        <ext_arg_token id="185" token="dem"/>
+        <ext_arg_token id="186" token="Abstellgleis"/>
+        <ext_arg_token id="187" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="189" token="Sprechzeiten"/>
+        <int_arg_token id="190" token="sind"/>
+        <int_arg_token id="191" token="für"/>
+        <int_arg_token id="192" token="Patienten"/>
+        <int_arg_token id="193" token="und"/>
+        <int_arg_token id="194" token="Personal"/>
+        <int_arg_token id="195" token="eine"/>
+        <int_arg_token id="196" token="solche"/>
+        <int_arg_token id="197" token="feste"/>
+        <int_arg_token id="198" token="Verabredung"/>
+        <int_arg_token id="199" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Expansion.Manner.Arg2-as-manner" type="explicit">
+      <connective_tokens>
+        <connective_token id="174" token="ohne"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="175" token="Verabredungen"/>
+        <int_arg_token id="176" token="einzuhalten"/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="177" token="steht"/>
+        <ext_arg_token id="178" token="auch"/>
+        <ext_arg_token id="179" token="eine"/>
+        <ext_arg_token id="180" token="noch"/>
+        <ext_arg_token id="181" token="so"/>
+        <ext_arg_token id="182" token="gute"/>
+        <ext_arg_token id="183" token="Medizinerin"/>
+        <ext_arg_token id="184" token="auf"/>
+        <ext_arg_token id="185" token="dem"/>
+        <ext_arg_token id="186" token="Abstellgleis"/>
+        <ext_arg_token id="187" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="117" token="Doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="97" token="Das"/>
+        <ext_arg_token id="98" token="hat"/>
+        <ext_arg_token id="99" token="ganz"/>
+        <ext_arg_token id="100" token="sicher"/>
+        <ext_arg_token id="101" token="damit"/>
+        <ext_arg_token id="102" token="zu"/>
+        <ext_arg_token id="103" token="tun"/>
+        <ext_arg_token id="104" token=","/>
+        <ext_arg_token id="105" token="dass"/>
+        <ext_arg_token id="106" token="in"/>
+        <ext_arg_token id="107" token="Brandenburg"/>
+        <ext_arg_token id="108" token="die"/>
+        <ext_arg_token id="109" token="niedrigsten"/>
+        <ext_arg_token id="110" token="Arzthonorare"/>
+        <ext_arg_token id="111" token="der"/>
+        <ext_arg_token id="112" token="ganzen"/>
+        <ext_arg_token id="113" token="Bundesrepublik"/>
+        <ext_arg_token id="114" token="gezahlt"/>
+        <ext_arg_token id="115" token="werden"/>
+        <ext_arg_token id="116" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="118" token="das"/>
+        <int_arg_token id="119" token=","/>
+        <int_arg_token id="120" token="was"/>
+        <int_arg_token id="121" token="sich"/>
+        <int_arg_token id="122" token="bei"/>
+        <int_arg_token id="123" token="3600"/>
+        <int_arg_token id="124" token="Praxen"/>
+        <int_arg_token id="125" token="im"/>
+        <int_arg_token id="126" token="Land"/>
+        <int_arg_token id="127" token="in"/>
+        <int_arg_token id="128" token="dieser"/>
+        <int_arg_token id="129" token="einen"/>
+        <int_arg_token id="130" token="Praxis"/>
+        <int_arg_token id="131" token="in"/>
+        <int_arg_token id="132" token="Ludwigsfelde"/>
+        <int_arg_token id="133" token="abspielt"/>
+        <int_arg_token id="134" token=","/>
+        <int_arg_token id="135" token="das"/>
+        <int_arg_token id="136" token="geht"/>
+        <int_arg_token id="137" token="rein"/>
+        <int_arg_token id="138" token="menschlich"/>
+        <int_arg_token id="139" token="nicht"/>
+        <int_arg_token id="140" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="2" token="Unvorstellbar"/>
+        <ext_arg_token id="3" token=","/>
+        <ext_arg_token id="4" token="aber"/>
+        <ext_arg_token id="5" token="wahr"/>
+        <ext_arg_token id="6" token=":"/>
+        <ext_arg_token id="7" token="Eine"/>
+        <ext_arg_token id="8" token="Medizinerin"/>
+        <ext_arg_token id="9" token="lässt"/>
+        <ext_arg_token id="10" token="ihre"/>
+        <ext_arg_token id="11" token="Patienten"/>
+        <ext_arg_token id="12" token=","/>
+        <ext_arg_token id="13" token="ihr"/>
+        <ext_arg_token id="14" token="Personal"/>
+        <ext_arg_token id="15" token="und"/>
+        <ext_arg_token id="16" token="die"/>
+        <ext_arg_token id="17" token="Kassenärztliche"/>
+        <ext_arg_token id="18" token="Vereinigung"/>
+        <ext_arg_token id="19" token="völlig"/>
+        <ext_arg_token id="20" token="im"/>
+        <ext_arg_token id="21" token="Unklaren"/>
+        <ext_arg_token id="22" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="23" token="Niemand"/>
+        <int_arg_token id="24" token="weiß"/>
+        <int_arg_token id="25" token=","/>
+        <int_arg_token id="26" token="warum"/>
+        <int_arg_token id="27" token="sie"/>
+        <int_arg_token id="28" token="nicht"/>
+        <int_arg_token id="29" token="kommt"/>
+        <int_arg_token id="30" token=","/>
+        <int_arg_token id="31" token="wer"/>
+        <int_arg_token id="32" token="sie"/>
+        <int_arg_token id="33" token="vertritt"/>
+        <int_arg_token id="34" token=","/>
+        <int_arg_token id="35" token="wann"/>
+        <int_arg_token id="36" token="oder"/>
+        <int_arg_token id="37" token="ob"/>
+        <int_arg_token id="38" token="sie"/>
+        <int_arg_token id="39" token="wiederkommt"/>
+        <int_arg_token id="40" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Expansion.Instantiation.Arg1-as-instance" type="AltLex">
+      <connective_tokens>
+	<connective_token id="41" token="Ein"/>
+	<connective_token id="42" token="solcher"/>
+	<connective_token id="43" token="Fall"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="23" token="Niemand"/>
+        <ext_arg_token id="24" token="weiß"/>
+        <ext_arg_token id="25" token=","/>
+        <ext_arg_token id="26" token="warum"/>
+        <ext_arg_token id="27" token="sie"/>
+        <ext_arg_token id="28" token="nicht"/>
+        <ext_arg_token id="29" token="kommt"/>
+        <ext_arg_token id="30" token=","/>
+        <ext_arg_token id="31" token="wer"/>
+        <ext_arg_token id="32" token="sie"/>
+        <ext_arg_token id="33" token="vertritt"/>
+        <ext_arg_token id="34" token=","/>
+        <ext_arg_token id="35" token="wann"/>
+        <ext_arg_token id="36" token="oder"/>
+        <ext_arg_token id="37" token="ob"/>
+        <ext_arg_token id="38" token="sie"/>
+        <ext_arg_token id="39" token="wiederkommt"/>
+        <ext_arg_token id="40" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="41" token="Ein"/>
+        <int_arg_token id="42" token="solcher"/>
+        <int_arg_token id="43" token="Fall"/>
+        <int_arg_token id="44" token="wie"/>
+        <int_arg_token id="45" token="in"/>
+        <int_arg_token id="46" token="Ludwigsfelde"/>
+        <int_arg_token id="47" token="sei"/>
+        <int_arg_token id="48" token="ihm"/>
+        <int_arg_token id="49" token="in"/>
+        <int_arg_token id="50" token="den"/>
+        <int_arg_token id="51" token="sieben"/>
+        <int_arg_token id="52" token="Jahren"/>
+        <int_arg_token id="53" token=","/>
+        <int_arg_token id="54" token="die"/>
+        <int_arg_token id="55" token="er"/>
+        <int_arg_token id="56" token="jetzt"/>
+        <int_arg_token id="57" token="Pressesprecher"/>
+        <int_arg_token id="58" token="der"/>
+        <int_arg_token id="59" token="Kassenärztlichen"/>
+        <int_arg_token id="60" token="Vereinigung"/>
+        <int_arg_token id="61" token="Brandenburg"/>
+        <int_arg_token id="62" token="ist"/>
+        <int_arg_token id="63" token=","/>
+        <int_arg_token id="64" token="&quot;"/>
+        <int_arg_token id="65" token="noch"/>
+        <int_arg_token id="66" token="nicht"/>
+        <int_arg_token id="67" token="bekannt"/>
+        <int_arg_token id="68" token="geworden"/>
+        <int_arg_token id="69" token="&quot;"/>
+        <int_arg_token id="70" token=","/>
+        <int_arg_token id="71" token="sagt"/>
+        <int_arg_token id="72" token="Ralf"/>
+        <int_arg_token id="73" token="Herre"/>
+        <int_arg_token id="74" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="75" token="Mediziner"/>
+        <ext_arg_token id="76" token="stehen"/>
+        <ext_arg_token id="77" token="im"/>
+        <ext_arg_token id="78" token="Land"/>
+        <ext_arg_token id="79" token="nicht"/>
+        <ext_arg_token id="80" token="Schlange"/>
+        <ext_arg_token id="81" token=","/>
+        <ext_arg_token id="82" token="um"/>
+        <ext_arg_token id="83" token="sich"/>
+        <ext_arg_token id="84" token="niederzulassen"/>
+        <ext_arg_token id="85" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="86" token="132"/>
+        <int_arg_token id="87" token="allgemeinärztliche"/>
+        <int_arg_token id="88" token="und"/>
+        <int_arg_token id="89" token="60"/>
+        <int_arg_token id="90" token="fachärztliche"/>
+        <int_arg_token id="91" token="Praxen"/>
+        <int_arg_token id="92" token="könnten"/>
+        <int_arg_token id="93" token="noch"/>
+        <int_arg_token id="94" token="besetzt"/>
+        <int_arg_token id="95" token="werden"/>
+        <int_arg_token id="96" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="86" token="132"/>
+        <ext_arg_token id="87" token="allgemeinärztliche"/>
+        <ext_arg_token id="88" token="und"/>
+        <ext_arg_token id="89" token="60"/>
+        <ext_arg_token id="90" token="fachärztliche"/>
+        <ext_arg_token id="91" token="Praxen"/>
+        <ext_arg_token id="92" token="könnten"/>
+        <ext_arg_token id="93" token="noch"/>
+        <ext_arg_token id="94" token="besetzt"/>
+        <ext_arg_token id="95" token="werden"/>
+        <ext_arg_token id="96" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="97" token="Das"/>
+        <int_arg_token id="98" token="hat"/>
+        <int_arg_token id="99" token="ganz"/>
+        <int_arg_token id="100" token="sicher"/>
+        <int_arg_token id="101" token="damit"/>
+        <int_arg_token id="102" token="zu"/>
+        <int_arg_token id="103" token="tun"/>
+        <int_arg_token id="104" token=","/>
+        <int_arg_token id="105" token="dass"/>
+        <int_arg_token id="106" token="in"/>
+        <int_arg_token id="107" token="Brandenburg"/>
+        <int_arg_token id="108" token="die"/>
+        <int_arg_token id="109" token="niedrigsten"/>
+        <int_arg_token id="110" token="Arzthonorare"/>
+        <int_arg_token id="111" token="der"/>
+        <int_arg_token id="112" token="ganzen"/>
+        <int_arg_token id="113" token="Bundesrepublik"/>
+        <int_arg_token id="114" token="gezahlt"/>
+        <int_arg_token id="115" token="werden"/>
+        <int_arg_token id="116" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="117" token="Doch"/>
+        <ext_arg_token id="118" token="das"/>
+        <ext_arg_token id="119" token=","/>
+        <ext_arg_token id="120" token="was"/>
+        <ext_arg_token id="121" token="sich"/>
+        <ext_arg_token id="122" token="bei"/>
+        <ext_arg_token id="123" token="3600"/>
+        <ext_arg_token id="124" token="Praxen"/>
+        <ext_arg_token id="125" token="im"/>
+        <ext_arg_token id="126" token="Land"/>
+        <ext_arg_token id="127" token="in"/>
+        <ext_arg_token id="128" token="dieser"/>
+        <ext_arg_token id="129" token="einen"/>
+        <ext_arg_token id="130" token="Praxis"/>
+        <ext_arg_token id="131" token="in"/>
+        <ext_arg_token id="132" token="Ludwigsfelde"/>
+        <ext_arg_token id="133" token="abspielt"/>
+        <ext_arg_token id="134" token=","/>
+        <ext_arg_token id="135" token="das"/>
+        <ext_arg_token id="136" token="geht"/>
+        <ext_arg_token id="137" token="rein"/>
+        <ext_arg_token id="138" token="menschlich"/>
+        <ext_arg_token id="139" token="nicht"/>
+        <ext_arg_token id="140" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="141" token="Weder"/>
+        <int_arg_token id="142" token="in"/>
+        <int_arg_token id="143" token="der"/>
+        <int_arg_token id="144" token="Familie"/>
+        <int_arg_token id="145" token="noch"/>
+        <int_arg_token id="146" token="unter"/>
+        <int_arg_token id="147" token="Kollegen"/>
+        <int_arg_token id="148" token="oder"/>
+        <int_arg_token id="149" token="Freunden"/>
+        <int_arg_token id="150" token="lässt"/>
+        <int_arg_token id="151" token="man"/>
+        <int_arg_token id="152" token="Leute"/>
+        <int_arg_token id="153" token="einfach"/>
+        <int_arg_token id="154" token="stehen"/>
+        <int_arg_token id="155" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="141" token="Weder"/>
+        <ext_arg_token id="142" token="in"/>
+        <ext_arg_token id="143" token="der"/>
+        <ext_arg_token id="144" token="Familie"/>
+        <ext_arg_token id="145" token="noch"/>
+        <ext_arg_token id="146" token="unter"/>
+        <ext_arg_token id="147" token="Kollegen"/>
+        <ext_arg_token id="148" token="oder"/>
+        <ext_arg_token id="149" token="Freunden"/>
+        <ext_arg_token id="150" token="lässt"/>
+        <ext_arg_token id="151" token="man"/>
+        <ext_arg_token id="152" token="Leute"/>
+        <ext_arg_token id="153" token="einfach"/>
+        <ext_arg_token id="154" token="stehen"/>
+        <ext_arg_token id="155" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="156" token="Abgesehen"/>
+        <int_arg_token id="157" token="vom"/>
+        <int_arg_token id="158" token="Verfahren"/>
+        <int_arg_token id="159" token="über"/>
+        <int_arg_token id="160" token="den"/>
+        <int_arg_token id="161" token="Zulassungsentzug"/>
+        <int_arg_token id="162" token="und"/>
+        <int_arg_token id="163" token="davon"/>
+        <int_arg_token id="164" token=","/>
+        <int_arg_token id="165" token="dass"/>
+        <int_arg_token id="166" token="eine"/>
+        <int_arg_token id="167" token="nicht"/>
+        <int_arg_token id="168" token="anwesende"/>
+        <int_arg_token id="169" token="Ärztin"/>
+        <int_arg_token id="170" token="nicht"/>
+        <int_arg_token id="171" token="helfen"/>
+        <int_arg_token id="172" token="kann"/>
+        <int_arg_token id="173" token="-"/>
+        <int_arg_token id="174" token="ohne"/>
+        <int_arg_token id="175" token="Verabredungen"/>
+        <int_arg_token id="176" token="einzuhalten"/>
+        <int_arg_token id="177" token="steht"/>
+        <int_arg_token id="178" token="auch"/>
+        <int_arg_token id="179" token="eine"/>
+        <int_arg_token id="180" token="noch"/>
+        <int_arg_token id="181" token="so"/>
+        <int_arg_token id="182" token="gute"/>
+        <int_arg_token id="183" token="Medizinerin"/>
+        <int_arg_token id="184" token="auf"/>
+        <int_arg_token id="185" token="dem"/>
+        <int_arg_token id="186" token="Abstellgleis"/>
+        <int_arg_token id="187" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

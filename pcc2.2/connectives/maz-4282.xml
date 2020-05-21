@@ -1,0 +1,798 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Steilpass</token>
+    <token id="2">Wunder</token>
+    <token id="3">gibt</token>
+    <token id="4">es</token>
+    <token id="5">immer</token>
+    <token id="6">wieder</token>
+    <token id="7">!</token>
+    <token id="8">Erst</token>
+    <token id="9">spielen</token>
+    <token id="10">die</token>
+    <token id="11">Dallgower</token>
+    <token id="12">Gemeindevertreter</token>
+    <token id="13">so</token>
+    <token id="14">statisch</token>
+    <token id="15">und</token>
+    <token id="16">verzagt</token>
+    <token id="17">wie</token>
+    <token id="18">die</token>
+    <token id="19">deutsche</token>
+    <token id="20">Abwehrreihe</token>
+    <token id="21">der</token>
+    <token id="22">Fußballkicker</token>
+    <token id="23">.</token>
+    <token id="24">Und</token>
+    <token id="25">dann</token>
+    <token id="26">kommt</token>
+    <token id="27">aus</token>
+    <token id="28">der</token>
+    <token id="29">Tiefe</token>
+    <token id="30">solch</token>
+    <token id="31">ein</token>
+    <token id="32">fulminanter</token>
+    <token id="33">Steilpass</token>
+    <token id="34">,</token>
+    <token id="35">von</token>
+    <token id="36">dem</token>
+    <token id="37">man</token>
+    <token id="38">hofft</token>
+    <token id="39">,</token>
+    <token id="40">dass</token>
+    <token id="41">die</token>
+    <token id="42">Seeburger</token>
+    <token id="43">oder</token>
+    <token id="44">Groß-Glienicker</token>
+    <token id="45">Mitspieler</token>
+    <token id="46">ihn</token>
+    <token id="47">aufnehmen</token>
+    <token id="48">können</token>
+    <token id="49">.</token>
+    <token id="50">Ein</token>
+    <token id="51">Befreiungsschlag</token>
+    <token id="52">ist</token>
+    <token id="53">es</token>
+    <token id="54">allerdings</token>
+    <token id="55">nicht</token>
+    <token id="56">,</token>
+    <token id="57">weil</token>
+    <token id="58">es</token>
+    <token id="59">vorerst</token>
+    <token id="60">keine</token>
+    <token id="61">Gefahr</token>
+    <token id="62">fürs</token>
+    <token id="63">Dallgower</token>
+    <token id="64">Tor</token>
+    <token id="65">gab</token>
+    <token id="66">.</token>
+    <token id="67">Die</token>
+    <token id="68">Seeburger</token>
+    <token id="69">und</token>
+    <token id="70">einige</token>
+    <token id="71">Groß-Glienicker</token>
+    <token id="72">haben</token>
+    <token id="73">den</token>
+    <token id="74">Ball</token>
+    <token id="75">erst</token>
+    <token id="76">zurückgespielt</token>
+    <token id="77">und</token>
+    <token id="78">dann</token>
+    <token id="79">um</token>
+    <token id="80">so</token>
+    <token id="81">drängender</token>
+    <token id="82">wieder</token>
+    <token id="83">gefordert</token>
+    <token id="84">.</token>
+    <token id="85">Nun</token>
+    <token id="86">sollen</token>
+    <token id="87">sie</token>
+    <token id="88">zeigen</token>
+    <token id="89">,</token>
+    <token id="90">wie</token>
+    <token id="91">sie</token>
+    <token id="92">die</token>
+    <token id="93">Chance</token>
+    <token id="94">verwerten</token>
+    <token id="95">.</token>
+    <token id="96">Eine</token>
+    <token id="97">Diskussion</token>
+    <token id="98">,</token>
+    <token id="99">wo</token>
+    <token id="100">künftig</token>
+    <token id="101">die</token>
+    <token id="102">Trainerkabine</token>
+    <token id="103">stehen</token>
+    <token id="104">soll</token>
+    <token id="105">,</token>
+    <token id="106">wäre</token>
+    <token id="107">in</token>
+    <token id="108">der</token>
+    <token id="109">jetzigen</token>
+    <token id="110">Spielsituation</token>
+    <token id="111">verheerend</token>
+    <token id="112">.</token>
+    <token id="113">Und</token>
+    <token id="114">eine</token>
+    <token id="115">Parallele</token>
+    <token id="116">zu</token>
+    <token id="117">den</token>
+    <token id="118">deutschen</token>
+    <token id="119">Grotten-Kickern</token>
+    <token id="120">gibt</token>
+    <token id="121">es</token>
+    <token id="122">immer</token>
+    <token id="123">noch</token>
+    <token id="124">.</token>
+    <token id="125">Auch</token>
+    <token id="126">wenn</token>
+    <token id="127">die</token>
+    <token id="128">Spieler</token>
+    <token id="129">aus</token>
+    <token id="130">den</token>
+    <token id="131">verschiedenen</token>
+    <token id="132">Vereinen</token>
+    <token id="133">zusammengewürfelt</token>
+    <token id="134">sind</token>
+    <token id="135">,</token>
+    <token id="136">sie</token>
+    <token id="137">müssen</token>
+    <token id="138">sich</token>
+    <token id="139">daran</token>
+    <token id="140">gewöhnen</token>
+    <token id="141">,</token>
+    <token id="142">dass</token>
+    <token id="143">sie</token>
+    <token id="144">nun</token>
+    <token id="145">in</token>
+    <token id="146">einer</token>
+    <token id="147">Mannschaft</token>
+    <token id="148">"</token>
+    <token id="149">Döberitzer</token>
+    <token id="150">Heide</token>
+    <token id="151">"</token>
+    <token id="152">spielen</token>
+    <token id="153">.</token>
+    <token id="154">Und</token>
+    <token id="155">das</token>
+    <token id="156">heißt</token>
+    <token id="157">gemeinsam</token>
+    <token id="158">und</token>
+    <token id="159">nicht</token>
+    <token id="160">gegeneinander</token>
+    <token id="161">.</token>
+    <token id="162">Ermahnungen</token>
+    <token id="163">von</token>
+    <token id="164">der</token>
+    <token id="165">Seitenlinie</token>
+    <token id="166">,</token>
+    <token id="167">miteinander</token>
+    <token id="168">fair</token>
+    <token id="169">umzugehen</token>
+    <token id="170">und</token>
+    <token id="171">sich</token>
+    <token id="172">nicht</token>
+    <token id="173">beim</token>
+    <token id="174">kleinsten</token>
+    <token id="175">Schubser</token>
+    <token id="176">gegenseitig</token>
+    <token id="177">zu</token>
+    <token id="178">zerfleischen</token>
+    <token id="179">,</token>
+    <token id="180">sind</token>
+    <token id="181">normalerweise</token>
+    <token id="182">überflüssig</token>
+    <token id="183">.</token>
+    <token id="184">Vorerst</token>
+    <token id="185">allerdings</token>
+    <token id="186">hilfreich</token>
+    <token id="187">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Temporal.Asynchronous.Precedence" type="explicit">
+      <connective_tokens>
+        <connective_token id="24" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="8" token="Erst"/>
+        <ext_arg_token id="9" token="spielen"/>
+        <ext_arg_token id="10" token="die"/>
+        <ext_arg_token id="11" token="Dallgower"/>
+        <ext_arg_token id="12" token="Gemeindevertreter"/>
+        <ext_arg_token id="13" token="so"/>
+        <ext_arg_token id="14" token="statisch"/>
+        <ext_arg_token id="15" token="und"/>
+        <ext_arg_token id="16" token="verzagt"/>
+        <ext_arg_token id="17" token="wie"/>
+        <ext_arg_token id="18" token="die"/>
+        <ext_arg_token id="19" token="deutsche"/>
+        <ext_arg_token id="20" token="Abwehrreihe"/>
+        <ext_arg_token id="21" token="der"/>
+        <ext_arg_token id="22" token="Fußballkicker"/>
+        <ext_arg_token id="23" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="25" token="dann"/>
+        <int_arg_token id="26" token="kommt"/>
+        <int_arg_token id="27" token="aus"/>
+        <int_arg_token id="28" token="der"/>
+        <int_arg_token id="29" token="Tiefe"/>
+        <int_arg_token id="30" token="solch"/>
+        <int_arg_token id="31" token="ein"/>
+        <int_arg_token id="32" token="fulminanter"/>
+        <int_arg_token id="33" token="Steilpass"/>
+        <int_arg_token id="34" token=","/>
+        <int_arg_token id="35" token="von"/>
+        <int_arg_token id="36" token="dem"/>
+        <int_arg_token id="37" token="man"/>
+        <int_arg_token id="38" token="hofft"/>
+        <int_arg_token id="39" token=","/>
+        <int_arg_token id="40" token="dass"/>
+        <int_arg_token id="41" token="die"/>
+        <int_arg_token id="42" token="Seeburger"/>
+        <int_arg_token id="43" token="oder"/>
+        <int_arg_token id="44" token="Groß-Glienicker"/>
+        <int_arg_token id="45" token="Mitspieler"/>
+        <int_arg_token id="46" token="ihn"/>
+        <int_arg_token id="47" token="aufnehmen"/>
+        <int_arg_token id="48" token="können"/>
+        <int_arg_token id="49" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="2" pdtb3_sense="Temporal.Asynchronous.Precedence" type="explicit">
+      <connective_tokens>
+        <connective_token id="25" token="dann"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="8" token="Erst"/>
+        <ext_arg_token id="9" token="spielen"/>
+        <ext_arg_token id="10" token="die"/>
+        <ext_arg_token id="11" token="Dallgower"/>
+        <ext_arg_token id="12" token="Gemeindevertreter"/>
+        <ext_arg_token id="13" token="so"/>
+        <ext_arg_token id="14" token="statisch"/>
+        <ext_arg_token id="15" token="und"/>
+        <ext_arg_token id="16" token="verzagt"/>
+        <ext_arg_token id="17" token="wie"/>
+        <ext_arg_token id="18" token="die"/>
+        <ext_arg_token id="19" token="deutsche"/>
+        <ext_arg_token id="20" token="Abwehrreihe"/>
+        <ext_arg_token id="21" token="der"/>
+        <ext_arg_token id="22" token="Fußballkicker"/>
+        <ext_arg_token id="23" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="24" token="Und"/>
+        <int_arg_token id="26" token="kommt"/>
+        <int_arg_token id="27" token="aus"/>
+        <int_arg_token id="28" token="der"/>
+        <int_arg_token id="29" token="Tiefe"/>
+        <int_arg_token id="30" token="solch"/>
+        <int_arg_token id="31" token="ein"/>
+        <int_arg_token id="32" token="fulminanter"/>
+        <int_arg_token id="33" token="Steilpass"/>
+        <int_arg_token id="34" token=","/>
+        <int_arg_token id="35" token="von"/>
+        <int_arg_token id="36" token="dem"/>
+        <int_arg_token id="37" token="man"/>
+        <int_arg_token id="38" token="hofft"/>
+        <int_arg_token id="39" token=","/>
+        <int_arg_token id="40" token="dass"/>
+        <int_arg_token id="41" token="die"/>
+        <int_arg_token id="42" token="Seeburger"/>
+        <int_arg_token id="43" token="oder"/>
+        <int_arg_token id="44" token="Groß-Glienicker"/>
+        <int_arg_token id="45" token="Mitspieler"/>
+        <int_arg_token id="46" token="ihn"/>
+        <int_arg_token id="47" token="aufnehmen"/>
+        <int_arg_token id="48" token="können"/>
+        <int_arg_token id="49" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Temporal.Asynchronous.Precedence" type="explicit">
+      <connective_tokens>
+        <connective_token id="78" token="dann"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="73" token="den"/>
+        <ext_arg_token id="74" token="Ball"/>
+        <ext_arg_token id="75" token="erst"/>
+        <ext_arg_token id="76" token="zurückgespielt"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="77" token="und"/>
+        <int_arg_token id="79" token="um"/>
+        <int_arg_token id="80" token="so"/>
+        <int_arg_token id="81" token="drängender"/>
+        <int_arg_token id="82" token="wieder"/>
+        <int_arg_token id="83" token="gefordert"/>
+        <int_arg_token id="84" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="54" token="allerdings"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="50" token="Ein"/>
+        <int_arg_token id="51" token="Befreiungsschlag"/>
+        <int_arg_token id="52" token="ist"/>
+        <int_arg_token id="53" token="es"/>
+        <int_arg_token id="55" token="nicht"/>
+        <int_arg_token id="56" token=","/>
+        <int_arg_token id="57" token="weil"/>
+        <int_arg_token id="58" token="es"/>
+        <int_arg_token id="59" token="vorerst"/>
+        <int_arg_token id="60" token="keine"/>
+        <int_arg_token id="61" token="Gefahr"/>
+        <int_arg_token id="62" token="fürs"/>
+        <int_arg_token id="63" token="Dallgower"/>
+        <int_arg_token id="64" token="Tor"/>
+        <int_arg_token id="65" token="gab"/>
+        <int_arg_token id="66" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="24" token="Und"/>
+        <ext_arg_token id="25" token="dann"/>
+        <ext_arg_token id="26" token="kommt"/>
+        <ext_arg_token id="27" token="aus"/>
+        <ext_arg_token id="28" token="der"/>
+        <ext_arg_token id="29" token="Tiefe"/>
+        <ext_arg_token id="30" token="solch"/>
+        <ext_arg_token id="31" token="ein"/>
+        <ext_arg_token id="32" token="fulminanter"/>
+        <ext_arg_token id="33" token="Steilpass"/>
+        <ext_arg_token id="34" token=","/>
+        <ext_arg_token id="35" token="von"/>
+        <ext_arg_token id="36" token="dem"/>
+        <ext_arg_token id="37" token="man"/>
+        <ext_arg_token id="38" token="hofft"/>
+        <ext_arg_token id="39" token=","/>
+        <ext_arg_token id="40" token="dass"/>
+        <ext_arg_token id="41" token="die"/>
+        <ext_arg_token id="42" token="Seeburger"/>
+        <ext_arg_token id="43" token="oder"/>
+        <ext_arg_token id="44" token="Groß-Glienicker"/>
+        <ext_arg_token id="45" token="Mitspieler"/>
+        <ext_arg_token id="46" token="ihn"/>
+        <ext_arg_token id="47" token="aufnehmen"/>
+        <ext_arg_token id="48" token="können"/>
+        <ext_arg_token id="49" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="57" token="weil"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="50" token="Ein"/>
+        <ext_arg_token id="51" token="Befreiungsschlag"/>
+        <ext_arg_token id="52" token="ist"/>
+        <ext_arg_token id="53" token="es"/>
+        <ext_arg_token id="54" token="allerdings"/>
+        <ext_arg_token id="55" token="nicht"/>
+        <ext_arg_token id="56" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="58" token="es"/>
+        <int_arg_token id="59" token="vorerst"/>
+        <int_arg_token id="60" token="keine"/>
+        <int_arg_token id="61" token="Gefahr"/>
+        <int_arg_token id="62" token="fürs"/>
+        <int_arg_token id="63" token="Dallgower"/>
+        <int_arg_token id="64" token="Tor"/>
+        <int_arg_token id="65" token="gab"/>
+        <int_arg_token id="66" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Temporal.Asynchronous.Precedence" type="explicit">
+      <connective_tokens>
+        <connective_token id="77" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="67" token="Die"/>
+        <ext_arg_token id="68" token="Seeburger"/>
+        <ext_arg_token id="69" token="und"/>
+        <ext_arg_token id="70" token="einige"/>
+        <ext_arg_token id="71" token="Groß-Glienicker"/>
+        <ext_arg_token id="72" token="haben"/>
+        <ext_arg_token id="73" token="den"/>
+        <ext_arg_token id="74" token="Ball"/>
+        <ext_arg_token id="75" token="erst"/>
+        <ext_arg_token id="76" token="zurückgespielt"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="78" token="dann"/>
+        <int_arg_token id="79" token="um"/>
+        <int_arg_token id="80" token="so"/>
+        <int_arg_token id="81" token="drängender"/>
+        <int_arg_token id="82" token="wieder"/>
+        <int_arg_token id="83" token="gefordert"/>
+        <int_arg_token id="84" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="113" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="96" token="Eine"/>
+        <ext_arg_token id="97" token="Diskussion"/>
+        <ext_arg_token id="98" token=","/>
+        <ext_arg_token id="99" token="wo"/>
+        <ext_arg_token id="100" token="künftig"/>
+        <ext_arg_token id="101" token="die"/>
+        <ext_arg_token id="102" token="Trainerkabine"/>
+        <ext_arg_token id="103" token="stehen"/>
+        <ext_arg_token id="104" token="soll"/>
+        <ext_arg_token id="105" token=","/>
+        <ext_arg_token id="106" token="wäre"/>
+        <ext_arg_token id="107" token="in"/>
+        <ext_arg_token id="108" token="der"/>
+        <ext_arg_token id="109" token="jetzigen"/>
+        <ext_arg_token id="110" token="Spielsituation"/>
+        <ext_arg_token id="111" token="verheerend"/>
+        <ext_arg_token id="112" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="114" token="eine"/>
+        <int_arg_token id="115" token="Parallele"/>
+        <int_arg_token id="116" token="zu"/>
+        <int_arg_token id="117" token="den"/>
+        <int_arg_token id="118" token="deutschen"/>
+        <int_arg_token id="119" token="Grotten-Kickern"/>
+        <int_arg_token id="120" token="gibt"/>
+        <int_arg_token id="121" token="es"/>
+        <int_arg_token id="122" token="immer"/>
+        <int_arg_token id="123" token="noch"/>
+        <int_arg_token id="124" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Comparison.Concession.Arg1-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="125" token="Auch"/>
+        <connective_token id="126" token="wenn"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="127" token="die"/>
+        <int_arg_token id="128" token="Spieler"/>
+        <int_arg_token id="129" token="aus"/>
+        <int_arg_token id="130" token="den"/>
+        <int_arg_token id="131" token="verschiedenen"/>
+        <int_arg_token id="132" token="Vereinen"/>
+        <int_arg_token id="133" token="zusammengewürfelt"/>
+        <int_arg_token id="134" token="sind"/>
+        <int_arg_token id="135" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="136" token="sie"/>
+        <ext_arg_token id="137" token="müssen"/>
+        <ext_arg_token id="138" token="sich"/>
+        <ext_arg_token id="139" token="daran"/>
+        <ext_arg_token id="140" token="gewöhnen"/>
+        <ext_arg_token id="141" token=","/>
+        <ext_arg_token id="142" token="dass"/>
+        <ext_arg_token id="143" token="sie"/>
+        <ext_arg_token id="144" token="nun"/>
+        <ext_arg_token id="145" token="in"/>
+        <ext_arg_token id="146" token="einer"/>
+        <ext_arg_token id="147" token="Mannschaft"/>
+        <ext_arg_token id="148" token="&quot;"/>
+        <ext_arg_token id="149" token="Döberitzer"/>
+        <ext_arg_token id="150" token="Heide"/>
+        <ext_arg_token id="151" token="&quot;"/>
+        <ext_arg_token id="152" token="spielen"/>
+        <ext_arg_token id="153" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="185" token="allerdings"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="162" token="Ermahnungen"/>
+        <ext_arg_token id="163" token="von"/>
+        <ext_arg_token id="164" token="der"/>
+        <ext_arg_token id="165" token="Seitenlinie"/>
+        <ext_arg_token id="166" token=","/>
+        <ext_arg_token id="167" token="miteinander"/>
+        <ext_arg_token id="168" token="fair"/>
+        <ext_arg_token id="169" token="umzugehen"/>
+        <ext_arg_token id="170" token="und"/>
+        <ext_arg_token id="171" token="sich"/>
+        <ext_arg_token id="172" token="nicht"/>
+        <ext_arg_token id="173" token="beim"/>
+        <ext_arg_token id="174" token="kleinsten"/>
+        <ext_arg_token id="175" token="Schubser"/>
+        <ext_arg_token id="176" token="gegenseitig"/>
+        <ext_arg_token id="177" token="zu"/>
+        <ext_arg_token id="178" token="zerfleischen"/>
+        <ext_arg_token id="179" token=","/>
+        <ext_arg_token id="180" token="sind"/>
+        <ext_arg_token id="181" token="normalerweise"/>
+        <ext_arg_token id="182" token="überflüssig"/>
+        <ext_arg_token id="183" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="184" token="Vorerst"/>
+        <int_arg_token id="186" token="hilfreich"/>
+        <int_arg_token id="187" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="154" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="136" token="sie"/>
+        <ext_arg_token id="137" token="müssen"/>
+        <ext_arg_token id="138" token="sich"/>
+        <ext_arg_token id="139" token="daran"/>
+        <ext_arg_token id="140" token="gewöhnen"/>
+        <ext_arg_token id="141" token=","/>
+        <ext_arg_token id="142" token="dass"/>
+        <ext_arg_token id="143" token="sie"/>
+        <ext_arg_token id="144" token="nun"/>
+        <ext_arg_token id="145" token="in"/>
+        <ext_arg_token id="146" token="einer"/>
+        <ext_arg_token id="147" token="Mannschaft"/>
+        <ext_arg_token id="148" token="&quot;"/>
+        <ext_arg_token id="149" token="Döberitzer"/>
+        <ext_arg_token id="150" token="Heide"/>
+        <ext_arg_token id="151" token="&quot;"/>
+        <ext_arg_token id="152" token="spielen"/>
+        <ext_arg_token id="153" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="155" token="das"/>
+        <int_arg_token id="156" token="heißt"/>
+        <int_arg_token id="157" token="gemeinsam"/>
+        <int_arg_token id="158" token="und"/>
+        <int_arg_token id="159" token="nicht"/>
+        <int_arg_token id="160" token="gegeneinander"/>
+        <int_arg_token id="161" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="2" token="Wunder"/>
+        <ext_arg_token id="3" token="gibt"/>
+        <ext_arg_token id="4" token="es"/>
+        <ext_arg_token id="5" token="immer"/>
+        <ext_arg_token id="6" token="wieder"/>
+        <ext_arg_token id="7" token="!"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="8" token="Erst"/>
+        <int_arg_token id="9" token="spielen"/>
+        <int_arg_token id="10" token="die"/>
+        <int_arg_token id="11" token="Dallgower"/>
+        <int_arg_token id="12" token="Gemeindevertreter"/>
+        <int_arg_token id="13" token="so"/>
+        <int_arg_token id="14" token="statisch"/>
+        <int_arg_token id="15" token="und"/>
+        <int_arg_token id="16" token="verzagt"/>
+        <int_arg_token id="17" token="wie"/>
+        <int_arg_token id="18" token="die"/>
+        <int_arg_token id="19" token="deutsche"/>
+        <int_arg_token id="20" token="Abwehrreihe"/>
+        <int_arg_token id="21" token="der"/>
+        <int_arg_token id="22" token="Fußballkicker"/>
+        <int_arg_token id="23" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="50" token="Ein"/>
+        <ext_arg_token id="51" token="Befreiungsschlag"/>
+        <ext_arg_token id="52" token="ist"/>
+        <ext_arg_token id="53" token="es"/>
+        <ext_arg_token id="54" token="allerdings"/>
+        <ext_arg_token id="55" token="nicht"/>
+        <ext_arg_token id="56" token=","/>
+        <ext_arg_token id="57" token="weil"/>
+        <ext_arg_token id="58" token="es"/>
+        <ext_arg_token id="59" token="vorerst"/>
+        <ext_arg_token id="60" token="keine"/>
+        <ext_arg_token id="61" token="Gefahr"/>
+        <ext_arg_token id="62" token="fürs"/>
+        <ext_arg_token id="63" token="Dallgower"/>
+        <ext_arg_token id="64" token="Tor"/>
+        <ext_arg_token id="65" token="gab"/>
+        <ext_arg_token id="66" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="67" token="Die"/>
+        <int_arg_token id="68" token="Seeburger"/>
+        <int_arg_token id="69" token="und"/>
+        <int_arg_token id="70" token="einige"/>
+        <int_arg_token id="71" token="Groß-Glienicker"/>
+        <int_arg_token id="72" token="haben"/>
+        <int_arg_token id="73" token="den"/>
+        <int_arg_token id="74" token="Ball"/>
+        <int_arg_token id="75" token="erst"/>
+        <int_arg_token id="76" token="zurückgespielt"/>
+        <int_arg_token id="77" token="und"/>
+        <int_arg_token id="78" token="dann"/>
+        <int_arg_token id="79" token="um"/>
+        <int_arg_token id="80" token="so"/>
+        <int_arg_token id="81" token="drängender"/>
+        <int_arg_token id="82" token="wieder"/>
+        <int_arg_token id="83" token="gefordert"/>
+        <int_arg_token id="84" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="85" token="Nun"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="67" token="Die"/>
+        <ext_arg_token id="68" token="Seeburger"/>
+        <ext_arg_token id="69" token="und"/>
+        <ext_arg_token id="70" token="einige"/>
+        <ext_arg_token id="71" token="Groß-Glienicker"/>
+        <ext_arg_token id="72" token="haben"/>
+        <ext_arg_token id="73" token="den"/>
+        <ext_arg_token id="74" token="Ball"/>
+        <ext_arg_token id="75" token="erst"/>
+        <ext_arg_token id="76" token="zurückgespielt"/>
+        <ext_arg_token id="77" token="und"/>
+        <ext_arg_token id="78" token="dann"/>
+        <ext_arg_token id="79" token="um"/>
+        <ext_arg_token id="80" token="so"/>
+        <ext_arg_token id="81" token="drängender"/>
+        <ext_arg_token id="82" token="wieder"/>
+        <ext_arg_token id="83" token="gefordert"/>
+        <ext_arg_token id="84" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="85" token="Nun"/>
+        <int_arg_token id="86" token="sollen"/>
+        <int_arg_token id="87" token="sie"/>
+        <int_arg_token id="88" token="zeigen"/>
+        <int_arg_token id="89" token=","/>
+        <int_arg_token id="90" token="wie"/>
+        <int_arg_token id="91" token="sie"/>
+        <int_arg_token id="92" token="die"/>
+        <int_arg_token id="93" token="Chance"/>
+        <int_arg_token id="94" token="verwerten"/>
+        <int_arg_token id="95" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" type="NoRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="85" token="Nun"/>
+        <ext_arg_token id="86" token="sollen"/>
+        <ext_arg_token id="87" token="sie"/>
+        <ext_arg_token id="88" token="zeigen"/>
+        <ext_arg_token id="89" token=","/>
+        <ext_arg_token id="90" token="wie"/>
+        <ext_arg_token id="91" token="sie"/>
+        <ext_arg_token id="92" token="die"/>
+        <ext_arg_token id="93" token="Chance"/>
+        <ext_arg_token id="94" token="verwerten"/>
+        <ext_arg_token id="95" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="96" token="Eine"/>
+        <int_arg_token id="97" token="Diskussion"/>
+        <int_arg_token id="98" token=","/>
+        <int_arg_token id="99" token="wo"/>
+        <int_arg_token id="100" token="künftig"/>
+        <int_arg_token id="101" token="die"/>
+        <int_arg_token id="102" token="Trainerkabine"/>
+        <int_arg_token id="103" token="stehen"/>
+        <int_arg_token id="104" token="soll"/>
+        <int_arg_token id="105" token=","/>
+        <int_arg_token id="106" token="wäre"/>
+        <int_arg_token id="107" token="in"/>
+        <int_arg_token id="108" token="der"/>
+        <int_arg_token id="109" token="jetzigen"/>
+        <int_arg_token id="110" token="Spielsituation"/>
+        <int_arg_token id="111" token="verheerend"/>
+        <int_arg_token id="112" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="113" token="Und"/>
+        <ext_arg_token id="114" token="eine"/>
+        <ext_arg_token id="115" token="Parallele"/>
+        <ext_arg_token id="116" token="zu"/>
+        <ext_arg_token id="117" token="den"/>
+        <ext_arg_token id="118" token="deutschen"/>
+        <ext_arg_token id="119" token="Grotten-Kickern"/>
+        <ext_arg_token id="120" token="gibt"/>
+        <ext_arg_token id="121" token="es"/>
+        <ext_arg_token id="122" token="immer"/>
+        <ext_arg_token id="123" token="noch"/>
+        <ext_arg_token id="124" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="125" token="Auch"/>
+        <int_arg_token id="126" token="wenn"/>
+        <int_arg_token id="127" token="die"/>
+        <int_arg_token id="128" token="Spieler"/>
+        <int_arg_token id="129" token="aus"/>
+        <int_arg_token id="130" token="den"/>
+        <int_arg_token id="131" token="verschiedenen"/>
+        <int_arg_token id="132" token="Vereinen"/>
+        <int_arg_token id="133" token="zusammengewürfelt"/>
+        <int_arg_token id="134" token="sind"/>
+        <int_arg_token id="135" token=","/>
+        <int_arg_token id="136" token="sie"/>
+        <int_arg_token id="137" token="müssen"/>
+        <int_arg_token id="138" token="sich"/>
+        <int_arg_token id="139" token="daran"/>
+        <int_arg_token id="140" token="gewöhnen"/>
+        <int_arg_token id="141" token=","/>
+        <int_arg_token id="142" token="dass"/>
+        <int_arg_token id="143" token="sie"/>
+        <int_arg_token id="144" token="nun"/>
+        <int_arg_token id="145" token="in"/>
+        <int_arg_token id="146" token="einer"/>
+        <int_arg_token id="147" token="Mannschaft"/>
+        <int_arg_token id="148" token="&quot;"/>
+        <int_arg_token id="149" token="Döberitzer"/>
+        <int_arg_token id="150" token="Heide"/>
+        <int_arg_token id="151" token="&quot;"/>
+        <int_arg_token id="152" token="spielen"/>
+        <int_arg_token id="153" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="154" token="Und"/>
+        <ext_arg_token id="155" token="das"/>
+        <ext_arg_token id="156" token="heißt"/>
+        <ext_arg_token id="157" token="gemeinsam"/>
+        <ext_arg_token id="158" token="und"/>
+        <ext_arg_token id="159" token="nicht"/>
+        <ext_arg_token id="160" token="gegeneinander"/>
+        <ext_arg_token id="161" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="162" token="Ermahnungen"/>
+        <int_arg_token id="163" token="von"/>
+        <int_arg_token id="164" token="der"/>
+        <int_arg_token id="165" token="Seitenlinie"/>
+        <int_arg_token id="166" token=","/>
+        <int_arg_token id="167" token="miteinander"/>
+        <int_arg_token id="168" token="fair"/>
+        <int_arg_token id="169" token="umzugehen"/>
+        <int_arg_token id="170" token="und"/>
+        <int_arg_token id="171" token="sich"/>
+        <int_arg_token id="172" token="nicht"/>
+        <int_arg_token id="173" token="beim"/>
+        <int_arg_token id="174" token="kleinsten"/>
+        <int_arg_token id="175" token="Schubser"/>
+        <int_arg_token id="176" token="gegenseitig"/>
+        <int_arg_token id="177" token="zu"/>
+        <int_arg_token id="178" token="zerfleischen"/>
+        <int_arg_token id="179" token=","/>
+        <int_arg_token id="180" token="sind"/>
+        <int_arg_token id="181" token="normalerweise"/>
+        <int_arg_token id="182" token="überflüssig"/>
+        <int_arg_token id="183" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

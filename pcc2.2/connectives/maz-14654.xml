@@ -1,0 +1,711 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Herz-Dame</token>
+    <token id="2">sticht</token>
+    <token id="3">Ein</token>
+    <token id="4">Wahlausgang</token>
+    <token id="5">,</token>
+    <token id="6">der</token>
+    <token id="7">beide</token>
+    <token id="8">Wahlgegner</token>
+    <token id="9">zufrieden</token>
+    <token id="10">stellt</token>
+    <token id="11">-</token>
+    <token id="12">das</token>
+    <token id="13">ist</token>
+    <token id="14">eine</token>
+    <token id="15">Seltenheit</token>
+    <token id="16">!</token>
+    <token id="17">Doch</token>
+    <token id="18">am</token>
+    <token id="19">gestrigen</token>
+    <token id="20">Abend</token>
+    <token id="21">zeigten</token>
+    <token id="22">sich</token>
+    <token id="23">beide</token>
+    <token id="24">Bürgermeisterkandidaten</token>
+    <token id="25">durchaus</token>
+    <token id="26">zufrieden</token>
+    <token id="27">.</token>
+    <token id="28">Elisabeth</token>
+    <token id="29">Herzog-von_der_Heide</token>
+    <token id="30">(</token>
+    <token id="31">SPD</token>
+    <token id="32">)</token>
+    <token id="33">freute</token>
+    <token id="34">sich</token>
+    <token id="35">über</token>
+    <token id="36">das</token>
+    <token id="37">Wahlergebnis</token>
+    <token id="38">,</token>
+    <token id="39">das</token>
+    <token id="40">ihr</token>
+    <token id="41">mehr</token>
+    <token id="42">als</token>
+    <token id="43">60</token>
+    <token id="44">Prozent</token>
+    <token id="45">einbrachte</token>
+    <token id="46">,</token>
+    <token id="47">und</token>
+    <token id="48">Hans-Jürgen</token>
+    <token id="49">Akuloff</token>
+    <token id="50">(</token>
+    <token id="51">PDS</token>
+    <token id="52">)</token>
+    <token id="53">war</token>
+    <token id="54">'s</token>
+    <token id="55">zufrieden</token>
+    <token id="56">,</token>
+    <token id="57">dass</token>
+    <token id="58">er</token>
+    <token id="59">das</token>
+    <token id="60">bisher</token>
+    <token id="61">beste</token>
+    <token id="62">Ergebnis</token>
+    <token id="63">für</token>
+    <token id="64">die</token>
+    <token id="65">PDS</token>
+    <token id="66">einfuhr</token>
+    <token id="67">.</token>
+    <token id="68">Das</token>
+    <token id="69">war</token>
+    <token id="70">natürlich</token>
+    <token id="71">um</token>
+    <token id="72">so</token>
+    <token id="73">leichter</token>
+    <token id="74">,</token>
+    <token id="75">da</token>
+    <token id="76">es</token>
+    <token id="77">diesmal</token>
+    <token id="78">nur</token>
+    <token id="79">einen</token>
+    <token id="80">Gegenkandidaten</token>
+    <token id="81">gab</token>
+    <token id="82">.</token>
+    <token id="83">Die</token>
+    <token id="84">Parteienlandschaft</token>
+    <token id="85">in</token>
+    <token id="86">Luckenwalde</token>
+    <token id="87">ist</token>
+    <token id="88">natürlich</token>
+    <token id="89">nach</token>
+    <token id="90">wie</token>
+    <token id="91">vor</token>
+    <token id="92">breiter</token>
+    <token id="93">gefächert</token>
+    <token id="94">.</token>
+    <token id="95">Deshalb</token>
+    <token id="96">brauchen</token>
+    <token id="97">jetzt</token>
+    <token id="98">weder</token>
+    <token id="99">SPD-</token>
+    <token id="100">noch</token>
+    <token id="101">PDS-Anhänger</token>
+    <token id="102">einen</token>
+    <token id="103">Höhenflug</token>
+    <token id="104">zu</token>
+    <token id="105">bekommen</token>
+    <token id="106">.</token>
+    <token id="107">Der</token>
+    <token id="108">gestrige</token>
+    <token id="109">Wahlausgang</token>
+    <token id="110">ist</token>
+    <token id="111">das</token>
+    <token id="112">persönliche</token>
+    <token id="113">Ergebnis</token>
+    <token id="114">der</token>
+    <token id="115">beiden</token>
+    <token id="116">Kandidaten</token>
+    <token id="117">,</token>
+    <token id="118">nachdem</token>
+    <token id="119">sie</token>
+    <token id="120">einen</token>
+    <token id="121">dritten</token>
+    <token id="122">im</token>
+    <token id="123">ersten</token>
+    <token id="124">Wahlgang</token>
+    <token id="125">ausgestochen</token>
+    <token id="126">hatten</token>
+    <token id="127">.</token>
+    <token id="128">Mehr</token>
+    <token id="129">nicht</token>
+    <token id="130">und</token>
+    <token id="131">auch</token>
+    <token id="132">nicht</token>
+    <token id="133">weniger</token>
+    <token id="134">.</token>
+    <token id="135">Nach</token>
+    <token id="136">der</token>
+    <token id="137">ersten</token>
+    <token id="138">"</token>
+    <token id="139">Skat-Runde</token>
+    <token id="140">"</token>
+    <token id="141">hat</token>
+    <token id="142">dann</token>
+    <token id="143">in</token>
+    <token id="144">der</token>
+    <token id="145">zweiten</token>
+    <token id="146">"</token>
+    <token id="147">Mau-Mau-Runde</token>
+    <token id="148">"</token>
+    <token id="149">Herz-Dame</token>
+    <token id="150">Herzog</token>
+    <token id="151">gestochen</token>
+    <token id="152">.</token>
+    <token id="153">Kein</token>
+    <token id="154">überraschendes</token>
+    <token id="155">,</token>
+    <token id="156">auch</token>
+    <token id="157">kein</token>
+    <token id="158">wahnsinnig</token>
+    <token id="159">überragendes</token>
+    <token id="160">,</token>
+    <token id="161">aber</token>
+    <token id="162">ein</token>
+    <token id="163">deutliches</token>
+    <token id="164">Stichwahl-Ergebnis</token>
+    <token id="165">.</token>
+    <token id="166">Die</token>
+    <token id="167">extreme</token>
+    <token id="168">Spannung</token>
+    <token id="169">war</token>
+    <token id="170">sowieso</token>
+    <token id="171">raus</token>
+    <token id="172">,</token>
+    <token id="173">denn</token>
+    <token id="174">die</token>
+    <token id="175">erste</token>
+    <token id="176">Wahl</token>
+    <token id="177">hatte</token>
+    <token id="178">sowieso</token>
+    <token id="179">die</token>
+    <token id="180">Vorentscheidung</token>
+    <token id="181">gebracht</token>
+    <token id="182">,</token>
+    <token id="183">die</token>
+    <token id="184">jetzt</token>
+    <token id="185">durch</token>
+    <token id="186">die</token>
+    <token id="187">Stichwahl</token>
+    <token id="188">nur</token>
+    <token id="189">noch</token>
+    <token id="190">bestätigt</token>
+    <token id="191">wurde</token>
+    <token id="192">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="17" token="Doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Ein"/>
+        <ext_arg_token id="4" token="Wahlausgang"/>
+        <ext_arg_token id="5" token=","/>
+        <ext_arg_token id="6" token="der"/>
+        <ext_arg_token id="7" token="beide"/>
+        <ext_arg_token id="8" token="Wahlgegner"/>
+        <ext_arg_token id="9" token="zufrieden"/>
+        <ext_arg_token id="10" token="stellt"/>
+        <ext_arg_token id="11" token="-"/>
+        <ext_arg_token id="12" token="das"/>
+        <ext_arg_token id="13" token="ist"/>
+        <ext_arg_token id="14" token="eine"/>
+        <ext_arg_token id="15" token="Seltenheit"/>
+        <ext_arg_token id="16" token="!"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="18" token="am"/>
+        <int_arg_token id="19" token="gestrigen"/>
+        <int_arg_token id="20" token="Abend"/>
+        <int_arg_token id="21" token="zeigten"/>
+        <int_arg_token id="22" token="sich"/>
+        <int_arg_token id="23" token="beide"/>
+        <int_arg_token id="24" token="Bürgermeisterkandidaten"/>
+        <int_arg_token id="25" token="durchaus"/>
+        <int_arg_token id="26" token="zufrieden"/>
+        <int_arg_token id="27" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="47" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="28" token="Elisabeth"/>
+        <ext_arg_token id="29" token="Herzog-von_der_Heide"/>
+        <ext_arg_token id="30" token="("/>
+        <ext_arg_token id="31" token="SPD"/>
+        <ext_arg_token id="32" token=")"/>
+        <ext_arg_token id="33" token="freute"/>
+        <ext_arg_token id="34" token="sich"/>
+        <ext_arg_token id="35" token="über"/>
+        <ext_arg_token id="36" token="das"/>
+        <ext_arg_token id="37" token="Wahlergebnis"/>
+        <ext_arg_token id="38" token=","/>
+        <ext_arg_token id="39" token="das"/>
+        <ext_arg_token id="40" token="ihr"/>
+        <ext_arg_token id="41" token="mehr"/>
+        <ext_arg_token id="42" token="als"/>
+        <ext_arg_token id="43" token="60"/>
+        <ext_arg_token id="44" token="Prozent"/>
+        <ext_arg_token id="45" token="einbrachte"/>
+        <ext_arg_token id="46" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="48" token="Hans-Jürgen"/>
+        <int_arg_token id="49" token="Akuloff"/>
+        <int_arg_token id="50" token="("/>
+        <int_arg_token id="51" token="PDS"/>
+        <int_arg_token id="52" token=")"/>
+        <int_arg_token id="53" token="war"/>
+        <int_arg_token id="54" token="'s"/>
+        <int_arg_token id="55" token="zufrieden"/>
+        <int_arg_token id="56" token=","/>
+        <int_arg_token id="57" token="dass"/>
+        <int_arg_token id="58" token="er"/>
+        <int_arg_token id="59" token="das"/>
+        <int_arg_token id="60" token="bisher"/>
+        <int_arg_token id="61" token="beste"/>
+        <int_arg_token id="62" token="Ergebnis"/>
+        <int_arg_token id="63" token="für"/>
+        <int_arg_token id="64" token="die"/>
+        <int_arg_token id="65" token="PDS"/>
+        <int_arg_token id="66" token="einfuhr"/>
+        <int_arg_token id="67" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="75" token="da"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="68" token="Das"/>
+        <ext_arg_token id="69" token="war"/>
+        <ext_arg_token id="70" token="natürlich"/>
+        <ext_arg_token id="71" token="um"/>
+        <ext_arg_token id="72" token="so"/>
+        <ext_arg_token id="73" token="leichter"/>
+        <ext_arg_token id="74" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="76" token="es"/>
+        <int_arg_token id="77" token="diesmal"/>
+        <int_arg_token id="78" token="nur"/>
+        <int_arg_token id="79" token="einen"/>
+        <int_arg_token id="80" token="Gegenkandidaten"/>
+        <int_arg_token id="81" token="gab"/>
+        <int_arg_token id="82" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="95" token="Deshalb"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="83" token="Die"/>
+        <ext_arg_token id="84" token="Parteienlandschaft"/>
+        <ext_arg_token id="85" token="in"/>
+        <ext_arg_token id="86" token="Luckenwalde"/>
+        <ext_arg_token id="87" token="ist"/>
+        <ext_arg_token id="88" token="natürlich"/>
+        <ext_arg_token id="89" token="nach"/>
+        <ext_arg_token id="90" token="wie"/>
+        <ext_arg_token id="91" token="vor"/>
+        <ext_arg_token id="92" token="breiter"/>
+        <ext_arg_token id="93" token="gefächert"/>
+        <ext_arg_token id="94" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="96" token="brauchen"/>
+        <int_arg_token id="97" token="jetzt"/>
+        <int_arg_token id="98" token="weder"/>
+        <int_arg_token id="99" token="SPD-"/>
+        <int_arg_token id="100" token="noch"/>
+        <int_arg_token id="101" token="PDS-Anhänger"/>
+        <int_arg_token id="102" token="einen"/>
+        <int_arg_token id="103" token="Höhenflug"/>
+        <int_arg_token id="104" token="zu"/>
+        <int_arg_token id="105" token="bekommen"/>
+        <int_arg_token id="106" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Temporal.Asynchronous.Succession" type="explicit">
+      <connective_tokens>
+        <connective_token id="118" token="nachdem"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="107" token="Der"/>
+        <ext_arg_token id="108" token="gestrige"/>
+        <ext_arg_token id="109" token="Wahlausgang"/>
+        <ext_arg_token id="110" token="ist"/>
+        <ext_arg_token id="111" token="das"/>
+        <ext_arg_token id="112" token="persönliche"/>
+        <ext_arg_token id="113" token="Ergebnis"/>
+        <ext_arg_token id="114" token="der"/>
+        <ext_arg_token id="115" token="beiden"/>
+        <ext_arg_token id="116" token="Kandidaten"/>
+        <ext_arg_token id="117" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="119" token="sie"/>
+        <int_arg_token id="120" token="einen"/>
+        <int_arg_token id="121" token="dritten"/>
+        <int_arg_token id="122" token="im"/>
+        <int_arg_token id="123" token="ersten"/>
+        <int_arg_token id="124" token="Wahlgang"/>
+        <int_arg_token id="125" token="ausgestochen"/>
+        <int_arg_token id="126" token="hatten"/>
+        <int_arg_token id="127" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Temporal.Asynchronous.Precedence" type="explicit">
+      <connective_tokens>
+        <connective_token id="142" token="dann"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="135" token="Nach"/>
+        <ext_arg_token id="136" token="der"/>
+        <ext_arg_token id="137" token="ersten"/>
+        <ext_arg_token id="138" token="&quot;"/>
+        <ext_arg_token id="139" token="Skat-Runde"/>
+        <ext_arg_token id="140" token="&quot;"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="141" token="hat"/>
+        <int_arg_token id="143" token="in"/>
+        <int_arg_token id="144" token="der"/>
+        <int_arg_token id="145" token="zweiten"/>
+        <int_arg_token id="146" token="&quot;"/>
+        <int_arg_token id="147" token="Mau-Mau-Runde"/>
+        <int_arg_token id="148" token="&quot;"/>
+        <int_arg_token id="149" token="Herz-Dame"/>
+        <int_arg_token id="150" token="Herzog"/>
+        <int_arg_token id="151" token="gestochen"/>
+        <int_arg_token id="152" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="161" token="aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="153" token="Kein"/>
+        <ext_arg_token id="154" token="überraschendes"/>
+        <ext_arg_token id="155" token=","/>
+        <ext_arg_token id="156" token="auch"/>
+        <ext_arg_token id="157" token="kein"/>
+        <ext_arg_token id="158" token="wahnsinnig"/>
+        <ext_arg_token id="159" token="überragendes"/>
+        <ext_arg_token id="160" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="162" token="ein"/>
+        <int_arg_token id="163" token="deutliches"/>
+        <int_arg_token id="164" token="Stichwahl-Ergebnis"/>
+        <int_arg_token id="165" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="173" token="denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="166" token="Die"/>
+        <ext_arg_token id="167" token="extreme"/>
+        <ext_arg_token id="168" token="Spannung"/>
+        <ext_arg_token id="169" token="war"/>
+        <ext_arg_token id="170" token="sowieso"/>
+        <ext_arg_token id="171" token="raus"/>
+        <ext_arg_token id="172" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="174" token="die"/>
+        <int_arg_token id="175" token="erste"/>
+        <int_arg_token id="176" token="Wahl"/>
+        <int_arg_token id="177" token="hatte"/>
+        <int_arg_token id="178" token="sowieso"/>
+        <int_arg_token id="179" token="die"/>
+        <int_arg_token id="180" token="Vorentscheidung"/>
+        <int_arg_token id="181" token="gebracht"/>
+        <int_arg_token id="182" token=","/>
+        <int_arg_token id="183" token="die"/>
+        <int_arg_token id="184" token="jetzt"/>
+        <int_arg_token id="185" token="durch"/>
+        <int_arg_token id="186" token="die"/>
+        <int_arg_token id="187" token="Stichwahl"/>
+        <int_arg_token id="188" token="nur"/>
+        <int_arg_token id="189" token="noch"/>
+        <int_arg_token id="190" token="bestätigt"/>
+        <int_arg_token id="191" token="wurde"/>
+        <int_arg_token id="192" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>genauer gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="17" token="Doch"/>
+        <ext_arg_token id="18" token="am"/>
+        <ext_arg_token id="19" token="gestrigen"/>
+        <ext_arg_token id="20" token="Abend"/>
+        <ext_arg_token id="21" token="zeigten"/>
+        <ext_arg_token id="22" token="sich"/>
+        <ext_arg_token id="23" token="beide"/>
+        <ext_arg_token id="24" token="Bürgermeisterkandidaten"/>
+        <ext_arg_token id="25" token="durchaus"/>
+        <ext_arg_token id="26" token="zufrieden"/>
+        <ext_arg_token id="27" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="28" token="Elisabeth"/>
+        <int_arg_token id="29" token="Herzog-von_der_Heide"/>
+        <int_arg_token id="30" token="("/>
+        <int_arg_token id="31" token="SPD"/>
+        <int_arg_token id="32" token=")"/>
+        <int_arg_token id="33" token="freute"/>
+        <int_arg_token id="34" token="sich"/>
+        <int_arg_token id="35" token="über"/>
+        <int_arg_token id="36" token="das"/>
+        <int_arg_token id="37" token="Wahlergebnis"/>
+        <int_arg_token id="38" token=","/>
+        <int_arg_token id="39" token="das"/>
+        <int_arg_token id="40" token="ihr"/>
+        <int_arg_token id="41" token="mehr"/>
+        <int_arg_token id="42" token="als"/>
+        <int_arg_token id="43" token="60"/>
+        <int_arg_token id="44" token="Prozent"/>
+        <int_arg_token id="45" token="einbrachte"/>
+        <int_arg_token id="46" token=","/>
+        <int_arg_token id="47" token="und"/>
+        <int_arg_token id="48" token="Hans-Jürgen"/>
+        <int_arg_token id="49" token="Akuloff"/>
+        <int_arg_token id="50" token="("/>
+        <int_arg_token id="51" token="PDS"/>
+        <int_arg_token id="52" token=")"/>
+        <int_arg_token id="53" token="war"/>
+        <int_arg_token id="54" token="'s"/>
+        <int_arg_token id="55" token="zufrieden"/>
+        <int_arg_token id="56" token=","/>
+        <int_arg_token id="57" token="dass"/>
+        <int_arg_token id="58" token="er"/>
+        <int_arg_token id="59" token="das"/>
+        <int_arg_token id="60" token="bisher"/>
+        <int_arg_token id="61" token="beste"/>
+        <int_arg_token id="62" token="Ergebnis"/>
+        <int_arg_token id="63" token="für"/>
+        <int_arg_token id="64" token="die"/>
+        <int_arg_token id="65" token="PDS"/>
+        <int_arg_token id="66" token="einfuhr"/>
+        <int_arg_token id="67" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Comparison.Contrast" type="implicit">
+      <connective_tokens>
+        <implicit_connective>hingegen</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="68" token="Das"/>
+        <ext_arg_token id="69" token="war"/>
+        <ext_arg_token id="70" token="natürlich"/>
+        <ext_arg_token id="71" token="um"/>
+        <ext_arg_token id="72" token="so"/>
+        <ext_arg_token id="73" token="leichter"/>
+        <ext_arg_token id="74" token=","/>
+        <ext_arg_token id="75" token="da"/>
+        <ext_arg_token id="76" token="es"/>
+        <ext_arg_token id="77" token="diesmal"/>
+        <ext_arg_token id="78" token="nur"/>
+        <ext_arg_token id="79" token="einen"/>
+        <ext_arg_token id="80" token="Gegenkandidaten"/>
+        <ext_arg_token id="81" token="gab"/>
+        <ext_arg_token id="82" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="83" token="Die"/>
+        <int_arg_token id="84" token="Parteienlandschaft"/>
+        <int_arg_token id="85" token="in"/>
+        <int_arg_token id="86" token="Luckenwalde"/>
+        <int_arg_token id="87" token="ist"/>
+        <int_arg_token id="88" token="natürlich"/>
+        <int_arg_token id="89" token="nach"/>
+        <int_arg_token id="90" token="wie"/>
+        <int_arg_token id="91" token="vor"/>
+        <int_arg_token id="92" token="breiter"/>
+        <int_arg_token id="93" token="gefächert"/>
+        <int_arg_token id="94" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="95" token="Deshalb"/>
+        <ext_arg_token id="96" token="brauchen"/>
+        <ext_arg_token id="97" token="jetzt"/>
+        <ext_arg_token id="98" token="weder"/>
+        <ext_arg_token id="99" token="SPD-"/>
+        <ext_arg_token id="100" token="noch"/>
+        <ext_arg_token id="101" token="PDS-Anhänger"/>
+        <ext_arg_token id="102" token="einen"/>
+        <ext_arg_token id="103" token="Höhenflug"/>
+        <ext_arg_token id="104" token="zu"/>
+        <ext_arg_token id="105" token="bekommen"/>
+        <ext_arg_token id="106" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="107" token="Der"/>
+        <int_arg_token id="108" token="gestrige"/>
+        <int_arg_token id="109" token="Wahlausgang"/>
+        <int_arg_token id="110" token="ist"/>
+        <int_arg_token id="111" token="das"/>
+        <int_arg_token id="112" token="persönliche"/>
+        <int_arg_token id="113" token="Ergebnis"/>
+        <int_arg_token id="114" token="der"/>
+        <int_arg_token id="115" token="beiden"/>
+        <int_arg_token id="116" token="Kandidaten"/>
+        <int_arg_token id="117" token=","/>
+        <int_arg_token id="118" token="nachdem"/>
+        <int_arg_token id="119" token="sie"/>
+        <int_arg_token id="120" token="einen"/>
+        <int_arg_token id="121" token="dritten"/>
+        <int_arg_token id="122" token="im"/>
+        <int_arg_token id="123" token="ersten"/>
+        <int_arg_token id="124" token="Wahlgang"/>
+        <int_arg_token id="125" token="ausgestochen"/>
+        <int_arg_token id="126" token="hatten"/>
+        <int_arg_token id="127" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="20" pdtb3_sense="Expansion.Level-of-detail.Arg1-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>kurz gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="107" token="Der"/>
+        <ext_arg_token id="108" token="gestrige"/>
+        <ext_arg_token id="109" token="Wahlausgang"/>
+        <ext_arg_token id="110" token="ist"/>
+        <ext_arg_token id="111" token="das"/>
+        <ext_arg_token id="112" token="persönliche"/>
+        <ext_arg_token id="113" token="Ergebnis"/>
+        <ext_arg_token id="114" token="der"/>
+        <ext_arg_token id="115" token="beiden"/>
+        <ext_arg_token id="116" token="Kandidaten"/>
+        <ext_arg_token id="117" token=","/>
+        <ext_arg_token id="118" token="nachdem"/>
+        <ext_arg_token id="119" token="sie"/>
+        <ext_arg_token id="120" token="einen"/>
+        <ext_arg_token id="121" token="dritten"/>
+        <ext_arg_token id="122" token="im"/>
+        <ext_arg_token id="123" token="ersten"/>
+        <ext_arg_token id="124" token="Wahlgang"/>
+        <ext_arg_token id="125" token="ausgestochen"/>
+        <ext_arg_token id="126" token="hatten"/>
+        <ext_arg_token id="127" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="128" token="Mehr"/>
+        <int_arg_token id="129" token="nicht"/>
+        <int_arg_token id="130" token="und"/>
+        <int_arg_token id="131" token="auch"/>
+        <int_arg_token id="132" token="nicht"/>
+        <int_arg_token id="133" token="weniger"/>
+        <int_arg_token id="134" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="21" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="135" token="Nach"/>
+        <ext_arg_token id="136" token="der"/>
+        <ext_arg_token id="137" token="ersten"/>
+        <ext_arg_token id="138" token="&quot;"/>
+        <ext_arg_token id="139" token="Skat-Runde"/>
+        <ext_arg_token id="140" token="&quot;"/>
+        <ext_arg_token id="141" token="hat"/>
+        <ext_arg_token id="142" token="dann"/>
+        <ext_arg_token id="143" token="in"/>
+        <ext_arg_token id="144" token="der"/>
+        <ext_arg_token id="145" token="zweiten"/>
+        <ext_arg_token id="146" token="&quot;"/>
+        <ext_arg_token id="147" token="Mau-Mau-Runde"/>
+        <ext_arg_token id="148" token="&quot;"/>
+        <ext_arg_token id="149" token="Herz-Dame"/>
+        <ext_arg_token id="150" token="Herzog"/>
+        <ext_arg_token id="151" token="gestochen"/>
+        <ext_arg_token id="152" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="153" token="Kein"/>
+        <int_arg_token id="154" token="überraschendes"/>
+        <int_arg_token id="155" token=","/>
+        <int_arg_token id="156" token="auch"/>
+        <int_arg_token id="157" token="kein"/>
+        <int_arg_token id="158" token="wahnsinnig"/>
+        <int_arg_token id="159" token="überragendes"/>
+        <int_arg_token id="160" token=","/>
+        <int_arg_token id="161" token="aber"/>
+        <int_arg_token id="162" token="ein"/>
+        <int_arg_token id="163" token="deutliches"/>
+        <int_arg_token id="164" token="Stichwahl-Ergebnis"/>
+        <int_arg_token id="165" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="22" pdtb3_sense="Expansion.Equivalence" type="implicit">
+      <connective_tokens>
+        <implicit_connective>anders gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="153" token="Kein"/>
+        <ext_arg_token id="154" token="überraschendes"/>
+        <ext_arg_token id="155" token=","/>
+        <ext_arg_token id="156" token="auch"/>
+        <ext_arg_token id="157" token="kein"/>
+        <ext_arg_token id="158" token="wahnsinnig"/>
+        <ext_arg_token id="159" token="überragendes"/>
+        <ext_arg_token id="160" token=","/>
+        <ext_arg_token id="161" token="aber"/>
+        <ext_arg_token id="162" token="ein"/>
+        <ext_arg_token id="163" token="deutliches"/>
+        <ext_arg_token id="164" token="Stichwahl-Ergebnis"/>
+        <ext_arg_token id="165" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="166" token="Die"/>
+        <int_arg_token id="167" token="extreme"/>
+        <int_arg_token id="168" token="Spannung"/>
+        <int_arg_token id="169" token="war"/>
+        <int_arg_token id="170" token="sowieso"/>
+        <int_arg_token id="171" token="raus"/>
+        <int_arg_token id="172" token=","/>
+        <int_arg_token id="173" token="denn"/>
+        <int_arg_token id="174" token="die"/>
+        <int_arg_token id="175" token="erste"/>
+        <int_arg_token id="176" token="Wahl"/>
+        <int_arg_token id="177" token="hatte"/>
+        <int_arg_token id="178" token="sowieso"/>
+        <int_arg_token id="179" token="die"/>
+        <int_arg_token id="180" token="Vorentscheidung"/>
+        <int_arg_token id="181" token="gebracht"/>
+        <int_arg_token id="182" token=","/>
+        <int_arg_token id="183" token="die"/>
+        <int_arg_token id="184" token="jetzt"/>
+        <int_arg_token id="185" token="durch"/>
+        <int_arg_token id="186" token="die"/>
+        <int_arg_token id="187" token="Stichwahl"/>
+        <int_arg_token id="188" token="nur"/>
+        <int_arg_token id="189" token="noch"/>
+        <int_arg_token id="190" token="bestätigt"/>
+        <int_arg_token id="191" token="wurde"/>
+        <int_arg_token id="192" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

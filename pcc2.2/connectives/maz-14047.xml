@@ -1,0 +1,763 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Zuschlag</token>
+    <token id="2">für</token>
+    <token id="3">den</token>
+    <token id="4">Besseren</token>
+    <token id="5">Die</token>
+    <token id="6">Anhörung</token>
+    <token id="7">zur</token>
+    <token id="8">Zukunft</token>
+    <token id="9">des</token>
+    <token id="10">Paracelsus-Krankenhauses</token>
+    <token id="11">ist</token>
+    <token id="12">vorbei</token>
+    <token id="13">.</token>
+    <token id="14">Die</token>
+    <token id="15">Kreistagsabgeordneten</token>
+    <token id="16">im</token>
+    <token id="17">Kreis-</token>
+    <token id="18">und</token>
+    <token id="19">Krankenhausausschuss</token>
+    <token id="20">haben</token>
+    <token id="21">viele</token>
+    <token id="22">Argumente</token>
+    <token id="23">gehört</token>
+    <token id="24">und</token>
+    <token id="25">müssen</token>
+    <token id="26">sich</token>
+    <token id="27">nun</token>
+    <token id="28">entscheiden</token>
+    <token id="29">.</token>
+    <token id="30">Landrat</token>
+    <token id="31">Burkhard</token>
+    <token id="32">Schröder</token>
+    <token id="33">hat</token>
+    <token id="34">bereits</token>
+    <token id="35">angedeutet</token>
+    <token id="36">,</token>
+    <token id="37">dass</token>
+    <token id="38">er</token>
+    <token id="39">diese</token>
+    <token id="40">Entscheidungen</token>
+    <token id="41">den</token>
+    <token id="42">Mitgliedern</token>
+    <token id="43">des</token>
+    <token id="44">Kreistages</token>
+    <token id="45">überlassen</token>
+    <token id="46">will</token>
+    <token id="47">.</token>
+    <token id="48">So</token>
+    <token id="49">darf</token>
+    <token id="50">man</token>
+    <token id="51">auf</token>
+    <token id="52">die</token>
+    <token id="53">Vorlage</token>
+    <token id="54">aus</token>
+    <token id="55">der</token>
+    <token id="56">Kreisverwaltung</token>
+    <token id="57">gespannt</token>
+    <token id="58">sein</token>
+    <token id="59">.</token>
+    <token id="60">Es</token>
+    <token id="61">gibt</token>
+    <token id="62">zwei</token>
+    <token id="63">Möglichkeiten</token>
+    <token id="64">:</token>
+    <token id="65">Entweder</token>
+    <token id="66">das</token>
+    <token id="67">Paracelsus-Krankenhaus</token>
+    <token id="68">bildet</token>
+    <token id="69">einen</token>
+    <token id="70">regionalen</token>
+    <token id="71">Klinikverbund</token>
+    <token id="72">mit</token>
+    <token id="73">der</token>
+    <token id="74">Nauener</token>
+    <token id="75">Havellandklinik</token>
+    <token id="76">unter</token>
+    <token id="77">dem</token>
+    <token id="78">Dach</token>
+    <token id="79">einer</token>
+    <token id="80">kreiseigenen</token>
+    <token id="81">GmbH</token>
+    <token id="82">oder</token>
+    <token id="83">das</token>
+    <token id="84">Rathenower</token>
+    <token id="85">Krankenhaus</token>
+    <token id="86">wird</token>
+    <token id="87">an</token>
+    <token id="88">einen</token>
+    <token id="89">Freien</token>
+    <token id="90">Träger</token>
+    <token id="91">abgegeben</token>
+    <token id="92">.</token>
+    <token id="93">Will</token>
+    <token id="94">der</token>
+    <token id="95">Kreistag</token>
+    <token id="96">auch</token>
+    <token id="97">in</token>
+    <token id="98">Rathenow</token>
+    <token id="99">seinen</token>
+    <token id="100">Einfluss</token>
+    <token id="101">auf</token>
+    <token id="102">die</token>
+    <token id="103">Krankenhausentwicklung</token>
+    <token id="104">behalten</token>
+    <token id="105">,</token>
+    <token id="106">wird</token>
+    <token id="107">er</token>
+    <token id="108">sich</token>
+    <token id="109">kaum</token>
+    <token id="110">für</token>
+    <token id="111">einen</token>
+    <token id="112">Freien</token>
+    <token id="113">Träger</token>
+    <token id="114">entscheiden</token>
+    <token id="115">können</token>
+    <token id="116">.</token>
+    <token id="117">Doch</token>
+    <token id="118">das</token>
+    <token id="119">allein</token>
+    <token id="120">darf</token>
+    <token id="121">nicht</token>
+    <token id="122">Grundlage</token>
+    <token id="123">für</token>
+    <token id="124">diesen</token>
+    <token id="125">wichtigen</token>
+    <token id="126">Beschluss</token>
+    <token id="127">sein</token>
+    <token id="128">.</token>
+    <token id="129">Das</token>
+    <token id="130">Krankenhaus</token>
+    <token id="131">soll</token>
+    <token id="132">der</token>
+    <token id="133">bekommen</token>
+    <token id="134">,</token>
+    <token id="135">der</token>
+    <token id="136">die</token>
+    <token id="137">wohnortnahe</token>
+    <token id="138">Versorgung</token>
+    <token id="139">von</token>
+    <token id="140">Patienten</token>
+    <token id="141">in</token>
+    <token id="142">Rathenow</token>
+    <token id="143">sicherstellen</token>
+    <token id="144">kann</token>
+    <token id="145">und</token>
+    <token id="146">darüberhinaus</token>
+    <token id="147">die</token>
+    <token id="148">betriebswirtschaftliche</token>
+    <token id="149">und</token>
+    <token id="150">medizinische</token>
+    <token id="151">Qualität</token>
+    <token id="152">des</token>
+    <token id="153">Paracelsus-Krankenhauses</token>
+    <token id="154">nicht</token>
+    <token id="155">nur</token>
+    <token id="156">erhält</token>
+    <token id="157">sondern</token>
+    <token id="158">stabilisiert</token>
+    <token id="159">.</token>
+    <token id="160">Wenn</token>
+    <token id="161">ein</token>
+    <token id="162">Freier</token>
+    <token id="163">Träger</token>
+    <token id="164">das</token>
+    <token id="165">besser</token>
+    <token id="166">kann</token>
+    <token id="167">als</token>
+    <token id="168">eine</token>
+    <token id="169">Kreis-GmbH</token>
+    <token id="170">,</token>
+    <token id="171">dann</token>
+    <token id="172">soll</token>
+    <token id="173">er</token>
+    <token id="174">das</token>
+    <token id="175">Krankenhaus</token>
+    <token id="176">haben</token>
+    <token id="177">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="3" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="24" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="14" token="Die"/>
+        <ext_arg_token id="15" token="Kreistagsabgeordneten"/>
+        <ext_arg_token id="16" token="im"/>
+        <ext_arg_token id="17" token="Kreis-"/>
+        <ext_arg_token id="18" token="und"/>
+        <ext_arg_token id="19" token="Krankenhausausschuss"/>
+        <ext_arg_token id="20" token="haben"/>
+        <ext_arg_token id="21" token="viele"/>
+        <ext_arg_token id="22" token="Argumente"/>
+        <ext_arg_token id="23" token="gehört"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="25" token="müssen"/>
+        <int_arg_token id="26" token="sich"/>
+        <int_arg_token id="27" token="nun"/>
+        <int_arg_token id="28" token="entscheiden"/>
+        <int_arg_token id="29" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="48" token="So"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="30" token="Landrat"/>
+        <ext_arg_token id="31" token="Burkhard"/>
+        <ext_arg_token id="32" token="Schröder"/>
+        <ext_arg_token id="33" token="hat"/>
+        <ext_arg_token id="34" token="bereits"/>
+        <ext_arg_token id="35" token="angedeutet"/>
+        <ext_arg_token id="36" token=","/>
+        <ext_arg_token id="37" token="dass"/>
+        <ext_arg_token id="38" token="er"/>
+        <ext_arg_token id="39" token="diese"/>
+        <ext_arg_token id="40" token="Entscheidungen"/>
+        <ext_arg_token id="41" token="den"/>
+        <ext_arg_token id="42" token="Mitgliedern"/>
+        <ext_arg_token id="43" token="des"/>
+        <ext_arg_token id="44" token="Kreistages"/>
+        <ext_arg_token id="45" token="überlassen"/>
+        <ext_arg_token id="46" token="will"/>
+        <ext_arg_token id="47" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="49" token="darf"/>
+        <int_arg_token id="50" token="man"/>
+        <int_arg_token id="51" token="auf"/>
+        <int_arg_token id="52" token="die"/>
+        <int_arg_token id="53" token="Vorlage"/>
+        <int_arg_token id="54" token="aus"/>
+        <int_arg_token id="55" token="der"/>
+        <int_arg_token id="56" token="Kreisverwaltung"/>
+        <int_arg_token id="57" token="gespannt"/>
+        <int_arg_token id="58" token="sein"/>
+        <int_arg_token id="59" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Expansion.Disjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="65" token="Entweder"/>
+        <connective_token id="82" token="oder"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="83" token="das"/>
+        <int_arg_token id="84" token="Rathenower"/>
+        <int_arg_token id="85" token="Krankenhaus"/>
+        <int_arg_token id="86" token="wird"/>
+        <int_arg_token id="87" token="an"/>
+        <int_arg_token id="88" token="einen"/>
+        <int_arg_token id="89" token="Freien"/>
+        <int_arg_token id="90" token="Träger"/>
+        <int_arg_token id="91" token="abgegeben"/>
+        <int_arg_token id="92" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="65" token="Entweder"/>
+        <ext_arg_token id="66" token="das"/>
+        <ext_arg_token id="67" token="Paracelsus-Krankenhaus"/>
+        <ext_arg_token id="68" token="bildet"/>
+        <ext_arg_token id="69" token="einen"/>
+        <ext_arg_token id="70" token="regionalen"/>
+        <ext_arg_token id="71" token="Klinikverbund"/>
+        <ext_arg_token id="72" token="mit"/>
+        <ext_arg_token id="73" token="der"/>
+        <ext_arg_token id="74" token="Nauener"/>
+        <ext_arg_token id="75" token="Havellandklinik"/>
+        <ext_arg_token id="76" token="unter"/>
+        <ext_arg_token id="77" token="dem"/>
+        <ext_arg_token id="78" token="Dach"/>
+        <ext_arg_token id="79" token="einer"/>
+        <ext_arg_token id="80" token="kreiseigenen"/>
+        <ext_arg_token id="81" token="GmbH"/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="117" token="Doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="93" token="Will"/>
+        <ext_arg_token id="94" token="der"/>
+        <ext_arg_token id="95" token="Kreistag"/>
+        <ext_arg_token id="96" token="auch"/>
+        <ext_arg_token id="97" token="in"/>
+        <ext_arg_token id="98" token="Rathenow"/>
+        <ext_arg_token id="99" token="seinen"/>
+        <ext_arg_token id="100" token="Einfluss"/>
+        <ext_arg_token id="101" token="auf"/>
+        <ext_arg_token id="102" token="die"/>
+        <ext_arg_token id="103" token="Krankenhausentwicklung"/>
+        <ext_arg_token id="104" token="behalten"/>
+        <ext_arg_token id="105" token=","/>
+        <ext_arg_token id="106" token="wird"/>
+        <ext_arg_token id="107" token="er"/>
+        <ext_arg_token id="108" token="sich"/>
+        <ext_arg_token id="109" token="kaum"/>
+        <ext_arg_token id="110" token="für"/>
+        <ext_arg_token id="111" token="einen"/>
+        <ext_arg_token id="112" token="Freien"/>
+        <ext_arg_token id="113" token="Träger"/>
+        <ext_arg_token id="114" token="entscheiden"/>
+        <ext_arg_token id="115" token="können"/>
+        <ext_arg_token id="116" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="118" token="das"/>
+        <int_arg_token id="119" token="allein"/>
+        <int_arg_token id="120" token="darf"/>
+        <int_arg_token id="121" token="nicht"/>
+        <int_arg_token id="122" token="Grundlage"/>
+        <int_arg_token id="123" token="für"/>
+        <int_arg_token id="124" token="diesen"/>
+        <int_arg_token id="125" token="wichtigen"/>
+        <int_arg_token id="126" token="Beschluss"/>
+        <int_arg_token id="127" token="sein"/>
+        <int_arg_token id="128" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="145" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="129" token="Das"/>
+        <ext_arg_token id="130" token="Krankenhaus"/>
+        <ext_arg_token id="131" token="soll"/>
+        <ext_arg_token id="132" token="der"/>
+        <ext_arg_token id="133" token="bekommen"/>
+        <ext_arg_token id="134" token=","/>
+        <ext_arg_token id="135" token="der"/>
+        <ext_arg_token id="136" token="die"/>
+        <ext_arg_token id="137" token="wohnortnahe"/>
+        <ext_arg_token id="138" token="Versorgung"/>
+        <ext_arg_token id="139" token="von"/>
+        <ext_arg_token id="140" token="Patienten"/>
+        <ext_arg_token id="141" token="in"/>
+        <ext_arg_token id="142" token="Rathenow"/>
+        <ext_arg_token id="143" token="sicherstellen"/>
+        <ext_arg_token id="144" token="kann"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="146" token="darüberhinaus"/>
+        <int_arg_token id="147" token="die"/>
+        <int_arg_token id="148" token="betriebswirtschaftliche"/>
+        <int_arg_token id="149" token="und"/>
+        <int_arg_token id="150" token="medizinische"/>
+        <int_arg_token id="151" token="Qualität"/>
+        <int_arg_token id="152" token="des"/>
+        <int_arg_token id="153" token="Paracelsus-Krankenhauses"/>
+        <int_arg_token id="154" token="nicht"/>
+        <int_arg_token id="155" token="nur"/>
+        <int_arg_token id="156" token="erhält"/>
+        <int_arg_token id="157" token="sondern"/>
+        <int_arg_token id="158" token="stabilisiert"/>
+        <int_arg_token id="159" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="146" token="darüberhinaus"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="129" token="Das"/>
+        <ext_arg_token id="130" token="Krankenhaus"/>
+        <ext_arg_token id="131" token="soll"/>
+        <ext_arg_token id="132" token="der"/>
+        <ext_arg_token id="133" token="bekommen"/>
+        <ext_arg_token id="134" token=","/>
+        <ext_arg_token id="135" token="der"/>
+        <ext_arg_token id="136" token="die"/>
+        <ext_arg_token id="137" token="wohnortnahe"/>
+        <ext_arg_token id="138" token="Versorgung"/>
+        <ext_arg_token id="139" token="von"/>
+        <ext_arg_token id="140" token="Patienten"/>
+        <ext_arg_token id="141" token="in"/>
+        <ext_arg_token id="142" token="Rathenow"/>
+        <ext_arg_token id="143" token="sicherstellen"/>
+        <ext_arg_token id="144" token="kann"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="145" token="und"/>
+        <int_arg_token id="147" token="die"/>
+        <int_arg_token id="148" token="betriebswirtschaftliche"/>
+        <int_arg_token id="149" token="und"/>
+        <int_arg_token id="150" token="medizinische"/>
+        <int_arg_token id="151" token="Qualität"/>
+        <int_arg_token id="152" token="des"/>
+        <int_arg_token id="153" token="Paracelsus-Krankenhauses"/>
+        <int_arg_token id="154" token="nicht"/>
+        <int_arg_token id="155" token="nur"/>
+        <int_arg_token id="156" token="erhält"/>
+        <int_arg_token id="157" token="sondern"/>
+        <int_arg_token id="158" token="stabilisiert"/>
+        <int_arg_token id="159" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Contingency.Condition.Arg1-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="160" token="Wenn"/>
+        <connective_token id="171" token="dann"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="172" token="soll"/>
+        <int_arg_token id="173" token="er"/>
+        <int_arg_token id="174" token="das"/>
+        <int_arg_token id="175" token="Krankenhaus"/>
+        <int_arg_token id="176" token="haben"/>
+        <int_arg_token id="177" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="160" token="Wenn"/>
+        <ext_arg_token id="161" token="ein"/>
+        <ext_arg_token id="162" token="Freier"/>
+        <ext_arg_token id="163" token="Träger"/>
+        <ext_arg_token id="164" token="das"/>
+        <ext_arg_token id="165" token="besser"/>
+        <ext_arg_token id="166" token="kann"/>
+        <ext_arg_token id="167" token="als"/>
+        <ext_arg_token id="168" token="eine"/>
+        <ext_arg_token id="169" token="Kreis-GmbH"/>
+        <ext_arg_token id="170" token=","/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="157" token="sondern"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="154" token="nicht"/>
+        <ext_arg_token id="155" token="nur"/>
+        <ext_arg_token id="156" token="erhält"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="158" token="stabilisiert"/>
+        <int_arg_token id="159" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="27" token="nun"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="5" token="Die"/>
+        <ext_arg_token id="6" token="Anhörung"/>
+        <ext_arg_token id="7" token="zur"/>
+        <ext_arg_token id="8" token="Zukunft"/>
+        <ext_arg_token id="9" token="des"/>
+        <ext_arg_token id="10" token="Paracelsus-Krankenhauses"/>
+        <ext_arg_token id="11" token="ist"/>
+        <ext_arg_token id="12" token="vorbei"/>
+        <ext_arg_token id="13" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="14" token="Die"/>
+        <int_arg_token id="15" token="Kreistagsabgeordneten"/>
+        <int_arg_token id="16" token="im"/>
+        <int_arg_token id="17" token="Kreis-"/>
+        <int_arg_token id="18" token="und"/>
+        <int_arg_token id="19" token="Krankenhausausschuss"/>
+        <int_arg_token id="20" token="haben"/>
+        <int_arg_token id="21" token="viele"/>
+        <int_arg_token id="22" token="Argumente"/>
+        <int_arg_token id="23" token="gehört"/>
+        <int_arg_token id="24" token="und"/>
+        <int_arg_token id="25" token="müssen"/>
+        <int_arg_token id="26" token="sich"/>
+        <int_arg_token id="27" token="nun"/>
+        <int_arg_token id="28" token="entscheiden"/>
+        <int_arg_token id="29" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="14" token="Die"/>
+        <ext_arg_token id="15" token="Kreistagsabgeordneten"/>
+        <ext_arg_token id="16" token="im"/>
+        <ext_arg_token id="17" token="Kreis-"/>
+        <ext_arg_token id="18" token="und"/>
+        <ext_arg_token id="19" token="Krankenhausausschuss"/>
+        <ext_arg_token id="20" token="haben"/>
+        <ext_arg_token id="21" token="viele"/>
+        <ext_arg_token id="22" token="Argumente"/>
+        <ext_arg_token id="23" token="gehört"/>
+        <ext_arg_token id="24" token="und"/>
+        <ext_arg_token id="25" token="müssen"/>
+        <ext_arg_token id="26" token="sich"/>
+        <ext_arg_token id="27" token="nun"/>
+        <ext_arg_token id="28" token="entscheiden"/>
+        <ext_arg_token id="29" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="30" token="Landrat"/>
+        <int_arg_token id="31" token="Burkhard"/>
+        <int_arg_token id="32" token="Schröder"/>
+        <int_arg_token id="33" token="hat"/>
+        <int_arg_token id="34" token="bereits"/>
+        <int_arg_token id="35" token="angedeutet"/>
+        <int_arg_token id="36" token=","/>
+        <int_arg_token id="37" token="dass"/>
+        <int_arg_token id="38" token="er"/>
+        <int_arg_token id="39" token="diese"/>
+        <int_arg_token id="40" token="Entscheidungen"/>
+        <int_arg_token id="41" token="den"/>
+        <int_arg_token id="42" token="Mitgliedern"/>
+        <int_arg_token id="43" token="des"/>
+        <int_arg_token id="44" token="Kreistages"/>
+        <int_arg_token id="45" token="überlassen"/>
+        <int_arg_token id="46" token="will"/>
+        <int_arg_token id="47" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="48" token="So"/>
+        <ext_arg_token id="49" token="darf"/>
+        <ext_arg_token id="50" token="man"/>
+        <ext_arg_token id="51" token="auf"/>
+        <ext_arg_token id="52" token="die"/>
+        <ext_arg_token id="53" token="Vorlage"/>
+        <ext_arg_token id="54" token="aus"/>
+        <ext_arg_token id="55" token="der"/>
+        <ext_arg_token id="56" token="Kreisverwaltung"/>
+        <ext_arg_token id="57" token="gespannt"/>
+        <ext_arg_token id="58" token="sein"/>
+        <ext_arg_token id="59" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="60" token="Es"/>
+        <int_arg_token id="61" token="gibt"/>
+        <int_arg_token id="62" token="zwei"/>
+        <int_arg_token id="63" token="Möglichkeiten"/>
+        <int_arg_token id="64" token=":"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" type="EntRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="60" token="Es"/>
+        <ext_arg_token id="61" token="gibt"/>
+        <ext_arg_token id="62" token="zwei"/>
+        <ext_arg_token id="63" token="Möglichkeiten"/>
+        <ext_arg_token id="64" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="65" token="Entweder"/>
+        <int_arg_token id="66" token="das"/>
+        <int_arg_token id="67" token="Paracelsus-Krankenhaus"/>
+        <int_arg_token id="68" token="bildet"/>
+        <int_arg_token id="69" token="einen"/>
+        <int_arg_token id="70" token="regionalen"/>
+        <int_arg_token id="71" token="Klinikverbund"/>
+        <int_arg_token id="72" token="mit"/>
+        <int_arg_token id="73" token="der"/>
+        <int_arg_token id="74" token="Nauener"/>
+        <int_arg_token id="75" token="Havellandklinik"/>
+        <int_arg_token id="76" token="unter"/>
+        <int_arg_token id="77" token="dem"/>
+        <int_arg_token id="78" token="Dach"/>
+        <int_arg_token id="79" token="einer"/>
+        <int_arg_token id="80" token="kreiseigenen"/>
+        <int_arg_token id="81" token="GmbH"/>
+        <int_arg_token id="82" token="oder"/>
+        <int_arg_token id="83" token="das"/>
+        <int_arg_token id="84" token="Rathenower"/>
+        <int_arg_token id="85" token="Krankenhaus"/>
+        <int_arg_token id="86" token="wird"/>
+        <int_arg_token id="87" token="an"/>
+        <int_arg_token id="88" token="einen"/>
+        <int_arg_token id="89" token="Freien"/>
+        <int_arg_token id="90" token="Träger"/>
+        <int_arg_token id="91" token="abgegeben"/>
+        <int_arg_token id="92" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und zwar</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="65" token="Entweder"/>
+        <ext_arg_token id="66" token="das"/>
+        <ext_arg_token id="67" token="Paracelsus-Krankenhaus"/>
+        <ext_arg_token id="68" token="bildet"/>
+        <ext_arg_token id="69" token="einen"/>
+        <ext_arg_token id="70" token="regionalen"/>
+        <ext_arg_token id="71" token="Klinikverbund"/>
+        <ext_arg_token id="72" token="mit"/>
+        <ext_arg_token id="73" token="der"/>
+        <ext_arg_token id="74" token="Nauener"/>
+        <ext_arg_token id="75" token="Havellandklinik"/>
+        <ext_arg_token id="76" token="unter"/>
+        <ext_arg_token id="77" token="dem"/>
+        <ext_arg_token id="78" token="Dach"/>
+        <ext_arg_token id="79" token="einer"/>
+        <ext_arg_token id="80" token="kreiseigenen"/>
+        <ext_arg_token id="81" token="GmbH"/>
+        <ext_arg_token id="82" token="oder"/>
+        <ext_arg_token id="83" token="das"/>
+        <ext_arg_token id="84" token="Rathenower"/>
+        <ext_arg_token id="85" token="Krankenhaus"/>
+        <ext_arg_token id="86" token="wird"/>
+        <ext_arg_token id="87" token="an"/>
+        <ext_arg_token id="88" token="einen"/>
+        <ext_arg_token id="89" token="Freien"/>
+        <ext_arg_token id="90" token="Träger"/>
+        <ext_arg_token id="91" token="abgegeben"/>
+        <ext_arg_token id="92" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="93" token="Will"/>
+        <int_arg_token id="94" token="der"/>
+        <int_arg_token id="95" token="Kreistag"/>
+        <int_arg_token id="96" token="auch"/>
+        <int_arg_token id="97" token="in"/>
+        <int_arg_token id="98" token="Rathenow"/>
+        <int_arg_token id="99" token="seinen"/>
+        <int_arg_token id="100" token="Einfluss"/>
+        <int_arg_token id="101" token="auf"/>
+        <int_arg_token id="102" token="die"/>
+        <int_arg_token id="103" token="Krankenhausentwicklung"/>
+        <int_arg_token id="104" token="behalten"/>
+        <int_arg_token id="105" token=","/>
+        <int_arg_token id="106" token="wird"/>
+        <int_arg_token id="107" token="er"/>
+        <int_arg_token id="108" token="sich"/>
+        <int_arg_token id="109" token="kaum"/>
+        <int_arg_token id="110" token="für"/>
+        <int_arg_token id="111" token="einen"/>
+        <int_arg_token id="112" token="Freien"/>
+        <int_arg_token id="113" token="Träger"/>
+        <int_arg_token id="114" token="entscheiden"/>
+        <int_arg_token id="115" token="können"/>
+        <int_arg_token id="116" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>denn</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="117" token="Doch"/>
+        <ext_arg_token id="118" token="das"/>
+        <ext_arg_token id="119" token="allein"/>
+        <ext_arg_token id="120" token="darf"/>
+        <ext_arg_token id="121" token="nicht"/>
+        <ext_arg_token id="122" token="Grundlage"/>
+        <ext_arg_token id="123" token="für"/>
+        <ext_arg_token id="124" token="diesen"/>
+        <ext_arg_token id="125" token="wichtigen"/>
+        <ext_arg_token id="126" token="Beschluss"/>
+        <ext_arg_token id="127" token="sein"/>
+        <ext_arg_token id="128" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="129" token="Das"/>
+        <int_arg_token id="130" token="Krankenhaus"/>
+        <int_arg_token id="131" token="soll"/>
+        <int_arg_token id="132" token="der"/>
+        <int_arg_token id="133" token="bekommen"/>
+        <int_arg_token id="134" token=","/>
+        <int_arg_token id="135" token="der"/>
+        <int_arg_token id="136" token="die"/>
+        <int_arg_token id="137" token="wohnortnahe"/>
+        <int_arg_token id="138" token="Versorgung"/>
+        <int_arg_token id="139" token="von"/>
+        <int_arg_token id="140" token="Patienten"/>
+        <int_arg_token id="141" token="in"/>
+        <int_arg_token id="142" token="Rathenow"/>
+        <int_arg_token id="143" token="sicherstellen"/>
+        <int_arg_token id="144" token="kann"/>
+        <int_arg_token id="145" token="und"/>
+        <int_arg_token id="146" token="darüberhinaus"/>
+        <int_arg_token id="147" token="die"/>
+        <int_arg_token id="148" token="betriebswirtschaftliche"/>
+        <int_arg_token id="149" token="und"/>
+        <int_arg_token id="150" token="medizinische"/>
+        <int_arg_token id="151" token="Qualität"/>
+        <int_arg_token id="152" token="des"/>
+        <int_arg_token id="153" token="Paracelsus-Krankenhauses"/>
+        <int_arg_token id="154" token="nicht"/>
+        <int_arg_token id="155" token="nur"/>
+        <int_arg_token id="156" token="erhält"/>
+        <int_arg_token id="157" token="sondern"/>
+        <int_arg_token id="158" token="stabilisiert"/>
+        <int_arg_token id="159" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="20" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="129" token="Das"/>
+        <ext_arg_token id="130" token="Krankenhaus"/>
+        <ext_arg_token id="131" token="soll"/>
+        <ext_arg_token id="132" token="der"/>
+        <ext_arg_token id="133" token="bekommen"/>
+        <ext_arg_token id="134" token=","/>
+        <ext_arg_token id="135" token="der"/>
+        <ext_arg_token id="136" token="die"/>
+        <ext_arg_token id="137" token="wohnortnahe"/>
+        <ext_arg_token id="138" token="Versorgung"/>
+        <ext_arg_token id="139" token="von"/>
+        <ext_arg_token id="140" token="Patienten"/>
+        <ext_arg_token id="141" token="in"/>
+        <ext_arg_token id="142" token="Rathenow"/>
+        <ext_arg_token id="143" token="sicherstellen"/>
+        <ext_arg_token id="144" token="kann"/>
+        <ext_arg_token id="145" token="und"/>
+        <ext_arg_token id="146" token="darüberhinaus"/>
+        <ext_arg_token id="147" token="die"/>
+        <ext_arg_token id="148" token="betriebswirtschaftliche"/>
+        <ext_arg_token id="149" token="und"/>
+        <ext_arg_token id="150" token="medizinische"/>
+        <ext_arg_token id="151" token="Qualität"/>
+        <ext_arg_token id="152" token="des"/>
+        <ext_arg_token id="153" token="Paracelsus-Krankenhauses"/>
+        <ext_arg_token id="154" token="nicht"/>
+        <ext_arg_token id="155" token="nur"/>
+        <ext_arg_token id="156" token="erhält"/>
+        <ext_arg_token id="157" token="sondern"/>
+        <ext_arg_token id="158" token="stabilisiert"/>
+        <ext_arg_token id="159" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="160" token="Wenn"/>
+        <int_arg_token id="161" token="ein"/>
+        <int_arg_token id="162" token="Freier"/>
+        <int_arg_token id="163" token="Träger"/>
+        <int_arg_token id="164" token="das"/>
+        <int_arg_token id="165" token="besser"/>
+        <int_arg_token id="166" token="kann"/>
+        <int_arg_token id="167" token="als"/>
+        <int_arg_token id="168" token="eine"/>
+        <int_arg_token id="169" token="Kreis-GmbH"/>
+        <int_arg_token id="170" token=","/>
+        <int_arg_token id="171" token="dann"/>
+        <int_arg_token id="172" token="soll"/>
+        <int_arg_token id="173" token="er"/>
+        <int_arg_token id="174" token="das"/>
+        <int_arg_token id="175" token="Krankenhaus"/>
+        <int_arg_token id="176" token="haben"/>
+        <int_arg_token id="177" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

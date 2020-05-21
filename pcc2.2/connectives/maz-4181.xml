@@ -1,0 +1,686 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Fingerspitzengefühl</token>
+    <token id="2">Der</token>
+    <token id="3">Euro</token>
+    <token id="4">kommt</token>
+    <token id="5">-</token>
+    <token id="6">schon</token>
+    <token id="7">bald</token>
+    <token id="8">.</token>
+    <token id="9">Manche</token>
+    <token id="10">Geschäftsleute</token>
+    <token id="11">bereiten</token>
+    <token id="12">sich</token>
+    <token id="13">auf</token>
+    <token id="14">die</token>
+    <token id="15">Währungsumstellung</token>
+    <token id="16">vor</token>
+    <token id="17">.</token>
+    <token id="18">Sie</token>
+    <token id="19">besuchen</token>
+    <token id="20">Informationsveranstaltungen</token>
+    <token id="21">,</token>
+    <token id="22">wie</token>
+    <token id="23">sie</token>
+    <token id="24">von</token>
+    <token id="25">der</token>
+    <token id="26">Handwerkskammer</token>
+    <token id="27">veranstaltet</token>
+    <token id="28">werden</token>
+    <token id="29">.</token>
+    <token id="30">Dort</token>
+    <token id="31">erfahren</token>
+    <token id="32">die</token>
+    <token id="33">Dienstleister</token>
+    <token id="34">,</token>
+    <token id="35">was</token>
+    <token id="36">sie</token>
+    <token id="37">erwartet</token>
+    <token id="38">,</token>
+    <token id="39">wenn</token>
+    <token id="40">sie</token>
+    <token id="41">sich</token>
+    <token id="42">nicht</token>
+    <token id="43">rechtzeitig</token>
+    <token id="44">auf</token>
+    <token id="45">die</token>
+    <token id="46">Euroeinführung</token>
+    <token id="47">vorbereiten</token>
+    <token id="48">:</token>
+    <token id="49">Chaos</token>
+    <token id="50">und</token>
+    <token id="51">eventuell</token>
+    <token id="52">das</token>
+    <token id="53">Aus</token>
+    <token id="54">.</token>
+    <token id="55">Denn</token>
+    <token id="56">zu</token>
+    <token id="57">beachten</token>
+    <token id="58">ist</token>
+    <token id="59">-</token>
+    <token id="60">neben</token>
+    <token id="61">der</token>
+    <token id="62">eindeutigen</token>
+    <token id="63">Auszeichnung</token>
+    <token id="64">der</token>
+    <token id="65">Waren</token>
+    <token id="66">-</token>
+    <token id="67">auch</token>
+    <token id="68">die</token>
+    <token id="69">"</token>
+    <token id="70">richtige</token>
+    <token id="71">"</token>
+    <token id="72">Umrechnung</token>
+    <token id="73">von</token>
+    <token id="74">Mark</token>
+    <token id="75">in</token>
+    <token id="76">Euro</token>
+    <token id="77">.</token>
+    <token id="78">Der</token>
+    <token id="79">Umrechnungskurs</token>
+    <token id="80">für</token>
+    <token id="81">den</token>
+    <token id="82">Euro</token>
+    <token id="83">steht</token>
+    <token id="84">fest</token>
+    <token id="85">.</token>
+    <token id="86">Daran</token>
+    <token id="87">darf</token>
+    <token id="88">nicht</token>
+    <token id="89">gerüttelt</token>
+    <token id="90">werden</token>
+    <token id="91">.</token>
+    <token id="92">Auf-</token>
+    <token id="93">und</token>
+    <token id="94">abgerundet</token>
+    <token id="95">wird</token>
+    <token id="96">zwei</token>
+    <token id="97">Stellen</token>
+    <token id="98">hinter</token>
+    <token id="99">dem</token>
+    <token id="100">Komma</token>
+    <token id="101">-</token>
+    <token id="102">nach</token>
+    <token id="103">kaufmännischem</token>
+    <token id="104">Prinzip</token>
+    <token id="105">.</token>
+    <token id="106">Dies</token>
+    <token id="107">kann</token>
+    <token id="108">jedoch</token>
+    <token id="109">bei</token>
+    <token id="110">den</token>
+    <token id="111">Gewerbetreibenden</token>
+    <token id="112">zu</token>
+    <token id="113">Einnahmeverlusten</token>
+    <token id="114">führen</token>
+    <token id="115">.</token>
+    <token id="116">Denn</token>
+    <token id="117">auch</token>
+    <token id="118">Kleinvieh</token>
+    <token id="119">macht</token>
+    <token id="120">ja</token>
+    <token id="121">bekanntlich</token>
+    <token id="122">Mist</token>
+    <token id="123">.</token>
+    <token id="124">Gut</token>
+    <token id="125">beraten</token>
+    <token id="126">ist</token>
+    <token id="127">deshalb</token>
+    <token id="128">,</token>
+    <token id="129">wer</token>
+    <token id="130">sich</token>
+    <token id="131">schon</token>
+    <token id="132">rechtzeitig</token>
+    <token id="133">mit</token>
+    <token id="134">der</token>
+    <token id="135">Rechnerei</token>
+    <token id="136">beschäftigt</token>
+    <token id="137">.</token>
+    <token id="138">Vielleicht</token>
+    <token id="139">wird</token>
+    <token id="140">ja</token>
+    <token id="141">der</token>
+    <token id="142">abgerundete</token>
+    <token id="143">Bonbonpreis</token>
+    <token id="144">durch</token>
+    <token id="145">den</token>
+    <token id="146">aufgerundeten</token>
+    <token id="147">Schokoladenpreis</token>
+    <token id="148">wieder</token>
+    <token id="149">wettgemacht</token>
+    <token id="150">.</token>
+    <token id="151">Unbegründete</token>
+    <token id="152">und</token>
+    <token id="153">panische</token>
+    <token id="154">Preiserhöhungen</token>
+    <token id="155">vergraulen</token>
+    <token id="156">nur</token>
+    <token id="157">die</token>
+    <token id="158">Kunden</token>
+    <token id="159">.</token>
+    <token id="160">Doch</token>
+    <token id="161">wer</token>
+    <token id="162">zu</token>
+    <token id="163">lange</token>
+    <token id="164">wartet</token>
+    <token id="165">,</token>
+    <token id="166">um</token>
+    <token id="167">sich</token>
+    <token id="168">mit</token>
+    <token id="169">den</token>
+    <token id="170">Rechnereien</token>
+    <token id="171">zu</token>
+    <token id="172">beschäftigen</token>
+    <token id="173">,</token>
+    <token id="174">verliert</token>
+    <token id="175">bei</token>
+    <token id="176">der</token>
+    <token id="177">Euroumstellung</token>
+    <token id="178">den</token>
+    <token id="179">Überblick</token>
+    <token id="180">.</token>
+    <token id="181">Und</token>
+    <token id="182">riskiert</token>
+    <token id="183">damit</token>
+    <token id="184">das</token>
+    <token id="185">Vertrauen</token>
+    <token id="186">seiner</token>
+    <token id="187">Kunden</token>
+    <token id="188">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="3" pdtb3_sense="Contingency.Condition.Arg2-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="39" token="wenn"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="40" token="sie"/>
+        <int_arg_token id="41" token="sich"/>
+        <int_arg_token id="42" token="nicht"/>
+        <int_arg_token id="43" token="rechtzeitig"/>
+        <int_arg_token id="44" token="auf"/>
+        <int_arg_token id="45" token="die"/>
+        <int_arg_token id="46" token="Euroeinführung"/>
+        <int_arg_token id="47" token="vorbereiten"/>
+        <int_arg_token id="48" token=":"/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="35" token="was"/>
+        <ext_arg_token id="36" token="sie"/>
+        <ext_arg_token id="37" token="erwartet"/>
+        <ext_arg_token id="38" token=","/>
+        <ext_arg_token id="49" token="Chaos"/>
+        <ext_arg_token id="50" token="und"/>
+        <ext_arg_token id="51" token="eventuell"/>
+        <ext_arg_token id="52" token="das"/>
+        <ext_arg_token id="53" token="Aus"/>
+        <ext_arg_token id="54" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="55" token="Denn"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="56" token="zu"/>
+        <int_arg_token id="57" token="beachten"/>
+        <int_arg_token id="58" token="ist"/>
+        <int_arg_token id="59" token="-"/>
+        <int_arg_token id="60" token="neben"/>
+        <int_arg_token id="61" token="der"/>
+        <int_arg_token id="62" token="eindeutigen"/>
+        <int_arg_token id="63" token="Auszeichnung"/>
+        <int_arg_token id="64" token="der"/>
+        <int_arg_token id="65" token="Waren"/>
+        <int_arg_token id="66" token="-"/>
+        <int_arg_token id="67" token="auch"/>
+        <int_arg_token id="68" token="die"/>
+        <int_arg_token id="69" token="&quot;"/>
+        <int_arg_token id="70" token="richtige"/>
+        <int_arg_token id="71" token="&quot;"/>
+        <int_arg_token id="72" token="Umrechnung"/>
+        <int_arg_token id="73" token="von"/>
+        <int_arg_token id="74" token="Mark"/>
+        <int_arg_token id="75" token="in"/>
+        <int_arg_token id="76" token="Euro"/>
+        <int_arg_token id="77" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="30" token="Dort"/>
+        <ext_arg_token id="31" token="erfahren"/>
+        <ext_arg_token id="32" token="die"/>
+        <ext_arg_token id="33" token="Dienstleister"/>
+        <ext_arg_token id="34" token=","/>
+        <ext_arg_token id="35" token="was"/>
+        <ext_arg_token id="36" token="sie"/>
+        <ext_arg_token id="37" token="erwartet"/>
+        <ext_arg_token id="38" token=","/>
+        <ext_arg_token id="39" token="wenn"/>
+        <ext_arg_token id="40" token="sie"/>
+        <ext_arg_token id="41" token="sich"/>
+        <ext_arg_token id="42" token="nicht"/>
+        <ext_arg_token id="43" token="rechtzeitig"/>
+        <ext_arg_token id="44" token="auf"/>
+        <ext_arg_token id="45" token="die"/>
+        <ext_arg_token id="46" token="Euroeinführung"/>
+        <ext_arg_token id="47" token="vorbereiten"/>
+        <ext_arg_token id="48" token=":"/>
+        <ext_arg_token id="49" token="Chaos"/>
+        <ext_arg_token id="50" token="und"/>
+        <ext_arg_token id="51" token="eventuell"/>
+        <ext_arg_token id="52" token="das"/>
+        <ext_arg_token id="53" token="Aus"/>
+        <ext_arg_token id="54" token="."/>
+        <ext_arg_token id="78" token="Der"/>
+        <ext_arg_token id="79" token="Umrechnungskurs"/>
+        <ext_arg_token id="80" token="für"/>
+        <ext_arg_token id="81" token="den"/>
+        <ext_arg_token id="82" token="Euro"/>
+        <ext_arg_token id="83" token="steht"/>
+        <ext_arg_token id="84" token="fest"/>
+        <ext_arg_token id="85" token="."/>
+        <ext_arg_token id="86" token="Daran"/>
+        <ext_arg_token id="87" token="darf"/>
+        <ext_arg_token id="88" token="nicht"/>
+        <ext_arg_token id="89" token="gerüttelt"/>
+        <ext_arg_token id="90" token="werden"/>
+        <ext_arg_token id="91" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="108" token="jedoch"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="106" token="Dies"/>
+        <int_arg_token id="107" token="kann"/>
+        <int_arg_token id="109" token="bei"/>
+        <int_arg_token id="110" token="den"/>
+        <int_arg_token id="111" token="Gewerbetreibenden"/>
+        <int_arg_token id="112" token="zu"/>
+        <int_arg_token id="113" token="Einnahmeverlusten"/>
+        <int_arg_token id="114" token="führen"/>
+        <int_arg_token id="115" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="92" token="Auf-"/>
+        <ext_arg_token id="93" token="und"/>
+        <ext_arg_token id="94" token="abgerundet"/>
+        <ext_arg_token id="95" token="wird"/>
+        <ext_arg_token id="96" token="zwei"/>
+        <ext_arg_token id="97" token="Stellen"/>
+        <ext_arg_token id="98" token="hinter"/>
+        <ext_arg_token id="99" token="dem"/>
+        <ext_arg_token id="100" token="Komma"/>
+        <ext_arg_token id="101" token="-"/>
+        <ext_arg_token id="102" token="nach"/>
+        <ext_arg_token id="103" token="kaufmännischem"/>
+        <ext_arg_token id="104" token="Prinzip"/>
+        <ext_arg_token id="105" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="116" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="106" token="Dies"/>
+        <ext_arg_token id="107" token="kann"/>
+        <ext_arg_token id="108" token="jedoch"/>
+        <ext_arg_token id="109" token="bei"/>
+        <ext_arg_token id="110" token="den"/>
+        <ext_arg_token id="111" token="Gewerbetreibenden"/>
+        <ext_arg_token id="112" token="zu"/>
+        <ext_arg_token id="113" token="Einnahmeverlusten"/>
+        <ext_arg_token id="114" token="führen"/>
+        <ext_arg_token id="115" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="117" token="auch"/>
+        <int_arg_token id="118" token="Kleinvieh"/>
+        <int_arg_token id="119" token="macht"/>
+        <int_arg_token id="120" token="ja"/>
+        <int_arg_token id="121" token="bekanntlich"/>
+        <int_arg_token id="122" token="Mist"/>
+        <int_arg_token id="123" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="127" token="deshalb"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="55" token="Denn"/>
+        <ext_arg_token id="56" token="zu"/>
+        <ext_arg_token id="57" token="beachten"/>
+        <ext_arg_token id="58" token="ist"/>
+        <ext_arg_token id="59" token="-"/>
+        <ext_arg_token id="60" token="neben"/>
+        <ext_arg_token id="61" token="der"/>
+        <ext_arg_token id="62" token="eindeutigen"/>
+        <ext_arg_token id="63" token="Auszeichnung"/>
+        <ext_arg_token id="64" token="der"/>
+        <ext_arg_token id="65" token="Waren"/>
+        <ext_arg_token id="66" token="-"/>
+        <ext_arg_token id="67" token="auch"/>
+        <ext_arg_token id="68" token="die"/>
+        <ext_arg_token id="69" token="&quot;"/>
+        <ext_arg_token id="70" token="richtige"/>
+        <ext_arg_token id="71" token="&quot;"/>
+        <ext_arg_token id="72" token="Umrechnung"/>
+        <ext_arg_token id="73" token="von"/>
+        <ext_arg_token id="74" token="Mark"/>
+        <ext_arg_token id="75" token="in"/>
+        <ext_arg_token id="76" token="Euro"/>
+        <ext_arg_token id="77" token="."/>
+        <ext_arg_token id="78" token="Der"/>
+        <ext_arg_token id="79" token="Umrechnungskurs"/>
+        <ext_arg_token id="80" token="für"/>
+        <ext_arg_token id="81" token="den"/>
+        <ext_arg_token id="82" token="Euro"/>
+        <ext_arg_token id="83" token="steht"/>
+        <ext_arg_token id="84" token="fest"/>
+        <ext_arg_token id="85" token="."/>
+        <ext_arg_token id="86" token="Daran"/>
+        <ext_arg_token id="87" token="darf"/>
+        <ext_arg_token id="88" token="nicht"/>
+        <ext_arg_token id="89" token="gerüttelt"/>
+        <ext_arg_token id="90" token="werden"/>
+        <ext_arg_token id="91" token="."/>
+        <ext_arg_token id="92" token="Auf-"/>
+        <ext_arg_token id="93" token="und"/>
+        <ext_arg_token id="94" token="abgerundet"/>
+        <ext_arg_token id="95" token="wird"/>
+        <ext_arg_token id="96" token="zwei"/>
+        <ext_arg_token id="97" token="Stellen"/>
+        <ext_arg_token id="98" token="hinter"/>
+        <ext_arg_token id="99" token="dem"/>
+        <ext_arg_token id="100" token="Komma"/>
+        <ext_arg_token id="101" token="-"/>
+        <ext_arg_token id="102" token="nach"/>
+        <ext_arg_token id="103" token="kaufmännischem"/>
+        <ext_arg_token id="104" token="Prinzip"/>
+        <ext_arg_token id="105" token="."/>
+        <ext_arg_token id="106" token="Dies"/>
+        <ext_arg_token id="107" token="kann"/>
+        <ext_arg_token id="108" token="jedoch"/>
+        <ext_arg_token id="109" token="bei"/>
+        <ext_arg_token id="110" token="den"/>
+        <ext_arg_token id="111" token="Gewerbetreibenden"/>
+        <ext_arg_token id="112" token="zu"/>
+        <ext_arg_token id="113" token="Einnahmeverlusten"/>
+        <ext_arg_token id="114" token="führen"/>
+        <ext_arg_token id="115" token="."/>
+        <ext_arg_token id="116" token="Denn"/>
+        <ext_arg_token id="117" token="auch"/>
+        <ext_arg_token id="118" token="Kleinvieh"/>
+        <ext_arg_token id="119" token="macht"/>
+        <ext_arg_token id="120" token="ja"/>
+        <ext_arg_token id="121" token="bekanntlich"/>
+        <ext_arg_token id="122" token="Mist"/>
+        <ext_arg_token id="123" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="124" token="Gut"/>
+        <int_arg_token id="125" token="beraten"/>
+        <int_arg_token id="126" token="ist"/>
+        <int_arg_token id="128" token=","/>
+        <int_arg_token id="129" token="wer"/>
+        <int_arg_token id="130" token="sich"/>
+        <int_arg_token id="131" token="schon"/>
+        <int_arg_token id="132" token="rechtzeitig"/>
+        <int_arg_token id="133" token="mit"/>
+        <int_arg_token id="134" token="der"/>
+        <int_arg_token id="135" token="Rechnerei"/>
+        <int_arg_token id="136" token="beschäftigt"/>
+        <int_arg_token id="137" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="160" token="Doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="151" token="Unbegründete"/>
+        <ext_arg_token id="152" token="und"/>
+        <ext_arg_token id="153" token="panische"/>
+        <ext_arg_token id="154" token="Preiserhöhungen"/>
+        <ext_arg_token id="155" token="vergraulen"/>
+        <ext_arg_token id="156" token="nur"/>
+        <ext_arg_token id="157" token="die"/>
+        <ext_arg_token id="158" token="Kunden"/>
+        <ext_arg_token id="159" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="161" token="wer"/>
+        <int_arg_token id="162" token="zu"/>
+        <int_arg_token id="163" token="lange"/>
+        <int_arg_token id="164" token="wartet"/>
+        <int_arg_token id="165" token=","/>
+        <int_arg_token id="166" token="um"/>
+        <int_arg_token id="167" token="sich"/>
+        <int_arg_token id="168" token="mit"/>
+        <int_arg_token id="169" token="den"/>
+        <int_arg_token id="170" token="Rechnereien"/>
+        <int_arg_token id="171" token="zu"/>
+        <int_arg_token id="172" token="beschäftigen"/>
+        <int_arg_token id="173" token=","/>
+        <int_arg_token id="174" token="verliert"/>
+        <int_arg_token id="175" token="bei"/>
+        <int_arg_token id="176" token="der"/>
+        <int_arg_token id="177" token="Euroumstellung"/>
+        <int_arg_token id="178" token="den"/>
+        <int_arg_token id="179" token="Überblick"/>
+        <int_arg_token id="180" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="181" token="Und"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="182" token="riskiert"/>
+        <int_arg_token id="183" token="damit"/>
+        <int_arg_token id="184" token="das"/>
+        <int_arg_token id="185" token="Vertrauen"/>
+        <int_arg_token id="186" token="seiner"/>
+        <int_arg_token id="187" token="Kunden"/>
+        <int_arg_token id="188" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="160" token="Doch"/>
+        <ext_arg_token id="161" token="wer"/>
+        <ext_arg_token id="162" token="zu"/>
+        <ext_arg_token id="163" token="lange"/>
+        <ext_arg_token id="164" token="wartet"/>
+        <ext_arg_token id="165" token=","/>
+        <ext_arg_token id="166" token="um"/>
+        <ext_arg_token id="167" token="sich"/>
+        <ext_arg_token id="168" token="mit"/>
+        <ext_arg_token id="169" token="den"/>
+        <ext_arg_token id="170" token="Rechnereien"/>
+        <ext_arg_token id="171" token="zu"/>
+        <ext_arg_token id="172" token="beschäftigen"/>
+        <ext_arg_token id="173" token=","/>
+        <ext_arg_token id="174" token="verliert"/>
+        <ext_arg_token id="175" token="bei"/>
+        <ext_arg_token id="176" token="der"/>
+        <ext_arg_token id="177" token="Euroumstellung"/>
+        <ext_arg_token id="178" token="den"/>
+        <ext_arg_token id="179" token="Überblick"/>
+        <ext_arg_token id="180" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>deshalb</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="2" token="Der"/>
+        <ext_arg_token id="3" token="Euro"/>
+        <ext_arg_token id="4" token="kommt"/>
+        <ext_arg_token id="5" token="-"/>
+        <ext_arg_token id="6" token="schon"/>
+        <ext_arg_token id="7" token="bald"/>
+        <ext_arg_token id="8" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="9" token="Manche"/>
+        <int_arg_token id="10" token="Geschäftsleute"/>
+        <int_arg_token id="11" token="bereiten"/>
+        <int_arg_token id="12" token="sich"/>
+        <int_arg_token id="13" token="auf"/>
+        <int_arg_token id="14" token="die"/>
+        <int_arg_token id="15" token="Währungsumstellung"/>
+        <int_arg_token id="16" token="vor"/>
+        <int_arg_token id="17" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Expansion.Manner.Arg2-as-manner" type="implicit">
+      <connective_tokens>
+        <implicit_connective>dazu</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="9" token="Manche"/>
+        <ext_arg_token id="10" token="Geschäftsleute"/>
+        <ext_arg_token id="11" token="bereiten"/>
+        <ext_arg_token id="12" token="sich"/>
+        <ext_arg_token id="13" token="auf"/>
+        <ext_arg_token id="14" token="die"/>
+        <ext_arg_token id="15" token="Währungsumstellung"/>
+        <ext_arg_token id="16" token="vor"/>
+        <ext_arg_token id="17" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="18" token="Sie"/>
+        <int_arg_token id="19" token="besuchen"/>
+        <int_arg_token id="20" token="Informationsveranstaltungen"/>
+        <int_arg_token id="21" token=","/>
+        <int_arg_token id="22" token="wie"/>
+        <int_arg_token id="23" token="sie"/>
+        <int_arg_token id="24" token="von"/>
+        <int_arg_token id="25" token="der"/>
+        <int_arg_token id="26" token="Handwerkskammer"/>
+        <int_arg_token id="27" token="veranstaltet"/>
+        <int_arg_token id="28" token="werden"/>
+        <int_arg_token id="29" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="18" token="Sie"/>
+        <ext_arg_token id="19" token="besuchen"/>
+        <ext_arg_token id="20" token="Informationsveranstaltungen"/>
+        <ext_arg_token id="21" token=","/>
+        <ext_arg_token id="22" token="wie"/>
+        <ext_arg_token id="23" token="sie"/>
+        <ext_arg_token id="24" token="von"/>
+        <ext_arg_token id="25" token="der"/>
+        <ext_arg_token id="26" token="Handwerkskammer"/>
+        <ext_arg_token id="27" token="veranstaltet"/>
+        <ext_arg_token id="28" token="werden"/>
+        <ext_arg_token id="29" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="30" token="Dort"/>
+        <int_arg_token id="31" token="erfahren"/>
+        <int_arg_token id="32" token="die"/>
+        <int_arg_token id="33" token="Dienstleister"/>
+        <int_arg_token id="34" token=","/>
+        <int_arg_token id="35" token="was"/>
+        <int_arg_token id="36" token="sie"/>
+        <int_arg_token id="37" token="erwartet"/>
+        <int_arg_token id="38" token=","/>
+        <int_arg_token id="39" token="wenn"/>
+        <int_arg_token id="40" token="sie"/>
+        <int_arg_token id="41" token="sich"/>
+        <int_arg_token id="42" token="nicht"/>
+        <int_arg_token id="43" token="rechtzeitig"/>
+        <int_arg_token id="44" token="auf"/>
+        <int_arg_token id="45" token="die"/>
+        <int_arg_token id="46" token="Euroeinführung"/>
+        <int_arg_token id="47" token="vorbereiten"/>
+        <int_arg_token id="48" token=":"/>
+        <int_arg_token id="49" token="Chaos"/>
+        <int_arg_token id="50" token="und"/>
+        <int_arg_token id="51" token="eventuell"/>
+        <int_arg_token id="52" token="das"/>
+        <int_arg_token id="53" token="Aus"/>
+        <int_arg_token id="54" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="20" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="124" token="Gut"/>
+        <ext_arg_token id="125" token="beraten"/>
+        <ext_arg_token id="126" token="ist"/>
+        <ext_arg_token id="127" token="deshalb"/>
+        <ext_arg_token id="128" token=","/>
+        <ext_arg_token id="129" token="wer"/>
+        <ext_arg_token id="130" token="sich"/>
+        <ext_arg_token id="131" token="schon"/>
+        <ext_arg_token id="132" token="rechtzeitig"/>
+        <ext_arg_token id="133" token="mit"/>
+        <ext_arg_token id="134" token="der"/>
+        <ext_arg_token id="135" token="Rechnerei"/>
+        <ext_arg_token id="136" token="beschäftigt"/>
+        <ext_arg_token id="137" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="138" token="Vielleicht"/>
+        <int_arg_token id="139" token="wird"/>
+        <int_arg_token id="140" token="ja"/>
+        <int_arg_token id="141" token="der"/>
+        <int_arg_token id="142" token="abgerundete"/>
+        <int_arg_token id="143" token="Bonbonpreis"/>
+        <int_arg_token id="144" token="durch"/>
+        <int_arg_token id="145" token="den"/>
+        <int_arg_token id="146" token="aufgerundeten"/>
+        <int_arg_token id="147" token="Schokoladenpreis"/>
+        <int_arg_token id="148" token="wieder"/>
+        <int_arg_token id="149" token="wettgemacht"/>
+        <int_arg_token id="150" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="21" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="138" token="Vielleicht"/>
+        <ext_arg_token id="139" token="wird"/>
+        <ext_arg_token id="140" token="ja"/>
+        <ext_arg_token id="141" token="der"/>
+        <ext_arg_token id="142" token="abgerundete"/>
+        <ext_arg_token id="143" token="Bonbonpreis"/>
+        <ext_arg_token id="144" token="durch"/>
+        <ext_arg_token id="145" token="den"/>
+        <ext_arg_token id="146" token="aufgerundeten"/>
+        <ext_arg_token id="147" token="Schokoladenpreis"/>
+        <ext_arg_token id="148" token="wieder"/>
+        <ext_arg_token id="149" token="wettgemacht"/>
+        <ext_arg_token id="150" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="151" token="Unbegründete"/>
+        <int_arg_token id="152" token="und"/>
+        <int_arg_token id="153" token="panische"/>
+        <int_arg_token id="154" token="Preiserhöhungen"/>
+        <int_arg_token id="155" token="vergraulen"/>
+        <int_arg_token id="156" token="nur"/>
+        <int_arg_token id="157" token="die"/>
+        <int_arg_token id="158" token="Kunden"/>
+        <int_arg_token id="159" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

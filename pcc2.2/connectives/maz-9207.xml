@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Fachliche</token>
+    <token id="2">Leistung</token>
+    <token id="3">Heute</token>
+    <token id="4">verleiht</token>
+    <token id="5">das</token>
+    <token id="6">brandenburgische</token>
+    <token id="7">Umweltministerium</token>
+    <token id="8">den</token>
+    <token id="9">mit</token>
+    <token id="10">10_000</token>
+    <token id="11">Mark</token>
+    <token id="12">dotierten</token>
+    <token id="13">Erwin-Strittmatter-Preis</token>
+    <token id="14">an</token>
+    <token id="15">die</token>
+    <token id="16">Schriftstellerin</token>
+    <token id="17">Susanne</token>
+    <token id="18">Paulsen</token>
+    <token id="19">.</token>
+    <token id="20">Mit</token>
+    <token id="21">der</token>
+    <token id="22">Auszeichnung</token>
+    <token id="23">sollen</token>
+    <token id="24">"</token>
+    <token id="25">Literatur</token>
+    <token id="26">und</token>
+    <token id="27">Autoren</token>
+    <token id="28">geehrt</token>
+    <token id="29">werden</token>
+    <token id="30">,</token>
+    <token id="31">die</token>
+    <token id="32">sich</token>
+    <token id="33">in</token>
+    <token id="34">Umweltbelange</token>
+    <token id="35">einmischen</token>
+    <token id="36">"</token>
+    <token id="37">.</token>
+    <token id="38">Das</token>
+    <token id="39">klingt</token>
+    <token id="40">fast</token>
+    <token id="41">so</token>
+    <token id="42">,</token>
+    <token id="43">als</token>
+    <token id="44">sei</token>
+    <token id="45">Gut-Gemeintes</token>
+    <token id="46">preisverdächtig</token>
+    <token id="47">.</token>
+    <token id="48">Eine</token>
+    <token id="49">solche</token>
+    <token id="50">Fördermaßnahme</token>
+    <token id="51">für</token>
+    <token id="52">Öko-Literatur</token>
+    <token id="53">verkennt</token>
+    <token id="54">,</token>
+    <token id="55">dass</token>
+    <token id="56">es</token>
+    <token id="57">immer</token>
+    <token id="58">nur</token>
+    <token id="59">gelungene</token>
+    <token id="60">und</token>
+    <token id="61">missratene</token>
+    <token id="62">Texte</token>
+    <token id="63">gibt</token>
+    <token id="64">.</token>
+    <token id="65">Das</token>
+    <token id="66">Verhältnis</token>
+    <token id="67">zur</token>
+    <token id="68">Natur</token>
+    <token id="69">ist</token>
+    <token id="70">für</token>
+    <token id="71">viele</token>
+    <token id="72">Dichter</token>
+    <token id="73">ein</token>
+    <token id="74">großes</token>
+    <token id="75">Thema</token>
+    <token id="76">.</token>
+    <token id="77">Den</token>
+    <token id="78">Literaturpreis</token>
+    <token id="79">haben</token>
+    <token id="80">bisher</token>
+    <token id="81">Schöngeister</token>
+    <token id="82">wie</token>
+    <token id="83">Hanns</token>
+    <token id="84">Cibulka</token>
+    <token id="85">und</token>
+    <token id="86">Wulf</token>
+    <token id="87">Kirsten</token>
+    <token id="88">,</token>
+    <token id="89">Volker</token>
+    <token id="90">Braun</token>
+    <token id="91">und</token>
+    <token id="92">Thomas</token>
+    <token id="93">Rosenlöcher</token>
+    <token id="94">bekommen</token>
+    <token id="95">.</token>
+    <token id="96">Wer</token>
+    <token id="97">aus</token>
+    <token id="98">ihren</token>
+    <token id="99">Gedichten</token>
+    <token id="100">ein</token>
+    <token id="101">umweltpolitisches</token>
+    <token id="102">Engagement</token>
+    <token id="103">ableitet</token>
+    <token id="104">,</token>
+    <token id="105">instrumentalisiert</token>
+    <token id="106">die</token>
+    <token id="107">Literatur</token>
+    <token id="108">ideologisch</token>
+    <token id="109">.</token>
+    <token id="110">Die</token>
+    <token id="111">Zeiten</token>
+    <token id="112">,</token>
+    <token id="113">da</token>
+    <token id="114">die</token>
+    <token id="115">Literatur</token>
+    <token id="116">Aufklärungs-</token>
+    <token id="117">und</token>
+    <token id="118">Bekenntnisarbeit</token>
+    <token id="119">mitleisten</token>
+    <token id="120">musste</token>
+    <token id="121">,</token>
+    <token id="122">sind</token>
+    <token id="123">zum</token>
+    <token id="124">Glück</token>
+    <token id="125">vorbei</token>
+    <token id="126">.</token>
+    <token id="127">Deshalb</token>
+    <token id="128">ist</token>
+    <token id="129">es</token>
+    <token id="130">auch</token>
+    <token id="131">gut</token>
+    <token id="132">,</token>
+    <token id="133">dass</token>
+    <token id="134">das</token>
+    <token id="135">Umweltministerium</token>
+    <token id="136">in</token>
+    <token id="137">diesem</token>
+    <token id="138">Jahr</token>
+    <token id="139">in</token>
+    <token id="140">engerem</token>
+    <token id="141">Sinne</token>
+    <token id="142">auf</token>
+    <token id="143">fachliche</token>
+    <token id="144">Leistungen</token>
+    <token id="145">setzt</token>
+    <token id="146">.</token>
+    <token id="147">Susanne</token>
+    <token id="148">Paulsen</token>
+    <token id="149">bekommt</token>
+    <token id="150">den</token>
+    <token id="151">Preis</token>
+    <token id="152">für</token>
+    <token id="153">ein</token>
+    <token id="154">erzählendes</token>
+    <token id="155">Sachbuch</token>
+    <token id="156">,</token>
+    <token id="157">das</token>
+    <token id="158">dem</token>
+    <token id="159">Leser</token>
+    <token id="160">die</token>
+    <token id="161">rätselhafte</token>
+    <token id="162">Welt</token>
+    <token id="163">der</token>
+    <token id="164">Pflanzen</token>
+    <token id="165">näherbringt</token>
+    <token id="166">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="13" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="127" token="Deshalb"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="110" token="Die"/>
+        <ext_arg_token id="111" token="Zeiten"/>
+        <ext_arg_token id="112" token=","/>
+        <ext_arg_token id="113" token="da"/>
+        <ext_arg_token id="114" token="die"/>
+        <ext_arg_token id="115" token="Literatur"/>
+        <ext_arg_token id="116" token="Aufklärungs-"/>
+        <ext_arg_token id="117" token="und"/>
+        <ext_arg_token id="118" token="Bekenntnisarbeit"/>
+        <ext_arg_token id="119" token="mitleisten"/>
+        <ext_arg_token id="120" token="musste"/>
+        <ext_arg_token id="121" token=","/>
+        <ext_arg_token id="122" token="sind"/>
+        <ext_arg_token id="123" token="zum"/>
+        <ext_arg_token id="124" token="Glück"/>
+        <ext_arg_token id="125" token="vorbei"/>
+        <ext_arg_token id="126" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="128" token="ist"/>
+        <int_arg_token id="129" token="es"/>
+        <int_arg_token id="130" token="auch"/>
+        <int_arg_token id="131" token="gut"/>
+        <int_arg_token id="132" token=","/>
+        <int_arg_token id="133" token="dass"/>
+        <int_arg_token id="134" token="das"/>
+        <int_arg_token id="135" token="Umweltministerium"/>
+        <int_arg_token id="136" token="in"/>
+        <int_arg_token id="137" token="diesem"/>
+        <int_arg_token id="138" token="Jahr"/>
+        <int_arg_token id="139" token="in"/>
+        <int_arg_token id="140" token="engerem"/>
+        <int_arg_token id="141" token="Sinne"/>
+        <int_arg_token id="142" token="auf"/>
+        <int_arg_token id="143" token="fachliche"/>
+        <int_arg_token id="144" token="Leistungen"/>
+        <int_arg_token id="145" token="setzt"/>
+        <int_arg_token id="146" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" type="EntRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Heute"/>
+        <ext_arg_token id="4" token="verleiht"/>
+        <ext_arg_token id="5" token="das"/>
+        <ext_arg_token id="6" token="brandenburgische"/>
+        <ext_arg_token id="7" token="Umweltministerium"/>
+        <ext_arg_token id="8" token="den"/>
+        <ext_arg_token id="9" token="mit"/>
+        <ext_arg_token id="10" token="10_000"/>
+        <ext_arg_token id="11" token="Mark"/>
+        <ext_arg_token id="12" token="dotierten"/>
+        <ext_arg_token id="13" token="Erwin-Strittmatter-Preis"/>
+        <ext_arg_token id="14" token="an"/>
+        <ext_arg_token id="15" token="die"/>
+        <ext_arg_token id="16" token="Schriftstellerin"/>
+        <ext_arg_token id="17" token="Susanne"/>
+        <ext_arg_token id="18" token="Paulsen"/>
+        <ext_arg_token id="19" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="20" token="Mit"/>
+        <int_arg_token id="21" token="der"/>
+        <int_arg_token id="22" token="Auszeichnung"/>
+        <int_arg_token id="23" token="sollen"/>
+        <int_arg_token id="24" token="&quot;"/>
+        <int_arg_token id="25" token="Literatur"/>
+        <int_arg_token id="26" token="und"/>
+        <int_arg_token id="27" token="Autoren"/>
+        <int_arg_token id="28" token="geehrt"/>
+        <int_arg_token id="29" token="werden"/>
+        <int_arg_token id="30" token=","/>
+        <int_arg_token id="31" token="die"/>
+        <int_arg_token id="32" token="sich"/>
+        <int_arg_token id="33" token="in"/>
+        <int_arg_token id="34" token="Umweltbelange"/>
+        <int_arg_token id="35" token="einmischen"/>
+        <int_arg_token id="36" token="&quot;"/>
+        <int_arg_token id="37" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="20" token="Mit"/>
+        <ext_arg_token id="21" token="der"/>
+        <ext_arg_token id="22" token="Auszeichnung"/>
+        <ext_arg_token id="23" token="sollen"/>
+        <ext_arg_token id="24" token="&quot;"/>
+        <ext_arg_token id="25" token="Literatur"/>
+        <ext_arg_token id="26" token="und"/>
+        <ext_arg_token id="27" token="Autoren"/>
+        <ext_arg_token id="28" token="geehrt"/>
+        <ext_arg_token id="29" token="werden"/>
+        <ext_arg_token id="30" token=","/>
+        <ext_arg_token id="31" token="die"/>
+        <ext_arg_token id="32" token="sich"/>
+        <ext_arg_token id="33" token="in"/>
+        <ext_arg_token id="34" token="Umweltbelange"/>
+        <ext_arg_token id="35" token="einmischen"/>
+        <ext_arg_token id="36" token="&quot;"/>
+        <ext_arg_token id="37" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="38" token="Das"/>
+        <int_arg_token id="39" token="klingt"/>
+        <int_arg_token id="40" token="fast"/>
+        <int_arg_token id="41" token="so"/>
+        <int_arg_token id="42" token=","/>
+        <int_arg_token id="43" token="als"/>
+        <int_arg_token id="44" token="sei"/>
+        <int_arg_token id="45" token="Gut-Gemeintes"/>
+        <int_arg_token id="46" token="preisverdächtig"/>
+        <int_arg_token id="47" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="38" token="Das"/>
+        <ext_arg_token id="39" token="klingt"/>
+        <ext_arg_token id="40" token="fast"/>
+        <ext_arg_token id="41" token="so"/>
+        <ext_arg_token id="42" token=","/>
+        <ext_arg_token id="43" token="als"/>
+        <ext_arg_token id="44" token="sei"/>
+        <ext_arg_token id="45" token="Gut-Gemeintes"/>
+        <ext_arg_token id="46" token="preisverdächtig"/>
+        <ext_arg_token id="47" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="48" token="Eine"/>
+        <int_arg_token id="49" token="solche"/>
+        <int_arg_token id="50" token="Fördermaßnahme"/>
+        <int_arg_token id="51" token="für"/>
+        <int_arg_token id="52" token="Öko-Literatur"/>
+        <int_arg_token id="53" token="verkennt"/>
+        <int_arg_token id="54" token=","/>
+        <int_arg_token id="55" token="dass"/>
+        <int_arg_token id="56" token="es"/>
+        <int_arg_token id="57" token="immer"/>
+        <int_arg_token id="58" token="nur"/>
+        <int_arg_token id="59" token="gelungene"/>
+        <int_arg_token id="60" token="und"/>
+        <int_arg_token id="61" token="missratene"/>
+        <int_arg_token id="62" token="Texte"/>
+        <int_arg_token id="63" token="gibt"/>
+        <int_arg_token id="64" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" type="NoRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="48" token="Eine"/>
+        <ext_arg_token id="49" token="solche"/>
+        <ext_arg_token id="50" token="Fördermaßnahme"/>
+        <ext_arg_token id="51" token="für"/>
+        <ext_arg_token id="52" token="Öko-Literatur"/>
+        <ext_arg_token id="53" token="verkennt"/>
+        <ext_arg_token id="54" token=","/>
+        <ext_arg_token id="55" token="dass"/>
+        <ext_arg_token id="56" token="es"/>
+        <ext_arg_token id="57" token="immer"/>
+        <ext_arg_token id="58" token="nur"/>
+        <ext_arg_token id="59" token="gelungene"/>
+        <ext_arg_token id="60" token="und"/>
+        <ext_arg_token id="61" token="missratene"/>
+        <ext_arg_token id="62" token="Texte"/>
+        <ext_arg_token id="63" token="gibt"/>
+        <ext_arg_token id="64" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="65" token="Das"/>
+        <int_arg_token id="66" token="Verhältnis"/>
+        <int_arg_token id="67" token="zur"/>
+        <int_arg_token id="68" token="Natur"/>
+        <int_arg_token id="69" token="ist"/>
+        <int_arg_token id="70" token="für"/>
+        <int_arg_token id="71" token="viele"/>
+        <int_arg_token id="72" token="Dichter"/>
+        <int_arg_token id="73" token="ein"/>
+        <int_arg_token id="74" token="großes"/>
+        <int_arg_token id="75" token="Thema"/>
+        <int_arg_token id="76" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="65" token="Das"/>
+        <ext_arg_token id="66" token="Verhältnis"/>
+        <ext_arg_token id="67" token="zur"/>
+        <ext_arg_token id="68" token="Natur"/>
+        <ext_arg_token id="69" token="ist"/>
+        <ext_arg_token id="70" token="für"/>
+        <ext_arg_token id="71" token="viele"/>
+        <ext_arg_token id="72" token="Dichter"/>
+        <ext_arg_token id="73" token="ein"/>
+        <ext_arg_token id="74" token="großes"/>
+        <ext_arg_token id="75" token="Thema"/>
+        <ext_arg_token id="76" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="77" token="Den"/>
+        <int_arg_token id="78" token="Literaturpreis"/>
+        <int_arg_token id="79" token="haben"/>
+        <int_arg_token id="80" token="bisher"/>
+        <int_arg_token id="81" token="Schöngeister"/>
+        <int_arg_token id="82" token="wie"/>
+        <int_arg_token id="83" token="Hanns"/>
+        <int_arg_token id="84" token="Cibulka"/>
+        <int_arg_token id="85" token="und"/>
+        <int_arg_token id="86" token="Wulf"/>
+        <int_arg_token id="87" token="Kirsten"/>
+        <int_arg_token id="88" token=","/>
+        <int_arg_token id="89" token="Volker"/>
+        <int_arg_token id="90" token="Braun"/>
+        <int_arg_token id="91" token="und"/>
+        <int_arg_token id="92" token="Thomas"/>
+        <int_arg_token id="93" token="Rosenlöcher"/>
+        <int_arg_token id="94" token="bekommen"/>
+        <int_arg_token id="95" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Comparison.Contrast" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="77" token="Den"/>
+        <ext_arg_token id="78" token="Literaturpreis"/>
+        <ext_arg_token id="79" token="haben"/>
+        <ext_arg_token id="80" token="bisher"/>
+        <ext_arg_token id="81" token="Schöngeister"/>
+        <ext_arg_token id="82" token="wie"/>
+        <ext_arg_token id="83" token="Hanns"/>
+        <ext_arg_token id="84" token="Cibulka"/>
+        <ext_arg_token id="85" token="und"/>
+        <ext_arg_token id="86" token="Wulf"/>
+        <ext_arg_token id="87" token="Kirsten"/>
+        <ext_arg_token id="88" token=","/>
+        <ext_arg_token id="89" token="Volker"/>
+        <ext_arg_token id="90" token="Braun"/>
+        <ext_arg_token id="91" token="und"/>
+        <ext_arg_token id="92" token="Thomas"/>
+        <ext_arg_token id="93" token="Rosenlöcher"/>
+        <ext_arg_token id="94" token="bekommen"/>
+        <ext_arg_token id="95" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="96" token="Wer"/>
+        <int_arg_token id="97" token="aus"/>
+        <int_arg_token id="98" token="ihren"/>
+        <int_arg_token id="99" token="Gedichten"/>
+        <int_arg_token id="100" token="ein"/>
+        <int_arg_token id="101" token="umweltpolitisches"/>
+        <int_arg_token id="102" token="Engagement"/>
+        <int_arg_token id="103" token="ableitet"/>
+        <int_arg_token id="104" token=","/>
+        <int_arg_token id="105" token="instrumentalisiert"/>
+        <int_arg_token id="106" token="die"/>
+        <int_arg_token id="107" token="Literatur"/>
+        <int_arg_token id="108" token="ideologisch"/>
+        <int_arg_token id="109" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="20" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="96" token="Wer"/>
+        <ext_arg_token id="97" token="aus"/>
+        <ext_arg_token id="98" token="ihren"/>
+        <ext_arg_token id="99" token="Gedichten"/>
+        <ext_arg_token id="100" token="ein"/>
+        <ext_arg_token id="101" token="umweltpolitisches"/>
+        <ext_arg_token id="102" token="Engagement"/>
+        <ext_arg_token id="103" token="ableitet"/>
+        <ext_arg_token id="104" token=","/>
+        <ext_arg_token id="105" token="instrumentalisiert"/>
+        <ext_arg_token id="106" token="die"/>
+        <ext_arg_token id="107" token="Literatur"/>
+        <ext_arg_token id="108" token="ideologisch"/>
+        <ext_arg_token id="109" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="110" token="Die"/>
+        <int_arg_token id="111" token="Zeiten"/>
+        <int_arg_token id="112" token=","/>
+        <int_arg_token id="113" token="da"/>
+        <int_arg_token id="114" token="die"/>
+        <int_arg_token id="115" token="Literatur"/>
+        <int_arg_token id="116" token="Aufklärungs-"/>
+        <int_arg_token id="117" token="und"/>
+        <int_arg_token id="118" token="Bekenntnisarbeit"/>
+        <int_arg_token id="119" token="mitleisten"/>
+        <int_arg_token id="120" token="musste"/>
+        <int_arg_token id="121" token=","/>
+        <int_arg_token id="122" token="sind"/>
+        <int_arg_token id="123" token="zum"/>
+        <int_arg_token id="124" token="Glück"/>
+        <int_arg_token id="125" token="vorbei"/>
+        <int_arg_token id="126" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="21" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>genauer gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="127" token="Deshalb"/>
+        <ext_arg_token id="128" token="ist"/>
+        <ext_arg_token id="129" token="es"/>
+        <ext_arg_token id="130" token="auch"/>
+        <ext_arg_token id="131" token="gut"/>
+        <ext_arg_token id="132" token=","/>
+        <ext_arg_token id="133" token="dass"/>
+        <ext_arg_token id="134" token="das"/>
+        <ext_arg_token id="135" token="Umweltministerium"/>
+        <ext_arg_token id="136" token="in"/>
+        <ext_arg_token id="137" token="diesem"/>
+        <ext_arg_token id="138" token="Jahr"/>
+        <ext_arg_token id="139" token="in"/>
+        <ext_arg_token id="140" token="engerem"/>
+        <ext_arg_token id="141" token="Sinne"/>
+        <ext_arg_token id="142" token="auf"/>
+        <ext_arg_token id="143" token="fachliche"/>
+        <ext_arg_token id="144" token="Leistungen"/>
+        <ext_arg_token id="145" token="setzt"/>
+        <ext_arg_token id="146" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="147" token="Susanne"/>
+        <int_arg_token id="148" token="Paulsen"/>
+        <int_arg_token id="149" token="bekommt"/>
+        <int_arg_token id="150" token="den"/>
+        <int_arg_token id="151" token="Preis"/>
+        <int_arg_token id="152" token="für"/>
+        <int_arg_token id="153" token="ein"/>
+        <int_arg_token id="154" token="erzählendes"/>
+        <int_arg_token id="155" token="Sachbuch"/>
+        <int_arg_token id="156" token=","/>
+        <int_arg_token id="157" token="das"/>
+        <int_arg_token id="158" token="dem"/>
+        <int_arg_token id="159" token="Leser"/>
+        <int_arg_token id="160" token="die"/>
+        <int_arg_token id="161" token="rätselhafte"/>
+        <int_arg_token id="162" token="Welt"/>
+        <int_arg_token id="163" token="der"/>
+        <int_arg_token id="164" token="Pflanzen"/>
+        <int_arg_token id="165" token="näherbringt"/>
+        <int_arg_token id="166" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

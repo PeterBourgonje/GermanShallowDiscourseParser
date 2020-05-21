@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Verpasste</token>
+    <token id="2">Chance</token>
+    <token id="3">Heute</token>
+    <token id="4">wird</token>
+    <token id="5">in</token>
+    <token id="6">Potsdam</token>
+    <token id="7">der</token>
+    <token id="8">brandenburgische</token>
+    <token id="9">Kunstpreis</token>
+    <token id="10">überreicht</token>
+    <token id="11">.</token>
+    <token id="12">Die</token>
+    <token id="13">mit</token>
+    <token id="14">30_000</token>
+    <token id="15">Mark</token>
+    <token id="16">dotierte</token>
+    <token id="17">Auszeichnung</token>
+    <token id="18">sollte</token>
+    <token id="19">dieses</token>
+    <token id="20">Jahr</token>
+    <token id="21">einer</token>
+    <token id="22">Person</token>
+    <token id="23">zukommen</token>
+    <token id="24">,</token>
+    <token id="25">die</token>
+    <token id="26">sich</token>
+    <token id="27">für</token>
+    <token id="28">das</token>
+    <token id="29">märkische</token>
+    <token id="30">Musikleben</token>
+    <token id="31">stark</token>
+    <token id="32">gemacht</token>
+    <token id="33">hat</token>
+    <token id="34">.</token>
+    <token id="35">Die</token>
+    <token id="36">Wahl</token>
+    <token id="37">fiel</token>
+    <token id="38">auf</token>
+    <token id="39">Ulrike</token>
+    <token id="40">Liedtke</token>
+    <token id="41">,</token>
+    <token id="42">Musikwissenschaftlerin</token>
+    <token id="43">und</token>
+    <token id="44">Leiterin</token>
+    <token id="45">der</token>
+    <token id="46">Bundesmusikakademie</token>
+    <token id="47">Rheinsberg</token>
+    <token id="48">.</token>
+    <token id="49">Verdientermaßen</token>
+    <token id="50">:</token>
+    <token id="51">Zu</token>
+    <token id="52">nennen</token>
+    <token id="53">ist</token>
+    <token id="54">ihr</token>
+    <token id="55">Einsatz</token>
+    <token id="56">für</token>
+    <token id="57">den</token>
+    <token id="58">Wiederaufbau</token>
+    <token id="59">des</token>
+    <token id="60">Rheinsberger</token>
+    <token id="61">Schlosstheaters</token>
+    <token id="62">,</token>
+    <token id="63">die</token>
+    <token id="64">Entdeckung</token>
+    <token id="65">preußischer</token>
+    <token id="66">Komponisten</token>
+    <token id="67">,</token>
+    <token id="68">das</token>
+    <token id="69">zeitgenössische</token>
+    <token id="70">Musiktheater</token>
+    <token id="71">und</token>
+    <token id="72">den</token>
+    <token id="73">Musikstandort</token>
+    <token id="74">Rheinsberg</token>
+    <token id="75">.</token>
+    <token id="76">Dennoch</token>
+    <token id="77">hinterlässt</token>
+    <token id="78">das</token>
+    <token id="79">Votum</token>
+    <token id="80">der</token>
+    <token id="81">Jury</token>
+    <token id="82">einen</token>
+    <token id="83">faden</token>
+    <token id="84">Nachgeschmack</token>
+    <token id="85">:</token>
+    <token id="86">Für</token>
+    <token id="87">all</token>
+    <token id="88">das</token>
+    <token id="89">hat</token>
+    <token id="90">sich</token>
+    <token id="91">in</token>
+    <token id="92">Rheinsberg</token>
+    <token id="93">nämlich</token>
+    <token id="94">auch</token>
+    <token id="95">Siegfried</token>
+    <token id="96">Matthus</token>
+    <token id="97">eingesetzt</token>
+    <token id="98">,</token>
+    <token id="99">Komponist</token>
+    <token id="100">und</token>
+    <token id="101">Leiter</token>
+    <token id="102">der</token>
+    <token id="103">dortigen</token>
+    <token id="104">Kammeroper</token>
+    <token id="105">.</token>
+    <token id="106">Wenn</token>
+    <token id="107">der</token>
+    <token id="108">Preis</token>
+    <token id="109">schon</token>
+    <token id="110">nach</token>
+    <token id="111">Rheinsberg</token>
+    <token id="112">gehen</token>
+    <token id="113">soll</token>
+    <token id="114">,</token>
+    <token id="115">hätte</token>
+    <token id="116">man</token>
+    <token id="117">beide</token>
+    <token id="118">bedenken</token>
+    <token id="119">müssen</token>
+    <token id="120">.</token>
+    <token id="121">Zumal</token>
+    <token id="122">sie</token>
+    <token id="123">in</token>
+    <token id="124">herzlicher</token>
+    <token id="125">Feindschaft</token>
+    <token id="126">verbunden</token>
+    <token id="127">sind</token>
+    <token id="128">.</token>
+    <token id="129">Doch</token>
+    <token id="130">statt</token>
+    <token id="131">zur</token>
+    <token id="132">Versöhnung</token>
+    <token id="133">aufzurufen</token>
+    <token id="134">,</token>
+    <token id="135">könnte</token>
+    <token id="136">diese</token>
+    <token id="137">Entscheidung</token>
+    <token id="138">die</token>
+    <token id="139">Wunden</token>
+    <token id="140">noch</token>
+    <token id="141">tiefer</token>
+    <token id="142">reißen</token>
+    <token id="143">.</token>
+    <token id="144">Eine</token>
+    <token id="145">verpasste</token>
+    <token id="146">Chance</token>
+    <token id="147">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="3" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="76" token="Dennoch"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="77" token="hinterlässt"/>
+        <int_arg_token id="78" token="das"/>
+        <int_arg_token id="79" token="Votum"/>
+        <int_arg_token id="80" token="der"/>
+        <int_arg_token id="81" token="Jury"/>
+        <int_arg_token id="82" token="einen"/>
+        <int_arg_token id="83" token="faden"/>
+        <int_arg_token id="84" token="Nachgeschmack"/>
+        <int_arg_token id="85" token=":"/>
+        <int_arg_token id="86" token="Für"/>
+        <int_arg_token id="87" token="all"/>
+        <int_arg_token id="88" token="das"/>
+        <int_arg_token id="89" token="hat"/>
+        <int_arg_token id="90" token="sich"/>
+        <int_arg_token id="91" token="in"/>
+        <int_arg_token id="92" token="Rheinsberg"/>
+        <int_arg_token id="93" token="nämlich"/>
+        <int_arg_token id="94" token="auch"/>
+        <int_arg_token id="95" token="Siegfried"/>
+        <int_arg_token id="96" token="Matthus"/>
+        <int_arg_token id="97" token="eingesetzt"/>
+        <int_arg_token id="98" token=","/>
+        <int_arg_token id="99" token="Komponist"/>
+        <int_arg_token id="100" token="und"/>
+        <int_arg_token id="101" token="Leiter"/>
+        <int_arg_token id="102" token="der"/>
+        <int_arg_token id="103" token="dortigen"/>
+        <int_arg_token id="104" token="Kammeroper"/>
+        <int_arg_token id="105" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="51" token="Zu"/>
+        <ext_arg_token id="52" token="nennen"/>
+        <ext_arg_token id="53" token="ist"/>
+        <ext_arg_token id="54" token="ihr"/>
+        <ext_arg_token id="55" token="Einsatz"/>
+        <ext_arg_token id="56" token="für"/>
+        <ext_arg_token id="57" token="den"/>
+        <ext_arg_token id="58" token="Wiederaufbau"/>
+        <ext_arg_token id="59" token="des"/>
+        <ext_arg_token id="60" token="Rheinsberger"/>
+        <ext_arg_token id="61" token="Schlosstheaters"/>
+        <ext_arg_token id="62" token=","/>
+        <ext_arg_token id="63" token="die"/>
+        <ext_arg_token id="64" token="Entdeckung"/>
+        <ext_arg_token id="65" token="preußischer"/>
+        <ext_arg_token id="66" token="Komponisten"/>
+        <ext_arg_token id="67" token=","/>
+        <ext_arg_token id="68" token="das"/>
+        <ext_arg_token id="69" token="zeitgenössische"/>
+        <ext_arg_token id="70" token="Musiktheater"/>
+        <ext_arg_token id="71" token="und"/>
+        <ext_arg_token id="72" token="den"/>
+        <ext_arg_token id="73" token="Musikstandort"/>
+        <ext_arg_token id="74" token="Rheinsberg"/>
+        <ext_arg_token id="75" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="explicit">
+      <connective_tokens>
+        <connective_token id="93" token="nämlich"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="76" token="Dennoch"/>
+        <ext_arg_token id="77" token="hinterlässt"/>
+        <ext_arg_token id="78" token="das"/>
+        <ext_arg_token id="79" token="Votum"/>
+        <ext_arg_token id="80" token="der"/>
+        <ext_arg_token id="81" token="Jury"/>
+        <ext_arg_token id="82" token="einen"/>
+        <ext_arg_token id="83" token="faden"/>
+        <ext_arg_token id="84" token="Nachgeschmack"/>
+        <ext_arg_token id="85" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="86" token="Für"/>
+        <int_arg_token id="87" token="all"/>
+        <int_arg_token id="88" token="das"/>
+        <int_arg_token id="89" token="hat"/>
+        <int_arg_token id="90" token="sich"/>
+        <int_arg_token id="91" token="in"/>
+        <int_arg_token id="92" token="Rheinsberg"/>
+        <int_arg_token id="94" token="auch"/>
+        <int_arg_token id="95" token="Siegfried"/>
+        <int_arg_token id="96" token="Matthus"/>
+        <int_arg_token id="97" token="eingesetzt"/>
+        <int_arg_token id="98" token=","/>
+        <int_arg_token id="99" token="Komponist"/>
+        <int_arg_token id="100" token="und"/>
+        <int_arg_token id="101" token="Leiter"/>
+        <int_arg_token id="102" token="der"/>
+        <int_arg_token id="103" token="dortigen"/>
+        <int_arg_token id="104" token="Kammeroper"/>
+        <int_arg_token id="105" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Contingency.Condition.Arg2-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="106" token="Wenn"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="107" token="der"/>
+        <int_arg_token id="108" token="Preis"/>
+        <int_arg_token id="109" token="schon"/>
+        <int_arg_token id="110" token="nach"/>
+        <int_arg_token id="111" token="Rheinsberg"/>
+        <int_arg_token id="112" token="gehen"/>
+        <int_arg_token id="113" token="soll"/>
+        <int_arg_token id="114" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="115" token="hätte"/>
+        <ext_arg_token id="116" token="man"/>
+        <ext_arg_token id="117" token="beide"/>
+        <ext_arg_token id="118" token="bedenken"/>
+        <ext_arg_token id="119" token="müssen"/>
+        <ext_arg_token id="120" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="121" token="Zumal"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="122" token="sie"/>
+        <int_arg_token id="123" token="in"/>
+        <int_arg_token id="124" token="herzlicher"/>
+        <int_arg_token id="125" token="Feindschaft"/>
+        <int_arg_token id="126" token="verbunden"/>
+        <int_arg_token id="127" token="sind"/>
+        <int_arg_token id="128" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="106" token="Wenn"/>
+        <ext_arg_token id="107" token="der"/>
+        <ext_arg_token id="108" token="Preis"/>
+        <ext_arg_token id="109" token="schon"/>
+        <ext_arg_token id="110" token="nach"/>
+        <ext_arg_token id="111" token="Rheinsberg"/>
+        <ext_arg_token id="112" token="gehen"/>
+        <ext_arg_token id="113" token="soll"/>
+        <ext_arg_token id="114" token=","/>
+        <ext_arg_token id="115" token="hätte"/>
+        <ext_arg_token id="116" token="man"/>
+        <ext_arg_token id="117" token="beide"/>
+        <ext_arg_token id="118" token="bedenken"/>
+        <ext_arg_token id="119" token="müssen"/>
+        <ext_arg_token id="120" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="129" token="Doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="121" token="Zumal"/>
+        <ext_arg_token id="122" token="sie"/>
+        <ext_arg_token id="123" token="in"/>
+        <ext_arg_token id="124" token="herzlicher"/>
+        <ext_arg_token id="125" token="Feindschaft"/>
+        <ext_arg_token id="126" token="verbunden"/>
+        <ext_arg_token id="127" token="sind"/>
+        <ext_arg_token id="128" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="130" token="statt"/>
+        <int_arg_token id="131" token="zur"/>
+        <int_arg_token id="132" token="Versöhnung"/>
+        <int_arg_token id="133" token="aufzurufen"/>
+        <int_arg_token id="134" token=","/>
+        <int_arg_token id="135" token="könnte"/>
+        <int_arg_token id="136" token="diese"/>
+        <int_arg_token id="137" token="Entscheidung"/>
+        <int_arg_token id="138" token="die"/>
+        <int_arg_token id="139" token="Wunden"/>
+        <int_arg_token id="140" token="noch"/>
+        <int_arg_token id="141" token="tiefer"/>
+        <int_arg_token id="142" token="reißen"/>
+        <int_arg_token id="143" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Expansion.Substitution.Arg1-as-subst" type="explicit">
+      <connective_tokens>
+        <connective_token id="130" token="statt"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="131" token="zur"/>
+        <int_arg_token id="132" token="Versöhnung"/>
+        <int_arg_token id="133" token="aufzurufen"/>
+        <int_arg_token id="134" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="135" token="könnte"/>
+        <ext_arg_token id="136" token="diese"/>
+        <ext_arg_token id="137" token="Entscheidung"/>
+        <ext_arg_token id="138" token="die"/>
+        <ext_arg_token id="139" token="Wunden"/>
+        <ext_arg_token id="140" token="noch"/>
+        <ext_arg_token id="141" token="tiefer"/>
+        <ext_arg_token id="142" token="reißen"/>
+        <ext_arg_token id="143" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="9" type="EntRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Heute"/>
+        <ext_arg_token id="4" token="wird"/>
+        <ext_arg_token id="5" token="in"/>
+        <ext_arg_token id="6" token="Potsdam"/>
+        <ext_arg_token id="7" token="der"/>
+        <ext_arg_token id="8" token="brandenburgische"/>
+        <ext_arg_token id="9" token="Kunstpreis"/>
+        <ext_arg_token id="10" token="überreicht"/>
+        <ext_arg_token id="11" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="12" token="Die"/>
+        <int_arg_token id="13" token="mit"/>
+        <int_arg_token id="14" token="30_000"/>
+        <int_arg_token id="15" token="Mark"/>
+        <int_arg_token id="16" token="dotierte"/>
+        <int_arg_token id="17" token="Auszeichnung"/>
+        <int_arg_token id="18" token="sollte"/>
+        <int_arg_token id="19" token="dieses"/>
+        <int_arg_token id="20" token="Jahr"/>
+        <int_arg_token id="21" token="einer"/>
+        <int_arg_token id="22" token="Person"/>
+        <int_arg_token id="23" token="zukommen"/>
+        <int_arg_token id="24" token=","/>
+        <int_arg_token id="25" token="die"/>
+        <int_arg_token id="26" token="sich"/>
+        <int_arg_token id="27" token="für"/>
+        <int_arg_token id="28" token="das"/>
+        <int_arg_token id="29" token="märkische"/>
+        <int_arg_token id="30" token="Musikleben"/>
+        <int_arg_token id="31" token="stark"/>
+        <int_arg_token id="32" token="gemacht"/>
+        <int_arg_token id="33" token="hat"/>
+        <int_arg_token id="34" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="12" token="Die"/>
+        <ext_arg_token id="13" token="mit"/>
+        <ext_arg_token id="14" token="30_000"/>
+        <ext_arg_token id="15" token="Mark"/>
+        <ext_arg_token id="16" token="dotierte"/>
+        <ext_arg_token id="17" token="Auszeichnung"/>
+        <ext_arg_token id="18" token="sollte"/>
+        <ext_arg_token id="19" token="dieses"/>
+        <ext_arg_token id="20" token="Jahr"/>
+        <ext_arg_token id="21" token="einer"/>
+        <ext_arg_token id="22" token="Person"/>
+        <ext_arg_token id="23" token="zukommen"/>
+        <ext_arg_token id="24" token=","/>
+        <ext_arg_token id="25" token="die"/>
+        <ext_arg_token id="26" token="sich"/>
+        <ext_arg_token id="27" token="für"/>
+        <ext_arg_token id="28" token="das"/>
+        <ext_arg_token id="29" token="märkische"/>
+        <ext_arg_token id="30" token="Musikleben"/>
+        <ext_arg_token id="31" token="stark"/>
+        <ext_arg_token id="32" token="gemacht"/>
+        <ext_arg_token id="33" token="hat"/>
+        <ext_arg_token id="34" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="35" token="Die"/>
+        <int_arg_token id="36" token="Wahl"/>
+        <int_arg_token id="37" token="fiel"/>
+        <int_arg_token id="38" token="auf"/>
+        <int_arg_token id="39" token="Ulrike"/>
+        <int_arg_token id="40" token="Liedtke"/>
+        <int_arg_token id="41" token=","/>
+        <int_arg_token id="42" token="Musikwissenschaftlerin"/>
+        <int_arg_token id="43" token="und"/>
+        <int_arg_token id="44" token="Leiterin"/>
+        <int_arg_token id="45" token="der"/>
+        <int_arg_token id="46" token="Bundesmusikakademie"/>
+        <int_arg_token id="47" token="Rheinsberg"/>
+        <int_arg_token id="48" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="35" token="Die"/>
+        <ext_arg_token id="36" token="Wahl"/>
+        <ext_arg_token id="37" token="fiel"/>
+        <ext_arg_token id="38" token="auf"/>
+        <ext_arg_token id="39" token="Ulrike"/>
+        <ext_arg_token id="40" token="Liedtke"/>
+        <ext_arg_token id="41" token=","/>
+        <ext_arg_token id="42" token="Musikwissenschaftlerin"/>
+        <ext_arg_token id="43" token="und"/>
+        <ext_arg_token id="44" token="Leiterin"/>
+        <ext_arg_token id="45" token="der"/>
+        <ext_arg_token id="46" token="Bundesmusikakademie"/>
+        <ext_arg_token id="47" token="Rheinsberg"/>
+        <ext_arg_token id="48" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="49" token="Verdientermaßen"/>
+        <int_arg_token id="50" token=":"/>
+        <int_arg_token id="51" token="Zu"/>
+        <int_arg_token id="52" token="nennen"/>
+        <int_arg_token id="53" token="ist"/>
+        <int_arg_token id="54" token="ihr"/>
+        <int_arg_token id="55" token="Einsatz"/>
+        <int_arg_token id="56" token="für"/>
+        <int_arg_token id="57" token="den"/>
+        <int_arg_token id="58" token="Wiederaufbau"/>
+        <int_arg_token id="59" token="des"/>
+        <int_arg_token id="60" token="Rheinsberger"/>
+        <int_arg_token id="61" token="Schlosstheaters"/>
+        <int_arg_token id="62" token=","/>
+        <int_arg_token id="63" token="die"/>
+        <int_arg_token id="64" token="Entdeckung"/>
+        <int_arg_token id="65" token="preußischer"/>
+        <int_arg_token id="66" token="Komponisten"/>
+        <int_arg_token id="67" token=","/>
+        <int_arg_token id="68" token="das"/>
+        <int_arg_token id="69" token="zeitgenössische"/>
+        <int_arg_token id="70" token="Musiktheater"/>
+        <int_arg_token id="71" token="und"/>
+        <int_arg_token id="72" token="den"/>
+        <int_arg_token id="73" token="Musikstandort"/>
+        <int_arg_token id="74" token="Rheinsberg"/>
+        <int_arg_token id="75" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="86" token="Für"/>
+        <ext_arg_token id="87" token="all"/>
+        <ext_arg_token id="88" token="das"/>
+        <ext_arg_token id="89" token="hat"/>
+        <ext_arg_token id="90" token="sich"/>
+        <ext_arg_token id="91" token="in"/>
+        <ext_arg_token id="92" token="Rheinsberg"/>
+        <ext_arg_token id="93" token="nämlich"/>
+        <ext_arg_token id="94" token="auch"/>
+        <ext_arg_token id="95" token="Siegfried"/>
+        <ext_arg_token id="96" token="Matthus"/>
+        <ext_arg_token id="97" token="eingesetzt"/>
+        <ext_arg_token id="98" token=","/>
+        <ext_arg_token id="99" token="Komponist"/>
+        <ext_arg_token id="100" token="und"/>
+        <ext_arg_token id="101" token="Leiter"/>
+        <ext_arg_token id="102" token="der"/>
+        <ext_arg_token id="103" token="dortigen"/>
+        <ext_arg_token id="104" token="Kammeroper"/>
+        <ext_arg_token id="105" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="106" token="Wenn"/>
+        <int_arg_token id="107" token="der"/>
+        <int_arg_token id="108" token="Preis"/>
+        <int_arg_token id="109" token="schon"/>
+        <int_arg_token id="110" token="nach"/>
+        <int_arg_token id="111" token="Rheinsberg"/>
+        <int_arg_token id="112" token="gehen"/>
+        <int_arg_token id="113" token="soll"/>
+        <int_arg_token id="114" token=","/>
+        <int_arg_token id="115" token="hätte"/>
+        <int_arg_token id="116" token="man"/>
+        <int_arg_token id="117" token="beide"/>
+        <int_arg_token id="118" token="bedenken"/>
+        <int_arg_token id="119" token="müssen"/>
+        <int_arg_token id="120" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Expansion.Level-of-detail.Arg1-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>kurz gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="129" token="Doch"/>
+        <ext_arg_token id="130" token="statt"/>
+        <ext_arg_token id="131" token="zur"/>
+        <ext_arg_token id="132" token="Versöhnung"/>
+        <ext_arg_token id="133" token="aufzurufen"/>
+        <ext_arg_token id="134" token=","/>
+        <ext_arg_token id="135" token="könnte"/>
+        <ext_arg_token id="136" token="diese"/>
+        <ext_arg_token id="137" token="Entscheidung"/>
+        <ext_arg_token id="138" token="die"/>
+        <ext_arg_token id="139" token="Wunden"/>
+        <ext_arg_token id="140" token="noch"/>
+        <ext_arg_token id="141" token="tiefer"/>
+        <ext_arg_token id="142" token="reißen"/>
+        <ext_arg_token id="143" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="144" token="Eine"/>
+        <int_arg_token id="145" token="verpasste"/>
+        <int_arg_token id="146" token="Chance"/>
+        <int_arg_token id="147" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

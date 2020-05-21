@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/C:/Arbeit/Annotationen/Konnektoren/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Siamesische</token>
+    <token id="2">Zwillinge</token>
+    <token id="3">Die</token>
+    <token id="4">Lausitzer</token>
+    <token id="5">Braunkohle</token>
+    <token id="6">AG</token>
+    <token id="7">(</token>
+    <token id="8">Laubag</token>
+    <token id="9">)</token>
+    <token id="10">hat</token>
+    <token id="11">im</token>
+    <token id="12">abgelaufenen</token>
+    <token id="13">Geschäftsjahr</token>
+    <token id="14">mit</token>
+    <token id="15">der</token>
+    <token id="16">Förderung</token>
+    <token id="17">und</token>
+    <token id="18">dem</token>
+    <token id="19">Verkauf</token>
+    <token id="20">von</token>
+    <token id="21">Braunkohle</token>
+    <token id="22">erstmals</token>
+    <token id="23">Verluste</token>
+    <token id="24">gemacht</token>
+    <token id="25">.</token>
+    <token id="26">Damit</token>
+    <token id="27">wird</token>
+    <token id="28">erneut</token>
+    <token id="29">deutlich</token>
+    <token id="30">,</token>
+    <token id="31">dass</token>
+    <token id="32">eine</token>
+    <token id="33">Neuordnung</token>
+    <token id="34">der</token>
+    <token id="35">Energiewirtschaft</token>
+    <token id="36">in</token>
+    <token id="37">Ostdeutschland</token>
+    <token id="38">überfällig</token>
+    <token id="39">ist</token>
+    <token id="40">.</token>
+    <token id="41">Denn</token>
+    <token id="42">die</token>
+    <token id="43">Laubag</token>
+    <token id="44">und</token>
+    <token id="45">ihr</token>
+    <token id="46">wichtigster</token>
+    <token id="47">Kunde</token>
+    <token id="48">,</token>
+    <token id="49">die</token>
+    <token id="50">Veag</token>
+    <token id="51">,</token>
+    <token id="52">hängen</token>
+    <token id="53">wie</token>
+    <token id="54">siamesische</token>
+    <token id="55">Zwillinge</token>
+    <token id="56">voneinander</token>
+    <token id="57">ab</token>
+    <token id="58">.</token>
+    <token id="59">Als</token>
+    <token id="60">die</token>
+    <token id="61">Veag</token>
+    <token id="62">wegen</token>
+    <token id="63">der</token>
+    <token id="64">Liberalisierung</token>
+    <token id="65">des</token>
+    <token id="66">Strommarktes</token>
+    <token id="67">unter</token>
+    <token id="68">Druck</token>
+    <token id="69">geriet</token>
+    <token id="70">und</token>
+    <token id="71">ihre</token>
+    <token id="72">Strompreise</token>
+    <token id="73">senken</token>
+    <token id="74">musste</token>
+    <token id="75">,</token>
+    <token id="76">hielt</token>
+    <token id="77">sie</token>
+    <token id="78">sich</token>
+    <token id="79">bei</token>
+    <token id="80">ihrem</token>
+    <token id="81">Lieferanten</token>
+    <token id="82">schadlos</token>
+    <token id="83">.</token>
+    <token id="84">Die</token>
+    <token id="85">Laubag</token>
+    <token id="86">musste</token>
+    <token id="87">Preiszugeständnisse</token>
+    <token id="88">machen</token>
+    <token id="89">,</token>
+    <token id="90">die</token>
+    <token id="91">sie</token>
+    <token id="92">nun</token>
+    <token id="93">selbst</token>
+    <token id="94">in</token>
+    <token id="95">Bedrängnis</token>
+    <token id="96">bringen</token>
+    <token id="97">.</token>
+    <token id="98">Einziger</token>
+    <token id="99">Weg</token>
+    <token id="100">aus</token>
+    <token id="101">dem</token>
+    <token id="102">Dilemma</token>
+    <token id="103">ist</token>
+    <token id="104">die</token>
+    <token id="105">Bildung</token>
+    <token id="106">eines</token>
+    <token id="107">neuen</token>
+    <token id="108">Energiekonzerns</token>
+    <token id="109">aus</token>
+    <token id="110">Rohstofflieferanten</token>
+    <token id="111">,</token>
+    <token id="112">Stromerzeugern</token>
+    <token id="113">und</token>
+    <token id="114">Endversorgern</token>
+    <token id="115">,</token>
+    <token id="116">in</token>
+    <token id="117">dem</token>
+    <token id="118">Risiken</token>
+    <token id="119">besser</token>
+    <token id="120">verteilt</token>
+    <token id="121">werden</token>
+    <token id="122">können</token>
+    <token id="123">.</token>
+    <token id="124">Die</token>
+    <token id="125">Idee</token>
+    <token id="126">,</token>
+    <token id="127">auch</token>
+    <token id="128">einen</token>
+    <token id="129">Gasversorger</token>
+    <token id="130">mit</token>
+    <token id="131">ins</token>
+    <token id="132">Boot</token>
+    <token id="133">zu</token>
+    <token id="134">holen</token>
+    <token id="135">,</token>
+    <token id="136">ist</token>
+    <token id="137">im</token>
+    <token id="138">Prinzip</token>
+    <token id="139">nicht</token>
+    <token id="140">schlecht</token>
+    <token id="141">.</token>
+    <token id="142">Allerdings</token>
+    <token id="143">gilt</token>
+    <token id="144">auch</token>
+    <token id="145">hier</token>
+    <token id="146">,</token>
+    <token id="147">dass</token>
+    <token id="148">zu</token>
+    <token id="149">viele</token>
+    <token id="150">Köche</token>
+    <token id="151">den</token>
+    <token id="152">Brei</token>
+    <token id="153">verderben</token>
+    <token id="154">können</token>
+    <token id="155">.</token>
+    <token id="156">Zumindest</token>
+    <token id="157">muss</token>
+    <token id="158">klar</token>
+    <token id="159">sein</token>
+    <token id="160">,</token>
+    <token id="161">wer</token>
+    <token id="162">im</token>
+    <token id="163">neuen</token>
+    <token id="164">Konzern</token>
+    <token id="165">das</token>
+    <token id="166">Sagen</token>
+    <token id="167">hat</token>
+    <token id="168">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="26" token="Damit"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Die"/>
+        <ext_arg_token id="4" token="Lausitzer"/>
+        <ext_arg_token id="5" token="Braunkohle"/>
+        <ext_arg_token id="6" token="AG"/>
+        <ext_arg_token id="7" token="("/>
+        <ext_arg_token id="8" token="Laubag"/>
+        <ext_arg_token id="9" token=")"/>
+        <ext_arg_token id="10" token="hat"/>
+        <ext_arg_token id="11" token="im"/>
+        <ext_arg_token id="12" token="abgelaufenen"/>
+        <ext_arg_token id="13" token="Geschäftsjahr"/>
+        <ext_arg_token id="14" token="mit"/>
+        <ext_arg_token id="15" token="der"/>
+        <ext_arg_token id="16" token="Förderung"/>
+        <ext_arg_token id="17" token="und"/>
+        <ext_arg_token id="18" token="dem"/>
+        <ext_arg_token id="19" token="Verkauf"/>
+        <ext_arg_token id="20" token="von"/>
+        <ext_arg_token id="21" token="Braunkohle"/>
+        <ext_arg_token id="22" token="erstmals"/>
+        <ext_arg_token id="23" token="Verluste"/>
+        <ext_arg_token id="24" token="gemacht"/>
+        <ext_arg_token id="25" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="27" token="wird"/>
+        <int_arg_token id="28" token="erneut"/>
+        <int_arg_token id="29" token="deutlich"/>
+        <int_arg_token id="30" token=","/>
+        <int_arg_token id="31" token="dass"/>
+        <int_arg_token id="32" token="eine"/>
+        <int_arg_token id="33" token="Neuordnung"/>
+        <int_arg_token id="34" token="der"/>
+        <int_arg_token id="35" token="Energiewirtschaft"/>
+        <int_arg_token id="36" token="in"/>
+        <int_arg_token id="37" token="Ostdeutschland"/>
+        <int_arg_token id="38" token="überfällig"/>
+        <int_arg_token id="39" token="ist"/>
+        <int_arg_token id="40" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="2" pdtb3_sense="Temporal.Synchronous" type="explicit">
+      <connective_tokens>
+        <connective_token id="59" token="Als"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="60" token="die"/>
+        <int_arg_token id="61" token="Veag"/>
+        <int_arg_token id="62" token="wegen"/>
+        <int_arg_token id="63" token="der"/>
+        <int_arg_token id="64" token="Liberalisierung"/>
+        <int_arg_token id="65" token="des"/>
+        <int_arg_token id="66" token="Strommarktes"/>
+        <int_arg_token id="67" token="unter"/>
+        <int_arg_token id="68" token="Druck"/>
+        <int_arg_token id="69" token="geriet"/>
+        <int_arg_token id="70" token="und"/>
+        <int_arg_token id="71" token="ihre"/>
+        <int_arg_token id="72" token="Strompreise"/>
+        <int_arg_token id="73" token="senken"/>
+        <int_arg_token id="74" token="musste"/>
+        <int_arg_token id="75" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="76" token="hielt"/>
+        <ext_arg_token id="77" token="sie"/>
+        <ext_arg_token id="78" token="sich"/>
+        <ext_arg_token id="79" token="bei"/>
+        <ext_arg_token id="80" token="ihrem"/>
+        <ext_arg_token id="81" token="Lieferanten"/>
+        <ext_arg_token id="82" token="schadlos"/>
+        <ext_arg_token id="83" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="41" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="26" token="Damit"/>
+        <ext_arg_token id="27" token="wird"/>
+        <ext_arg_token id="28" token="erneut"/>
+        <ext_arg_token id="29" token="deutlich"/>
+        <ext_arg_token id="30" token=","/>
+        <ext_arg_token id="31" token="dass"/>
+        <ext_arg_token id="32" token="eine"/>
+        <ext_arg_token id="33" token="Neuordnung"/>
+        <ext_arg_token id="34" token="der"/>
+        <ext_arg_token id="35" token="Energiewirtschaft"/>
+        <ext_arg_token id="36" token="in"/>
+        <ext_arg_token id="37" token="Ostdeutschland"/>
+        <ext_arg_token id="38" token="überfällig"/>
+        <ext_arg_token id="39" token="ist"/>
+        <ext_arg_token id="40" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="42" token="die"/>
+        <int_arg_token id="43" token="Laubag"/>
+        <int_arg_token id="44" token="und"/>
+        <int_arg_token id="45" token="ihr"/>
+        <int_arg_token id="46" token="wichtigster"/>
+        <int_arg_token id="47" token="Kunde"/>
+        <int_arg_token id="48" token=","/>
+        <int_arg_token id="49" token="die"/>
+        <int_arg_token id="50" token="Veag"/>
+        <int_arg_token id="51" token=","/>
+        <int_arg_token id="52" token="hängen"/>
+        <int_arg_token id="53" token="wie"/>
+        <int_arg_token id="54" token="siamesische"/>
+        <int_arg_token id="55" token="Zwillinge"/>
+        <int_arg_token id="56" token="voneinander"/>
+        <int_arg_token id="57" token="ab"/>
+        <int_arg_token id="58" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="62" token="wegen"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="63" token="der"/>
+        <int_arg_token id="64" token="Liberalisierung"/>
+        <int_arg_token id="65" token="des"/>
+        <int_arg_token id="66" token="Strommarktes"/>
+        <int_arg_token id="67" token="unter"/>
+        <int_arg_token id="68" token="Druck"/>
+        <int_arg_token id="69" token="geriet"/>
+        <int_arg_token id="70" token="und"/>
+        <int_arg_token id="71" token="ihre"/>
+        <int_arg_token id="72" token="Strompreise"/>
+        <int_arg_token id="73" token="senken"/>
+        <int_arg_token id="74" token="musste"/>
+        <int_arg_token id="75" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="59" token="Als"/>
+        <ext_arg_token id="60" token="die"/>
+        <ext_arg_token id="61" token="Veag"/>
+        <ext_arg_token id="76" token="hielt"/>
+        <ext_arg_token id="77" token="sie"/>
+        <ext_arg_token id="78" token="sich"/>
+        <ext_arg_token id="79" token="bei"/>
+        <ext_arg_token id="80" token="ihrem"/>
+        <ext_arg_token id="81" token="Lieferanten"/>
+        <ext_arg_token id="82" token="schadlos"/>
+        <ext_arg_token id="83" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="142" token="Allerdings"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="124" token="Die"/>
+        <ext_arg_token id="125" token="Idee"/>
+        <ext_arg_token id="126" token=","/>
+        <ext_arg_token id="127" token="auch"/>
+        <ext_arg_token id="128" token="einen"/>
+        <ext_arg_token id="129" token="Gasversorger"/>
+        <ext_arg_token id="130" token="mit"/>
+        <ext_arg_token id="131" token="ins"/>
+        <ext_arg_token id="132" token="Boot"/>
+        <ext_arg_token id="133" token="zu"/>
+        <ext_arg_token id="134" token="holen"/>
+        <ext_arg_token id="135" token=","/>
+        <ext_arg_token id="136" token="ist"/>
+        <ext_arg_token id="137" token="im"/>
+        <ext_arg_token id="138" token="Prinzip"/>
+        <ext_arg_token id="139" token="nicht"/>
+        <ext_arg_token id="140" token="schlecht"/>
+        <ext_arg_token id="141" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="143" token="gilt"/>
+        <int_arg_token id="144" token="auch"/>
+        <int_arg_token id="145" token="hier"/>
+        <int_arg_token id="146" token=","/>
+        <int_arg_token id="147" token="dass"/>
+        <int_arg_token id="148" token="zu"/>
+        <int_arg_token id="149" token="viele"/>
+        <int_arg_token id="150" token="Köche"/>
+        <int_arg_token id="151" token="den"/>
+        <int_arg_token id="152" token="Brei"/>
+        <int_arg_token id="153" token="verderben"/>
+        <int_arg_token id="154" token="können"/>
+        <int_arg_token id="155" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="41" token="Denn"/>
+        <ext_arg_token id="42" token="die"/>
+        <ext_arg_token id="43" token="Laubag"/>
+        <ext_arg_token id="44" token="und"/>
+        <ext_arg_token id="45" token="ihr"/>
+        <ext_arg_token id="46" token="wichtigster"/>
+        <ext_arg_token id="47" token="Kunde"/>
+        <ext_arg_token id="48" token=","/>
+        <ext_arg_token id="49" token="die"/>
+        <ext_arg_token id="50" token="Veag"/>
+        <ext_arg_token id="51" token=","/>
+        <ext_arg_token id="52" token="hängen"/>
+        <ext_arg_token id="53" token="wie"/>
+        <ext_arg_token id="54" token="siamesische"/>
+        <ext_arg_token id="55" token="Zwillinge"/>
+        <ext_arg_token id="56" token="voneinander"/>
+        <ext_arg_token id="57" token="ab"/>
+        <ext_arg_token id="58" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="59" token="Als"/>
+        <int_arg_token id="60" token="die"/>
+        <int_arg_token id="61" token="Veag"/>
+        <int_arg_token id="62" token="wegen"/>
+        <int_arg_token id="63" token="der"/>
+        <int_arg_token id="64" token="Liberalisierung"/>
+        <int_arg_token id="65" token="des"/>
+        <int_arg_token id="66" token="Strommarktes"/>
+        <int_arg_token id="67" token="unter"/>
+        <int_arg_token id="68" token="Druck"/>
+        <int_arg_token id="69" token="geriet"/>
+        <int_arg_token id="70" token="und"/>
+        <int_arg_token id="71" token="ihre"/>
+        <int_arg_token id="72" token="Strompreise"/>
+        <int_arg_token id="73" token="senken"/>
+        <int_arg_token id="74" token="musste"/>
+        <int_arg_token id="75" token=","/>
+        <int_arg_token id="76" token="hielt"/>
+        <int_arg_token id="77" token="sie"/>
+        <int_arg_token id="78" token="sich"/>
+        <int_arg_token id="79" token="bei"/>
+        <int_arg_token id="80" token="ihrem"/>
+        <int_arg_token id="81" token="Lieferanten"/>
+        <int_arg_token id="82" token="schadlos"/>
+        <int_arg_token id="83" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>außerdem</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="59" token="Als"/>
+        <ext_arg_token id="60" token="die"/>
+        <ext_arg_token id="61" token="Veag"/>
+        <ext_arg_token id="62" token="wegen"/>
+        <ext_arg_token id="63" token="der"/>
+        <ext_arg_token id="64" token="Liberalisierung"/>
+        <ext_arg_token id="65" token="des"/>
+        <ext_arg_token id="66" token="Strommarktes"/>
+        <ext_arg_token id="67" token="unter"/>
+        <ext_arg_token id="68" token="Druck"/>
+        <ext_arg_token id="69" token="geriet"/>
+        <ext_arg_token id="70" token="und"/>
+        <ext_arg_token id="71" token="ihre"/>
+        <ext_arg_token id="72" token="Strompreise"/>
+        <ext_arg_token id="73" token="senken"/>
+        <ext_arg_token id="74" token="musste"/>
+        <ext_arg_token id="75" token=","/>
+        <ext_arg_token id="76" token="hielt"/>
+        <ext_arg_token id="77" token="sie"/>
+        <ext_arg_token id="78" token="sich"/>
+        <ext_arg_token id="79" token="bei"/>
+        <ext_arg_token id="80" token="ihrem"/>
+        <ext_arg_token id="81" token="Lieferanten"/>
+        <ext_arg_token id="82" token="schadlos"/>
+        <ext_arg_token id="83" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="84" token="Die"/>
+        <int_arg_token id="85" token="Laubag"/>
+        <int_arg_token id="86" token="musste"/>
+        <int_arg_token id="87" token="Preiszugeständnisse"/>
+        <int_arg_token id="88" token="machen"/>
+        <int_arg_token id="89" token=","/>
+        <int_arg_token id="90" token="die"/>
+        <int_arg_token id="91" token="sie"/>
+        <int_arg_token id="92" token="nun"/>
+        <int_arg_token id="93" token="selbst"/>
+        <int_arg_token id="94" token="in"/>
+        <int_arg_token id="95" token="Bedrängnis"/>
+        <int_arg_token id="96" token="bringen"/>
+        <int_arg_token id="97" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="84" token="Die"/>
+        <ext_arg_token id="85" token="Laubag"/>
+        <ext_arg_token id="86" token="musste"/>
+        <ext_arg_token id="87" token="Preiszugeständnisse"/>
+        <ext_arg_token id="88" token="machen"/>
+        <ext_arg_token id="89" token=","/>
+        <ext_arg_token id="90" token="die"/>
+        <ext_arg_token id="91" token="sie"/>
+        <ext_arg_token id="92" token="nun"/>
+        <ext_arg_token id="93" token="selbst"/>
+        <ext_arg_token id="94" token="in"/>
+        <ext_arg_token id="95" token="Bedrängnis"/>
+        <ext_arg_token id="96" token="bringen"/>
+        <ext_arg_token id="97" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="98" token="Einziger"/>
+        <int_arg_token id="99" token="Weg"/>
+        <int_arg_token id="100" token="aus"/>
+        <int_arg_token id="101" token="dem"/>
+        <int_arg_token id="102" token="Dilemma"/>
+        <int_arg_token id="103" token="ist"/>
+        <int_arg_token id="104" token="die"/>
+        <int_arg_token id="105" token="Bildung"/>
+        <int_arg_token id="106" token="eines"/>
+        <int_arg_token id="107" token="neuen"/>
+        <int_arg_token id="108" token="Energiekonzerns"/>
+        <int_arg_token id="109" token="aus"/>
+        <int_arg_token id="110" token="Rohstofflieferanten"/>
+        <int_arg_token id="111" token=","/>
+        <int_arg_token id="112" token="Stromerzeugern"/>
+        <int_arg_token id="113" token="und"/>
+        <int_arg_token id="114" token="Endversorgern"/>
+        <int_arg_token id="115" token=","/>
+        <int_arg_token id="116" token="in"/>
+        <int_arg_token id="117" token="dem"/>
+        <int_arg_token id="118" token="Risiken"/>
+        <int_arg_token id="119" token="besser"/>
+        <int_arg_token id="120" token="verteilt"/>
+        <int_arg_token id="121" token="werden"/>
+        <int_arg_token id="122" token="können"/>
+        <int_arg_token id="123" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="98" token="Einziger"/>
+        <ext_arg_token id="99" token="Weg"/>
+        <ext_arg_token id="100" token="aus"/>
+        <ext_arg_token id="101" token="dem"/>
+        <ext_arg_token id="102" token="Dilemma"/>
+        <ext_arg_token id="103" token="ist"/>
+        <ext_arg_token id="104" token="die"/>
+        <ext_arg_token id="105" token="Bildung"/>
+        <ext_arg_token id="106" token="eines"/>
+        <ext_arg_token id="107" token="neuen"/>
+        <ext_arg_token id="108" token="Energiekonzerns"/>
+        <ext_arg_token id="109" token="aus"/>
+        <ext_arg_token id="110" token="Rohstofflieferanten"/>
+        <ext_arg_token id="111" token=","/>
+        <ext_arg_token id="112" token="Stromerzeugern"/>
+        <ext_arg_token id="113" token="und"/>
+        <ext_arg_token id="114" token="Endversorgern"/>
+        <ext_arg_token id="115" token=","/>
+        <ext_arg_token id="116" token="in"/>
+        <ext_arg_token id="117" token="dem"/>
+        <ext_arg_token id="118" token="Risiken"/>
+        <ext_arg_token id="119" token="besser"/>
+        <ext_arg_token id="120" token="verteilt"/>
+        <ext_arg_token id="121" token="werden"/>
+        <ext_arg_token id="122" token="können"/>
+        <ext_arg_token id="123" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="124" token="Die"/>
+        <int_arg_token id="125" token="Idee"/>
+        <int_arg_token id="126" token=","/>
+        <int_arg_token id="127" token="auch"/>
+        <int_arg_token id="128" token="einen"/>
+        <int_arg_token id="129" token="Gasversorger"/>
+        <int_arg_token id="130" token="mit"/>
+        <int_arg_token id="131" token="ins"/>
+        <int_arg_token id="132" token="Boot"/>
+        <int_arg_token id="133" token="zu"/>
+        <int_arg_token id="134" token="holen"/>
+        <int_arg_token id="135" token=","/>
+        <int_arg_token id="136" token="ist"/>
+        <int_arg_token id="137" token="im"/>
+        <int_arg_token id="138" token="Prinzip"/>
+        <int_arg_token id="139" token="nicht"/>
+        <int_arg_token id="140" token="schlecht"/>
+        <int_arg_token id="141" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="142" token="Allerdings"/>
+        <ext_arg_token id="143" token="gilt"/>
+        <ext_arg_token id="144" token="auch"/>
+        <ext_arg_token id="145" token="hier"/>
+        <ext_arg_token id="146" token=","/>
+        <ext_arg_token id="147" token="dass"/>
+        <ext_arg_token id="148" token="zu"/>
+        <ext_arg_token id="149" token="viele"/>
+        <ext_arg_token id="150" token="Köche"/>
+        <ext_arg_token id="151" token="den"/>
+        <ext_arg_token id="152" token="Brei"/>
+        <ext_arg_token id="153" token="verderben"/>
+        <ext_arg_token id="154" token="können"/>
+        <ext_arg_token id="155" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="156" token="Zumindest"/>
+        <int_arg_token id="157" token="muss"/>
+        <int_arg_token id="158" token="klar"/>
+        <int_arg_token id="159" token="sein"/>
+        <int_arg_token id="160" token=","/>
+        <int_arg_token id="161" token="wer"/>
+        <int_arg_token id="162" token="im"/>
+        <int_arg_token id="163" token="neuen"/>
+        <int_arg_token id="164" token="Konzern"/>
+        <int_arg_token id="165" token="das"/>
+        <int_arg_token id="166" token="Sagen"/>
+        <int_arg_token id="167" token="hat"/>
+        <int_arg_token id="168" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

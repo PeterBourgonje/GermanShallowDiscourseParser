@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Einsteins</token>
+    <token id="2">Lorbeeren</token>
+    <token id="3">Unter</token>
+    <token id="4">den</token>
+    <token id="5">vielen</token>
+    <token id="6">Lobreden</token>
+    <token id="7">wäre</token>
+    <token id="8">gestern</token>
+    <token id="9">am</token>
+    <token id="10">neuen</token>
+    <token id="11">Hauptsitz</token>
+    <token id="12">des</token>
+    <token id="13">Instituts</token>
+    <token id="14">für</token>
+    <token id="15">Klimafolgenforschung</token>
+    <token id="16">fast</token>
+    <token id="17">die</token>
+    <token id="18">Tatsache</token>
+    <token id="19">in</token>
+    <token id="20">Vergessenheit</token>
+    <token id="21">geraten</token>
+    <token id="22">,</token>
+    <token id="23">dass</token>
+    <token id="24">dessen</token>
+    <token id="25">Direktor</token>
+    <token id="26">Schellnhuber</token>
+    <token id="27">kürzlich</token>
+    <token id="28">um</token>
+    <token id="29">ein</token>
+    <token id="30">Haar</token>
+    <token id="31">ins</token>
+    <token id="32">Ausland</token>
+    <token id="33">abgewandert</token>
+    <token id="34">wäre</token>
+    <token id="35">.</token>
+    <token id="36">Dass</token>
+    <token id="37">er</token>
+    <token id="38">doch</token>
+    <token id="39">geblieben</token>
+    <token id="40">ist</token>
+    <token id="41">,</token>
+    <token id="42">hat</token>
+    <token id="43">vordergründig</token>
+    <token id="44">mit</token>
+    <token id="45">mehr</token>
+    <token id="46">Geld</token>
+    <token id="47">fürs</token>
+    <token id="48">Institut</token>
+    <token id="49">zu</token>
+    <token id="50">tun</token>
+    <token id="51">:</token>
+    <token id="52">Wieso</token>
+    <token id="53">Spitzenforscher</token>
+    <token id="54">aus</token>
+    <token id="55">aller</token>
+    <token id="56">Welt</token>
+    <token id="57">in</token>
+    <token id="58">Potsdam</token>
+    <token id="59">arbeiten</token>
+    <token id="60">wollen</token>
+    <token id="61">,</token>
+    <token id="62">erklärt</token>
+    <token id="63">das</token>
+    <token id="64">alleine</token>
+    <token id="65">nicht</token>
+    <token id="66">.</token>
+    <token id="67">Die</token>
+    <token id="68">Stadt</token>
+    <token id="69">hat</token>
+    <token id="70">was</token>
+    <token id="71">.</token>
+    <token id="72">Aber</token>
+    <token id="73">was</token>
+    <token id="74">?</token>
+    <token id="75">Legendäre</token>
+    <token id="76">Wissenschaftstempel</token>
+    <token id="77">wie</token>
+    <token id="78">das</token>
+    <token id="79">astrophysikalische</token>
+    <token id="80">Institut</token>
+    <token id="81">haben</token>
+    <token id="82">Tradition</token>
+    <token id="83">und</token>
+    <token id="84">Flair</token>
+    <token id="85">-</token>
+    <token id="86">das</token>
+    <token id="87">treibt</token>
+    <token id="88">dem</token>
+    <token id="89">ehemaligen</token>
+    <token id="90">AIP-Direktor</token>
+    <token id="91">Hasinger</token>
+    <token id="92">die</token>
+    <token id="93">Gänsehaut</token>
+    <token id="94">in</token>
+    <token id="95">den</token>
+    <token id="96">Nacken</token>
+    <token id="97">.</token>
+    <token id="98">Die</token>
+    <token id="99">Nähe</token>
+    <token id="100">zur</token>
+    <token id="101">Landesregierung</token>
+    <token id="102">ist</token>
+    <token id="103">ein</token>
+    <token id="104">Standortvorteil</token>
+    <token id="105">,</token>
+    <token id="106">wie</token>
+    <token id="107">das</token>
+    <token id="108">Tauziehen</token>
+    <token id="109">um</token>
+    <token id="110">Schellnhuber</token>
+    <token id="111">beweist</token>
+    <token id="112">.</token>
+    <token id="113">Und</token>
+    <token id="114">kaum</token>
+    <token id="115">eine</token>
+    <token id="116">Region</token>
+    <token id="117">Deutschlands</token>
+    <token id="118">hat</token>
+    <token id="119">ein</token>
+    <token id="120">derart</token>
+    <token id="121">dichtes</token>
+    <token id="122">Netz</token>
+    <token id="123">von</token>
+    <token id="124">kooperierenden</token>
+    <token id="125">Wissenschaftseinrichtungen</token>
+    <token id="126">zu</token>
+    <token id="127">bieten</token>
+    <token id="128">-</token>
+    <token id="129">der</token>
+    <token id="130">Erfolg</token>
+    <token id="131">des</token>
+    <token id="132">interdisziplinären</token>
+    <token id="133">Helmholtz-Instituts</token>
+    <token id="134">für</token>
+    <token id="135">die</token>
+    <token id="136">Schulung</token>
+    <token id="137">an</token>
+    <token id="138">Supercomputern</token>
+    <token id="139">spricht</token>
+    <token id="140">Bände</token>
+    <token id="141">.</token>
+    <token id="142">Nun</token>
+    <token id="143">kommt</token>
+    <token id="144">es</token>
+    <token id="145">darauf</token>
+    <token id="146">an</token>
+    <token id="147">,</token>
+    <token id="148">sich</token>
+    <token id="149">nicht</token>
+    <token id="150">auf</token>
+    <token id="151">Einsteins</token>
+    <token id="152">Lorbeeren</token>
+    <token id="153">auszuruhen</token>
+    <token id="154">.</token>
+    <token id="155">Denn</token>
+    <token id="156">weiche</token>
+    <token id="157">Standortfaktoren</token>
+    <token id="158">allein</token>
+    <token id="159">reichen</token>
+    <token id="160">nicht</token>
+    <token id="161">aus</token>
+    <token id="162">.</token>
+    <token id="163">Brandenburg</token>
+    <token id="164">muss</token>
+    <token id="165">endlich</token>
+    <token id="166">die</token>
+    <token id="167">rote</token>
+    <token id="168">Laterne</token>
+    <token id="169">in</token>
+    <token id="170">der</token>
+    <token id="171">Wissenschaftsförderung</token>
+    <token id="172">abgeben</token>
+    <token id="173">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="3" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="38" token="doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Unter"/>
+        <ext_arg_token id="4" token="den"/>
+        <ext_arg_token id="5" token="vielen"/>
+        <ext_arg_token id="6" token="Lobreden"/>
+        <ext_arg_token id="7" token="wäre"/>
+        <ext_arg_token id="8" token="gestern"/>
+        <ext_arg_token id="9" token="am"/>
+        <ext_arg_token id="10" token="neuen"/>
+        <ext_arg_token id="11" token="Hauptsitz"/>
+        <ext_arg_token id="12" token="des"/>
+        <ext_arg_token id="13" token="Instituts"/>
+        <ext_arg_token id="14" token="für"/>
+        <ext_arg_token id="15" token="Klimafolgenforschung"/>
+        <ext_arg_token id="16" token="fast"/>
+        <ext_arg_token id="17" token="die"/>
+        <ext_arg_token id="18" token="Tatsache"/>
+        <ext_arg_token id="19" token="in"/>
+        <ext_arg_token id="20" token="Vergessenheit"/>
+        <ext_arg_token id="21" token="geraten"/>
+        <ext_arg_token id="22" token=","/>
+        <ext_arg_token id="23" token="dass"/>
+        <ext_arg_token id="24" token="dessen"/>
+        <ext_arg_token id="25" token="Direktor"/>
+        <ext_arg_token id="26" token="Schellnhuber"/>
+        <ext_arg_token id="27" token="kürzlich"/>
+        <ext_arg_token id="28" token="um"/>
+        <ext_arg_token id="29" token="ein"/>
+        <ext_arg_token id="30" token="Haar"/>
+        <ext_arg_token id="31" token="ins"/>
+        <ext_arg_token id="32" token="Ausland"/>
+        <ext_arg_token id="33" token="abgewandert"/>
+        <ext_arg_token id="34" token="wäre"/>
+        <ext_arg_token id="35" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="36" token="Dass"/>
+        <int_arg_token id="37" token="er"/>
+        <int_arg_token id="39" token="geblieben"/>
+        <int_arg_token id="40" token="ist"/>
+        <int_arg_token id="41" token=","/>
+        <int_arg_token id="42" token="hat"/>
+        <int_arg_token id="43" token="vordergründig"/>
+        <int_arg_token id="44" token="mit"/>
+        <int_arg_token id="45" token="mehr"/>
+        <int_arg_token id="46" token="Geld"/>
+        <int_arg_token id="47" token="fürs"/>
+        <int_arg_token id="48" token="Institut"/>
+        <int_arg_token id="49" token="zu"/>
+        <int_arg_token id="50" token="tun"/>
+        <int_arg_token id="51" token=":"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="72" token="Aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="67" token="Die"/>
+        <ext_arg_token id="68" token="Stadt"/>
+        <ext_arg_token id="69" token="hat"/>
+        <ext_arg_token id="70" token="was"/>
+        <ext_arg_token id="71" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="73" token="was"/>
+        <int_arg_token id="74" token="?"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="113" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="98" token="Die"/>
+        <ext_arg_token id="99" token="Nähe"/>
+        <ext_arg_token id="100" token="zur"/>
+        <ext_arg_token id="101" token="Landesregierung"/>
+        <ext_arg_token id="102" token="ist"/>
+        <ext_arg_token id="103" token="ein"/>
+        <ext_arg_token id="104" token="Standortvorteil"/>
+        <ext_arg_token id="105" token=","/>
+        <ext_arg_token id="106" token="wie"/>
+        <ext_arg_token id="107" token="das"/>
+        <ext_arg_token id="108" token="Tauziehen"/>
+        <ext_arg_token id="109" token="um"/>
+        <ext_arg_token id="110" token="Schellnhuber"/>
+        <ext_arg_token id="111" token="beweist"/>
+        <ext_arg_token id="112" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="114" token="kaum"/>
+        <int_arg_token id="115" token="eine"/>
+        <int_arg_token id="116" token="Region"/>
+        <int_arg_token id="117" token="Deutschlands"/>
+        <int_arg_token id="118" token="hat"/>
+        <int_arg_token id="119" token="ein"/>
+        <int_arg_token id="120" token="derart"/>
+        <int_arg_token id="121" token="dichtes"/>
+        <int_arg_token id="122" token="Netz"/>
+        <int_arg_token id="123" token="von"/>
+        <int_arg_token id="124" token="kooperierenden"/>
+        <int_arg_token id="125" token="Wissenschaftseinrichtungen"/>
+        <int_arg_token id="126" token="zu"/>
+        <int_arg_token id="127" token="bieten"/>
+        <int_arg_token id="128" token="-"/>
+        <int_arg_token id="129" token="der"/>
+        <int_arg_token id="130" token="Erfolg"/>
+        <int_arg_token id="131" token="des"/>
+        <int_arg_token id="132" token="interdisziplinären"/>
+        <int_arg_token id="133" token="Helmholtz-Instituts"/>
+        <int_arg_token id="134" token="für"/>
+        <int_arg_token id="135" token="die"/>
+        <int_arg_token id="136" token="Schulung"/>
+        <int_arg_token id="137" token="an"/>
+        <int_arg_token id="138" token="Supercomputern"/>
+        <int_arg_token id="139" token="spricht"/>
+        <int_arg_token id="140" token="Bände"/>
+        <int_arg_token id="141" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="155" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="142" token="Nun"/>
+        <ext_arg_token id="143" token="kommt"/>
+        <ext_arg_token id="144" token="es"/>
+        <ext_arg_token id="145" token="darauf"/>
+        <ext_arg_token id="146" token="an"/>
+        <ext_arg_token id="147" token=","/>
+        <ext_arg_token id="148" token="sich"/>
+        <ext_arg_token id="149" token="nicht"/>
+        <ext_arg_token id="150" token="auf"/>
+        <ext_arg_token id="151" token="Einsteins"/>
+        <ext_arg_token id="152" token="Lorbeeren"/>
+        <ext_arg_token id="153" token="auszuruhen"/>
+        <ext_arg_token id="154" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="156" token="weiche"/>
+        <int_arg_token id="157" token="Standortfaktoren"/>
+        <int_arg_token id="158" token="allein"/>
+        <int_arg_token id="159" token="reichen"/>
+        <int_arg_token id="160" token="nicht"/>
+        <int_arg_token id="161" token="aus"/>
+        <int_arg_token id="162" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="implicit">
+      <connective_tokens>
+        <implicit_connective>aber</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="36" token="Dass"/>
+        <ext_arg_token id="37" token="er"/>
+        <ext_arg_token id="38" token="doch"/>
+        <ext_arg_token id="39" token="geblieben"/>
+        <ext_arg_token id="40" token="ist"/>
+        <ext_arg_token id="41" token=","/>
+        <ext_arg_token id="42" token="hat"/>
+        <ext_arg_token id="43" token="vordergründig"/>
+        <ext_arg_token id="44" token="mit"/>
+        <ext_arg_token id="45" token="mehr"/>
+        <ext_arg_token id="46" token="Geld"/>
+        <ext_arg_token id="47" token="fürs"/>
+        <ext_arg_token id="48" token="Institut"/>
+        <ext_arg_token id="49" token="zu"/>
+        <ext_arg_token id="50" token="tun"/>
+        <ext_arg_token id="51" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="52" token="Wieso"/>
+        <int_arg_token id="53" token="Spitzenforscher"/>
+        <int_arg_token id="54" token="aus"/>
+        <int_arg_token id="55" token="aller"/>
+        <int_arg_token id="56" token="Welt"/>
+        <int_arg_token id="57" token="in"/>
+        <int_arg_token id="58" token="Potsdam"/>
+        <int_arg_token id="59" token="arbeiten"/>
+        <int_arg_token id="60" token="wollen"/>
+        <int_arg_token id="61" token=","/>
+        <int_arg_token id="62" token="erklärt"/>
+        <int_arg_token id="63" token="das"/>
+        <int_arg_token id="64" token="alleine"/>
+        <int_arg_token id="65" token="nicht"/>
+        <int_arg_token id="66" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="72" token="Aber"/>
+        <ext_arg_token id="73" token="was"/>
+        <ext_arg_token id="74" token="?"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="75" token="Legendäre"/>
+        <int_arg_token id="76" token="Wissenschaftstempel"/>
+        <int_arg_token id="77" token="wie"/>
+        <int_arg_token id="78" token="das"/>
+        <int_arg_token id="79" token="astrophysikalische"/>
+        <int_arg_token id="80" token="Institut"/>
+        <int_arg_token id="81" token="haben"/>
+        <int_arg_token id="82" token="Tradition"/>
+        <int_arg_token id="83" token="und"/>
+        <int_arg_token id="84" token="Flair"/>
+        <int_arg_token id="85" token="-"/>
+        <int_arg_token id="86" token="das"/>
+        <int_arg_token id="87" token="treibt"/>
+        <int_arg_token id="88" token="dem"/>
+        <int_arg_token id="89" token="ehemaligen"/>
+        <int_arg_token id="90" token="AIP-Direktor"/>
+        <int_arg_token id="91" token="Hasinger"/>
+        <int_arg_token id="92" token="die"/>
+        <int_arg_token id="93" token="Gänsehaut"/>
+        <int_arg_token id="94" token="in"/>
+        <int_arg_token id="95" token="den"/>
+        <int_arg_token id="96" token="Nacken"/>
+        <int_arg_token id="97" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="75" token="Legendäre"/>
+        <ext_arg_token id="76" token="Wissenschaftstempel"/>
+        <ext_arg_token id="77" token="wie"/>
+        <ext_arg_token id="78" token="das"/>
+        <ext_arg_token id="79" token="astrophysikalische"/>
+        <ext_arg_token id="80" token="Institut"/>
+        <ext_arg_token id="81" token="haben"/>
+        <ext_arg_token id="82" token="Tradition"/>
+        <ext_arg_token id="83" token="und"/>
+        <ext_arg_token id="84" token="Flair"/>
+        <ext_arg_token id="85" token="-"/>
+        <ext_arg_token id="86" token="das"/>
+        <ext_arg_token id="87" token="treibt"/>
+        <ext_arg_token id="88" token="dem"/>
+        <ext_arg_token id="89" token="ehemaligen"/>
+        <ext_arg_token id="90" token="AIP-Direktor"/>
+        <ext_arg_token id="91" token="Hasinger"/>
+        <ext_arg_token id="92" token="die"/>
+        <ext_arg_token id="93" token="Gänsehaut"/>
+        <ext_arg_token id="94" token="in"/>
+        <ext_arg_token id="95" token="den"/>
+        <ext_arg_token id="96" token="Nacken"/>
+        <ext_arg_token id="97" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="98" token="Die"/>
+        <int_arg_token id="99" token="Nähe"/>
+        <int_arg_token id="100" token="zur"/>
+        <int_arg_token id="101" token="Landesregierung"/>
+        <int_arg_token id="102" token="ist"/>
+        <int_arg_token id="103" token="ein"/>
+        <int_arg_token id="104" token="Standortvorteil"/>
+        <int_arg_token id="105" token=","/>
+        <int_arg_token id="106" token="wie"/>
+        <int_arg_token id="107" token="das"/>
+        <int_arg_token id="108" token="Tauziehen"/>
+        <int_arg_token id="109" token="um"/>
+        <int_arg_token id="110" token="Schellnhuber"/>
+        <int_arg_token id="111" token="beweist"/>
+        <int_arg_token id="112" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>entsprechend</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="155" token="Denn"/>
+        <ext_arg_token id="156" token="weiche"/>
+        <ext_arg_token id="157" token="Standortfaktoren"/>
+        <ext_arg_token id="158" token="allein"/>
+        <ext_arg_token id="159" token="reichen"/>
+        <ext_arg_token id="160" token="nicht"/>
+        <ext_arg_token id="161" token="aus"/>
+        <ext_arg_token id="162" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="163" token="Brandenburg"/>
+        <int_arg_token id="164" token="muss"/>
+        <int_arg_token id="165" token="endlich"/>
+        <int_arg_token id="166" token="die"/>
+        <int_arg_token id="167" token="rote"/>
+        <int_arg_token id="168" token="Laterne"/>
+        <int_arg_token id="169" token="in"/>
+        <int_arg_token id="170" token="der"/>
+        <int_arg_token id="171" token="Wissenschaftsförderung"/>
+        <int_arg_token id="172" token="abgeben"/>
+        <int_arg_token id="173" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

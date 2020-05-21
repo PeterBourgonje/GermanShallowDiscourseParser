@@ -1,0 +1,639 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Unangenehm</token>
+    <token id="2">aber</token>
+    <token id="3">fair</token>
+    <token id="4">Im</token>
+    <token id="5">Löwenberger</token>
+    <token id="6">Land</token>
+    <token id="7">steht</token>
+    <token id="8">eine</token>
+    <token id="9">Änderung</token>
+    <token id="10">der</token>
+    <token id="11">Kita-Öffnungszeiten</token>
+    <token id="12">bevor</token>
+    <token id="13">.</token>
+    <token id="14">Die</token>
+    <token id="15">Verwaltung</token>
+    <token id="16">reagiert</token>
+    <token id="17">damit</token>
+    <token id="18">auf</token>
+    <token id="19">eine</token>
+    <token id="20">Analyse</token>
+    <token id="21">,</token>
+    <token id="22">die</token>
+    <token id="23">sich</token>
+    <token id="24">vor</token>
+    <token id="25">allem</token>
+    <token id="26">mit</token>
+    <token id="27">der</token>
+    <token id="28">Anzahl</token>
+    <token id="29">betreuter</token>
+    <token id="30">Kinder</token>
+    <token id="31">zu</token>
+    <token id="32">den</token>
+    <token id="33">verschiedenen</token>
+    <token id="34">Tageszeiten</token>
+    <token id="35">beschäftigt</token>
+    <token id="36">.</token>
+    <token id="37">Wer</token>
+    <token id="38">hinter</token>
+    <token id="39">den</token>
+    <token id="40">neuen</token>
+    <token id="41">Betreuungszeiten</token>
+    <token id="42">Sparabsichten</token>
+    <token id="43">vermutet</token>
+    <token id="44">,</token>
+    <token id="45">liegt</token>
+    <token id="46">richtig</token>
+    <token id="47">.</token>
+    <token id="48">Bekanntlich</token>
+    <token id="49">sitzt</token>
+    <token id="50">der</token>
+    <token id="51">Landesregierung</token>
+    <token id="52">beim</token>
+    <token id="53">Thema</token>
+    <token id="54">Kinderbetreuung</token>
+    <token id="55">der</token>
+    <token id="56">Rotstift</token>
+    <token id="57">nach</token>
+    <token id="58">wie</token>
+    <token id="59">vor</token>
+    <token id="60">viel</token>
+    <token id="61">zu</token>
+    <token id="62">locker</token>
+    <token id="63">.</token>
+    <token id="64">Mit</token>
+    <token id="65">den</token>
+    <token id="66">Folgen</token>
+    <token id="67">müssen</token>
+    <token id="68">sich</token>
+    <token id="69">die</token>
+    <token id="70">Verwaltungen</token>
+    <token id="71">vor</token>
+    <token id="72">Ort</token>
+    <token id="73">herumplagen</token>
+    <token id="74">.</token>
+    <token id="75">Unpopuläre</token>
+    <token id="76">Entscheidungen</token>
+    <token id="77">,</token>
+    <token id="78">die</token>
+    <token id="79">bis</token>
+    <token id="80">zur</token>
+    <token id="81">Schließung</token>
+    <token id="82">führen</token>
+    <token id="83">,</token>
+    <token id="84">sind</token>
+    <token id="85">die</token>
+    <token id="86">Folge</token>
+    <token id="87">.</token>
+    <token id="88">Davon</token>
+    <token id="89">wissen</token>
+    <token id="90">auch</token>
+    <token id="91">die</token>
+    <token id="92">Löwenberger</token>
+    <token id="93">ein</token>
+    <token id="94">trauriges</token>
+    <token id="95">Lied</token>
+    <token id="96">zu</token>
+    <token id="97">singen</token>
+    <token id="98">.</token>
+    <token id="99">Die</token>
+    <token id="100">eingangs</token>
+    <token id="101">erwähnte</token>
+    <token id="102">Analyse</token>
+    <token id="103">ist</token>
+    <token id="104">der</token>
+    <token id="105">Versuch</token>
+    <token id="106">,</token>
+    <token id="107">auf</token>
+    <token id="108">weniger</token>
+    <token id="109">Geld</token>
+    <token id="110">für</token>
+    <token id="111">Kinderbetreuung</token>
+    <token id="112">möglichst</token>
+    <token id="113">objektiv</token>
+    <token id="114">zu</token>
+    <token id="115">reagieren</token>
+    <token id="116">.</token>
+    <token id="117">Nunmehr</token>
+    <token id="118">soll</token>
+    <token id="119">eine</token>
+    <token id="120">Kita</token>
+    <token id="121">öffnen</token>
+    <token id="122">,</token>
+    <token id="123">wenn</token>
+    <token id="124">zwischen</token>
+    <token id="125">zehn</token>
+    <token id="126">und</token>
+    <token id="127">15</token>
+    <token id="128">Prozent</token>
+    <token id="129">(</token>
+    <token id="130">schon</token>
+    <token id="131">diese</token>
+    <token id="132">Spanne</token>
+    <token id="133">ist</token>
+    <token id="134">ein</token>
+    <token id="135">Zugeständnis</token>
+    <token id="136">)</token>
+    <token id="137">der</token>
+    <token id="138">insgesamt</token>
+    <token id="139">betreuten</token>
+    <token id="140">Mädchen</token>
+    <token id="141">und</token>
+    <token id="142">Jungen</token>
+    <token id="143">in</token>
+    <token id="144">der</token>
+    <token id="145">Einrichtung</token>
+    <token id="146">sind</token>
+    <token id="147">.</token>
+    <token id="148">Die</token>
+    <token id="149">Einrichtung</token>
+    <token id="150">schließt</token>
+    <token id="151">,</token>
+    <token id="152">werden</token>
+    <token id="153">die</token>
+    <token id="154">Zahlen</token>
+    <token id="155">unterschritten</token>
+    <token id="156">.</token>
+    <token id="157">Aus</token>
+    <token id="158">demokratischer</token>
+    <token id="159">Sicht</token>
+    <token id="160">(</token>
+    <token id="161">die</token>
+    <token id="162">Mehrheit</token>
+    <token id="163">entscheidet</token>
+    <token id="164">)</token>
+    <token id="165">und</token>
+    <token id="166">auch</token>
+    <token id="167">unter</token>
+    <token id="168">wirtschaftlichem</token>
+    <token id="169">Aspekt</token>
+    <token id="170">(</token>
+    <token id="171">woher</token>
+    <token id="172">nehmen</token>
+    <token id="173">und</token>
+    <token id="174">nicht</token>
+    <token id="175">stehlen</token>
+    <token id="176">?</token>
+    <token id="177">)</token>
+    <token id="178">eine</token>
+    <token id="179">faire</token>
+    <token id="180">Entscheidung</token>
+    <token id="181">,</token>
+    <token id="182">die</token>
+    <token id="183">zudem</token>
+    <token id="184">bei</token>
+    <token id="185">veränderten</token>
+    <token id="186">Kinderzahlen</token>
+    <token id="187">jederzeit</token>
+    <token id="188">korrigierbar</token>
+    <token id="189">ist</token>
+    <token id="190">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="7" pdtb3_sense="Contingency.Condition.Arg2-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="123" token="wenn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="117" token="Nunmehr"/>
+        <ext_arg_token id="118" token="soll"/>
+        <ext_arg_token id="119" token="eine"/>
+        <ext_arg_token id="120" token="Kita"/>
+        <ext_arg_token id="121" token="öffnen"/>
+        <ext_arg_token id="122" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="124" token="zwischen"/>
+        <int_arg_token id="125" token="zehn"/>
+        <int_arg_token id="126" token="und"/>
+        <int_arg_token id="127" token="15"/>
+        <int_arg_token id="128" token="Prozent"/>
+        <int_arg_token id="129" token="("/>
+        <int_arg_token id="130" token="schon"/>
+        <int_arg_token id="131" token="diese"/>
+        <int_arg_token id="132" token="Spanne"/>
+        <int_arg_token id="133" token="ist"/>
+        <int_arg_token id="134" token="ein"/>
+        <int_arg_token id="135" token="Zugeständnis"/>
+        <int_arg_token id="136" token=")"/>
+        <int_arg_token id="137" token="der"/>
+        <int_arg_token id="138" token="insgesamt"/>
+        <int_arg_token id="139" token="betreuten"/>
+        <int_arg_token id="140" token="Mädchen"/>
+        <int_arg_token id="141" token="und"/>
+        <int_arg_token id="142" token="Jungen"/>
+        <int_arg_token id="143" token="in"/>
+        <int_arg_token id="144" token="der"/>
+        <int_arg_token id="145" token="Einrichtung"/>
+        <int_arg_token id="146" token="sind"/>
+        <int_arg_token id="147" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="173" token="und"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="174" token="nicht"/>
+        <int_arg_token id="175" token="stehlen"/>
+        <int_arg_token id="176" token="?"/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="171" token="woher"/>
+        <ext_arg_token id="172" token="nehmen"/>
+        <ext_arg_token id="177" token=")"/>
+        <ext_arg_token id="178" token="eine"/>
+        <ext_arg_token id="179" token="faire"/>
+        <ext_arg_token id="180" token="Entscheidung"/>
+        <ext_arg_token id="181" token=","/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="183" token="zudem"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="157" token="Aus"/>
+        <ext_arg_token id="158" token="demokratischer"/>
+        <ext_arg_token id="159" token="Sicht"/>
+        <ext_arg_token id="160" token="("/>
+        <ext_arg_token id="161" token="die"/>
+        <ext_arg_token id="162" token="Mehrheit"/>
+        <ext_arg_token id="163" token="entscheidet"/>
+        <ext_arg_token id="164" token=")"/>
+        <ext_arg_token id="165" token="und"/>
+        <ext_arg_token id="166" token="auch"/>
+        <ext_arg_token id="167" token="unter"/>
+        <ext_arg_token id="168" token="wirtschaftlichem"/>
+        <ext_arg_token id="169" token="Aspekt"/>
+        <ext_arg_token id="170" token="("/>
+        <ext_arg_token id="171" token="woher"/>
+        <ext_arg_token id="172" token="nehmen"/>
+        <ext_arg_token id="173" token="und"/>
+        <ext_arg_token id="174" token="nicht"/>
+        <ext_arg_token id="175" token="stehlen"/>
+        <ext_arg_token id="176" token="?"/>
+        <ext_arg_token id="177" token=")"/>
+        <ext_arg_token id="178" token="eine"/>
+        <ext_arg_token id="179" token="faire"/>
+        <ext_arg_token id="180" token="Entscheidung"/>
+        <ext_arg_token id="181" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="182" token="die"/>
+        <int_arg_token id="184" token="bei"/>
+        <int_arg_token id="185" token="veränderten"/>
+        <int_arg_token id="186" token="Kinderzahlen"/>
+        <int_arg_token id="187" token="jederzeit"/>
+        <int_arg_token id="188" token="korrigierbar"/>
+        <int_arg_token id="189" token="ist"/>
+        <int_arg_token id="190" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Contingency.Purpose.Arg2-as-goal" type="explicit">
+      <connective_tokens>
+        <connective_token id="17" token="damit"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="4" token="Im"/>
+        <int_arg_token id="5" token="Löwenberger"/>
+        <int_arg_token id="6" token="Land"/>
+        <int_arg_token id="7" token="steht"/>
+        <int_arg_token id="8" token="eine"/>
+        <int_arg_token id="9" token="Änderung"/>
+        <int_arg_token id="10" token="der"/>
+        <int_arg_token id="11" token="Kita-Öffnungszeiten"/>
+        <int_arg_token id="12" token="bevor"/>
+        <int_arg_token id="13" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="14" token="Die"/>
+        <ext_arg_token id="15" token="Verwaltung"/>
+        <ext_arg_token id="16" token="reagiert"/>
+        <ext_arg_token id="17" token="damit"/>
+        <ext_arg_token id="18" token="auf"/>
+        <ext_arg_token id="19" token="eine"/>
+        <ext_arg_token id="20" token="Analyse"/>
+        <ext_arg_token id="21" token=","/>
+        <ext_arg_token id="22" token="die"/>
+        <ext_arg_token id="23" token="sich"/>
+        <ext_arg_token id="24" token="vor"/>
+        <ext_arg_token id="25" token="allem"/>
+        <ext_arg_token id="26" token="mit"/>
+        <ext_arg_token id="27" token="der"/>
+        <ext_arg_token id="28" token="Anzahl"/>
+        <ext_arg_token id="29" token="betreuter"/>
+        <ext_arg_token id="30" token="Kinder"/>
+        <ext_arg_token id="31" token="zu"/>
+        <ext_arg_token id="32" token="den"/>
+        <ext_arg_token id="33" token="verschiedenen"/>
+        <ext_arg_token id="34" token="Tageszeiten"/>
+        <ext_arg_token id="35" token="beschäftigt"/>
+        <ext_arg_token id="36" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="37" token="Wer"/>
+        <ext_arg_token id="38" token="hinter"/>
+        <ext_arg_token id="39" token="den"/>
+        <ext_arg_token id="40" token="neuen"/>
+        <ext_arg_token id="41" token="Betreuungszeiten"/>
+        <ext_arg_token id="42" token="Sparabsichten"/>
+        <ext_arg_token id="43" token="vermutet"/>
+        <ext_arg_token id="44" token=","/>
+        <ext_arg_token id="45" token="liegt"/>
+        <ext_arg_token id="46" token="richtig"/>
+        <ext_arg_token id="47" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="48" token="Bekanntlich"/>
+        <int_arg_token id="49" token="sitzt"/>
+        <int_arg_token id="50" token="der"/>
+        <int_arg_token id="51" token="Landesregierung"/>
+        <int_arg_token id="52" token="beim"/>
+        <int_arg_token id="53" token="Thema"/>
+        <int_arg_token id="54" token="Kinderbetreuung"/>
+        <int_arg_token id="55" token="der"/>
+        <int_arg_token id="56" token="Rotstift"/>
+        <int_arg_token id="57" token="nach"/>
+        <int_arg_token id="58" token="wie"/>
+        <int_arg_token id="59" token="vor"/>
+        <int_arg_token id="60" token="viel"/>
+        <int_arg_token id="61" token="zu"/>
+        <int_arg_token id="62" token="locker"/>
+        <int_arg_token id="63" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="20" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="48" token="Bekanntlich"/>
+        <ext_arg_token id="49" token="sitzt"/>
+        <ext_arg_token id="50" token="der"/>
+        <ext_arg_token id="51" token="Landesregierung"/>
+        <ext_arg_token id="52" token="beim"/>
+        <ext_arg_token id="53" token="Thema"/>
+        <ext_arg_token id="54" token="Kinderbetreuung"/>
+        <ext_arg_token id="55" token="der"/>
+        <ext_arg_token id="56" token="Rotstift"/>
+        <ext_arg_token id="57" token="nach"/>
+        <ext_arg_token id="58" token="wie"/>
+        <ext_arg_token id="59" token="vor"/>
+        <ext_arg_token id="60" token="viel"/>
+        <ext_arg_token id="61" token="zu"/>
+        <ext_arg_token id="62" token="locker"/>
+        <ext_arg_token id="63" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="64" token="Mit"/>
+        <int_arg_token id="65" token="den"/>
+        <int_arg_token id="66" token="Folgen"/>
+        <int_arg_token id="67" token="müssen"/>
+        <int_arg_token id="68" token="sich"/>
+        <int_arg_token id="69" token="die"/>
+        <int_arg_token id="70" token="Verwaltungen"/>
+        <int_arg_token id="71" token="vor"/>
+        <int_arg_token id="72" token="Ort"/>
+        <int_arg_token id="73" token="herumplagen"/>
+        <int_arg_token id="74" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="21" pdtb3_sense="Contingency.Cause.Result" type="AltLex">
+      <connective_tokens>
+	<connective_token id="84" token="sind"/>
+	<connective_token id="85" token="die"/>
+	<connective_token id="86" token="Folge"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="64" token="Mit"/>
+        <ext_arg_token id="65" token="den"/>
+        <ext_arg_token id="66" token="Folgen"/>
+        <ext_arg_token id="67" token="müssen"/>
+        <ext_arg_token id="68" token="sich"/>
+        <ext_arg_token id="69" token="die"/>
+        <ext_arg_token id="70" token="Verwaltungen"/>
+        <ext_arg_token id="71" token="vor"/>
+        <ext_arg_token id="72" token="Ort"/>
+        <ext_arg_token id="73" token="herumplagen"/>
+        <ext_arg_token id="74" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="75" token="Unpopuläre"/>
+        <int_arg_token id="76" token="Entscheidungen"/>
+        <int_arg_token id="77" token=","/>
+        <int_arg_token id="78" token="die"/>
+        <int_arg_token id="79" token="bis"/>
+        <int_arg_token id="80" token="zur"/>
+        <int_arg_token id="81" token="Schließung"/>
+        <int_arg_token id="82" token="führen"/>
+        <int_arg_token id="83" token=","/>
+        <int_arg_token id="84" token="sind"/>
+        <int_arg_token id="85" token="die"/>
+        <int_arg_token id="86" token="Folge"/>
+        <int_arg_token id="87" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="22" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="75" token="Unpopuläre"/>
+        <ext_arg_token id="76" token="Entscheidungen"/>
+        <ext_arg_token id="77" token=","/>
+        <ext_arg_token id="78" token="die"/>
+        <ext_arg_token id="79" token="bis"/>
+        <ext_arg_token id="80" token="zur"/>
+        <ext_arg_token id="81" token="Schließung"/>
+        <ext_arg_token id="82" token="führen"/>
+        <ext_arg_token id="83" token=","/>
+        <ext_arg_token id="84" token="sind"/>
+        <ext_arg_token id="85" token="die"/>
+        <ext_arg_token id="86" token="Folge"/>
+        <ext_arg_token id="87" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="88" token="Davon"/>
+        <int_arg_token id="89" token="wissen"/>
+        <int_arg_token id="90" token="auch"/>
+        <int_arg_token id="91" token="die"/>
+        <int_arg_token id="92" token="Löwenberger"/>
+        <int_arg_token id="93" token="ein"/>
+        <int_arg_token id="94" token="trauriges"/>
+        <int_arg_token id="95" token="Lied"/>
+        <int_arg_token id="96" token="zu"/>
+        <int_arg_token id="97" token="singen"/>
+        <int_arg_token id="98" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="23" type="EntRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="99" token="Die"/>
+        <ext_arg_token id="100" token="eingangs"/>
+        <ext_arg_token id="101" token="erwähnte"/>
+        <ext_arg_token id="102" token="Analyse"/>
+        <ext_arg_token id="103" token="ist"/>
+        <ext_arg_token id="104" token="der"/>
+        <ext_arg_token id="105" token="Versuch"/>
+        <ext_arg_token id="106" token=","/>
+        <ext_arg_token id="107" token="auf"/>
+        <ext_arg_token id="108" token="weniger"/>
+        <ext_arg_token id="109" token="Geld"/>
+        <ext_arg_token id="110" token="für"/>
+        <ext_arg_token id="111" token="Kinderbetreuung"/>
+        <ext_arg_token id="112" token="möglichst"/>
+        <ext_arg_token id="113" token="objektiv"/>
+        <ext_arg_token id="114" token="zu"/>
+        <ext_arg_token id="115" token="reagieren"/>
+        <ext_arg_token id="116" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="117" token="Nunmehr"/>
+        <int_arg_token id="118" token="soll"/>
+        <int_arg_token id="119" token="eine"/>
+        <int_arg_token id="120" token="Kita"/>
+        <int_arg_token id="121" token="öffnen"/>
+        <int_arg_token id="122" token=","/>
+        <int_arg_token id="123" token="wenn"/>
+        <int_arg_token id="124" token="zwischen"/>
+        <int_arg_token id="125" token="zehn"/>
+        <int_arg_token id="126" token="und"/>
+        <int_arg_token id="127" token="15"/>
+        <int_arg_token id="128" token="Prozent"/>
+        <int_arg_token id="129" token="("/>
+        <int_arg_token id="130" token="schon"/>
+        <int_arg_token id="131" token="diese"/>
+        <int_arg_token id="132" token="Spanne"/>
+        <int_arg_token id="133" token="ist"/>
+        <int_arg_token id="134" token="ein"/>
+        <int_arg_token id="135" token="Zugeständnis"/>
+        <int_arg_token id="136" token=")"/>
+        <int_arg_token id="137" token="der"/>
+        <int_arg_token id="138" token="insgesamt"/>
+        <int_arg_token id="139" token="betreuten"/>
+        <int_arg_token id="140" token="Mädchen"/>
+        <int_arg_token id="141" token="und"/>
+        <int_arg_token id="142" token="Jungen"/>
+        <int_arg_token id="143" token="in"/>
+        <int_arg_token id="144" token="der"/>
+        <int_arg_token id="145" token="Einrichtung"/>
+        <int_arg_token id="146" token="sind"/>
+        <int_arg_token id="147" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="24" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="117" token="Nunmehr"/>
+        <ext_arg_token id="118" token="soll"/>
+        <ext_arg_token id="119" token="eine"/>
+        <ext_arg_token id="120" token="Kita"/>
+        <ext_arg_token id="121" token="öffnen"/>
+        <ext_arg_token id="122" token=","/>
+        <ext_arg_token id="123" token="wenn"/>
+        <ext_arg_token id="124" token="zwischen"/>
+        <ext_arg_token id="125" token="zehn"/>
+        <ext_arg_token id="126" token="und"/>
+        <ext_arg_token id="127" token="15"/>
+        <ext_arg_token id="128" token="Prozent"/>
+        <ext_arg_token id="129" token="("/>
+        <ext_arg_token id="130" token="schon"/>
+        <ext_arg_token id="131" token="diese"/>
+        <ext_arg_token id="132" token="Spanne"/>
+        <ext_arg_token id="133" token="ist"/>
+        <ext_arg_token id="134" token="ein"/>
+        <ext_arg_token id="135" token="Zugeständnis"/>
+        <ext_arg_token id="136" token=")"/>
+        <ext_arg_token id="137" token="der"/>
+        <ext_arg_token id="138" token="insgesamt"/>
+        <ext_arg_token id="139" token="betreuten"/>
+        <ext_arg_token id="140" token="Mädchen"/>
+        <ext_arg_token id="141" token="und"/>
+        <ext_arg_token id="142" token="Jungen"/>
+        <ext_arg_token id="143" token="in"/>
+        <ext_arg_token id="144" token="der"/>
+        <ext_arg_token id="145" token="Einrichtung"/>
+        <ext_arg_token id="146" token="sind"/>
+        <ext_arg_token id="147" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="148" token="Die"/>
+        <int_arg_token id="149" token="Einrichtung"/>
+        <int_arg_token id="150" token="schließt"/>
+        <int_arg_token id="151" token=","/>
+        <int_arg_token id="152" token="werden"/>
+        <int_arg_token id="153" token="die"/>
+        <int_arg_token id="154" token="Zahlen"/>
+        <int_arg_token id="155" token="unterschritten"/>
+        <int_arg_token id="156" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="25" type="EntRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="148" token="Die"/>
+        <ext_arg_token id="149" token="Einrichtung"/>
+        <ext_arg_token id="150" token="schließt"/>
+        <ext_arg_token id="151" token=","/>
+        <ext_arg_token id="152" token="werden"/>
+        <ext_arg_token id="153" token="die"/>
+        <ext_arg_token id="154" token="Zahlen"/>
+        <ext_arg_token id="155" token="unterschritten"/>
+        <ext_arg_token id="156" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="157" token="Aus"/>
+        <int_arg_token id="158" token="demokratischer"/>
+        <int_arg_token id="159" token="Sicht"/>
+        <int_arg_token id="160" token="("/>
+        <int_arg_token id="161" token="die"/>
+        <int_arg_token id="162" token="Mehrheit"/>
+        <int_arg_token id="163" token="entscheidet"/>
+        <int_arg_token id="164" token=")"/>
+        <int_arg_token id="165" token="und"/>
+        <int_arg_token id="166" token="auch"/>
+        <int_arg_token id="167" token="unter"/>
+        <int_arg_token id="168" token="wirtschaftlichem"/>
+        <int_arg_token id="169" token="Aspekt"/>
+        <int_arg_token id="170" token="("/>
+        <int_arg_token id="171" token="woher"/>
+        <int_arg_token id="172" token="nehmen"/>
+        <int_arg_token id="173" token="und"/>
+        <int_arg_token id="174" token="nicht"/>
+        <int_arg_token id="175" token="stehlen"/>
+        <int_arg_token id="176" token="?"/>
+        <int_arg_token id="177" token=")"/>
+        <int_arg_token id="178" token="eine"/>
+        <int_arg_token id="179" token="faire"/>
+        <int_arg_token id="180" token="Entscheidung"/>
+        <int_arg_token id="181" token=","/>
+        <int_arg_token id="182" token="die"/>
+        <int_arg_token id="183" token="zudem"/>
+        <int_arg_token id="184" token="bei"/>
+        <int_arg_token id="185" token="veränderten"/>
+        <int_arg_token id="186" token="Kinderzahlen"/>
+        <int_arg_token id="187" token="jederzeit"/>
+        <int_arg_token id="188" token="korrigierbar"/>
+        <int_arg_token id="189" token="ist"/>
+        <int_arg_token id="190" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

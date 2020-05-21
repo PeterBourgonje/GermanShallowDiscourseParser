@@ -1,0 +1,535 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Erfolgsverwöhnt</token>
+    <token id="2">Erneut</token>
+    <token id="3">sorgt</token>
+    <token id="4">das</token>
+    <token id="5">renommierte</token>
+    <token id="6">Unternehmen</token>
+    <token id="7">Parmalat</token>
+    <token id="8">mit</token>
+    <token id="9">einem</token>
+    <token id="10">Paukenschlag</token>
+    <token id="11">für</token>
+    <token id="12">positive</token>
+    <token id="13">Schlagzeilen</token>
+    <token id="14">.</token>
+    <token id="15">Eine</token>
+    <token id="16">der</token>
+    <token id="17">modernsten</token>
+    <token id="18">Produktionslinien</token>
+    <token id="19">ist</token>
+    <token id="20">gestern</token>
+    <token id="21">offiziell</token>
+    <token id="22">gestartet</token>
+    <token id="23">worden</token>
+    <token id="24">,</token>
+    <token id="25">mit</token>
+    <token id="26">deren</token>
+    <token id="27">Hilfe</token>
+    <token id="28">frische</token>
+    <token id="29">Milch</token>
+    <token id="30">aus</token>
+    <token id="31">dem</token>
+    <token id="32">Brandenburgischen</token>
+    <token id="33">auf</token>
+    <token id="34">dem</token>
+    <token id="35">Frühstückstisch</token>
+    <token id="36">italienischer</token>
+    <token id="37">Familien</token>
+    <token id="38">landet</token>
+    <token id="39">.</token>
+    <token id="40">Zu</token>
+    <token id="41">Recht</token>
+    <token id="42">ist</token>
+    <token id="43">die</token>
+    <token id="44">Chefetage</token>
+    <token id="45">des</token>
+    <token id="46">Milchgiganten</token>
+    <token id="47">zufrieden</token>
+    <token id="48">.</token>
+    <token id="49">Unbestritten</token>
+    <token id="50">ist</token>
+    <token id="51">die</token>
+    <token id="52">Geschichte</token>
+    <token id="53">von</token>
+    <token id="54">Parmalat</token>
+    <token id="55">in</token>
+    <token id="56">Gransee</token>
+    <token id="57">eine</token>
+    <token id="58">Erfolgsstory</token>
+    <token id="59">.</token>
+    <token id="60">Zu</token>
+    <token id="61">danken</token>
+    <token id="62">ist</token>
+    <token id="63">dies</token>
+    <token id="64">natürlich</token>
+    <token id="65">in</token>
+    <token id="66">erster</token>
+    <token id="67">Linie</token>
+    <token id="68">den</token>
+    <token id="69">engagierten</token>
+    <token id="70">Mitarbeitern</token>
+    <token id="71">und</token>
+    <token id="72">der</token>
+    <token id="73">Investitionsfreudigkeit</token>
+    <token id="74">des</token>
+    <token id="75">Konzerns</token>
+    <token id="76">.</token>
+    <token id="77">Aber</token>
+    <token id="78">auch</token>
+    <token id="79">Gransees</token>
+    <token id="80">Stadtväter</token>
+    <token id="81">trugen</token>
+    <token id="82">als</token>
+    <token id="83">unbürokratische</token>
+    <token id="84">Wegbereiter</token>
+    <token id="85">ihr</token>
+    <token id="86">Scherflein</token>
+    <token id="87">zum</token>
+    <token id="88">Erfolg</token>
+    <token id="89">bei</token>
+    <token id="90">.</token>
+    <token id="91">Und</token>
+    <token id="92">das</token>
+    <token id="93">macht</token>
+    <token id="94">Mut</token>
+    <token id="95">.</token>
+    <token id="96">Mut</token>
+    <token id="97">,</token>
+    <token id="98">mit</token>
+    <token id="99">dem</token>
+    <token id="100">die</token>
+    <token id="101">Milchverarbeiter</token>
+    <token id="102">optimistisch</token>
+    <token id="103">in</token>
+    <token id="104">die</token>
+    <token id="105">Zukunft</token>
+    <token id="106">blicken</token>
+    <token id="107">und</token>
+    <token id="108">weitere</token>
+    <token id="109">Investitionen</token>
+    <token id="110">anvisieren</token>
+    <token id="111">.</token>
+    <token id="112">Natürlich</token>
+    <token id="113">hoffen</token>
+    <token id="114">die</token>
+    <token id="115">Mitarbeiter</token>
+    <token id="116">,</token>
+    <token id="117">dass</token>
+    <token id="118">sich</token>
+    <token id="119">die</token>
+    <token id="120">millionenschweren</token>
+    <token id="121">Investionen</token>
+    <token id="122">bezahlt</token>
+    <token id="123">machen</token>
+    <token id="124">.</token>
+    <token id="125">Und</token>
+    <token id="126">wer</token>
+    <token id="127">weiß</token>
+    <token id="128">,</token>
+    <token id="129">vielleicht</token>
+    <token id="130">steht</token>
+    <token id="131">frische</token>
+    <token id="132">Milch</token>
+    <token id="133">aus</token>
+    <token id="134">Gransee</token>
+    <token id="135">eines</token>
+    <token id="136">Tages</token>
+    <token id="137">tatsächlich</token>
+    <token id="138">auf</token>
+    <token id="139">dem</token>
+    <token id="140">Tisch</token>
+    <token id="141">von</token>
+    <token id="142">Einheimischen</token>
+    <token id="143">.</token>
+    <token id="144">Ob</token>
+    <token id="145">dies</token>
+    <token id="146">aber</token>
+    <token id="147">mehr</token>
+    <token id="148">als</token>
+    <token id="149">ein</token>
+    <token id="150">Wunschtraum</token>
+    <token id="151">ist</token>
+    <token id="152">,</token>
+    <token id="153">bleibt</token>
+    <token id="154">abzuwarten</token>
+    <token id="155">.</token>
+    <token id="156">Denn</token>
+    <token id="157">letztlich</token>
+    <token id="158">liegt</token>
+    <token id="159">die</token>
+    <token id="160">Entscheidung</token>
+    <token id="161">über</token>
+    <token id="162">den</token>
+    <token id="163">Erfolg</token>
+    <token id="164">eines</token>
+    <token id="165">Produkts</token>
+    <token id="166">einzig</token>
+    <token id="167">und</token>
+    <token id="168">allein</token>
+    <token id="169">beim</token>
+    <token id="170">Verbraucher</token>
+    <token id="171">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="3" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="77" token="Aber"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="78" token="auch"/>
+        <int_arg_token id="79" token="Gransees"/>
+        <int_arg_token id="80" token="Stadtväter"/>
+        <int_arg_token id="81" token="trugen"/>
+        <int_arg_token id="82" token="als"/>
+        <int_arg_token id="83" token="unbürokratische"/>
+        <int_arg_token id="84" token="Wegbereiter"/>
+        <int_arg_token id="85" token="ihr"/>
+        <int_arg_token id="86" token="Scherflein"/>
+        <int_arg_token id="87" token="zum"/>
+        <int_arg_token id="88" token="Erfolg"/>
+        <int_arg_token id="89" token="bei"/>
+        <int_arg_token id="90" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="60" token="Zu"/>
+        <ext_arg_token id="61" token="danken"/>
+        <ext_arg_token id="62" token="ist"/>
+        <ext_arg_token id="63" token="dies"/>
+        <ext_arg_token id="64" token="natürlich"/>
+        <ext_arg_token id="65" token="in"/>
+        <ext_arg_token id="66" token="erster"/>
+        <ext_arg_token id="67" token="Linie"/>
+        <ext_arg_token id="68" token="den"/>
+        <ext_arg_token id="69" token="engagierten"/>
+        <ext_arg_token id="70" token="Mitarbeitern"/>
+        <ext_arg_token id="71" token="und"/>
+        <ext_arg_token id="72" token="der"/>
+        <ext_arg_token id="73" token="Investitionsfreudigkeit"/>
+        <ext_arg_token id="74" token="des"/>
+        <ext_arg_token id="75" token="Konzerns"/>
+        <ext_arg_token id="76" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="91" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="77" token="Aber"/>
+        <ext_arg_token id="78" token="auch"/>
+        <ext_arg_token id="79" token="Gransees"/>
+        <ext_arg_token id="80" token="Stadtväter"/>
+        <ext_arg_token id="81" token="trugen"/>
+        <ext_arg_token id="82" token="als"/>
+        <ext_arg_token id="83" token="unbürokratische"/>
+        <ext_arg_token id="84" token="Wegbereiter"/>
+        <ext_arg_token id="85" token="ihr"/>
+        <ext_arg_token id="86" token="Scherflein"/>
+        <ext_arg_token id="87" token="zum"/>
+        <ext_arg_token id="88" token="Erfolg"/>
+        <ext_arg_token id="89" token="bei"/>
+        <ext_arg_token id="90" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="92" token="das"/>
+        <int_arg_token id="93" token="macht"/>
+        <int_arg_token id="94" token="Mut"/>
+        <int_arg_token id="95" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="107" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="102" token="optimistisch"/>
+        <ext_arg_token id="103" token="in"/>
+        <ext_arg_token id="104" token="die"/>
+        <ext_arg_token id="105" token="Zukunft"/>
+        <ext_arg_token id="106" token="blicken"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="108" token="weitere"/>
+        <int_arg_token id="109" token="Investitionen"/>
+        <int_arg_token id="110" token="anvisieren"/>
+        <int_arg_token id="111" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="125" token="Und"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="126" token="wer"/>
+        <int_arg_token id="127" token="weiß"/>
+        <int_arg_token id="128" token=","/>
+        <int_arg_token id="129" token="vielleicht"/>
+        <int_arg_token id="130" token="steht"/>
+        <int_arg_token id="131" token="frische"/>
+        <int_arg_token id="132" token="Milch"/>
+        <int_arg_token id="133" token="aus"/>
+        <int_arg_token id="134" token="Gransee"/>
+        <int_arg_token id="135" token="eines"/>
+        <int_arg_token id="136" token="Tages"/>
+        <int_arg_token id="137" token="tatsächlich"/>
+        <int_arg_token id="138" token="auf"/>
+        <int_arg_token id="139" token="dem"/>
+        <int_arg_token id="140" token="Tisch"/>
+        <int_arg_token id="141" token="von"/>
+        <int_arg_token id="142" token="Einheimischen"/>
+        <int_arg_token id="143" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="112" token="Natürlich"/>
+        <ext_arg_token id="113" token="hoffen"/>
+        <ext_arg_token id="114" token="die"/>
+        <ext_arg_token id="115" token="Mitarbeiter"/>
+        <ext_arg_token id="116" token=","/>
+        <ext_arg_token id="117" token="dass"/>
+        <ext_arg_token id="118" token="sich"/>
+        <ext_arg_token id="119" token="die"/>
+        <ext_arg_token id="120" token="millionenschweren"/>
+        <ext_arg_token id="121" token="Investionen"/>
+        <ext_arg_token id="122" token="bezahlt"/>
+        <ext_arg_token id="123" token="machen"/>
+        <ext_arg_token id="124" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="146" token="aber"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="144" token="Ob"/>
+        <int_arg_token id="145" token="dies"/>
+        <int_arg_token id="147" token="mehr"/>
+        <int_arg_token id="148" token="als"/>
+        <int_arg_token id="149" token="ein"/>
+        <int_arg_token id="150" token="Wunschtraum"/>
+        <int_arg_token id="151" token="ist"/>
+        <int_arg_token id="152" token=","/>
+        <int_arg_token id="153" token="bleibt"/>
+        <int_arg_token id="154" token="abzuwarten"/>
+        <int_arg_token id="155" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="125" token="Und"/>
+        <ext_arg_token id="126" token="wer"/>
+        <ext_arg_token id="127" token="weiß"/>
+        <ext_arg_token id="128" token=","/>
+        <ext_arg_token id="129" token="vielleicht"/>
+        <ext_arg_token id="130" token="steht"/>
+        <ext_arg_token id="131" token="frische"/>
+        <ext_arg_token id="132" token="Milch"/>
+        <ext_arg_token id="133" token="aus"/>
+        <ext_arg_token id="134" token="Gransee"/>
+        <ext_arg_token id="135" token="eines"/>
+        <ext_arg_token id="136" token="Tages"/>
+        <ext_arg_token id="137" token="tatsächlich"/>
+        <ext_arg_token id="138" token="auf"/>
+        <ext_arg_token id="139" token="dem"/>
+        <ext_arg_token id="140" token="Tisch"/>
+        <ext_arg_token id="141" token="von"/>
+        <ext_arg_token id="142" token="Einheimischen"/>
+        <ext_arg_token id="143" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="156" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="144" token="Ob"/>
+        <ext_arg_token id="145" token="dies"/>
+        <ext_arg_token id="146" token="aber"/>
+        <ext_arg_token id="147" token="mehr"/>
+        <ext_arg_token id="148" token="als"/>
+        <ext_arg_token id="149" token="ein"/>
+        <ext_arg_token id="150" token="Wunschtraum"/>
+        <ext_arg_token id="151" token="ist"/>
+        <ext_arg_token id="152" token=","/>
+        <ext_arg_token id="153" token="bleibt"/>
+        <ext_arg_token id="154" token="abzuwarten"/>
+        <ext_arg_token id="155" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="157" token="letztlich"/>
+        <int_arg_token id="158" token="liegt"/>
+        <int_arg_token id="159" token="die"/>
+        <int_arg_token id="160" token="Entscheidung"/>
+        <int_arg_token id="161" token="über"/>
+        <int_arg_token id="162" token="den"/>
+        <int_arg_token id="163" token="Erfolg"/>
+        <int_arg_token id="164" token="eines"/>
+        <int_arg_token id="165" token="Produkts"/>
+        <int_arg_token id="166" token="einzig"/>
+        <int_arg_token id="167" token="und"/>
+        <int_arg_token id="168" token="allein"/>
+        <int_arg_token id="169" token="beim"/>
+        <int_arg_token id="170" token="Verbraucher"/>
+        <int_arg_token id="171" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>genauer gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="2" token="Erneut"/>
+        <ext_arg_token id="3" token="sorgt"/>
+        <ext_arg_token id="4" token="das"/>
+        <ext_arg_token id="5" token="renommierte"/>
+        <ext_arg_token id="6" token="Unternehmen"/>
+        <ext_arg_token id="7" token="Parmalat"/>
+        <ext_arg_token id="8" token="mit"/>
+        <ext_arg_token id="9" token="einem"/>
+        <ext_arg_token id="10" token="Paukenschlag"/>
+        <ext_arg_token id="11" token="für"/>
+        <ext_arg_token id="12" token="positive"/>
+        <ext_arg_token id="13" token="Schlagzeilen"/>
+        <ext_arg_token id="14" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="15" token="Eine"/>
+        <int_arg_token id="16" token="der"/>
+        <int_arg_token id="17" token="modernsten"/>
+        <int_arg_token id="18" token="Produktionslinien"/>
+        <int_arg_token id="19" token="ist"/>
+        <int_arg_token id="20" token="gestern"/>
+        <int_arg_token id="21" token="offiziell"/>
+        <int_arg_token id="22" token="gestartet"/>
+        <int_arg_token id="23" token="worden"/>
+        <int_arg_token id="24" token=","/>
+        <int_arg_token id="25" token="mit"/>
+        <int_arg_token id="26" token="deren"/>
+        <int_arg_token id="27" token="Hilfe"/>
+        <int_arg_token id="28" token="frische"/>
+        <int_arg_token id="29" token="Milch"/>
+        <int_arg_token id="30" token="aus"/>
+        <int_arg_token id="31" token="dem"/>
+        <int_arg_token id="32" token="Brandenburgischen"/>
+        <int_arg_token id="33" token="auf"/>
+        <int_arg_token id="34" token="dem"/>
+        <int_arg_token id="35" token="Frühstückstisch"/>
+        <int_arg_token id="36" token="italienischer"/>
+        <int_arg_token id="37" token="Familien"/>
+        <int_arg_token id="38" token="landet"/>
+        <int_arg_token id="39" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>deswegen</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="15" token="Eine"/>
+        <ext_arg_token id="16" token="der"/>
+        <ext_arg_token id="17" token="modernsten"/>
+        <ext_arg_token id="18" token="Produktionslinien"/>
+        <ext_arg_token id="19" token="ist"/>
+        <ext_arg_token id="20" token="gestern"/>
+        <ext_arg_token id="21" token="offiziell"/>
+        <ext_arg_token id="22" token="gestartet"/>
+        <ext_arg_token id="23" token="worden"/>
+        <ext_arg_token id="24" token=","/>
+        <ext_arg_token id="25" token="mit"/>
+        <ext_arg_token id="26" token="deren"/>
+        <ext_arg_token id="27" token="Hilfe"/>
+        <ext_arg_token id="28" token="frische"/>
+        <ext_arg_token id="29" token="Milch"/>
+        <ext_arg_token id="30" token="aus"/>
+        <ext_arg_token id="31" token="dem"/>
+        <ext_arg_token id="32" token="Brandenburgischen"/>
+        <ext_arg_token id="33" token="auf"/>
+        <ext_arg_token id="34" token="dem"/>
+        <ext_arg_token id="35" token="Frühstückstisch"/>
+        <ext_arg_token id="36" token="italienischer"/>
+        <ext_arg_token id="37" token="Familien"/>
+        <ext_arg_token id="38" token="landet"/>
+        <ext_arg_token id="39" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="40" token="Zu"/>
+        <int_arg_token id="41" token="Recht"/>
+        <int_arg_token id="42" token="ist"/>
+        <int_arg_token id="43" token="die"/>
+        <int_arg_token id="44" token="Chefetage"/>
+        <int_arg_token id="45" token="des"/>
+        <int_arg_token id="46" token="Milchgiganten"/>
+        <int_arg_token id="47" token="zufrieden"/>
+        <int_arg_token id="48" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="49" token="Unbestritten"/>
+        <ext_arg_token id="50" token="ist"/>
+        <ext_arg_token id="51" token="die"/>
+        <ext_arg_token id="52" token="Geschichte"/>
+        <ext_arg_token id="53" token="von"/>
+        <ext_arg_token id="54" token="Parmalat"/>
+        <ext_arg_token id="55" token="in"/>
+        <ext_arg_token id="56" token="Gransee"/>
+        <ext_arg_token id="57" token="eine"/>
+        <ext_arg_token id="58" token="Erfolgsstory"/>
+        <ext_arg_token id="59" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="60" token="Zu"/>
+        <int_arg_token id="61" token="danken"/>
+        <int_arg_token id="62" token="ist"/>
+        <int_arg_token id="63" token="dies"/>
+        <int_arg_token id="64" token="natürlich"/>
+        <int_arg_token id="65" token="in"/>
+        <int_arg_token id="66" token="erster"/>
+        <int_arg_token id="67" token="Linie"/>
+        <int_arg_token id="68" token="den"/>
+        <int_arg_token id="69" token="engagierten"/>
+        <int_arg_token id="70" token="Mitarbeitern"/>
+        <int_arg_token id="71" token="und"/>
+        <int_arg_token id="72" token="der"/>
+        <int_arg_token id="73" token="Investitionsfreudigkeit"/>
+        <int_arg_token id="74" token="des"/>
+        <int_arg_token id="75" token="Konzerns"/>
+        <int_arg_token id="76" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und zwar</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="91" token="Und"/>
+        <ext_arg_token id="92" token="das"/>
+        <ext_arg_token id="93" token="macht"/>
+        <ext_arg_token id="94" token="Mut"/>
+        <ext_arg_token id="95" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="96" token="Mut"/>
+        <int_arg_token id="97" token=","/>
+        <int_arg_token id="98" token="mit"/>
+        <int_arg_token id="99" token="dem"/>
+        <int_arg_token id="100" token="die"/>
+        <int_arg_token id="101" token="Milchverarbeiter"/>
+        <int_arg_token id="102" token="optimistisch"/>
+        <int_arg_token id="103" token="in"/>
+        <int_arg_token id="104" token="die"/>
+        <int_arg_token id="105" token="Zukunft"/>
+        <int_arg_token id="106" token="blicken"/>
+        <int_arg_token id="107" token="und"/>
+        <int_arg_token id="108" token="weitere"/>
+        <int_arg_token id="109" token="Investitionen"/>
+        <int_arg_token id="110" token="anvisieren"/>
+        <int_arg_token id="111" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

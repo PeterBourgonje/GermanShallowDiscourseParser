@@ -1,0 +1,755 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Spatz</token>
+    <token id="2">in</token>
+    <token id="3">der</token>
+    <token id="4">Hand</token>
+    <token id="5">Rüdiger</token>
+    <token id="6">Kadatz</token>
+    <token id="7">hat</token>
+    <token id="8">seine</token>
+    <token id="9">Meinung</token>
+    <token id="10">zum</token>
+    <token id="11">Rheinsberger</token>
+    <token id="12">Thermalbad</token>
+    <token id="13">,</token>
+    <token id="14">und</token>
+    <token id="15">er</token>
+    <token id="16">will</token>
+    <token id="17">sie</token>
+    <token id="18">nicht</token>
+    <token id="19">in</token>
+    <token id="20">Frage</token>
+    <token id="21">stellen</token>
+    <token id="22">:</token>
+    <token id="23">Nach</token>
+    <token id="24">einem</token>
+    <token id="25">Jahr</token>
+    <token id="26">Verhandelns</token>
+    <token id="27">habe</token>
+    <token id="28">Rheinsbergs</token>
+    <token id="29">Favorit</token>
+    <token id="30">Rogner</token>
+    <token id="31">verspielt</token>
+    <token id="32">.</token>
+    <token id="33">Ein</token>
+    <token id="34">neuer</token>
+    <token id="35">Investor</token>
+    <token id="36">muss</token>
+    <token id="37">her</token>
+    <token id="38">,</token>
+    <token id="39">und</token>
+    <token id="40">den</token>
+    <token id="41">hatte</token>
+    <token id="42">Kadatz</token>
+    <token id="43">am</token>
+    <token id="44">Mittwochabend</token>
+    <token id="45">in</token>
+    <token id="46">der</token>
+    <token id="47">Stadtverordnetenversammlung</token>
+    <token id="48">parat</token>
+    <token id="49">-</token>
+    <token id="50">die</token>
+    <token id="51">Lielje-Gruppe</token>
+    <token id="52">.</token>
+    <token id="53">Dass</token>
+    <token id="54">die</token>
+    <token id="55">nur</token>
+    <token id="56">ein</token>
+    <token id="57">Bad</token>
+    <token id="58">,</token>
+    <token id="59">kein</token>
+    <token id="60">Hotel</token>
+    <token id="61">bauen</token>
+    <token id="62">will</token>
+    <token id="63">,</token>
+    <token id="64">interessierte</token>
+    <token id="65">Kadatz</token>
+    <token id="66">weniger</token>
+    <token id="67">.</token>
+    <token id="68">Auch</token>
+    <token id="69">nicht</token>
+    <token id="70">die</token>
+    <token id="71">letzten</token>
+    <token id="72">Gespräche</token>
+    <token id="73">mit</token>
+    <token id="74">Rogner</token>
+    <token id="75">.</token>
+    <token id="76">Neue</token>
+    <token id="77">Entwicklungen</token>
+    <token id="78">?</token>
+    <token id="79">Wozu</token>
+    <token id="80">noch</token>
+    <token id="81">?</token>
+    <token id="82">Für</token>
+    <token id="83">Kadatz</token>
+    <token id="84">war</token>
+    <token id="85">klar</token>
+    <token id="86">:</token>
+    <token id="87">Lieber</token>
+    <token id="88">den</token>
+    <token id="89">Spatz</token>
+    <token id="90">in</token>
+    <token id="91">der</token>
+    <token id="92">Hand</token>
+    <token id="93">als</token>
+    <token id="94">die</token>
+    <token id="95">Taube</token>
+    <token id="96">auf</token>
+    <token id="97">dem</token>
+    <token id="98">Dach</token>
+    <token id="99">.</token>
+    <token id="100">Eine</token>
+    <token id="101">verständliche</token>
+    <token id="102">Einstellung</token>
+    <token id="103">-</token>
+    <token id="104">wenn</token>
+    <token id="105">es</token>
+    <token id="106">denn</token>
+    <token id="107">einen</token>
+    <token id="108">Spatz</token>
+    <token id="109">gäbe</token>
+    <token id="110">.</token>
+    <token id="111">Wenn</token>
+    <token id="112">man</token>
+    <token id="113">genauer</token>
+    <token id="114">hinsieht</token>
+    <token id="115">,</token>
+    <token id="116">halten</token>
+    <token id="117">die</token>
+    <token id="118">Rheinsberger</token>
+    <token id="119">vom</token>
+    <token id="120">zweiten</token>
+    <token id="121">Thermalbad-Bewerber</token>
+    <token id="122">nicht</token>
+    <token id="123">mehr</token>
+    <token id="124">in</token>
+    <token id="125">der</token>
+    <token id="126">Hand</token>
+    <token id="127">als</token>
+    <token id="128">vom</token>
+    <token id="129">ersten</token>
+    <token id="130">.</token>
+    <token id="131">Ein</token>
+    <token id="132">paar</token>
+    <token id="133">vage</token>
+    <token id="134">mündliche</token>
+    <token id="135">Finanzierungs-Versprechen</token>
+    <token id="136">,</token>
+    <token id="137">die</token>
+    <token id="138">Skizze</token>
+    <token id="139">des</token>
+    <token id="140">einzigen</token>
+    <token id="141">anderen</token>
+    <token id="142">Bades</token>
+    <token id="143">,</token>
+    <token id="144">das</token>
+    <token id="145">ist</token>
+    <token id="146">alles</token>
+    <token id="147">,</token>
+    <token id="148">was</token>
+    <token id="149">Lielje</token>
+    <token id="150">vorweisen</token>
+    <token id="151">kann</token>
+    <token id="152">.</token>
+    <token id="153">Eine</token>
+    <token id="154">echte</token>
+    <token id="155">Alternative</token>
+    <token id="156">sieht</token>
+    <token id="157">anders</token>
+    <token id="158">aus</token>
+    <token id="159">.</token>
+    <token id="160">Doch</token>
+    <token id="161">immerhin</token>
+    <token id="162">bewegt</token>
+    <token id="163">sich</token>
+    <token id="164">etwas</token>
+    <token id="165">im</token>
+    <token id="166">Rheinsberger</token>
+    <token id="167">Thermalbad-Rennen</token>
+    <token id="168">.</token>
+    <token id="169">Rogner</token>
+    <token id="170">ist</token>
+    <token id="171">willig</token>
+    <token id="172">,</token>
+    <token id="173">Finanziers</token>
+    <token id="174">sind</token>
+    <token id="175">gefunden</token>
+    <token id="176">.</token>
+    <token id="177">Es</token>
+    <token id="178">wäre</token>
+    <token id="179">unverantwortlich</token>
+    <token id="180">,</token>
+    <token id="181">Rogner</token>
+    <token id="182">so</token>
+    <token id="183">kurz</token>
+    <token id="184">vor</token>
+    <token id="185">der</token>
+    <token id="186">Ziellinie</token>
+    <token id="187">die</token>
+    <token id="188">Luft</token>
+    <token id="189">aus</token>
+    <token id="190">den</token>
+    <token id="191">Reifen</token>
+    <token id="192">zu</token>
+    <token id="193">lassen</token>
+    <token id="194">.</token>
+    <token id="195">Am</token>
+    <token id="196">Ende</token>
+    <token id="197">steht</token>
+    <token id="198">Rheinsberg</token>
+    <token id="199">ohne</token>
+    <token id="200">Investor</token>
+    <token id="201">da</token>
+    <token id="202">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="14" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="5" token="Rüdiger"/>
+        <ext_arg_token id="6" token="Kadatz"/>
+        <ext_arg_token id="7" token="hat"/>
+        <ext_arg_token id="8" token="seine"/>
+        <ext_arg_token id="9" token="Meinung"/>
+        <ext_arg_token id="10" token="zum"/>
+        <ext_arg_token id="11" token="Rheinsberger"/>
+        <ext_arg_token id="12" token="Thermalbad"/>
+        <ext_arg_token id="13" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="15" token="er"/>
+        <int_arg_token id="16" token="will"/>
+        <int_arg_token id="17" token="sie"/>
+        <int_arg_token id="18" token="nicht"/>
+        <int_arg_token id="19" token="in"/>
+        <int_arg_token id="20" token="Frage"/>
+        <int_arg_token id="21" token="stellen"/>
+        <int_arg_token id="22" token=":"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="2" pdtb3_sense="Temporal.Asynchronous.Succession" type="explicit">
+      <connective_tokens>
+        <connective_token id="23" token="Nach"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="24" token="einem"/>
+        <int_arg_token id="25" token="Jahr"/>
+        <int_arg_token id="26" token="Verhandelns"/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="27" token="habe"/>
+        <ext_arg_token id="28" token="Rheinsbergs"/>
+        <ext_arg_token id="29" token="Favorit"/>
+        <ext_arg_token id="30" token="Rogner"/>
+        <ext_arg_token id="31" token="verspielt"/>
+        <ext_arg_token id="32" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="39" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="33" token="Ein"/>
+        <ext_arg_token id="34" token="neuer"/>
+        <ext_arg_token id="35" token="Investor"/>
+        <ext_arg_token id="36" token="muss"/>
+        <ext_arg_token id="37" token="her"/>
+        <ext_arg_token id="38" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="40" token="den"/>
+        <int_arg_token id="41" token="hatte"/>
+        <int_arg_token id="42" token="Kadatz"/>
+        <int_arg_token id="43" token="am"/>
+        <int_arg_token id="44" token="Mittwochabend"/>
+        <int_arg_token id="45" token="in"/>
+        <int_arg_token id="46" token="der"/>
+        <int_arg_token id="47" token="Stadtverordnetenversammlung"/>
+        <int_arg_token id="48" token="parat"/>
+        <int_arg_token id="49" token="-"/>
+        <int_arg_token id="50" token="die"/>
+        <int_arg_token id="51" token="Lielje-Gruppe"/>
+        <int_arg_token id="52" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Contingency.Condition.Arg2-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="104" token="wenn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="100" token="Eine"/>
+        <ext_arg_token id="101" token="verständliche"/>
+        <ext_arg_token id="102" token="Einstellung"/>
+        <ext_arg_token id="103" token="-"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="105" token="es"/>
+        <int_arg_token id="106" token="denn"/>
+        <int_arg_token id="107" token="einen"/>
+        <int_arg_token id="108" token="Spatz"/>
+        <int_arg_token id="109" token="gäbe"/>
+        <int_arg_token id="110" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Contingency.Condition.Arg2-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="111" token="Wenn"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="112" token="man"/>
+        <int_arg_token id="113" token="genauer"/>
+        <int_arg_token id="114" token="hinsieht"/>
+        <int_arg_token id="115" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="116" token="halten"/>
+        <ext_arg_token id="117" token="die"/>
+        <ext_arg_token id="118" token="Rheinsberger"/>
+        <ext_arg_token id="119" token="vom"/>
+        <ext_arg_token id="120" token="zweiten"/>
+        <ext_arg_token id="121" token="Thermalbad-Bewerber"/>
+        <ext_arg_token id="122" token="nicht"/>
+        <ext_arg_token id="123" token="mehr"/>
+        <ext_arg_token id="124" token="in"/>
+        <ext_arg_token id="125" token="der"/>
+        <ext_arg_token id="126" token="Hand"/>
+        <ext_arg_token id="127" token="als"/>
+        <ext_arg_token id="128" token="vom"/>
+        <ext_arg_token id="129" token="ersten"/>
+        <ext_arg_token id="130" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="160" token="Doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="131" token="Ein"/>
+        <ext_arg_token id="132" token="paar"/>
+        <ext_arg_token id="133" token="vage"/>
+        <ext_arg_token id="134" token="mündliche"/>
+        <ext_arg_token id="135" token="Finanzierungs-Versprechen"/>
+        <ext_arg_token id="136" token=","/>
+        <ext_arg_token id="137" token="die"/>
+        <ext_arg_token id="138" token="Skizze"/>
+        <ext_arg_token id="139" token="des"/>
+        <ext_arg_token id="140" token="einzigen"/>
+        <ext_arg_token id="141" token="anderen"/>
+        <ext_arg_token id="142" token="Bades"/>
+        <ext_arg_token id="143" token=","/>
+        <ext_arg_token id="144" token="das"/>
+        <ext_arg_token id="145" token="ist"/>
+        <ext_arg_token id="146" token="alles"/>
+        <ext_arg_token id="147" token=","/>
+        <ext_arg_token id="148" token="was"/>
+        <ext_arg_token id="149" token="Lielje"/>
+        <ext_arg_token id="150" token="vorweisen"/>
+        <ext_arg_token id="151" token="kann"/>
+        <ext_arg_token id="152" token="."/>
+        <ext_arg_token id="153" token="Eine"/>
+        <ext_arg_token id="154" token="echte"/>
+        <ext_arg_token id="155" token="Alternative"/>
+        <ext_arg_token id="156" token="sieht"/>
+        <ext_arg_token id="157" token="anders"/>
+        <ext_arg_token id="158" token="aus"/>
+        <ext_arg_token id="159" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="161" token="immerhin"/>
+        <int_arg_token id="162" token="bewegt"/>
+        <int_arg_token id="163" token="sich"/>
+        <int_arg_token id="164" token="etwas"/>
+        <int_arg_token id="165" token="im"/>
+        <int_arg_token id="166" token="Rheinsberger"/>
+        <int_arg_token id="167" token="Thermalbad-Rennen"/>
+        <int_arg_token id="168" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="23" token="Nach"/>
+	<connective_token id="24" token="einem"/>
+	<connective_token id="25" token="Jahr"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="5" token="Rüdiger"/>
+        <ext_arg_token id="6" token="Kadatz"/>
+        <ext_arg_token id="7" token="hat"/>
+        <ext_arg_token id="8" token="seine"/>
+        <ext_arg_token id="9" token="Meinung"/>
+        <ext_arg_token id="10" token="zum"/>
+        <ext_arg_token id="11" token="Rheinsberger"/>
+        <ext_arg_token id="12" token="Thermalbad"/>
+        <ext_arg_token id="13" token=","/>
+        <ext_arg_token id="14" token="und"/>
+        <ext_arg_token id="15" token="er"/>
+        <ext_arg_token id="16" token="will"/>
+        <ext_arg_token id="17" token="sie"/>
+        <ext_arg_token id="18" token="nicht"/>
+        <ext_arg_token id="19" token="in"/>
+        <ext_arg_token id="20" token="Frage"/>
+        <ext_arg_token id="21" token="stellen"/>
+        <ext_arg_token id="22" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="23" token="Nach"/>
+        <int_arg_token id="24" token="einem"/>
+        <int_arg_token id="25" token="Jahr"/>
+        <int_arg_token id="26" token="Verhandelns"/>
+        <int_arg_token id="27" token="habe"/>
+        <int_arg_token id="28" token="Rheinsbergs"/>
+        <int_arg_token id="29" token="Favorit"/>
+        <int_arg_token id="30" token="Rogner"/>
+        <int_arg_token id="31" token="verspielt"/>
+        <int_arg_token id="32" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Temporal.Asynchronous.Precedence" type="implicit">
+      <connective_tokens>
+        <implicit_connective>anschließend</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="23" token="Nach"/>
+        <ext_arg_token id="24" token="einem"/>
+        <ext_arg_token id="25" token="Jahr"/>
+        <ext_arg_token id="26" token="Verhandelns"/>
+        <ext_arg_token id="27" token="habe"/>
+        <ext_arg_token id="28" token="Rheinsbergs"/>
+        <ext_arg_token id="29" token="Favorit"/>
+        <ext_arg_token id="30" token="Rogner"/>
+        <ext_arg_token id="31" token="verspielt"/>
+        <ext_arg_token id="32" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="33" token="Ein"/>
+        <int_arg_token id="34" token="neuer"/>
+        <int_arg_token id="35" token="Investor"/>
+        <int_arg_token id="36" token="muss"/>
+        <int_arg_token id="37" token="her"/>
+        <int_arg_token id="38" token=","/>
+        <int_arg_token id="39" token="und"/>
+        <int_arg_token id="40" token="den"/>
+        <int_arg_token id="41" token="hatte"/>
+        <int_arg_token id="42" token="Kadatz"/>
+        <int_arg_token id="43" token="am"/>
+        <int_arg_token id="44" token="Mittwochabend"/>
+        <int_arg_token id="45" token="in"/>
+        <int_arg_token id="46" token="der"/>
+        <int_arg_token id="47" token="Stadtverordnetenversammlung"/>
+        <int_arg_token id="48" token="parat"/>
+        <int_arg_token id="49" token="-"/>
+        <int_arg_token id="50" token="die"/>
+        <int_arg_token id="51" token="Lielje-Gruppe"/>
+        <int_arg_token id="52" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="implicit">
+      <connective_tokens>
+        <implicit_connective>doch</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="33" token="Ein"/>
+        <ext_arg_token id="34" token="neuer"/>
+        <ext_arg_token id="35" token="Investor"/>
+        <ext_arg_token id="36" token="muss"/>
+        <ext_arg_token id="37" token="her"/>
+        <ext_arg_token id="38" token=","/>
+        <ext_arg_token id="39" token="und"/>
+        <ext_arg_token id="40" token="den"/>
+        <ext_arg_token id="41" token="hatte"/>
+        <ext_arg_token id="42" token="Kadatz"/>
+        <ext_arg_token id="43" token="am"/>
+        <ext_arg_token id="44" token="Mittwochabend"/>
+        <ext_arg_token id="45" token="in"/>
+        <ext_arg_token id="46" token="der"/>
+        <ext_arg_token id="47" token="Stadtverordnetenversammlung"/>
+        <ext_arg_token id="48" token="parat"/>
+        <ext_arg_token id="49" token="-"/>
+        <ext_arg_token id="50" token="die"/>
+        <ext_arg_token id="51" token="Lielje-Gruppe"/>
+        <ext_arg_token id="52" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="53" token="Dass"/>
+        <int_arg_token id="54" token="die"/>
+        <int_arg_token id="55" token="nur"/>
+        <int_arg_token id="56" token="ein"/>
+        <int_arg_token id="57" token="Bad"/>
+        <int_arg_token id="58" token=","/>
+        <int_arg_token id="59" token="kein"/>
+        <int_arg_token id="60" token="Hotel"/>
+        <int_arg_token id="61" token="bauen"/>
+        <int_arg_token id="62" token="will"/>
+        <int_arg_token id="63" token=","/>
+        <int_arg_token id="64" token="interessierte"/>
+        <int_arg_token id="65" token="Kadatz"/>
+        <int_arg_token id="66" token="weniger"/>
+        <int_arg_token id="67" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>auch</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="53" token="Dass"/>
+        <ext_arg_token id="54" token="die"/>
+        <ext_arg_token id="55" token="nur"/>
+        <ext_arg_token id="56" token="ein"/>
+        <ext_arg_token id="57" token="Bad"/>
+        <ext_arg_token id="58" token=","/>
+        <ext_arg_token id="59" token="kein"/>
+        <ext_arg_token id="60" token="Hotel"/>
+        <ext_arg_token id="61" token="bauen"/>
+        <ext_arg_token id="62" token="will"/>
+        <ext_arg_token id="63" token=","/>
+        <ext_arg_token id="64" token="interessierte"/>
+        <ext_arg_token id="65" token="Kadatz"/>
+        <ext_arg_token id="66" token="weniger"/>
+        <ext_arg_token id="67" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="68" token="Auch"/>
+        <int_arg_token id="69" token="nicht"/>
+        <int_arg_token id="70" token="die"/>
+        <int_arg_token id="71" token="letzten"/>
+        <int_arg_token id="72" token="Gespräche"/>
+        <int_arg_token id="73" token="mit"/>
+        <int_arg_token id="74" token="Rogner"/>
+        <int_arg_token id="75" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" type="NoRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="68" token="Auch"/>
+        <ext_arg_token id="69" token="nicht"/>
+        <ext_arg_token id="70" token="die"/>
+        <ext_arg_token id="71" token="letzten"/>
+        <ext_arg_token id="72" token="Gespräche"/>
+        <ext_arg_token id="73" token="mit"/>
+        <ext_arg_token id="74" token="Rogner"/>
+        <ext_arg_token id="75" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="76" token="Neue"/>
+        <int_arg_token id="77" token="Entwicklungen"/>
+        <int_arg_token id="78" token="?"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" type="NoRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="76" token="Neue"/>
+        <ext_arg_token id="77" token="Entwicklungen"/>
+        <ext_arg_token id="78" token="?"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="79" token="Wozu"/>
+        <int_arg_token id="80" token="noch"/>
+        <int_arg_token id="81" token="?"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" type="NoRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="79" token="Wozu"/>
+        <ext_arg_token id="80" token="noch"/>
+        <ext_arg_token id="81" token="?"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="82" token="Für"/>
+        <int_arg_token id="83" token="Kadatz"/>
+        <int_arg_token id="84" token="war"/>
+        <int_arg_token id="85" token="klar"/>
+        <int_arg_token id="86" token=":"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>nämlich</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="82" token="Für"/>
+        <ext_arg_token id="83" token="Kadatz"/>
+        <ext_arg_token id="84" token="war"/>
+        <ext_arg_token id="85" token="klar"/>
+        <ext_arg_token id="86" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="87" token="Lieber"/>
+        <int_arg_token id="88" token="den"/>
+        <int_arg_token id="89" token="Spatz"/>
+        <int_arg_token id="90" token="in"/>
+        <int_arg_token id="91" token="der"/>
+        <int_arg_token id="92" token="Hand"/>
+        <int_arg_token id="93" token="als"/>
+        <int_arg_token id="94" token="die"/>
+        <int_arg_token id="95" token="Taube"/>
+        <int_arg_token id="96" token="auf"/>
+        <int_arg_token id="97" token="dem"/>
+        <int_arg_token id="98" token="Dach"/>
+        <int_arg_token id="99" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="20" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>nämlich</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="111" token="Wenn"/>
+        <ext_arg_token id="112" token="man"/>
+        <ext_arg_token id="113" token="genauer"/>
+        <ext_arg_token id="114" token="hinsieht"/>
+        <ext_arg_token id="115" token=","/>
+        <ext_arg_token id="116" token="halten"/>
+        <ext_arg_token id="117" token="die"/>
+        <ext_arg_token id="118" token="Rheinsberger"/>
+        <ext_arg_token id="119" token="vom"/>
+        <ext_arg_token id="120" token="zweiten"/>
+        <ext_arg_token id="121" token="Thermalbad-Bewerber"/>
+        <ext_arg_token id="122" token="nicht"/>
+        <ext_arg_token id="123" token="mehr"/>
+        <ext_arg_token id="124" token="in"/>
+        <ext_arg_token id="125" token="der"/>
+        <ext_arg_token id="126" token="Hand"/>
+        <ext_arg_token id="127" token="als"/>
+        <ext_arg_token id="128" token="vom"/>
+        <ext_arg_token id="129" token="ersten"/>
+        <ext_arg_token id="130" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="131" token="Ein"/>
+        <int_arg_token id="132" token="paar"/>
+        <int_arg_token id="133" token="vage"/>
+        <int_arg_token id="134" token="mündliche"/>
+        <int_arg_token id="135" token="Finanzierungs-Versprechen"/>
+        <int_arg_token id="136" token=","/>
+        <int_arg_token id="137" token="die"/>
+        <int_arg_token id="138" token="Skizze"/>
+        <int_arg_token id="139" token="des"/>
+        <int_arg_token id="140" token="einzigen"/>
+        <int_arg_token id="141" token="anderen"/>
+        <int_arg_token id="142" token="Bades"/>
+        <int_arg_token id="143" token=","/>
+        <int_arg_token id="144" token="das"/>
+        <int_arg_token id="145" token="ist"/>
+        <int_arg_token id="146" token="alles"/>
+        <int_arg_token id="147" token=","/>
+        <int_arg_token id="148" token="was"/>
+        <int_arg_token id="149" token="Lielje"/>
+        <int_arg_token id="150" token="vorweisen"/>
+        <int_arg_token id="151" token="kann"/>
+        <int_arg_token id="152" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="21" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>genauer gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="160" token="Doch"/>
+        <ext_arg_token id="161" token="immerhin"/>
+        <ext_arg_token id="162" token="bewegt"/>
+        <ext_arg_token id="163" token="sich"/>
+        <ext_arg_token id="164" token="etwas"/>
+        <ext_arg_token id="165" token="im"/>
+        <ext_arg_token id="166" token="Rheinsberger"/>
+        <ext_arg_token id="167" token="Thermalbad-Rennen"/>
+        <ext_arg_token id="168" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="169" token="Rogner"/>
+        <int_arg_token id="170" token="ist"/>
+        <int_arg_token id="171" token="willig"/>
+        <int_arg_token id="172" token=","/>
+        <int_arg_token id="173" token="Finanziers"/>
+        <int_arg_token id="174" token="sind"/>
+        <int_arg_token id="175" token="gefunden"/>
+        <int_arg_token id="176" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="22" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="169" token="Rogner"/>
+        <ext_arg_token id="170" token="ist"/>
+        <ext_arg_token id="171" token="willig"/>
+        <ext_arg_token id="172" token=","/>
+        <ext_arg_token id="173" token="Finanziers"/>
+        <ext_arg_token id="174" token="sind"/>
+        <ext_arg_token id="175" token="gefunden"/>
+        <ext_arg_token id="176" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="177" token="Es"/>
+        <int_arg_token id="178" token="wäre"/>
+        <int_arg_token id="179" token="unverantwortlich"/>
+        <int_arg_token id="180" token=","/>
+        <int_arg_token id="181" token="Rogner"/>
+        <int_arg_token id="182" token="so"/>
+        <int_arg_token id="183" token="kurz"/>
+        <int_arg_token id="184" token="vor"/>
+        <int_arg_token id="185" token="der"/>
+        <int_arg_token id="186" token="Ziellinie"/>
+        <int_arg_token id="187" token="die"/>
+        <int_arg_token id="188" token="Luft"/>
+        <int_arg_token id="189" token="aus"/>
+        <int_arg_token id="190" token="den"/>
+        <int_arg_token id="191" token="Reifen"/>
+        <int_arg_token id="192" token="zu"/>
+        <int_arg_token id="193" token="lassen"/>
+        <int_arg_token id="194" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="23" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="177" token="Es"/>
+        <ext_arg_token id="178" token="wäre"/>
+        <ext_arg_token id="179" token="unverantwortlich"/>
+        <ext_arg_token id="180" token=","/>
+        <ext_arg_token id="181" token="Rogner"/>
+        <ext_arg_token id="182" token="so"/>
+        <ext_arg_token id="183" token="kurz"/>
+        <ext_arg_token id="184" token="vor"/>
+        <ext_arg_token id="185" token="der"/>
+        <ext_arg_token id="186" token="Ziellinie"/>
+        <ext_arg_token id="187" token="die"/>
+        <ext_arg_token id="188" token="Luft"/>
+        <ext_arg_token id="189" token="aus"/>
+        <ext_arg_token id="190" token="den"/>
+        <ext_arg_token id="191" token="Reifen"/>
+        <ext_arg_token id="192" token="zu"/>
+        <ext_arg_token id="193" token="lassen"/>
+        <ext_arg_token id="194" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="195" token="Am"/>
+        <int_arg_token id="196" token="Ende"/>
+        <int_arg_token id="197" token="steht"/>
+        <int_arg_token id="198" token="Rheinsberg"/>
+        <int_arg_token id="199" token="ohne"/>
+        <int_arg_token id="200" token="Investor"/>
+        <int_arg_token id="201" token="da"/>
+        <int_arg_token id="202" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

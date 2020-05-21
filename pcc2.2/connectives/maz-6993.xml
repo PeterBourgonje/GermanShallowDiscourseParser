@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Drei</token>
+    <token id="2">leere</token>
+    <token id="3">Kassen</token>
+    <token id="4">Diepensee</token>
+    <token id="5">siedelt</token>
+    <token id="6">um</token>
+    <token id="7">.</token>
+    <token id="8">Ohne</token>
+    <token id="9">Wenn</token>
+    <token id="10">und</token>
+    <token id="11">Aber</token>
+    <token id="12">.</token>
+    <token id="13">Dessen</token>
+    <token id="14">konnten</token>
+    <token id="15">sich</token>
+    <token id="16">die</token>
+    <token id="17">vor</token>
+    <token id="18">dem</token>
+    <token id="19">möglichen</token>
+    <token id="20">Ausbau</token>
+    <token id="21">des</token>
+    <token id="22">Flughafens</token>
+    <token id="23">Schönefeld</token>
+    <token id="24">weichenden</token>
+    <token id="25">Dorfbewohner</token>
+    <token id="26">gewiss</token>
+    <token id="27">sein</token>
+    <token id="28">.</token>
+    <token id="29">Bis</token>
+    <token id="30">eine</token>
+    <token id="31">Presseinformation</token>
+    <token id="32">der</token>
+    <token id="33">Ausbau-Planer</token>
+    <token id="34">einschlug</token>
+    <token id="35">,</token>
+    <token id="36">wie</token>
+    <token id="37">eine</token>
+    <token id="38">Bombe</token>
+    <token id="39">.</token>
+    <token id="40">Umsiedlung</token>
+    <token id="41">,</token>
+    <token id="42">hieß</token>
+    <token id="43">es</token>
+    <token id="44">da</token>
+    <token id="45">,</token>
+    <token id="46">nur</token>
+    <token id="47">vorbehaltlich</token>
+    <token id="48">der</token>
+    <token id="49">Privatisierung</token>
+    <token id="50">der</token>
+    <token id="51">Flughafen-Holding</token>
+    <token id="52">.</token>
+    <token id="53">Überrascht</token>
+    <token id="54">reagierte</token>
+    <token id="55">auch</token>
+    <token id="56">der</token>
+    <token id="57">Königs-Wusterhausener</token>
+    <token id="58">Bürgermeister</token>
+    <token id="59">Jochen</token>
+    <token id="60">Wagner</token>
+    <token id="61">.</token>
+    <token id="62">Schließlich</token>
+    <token id="63">gaben</token>
+    <token id="64">die</token>
+    <token id="65">Stadtverordneten</token>
+    <token id="66">erst</token>
+    <token id="67">Montagabend</token>
+    <token id="68">grünes</token>
+    <token id="69">Licht</token>
+    <token id="70">für</token>
+    <token id="71">die</token>
+    <token id="72">weitere</token>
+    <token id="73">Erschließung</token>
+    <token id="74">des</token>
+    <token id="75">neuen</token>
+    <token id="76">Ortsteils</token>
+    <token id="77">Diepensee</token>
+    <token id="78">.</token>
+    <token id="79">Soll</token>
+    <token id="80">dieser</token>
+    <token id="81">Beschluss</token>
+    <token id="82">bald</token>
+    <token id="83">nicht</token>
+    <token id="84">mal</token>
+    <token id="85">mehr</token>
+    <token id="86">das</token>
+    <token id="87">Papier</token>
+    <token id="88">wert</token>
+    <token id="89">sein</token>
+    <token id="90">,</token>
+    <token id="91">auf</token>
+    <token id="92">dem</token>
+    <token id="93">er</token>
+    <token id="94">gedruckt</token>
+    <token id="95">wurde</token>
+    <token id="96">?</token>
+    <token id="97">Das</token>
+    <token id="98">wäre</token>
+    <token id="99">denkbar</token>
+    <token id="100">.</token>
+    <token id="101">Schließlich</token>
+    <token id="102">läuft</token>
+    <token id="103">Ende</token>
+    <token id="104">Oktober</token>
+    <token id="105">die</token>
+    <token id="106">Angebotsfrist</token>
+    <token id="107">für</token>
+    <token id="108">die</token>
+    <token id="109">Privatisierung</token>
+    <token id="110">der</token>
+    <token id="111">Flughafen-Holding</token>
+    <token id="112">aus</token>
+    <token id="113">.</token>
+    <token id="114">Möglicherweise</token>
+    <token id="115">legt</token>
+    <token id="116">das</token>
+    <token id="117">Baukonzern-Bieterkonsortium</token>
+    <token id="118">wieder</token>
+    <token id="119">keinen</token>
+    <token id="120">verhandelbaren</token>
+    <token id="121">Vorschlag</token>
+    <token id="122">auf</token>
+    <token id="123">den</token>
+    <token id="124">Tisch</token>
+    <token id="125">.</token>
+    <token id="126">Dann</token>
+    <token id="127">müssten</token>
+    <token id="128">die</token>
+    <token id="129">Holding-Gesellschafter</token>
+    <token id="130">-</token>
+    <token id="131">Bund</token>
+    <token id="132">,</token>
+    <token id="133">Brandenburg</token>
+    <token id="134">und</token>
+    <token id="135">Berlin</token>
+    <token id="136">-</token>
+    <token id="137">sowohl</token>
+    <token id="138">die</token>
+    <token id="139">Kosten</token>
+    <token id="140">für</token>
+    <token id="141">den</token>
+    <token id="142">Ausbau</token>
+    <token id="143">und</token>
+    <token id="144">die</token>
+    <token id="145">Anbindung</token>
+    <token id="146">des</token>
+    <token id="147">Flughafens</token>
+    <token id="148">Schönefeld</token>
+    <token id="149">,</token>
+    <token id="150">als</token>
+    <token id="151">auch</token>
+    <token id="152">für</token>
+    <token id="153">die</token>
+    <token id="154">Umsiedlung</token>
+    <token id="155">Diepensees</token>
+    <token id="156">aufbringen</token>
+    <token id="157">.</token>
+    <token id="158">Vorbehalte</token>
+    <token id="159">scheinen</token>
+    <token id="160">da</token>
+    <token id="161">angesichts</token>
+    <token id="162">leerer</token>
+    <token id="163">Kassen</token>
+    <token id="164">aller</token>
+    <token id="165">drei</token>
+    <token id="166">Gesellschafter</token>
+    <token id="167">durchaus</token>
+    <token id="168">angebracht</token>
+    <token id="169">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Temporal.Asynchronous.Precedence" type="explicit">
+      <connective_tokens>
+        <connective_token id="29" token="Bis"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="4" token="Diepensee"/>
+        <ext_arg_token id="5" token="siedelt"/>
+        <ext_arg_token id="6" token="um"/>
+        <ext_arg_token id="7" token="."/>
+        <ext_arg_token id="8" token="Ohne"/>
+        <ext_arg_token id="9" token="Wenn"/>
+        <ext_arg_token id="10" token="und"/>
+        <ext_arg_token id="11" token="Aber"/>
+        <ext_arg_token id="12" token="."/>
+        <ext_arg_token id="13" token="Dessen"/>
+        <ext_arg_token id="14" token="konnten"/>
+        <ext_arg_token id="15" token="sich"/>
+        <ext_arg_token id="16" token="die"/>
+        <ext_arg_token id="17" token="vor"/>
+        <ext_arg_token id="18" token="dem"/>
+        <ext_arg_token id="19" token="möglichen"/>
+        <ext_arg_token id="20" token="Ausbau"/>
+        <ext_arg_token id="21" token="des"/>
+        <ext_arg_token id="22" token="Flughafens"/>
+        <ext_arg_token id="23" token="Schönefeld"/>
+        <ext_arg_token id="24" token="weichenden"/>
+        <ext_arg_token id="25" token="Dorfbewohner"/>
+        <ext_arg_token id="26" token="gewiss"/>
+        <ext_arg_token id="27" token="sein"/>
+        <ext_arg_token id="28" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="30" token="eine"/>
+        <int_arg_token id="31" token="Presseinformation"/>
+        <int_arg_token id="32" token="der"/>
+        <int_arg_token id="33" token="Ausbau-Planer"/>
+        <int_arg_token id="34" token="einschlug"/>
+        <int_arg_token id="35" token=","/>
+        <int_arg_token id="36" token="wie"/>
+        <int_arg_token id="37" token="eine"/>
+        <int_arg_token id="38" token="Bombe"/>
+        <int_arg_token id="39" token="."/>
+        <int_arg_token id="40" token="Umsiedlung"/>
+        <int_arg_token id="41" token=","/>
+        <int_arg_token id="42" token="hieß"/>
+        <int_arg_token id="43" token="es"/>
+        <int_arg_token id="44" token="da"/>
+        <int_arg_token id="45" token=","/>
+        <int_arg_token id="46" token="nur"/>
+        <int_arg_token id="47" token="vorbehaltlich"/>
+        <int_arg_token id="48" token="der"/>
+        <int_arg_token id="49" token="Privatisierung"/>
+        <int_arg_token id="50" token="der"/>
+        <int_arg_token id="51" token="Flughafen-Holding"/>
+        <int_arg_token id="52" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="2" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="62" token="Schließlich"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="53" token="Überrascht"/>
+        <ext_arg_token id="54" token="reagierte"/>
+        <ext_arg_token id="55" token="auch"/>
+        <ext_arg_token id="56" token="der"/>
+        <ext_arg_token id="57" token="Königs-Wusterhausener"/>
+        <ext_arg_token id="58" token="Bürgermeister"/>
+        <ext_arg_token id="59" token="Jochen"/>
+        <ext_arg_token id="60" token="Wagner"/>
+        <ext_arg_token id="61" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="63" token="gaben"/>
+        <int_arg_token id="64" token="die"/>
+        <int_arg_token id="65" token="Stadtverordneten"/>
+        <int_arg_token id="66" token="erst"/>
+        <int_arg_token id="67" token="Montagabend"/>
+        <int_arg_token id="68" token="grünes"/>
+        <int_arg_token id="69" token="Licht"/>
+        <int_arg_token id="70" token="für"/>
+        <int_arg_token id="71" token="die"/>
+        <int_arg_token id="72" token="weitere"/>
+        <int_arg_token id="73" token="Erschließung"/>
+        <int_arg_token id="74" token="des"/>
+        <int_arg_token id="75" token="neuen"/>
+        <int_arg_token id="76" token="Ortsteils"/>
+        <int_arg_token id="77" token="Diepensee"/>
+        <int_arg_token id="78" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Contingency.Condition.Arg1-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="126" token="Dann"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="114" token="Möglicherweise"/>
+        <ext_arg_token id="115" token="legt"/>
+        <ext_arg_token id="116" token="das"/>
+        <ext_arg_token id="117" token="Baukonzern-Bieterkonsortium"/>
+        <ext_arg_token id="118" token="wieder"/>
+        <ext_arg_token id="119" token="keinen"/>
+        <ext_arg_token id="120" token="verhandelbaren"/>
+        <ext_arg_token id="121" token="Vorschlag"/>
+        <ext_arg_token id="122" token="auf"/>
+        <ext_arg_token id="123" token="den"/>
+        <ext_arg_token id="124" token="Tisch"/>
+        <ext_arg_token id="125" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="127" token="müssten"/>
+        <int_arg_token id="128" token="die"/>
+        <int_arg_token id="129" token="Holding-Gesellschafter"/>
+        <int_arg_token id="130" token="-"/>
+        <int_arg_token id="131" token="Bund"/>
+        <int_arg_token id="132" token=","/>
+        <int_arg_token id="133" token="Brandenburg"/>
+        <int_arg_token id="134" token="und"/>
+        <int_arg_token id="135" token="Berlin"/>
+        <int_arg_token id="136" token="-"/>
+        <int_arg_token id="137" token="sowohl"/>
+        <int_arg_token id="138" token="die"/>
+        <int_arg_token id="139" token="Kosten"/>
+        <int_arg_token id="140" token="für"/>
+        <int_arg_token id="141" token="den"/>
+        <int_arg_token id="142" token="Ausbau"/>
+        <int_arg_token id="143" token="und"/>
+        <int_arg_token id="144" token="die"/>
+        <int_arg_token id="145" token="Anbindung"/>
+        <int_arg_token id="146" token="des"/>
+        <int_arg_token id="147" token="Flughafens"/>
+        <int_arg_token id="148" token="Schönefeld"/>
+        <int_arg_token id="149" token=","/>
+        <int_arg_token id="150" token="als"/>
+        <int_arg_token id="151" token="auch"/>
+        <int_arg_token id="152" token="für"/>
+        <int_arg_token id="153" token="die"/>
+        <int_arg_token id="154" token="Umsiedlung"/>
+        <int_arg_token id="155" token="Diepensees"/>
+        <int_arg_token id="156" token="aufbringen"/>
+        <int_arg_token id="157" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="40" token="Umsiedlung"/>
+        <ext_arg_token id="41" token=","/>
+        <ext_arg_token id="42" token="hieß"/>
+        <ext_arg_token id="43" token="es"/>
+        <ext_arg_token id="44" token="da"/>
+        <ext_arg_token id="45" token=","/>
+        <ext_arg_token id="46" token="nur"/>
+        <ext_arg_token id="47" token="vorbehaltlich"/>
+        <ext_arg_token id="48" token="der"/>
+        <ext_arg_token id="49" token="Privatisierung"/>
+        <ext_arg_token id="50" token="der"/>
+        <ext_arg_token id="51" token="Flughafen-Holding"/>
+        <ext_arg_token id="52" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="53" token="Überrascht"/>
+        <int_arg_token id="54" token="reagierte"/>
+        <int_arg_token id="55" token="auch"/>
+        <int_arg_token id="56" token="der"/>
+        <int_arg_token id="57" token="Königs-Wusterhausener"/>
+        <int_arg_token id="58" token="Bürgermeister"/>
+        <int_arg_token id="59" token="Jochen"/>
+        <int_arg_token id="60" token="Wagner"/>
+        <int_arg_token id="61" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="implicit">
+      <connective_tokens>
+        <implicit_connective>aber</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="62" token="Schließlich"/>
+        <ext_arg_token id="63" token="gaben"/>
+        <ext_arg_token id="64" token="die"/>
+        <ext_arg_token id="65" token="Stadtverordneten"/>
+        <ext_arg_token id="66" token="erst"/>
+        <ext_arg_token id="67" token="Montagabend"/>
+        <ext_arg_token id="68" token="grünes"/>
+        <ext_arg_token id="69" token="Licht"/>
+        <ext_arg_token id="70" token="für"/>
+        <ext_arg_token id="71" token="die"/>
+        <ext_arg_token id="72" token="weitere"/>
+        <ext_arg_token id="73" token="Erschließung"/>
+        <ext_arg_token id="74" token="des"/>
+        <ext_arg_token id="75" token="neuen"/>
+        <ext_arg_token id="76" token="Ortsteils"/>
+        <ext_arg_token id="77" token="Diepensee"/>
+        <ext_arg_token id="78" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="79" token="Soll"/>
+        <int_arg_token id="80" token="dieser"/>
+        <int_arg_token id="81" token="Beschluss"/>
+        <int_arg_token id="82" token="bald"/>
+        <int_arg_token id="83" token="nicht"/>
+        <int_arg_token id="84" token="mal"/>
+        <int_arg_token id="85" token="mehr"/>
+        <int_arg_token id="86" token="das"/>
+        <int_arg_token id="87" token="Papier"/>
+        <int_arg_token id="88" token="wert"/>
+        <int_arg_token id="89" token="sein"/>
+        <int_arg_token id="90" token=","/>
+        <int_arg_token id="91" token="auf"/>
+        <int_arg_token id="92" token="dem"/>
+        <int_arg_token id="93" token="er"/>
+        <int_arg_token id="94" token="gedruckt"/>
+        <int_arg_token id="95" token="wurde"/>
+        <int_arg_token id="96" token="?"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="101" token="Schließlich"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="97" token="Das"/>
+        <int_arg_token id="98" token="wäre"/>
+        <int_arg_token id="99" token="denkbar"/>
+        <int_arg_token id="100" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="101" token="Schließlich"/>
+        <ext_arg_token id="102" token="läuft"/>
+        <ext_arg_token id="103" token="Ende"/>
+        <ext_arg_token id="104" token="Oktober"/>
+        <ext_arg_token id="105" token="die"/>
+        <ext_arg_token id="106" token="Angebotsfrist"/>
+        <ext_arg_token id="107" token="für"/>
+        <ext_arg_token id="108" token="die"/>
+        <ext_arg_token id="109" token="Privatisierung"/>
+        <ext_arg_token id="110" token="der"/>
+        <ext_arg_token id="111" token="Flughafen-Holding"/>
+        <ext_arg_token id="112" token="aus"/>
+        <ext_arg_token id="113" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Temporal.Asynchronous.Precedence" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="101" token="Schließlich"/>
+        <ext_arg_token id="102" token="läuft"/>
+        <ext_arg_token id="103" token="Ende"/>
+        <ext_arg_token id="104" token="Oktober"/>
+        <ext_arg_token id="105" token="die"/>
+        <ext_arg_token id="106" token="Angebotsfrist"/>
+        <ext_arg_token id="107" token="für"/>
+        <ext_arg_token id="108" token="die"/>
+        <ext_arg_token id="109" token="Privatisierung"/>
+        <ext_arg_token id="110" token="der"/>
+        <ext_arg_token id="111" token="Flughafen-Holding"/>
+        <ext_arg_token id="112" token="aus"/>
+        <ext_arg_token id="113" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="114" token="Möglicherweise"/>
+        <int_arg_token id="115" token="legt"/>
+        <int_arg_token id="116" token="das"/>
+        <int_arg_token id="117" token="Baukonzern-Bieterkonsortium"/>
+        <int_arg_token id="118" token="wieder"/>
+        <int_arg_token id="119" token="keinen"/>
+        <int_arg_token id="120" token="verhandelbaren"/>
+        <int_arg_token id="121" token="Vorschlag"/>
+        <int_arg_token id="122" token="auf"/>
+        <int_arg_token id="123" token="den"/>
+        <int_arg_token id="124" token="Tisch"/>
+        <int_arg_token id="125" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="126" token="Dann"/>
+        <ext_arg_token id="127" token="müssten"/>
+        <ext_arg_token id="128" token="die"/>
+        <ext_arg_token id="129" token="Holding-Gesellschafter"/>
+        <ext_arg_token id="130" token="-"/>
+        <ext_arg_token id="131" token="Bund"/>
+        <ext_arg_token id="132" token=","/>
+        <ext_arg_token id="133" token="Brandenburg"/>
+        <ext_arg_token id="134" token="und"/>
+        <ext_arg_token id="135" token="Berlin"/>
+        <ext_arg_token id="136" token="-"/>
+        <ext_arg_token id="137" token="sowohl"/>
+        <ext_arg_token id="138" token="die"/>
+        <ext_arg_token id="139" token="Kosten"/>
+        <ext_arg_token id="140" token="für"/>
+        <ext_arg_token id="141" token="den"/>
+        <ext_arg_token id="142" token="Ausbau"/>
+        <ext_arg_token id="143" token="und"/>
+        <ext_arg_token id="144" token="die"/>
+        <ext_arg_token id="145" token="Anbindung"/>
+        <ext_arg_token id="146" token="des"/>
+        <ext_arg_token id="147" token="Flughafens"/>
+        <ext_arg_token id="148" token="Schönefeld"/>
+        <ext_arg_token id="149" token=","/>
+        <ext_arg_token id="150" token="als"/>
+        <ext_arg_token id="151" token="auch"/>
+        <ext_arg_token id="152" token="für"/>
+        <ext_arg_token id="153" token="die"/>
+        <ext_arg_token id="154" token="Umsiedlung"/>
+        <ext_arg_token id="155" token="Diepensees"/>
+        <ext_arg_token id="156" token="aufbringen"/>
+        <ext_arg_token id="157" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="158" token="Vorbehalte"/>
+        <int_arg_token id="159" token="scheinen"/>
+        <int_arg_token id="160" token="da"/>
+        <int_arg_token id="161" token="angesichts"/>
+        <int_arg_token id="162" token="leerer"/>
+        <int_arg_token id="163" token="Kassen"/>
+        <int_arg_token id="164" token="aller"/>
+        <int_arg_token id="165" token="drei"/>
+        <int_arg_token id="166" token="Gesellschafter"/>
+        <int_arg_token id="167" token="durchaus"/>
+        <int_arg_token id="168" token="angebracht"/>
+        <int_arg_token id="169" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

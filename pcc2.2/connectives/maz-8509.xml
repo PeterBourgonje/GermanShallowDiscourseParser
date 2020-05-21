@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Barbies</token>
+    <token id="2">im</token>
+    <token id="3">Laubsack</token>
+    <token id="4">Reste</token>
+    <token id="5">vom</token>
+    <token id="6">Sonntagsbraten</token>
+    <token id="7">,</token>
+    <token id="8">leere</token>
+    <token id="9">Milchtüten</token>
+    <token id="10">oder</token>
+    <token id="11">die</token>
+    <token id="12">alte</token>
+    <token id="13">Barbiepuppe</token>
+    <token id="14">gehören</token>
+    <token id="15">nicht</token>
+    <token id="16">in</token>
+    <token id="17">den</token>
+    <token id="18">Laubsack</token>
+    <token id="19">.</token>
+    <token id="20">Das</token>
+    <token id="21">weiß</token>
+    <token id="22">jedes</token>
+    <token id="23">Kind</token>
+    <token id="24">,</token>
+    <token id="25">aber</token>
+    <token id="26">nicht</token>
+    <token id="27">jeder</token>
+    <token id="28">hält</token>
+    <token id="29">sich</token>
+    <token id="30">daran</token>
+    <token id="31">.</token>
+    <token id="32">Alle</token>
+    <token id="33">Jahre</token>
+    <token id="34">wieder</token>
+    <token id="35">findet</token>
+    <token id="36">sich</token>
+    <token id="37">in</token>
+    <token id="38">vielen</token>
+    <token id="39">Säcken</token>
+    <token id="40">Unrat</token>
+    <token id="41">und</token>
+    <token id="42">so</token>
+    <token id="43">manche</token>
+    <token id="44">Kuriosität</token>
+    <token id="45">.</token>
+    <token id="46">In</token>
+    <token id="47">Nauen</token>
+    <token id="48">beispielsweise</token>
+    <token id="49">bleibt</token>
+    <token id="50">inzwischen</token>
+    <token id="51">jeder</token>
+    <token id="52">sechste</token>
+    <token id="53">der</token>
+    <token id="54">jährlich</token>
+    <token id="55">anfallenden</token>
+    <token id="56">4000</token>
+    <token id="57">Säcke</token>
+    <token id="58">an</token>
+    <token id="59">der</token>
+    <token id="60">Straße</token>
+    <token id="61">zurück</token>
+    <token id="62">,</token>
+    <token id="63">weil</token>
+    <token id="64">er</token>
+    <token id="65">nicht</token>
+    <token id="66">mit</token>
+    <token id="67">Laub</token>
+    <token id="68">von</token>
+    <token id="69">Straßenbäumen</token>
+    <token id="70">,</token>
+    <token id="71">sondern</token>
+    <token id="72">mit</token>
+    <token id="73">Garten-</token>
+    <token id="74">oder</token>
+    <token id="75">Hausabfällen</token>
+    <token id="76">gefüllt</token>
+    <token id="77">ist</token>
+    <token id="78">.</token>
+    <token id="79">Tendenz</token>
+    <token id="80">steigend</token>
+    <token id="81">.</token>
+    <token id="82">Immer</token>
+    <token id="83">mehr</token>
+    <token id="84">verantwortungslose</token>
+    <token id="85">Zeitgenossen</token>
+    <token id="86">versuchen</token>
+    <token id="87">,</token>
+    <token id="88">ihren</token>
+    <token id="89">Müll</token>
+    <token id="90">illegal</token>
+    <token id="91">loszuwerden</token>
+    <token id="92">statt</token>
+    <token id="93">ihn</token>
+    <token id="94">ordnungsgemäß</token>
+    <token id="95">zu</token>
+    <token id="96">entsorgen</token>
+    <token id="97">.</token>
+    <token id="98">Das</token>
+    <token id="99">wird</token>
+    <token id="100">letztlich</token>
+    <token id="101">alle</token>
+    <token id="102">teuer</token>
+    <token id="103">zu</token>
+    <token id="104">stehen</token>
+    <token id="105">kommen</token>
+    <token id="106">.</token>
+    <token id="107">Denn</token>
+    <token id="108">angesichts</token>
+    <token id="109">des</token>
+    <token id="110">zunehmenden</token>
+    <token id="111">Missbrauchs</token>
+    <token id="112">und</token>
+    <token id="113">leerer</token>
+    <token id="114">Kassen</token>
+    <token id="115">ist</token>
+    <token id="116">es</token>
+    <token id="117">nur</token>
+    <token id="118">noch</token>
+    <token id="119">eine</token>
+    <token id="120">Frage</token>
+    <token id="121">der</token>
+    <token id="122">Zeit</token>
+    <token id="123">,</token>
+    <token id="124">bis</token>
+    <token id="125">die</token>
+    <token id="126">Stadtväter</token>
+    <token id="127">die</token>
+    <token id="128">für</token>
+    <token id="129">den</token>
+    <token id="130">Bürger</token>
+    <token id="131">kostenlose</token>
+    <token id="132">Laubentsorgung</token>
+    <token id="133">einstellen</token>
+    <token id="134">.</token>
+    <token id="135">Immerhin</token>
+    <token id="136">rund</token>
+    <token id="137">26_000</token>
+    <token id="138">Mark</token>
+    <token id="139">ließen</token>
+    <token id="140">sich</token>
+    <token id="141">damit</token>
+    <token id="142">pro</token>
+    <token id="143">Jahr</token>
+    <token id="144">einsparen</token>
+    <token id="145">,</token>
+    <token id="146">Geld</token>
+    <token id="147">,</token>
+    <token id="148">das</token>
+    <token id="149">an</token>
+    <token id="150">anderen</token>
+    <token id="151">Stellen</token>
+    <token id="152">dringend</token>
+    <token id="153">benötigt</token>
+    <token id="154">wird</token>
+    <token id="155">.</token>
+    <token id="156">Entsorgung</token>
+    <token id="157">nur</token>
+    <token id="158">noch</token>
+    <token id="159">gegen</token>
+    <token id="160">Vorkasse</token>
+    <token id="161">,</token>
+    <token id="162">das</token>
+    <token id="163">könnte</token>
+    <token id="164">schon</token>
+    <token id="165">bald</token>
+    <token id="166">Realität</token>
+    <token id="167">werden</token>
+    <token id="168">.</token>
+    <token id="169">Denn</token>
+    <token id="170">seit</token>
+    <token id="171">Jahren</token>
+    <token id="172">appelliert</token>
+    <token id="173">die</token>
+    <token id="174">Stadt</token>
+    <token id="175">an</token>
+    <token id="176">die</token>
+    <token id="177">Einsicht</token>
+    <token id="178">ihrer</token>
+    <token id="179">Bürger</token>
+    <token id="180">,</token>
+    <token id="181">und</token>
+    <token id="182">jedes</token>
+    <token id="183">Jahr</token>
+    <token id="184">aufs</token>
+    <token id="185">Neue</token>
+    <token id="186">zeigt</token>
+    <token id="187">sich</token>
+    <token id="188">,</token>
+    <token id="189">dass</token>
+    <token id="190">diese</token>
+    <token id="191">Appelle</token>
+    <token id="192">(</token>
+    <token id="193">bisher</token>
+    <token id="194">)</token>
+    <token id="195">umsonst</token>
+    <token id="196">sind</token>
+    <token id="197">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="2" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="25" token="aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="20" token="Das"/>
+        <ext_arg_token id="21" token="weiß"/>
+        <ext_arg_token id="22" token="jedes"/>
+        <ext_arg_token id="23" token="Kind"/>
+        <ext_arg_token id="24" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="26" token="nicht"/>
+        <int_arg_token id="27" token="jeder"/>
+        <int_arg_token id="28" token="hält"/>
+        <int_arg_token id="29" token="sich"/>
+        <int_arg_token id="30" token="daran"/>
+        <int_arg_token id="31" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="explicit">
+      <connective_tokens>
+        <connective_token id="48" token="beispielsweise"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="46" token="In"/>
+        <int_arg_token id="47" token="Nauen"/>
+        <int_arg_token id="49" token="bleibt"/>
+        <int_arg_token id="50" token="inzwischen"/>
+        <int_arg_token id="51" token="jeder"/>
+        <int_arg_token id="52" token="sechste"/>
+        <int_arg_token id="53" token="der"/>
+        <int_arg_token id="54" token="jährlich"/>
+        <int_arg_token id="55" token="anfallenden"/>
+        <int_arg_token id="56" token="4000"/>
+        <int_arg_token id="57" token="Säcke"/>
+        <int_arg_token id="58" token="an"/>
+        <int_arg_token id="59" token="der"/>
+        <int_arg_token id="60" token="Straße"/>
+        <int_arg_token id="61" token="zurück"/>
+        <int_arg_token id="62" token=","/>
+        <int_arg_token id="63" token="weil"/>
+        <int_arg_token id="64" token="er"/>
+        <int_arg_token id="65" token="nicht"/>
+        <int_arg_token id="66" token="mit"/>
+        <int_arg_token id="67" token="Laub"/>
+        <int_arg_token id="68" token="von"/>
+        <int_arg_token id="69" token="Straßenbäumen"/>
+        <int_arg_token id="70" token=","/>
+        <int_arg_token id="71" token="sondern"/>
+        <int_arg_token id="72" token="mit"/>
+        <int_arg_token id="73" token="Garten-"/>
+        <int_arg_token id="74" token="oder"/>
+        <int_arg_token id="75" token="Hausabfällen"/>
+        <int_arg_token id="76" token="gefüllt"/>
+        <int_arg_token id="77" token="ist"/>
+        <int_arg_token id="78" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="32" token="Alle"/>
+        <ext_arg_token id="33" token="Jahre"/>
+        <ext_arg_token id="34" token="wieder"/>
+        <ext_arg_token id="35" token="findet"/>
+        <ext_arg_token id="36" token="sich"/>
+        <ext_arg_token id="37" token="in"/>
+        <ext_arg_token id="38" token="vielen"/>
+        <ext_arg_token id="39" token="Säcken"/>
+        <ext_arg_token id="40" token="Unrat"/>
+        <ext_arg_token id="41" token="und"/>
+        <ext_arg_token id="42" token="so"/>
+        <ext_arg_token id="43" token="manche"/>
+        <ext_arg_token id="44" token="Kuriosität"/>
+        <ext_arg_token id="45" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="63" token="weil"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="46" token="In"/>
+        <ext_arg_token id="47" token="Nauen"/>
+        <ext_arg_token id="48" token="beispielsweise"/>
+        <ext_arg_token id="49" token="bleibt"/>
+        <ext_arg_token id="50" token="inzwischen"/>
+        <ext_arg_token id="51" token="jeder"/>
+        <ext_arg_token id="52" token="sechste"/>
+        <ext_arg_token id="53" token="der"/>
+        <ext_arg_token id="54" token="jährlich"/>
+        <ext_arg_token id="55" token="anfallenden"/>
+        <ext_arg_token id="56" token="4000"/>
+        <ext_arg_token id="57" token="Säcke"/>
+        <ext_arg_token id="58" token="an"/>
+        <ext_arg_token id="59" token="der"/>
+        <ext_arg_token id="60" token="Straße"/>
+        <ext_arg_token id="61" token="zurück"/>
+        <ext_arg_token id="62" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="64" token="er"/>
+        <int_arg_token id="65" token="nicht"/>
+        <int_arg_token id="66" token="mit"/>
+        <int_arg_token id="67" token="Laub"/>
+        <int_arg_token id="68" token="von"/>
+        <int_arg_token id="69" token="Straßenbäumen"/>
+        <int_arg_token id="70" token=","/>
+        <int_arg_token id="71" token="sondern"/>
+        <int_arg_token id="72" token="mit"/>
+        <int_arg_token id="73" token="Garten-"/>
+        <int_arg_token id="74" token="oder"/>
+        <int_arg_token id="75" token="Hausabfällen"/>
+        <int_arg_token id="76" token="gefüllt"/>
+        <int_arg_token id="77" token="ist"/>
+        <int_arg_token id="78" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Expansion.Substitution.Arg2-as-subst" type="explicit">
+      <connective_tokens>
+        <connective_token id="71" token="sondern"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="64" token="er"/>
+        <ext_arg_token id="65" token="nicht"/>
+        <ext_arg_token id="66" token="mit"/>
+        <ext_arg_token id="67" token="Laub"/>
+        <ext_arg_token id="68" token="von"/>
+        <ext_arg_token id="69" token="Straßenbäumen"/>
+        <ext_arg_token id="70" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="72" token="mit"/>
+        <int_arg_token id="73" token="Garten-"/>
+        <int_arg_token id="74" token="oder"/>
+        <int_arg_token id="75" token="Hausabfällen"/>
+        <int_arg_token id="76" token="gefüllt"/>
+        <int_arg_token id="77" token="ist"/>
+        <int_arg_token id="78" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Substitution.Arg1-as-subst" type="explicit">
+      <connective_tokens>
+        <connective_token id="92" token="statt"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="88" token="ihren"/>
+        <ext_arg_token id="89" token="Müll"/>
+        <ext_arg_token id="90" token="illegal"/>
+        <ext_arg_token id="91" token="loszuwerden"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="93" token="ihn"/>
+        <int_arg_token id="94" token="ordnungsgemäß"/>
+        <int_arg_token id="95" token="zu"/>
+        <int_arg_token id="96" token="entsorgen"/>
+        <int_arg_token id="97" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="107" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="98" token="Das"/>
+        <ext_arg_token id="99" token="wird"/>
+        <ext_arg_token id="100" token="letztlich"/>
+        <ext_arg_token id="101" token="alle"/>
+        <ext_arg_token id="102" token="teuer"/>
+        <ext_arg_token id="103" token="zu"/>
+        <ext_arg_token id="104" token="stehen"/>
+        <ext_arg_token id="105" token="kommen"/>
+        <ext_arg_token id="106" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="108" token="angesichts"/>
+        <int_arg_token id="109" token="des"/>
+        <int_arg_token id="110" token="zunehmenden"/>
+        <int_arg_token id="111" token="Missbrauchs"/>
+        <int_arg_token id="112" token="und"/>
+        <int_arg_token id="113" token="leerer"/>
+        <int_arg_token id="114" token="Kassen"/>
+        <int_arg_token id="115" token="ist"/>
+        <int_arg_token id="116" token="es"/>
+        <int_arg_token id="117" token="nur"/>
+        <int_arg_token id="118" token="noch"/>
+        <int_arg_token id="119" token="eine"/>
+        <int_arg_token id="120" token="Frage"/>
+        <int_arg_token id="121" token="der"/>
+        <int_arg_token id="122" token="Zeit"/>
+        <int_arg_token id="123" token=","/>
+        <int_arg_token id="124" token="bis"/>
+        <int_arg_token id="125" token="die"/>
+        <int_arg_token id="126" token="Stadtväter"/>
+        <int_arg_token id="127" token="die"/>
+        <int_arg_token id="128" token="für"/>
+        <int_arg_token id="129" token="den"/>
+        <int_arg_token id="130" token="Bürger"/>
+        <int_arg_token id="131" token="kostenlose"/>
+        <int_arg_token id="132" token="Laubentsorgung"/>
+        <int_arg_token id="133" token="einstellen"/>
+        <int_arg_token id="134" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="108" token="angesichts"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="109" token="des"/>
+        <int_arg_token id="110" token="zunehmenden"/>
+        <int_arg_token id="111" token="Missbrauchs"/>
+        <int_arg_token id="112" token="und"/>
+        <int_arg_token id="113" token="leerer"/>
+        <int_arg_token id="114" token="Kassen"/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="115" token="ist"/>
+        <ext_arg_token id="116" token="es"/>
+        <ext_arg_token id="117" token="nur"/>
+        <ext_arg_token id="118" token="noch"/>
+        <ext_arg_token id="119" token="eine"/>
+        <ext_arg_token id="120" token="Frage"/>
+        <ext_arg_token id="121" token="der"/>
+        <ext_arg_token id="122" token="Zeit"/>
+        <ext_arg_token id="123" token=","/>
+        <ext_arg_token id="124" token="bis"/>
+        <ext_arg_token id="125" token="die"/>
+        <ext_arg_token id="126" token="Stadtväter"/>
+        <ext_arg_token id="127" token="die"/>
+        <ext_arg_token id="128" token="für"/>
+        <ext_arg_token id="129" token="den"/>
+        <ext_arg_token id="130" token="Bürger"/>
+        <ext_arg_token id="131" token="kostenlose"/>
+        <ext_arg_token id="132" token="Laubentsorgung"/>
+        <ext_arg_token id="133" token="einstellen"/>
+        <ext_arg_token id="134" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="169" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="156" token="Entsorgung"/>
+        <ext_arg_token id="157" token="nur"/>
+        <ext_arg_token id="158" token="noch"/>
+        <ext_arg_token id="159" token="gegen"/>
+        <ext_arg_token id="160" token="Vorkasse"/>
+        <ext_arg_token id="161" token=","/>
+        <ext_arg_token id="162" token="das"/>
+        <ext_arg_token id="163" token="könnte"/>
+        <ext_arg_token id="164" token="schon"/>
+        <ext_arg_token id="165" token="bald"/>
+        <ext_arg_token id="166" token="Realität"/>
+        <ext_arg_token id="167" token="werden"/>
+        <ext_arg_token id="168" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="170" token="seit"/>
+        <int_arg_token id="171" token="Jahren"/>
+        <int_arg_token id="172" token="appelliert"/>
+        <int_arg_token id="173" token="die"/>
+        <int_arg_token id="174" token="Stadt"/>
+        <int_arg_token id="175" token="an"/>
+        <int_arg_token id="176" token="die"/>
+        <int_arg_token id="177" token="Einsicht"/>
+        <int_arg_token id="178" token="ihrer"/>
+        <int_arg_token id="179" token="Bürger"/>
+        <int_arg_token id="180" token=","/>
+        <int_arg_token id="181" token="und"/>
+        <int_arg_token id="182" token="jedes"/>
+        <int_arg_token id="183" token="Jahr"/>
+        <int_arg_token id="184" token="aufs"/>
+        <int_arg_token id="185" token="Neue"/>
+        <int_arg_token id="186" token="zeigt"/>
+        <int_arg_token id="187" token="sich"/>
+        <int_arg_token id="188" token=","/>
+        <int_arg_token id="189" token="dass"/>
+        <int_arg_token id="190" token="diese"/>
+        <int_arg_token id="191" token="Appelle"/>
+        <int_arg_token id="192" token="("/>
+        <int_arg_token id="193" token="bisher"/>
+        <int_arg_token id="194" token=")"/>
+        <int_arg_token id="195" token="umsonst"/>
+        <int_arg_token id="196" token="sind"/>
+        <int_arg_token id="197" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="181" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="170" token="seit"/>
+        <ext_arg_token id="171" token="Jahren"/>
+        <ext_arg_token id="172" token="appelliert"/>
+        <ext_arg_token id="173" token="die"/>
+        <ext_arg_token id="174" token="Stadt"/>
+        <ext_arg_token id="175" token="an"/>
+        <ext_arg_token id="176" token="die"/>
+        <ext_arg_token id="177" token="Einsicht"/>
+        <ext_arg_token id="178" token="ihrer"/>
+        <ext_arg_token id="179" token="Bürger"/>
+        <ext_arg_token id="180" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="182" token="jedes"/>
+        <int_arg_token id="183" token="Jahr"/>
+        <int_arg_token id="184" token="aufs"/>
+        <int_arg_token id="185" token="Neue"/>
+        <int_arg_token id="186" token="zeigt"/>
+        <int_arg_token id="187" token="sich"/>
+        <int_arg_token id="188" token=","/>
+        <int_arg_token id="189" token="dass"/>
+        <int_arg_token id="190" token="diese"/>
+        <int_arg_token id="191" token="Appelle"/>
+        <int_arg_token id="192" token="("/>
+        <int_arg_token id="193" token="bisher"/>
+        <int_arg_token id="194" token=")"/>
+        <int_arg_token id="195" token="umsonst"/>
+        <int_arg_token id="196" token="sind"/>
+        <int_arg_token id="197" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="4" token="Reste"/>
+        <ext_arg_token id="5" token="vom"/>
+        <ext_arg_token id="6" token="Sonntagsbraten"/>
+        <ext_arg_token id="7" token=","/>
+        <ext_arg_token id="8" token="leere"/>
+        <ext_arg_token id="9" token="Milchtüten"/>
+        <ext_arg_token id="10" token="oder"/>
+        <ext_arg_token id="11" token="die"/>
+        <ext_arg_token id="12" token="alte"/>
+        <ext_arg_token id="13" token="Barbiepuppe"/>
+        <ext_arg_token id="14" token="gehören"/>
+        <ext_arg_token id="15" token="nicht"/>
+        <ext_arg_token id="16" token="in"/>
+        <ext_arg_token id="17" token="den"/>
+        <ext_arg_token id="18" token="Laubsack"/>
+        <ext_arg_token id="19" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="20" token="Das"/>
+        <int_arg_token id="21" token="weiß"/>
+        <int_arg_token id="22" token="jedes"/>
+        <int_arg_token id="23" token="Kind"/>
+        <int_arg_token id="24" token=","/>
+        <int_arg_token id="25" token="aber"/>
+        <int_arg_token id="26" token="nicht"/>
+        <int_arg_token id="27" token="jeder"/>
+        <int_arg_token id="28" token="hält"/>
+        <int_arg_token id="29" token="sich"/>
+        <int_arg_token id="30" token="daran"/>
+        <int_arg_token id="31" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="20" token="Das"/>
+        <ext_arg_token id="21" token="weiß"/>
+        <ext_arg_token id="22" token="jedes"/>
+        <ext_arg_token id="23" token="Kind"/>
+        <ext_arg_token id="24" token=","/>
+        <ext_arg_token id="25" token="aber"/>
+        <ext_arg_token id="26" token="nicht"/>
+        <ext_arg_token id="27" token="jeder"/>
+        <ext_arg_token id="28" token="hält"/>
+        <ext_arg_token id="29" token="sich"/>
+        <ext_arg_token id="30" token="daran"/>
+        <ext_arg_token id="31" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="32" token="Alle"/>
+        <int_arg_token id="33" token="Jahre"/>
+        <int_arg_token id="34" token="wieder"/>
+        <int_arg_token id="35" token="findet"/>
+        <int_arg_token id="36" token="sich"/>
+        <int_arg_token id="37" token="in"/>
+        <int_arg_token id="38" token="vielen"/>
+        <int_arg_token id="39" token="Säcken"/>
+        <int_arg_token id="40" token="Unrat"/>
+        <int_arg_token id="41" token="und"/>
+        <int_arg_token id="42" token="so"/>
+        <int_arg_token id="43" token="manche"/>
+        <int_arg_token id="44" token="Kuriosität"/>
+        <int_arg_token id="45" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="46" token="In"/>
+        <ext_arg_token id="47" token="Nauen"/>
+        <ext_arg_token id="48" token="beispielsweise"/>
+        <ext_arg_token id="49" token="bleibt"/>
+        <ext_arg_token id="50" token="inzwischen"/>
+        <ext_arg_token id="51" token="jeder"/>
+        <ext_arg_token id="52" token="sechste"/>
+        <ext_arg_token id="53" token="der"/>
+        <ext_arg_token id="54" token="jährlich"/>
+        <ext_arg_token id="55" token="anfallenden"/>
+        <ext_arg_token id="56" token="4000"/>
+        <ext_arg_token id="57" token="Säcke"/>
+        <ext_arg_token id="58" token="an"/>
+        <ext_arg_token id="59" token="der"/>
+        <ext_arg_token id="60" token="Straße"/>
+        <ext_arg_token id="61" token="zurück"/>
+        <ext_arg_token id="62" token=","/>
+        <ext_arg_token id="63" token="weil"/>
+        <ext_arg_token id="64" token="er"/>
+        <ext_arg_token id="65" token="nicht"/>
+        <ext_arg_token id="66" token="mit"/>
+        <ext_arg_token id="67" token="Laub"/>
+        <ext_arg_token id="68" token="von"/>
+        <ext_arg_token id="69" token="Straßenbäumen"/>
+        <ext_arg_token id="70" token=","/>
+        <ext_arg_token id="71" token="sondern"/>
+        <ext_arg_token id="72" token="mit"/>
+        <ext_arg_token id="73" token="Garten-"/>
+        <ext_arg_token id="74" token="oder"/>
+        <ext_arg_token id="75" token="Hausabfällen"/>
+        <ext_arg_token id="76" token="gefüllt"/>
+        <ext_arg_token id="77" token="ist"/>
+        <ext_arg_token id="78" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="79" token="Tendenz"/>
+        <int_arg_token id="80" token="steigend"/>
+        <int_arg_token id="81" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="79" token="Tendenz"/>
+        <ext_arg_token id="80" token="steigend"/>
+        <ext_arg_token id="81" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="82" token="Immer"/>
+        <int_arg_token id="83" token="mehr"/>
+        <int_arg_token id="84" token="verantwortungslose"/>
+        <int_arg_token id="85" token="Zeitgenossen"/>
+        <int_arg_token id="86" token="versuchen"/>
+        <int_arg_token id="87" token=","/>
+        <int_arg_token id="88" token="ihren"/>
+        <int_arg_token id="89" token="Müll"/>
+        <int_arg_token id="90" token="illegal"/>
+        <int_arg_token id="91" token="loszuwerden"/>
+        <int_arg_token id="92" token="statt"/>
+        <int_arg_token id="93" token="ihn"/>
+        <int_arg_token id="94" token="ordnungsgemäß"/>
+        <int_arg_token id="95" token="zu"/>
+        <int_arg_token id="96" token="entsorgen"/>
+        <int_arg_token id="97" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="implicit">
+      <connective_tokens>
+        <implicit_connective>aber</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="82" token="Immer"/>
+        <ext_arg_token id="83" token="mehr"/>
+        <ext_arg_token id="84" token="verantwortungslose"/>
+        <ext_arg_token id="85" token="Zeitgenossen"/>
+        <ext_arg_token id="86" token="versuchen"/>
+        <ext_arg_token id="87" token=","/>
+        <ext_arg_token id="88" token="ihren"/>
+        <ext_arg_token id="89" token="Müll"/>
+        <ext_arg_token id="90" token="illegal"/>
+        <ext_arg_token id="91" token="loszuwerden"/>
+        <ext_arg_token id="92" token="statt"/>
+        <ext_arg_token id="93" token="ihn"/>
+        <ext_arg_token id="94" token="ordnungsgemäß"/>
+        <ext_arg_token id="95" token="zu"/>
+        <ext_arg_token id="96" token="entsorgen"/>
+        <ext_arg_token id="97" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="98" token="Das"/>
+        <int_arg_token id="99" token="wird"/>
+        <int_arg_token id="100" token="letztlich"/>
+        <int_arg_token id="101" token="alle"/>
+        <int_arg_token id="102" token="teuer"/>
+        <int_arg_token id="103" token="zu"/>
+        <int_arg_token id="104" token="stehen"/>
+        <int_arg_token id="105" token="kommen"/>
+        <int_arg_token id="106" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="20" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="107" token="Denn"/>
+        <ext_arg_token id="108" token="angesichts"/>
+        <ext_arg_token id="109" token="des"/>
+        <ext_arg_token id="110" token="zunehmenden"/>
+        <ext_arg_token id="111" token="Missbrauchs"/>
+        <ext_arg_token id="112" token="und"/>
+        <ext_arg_token id="113" token="leerer"/>
+        <ext_arg_token id="114" token="Kassen"/>
+        <ext_arg_token id="115" token="ist"/>
+        <ext_arg_token id="116" token="es"/>
+        <ext_arg_token id="117" token="nur"/>
+        <ext_arg_token id="118" token="noch"/>
+        <ext_arg_token id="119" token="eine"/>
+        <ext_arg_token id="120" token="Frage"/>
+        <ext_arg_token id="121" token="der"/>
+        <ext_arg_token id="122" token="Zeit"/>
+        <ext_arg_token id="123" token=","/>
+        <ext_arg_token id="124" token="bis"/>
+        <ext_arg_token id="125" token="die"/>
+        <ext_arg_token id="126" token="Stadtväter"/>
+        <ext_arg_token id="127" token="die"/>
+        <ext_arg_token id="128" token="für"/>
+        <ext_arg_token id="129" token="den"/>
+        <ext_arg_token id="130" token="Bürger"/>
+        <ext_arg_token id="131" token="kostenlose"/>
+        <ext_arg_token id="132" token="Laubentsorgung"/>
+        <ext_arg_token id="133" token="einstellen"/>
+        <ext_arg_token id="134" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="135" token="Immerhin"/>
+        <int_arg_token id="136" token="rund"/>
+        <int_arg_token id="137" token="26_000"/>
+        <int_arg_token id="138" token="Mark"/>
+        <int_arg_token id="139" token="ließen"/>
+        <int_arg_token id="140" token="sich"/>
+        <int_arg_token id="141" token="damit"/>
+        <int_arg_token id="142" token="pro"/>
+        <int_arg_token id="143" token="Jahr"/>
+        <int_arg_token id="144" token="einsparen"/>
+        <int_arg_token id="145" token=","/>
+        <int_arg_token id="146" token="Geld"/>
+        <int_arg_token id="147" token=","/>
+        <int_arg_token id="148" token="das"/>
+        <int_arg_token id="149" token="an"/>
+        <int_arg_token id="150" token="anderen"/>
+        <int_arg_token id="151" token="Stellen"/>
+        <int_arg_token id="152" token="dringend"/>
+        <int_arg_token id="153" token="benötigt"/>
+        <int_arg_token id="154" token="wird"/>
+        <int_arg_token id="155" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

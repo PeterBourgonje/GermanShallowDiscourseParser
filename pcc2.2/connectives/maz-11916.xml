@@ -1,0 +1,727 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Steuer</token>
+    <token id="2">frei</token>
+    <token id="3">!</token>
+    <token id="4">Tabak-</token>
+    <token id="5">,</token>
+    <token id="6">Alkohol-</token>
+    <token id="7">,</token>
+    <token id="8">Gewerbe-</token>
+    <token id="9">,</token>
+    <token id="10">Einkommens-</token>
+    <token id="11">,</token>
+    <token id="12">Grund-</token>
+    <token id="13">,</token>
+    <token id="14">Vergnügungs-</token>
+    <token id="15">,</token>
+    <token id="16">Kfz-</token>
+    <token id="17">,</token>
+    <token id="18">Kapitalertrags-</token>
+    <token id="19">und</token>
+    <token id="20">nun</token>
+    <token id="21">ab</token>
+    <token id="22">1.</token>
+    <token id="23">Januar</token>
+    <token id="24">2002</token>
+    <token id="25">auch</token>
+    <token id="26">noch</token>
+    <token id="27">eine</token>
+    <token id="28">Bauabzugssteuer</token>
+    <token id="29">.</token>
+    <token id="30">Deutschland</token>
+    <token id="31">ist</token>
+    <token id="32">nicht</token>
+    <token id="33">bescheiden</token>
+    <token id="34">,</token>
+    <token id="35">wenn</token>
+    <token id="36">es</token>
+    <token id="37">darum</token>
+    <token id="38">geht</token>
+    <token id="39">,</token>
+    <token id="40">seinen</token>
+    <token id="41">Bürgern</token>
+    <token id="42">und</token>
+    <token id="43">Investoren</token>
+    <token id="44">das</token>
+    <token id="45">Geld</token>
+    <token id="46">aus</token>
+    <token id="47">den</token>
+    <token id="48">Taschen</token>
+    <token id="49">zu</token>
+    <token id="50">ziehen</token>
+    <token id="51">.</token>
+    <token id="52">Gründe</token>
+    <token id="53">für</token>
+    <token id="54">die</token>
+    <token id="55">Einführung</token>
+    <token id="56">neuer</token>
+    <token id="57">Steuern</token>
+    <token id="58">findet</token>
+    <token id="59">der</token>
+    <token id="60">Fiskus</token>
+    <token id="61">immer</token>
+    <token id="62">.</token>
+    <token id="63">Die</token>
+    <token id="64">Kapitalertragssteuer</token>
+    <token id="65">war</token>
+    <token id="66">eingeführt</token>
+    <token id="67">worden</token>
+    <token id="68">,</token>
+    <token id="69">um</token>
+    <token id="70">die</token>
+    <token id="71">Schwarzgeld-Wäsche</token>
+    <token id="72">zu</token>
+    <token id="73">erschweren</token>
+    <token id="74">.</token>
+    <token id="75">Die</token>
+    <token id="76">Bauabzugssteuer</token>
+    <token id="77">nun</token>
+    <token id="78">soll</token>
+    <token id="79">angeblich</token>
+    <token id="80">dazu</token>
+    <token id="81">dienen</token>
+    <token id="82">,</token>
+    <token id="83">Schwarzarbeit</token>
+    <token id="84">auf</token>
+    <token id="85">die</token>
+    <token id="86">Schliche</token>
+    <token id="87">zu</token>
+    <token id="88">kommen</token>
+    <token id="89">.</token>
+    <token id="90">Doch</token>
+    <token id="91">werden</token>
+    <token id="92">beispielsweise</token>
+    <token id="93">die</token>
+    <token id="94">vielen</token>
+    <token id="95">"</token>
+    <token id="96">Freunde</token>
+    <token id="97">"</token>
+    <token id="98">,</token>
+    <token id="99">die</token>
+    <token id="100">schwarzen</token>
+    <token id="101">Schafen</token>
+    <token id="102">unter</token>
+    <token id="103">den</token>
+    <token id="104">Bauherren</token>
+    <token id="105">offiziell</token>
+    <token id="106">nur</token>
+    <token id="107">"</token>
+    <token id="108">helfen</token>
+    <token id="109">"</token>
+    <token id="110">,</token>
+    <token id="111">tatsächlich</token>
+    <token id="112">aber</token>
+    <token id="113">unversteuertes</token>
+    <token id="114">Geld</token>
+    <token id="115">in</token>
+    <token id="116">die</token>
+    <token id="117">Hand</token>
+    <token id="118">kassieren</token>
+    <token id="119">,</token>
+    <token id="120">weiterhin</token>
+    <token id="121">ihr</token>
+    <token id="122">Unwesen</token>
+    <token id="123">treiben</token>
+    <token id="124">.</token>
+    <token id="125">Einen</token>
+    <token id="126">Effekt</token>
+    <token id="127">wird</token>
+    <token id="128">die</token>
+    <token id="129">Bauabzugssteuer</token>
+    <token id="130">sicher</token>
+    <token id="131">haben</token>
+    <token id="132">:</token>
+    <token id="133">Die</token>
+    <token id="134">Finanzbeamten</token>
+    <token id="135">haben</token>
+    <token id="136">noch</token>
+    <token id="137">mehr</token>
+    <token id="138">Papier</token>
+    <token id="139">zu</token>
+    <token id="140">bewegen</token>
+    <token id="141">,</token>
+    <token id="142">kontrollieren</token>
+    <token id="143">und</token>
+    <token id="144">bescheiden</token>
+    <token id="145">.</token>
+    <token id="146">Was</token>
+    <token id="147">auf</token>
+    <token id="148">keinen</token>
+    <token id="149">Fall</token>
+    <token id="150">passieren</token>
+    <token id="151">darf</token>
+    <token id="152">,</token>
+    <token id="153">ist</token>
+    <token id="154">,</token>
+    <token id="155">dass</token>
+    <token id="156">die</token>
+    <token id="157">Bearbeitungszeiten</token>
+    <token id="158">für</token>
+    <token id="159">Steuersachen</token>
+    <token id="160">noch</token>
+    <token id="161">länger</token>
+    <token id="162">dauern</token>
+    <token id="163">als</token>
+    <token id="164">bisher</token>
+    <token id="165">.</token>
+    <token id="166">Noch</token>
+    <token id="167">immer</token>
+    <token id="168">warten</token>
+    <token id="169">zum</token>
+    <token id="170">Beispiel</token>
+    <token id="171">Steuerzahler</token>
+    <token id="172">,</token>
+    <token id="173">die</token>
+    <token id="174">im</token>
+    <token id="175">Oranienburger</token>
+    <token id="176">Finanzamt</token>
+    <token id="177">im</token>
+    <token id="178">Mai</token>
+    <token id="179">2001</token>
+    <token id="180">ihre</token>
+    <token id="181">Einkommenssteuererklärungen</token>
+    <token id="182">abgegeben</token>
+    <token id="183">haben</token>
+    <token id="184">,</token>
+    <token id="185">auf</token>
+    <token id="186">die</token>
+    <token id="187">Bescheide</token>
+    <token id="188">.</token>
+    <token id="189">Oftmals</token>
+    <token id="190">sind</token>
+    <token id="191">es</token>
+    <token id="192">die</token>
+    <token id="193">,</token>
+    <token id="194">die</token>
+    <token id="195">was</token>
+    <token id="196">zurück</token>
+    <token id="197">bekommen</token>
+    <token id="198">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="2" pdtb3_sense="Contingency.Condition.Arg2-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="35" token="wenn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="30" token="Deutschland"/>
+        <ext_arg_token id="31" token="ist"/>
+        <ext_arg_token id="32" token="nicht"/>
+        <ext_arg_token id="33" token="bescheiden"/>
+        <ext_arg_token id="34" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="36" token="es"/>
+        <int_arg_token id="37" token="darum"/>
+        <int_arg_token id="38" token="geht"/>
+        <int_arg_token id="39" token=","/>
+        <int_arg_token id="40" token="seinen"/>
+        <int_arg_token id="41" token="Bürgern"/>
+        <int_arg_token id="42" token="und"/>
+        <int_arg_token id="43" token="Investoren"/>
+        <int_arg_token id="44" token="das"/>
+        <int_arg_token id="45" token="Geld"/>
+        <int_arg_token id="46" token="aus"/>
+        <int_arg_token id="47" token="den"/>
+        <int_arg_token id="48" token="Taschen"/>
+        <int_arg_token id="49" token="zu"/>
+        <int_arg_token id="50" token="ziehen"/>
+        <int_arg_token id="51" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Contingency.Purpose.Arg2-as-goal" type="explicit">
+      <connective_tokens>
+        <connective_token id="69" token="um"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="63" token="Die"/>
+        <ext_arg_token id="64" token="Kapitalertragssteuer"/>
+        <ext_arg_token id="65" token="war"/>
+        <ext_arg_token id="66" token="eingeführt"/>
+        <ext_arg_token id="67" token="worden"/>
+        <ext_arg_token id="68" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="70" token="die"/>
+        <int_arg_token id="71" token="Schwarzgeld-Wäsche"/>
+        <int_arg_token id="72" token="zu"/>
+        <int_arg_token id="73" token="erschweren"/>
+        <int_arg_token id="74" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="90" token="Doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="75" token="Die"/>
+        <ext_arg_token id="76" token="Bauabzugssteuer"/>
+        <ext_arg_token id="77" token="nun"/>
+        <ext_arg_token id="78" token="soll"/>
+        <ext_arg_token id="79" token="angeblich"/>
+        <ext_arg_token id="80" token="dazu"/>
+        <ext_arg_token id="81" token="dienen"/>
+        <ext_arg_token id="82" token=","/>
+        <ext_arg_token id="83" token="Schwarzarbeit"/>
+        <ext_arg_token id="84" token="auf"/>
+        <ext_arg_token id="85" token="die"/>
+        <ext_arg_token id="86" token="Schliche"/>
+        <ext_arg_token id="87" token="zu"/>
+        <ext_arg_token id="88" token="kommen"/>
+        <ext_arg_token id="89" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="91" token="werden"/>
+        <int_arg_token id="92" token="beispielsweise"/>
+        <int_arg_token id="93" token="die"/>
+        <int_arg_token id="94" token="vielen"/>
+        <int_arg_token id="95" token="&quot;"/>
+        <int_arg_token id="96" token="Freunde"/>
+        <int_arg_token id="97" token="&quot;"/>
+        <int_arg_token id="98" token=","/>
+        <int_arg_token id="99" token="die"/>
+        <int_arg_token id="100" token="schwarzen"/>
+        <int_arg_token id="101" token="Schafen"/>
+        <int_arg_token id="102" token="unter"/>
+        <int_arg_token id="103" token="den"/>
+        <int_arg_token id="104" token="Bauherren"/>
+        <int_arg_token id="105" token="offiziell"/>
+        <int_arg_token id="106" token="nur"/>
+        <int_arg_token id="107" token="&quot;"/>
+        <int_arg_token id="108" token="helfen"/>
+        <int_arg_token id="109" token="&quot;"/>
+        <int_arg_token id="110" token=","/>
+        <int_arg_token id="111" token="tatsächlich"/>
+        <int_arg_token id="112" token="aber"/>
+        <int_arg_token id="113" token="unversteuertes"/>
+        <int_arg_token id="114" token="Geld"/>
+        <int_arg_token id="115" token="in"/>
+        <int_arg_token id="116" token="die"/>
+        <int_arg_token id="117" token="Hand"/>
+        <int_arg_token id="118" token="kassieren"/>
+        <int_arg_token id="119" token=","/>
+        <int_arg_token id="120" token="weiterhin"/>
+        <int_arg_token id="121" token="ihr"/>
+        <int_arg_token id="122" token="Unwesen"/>
+        <int_arg_token id="123" token="treiben"/>
+        <int_arg_token id="124" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="explicit">
+      <connective_tokens>
+        <connective_token id="92" token="beispielsweise"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="75" token="Die"/>
+        <ext_arg_token id="76" token="Bauabzugssteuer"/>
+        <ext_arg_token id="77" token="nun"/>
+        <ext_arg_token id="78" token="soll"/>
+        <ext_arg_token id="79" token="angeblich"/>
+        <ext_arg_token id="80" token="dazu"/>
+        <ext_arg_token id="81" token="dienen"/>
+        <ext_arg_token id="82" token=","/>
+        <ext_arg_token id="83" token="Schwarzarbeit"/>
+        <ext_arg_token id="84" token="auf"/>
+        <ext_arg_token id="85" token="die"/>
+        <ext_arg_token id="86" token="Schliche"/>
+        <ext_arg_token id="87" token="zu"/>
+        <ext_arg_token id="88" token="kommen"/>
+        <ext_arg_token id="89" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="90" token="Doch"/>
+        <int_arg_token id="91" token="werden"/>
+        <int_arg_token id="93" token="die"/>
+        <int_arg_token id="94" token="vielen"/>
+        <int_arg_token id="95" token="&quot;"/>
+        <int_arg_token id="96" token="Freunde"/>
+        <int_arg_token id="97" token="&quot;"/>
+        <int_arg_token id="98" token=","/>
+        <int_arg_token id="99" token="die"/>
+        <int_arg_token id="100" token="schwarzen"/>
+        <int_arg_token id="101" token="Schafen"/>
+        <int_arg_token id="102" token="unter"/>
+        <int_arg_token id="103" token="den"/>
+        <int_arg_token id="104" token="Bauherren"/>
+        <int_arg_token id="105" token="offiziell"/>
+        <int_arg_token id="106" token="nur"/>
+        <int_arg_token id="107" token="&quot;"/>
+        <int_arg_token id="108" token="helfen"/>
+        <int_arg_token id="109" token="&quot;"/>
+        <int_arg_token id="110" token=","/>
+        <int_arg_token id="111" token="tatsächlich"/>
+        <int_arg_token id="112" token="aber"/>
+        <int_arg_token id="113" token="unversteuertes"/>
+        <int_arg_token id="114" token="Geld"/>
+        <int_arg_token id="115" token="in"/>
+        <int_arg_token id="116" token="die"/>
+        <int_arg_token id="117" token="Hand"/>
+        <int_arg_token id="118" token="kassieren"/>
+        <int_arg_token id="119" token=","/>
+        <int_arg_token id="120" token="weiterhin"/>
+        <int_arg_token id="121" token="ihr"/>
+        <int_arg_token id="122" token="Unwesen"/>
+        <int_arg_token id="123" token="treiben"/>
+        <int_arg_token id="124" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="112" token="aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="99" token="die"/>
+        <ext_arg_token id="100" token="schwarzen"/>
+        <ext_arg_token id="101" token="Schafen"/>
+        <ext_arg_token id="102" token="unter"/>
+        <ext_arg_token id="103" token="den"/>
+        <ext_arg_token id="104" token="Bauherren"/>
+        <ext_arg_token id="105" token="offiziell"/>
+        <ext_arg_token id="106" token="nur"/>
+        <ext_arg_token id="107" token="&quot;"/>
+        <ext_arg_token id="108" token="helfen"/>
+        <ext_arg_token id="109" token="&quot;"/>
+        <ext_arg_token id="110" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="111" token="tatsächlich"/>
+        <int_arg_token id="113" token="unversteuertes"/>
+        <int_arg_token id="114" token="Geld"/>
+        <int_arg_token id="115" token="in"/>
+        <int_arg_token id="116" token="die"/>
+        <int_arg_token id="117" token="Hand"/>
+        <int_arg_token id="118" token="kassieren"/>
+        <int_arg_token id="119" token=","/>
+        <int_arg_token id="120" token="weiterhin"/>
+        <int_arg_token id="121" token="ihr"/>
+        <int_arg_token id="122" token="Unwesen"/>
+        <int_arg_token id="123" token="treiben"/>
+        <int_arg_token id="124" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="143" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="133" token="Die"/>
+        <ext_arg_token id="134" token="Finanzbeamten"/>
+        <ext_arg_token id="135" token="haben"/>
+        <ext_arg_token id="136" token="noch"/>
+        <ext_arg_token id="137" token="mehr"/>
+        <ext_arg_token id="138" token="Papier"/>
+        <ext_arg_token id="139" token="zu"/>
+        <ext_arg_token id="140" token="bewegen"/>
+        <ext_arg_token id="141" token=","/>
+        <ext_arg_token id="142" token="kontrollieren"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="144" token="bescheiden"/>
+        <int_arg_token id="145" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="explicit">
+      <connective_tokens>
+        <connective_token id="169" token="zum"/>
+        <connective_token id="170" token="Beispiel"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="146" token="Was"/>
+        <ext_arg_token id="147" token="auf"/>
+        <ext_arg_token id="148" token="keinen"/>
+        <ext_arg_token id="149" token="Fall"/>
+        <ext_arg_token id="150" token="passieren"/>
+        <ext_arg_token id="151" token="darf"/>
+        <ext_arg_token id="152" token=","/>
+        <ext_arg_token id="153" token="ist"/>
+        <ext_arg_token id="154" token=","/>
+        <ext_arg_token id="155" token="dass"/>
+        <ext_arg_token id="156" token="die"/>
+        <ext_arg_token id="157" token="Bearbeitungszeiten"/>
+        <ext_arg_token id="158" token="für"/>
+        <ext_arg_token id="159" token="Steuersachen"/>
+        <ext_arg_token id="160" token="noch"/>
+        <ext_arg_token id="161" token="länger"/>
+        <ext_arg_token id="162" token="dauern"/>
+        <ext_arg_token id="163" token="als"/>
+        <ext_arg_token id="164" token="bisher"/>
+        <ext_arg_token id="165" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="166" token="Noch"/>
+        <int_arg_token id="167" token="immer"/>
+        <int_arg_token id="168" token="warten"/>
+        <int_arg_token id="171" token="Steuerzahler"/>
+        <int_arg_token id="172" token=","/>
+        <int_arg_token id="173" token="die"/>
+        <int_arg_token id="174" token="im"/>
+        <int_arg_token id="175" token="Oranienburger"/>
+        <int_arg_token id="176" token="Finanzamt"/>
+        <int_arg_token id="177" token="im"/>
+        <int_arg_token id="178" token="Mai"/>
+        <int_arg_token id="179" token="2001"/>
+        <int_arg_token id="180" token="ihre"/>
+        <int_arg_token id="181" token="Einkommenssteuererklärungen"/>
+        <int_arg_token id="182" token="abgegeben"/>
+        <int_arg_token id="183" token="haben"/>
+        <int_arg_token id="184" token=","/>
+        <int_arg_token id="185" token="auf"/>
+        <int_arg_token id="186" token="die"/>
+        <int_arg_token id="187" token="Bescheide"/>
+        <int_arg_token id="188" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Expansion.Level-of-detail.Arg1-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>kurz gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="4" token="Tabak-"/>
+        <ext_arg_token id="5" token=","/>
+        <ext_arg_token id="6" token="Alkohol-"/>
+        <ext_arg_token id="7" token=","/>
+        <ext_arg_token id="8" token="Gewerbe-"/>
+        <ext_arg_token id="9" token=","/>
+        <ext_arg_token id="10" token="Einkommens-"/>
+        <ext_arg_token id="11" token=","/>
+        <ext_arg_token id="12" token="Grund-"/>
+        <ext_arg_token id="13" token=","/>
+        <ext_arg_token id="14" token="Vergnügungs-"/>
+        <ext_arg_token id="15" token=","/>
+        <ext_arg_token id="16" token="Kfz-"/>
+        <ext_arg_token id="17" token=","/>
+        <ext_arg_token id="18" token="Kapitalertrags-"/>
+        <ext_arg_token id="19" token="und"/>
+        <ext_arg_token id="20" token="nun"/>
+        <ext_arg_token id="21" token="ab"/>
+        <ext_arg_token id="22" token="1."/>
+        <ext_arg_token id="23" token="Januar"/>
+        <ext_arg_token id="24" token="2002"/>
+        <ext_arg_token id="25" token="auch"/>
+        <ext_arg_token id="26" token="noch"/>
+        <ext_arg_token id="27" token="eine"/>
+        <ext_arg_token id="28" token="Bauabzugssteuer"/>
+        <ext_arg_token id="29" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="30" token="Deutschland"/>
+        <int_arg_token id="31" token="ist"/>
+        <int_arg_token id="32" token="nicht"/>
+        <int_arg_token id="33" token="bescheiden"/>
+        <int_arg_token id="34" token=","/>
+        <int_arg_token id="35" token="wenn"/>
+        <int_arg_token id="36" token="es"/>
+        <int_arg_token id="37" token="darum"/>
+        <int_arg_token id="38" token="geht"/>
+        <int_arg_token id="39" token=","/>
+        <int_arg_token id="40" token="seinen"/>
+        <int_arg_token id="41" token="Bürgern"/>
+        <int_arg_token id="42" token="und"/>
+        <int_arg_token id="43" token="Investoren"/>
+        <int_arg_token id="44" token="das"/>
+        <int_arg_token id="45" token="Geld"/>
+        <int_arg_token id="46" token="aus"/>
+        <int_arg_token id="47" token="den"/>
+        <int_arg_token id="48" token="Taschen"/>
+        <int_arg_token id="49" token="zu"/>
+        <int_arg_token id="50" token="ziehen"/>
+        <int_arg_token id="51" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="52" token="Gründe"/>
+        <ext_arg_token id="53" token="für"/>
+        <ext_arg_token id="54" token="die"/>
+        <ext_arg_token id="55" token="Einführung"/>
+        <ext_arg_token id="56" token="neuer"/>
+        <ext_arg_token id="57" token="Steuern"/>
+        <ext_arg_token id="58" token="findet"/>
+        <ext_arg_token id="59" token="der"/>
+        <ext_arg_token id="60" token="Fiskus"/>
+        <ext_arg_token id="61" token="immer"/>
+        <ext_arg_token id="62" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="63" token="Die"/>
+        <int_arg_token id="64" token="Kapitalertragssteuer"/>
+        <int_arg_token id="65" token="war"/>
+        <int_arg_token id="66" token="eingeführt"/>
+        <int_arg_token id="67" token="worden"/>
+        <int_arg_token id="68" token=","/>
+        <int_arg_token id="69" token="um"/>
+        <int_arg_token id="70" token="die"/>
+        <int_arg_token id="71" token="Schwarzgeld-Wäsche"/>
+        <int_arg_token id="72" token="zu"/>
+        <int_arg_token id="73" token="erschweren"/>
+        <int_arg_token id="74" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="63" token="Die"/>
+        <ext_arg_token id="64" token="Kapitalertragssteuer"/>
+        <ext_arg_token id="65" token="war"/>
+        <ext_arg_token id="66" token="eingeführt"/>
+        <ext_arg_token id="67" token="worden"/>
+        <ext_arg_token id="68" token=","/>
+        <ext_arg_token id="69" token="um"/>
+        <ext_arg_token id="70" token="die"/>
+        <ext_arg_token id="71" token="Schwarzgeld-Wäsche"/>
+        <ext_arg_token id="72" token="zu"/>
+        <ext_arg_token id="73" token="erschweren"/>
+        <ext_arg_token id="74" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="75" token="Die"/>
+        <int_arg_token id="76" token="Bauabzugssteuer"/>
+        <int_arg_token id="77" token="nun"/>
+        <int_arg_token id="78" token="soll"/>
+        <int_arg_token id="79" token="angeblich"/>
+        <int_arg_token id="80" token="dazu"/>
+        <int_arg_token id="81" token="dienen"/>
+        <int_arg_token id="82" token=","/>
+        <int_arg_token id="83" token="Schwarzarbeit"/>
+        <int_arg_token id="84" token="auf"/>
+        <int_arg_token id="85" token="die"/>
+        <int_arg_token id="86" token="Schliche"/>
+        <int_arg_token id="87" token="zu"/>
+        <int_arg_token id="88" token="kommen"/>
+        <int_arg_token id="89" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="implicit">
+      <connective_tokens>
+        <implicit_connective>doch</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="90" token="Doch"/>
+        <ext_arg_token id="91" token="werden"/>
+        <ext_arg_token id="92" token="beispielsweise"/>
+        <ext_arg_token id="93" token="die"/>
+        <ext_arg_token id="94" token="vielen"/>
+        <ext_arg_token id="95" token="&quot;"/>
+        <ext_arg_token id="96" token="Freunde"/>
+        <ext_arg_token id="97" token="&quot;"/>
+        <ext_arg_token id="98" token=","/>
+        <ext_arg_token id="99" token="die"/>
+        <ext_arg_token id="100" token="schwarzen"/>
+        <ext_arg_token id="101" token="Schafen"/>
+        <ext_arg_token id="102" token="unter"/>
+        <ext_arg_token id="103" token="den"/>
+        <ext_arg_token id="104" token="Bauherren"/>
+        <ext_arg_token id="105" token="offiziell"/>
+        <ext_arg_token id="106" token="nur"/>
+        <ext_arg_token id="107" token="&quot;"/>
+        <ext_arg_token id="108" token="helfen"/>
+        <ext_arg_token id="109" token="&quot;"/>
+        <ext_arg_token id="110" token=","/>
+        <ext_arg_token id="111" token="tatsächlich"/>
+        <ext_arg_token id="112" token="aber"/>
+        <ext_arg_token id="113" token="unversteuertes"/>
+        <ext_arg_token id="114" token="Geld"/>
+        <ext_arg_token id="115" token="in"/>
+        <ext_arg_token id="116" token="die"/>
+        <ext_arg_token id="117" token="Hand"/>
+        <ext_arg_token id="118" token="kassieren"/>
+        <ext_arg_token id="119" token=","/>
+        <ext_arg_token id="120" token="weiterhin"/>
+        <ext_arg_token id="121" token="ihr"/>
+        <ext_arg_token id="122" token="Unwesen"/>
+        <ext_arg_token id="123" token="treiben"/>
+        <ext_arg_token id="124" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="125" token="Einen"/>
+        <int_arg_token id="126" token="Effekt"/>
+        <int_arg_token id="127" token="wird"/>
+        <int_arg_token id="128" token="die"/>
+        <int_arg_token id="129" token="Bauabzugssteuer"/>
+        <int_arg_token id="130" token="sicher"/>
+        <int_arg_token id="131" token="haben"/>
+        <int_arg_token id="132" token=":"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und zwar</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="125" token="Einen"/>
+        <ext_arg_token id="126" token="Effekt"/>
+        <ext_arg_token id="127" token="wird"/>
+        <ext_arg_token id="128" token="die"/>
+        <ext_arg_token id="129" token="Bauabzugssteuer"/>
+        <ext_arg_token id="130" token="sicher"/>
+        <ext_arg_token id="131" token="haben"/>
+        <ext_arg_token id="132" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="133" token="Die"/>
+        <int_arg_token id="134" token="Finanzbeamten"/>
+        <int_arg_token id="135" token="haben"/>
+        <int_arg_token id="136" token="noch"/>
+        <int_arg_token id="137" token="mehr"/>
+        <int_arg_token id="138" token="Papier"/>
+        <int_arg_token id="139" token="zu"/>
+        <int_arg_token id="140" token="bewegen"/>
+        <int_arg_token id="141" token=","/>
+        <int_arg_token id="142" token="kontrollieren"/>
+        <int_arg_token id="143" token="und"/>
+        <int_arg_token id="144" token="bescheiden"/>
+        <int_arg_token id="145" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="166" token="Noch"/>
+        <ext_arg_token id="167" token="immer"/>
+        <ext_arg_token id="168" token="warten"/>
+        <ext_arg_token id="169" token="zum"/>
+        <ext_arg_token id="170" token="Beispiel"/>
+        <ext_arg_token id="171" token="Steuerzahler"/>
+        <ext_arg_token id="172" token=","/>
+        <ext_arg_token id="173" token="die"/>
+        <ext_arg_token id="174" token="im"/>
+        <ext_arg_token id="175" token="Oranienburger"/>
+        <ext_arg_token id="176" token="Finanzamt"/>
+        <ext_arg_token id="177" token="im"/>
+        <ext_arg_token id="178" token="Mai"/>
+        <ext_arg_token id="179" token="2001"/>
+        <ext_arg_token id="180" token="ihre"/>
+        <ext_arg_token id="181" token="Einkommenssteuererklärungen"/>
+        <ext_arg_token id="182" token="abgegeben"/>
+        <ext_arg_token id="183" token="haben"/>
+        <ext_arg_token id="184" token=","/>
+        <ext_arg_token id="185" token="auf"/>
+        <ext_arg_token id="186" token="die"/>
+        <ext_arg_token id="187" token="Bescheide"/>
+        <ext_arg_token id="188" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="189" token="Oftmals"/>
+        <int_arg_token id="190" token="sind"/>
+        <int_arg_token id="191" token="es"/>
+        <int_arg_token id="192" token="die"/>
+        <int_arg_token id="193" token=","/>
+        <int_arg_token id="194" token="die"/>
+        <int_arg_token id="195" token="was"/>
+        <int_arg_token id="196" token="zurück"/>
+        <int_arg_token id="197" token="bekommen"/>
+        <int_arg_token id="198" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

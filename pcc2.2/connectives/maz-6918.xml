@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Natürliche</token>
+    <token id="2">Rückeroberung</token>
+    <token id="3">Der</token>
+    <token id="4">Naturpark</token>
+    <token id="5">,</token>
+    <token id="6">der</token>
+    <token id="7">zwischen</token>
+    <token id="8">Jüterbog</token>
+    <token id="9">,</token>
+    <token id="10">Luckenwalde</token>
+    <token id="11">und</token>
+    <token id="12">Treuenbrietzen</token>
+    <token id="13">entsteht</token>
+    <token id="14">,</token>
+    <token id="15">ist</token>
+    <token id="16">außerhalb</token>
+    <token id="17">der</token>
+    <token id="18">Region</token>
+    <token id="19">noch</token>
+    <token id="20">viel</token>
+    <token id="21">zu</token>
+    <token id="22">wenig</token>
+    <token id="23">bekannt</token>
+    <token id="24">.</token>
+    <token id="25">Deshalb</token>
+    <token id="26">ist</token>
+    <token id="27">es</token>
+    <token id="28">zu</token>
+    <token id="29">begrüßen</token>
+    <token id="30">,</token>
+    <token id="31">dass</token>
+    <token id="32">Manfred</token>
+    <token id="33">Stolpe</token>
+    <token id="34">dem</token>
+    <token id="35">weiträumigen</token>
+    <token id="36">Areal</token>
+    <token id="37">vorgestern</token>
+    <token id="38">einen</token>
+    <token id="39">Besuch</token>
+    <token id="40">abstattete</token>
+    <token id="41">.</token>
+    <token id="42">Ein</token>
+    <token id="43">beabsichtigter</token>
+    <token id="44">Effekt</token>
+    <token id="45">solcher</token>
+    <token id="46">Dienstreisen</token>
+    <token id="47">des</token>
+    <token id="48">Ministerpräsidenten</token>
+    <token id="49">in</token>
+    <token id="50">die</token>
+    <token id="51">Provinz</token>
+    <token id="52">ist</token>
+    <token id="53">es</token>
+    <token id="54">,</token>
+    <token id="55">möglichst</token>
+    <token id="56">viel</token>
+    <token id="57">öffentliche</token>
+    <token id="58">Aufmerksamkeit</token>
+    <token id="59">auf</token>
+    <token id="60">bestimmte</token>
+    <token id="61">Vorhaben</token>
+    <token id="62">zu</token>
+    <token id="63">lenken</token>
+    <token id="64">.</token>
+    <token id="65">Um</token>
+    <token id="66">den</token>
+    <token id="67">etwa</token>
+    <token id="68">7000</token>
+    <token id="69">Hektar</token>
+    <token id="70">großen</token>
+    <token id="71">Naturpark</token>
+    <token id="72">soll</token>
+    <token id="73">ein</token>
+    <token id="74">Rundweg</token>
+    <token id="75">angelegt</token>
+    <token id="76">werden</token>
+    <token id="77">.</token>
+    <token id="78">Das</token>
+    <token id="79">wäre</token>
+    <token id="80">ein</token>
+    <token id="81">bedeutender</token>
+    <token id="82">Schritt</token>
+    <token id="83">zum</token>
+    <token id="84">erklärten</token>
+    <token id="85">Ziel</token>
+    <token id="86">,</token>
+    <token id="87">den</token>
+    <token id="88">ehemaligen</token>
+    <token id="89">Truppenübungsplatz</token>
+    <token id="90">touristisch</token>
+    <token id="91">zu</token>
+    <token id="92">erschließen</token>
+    <token id="93">.</token>
+    <token id="94">Die</token>
+    <token id="95">Wanderdüne</token>
+    <token id="96">bei</token>
+    <token id="97">Forst</token>
+    <token id="98">Zinna</token>
+    <token id="99">ist</token>
+    <token id="100">schon</token>
+    <token id="101">jetzt</token>
+    <token id="102">ein</token>
+    <token id="103">bei</token>
+    <token id="104">Auswärtigen</token>
+    <token id="105">und</token>
+    <token id="106">Einheimischen</token>
+    <token id="107">gleichermaßen</token>
+    <token id="108">beliebtes</token>
+    <token id="109">Ausflugsziel</token>
+    <token id="110">.</token>
+    <token id="111">Diese</token>
+    <token id="112">Art</token>
+    <token id="113">der</token>
+    <token id="114">Konversion</token>
+    <token id="115">-</token>
+    <token id="116">die</token>
+    <token id="117">Natur</token>
+    <token id="118">erobert</token>
+    <token id="119">frühere</token>
+    <token id="120">Militärflächen</token>
+    <token id="121">zurück</token>
+    <token id="122">-</token>
+    <token id="123">ist</token>
+    <token id="124">vergleichsweise</token>
+    <token id="125">billig</token>
+    <token id="126">.</token>
+    <token id="127">Die</token>
+    <token id="128">Abschnitte</token>
+    <token id="129">,</token>
+    <token id="130">auf</token>
+    <token id="131">denen</token>
+    <token id="132">möglicherweise</token>
+    <token id="133">weiterhin</token>
+    <token id="134">gefährliche</token>
+    <token id="135">Munition</token>
+    <token id="136">lagert</token>
+    <token id="137">,</token>
+    <token id="138">bleiben</token>
+    <token id="139">allerdings</token>
+    <token id="140">Sperrgebiet</token>
+    <token id="141">.</token>
+    <token id="142">Ob</token>
+    <token id="143">bei</token>
+    <token id="144">der</token>
+    <token id="145">touristischen</token>
+    <token id="146">Erschließung</token>
+    <token id="147">der</token>
+    <token id="148">Konversionsflächen</token>
+    <token id="149">auf</token>
+    <token id="150">lange</token>
+    <token id="151">Sicht</token>
+    <token id="152">neue</token>
+    <token id="153">Arbeitsplätze</token>
+    <token id="154">entstehen</token>
+    <token id="155">,</token>
+    <token id="156">hängt</token>
+    <token id="157">vor</token>
+    <token id="158">allem</token>
+    <token id="159">davon</token>
+    <token id="160">ab</token>
+    <token id="161">,</token>
+    <token id="162">wie</token>
+    <token id="163">viele</token>
+    <token id="164">Neugierige</token>
+    <token id="165">kommen</token>
+    <token id="166">werden</token>
+    <token id="167">.</token>
+    <token id="168">Wie</token>
+    <token id="169">gesagt</token>
+    <token id="170">:</token>
+    <token id="171">Stolpe</token>
+    <token id="172">war</token>
+    <token id="173">schon</token>
+    <token id="174">da</token>
+    <token id="175">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="3" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="25" token="Deshalb"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Der"/>
+        <ext_arg_token id="4" token="Naturpark"/>
+        <ext_arg_token id="5" token=","/>
+        <ext_arg_token id="6" token="der"/>
+        <ext_arg_token id="7" token="zwischen"/>
+        <ext_arg_token id="8" token="Jüterbog"/>
+        <ext_arg_token id="9" token=","/>
+        <ext_arg_token id="10" token="Luckenwalde"/>
+        <ext_arg_token id="11" token="und"/>
+        <ext_arg_token id="12" token="Treuenbrietzen"/>
+        <ext_arg_token id="13" token="entsteht"/>
+        <ext_arg_token id="14" token=","/>
+        <ext_arg_token id="15" token="ist"/>
+        <ext_arg_token id="16" token="außerhalb"/>
+        <ext_arg_token id="17" token="der"/>
+        <ext_arg_token id="18" token="Region"/>
+        <ext_arg_token id="19" token="noch"/>
+        <ext_arg_token id="20" token="viel"/>
+        <ext_arg_token id="21" token="zu"/>
+        <ext_arg_token id="22" token="wenig"/>
+        <ext_arg_token id="23" token="bekannt"/>
+        <ext_arg_token id="24" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="26" token="ist"/>
+        <int_arg_token id="27" token="es"/>
+        <int_arg_token id="28" token="zu"/>
+        <int_arg_token id="29" token="begrüßen"/>
+        <int_arg_token id="30" token=","/>
+        <int_arg_token id="31" token="dass"/>
+        <int_arg_token id="32" token="Manfred"/>
+        <int_arg_token id="33" token="Stolpe"/>
+        <int_arg_token id="34" token="dem"/>
+        <int_arg_token id="35" token="weiträumigen"/>
+        <int_arg_token id="36" token="Areal"/>
+        <int_arg_token id="37" token="vorgestern"/>
+        <int_arg_token id="38" token="einen"/>
+        <int_arg_token id="39" token="Besuch"/>
+        <int_arg_token id="40" token="abstattete"/>
+        <int_arg_token id="41" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="139" token="allerdings"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="65" token="Um"/>
+        <ext_arg_token id="66" token="den"/>
+        <ext_arg_token id="67" token="etwa"/>
+        <ext_arg_token id="68" token="7000"/>
+        <ext_arg_token id="69" token="Hektar"/>
+        <ext_arg_token id="70" token="großen"/>
+        <ext_arg_token id="71" token="Naturpark"/>
+        <ext_arg_token id="72" token="soll"/>
+        <ext_arg_token id="73" token="ein"/>
+        <ext_arg_token id="74" token="Rundweg"/>
+        <ext_arg_token id="75" token="angelegt"/>
+        <ext_arg_token id="76" token="werden"/>
+        <ext_arg_token id="77" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="127" token="Die"/>
+        <int_arg_token id="128" token="Abschnitte"/>
+        <int_arg_token id="129" token=","/>
+        <int_arg_token id="130" token="auf"/>
+        <int_arg_token id="131" token="denen"/>
+        <int_arg_token id="132" token="möglicherweise"/>
+        <int_arg_token id="133" token="weiterhin"/>
+        <int_arg_token id="134" token="gefährliche"/>
+        <int_arg_token id="135" token="Munition"/>
+        <int_arg_token id="136" token="lagert"/>
+        <int_arg_token id="137" token=","/>
+        <int_arg_token id="138" token="bleiben"/>
+        <int_arg_token id="140" token="Sperrgebiet"/>
+        <int_arg_token id="141" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="25" token="Deshalb"/>
+        <ext_arg_token id="26" token="ist"/>
+        <ext_arg_token id="27" token="es"/>
+        <ext_arg_token id="28" token="zu"/>
+        <ext_arg_token id="29" token="begrüßen"/>
+        <ext_arg_token id="30" token=","/>
+        <ext_arg_token id="31" token="dass"/>
+        <ext_arg_token id="32" token="Manfred"/>
+        <ext_arg_token id="33" token="Stolpe"/>
+        <ext_arg_token id="34" token="dem"/>
+        <ext_arg_token id="35" token="weiträumigen"/>
+        <ext_arg_token id="36" token="Areal"/>
+        <ext_arg_token id="37" token="vorgestern"/>
+        <ext_arg_token id="38" token="einen"/>
+        <ext_arg_token id="39" token="Besuch"/>
+        <ext_arg_token id="40" token="abstattete"/>
+        <ext_arg_token id="41" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="42" token="Ein"/>
+        <int_arg_token id="43" token="beabsichtigter"/>
+        <int_arg_token id="44" token="Effekt"/>
+        <int_arg_token id="45" token="solcher"/>
+        <int_arg_token id="46" token="Dienstreisen"/>
+        <int_arg_token id="47" token="des"/>
+        <int_arg_token id="48" token="Ministerpräsidenten"/>
+        <int_arg_token id="49" token="in"/>
+        <int_arg_token id="50" token="die"/>
+        <int_arg_token id="51" token="Provinz"/>
+        <int_arg_token id="52" token="ist"/>
+        <int_arg_token id="53" token="es"/>
+        <int_arg_token id="54" token=","/>
+        <int_arg_token id="55" token="möglichst"/>
+        <int_arg_token id="56" token="viel"/>
+        <int_arg_token id="57" token="öffentliche"/>
+        <int_arg_token id="58" token="Aufmerksamkeit"/>
+        <int_arg_token id="59" token="auf"/>
+        <int_arg_token id="60" token="bestimmte"/>
+        <int_arg_token id="61" token="Vorhaben"/>
+        <int_arg_token id="62" token="zu"/>
+        <int_arg_token id="63" token="lenken"/>
+        <int_arg_token id="64" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Expansion.Manner.Arg1-as-manner" type="AltLex">
+      <connective_tokens>
+	<connective_token id="78" token="Das"/>
+	<connective_token id="79" token="wäre"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="65" token="Um"/>
+        <ext_arg_token id="66" token="den"/>
+        <ext_arg_token id="67" token="etwa"/>
+        <ext_arg_token id="68" token="7000"/>
+        <ext_arg_token id="69" token="Hektar"/>
+        <ext_arg_token id="70" token="großen"/>
+        <ext_arg_token id="71" token="Naturpark"/>
+        <ext_arg_token id="72" token="soll"/>
+        <ext_arg_token id="73" token="ein"/>
+        <ext_arg_token id="74" token="Rundweg"/>
+        <ext_arg_token id="75" token="angelegt"/>
+        <ext_arg_token id="76" token="werden"/>
+        <ext_arg_token id="77" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="78" token="Das"/>
+        <int_arg_token id="79" token="wäre"/>
+        <int_arg_token id="80" token="ein"/>
+        <int_arg_token id="81" token="bedeutender"/>
+        <int_arg_token id="82" token="Schritt"/>
+        <int_arg_token id="83" token="zum"/>
+        <int_arg_token id="84" token="erklärten"/>
+        <int_arg_token id="85" token="Ziel"/>
+        <int_arg_token id="86" token=","/>
+        <int_arg_token id="87" token="den"/>
+        <int_arg_token id="88" token="ehemaligen"/>
+        <int_arg_token id="89" token="Truppenübungsplatz"/>
+        <int_arg_token id="90" token="touristisch"/>
+        <int_arg_token id="91" token="zu"/>
+        <int_arg_token id="92" token="erschließen"/>
+        <int_arg_token id="93" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="78" token="Das"/>
+        <ext_arg_token id="79" token="wäre"/>
+        <ext_arg_token id="80" token="ein"/>
+        <ext_arg_token id="81" token="bedeutender"/>
+        <ext_arg_token id="82" token="Schritt"/>
+        <ext_arg_token id="83" token="zum"/>
+        <ext_arg_token id="84" token="erklärten"/>
+        <ext_arg_token id="85" token="Ziel"/>
+        <ext_arg_token id="86" token=","/>
+        <ext_arg_token id="87" token="den"/>
+        <ext_arg_token id="88" token="ehemaligen"/>
+        <ext_arg_token id="89" token="Truppenübungsplatz"/>
+        <ext_arg_token id="90" token="touristisch"/>
+        <ext_arg_token id="91" token="zu"/>
+        <ext_arg_token id="92" token="erschließen"/>
+        <ext_arg_token id="93" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="94" token="Die"/>
+        <int_arg_token id="95" token="Wanderdüne"/>
+        <int_arg_token id="96" token="bei"/>
+        <int_arg_token id="97" token="Forst"/>
+        <int_arg_token id="98" token="Zinna"/>
+        <int_arg_token id="99" token="ist"/>
+        <int_arg_token id="100" token="schon"/>
+        <int_arg_token id="101" token="jetzt"/>
+        <int_arg_token id="102" token="ein"/>
+        <int_arg_token id="103" token="bei"/>
+        <int_arg_token id="104" token="Auswärtigen"/>
+        <int_arg_token id="105" token="und"/>
+        <int_arg_token id="106" token="Einheimischen"/>
+        <int_arg_token id="107" token="gleichermaßen"/>
+        <int_arg_token id="108" token="beliebtes"/>
+        <int_arg_token id="109" token="Ausflugsziel"/>
+        <int_arg_token id="110" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Comparison.Contrast" type="implicit">
+      <connective_tokens>
+        <implicit_connective>doch</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="111" token="Diese"/>
+        <ext_arg_token id="112" token="Art"/>
+        <ext_arg_token id="113" token="der"/>
+        <ext_arg_token id="114" token="Konversion"/>
+        <ext_arg_token id="115" token="-"/>
+        <ext_arg_token id="116" token="die"/>
+        <ext_arg_token id="117" token="Natur"/>
+        <ext_arg_token id="118" token="erobert"/>
+        <ext_arg_token id="119" token="frühere"/>
+        <ext_arg_token id="120" token="Militärflächen"/>
+        <ext_arg_token id="121" token="zurück"/>
+        <ext_arg_token id="122" token="-"/>
+        <ext_arg_token id="123" token="ist"/>
+        <ext_arg_token id="124" token="vergleichsweise"/>
+        <ext_arg_token id="125" token="billig"/>
+        <ext_arg_token id="126" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="127" token="Die"/>
+        <int_arg_token id="128" token="Abschnitte"/>
+        <int_arg_token id="129" token=","/>
+        <int_arg_token id="130" token="auf"/>
+        <int_arg_token id="131" token="denen"/>
+        <int_arg_token id="132" token="möglicherweise"/>
+        <int_arg_token id="133" token="weiterhin"/>
+        <int_arg_token id="134" token="gefährliche"/>
+        <int_arg_token id="135" token="Munition"/>
+        <int_arg_token id="136" token="lagert"/>
+        <int_arg_token id="137" token=","/>
+        <int_arg_token id="138" token="bleiben"/>
+        <int_arg_token id="139" token="allerdings"/>
+        <int_arg_token id="140" token="Sperrgebiet"/>
+        <int_arg_token id="141" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="AltLex">
+      <connective_tokens>
+	<connective_token id="168" token="Wie"/>
+	<connective_token id="169" token="gesagt"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="142" token="Ob"/>
+        <ext_arg_token id="143" token="bei"/>
+        <ext_arg_token id="144" token="der"/>
+        <ext_arg_token id="145" token="touristischen"/>
+        <ext_arg_token id="146" token="Erschließung"/>
+        <ext_arg_token id="147" token="der"/>
+        <ext_arg_token id="148" token="Konversionsflächen"/>
+        <ext_arg_token id="149" token="auf"/>
+        <ext_arg_token id="150" token="lange"/>
+        <ext_arg_token id="151" token="Sicht"/>
+        <ext_arg_token id="152" token="neue"/>
+        <ext_arg_token id="153" token="Arbeitsplätze"/>
+        <ext_arg_token id="154" token="entstehen"/>
+        <ext_arg_token id="155" token=","/>
+        <ext_arg_token id="156" token="hängt"/>
+        <ext_arg_token id="157" token="vor"/>
+        <ext_arg_token id="158" token="allem"/>
+        <ext_arg_token id="159" token="davon"/>
+        <ext_arg_token id="160" token="ab"/>
+        <ext_arg_token id="161" token=","/>
+        <ext_arg_token id="162" token="wie"/>
+        <ext_arg_token id="163" token="viele"/>
+        <ext_arg_token id="164" token="Neugierige"/>
+        <ext_arg_token id="165" token="kommen"/>
+        <ext_arg_token id="166" token="werden"/>
+        <ext_arg_token id="167" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="168" token="Wie"/>
+        <int_arg_token id="169" token="gesagt"/>
+        <int_arg_token id="170" token=":"/>
+        <int_arg_token id="171" token="Stolpe"/>
+        <int_arg_token id="172" token="war"/>
+        <int_arg_token id="173" token="schon"/>
+        <int_arg_token id="174" token="da"/>
+        <int_arg_token id="175" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

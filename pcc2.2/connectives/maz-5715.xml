@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Glückliche</token>
+    <token id="2">Hühner</token>
+    <token id="3">Um</token>
+    <token id="4">die</token>
+    <token id="5">deutschen</token>
+    <token id="6">Legehennen</token>
+    <token id="7">ist</token>
+    <token id="8">heftiger</token>
+    <token id="9">politischer</token>
+    <token id="10">Streit</token>
+    <token id="11">entbrannt</token>
+    <token id="12">.</token>
+    <token id="13">Bundesagrarministerin</token>
+    <token id="14">Renate</token>
+    <token id="15">Künast</token>
+    <token id="16">will</token>
+    <token id="17">das</token>
+    <token id="18">Halten</token>
+    <token id="19">der</token>
+    <token id="20">Tiere</token>
+    <token id="21">in</token>
+    <token id="22">engen</token>
+    <token id="23">Legebatterien</token>
+    <token id="24">bereits</token>
+    <token id="25">vom</token>
+    <token id="26">Jahr</token>
+    <token id="27">2006</token>
+    <token id="28">an</token>
+    <token id="29">verbieten</token>
+    <token id="30">.</token>
+    <token id="31">In</token>
+    <token id="32">den</token>
+    <token id="33">EU-Nachbarländern</token>
+    <token id="34">soll</token>
+    <token id="35">das</token>
+    <token id="36">erst</token>
+    <token id="37">fünf</token>
+    <token id="38">Jahre</token>
+    <token id="39">später</token>
+    <token id="40">gelten</token>
+    <token id="41">.</token>
+    <token id="42">Eier-Produzenten</token>
+    <token id="43">aus</token>
+    <token id="44">der</token>
+    <token id="45">ganzen</token>
+    <token id="46">Republik</token>
+    <token id="47">machen</token>
+    <token id="48">gegen</token>
+    <token id="49">Künasts</token>
+    <token id="50">Pläne</token>
+    <token id="51">mobil</token>
+    <token id="52">.</token>
+    <token id="53">Die</token>
+    <token id="54">Betriebe</token>
+    <token id="55">im</token>
+    <token id="56">Osten</token>
+    <token id="57">fürchten</token>
+    <token id="58">,</token>
+    <token id="59">dass</token>
+    <token id="60">die</token>
+    <token id="61">hohen</token>
+    <token id="62">Investitionen</token>
+    <token id="63">,</token>
+    <token id="64">die</token>
+    <token id="65">sie</token>
+    <token id="66">in</token>
+    <token id="67">moderne</token>
+    <token id="68">Legebatterien</token>
+    <token id="69">nach</token>
+    <token id="70">europäischem</token>
+    <token id="71">Standard</token>
+    <token id="72">gesteckt</token>
+    <token id="73">haben</token>
+    <token id="74">,</token>
+    <token id="75">umsonst</token>
+    <token id="76">gewesen</token>
+    <token id="77">sind</token>
+    <token id="78">.</token>
+    <token id="79">Im</token>
+    <token id="80">Westen</token>
+    <token id="81">herrscht</token>
+    <token id="82">die</token>
+    <token id="83">Sorge</token>
+    <token id="84">vor</token>
+    <token id="85">,</token>
+    <token id="86">ausländische</token>
+    <token id="87">Konkurrenten</token>
+    <token id="88">könnten</token>
+    <token id="89">dann</token>
+    <token id="90">mit</token>
+    <token id="91">Billig-Eiern</token>
+    <token id="92">aus</token>
+    <token id="93">Legebatterien</token>
+    <token id="94">den</token>
+    <token id="95">deutschen</token>
+    <token id="96">Markt</token>
+    <token id="97">überschwemmen</token>
+    <token id="98">.</token>
+    <token id="99">Beide</token>
+    <token id="100">Bedenken</token>
+    <token id="101">sind</token>
+    <token id="102">nicht</token>
+    <token id="103">einfach</token>
+    <token id="104">von</token>
+    <token id="105">der</token>
+    <token id="106">Hand</token>
+    <token id="107">zu</token>
+    <token id="108">weisen</token>
+    <token id="109">.</token>
+    <token id="110">Ministerin</token>
+    <token id="111">Künast</token>
+    <token id="112">muss</token>
+    <token id="113">zumindest</token>
+    <token id="114">über</token>
+    <token id="115">längere</token>
+    <token id="116">Übergangsfristen</token>
+    <token id="117">nachdenken</token>
+    <token id="118">.</token>
+    <token id="119">Am</token>
+    <token id="120">Grundsatz</token>
+    <token id="121">,</token>
+    <token id="122">die</token>
+    <token id="123">Käfighaltung</token>
+    <token id="124">abzuschaffen</token>
+    <token id="125">,</token>
+    <token id="126">sollte</token>
+    <token id="127">sie</token>
+    <token id="128">nicht</token>
+    <token id="129">rütteln</token>
+    <token id="130">.</token>
+    <token id="131">Artgerechte</token>
+    <token id="132">Tierhaltung</token>
+    <token id="133">gehört</token>
+    <token id="134">schließlich</token>
+    <token id="135">zu</token>
+    <token id="136">den</token>
+    <token id="137">Eckpunkten</token>
+    <token id="138">der</token>
+    <token id="139">von</token>
+    <token id="140">ihr</token>
+    <token id="141">propagierten</token>
+    <token id="142">Agrarwende</token>
+    <token id="143">.</token>
+    <token id="144">Und</token>
+    <token id="145">schließlich</token>
+    <token id="146">greifen</token>
+    <token id="147">immer</token>
+    <token id="148">mehr</token>
+    <token id="149">Verbraucher</token>
+    <token id="150">beim</token>
+    <token id="151">Einkauf</token>
+    <token id="152">bewußt</token>
+    <token id="153">zu</token>
+    <token id="154">den</token>
+    <token id="155">tierfreundlich</token>
+    <token id="156">erzeugten</token>
+    <token id="157">Eiern</token>
+    <token id="158">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="3" pdtb3_sense="Contingency.Condition.Arg1-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="89" token="dann"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="13" token="Bundesagrarministerin"/>
+        <ext_arg_token id="14" token="Renate"/>
+        <ext_arg_token id="15" token="Künast"/>
+        <ext_arg_token id="16" token="will"/>
+        <ext_arg_token id="17" token="das"/>
+        <ext_arg_token id="18" token="Halten"/>
+        <ext_arg_token id="19" token="der"/>
+        <ext_arg_token id="20" token="Tiere"/>
+        <ext_arg_token id="21" token="in"/>
+        <ext_arg_token id="22" token="engen"/>
+        <ext_arg_token id="23" token="Legebatterien"/>
+        <ext_arg_token id="24" token="bereits"/>
+        <ext_arg_token id="25" token="vom"/>
+        <ext_arg_token id="26" token="Jahr"/>
+        <ext_arg_token id="27" token="2006"/>
+        <ext_arg_token id="28" token="an"/>
+        <ext_arg_token id="29" token="verbieten"/>
+        <ext_arg_token id="30" token="."/>
+        <ext_arg_token id="31" token="In"/>
+        <ext_arg_token id="32" token="den"/>
+        <ext_arg_token id="33" token="EU-Nachbarländern"/>
+        <ext_arg_token id="34" token="soll"/>
+        <ext_arg_token id="35" token="das"/>
+        <ext_arg_token id="36" token="erst"/>
+        <ext_arg_token id="37" token="fünf"/>
+        <ext_arg_token id="38" token="Jahre"/>
+        <ext_arg_token id="39" token="später"/>
+        <ext_arg_token id="40" token="gelten"/>
+        <ext_arg_token id="41" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="79" token="Im"/>
+        <int_arg_token id="80" token="Westen"/>
+        <int_arg_token id="81" token="herrscht"/>
+        <int_arg_token id="82" token="die"/>
+        <int_arg_token id="83" token="Sorge"/>
+        <int_arg_token id="84" token="vor"/>
+        <int_arg_token id="85" token=","/>
+        <int_arg_token id="86" token="ausländische"/>
+        <int_arg_token id="87" token="Konkurrenten"/>
+        <int_arg_token id="88" token="könnten"/>
+        <int_arg_token id="90" token="mit"/>
+        <int_arg_token id="91" token="Billig-Eiern"/>
+        <int_arg_token id="92" token="aus"/>
+        <int_arg_token id="93" token="Legebatterien"/>
+        <int_arg_token id="94" token="den"/>
+        <int_arg_token id="95" token="deutschen"/>
+        <int_arg_token id="96" token="Markt"/>
+        <int_arg_token id="97" token="überschwemmen"/>
+        <int_arg_token id="98" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="144" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="131" token="Artgerechte"/>
+        <ext_arg_token id="132" token="Tierhaltung"/>
+        <ext_arg_token id="133" token="gehört"/>
+        <ext_arg_token id="134" token="schließlich"/>
+        <ext_arg_token id="135" token="zu"/>
+        <ext_arg_token id="136" token="den"/>
+        <ext_arg_token id="137" token="Eckpunkten"/>
+        <ext_arg_token id="138" token="der"/>
+        <ext_arg_token id="139" token="von"/>
+        <ext_arg_token id="140" token="ihr"/>
+        <ext_arg_token id="141" token="propagierten"/>
+        <ext_arg_token id="142" token="Agrarwende"/>
+        <ext_arg_token id="143" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="145" token="schließlich"/>
+        <int_arg_token id="146" token="greifen"/>
+        <int_arg_token id="147" token="immer"/>
+        <int_arg_token id="148" token="mehr"/>
+        <int_arg_token id="149" token="Verbraucher"/>
+        <int_arg_token id="150" token="beim"/>
+        <int_arg_token id="151" token="Einkauf"/>
+        <int_arg_token id="152" token="bewußt"/>
+        <int_arg_token id="153" token="zu"/>
+        <int_arg_token id="154" token="den"/>
+        <int_arg_token id="155" token="tierfreundlich"/>
+        <int_arg_token id="156" token="erzeugten"/>
+        <int_arg_token id="157" token="Eiern"/>
+        <int_arg_token id="158" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Um"/>
+        <ext_arg_token id="4" token="die"/>
+        <ext_arg_token id="5" token="deutschen"/>
+        <ext_arg_token id="6" token="Legehennen"/>
+        <ext_arg_token id="7" token="ist"/>
+        <ext_arg_token id="8" token="heftiger"/>
+        <ext_arg_token id="9" token="politischer"/>
+        <ext_arg_token id="10" token="Streit"/>
+        <ext_arg_token id="11" token="entbrannt"/>
+        <ext_arg_token id="12" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="13" token="Bundesagrarministerin"/>
+        <int_arg_token id="14" token="Renate"/>
+        <int_arg_token id="15" token="Künast"/>
+        <int_arg_token id="16" token="will"/>
+        <int_arg_token id="17" token="das"/>
+        <int_arg_token id="18" token="Halten"/>
+        <int_arg_token id="19" token="der"/>
+        <int_arg_token id="20" token="Tiere"/>
+        <int_arg_token id="21" token="in"/>
+        <int_arg_token id="22" token="engen"/>
+        <int_arg_token id="23" token="Legebatterien"/>
+        <int_arg_token id="24" token="bereits"/>
+        <int_arg_token id="25" token="vom"/>
+        <int_arg_token id="26" token="Jahr"/>
+        <int_arg_token id="27" token="2006"/>
+        <int_arg_token id="28" token="an"/>
+        <int_arg_token id="29" token="verbieten"/>
+        <int_arg_token id="30" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="31" token="In"/>
+        <ext_arg_token id="32" token="den"/>
+        <ext_arg_token id="33" token="EU-Nachbarländern"/>
+        <ext_arg_token id="34" token="soll"/>
+        <ext_arg_token id="35" token="das"/>
+        <ext_arg_token id="36" token="erst"/>
+        <ext_arg_token id="37" token="fünf"/>
+        <ext_arg_token id="38" token="Jahre"/>
+        <ext_arg_token id="39" token="später"/>
+        <ext_arg_token id="40" token="gelten"/>
+        <ext_arg_token id="41" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="42" token="Eier-Produzenten"/>
+        <int_arg_token id="43" token="aus"/>
+        <int_arg_token id="44" token="der"/>
+        <int_arg_token id="45" token="ganzen"/>
+        <int_arg_token id="46" token="Republik"/>
+        <int_arg_token id="47" token="machen"/>
+        <int_arg_token id="48" token="gegen"/>
+        <int_arg_token id="49" token="Künasts"/>
+        <int_arg_token id="50" token="Pläne"/>
+        <int_arg_token id="51" token="mobil"/>
+        <int_arg_token id="52" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="42" token="Eier-Produzenten"/>
+        <ext_arg_token id="43" token="aus"/>
+        <ext_arg_token id="44" token="der"/>
+        <ext_arg_token id="45" token="ganzen"/>
+        <ext_arg_token id="46" token="Republik"/>
+        <ext_arg_token id="47" token="machen"/>
+        <ext_arg_token id="48" token="gegen"/>
+        <ext_arg_token id="49" token="Künasts"/>
+        <ext_arg_token id="50" token="Pläne"/>
+        <ext_arg_token id="51" token="mobil"/>
+        <ext_arg_token id="52" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="53" token="Die"/>
+        <int_arg_token id="54" token="Betriebe"/>
+        <int_arg_token id="55" token="im"/>
+        <int_arg_token id="56" token="Osten"/>
+        <int_arg_token id="57" token="fürchten"/>
+        <int_arg_token id="58" token=","/>
+        <int_arg_token id="59" token="dass"/>
+        <int_arg_token id="60" token="die"/>
+        <int_arg_token id="61" token="hohen"/>
+        <int_arg_token id="62" token="Investitionen"/>
+        <int_arg_token id="63" token=","/>
+        <int_arg_token id="64" token="die"/>
+        <int_arg_token id="65" token="sie"/>
+        <int_arg_token id="66" token="in"/>
+        <int_arg_token id="67" token="moderne"/>
+        <int_arg_token id="68" token="Legebatterien"/>
+        <int_arg_token id="69" token="nach"/>
+        <int_arg_token id="70" token="europäischem"/>
+        <int_arg_token id="71" token="Standard"/>
+        <int_arg_token id="72" token="gesteckt"/>
+        <int_arg_token id="73" token="haben"/>
+        <int_arg_token id="74" token=","/>
+        <int_arg_token id="75" token="umsonst"/>
+        <int_arg_token id="76" token="gewesen"/>
+        <int_arg_token id="77" token="sind"/>
+        <int_arg_token id="78" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Comparison.Contrast" type="implicit">
+      <connective_tokens>
+        <implicit_connective>dagegen</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="53" token="Die"/>
+        <ext_arg_token id="54" token="Betriebe"/>
+        <ext_arg_token id="55" token="im"/>
+        <ext_arg_token id="56" token="Osten"/>
+        <ext_arg_token id="57" token="fürchten"/>
+        <ext_arg_token id="58" token=","/>
+        <ext_arg_token id="59" token="dass"/>
+        <ext_arg_token id="60" token="die"/>
+        <ext_arg_token id="61" token="hohen"/>
+        <ext_arg_token id="62" token="Investitionen"/>
+        <ext_arg_token id="63" token=","/>
+        <ext_arg_token id="64" token="die"/>
+        <ext_arg_token id="65" token="sie"/>
+        <ext_arg_token id="66" token="in"/>
+        <ext_arg_token id="67" token="moderne"/>
+        <ext_arg_token id="68" token="Legebatterien"/>
+        <ext_arg_token id="69" token="nach"/>
+        <ext_arg_token id="70" token="europäischem"/>
+        <ext_arg_token id="71" token="Standard"/>
+        <ext_arg_token id="72" token="gesteckt"/>
+        <ext_arg_token id="73" token="haben"/>
+        <ext_arg_token id="74" token=","/>
+        <ext_arg_token id="75" token="umsonst"/>
+        <ext_arg_token id="76" token="gewesen"/>
+        <ext_arg_token id="77" token="sind"/>
+        <ext_arg_token id="78" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="79" token="Im"/>
+        <int_arg_token id="80" token="Westen"/>
+        <int_arg_token id="81" token="herrscht"/>
+        <int_arg_token id="82" token="die"/>
+        <int_arg_token id="83" token="Sorge"/>
+        <int_arg_token id="84" token="vor"/>
+        <int_arg_token id="85" token=","/>
+        <int_arg_token id="86" token="ausländische"/>
+        <int_arg_token id="87" token="Konkurrenten"/>
+        <int_arg_token id="88" token="könnten"/>
+        <int_arg_token id="89" token="dann"/>
+        <int_arg_token id="90" token="mit"/>
+        <int_arg_token id="91" token="Billig-Eiern"/>
+        <int_arg_token id="92" token="aus"/>
+        <int_arg_token id="93" token="Legebatterien"/>
+        <int_arg_token id="94" token="den"/>
+        <int_arg_token id="95" token="deutschen"/>
+        <int_arg_token id="96" token="Markt"/>
+        <int_arg_token id="97" token="überschwemmen"/>
+        <int_arg_token id="98" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="79" token="Im"/>
+        <ext_arg_token id="80" token="Westen"/>
+        <ext_arg_token id="81" token="herrscht"/>
+        <ext_arg_token id="82" token="die"/>
+        <ext_arg_token id="83" token="Sorge"/>
+        <ext_arg_token id="84" token="vor"/>
+        <ext_arg_token id="85" token=","/>
+        <ext_arg_token id="86" token="ausländische"/>
+        <ext_arg_token id="87" token="Konkurrenten"/>
+        <ext_arg_token id="88" token="könnten"/>
+        <ext_arg_token id="89" token="dann"/>
+        <ext_arg_token id="90" token="mit"/>
+        <ext_arg_token id="91" token="Billig-Eiern"/>
+        <ext_arg_token id="92" token="aus"/>
+        <ext_arg_token id="93" token="Legebatterien"/>
+        <ext_arg_token id="94" token="den"/>
+        <ext_arg_token id="95" token="deutschen"/>
+        <ext_arg_token id="96" token="Markt"/>
+        <ext_arg_token id="97" token="überschwemmen"/>
+        <ext_arg_token id="98" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="99" token="Beide"/>
+        <int_arg_token id="100" token="Bedenken"/>
+        <int_arg_token id="101" token="sind"/>
+        <int_arg_token id="102" token="nicht"/>
+        <int_arg_token id="103" token="einfach"/>
+        <int_arg_token id="104" token="von"/>
+        <int_arg_token id="105" token="der"/>
+        <int_arg_token id="106" token="Hand"/>
+        <int_arg_token id="107" token="zu"/>
+        <int_arg_token id="108" token="weisen"/>
+        <int_arg_token id="109" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="99" token="Beide"/>
+        <ext_arg_token id="100" token="Bedenken"/>
+        <ext_arg_token id="101" token="sind"/>
+        <ext_arg_token id="102" token="nicht"/>
+        <ext_arg_token id="103" token="einfach"/>
+        <ext_arg_token id="104" token="von"/>
+        <ext_arg_token id="105" token="der"/>
+        <ext_arg_token id="106" token="Hand"/>
+        <ext_arg_token id="107" token="zu"/>
+        <ext_arg_token id="108" token="weisen"/>
+        <ext_arg_token id="109" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="110" token="Ministerin"/>
+        <int_arg_token id="111" token="Künast"/>
+        <int_arg_token id="112" token="muss"/>
+        <int_arg_token id="113" token="zumindest"/>
+        <int_arg_token id="114" token="über"/>
+        <int_arg_token id="115" token="längere"/>
+        <int_arg_token id="116" token="Übergangsfristen"/>
+        <int_arg_token id="117" token="nachdenken"/>
+        <int_arg_token id="118" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="implicit">
+      <connective_tokens>
+        <implicit_connective>aber</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="110" token="Ministerin"/>
+        <ext_arg_token id="111" token="Künast"/>
+        <ext_arg_token id="112" token="muss"/>
+        <ext_arg_token id="113" token="zumindest"/>
+        <ext_arg_token id="114" token="über"/>
+        <ext_arg_token id="115" token="längere"/>
+        <ext_arg_token id="116" token="Übergangsfristen"/>
+        <ext_arg_token id="117" token="nachdenken"/>
+        <ext_arg_token id="118" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="119" token="Am"/>
+        <int_arg_token id="120" token="Grundsatz"/>
+        <int_arg_token id="121" token=","/>
+        <int_arg_token id="122" token="die"/>
+        <int_arg_token id="123" token="Käfighaltung"/>
+        <int_arg_token id="124" token="abzuschaffen"/>
+        <int_arg_token id="125" token=","/>
+        <int_arg_token id="126" token="sollte"/>
+        <int_arg_token id="127" token="sie"/>
+        <int_arg_token id="128" token="nicht"/>
+        <int_arg_token id="129" token="rütteln"/>
+        <int_arg_token id="130" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="119" token="Am"/>
+        <ext_arg_token id="120" token="Grundsatz"/>
+        <ext_arg_token id="121" token=","/>
+        <ext_arg_token id="122" token="die"/>
+        <ext_arg_token id="123" token="Käfighaltung"/>
+        <ext_arg_token id="124" token="abzuschaffen"/>
+        <ext_arg_token id="125" token=","/>
+        <ext_arg_token id="126" token="sollte"/>
+        <ext_arg_token id="127" token="sie"/>
+        <ext_arg_token id="128" token="nicht"/>
+        <ext_arg_token id="129" token="rütteln"/>
+        <ext_arg_token id="130" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="131" token="Artgerechte"/>
+        <int_arg_token id="132" token="Tierhaltung"/>
+        <int_arg_token id="133" token="gehört"/>
+        <int_arg_token id="134" token="schließlich"/>
+        <int_arg_token id="135" token="zu"/>
+        <int_arg_token id="136" token="den"/>
+        <int_arg_token id="137" token="Eckpunkten"/>
+        <int_arg_token id="138" token="der"/>
+        <int_arg_token id="139" token="von"/>
+        <int_arg_token id="140" token="ihr"/>
+        <int_arg_token id="141" token="propagierten"/>
+        <int_arg_token id="142" token="Agrarwende"/>
+        <int_arg_token id="143" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

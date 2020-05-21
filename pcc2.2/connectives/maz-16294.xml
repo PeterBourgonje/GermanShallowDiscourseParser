@@ -1,0 +1,650 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Ein</token>
+    <token id="2">bisschen</token>
+    <token id="3">dafür</token>
+    <token id="4">Der</token>
+    <token id="5">Ausbau</token>
+    <token id="6">des</token>
+    <token id="7">Flughafens</token>
+    <token id="8">Schönefeld</token>
+    <token id="9">wird</token>
+    <token id="10">nun</token>
+    <token id="11">auch</token>
+    <token id="12">für</token>
+    <token id="13">die</token>
+    <token id="14">PDS</token>
+    <token id="15">zu</token>
+    <token id="16">einer</token>
+    <token id="17">echten</token>
+    <token id="18">Gretchenfrage</token>
+    <token id="19">.</token>
+    <token id="20">Kaum</token>
+    <token id="21">haben</token>
+    <token id="22">sich</token>
+    <token id="23">ihre</token>
+    <token id="24">Verhandlungsführer</token>
+    <token id="25">in</token>
+    <token id="26">Berlin</token>
+    <token id="27">mit</token>
+    <token id="28">der</token>
+    <token id="29">SPD</token>
+    <token id="30">darauf</token>
+    <token id="31">geeinigt</token>
+    <token id="32">,</token>
+    <token id="33">reiben</token>
+    <token id="34">sich</token>
+    <token id="35">die</token>
+    <token id="36">Genossen</token>
+    <token id="37">in</token>
+    <token id="38">der</token>
+    <token id="39">Region</token>
+    <token id="40">verwundert</token>
+    <token id="41">die</token>
+    <token id="42">Augen</token>
+    <token id="43">.</token>
+    <token id="44">Sicher</token>
+    <token id="45">,</token>
+    <token id="46">entschieden</token>
+    <token id="47">ist</token>
+    <token id="48">noch</token>
+    <token id="49">lange</token>
+    <token id="50">nichts</token>
+    <token id="51">.</token>
+    <token id="52">Doch</token>
+    <token id="53">was</token>
+    <token id="54">jetzt</token>
+    <token id="55">an</token>
+    <token id="56">Nachrichten</token>
+    <token id="57">aus</token>
+    <token id="58">der</token>
+    <token id="59">Hauptstadt</token>
+    <token id="60">ins</token>
+    <token id="61">Dahmeland</token>
+    <token id="62">hinüber</token>
+    <token id="63">schwappt</token>
+    <token id="64">,</token>
+    <token id="65">hört</token>
+    <token id="66">sich</token>
+    <token id="67">so</token>
+    <token id="68">ganz</token>
+    <token id="69">anders</token>
+    <token id="70">an</token>
+    <token id="71">als</token>
+    <token id="72">das</token>
+    <token id="73">,</token>
+    <token id="74">was</token>
+    <token id="75">PDS-Spitzen</token>
+    <token id="76">unlängst</token>
+    <token id="77">noch</token>
+    <token id="78">im</token>
+    <token id="79">Bürgermeisterwahlkampf</token>
+    <token id="80">verkündeten</token>
+    <token id="81">.</token>
+    <token id="82">Den</token>
+    <token id="83">Standort</token>
+    <token id="84">Schönefeld</token>
+    <token id="85">lehnten</token>
+    <token id="86">sie</token>
+    <token id="87">kategorisch</token>
+    <token id="88">ab</token>
+    <token id="89">.</token>
+    <token id="90">Zwar</token>
+    <token id="91">immer</token>
+    <token id="92">mit</token>
+    <token id="93">dem</token>
+    <token id="94">leisen</token>
+    <token id="95">Hinweis</token>
+    <token id="96">darauf</token>
+    <token id="97">,</token>
+    <token id="98">dass</token>
+    <token id="99">man</token>
+    <token id="100">sich</token>
+    <token id="101">stets</token>
+    <token id="102">auch</token>
+    <token id="103">an</token>
+    <token id="104">dem</token>
+    <token id="105">zu</token>
+    <token id="106">orientieren</token>
+    <token id="107">habe</token>
+    <token id="108">,</token>
+    <token id="109">was</token>
+    <token id="110">in</token>
+    <token id="111">den</token>
+    <token id="112">Planungen</token>
+    <token id="113">längst</token>
+    <token id="114">auf</token>
+    <token id="115">den</token>
+    <token id="116">Weg</token>
+    <token id="117">gebracht</token>
+    <token id="118">ist</token>
+    <token id="119">.</token>
+    <token id="120">Aber</token>
+    <token id="121">immer</token>
+    <token id="122">noch</token>
+    <token id="123">deutlich</token>
+    <token id="124">genug</token>
+    <token id="125">,</token>
+    <token id="126">dass</token>
+    <token id="127">die</token>
+    <token id="128">vielen</token>
+    <token id="129">Standortgegner</token>
+    <token id="130">in</token>
+    <token id="131">den</token>
+    <token id="132">Gemeinden</token>
+    <token id="133">die</token>
+    <token id="134">Botschaft</token>
+    <token id="135">wohl</token>
+    <token id="136">verstanden</token>
+    <token id="137">:</token>
+    <token id="138">die</token>
+    <token id="139">PDS-Leute</token>
+    <token id="140">setzen</token>
+    <token id="141">sich</token>
+    <token id="142">für</token>
+    <token id="143">unsere</token>
+    <token id="144">Interessen</token>
+    <token id="145">ein</token>
+    <token id="146">,</token>
+    <token id="147">sie</token>
+    <token id="148">sind</token>
+    <token id="149">in</token>
+    <token id="150">der</token>
+    <token id="151">Politik</token>
+    <token id="152">unsere</token>
+    <token id="153">Verbündeten</token>
+    <token id="154">.</token>
+    <token id="155">Jetzt</token>
+    <token id="156">sind</token>
+    <token id="157">sie</token>
+    <token id="158">doch</token>
+    <token id="159">ein</token>
+    <token id="160">bisschen</token>
+    <token id="161">dafür</token>
+    <token id="162">.</token>
+    <token id="163">Prompt</token>
+    <token id="164">spricht</token>
+    <token id="165">der</token>
+    <token id="166">Bürgerverein</token>
+    <token id="167">BVBB</token>
+    <token id="168">von</token>
+    <token id="169">"</token>
+    <token id="170">politisch-moralischer</token>
+    <token id="171">Verkommenheit</token>
+    <token id="172">"</token>
+    <token id="173">,</token>
+    <token id="174">ist</token>
+    <token id="175">Schulzendorfs</token>
+    <token id="176">Bürgermeister</token>
+    <token id="177">enttäuscht</token>
+    <token id="178">,</token>
+    <token id="179">sieht</token>
+    <token id="180">Königs</token>
+    <token id="181">Wusterhausens</token>
+    <token id="182">künftiger</token>
+    <token id="183">Bürgermeister</token>
+    <token id="184">Widersprüchliches</token>
+    <token id="185">.</token>
+    <token id="186">Die</token>
+    <token id="187">Genossen</token>
+    <token id="188">von</token>
+    <token id="189">der</token>
+    <token id="190">PDS</token>
+    <token id="191">haben</token>
+    <token id="192">jetzt</token>
+    <token id="193">einiges</token>
+    <token id="194">aufzuarbeiten</token>
+    <token id="195">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="3" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="52" token="Doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="44" token="Sicher"/>
+        <ext_arg_token id="45" token=","/>
+        <ext_arg_token id="46" token="entschieden"/>
+        <ext_arg_token id="47" token="ist"/>
+        <ext_arg_token id="48" token="noch"/>
+        <ext_arg_token id="49" token="lange"/>
+        <ext_arg_token id="50" token="nichts"/>
+        <ext_arg_token id="51" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="53" token="was"/>
+        <int_arg_token id="54" token="jetzt"/>
+        <int_arg_token id="55" token="an"/>
+        <int_arg_token id="56" token="Nachrichten"/>
+        <int_arg_token id="57" token="aus"/>
+        <int_arg_token id="58" token="der"/>
+        <int_arg_token id="59" token="Hauptstadt"/>
+        <int_arg_token id="60" token="ins"/>
+        <int_arg_token id="61" token="Dahmeland"/>
+        <int_arg_token id="62" token="hinüber"/>
+        <int_arg_token id="63" token="schwappt"/>
+        <int_arg_token id="64" token=","/>
+        <int_arg_token id="65" token="hört"/>
+        <int_arg_token id="66" token="sich"/>
+        <int_arg_token id="67" token="so"/>
+        <int_arg_token id="68" token="ganz"/>
+        <int_arg_token id="69" token="anders"/>
+        <int_arg_token id="70" token="an"/>
+        <int_arg_token id="71" token="als"/>
+        <int_arg_token id="72" token="das"/>
+        <int_arg_token id="73" token=","/>
+        <int_arg_token id="74" token="was"/>
+        <int_arg_token id="75" token="PDS-Spitzen"/>
+        <int_arg_token id="76" token="unlängst"/>
+        <int_arg_token id="77" token="noch"/>
+        <int_arg_token id="78" token="im"/>
+        <int_arg_token id="79" token="Bürgermeisterwahlkampf"/>
+        <int_arg_token id="80" token="verkündeten"/>
+        <int_arg_token id="81" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="90" token="Zwar"/>
+        <connective_token id="120" token="Aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="90" token="Zwar"/>
+        <ext_arg_token id="91" token="immer"/>
+        <ext_arg_token id="92" token="mit"/>
+        <ext_arg_token id="93" token="dem"/>
+        <ext_arg_token id="94" token="leisen"/>
+        <ext_arg_token id="95" token="Hinweis"/>
+        <ext_arg_token id="96" token="darauf"/>
+        <ext_arg_token id="97" token=","/>
+        <ext_arg_token id="98" token="dass"/>
+        <ext_arg_token id="99" token="man"/>
+        <ext_arg_token id="100" token="sich"/>
+        <ext_arg_token id="101" token="stets"/>
+        <ext_arg_token id="102" token="auch"/>
+        <ext_arg_token id="103" token="an"/>
+        <ext_arg_token id="104" token="dem"/>
+        <ext_arg_token id="105" token="zu"/>
+        <ext_arg_token id="106" token="orientieren"/>
+        <ext_arg_token id="107" token="habe"/>
+        <ext_arg_token id="108" token=","/>
+        <ext_arg_token id="109" token="was"/>
+        <ext_arg_token id="110" token="in"/>
+        <ext_arg_token id="111" token="den"/>
+        <ext_arg_token id="112" token="Planungen"/>
+        <ext_arg_token id="113" token="längst"/>
+        <ext_arg_token id="114" token="auf"/>
+        <ext_arg_token id="115" token="den"/>
+        <ext_arg_token id="116" token="Weg"/>
+        <ext_arg_token id="117" token="gebracht"/>
+        <ext_arg_token id="118" token="ist"/>
+        <ext_arg_token id="119" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="121" token="immer"/>
+        <int_arg_token id="122" token="noch"/>
+        <int_arg_token id="123" token="deutlich"/>
+        <int_arg_token id="124" token="genug"/>
+        <int_arg_token id="125" token=","/>
+        <int_arg_token id="126" token="dass"/>
+        <int_arg_token id="127" token="die"/>
+        <int_arg_token id="128" token="vielen"/>
+        <int_arg_token id="129" token="Standortgegner"/>
+        <int_arg_token id="130" token="in"/>
+        <int_arg_token id="131" token="den"/>
+        <int_arg_token id="132" token="Gemeinden"/>
+        <int_arg_token id="133" token="die"/>
+        <int_arg_token id="134" token="Botschaft"/>
+        <int_arg_token id="135" token="wohl"/>
+        <int_arg_token id="136" token="verstanden"/>
+        <int_arg_token id="137" token=":"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="4" token="Der"/>
+        <ext_arg_token id="5" token="Ausbau"/>
+        <ext_arg_token id="6" token="des"/>
+        <ext_arg_token id="7" token="Flughafens"/>
+        <ext_arg_token id="8" token="Schönefeld"/>
+        <ext_arg_token id="9" token="wird"/>
+        <ext_arg_token id="10" token="nun"/>
+        <ext_arg_token id="11" token="auch"/>
+        <ext_arg_token id="12" token="für"/>
+        <ext_arg_token id="13" token="die"/>
+        <ext_arg_token id="14" token="PDS"/>
+        <ext_arg_token id="15" token="zu"/>
+        <ext_arg_token id="16" token="einer"/>
+        <ext_arg_token id="17" token="echten"/>
+        <ext_arg_token id="18" token="Gretchenfrage"/>
+        <ext_arg_token id="19" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="20" token="Kaum"/>
+        <int_arg_token id="21" token="haben"/>
+        <int_arg_token id="22" token="sich"/>
+        <int_arg_token id="23" token="ihre"/>
+        <int_arg_token id="24" token="Verhandlungsführer"/>
+        <int_arg_token id="25" token="in"/>
+        <int_arg_token id="26" token="Berlin"/>
+        <int_arg_token id="27" token="mit"/>
+        <int_arg_token id="28" token="der"/>
+        <int_arg_token id="29" token="SPD"/>
+        <int_arg_token id="30" token="darauf"/>
+        <int_arg_token id="31" token="geeinigt"/>
+        <int_arg_token id="32" token=","/>
+        <int_arg_token id="33" token="reiben"/>
+        <int_arg_token id="34" token="sich"/>
+        <int_arg_token id="35" token="die"/>
+        <int_arg_token id="36" token="Genossen"/>
+        <int_arg_token id="37" token="in"/>
+        <int_arg_token id="38" token="der"/>
+        <int_arg_token id="39" token="Region"/>
+        <int_arg_token id="40" token="verwundert"/>
+        <int_arg_token id="41" token="die"/>
+        <int_arg_token id="42" token="Augen"/>
+        <int_arg_token id="43" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="AltLex">
+      <connective_tokens>
+	<connective_token id="44" token="Sicher"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="20" token="Kaum"/>
+        <ext_arg_token id="21" token="haben"/>
+        <ext_arg_token id="22" token="sich"/>
+        <ext_arg_token id="23" token="ihre"/>
+        <ext_arg_token id="24" token="Verhandlungsführer"/>
+        <ext_arg_token id="25" token="in"/>
+        <ext_arg_token id="26" token="Berlin"/>
+        <ext_arg_token id="27" token="mit"/>
+        <ext_arg_token id="28" token="der"/>
+        <ext_arg_token id="29" token="SPD"/>
+        <ext_arg_token id="30" token="darauf"/>
+        <ext_arg_token id="31" token="geeinigt"/>
+        <ext_arg_token id="32" token=","/>
+        <ext_arg_token id="33" token="reiben"/>
+        <ext_arg_token id="34" token="sich"/>
+        <ext_arg_token id="35" token="die"/>
+        <ext_arg_token id="36" token="Genossen"/>
+        <ext_arg_token id="37" token="in"/>
+        <ext_arg_token id="38" token="der"/>
+        <ext_arg_token id="39" token="Region"/>
+        <ext_arg_token id="40" token="verwundert"/>
+        <ext_arg_token id="41" token="die"/>
+        <ext_arg_token id="42" token="Augen"/>
+        <ext_arg_token id="43" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="44" token="Sicher"/>
+        <int_arg_token id="45" token=","/>
+        <int_arg_token id="46" token="entschieden"/>
+        <int_arg_token id="47" token="ist"/>
+        <int_arg_token id="48" token="noch"/>
+        <int_arg_token id="49" token="lange"/>
+        <int_arg_token id="50" token="nichts"/>
+        <int_arg_token id="51" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="52" token="Doch"/>
+        <ext_arg_token id="53" token="was"/>
+        <ext_arg_token id="54" token="jetzt"/>
+        <ext_arg_token id="55" token="an"/>
+        <ext_arg_token id="56" token="Nachrichten"/>
+        <ext_arg_token id="57" token="aus"/>
+        <ext_arg_token id="58" token="der"/>
+        <ext_arg_token id="59" token="Hauptstadt"/>
+        <ext_arg_token id="60" token="ins"/>
+        <ext_arg_token id="61" token="Dahmeland"/>
+        <ext_arg_token id="62" token="hinüber"/>
+        <ext_arg_token id="63" token="schwappt"/>
+        <ext_arg_token id="64" token=","/>
+        <ext_arg_token id="65" token="hört"/>
+        <ext_arg_token id="66" token="sich"/>
+        <ext_arg_token id="67" token="so"/>
+        <ext_arg_token id="68" token="ganz"/>
+        <ext_arg_token id="69" token="anders"/>
+        <ext_arg_token id="70" token="an"/>
+        <ext_arg_token id="71" token="als"/>
+        <ext_arg_token id="72" token="das"/>
+        <ext_arg_token id="73" token=","/>
+        <ext_arg_token id="74" token="was"/>
+        <ext_arg_token id="75" token="PDS-Spitzen"/>
+        <ext_arg_token id="76" token="unlängst"/>
+        <ext_arg_token id="77" token="noch"/>
+        <ext_arg_token id="78" token="im"/>
+        <ext_arg_token id="79" token="Bürgermeisterwahlkampf"/>
+        <ext_arg_token id="80" token="verkündeten"/>
+        <ext_arg_token id="81" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="82" token="Den"/>
+        <int_arg_token id="83" token="Standort"/>
+        <int_arg_token id="84" token="Schönefeld"/>
+        <int_arg_token id="85" token="lehnten"/>
+        <int_arg_token id="86" token="sie"/>
+        <int_arg_token id="87" token="kategorisch"/>
+        <int_arg_token id="88" token="ab"/>
+        <int_arg_token id="89" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="82" token="Den"/>
+        <ext_arg_token id="83" token="Standort"/>
+        <ext_arg_token id="84" token="Schönefeld"/>
+        <ext_arg_token id="85" token="lehnten"/>
+        <ext_arg_token id="86" token="sie"/>
+        <ext_arg_token id="87" token="kategorisch"/>
+        <ext_arg_token id="88" token="ab"/>
+        <ext_arg_token id="89" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="90" token="Zwar"/>
+        <int_arg_token id="91" token="immer"/>
+        <int_arg_token id="92" token="mit"/>
+        <int_arg_token id="93" token="dem"/>
+        <int_arg_token id="94" token="leisen"/>
+        <int_arg_token id="95" token="Hinweis"/>
+        <int_arg_token id="96" token="darauf"/>
+        <int_arg_token id="97" token=","/>
+        <int_arg_token id="98" token="dass"/>
+        <int_arg_token id="99" token="man"/>
+        <int_arg_token id="100" token="sich"/>
+        <int_arg_token id="101" token="stets"/>
+        <int_arg_token id="102" token="auch"/>
+        <int_arg_token id="103" token="an"/>
+        <int_arg_token id="104" token="dem"/>
+        <int_arg_token id="105" token="zu"/>
+        <int_arg_token id="106" token="orientieren"/>
+        <int_arg_token id="107" token="habe"/>
+        <int_arg_token id="108" token=","/>
+        <int_arg_token id="109" token="was"/>
+        <int_arg_token id="110" token="in"/>
+        <int_arg_token id="111" token="den"/>
+        <int_arg_token id="112" token="Planungen"/>
+        <int_arg_token id="113" token="längst"/>
+        <int_arg_token id="114" token="auf"/>
+        <int_arg_token id="115" token="den"/>
+        <int_arg_token id="116" token="Weg"/>
+        <int_arg_token id="117" token="gebracht"/>
+        <int_arg_token id="118" token="ist"/>
+        <int_arg_token id="119" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>nämlich</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="120" token="Aber"/>
+        <ext_arg_token id="121" token="immer"/>
+        <ext_arg_token id="122" token="noch"/>
+        <ext_arg_token id="123" token="deutlich"/>
+        <ext_arg_token id="124" token="genug"/>
+        <ext_arg_token id="125" token=","/>
+        <ext_arg_token id="126" token="dass"/>
+        <ext_arg_token id="127" token="die"/>
+        <ext_arg_token id="128" token="vielen"/>
+        <ext_arg_token id="129" token="Standortgegner"/>
+        <ext_arg_token id="130" token="in"/>
+        <ext_arg_token id="131" token="den"/>
+        <ext_arg_token id="132" token="Gemeinden"/>
+        <ext_arg_token id="133" token="die"/>
+        <ext_arg_token id="134" token="Botschaft"/>
+        <ext_arg_token id="135" token="wohl"/>
+        <ext_arg_token id="136" token="verstanden"/>
+        <ext_arg_token id="137" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="138" token="die"/>
+        <int_arg_token id="139" token="PDS-Leute"/>
+        <int_arg_token id="140" token="setzen"/>
+        <int_arg_token id="141" token="sich"/>
+        <int_arg_token id="142" token="für"/>
+        <int_arg_token id="143" token="unsere"/>
+        <int_arg_token id="144" token="Interessen"/>
+        <int_arg_token id="145" token="ein"/>
+        <int_arg_token id="146" token=","/>
+        <int_arg_token id="147" token="sie"/>
+        <int_arg_token id="148" token="sind"/>
+        <int_arg_token id="149" token="in"/>
+        <int_arg_token id="150" token="der"/>
+        <int_arg_token id="151" token="Politik"/>
+        <int_arg_token id="152" token="unsere"/>
+        <int_arg_token id="153" token="Verbündeten"/>
+        <int_arg_token id="154" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="155" token="Jetzt"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="138" token="die"/>
+        <ext_arg_token id="139" token="PDS-Leute"/>
+        <ext_arg_token id="140" token="setzen"/>
+        <ext_arg_token id="141" token="sich"/>
+        <ext_arg_token id="142" token="für"/>
+        <ext_arg_token id="143" token="unsere"/>
+        <ext_arg_token id="144" token="Interessen"/>
+        <ext_arg_token id="145" token="ein"/>
+        <ext_arg_token id="146" token=","/>
+        <ext_arg_token id="147" token="sie"/>
+        <ext_arg_token id="148" token="sind"/>
+        <ext_arg_token id="149" token="in"/>
+        <ext_arg_token id="150" token="der"/>
+        <ext_arg_token id="151" token="Politik"/>
+        <ext_arg_token id="152" token="unsere"/>
+        <ext_arg_token id="153" token="Verbündeten"/>
+        <ext_arg_token id="154" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="155" token="Jetzt"/>
+        <int_arg_token id="156" token="sind"/>
+        <int_arg_token id="157" token="sie"/>
+        <int_arg_token id="158" token="doch"/>
+        <int_arg_token id="159" token="ein"/>
+        <int_arg_token id="160" token="bisschen"/>
+        <int_arg_token id="161" token="dafür"/>
+        <int_arg_token id="162" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>genauer gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="155" token="Jetzt"/>
+        <ext_arg_token id="156" token="sind"/>
+        <ext_arg_token id="157" token="sie"/>
+        <ext_arg_token id="158" token="doch"/>
+        <ext_arg_token id="159" token="ein"/>
+        <ext_arg_token id="160" token="bisschen"/>
+        <ext_arg_token id="161" token="dafür"/>
+        <ext_arg_token id="162" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="163" token="Prompt"/>
+        <int_arg_token id="164" token="spricht"/>
+        <int_arg_token id="165" token="der"/>
+        <int_arg_token id="166" token="Bürgerverein"/>
+        <int_arg_token id="167" token="BVBB"/>
+        <int_arg_token id="168" token="von"/>
+        <int_arg_token id="169" token="&quot;"/>
+        <int_arg_token id="170" token="politisch-moralischer"/>
+        <int_arg_token id="171" token="Verkommenheit"/>
+        <int_arg_token id="172" token="&quot;"/>
+        <int_arg_token id="173" token=","/>
+        <int_arg_token id="174" token="ist"/>
+        <int_arg_token id="175" token="Schulzendorfs"/>
+        <int_arg_token id="176" token="Bürgermeister"/>
+        <int_arg_token id="177" token="enttäuscht"/>
+        <int_arg_token id="178" token=","/>
+        <int_arg_token id="179" token="sieht"/>
+        <int_arg_token id="180" token="Königs"/>
+        <int_arg_token id="181" token="Wusterhausens"/>
+        <int_arg_token id="182" token="künftiger"/>
+        <int_arg_token id="183" token="Bürgermeister"/>
+        <int_arg_token id="184" token="Widersprüchliches"/>
+        <int_arg_token id="185" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Expansion.Level-of-detail.Arg1-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>kurz gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="163" token="Prompt"/>
+        <ext_arg_token id="164" token="spricht"/>
+        <ext_arg_token id="165" token="der"/>
+        <ext_arg_token id="166" token="Bürgerverein"/>
+        <ext_arg_token id="167" token="BVBB"/>
+        <ext_arg_token id="168" token="von"/>
+        <ext_arg_token id="169" token="&quot;"/>
+        <ext_arg_token id="170" token="politisch-moralischer"/>
+        <ext_arg_token id="171" token="Verkommenheit"/>
+        <ext_arg_token id="172" token="&quot;"/>
+        <ext_arg_token id="173" token=","/>
+        <ext_arg_token id="174" token="ist"/>
+        <ext_arg_token id="175" token="Schulzendorfs"/>
+        <ext_arg_token id="176" token="Bürgermeister"/>
+        <ext_arg_token id="177" token="enttäuscht"/>
+        <ext_arg_token id="178" token=","/>
+        <ext_arg_token id="179" token="sieht"/>
+        <ext_arg_token id="180" token="Königs"/>
+        <ext_arg_token id="181" token="Wusterhausens"/>
+        <ext_arg_token id="182" token="künftiger"/>
+        <ext_arg_token id="183" token="Bürgermeister"/>
+        <ext_arg_token id="184" token="Widersprüchliches"/>
+        <ext_arg_token id="185" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="186" token="Die"/>
+        <int_arg_token id="187" token="Genossen"/>
+        <int_arg_token id="188" token="von"/>
+        <int_arg_token id="189" token="der"/>
+        <int_arg_token id="190" token="PDS"/>
+        <int_arg_token id="191" token="haben"/>
+        <int_arg_token id="192" token="jetzt"/>
+        <int_arg_token id="193" token="einiges"/>
+        <int_arg_token id="194" token="aufzuarbeiten"/>
+        <int_arg_token id="195" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

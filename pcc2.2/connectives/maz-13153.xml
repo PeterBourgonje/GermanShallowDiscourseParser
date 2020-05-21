@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Nachahmenswert</token>
+    <token id="2">Integration</token>
+    <token id="3">ist</token>
+    <token id="4">ein</token>
+    <token id="5">wichtiges</token>
+    <token id="6">Anliegen</token>
+    <token id="7">.</token>
+    <token id="8">Ja</token>
+    <token id="9">,</token>
+    <token id="10">heutzutage</token>
+    <token id="11">ist</token>
+    <token id="12">es</token>
+    <token id="13">sogar</token>
+    <token id="14">wichtiger</token>
+    <token id="15">denn</token>
+    <token id="16">je</token>
+    <token id="17">,</token>
+    <token id="18">dass</token>
+    <token id="19">gesellschaftliche</token>
+    <token id="20">Gruppen</token>
+    <token id="21">nicht</token>
+    <token id="22">ausgegrenzt</token>
+    <token id="23">werden</token>
+    <token id="24">.</token>
+    <token id="25">Angesichts</token>
+    <token id="26">der</token>
+    <token id="27">seit</token>
+    <token id="28">Jahren</token>
+    <token id="29">obwaltenden</token>
+    <token id="30">rechtsradikalen</token>
+    <token id="31">Umtriebe</token>
+    <token id="32">sind</token>
+    <token id="33">insbesondere</token>
+    <token id="34">die</token>
+    <token id="35">Bemühungen</token>
+    <token id="36">um</token>
+    <token id="37">die</token>
+    <token id="38">Integration</token>
+    <token id="39">hier</token>
+    <token id="40">lebender</token>
+    <token id="41">Nicht-Deutscher</token>
+    <token id="42">und</token>
+    <token id="43">Aussiedler</token>
+    <token id="44">wichtig</token>
+    <token id="45">.</token>
+    <token id="46">Und</token>
+    <token id="47">wie</token>
+    <token id="48">könnte</token>
+    <token id="49">so</token>
+    <token id="50">etwas</token>
+    <token id="51">besser</token>
+    <token id="52">funktionieren</token>
+    <token id="53">als</token>
+    <token id="54">über</token>
+    <token id="55">gemeinsame</token>
+    <token id="56">sportliche</token>
+    <token id="57">Aktivitäten</token>
+    <token id="58">?</token>
+    <token id="59">So</token>
+    <token id="60">ist</token>
+    <token id="61">es</token>
+    <token id="62">aller</token>
+    <token id="63">Ehren</token>
+    <token id="64">wert</token>
+    <token id="65">,</token>
+    <token id="66">wenn</token>
+    <token id="67">der</token>
+    <token id="68">Verein</token>
+    <token id="69">Freizeitpark</token>
+    <token id="70">Wittenberge</token>
+    <token id="71">die</token>
+    <token id="72">Integrationsprogramme</token>
+    <token id="73">der</token>
+    <token id="74">Brandenburgischen</token>
+    <token id="75">Sportjugend</token>
+    <token id="76">seit</token>
+    <token id="77">Jahren</token>
+    <token id="78">intensiv</token>
+    <token id="79">unterstützt</token>
+    <token id="80">.</token>
+    <token id="81">Und</token>
+    <token id="82">zwar</token>
+    <token id="83">so</token>
+    <token id="84">intensiv</token>
+    <token id="85">,</token>
+    <token id="86">dass</token>
+    <token id="87">deren</token>
+    <token id="88">Funktionäre</token>
+    <token id="89">bereits</token>
+    <token id="90">eine</token>
+    <token id="91">Vorliebe</token>
+    <token id="92">für</token>
+    <token id="93">die</token>
+    <token id="94">Prignitz</token>
+    <token id="95">entwickelt</token>
+    <token id="96">haben</token>
+    <token id="97">.</token>
+    <token id="98">Aber</token>
+    <token id="99">darüber</token>
+    <token id="100">hinaus</token>
+    <token id="101">gibt</token>
+    <token id="102">es</token>
+    <token id="103">in</token>
+    <token id="104">diesem</token>
+    <token id="105">Kreis</token>
+    <token id="106">ebenso</token>
+    <token id="107">ehrenamtliches</token>
+    <token id="108">Engagement</token>
+    <token id="109">im</token>
+    <token id="110">Dienste</token>
+    <token id="111">dieser</token>
+    <token id="112">guten</token>
+    <token id="113">Sache</token>
+    <token id="114">.</token>
+    <token id="115">Einer</token>
+    <token id="116">,</token>
+    <token id="117">der</token>
+    <token id="118">sie</token>
+    <token id="119">sich</token>
+    <token id="120">zu</token>
+    <token id="121">eigen</token>
+    <token id="122">gemacht</token>
+    <token id="123">hat</token>
+    <token id="124">,</token>
+    <token id="125">erhielt</token>
+    <token id="126">am</token>
+    <token id="127">Sonnabend</token>
+    <token id="128">eine</token>
+    <token id="129">Auszeichnung</token>
+    <token id="130">:</token>
+    <token id="131">Der</token>
+    <token id="132">Pritzwalker</token>
+    <token id="133">Harry</token>
+    <token id="134">Stüwe</token>
+    <token id="135">,</token>
+    <token id="136">regelmäßigen</token>
+    <token id="137">Lesern</token>
+    <token id="138">unserer</token>
+    <token id="139">Lokal-Sportseiten</token>
+    <token id="140">bestens</token>
+    <token id="141">bekannt</token>
+    <token id="142">,</token>
+    <token id="143">wird</token>
+    <token id="144">in</token>
+    <token id="145">der</token>
+    <token id="146">Urkunde</token>
+    <token id="147">eine</token>
+    <token id="148">schöne</token>
+    <token id="149">Bestätigung</token>
+    <token id="150">für</token>
+    <token id="151">sein</token>
+    <token id="152">Engagement</token>
+    <token id="153">sehen</token>
+    <token id="154">.</token>
+    <token id="155">Und</token>
+    <token id="156">zum</token>
+    <token id="157">Weitermachen</token>
+    <token id="158">:</token>
+    <token id="159">Solche</token>
+    <token id="160">Aktivitäten</token>
+    <token id="161">sind</token>
+    <token id="162">nicht</token>
+    <token id="163">nur</token>
+    <token id="164">nachahmenswert</token>
+    <token id="165">,</token>
+    <token id="166">sondern</token>
+    <token id="167">auch</token>
+    <token id="168">ein</token>
+    <token id="169">Aushängeschild</token>
+    <token id="170">für</token>
+    <token id="171">die</token>
+    <token id="172">Region</token>
+    <token id="173">.</token>
+    <token id="174">Sie</token>
+    <token id="175">bedürfen</token>
+    <token id="176">unser</token>
+    <token id="177">aller</token>
+    <token id="178">Unterstützung</token>
+    <token id="179">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="2" pdtb3_sense="Temporal.Asynchronous.Succession" type="explicit">
+      <connective_tokens>
+        <connective_token id="27" token="seit"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="25" token="Angesichts"/>
+        <int_arg_token id="26" token="der"/>
+        <int_arg_token id="28" token="Jahren"/>
+        <int_arg_token id="29" token="obwaltenden"/>
+        <int_arg_token id="30" token="rechtsradikalen"/>
+        <int_arg_token id="31" token="Umtriebe"/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="32" token="sind"/>
+        <ext_arg_token id="33" token="insbesondere"/>
+        <ext_arg_token id="34" token="die"/>
+        <ext_arg_token id="35" token="Bemühungen"/>
+        <ext_arg_token id="36" token="um"/>
+        <ext_arg_token id="37" token="die"/>
+        <ext_arg_token id="38" token="Integration"/>
+        <ext_arg_token id="39" token="hier"/>
+        <ext_arg_token id="40" token="lebender"/>
+        <ext_arg_token id="41" token="Nicht-Deutscher"/>
+        <ext_arg_token id="42" token="und"/>
+        <ext_arg_token id="43" token="Aussiedler"/>
+        <ext_arg_token id="44" token="wichtig"/>
+        <ext_arg_token id="45" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="46" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="25" token="Angesichts"/>
+        <ext_arg_token id="26" token="der"/>
+        <ext_arg_token id="27" token="seit"/>
+        <ext_arg_token id="28" token="Jahren"/>
+        <ext_arg_token id="29" token="obwaltenden"/>
+        <ext_arg_token id="30" token="rechtsradikalen"/>
+        <ext_arg_token id="31" token="Umtriebe"/>
+        <ext_arg_token id="32" token="sind"/>
+        <ext_arg_token id="33" token="insbesondere"/>
+        <ext_arg_token id="34" token="die"/>
+        <ext_arg_token id="35" token="Bemühungen"/>
+        <ext_arg_token id="36" token="um"/>
+        <ext_arg_token id="37" token="die"/>
+        <ext_arg_token id="38" token="Integration"/>
+        <ext_arg_token id="39" token="hier"/>
+        <ext_arg_token id="40" token="lebender"/>
+        <ext_arg_token id="41" token="Nicht-Deutscher"/>
+        <ext_arg_token id="42" token="und"/>
+        <ext_arg_token id="43" token="Aussiedler"/>
+        <ext_arg_token id="44" token="wichtig"/>
+        <ext_arg_token id="45" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="47" token="wie"/>
+        <int_arg_token id="48" token="könnte"/>
+        <int_arg_token id="49" token="so"/>
+        <int_arg_token id="50" token="etwas"/>
+        <int_arg_token id="51" token="besser"/>
+        <int_arg_token id="52" token="funktionieren"/>
+        <int_arg_token id="53" token="als"/>
+        <int_arg_token id="54" token="über"/>
+        <int_arg_token id="55" token="gemeinsame"/>
+        <int_arg_token id="56" token="sportliche"/>
+        <int_arg_token id="57" token="Aktivitäten"/>
+        <int_arg_token id="58" token="?"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="59" token="So"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="60" token="ist"/>
+        <int_arg_token id="61" token="es"/>
+        <int_arg_token id="62" token="aller"/>
+        <int_arg_token id="63" token="Ehren"/>
+        <int_arg_token id="64" token="wert"/>
+        <int_arg_token id="65" token=","/>
+        <int_arg_token id="66" token="wenn"/>
+        <int_arg_token id="67" token="der"/>
+        <int_arg_token id="68" token="Verein"/>
+        <int_arg_token id="69" token="Freizeitpark"/>
+        <int_arg_token id="70" token="Wittenberge"/>
+        <int_arg_token id="71" token="die"/>
+        <int_arg_token id="72" token="Integrationsprogramme"/>
+        <int_arg_token id="73" token="der"/>
+        <int_arg_token id="74" token="Brandenburgischen"/>
+        <int_arg_token id="75" token="Sportjugend"/>
+        <int_arg_token id="76" token="seit"/>
+        <int_arg_token id="77" token="Jahren"/>
+        <int_arg_token id="78" token="intensiv"/>
+        <int_arg_token id="79" token="unterstützt"/>
+        <int_arg_token id="80" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="46" token="Und"/>
+        <ext_arg_token id="47" token="wie"/>
+        <ext_arg_token id="48" token="könnte"/>
+        <ext_arg_token id="49" token="so"/>
+        <ext_arg_token id="50" token="etwas"/>
+        <ext_arg_token id="51" token="besser"/>
+        <ext_arg_token id="52" token="funktionieren"/>
+        <ext_arg_token id="53" token="als"/>
+        <ext_arg_token id="54" token="über"/>
+        <ext_arg_token id="55" token="gemeinsame"/>
+        <ext_arg_token id="56" token="sportliche"/>
+        <ext_arg_token id="57" token="Aktivitäten"/>
+        <ext_arg_token id="58" token="?"/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Contingency.Condition.Arg2-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="66" token="wenn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="59" token="So"/>
+        <ext_arg_token id="60" token="ist"/>
+        <ext_arg_token id="61" token="es"/>
+        <ext_arg_token id="62" token="aller"/>
+        <ext_arg_token id="63" token="Ehren"/>
+        <ext_arg_token id="64" token="wert"/>
+        <ext_arg_token id="65" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="67" token="der"/>
+        <int_arg_token id="68" token="Verein"/>
+        <int_arg_token id="69" token="Freizeitpark"/>
+        <int_arg_token id="70" token="Wittenberge"/>
+        <int_arg_token id="71" token="die"/>
+        <int_arg_token id="72" token="Integrationsprogramme"/>
+        <int_arg_token id="73" token="der"/>
+        <int_arg_token id="74" token="Brandenburgischen"/>
+        <int_arg_token id="75" token="Sportjugend"/>
+        <int_arg_token id="76" token="seit"/>
+        <int_arg_token id="77" token="Jahren"/>
+        <int_arg_token id="78" token="intensiv"/>
+        <int_arg_token id="79" token="unterstützt"/>
+        <int_arg_token id="80" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="explicit">
+      <connective_tokens>
+        <connective_token id="81" token="Und"/>
+        <connective_token id="82" token="zwar"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="83" token="so"/>
+        <int_arg_token id="84" token="intensiv"/>
+        <int_arg_token id="85" token=","/>
+        <int_arg_token id="86" token="dass"/>
+        <int_arg_token id="87" token="deren"/>
+        <int_arg_token id="88" token="Funktionäre"/>
+        <int_arg_token id="89" token="bereits"/>
+        <int_arg_token id="90" token="eine"/>
+        <int_arg_token id="91" token="Vorliebe"/>
+        <int_arg_token id="92" token="für"/>
+        <int_arg_token id="93" token="die"/>
+        <int_arg_token id="94" token="Prignitz"/>
+        <int_arg_token id="95" token="entwickelt"/>
+        <int_arg_token id="96" token="haben"/>
+        <int_arg_token id="97" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="59" token="So"/>
+        <ext_arg_token id="60" token="ist"/>
+        <ext_arg_token id="61" token="es"/>
+        <ext_arg_token id="62" token="aller"/>
+        <ext_arg_token id="63" token="Ehren"/>
+        <ext_arg_token id="64" token="wert"/>
+        <ext_arg_token id="65" token=","/>
+        <ext_arg_token id="66" token="wenn"/>
+        <ext_arg_token id="67" token="der"/>
+        <ext_arg_token id="68" token="Verein"/>
+        <ext_arg_token id="69" token="Freizeitpark"/>
+        <ext_arg_token id="70" token="Wittenberge"/>
+        <ext_arg_token id="71" token="die"/>
+        <ext_arg_token id="72" token="Integrationsprogramme"/>
+        <ext_arg_token id="73" token="der"/>
+        <ext_arg_token id="74" token="Brandenburgischen"/>
+        <ext_arg_token id="75" token="Sportjugend"/>
+        <ext_arg_token id="76" token="seit"/>
+        <ext_arg_token id="77" token="Jahren"/>
+        <ext_arg_token id="78" token="intensiv"/>
+        <ext_arg_token id="79" token="unterstützt"/>
+        <ext_arg_token id="80" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="155" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="115" token="Einer"/>
+        <ext_arg_token id="116" token=","/>
+        <ext_arg_token id="117" token="der"/>
+        <ext_arg_token id="118" token="sie"/>
+        <ext_arg_token id="119" token="sich"/>
+        <ext_arg_token id="120" token="zu"/>
+        <ext_arg_token id="121" token="eigen"/>
+        <ext_arg_token id="122" token="gemacht"/>
+        <ext_arg_token id="123" token="hat"/>
+        <ext_arg_token id="124" token=","/>
+        <ext_arg_token id="125" token="erhielt"/>
+        <ext_arg_token id="126" token="am"/>
+        <ext_arg_token id="127" token="Sonnabend"/>
+        <ext_arg_token id="128" token="eine"/>
+        <ext_arg_token id="129" token="Auszeichnung"/>
+        <ext_arg_token id="130" token=":"/>
+        <ext_arg_token id="131" token="Der"/>
+        <ext_arg_token id="132" token="Pritzwalker"/>
+        <ext_arg_token id="133" token="Harry"/>
+        <ext_arg_token id="134" token="Stüwe"/>
+        <ext_arg_token id="135" token=","/>
+        <ext_arg_token id="136" token="regelmäßigen"/>
+        <ext_arg_token id="137" token="Lesern"/>
+        <ext_arg_token id="138" token="unserer"/>
+        <ext_arg_token id="139" token="Lokal-Sportseiten"/>
+        <ext_arg_token id="140" token="bestens"/>
+        <ext_arg_token id="141" token="bekannt"/>
+        <ext_arg_token id="142" token=","/>
+        <ext_arg_token id="143" token="wird"/>
+        <ext_arg_token id="144" token="in"/>
+        <ext_arg_token id="145" token="der"/>
+        <ext_arg_token id="146" token="Urkunde"/>
+        <ext_arg_token id="147" token="eine"/>
+        <ext_arg_token id="148" token="schöne"/>
+        <ext_arg_token id="149" token="Bestätigung"/>
+        <ext_arg_token id="150" token="für"/>
+        <ext_arg_token id="151" token="sein"/>
+        <ext_arg_token id="152" token="Engagement"/>
+        <ext_arg_token id="153" token="sehen"/>
+        <ext_arg_token id="154" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="156" token="zum"/>
+        <int_arg_token id="157" token="Weitermachen"/>
+        <int_arg_token id="158" token=":"/>
+        <int_arg_token id="159" token="Solche"/>
+        <int_arg_token id="160" token="Aktivitäten"/>
+        <int_arg_token id="161" token="sind"/>
+        <int_arg_token id="162" token="nicht"/>
+        <int_arg_token id="163" token="nur"/>
+        <int_arg_token id="164" token="nachahmenswert"/>
+        <int_arg_token id="165" token=","/>
+        <int_arg_token id="166" token="sondern"/>
+        <int_arg_token id="167" token="auch"/>
+        <int_arg_token id="168" token="ein"/>
+        <int_arg_token id="169" token="Aushängeschild"/>
+        <int_arg_token id="170" token="für"/>
+        <int_arg_token id="171" token="die"/>
+        <int_arg_token id="172" token="Region"/>
+        <int_arg_token id="173" token="."/>
+        <int_arg_token id="174" token="Sie"/>
+        <int_arg_token id="175" token="bedürfen"/>
+        <int_arg_token id="176" token="unser"/>
+        <int_arg_token id="177" token="aller"/>
+        <int_arg_token id="178" token="Unterstützung"/>
+        <int_arg_token id="179" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Comparison.Contrast" type="explicit">
+      <connective_tokens>
+        <connective_token id="98" token="Aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="81" token="Und"/>
+        <ext_arg_token id="82" token="zwar"/>
+        <ext_arg_token id="83" token="so"/>
+        <ext_arg_token id="84" token="intensiv"/>
+        <ext_arg_token id="85" token=","/>
+        <ext_arg_token id="86" token="dass"/>
+        <ext_arg_token id="87" token="deren"/>
+        <ext_arg_token id="88" token="Funktionäre"/>
+        <ext_arg_token id="89" token="bereits"/>
+        <ext_arg_token id="90" token="eine"/>
+        <ext_arg_token id="91" token="Vorliebe"/>
+        <ext_arg_token id="92" token="für"/>
+        <ext_arg_token id="93" token="die"/>
+        <ext_arg_token id="94" token="Prignitz"/>
+        <ext_arg_token id="95" token="entwickelt"/>
+        <ext_arg_token id="96" token="haben"/>
+        <ext_arg_token id="97" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="99" token="darüber"/>
+        <int_arg_token id="100" token="hinaus"/>
+        <int_arg_token id="101" token="gibt"/>
+        <int_arg_token id="102" token="es"/>
+        <int_arg_token id="103" token="in"/>
+        <int_arg_token id="104" token="diesem"/>
+        <int_arg_token id="105" token="Kreis"/>
+        <int_arg_token id="106" token="ebenso"/>
+        <int_arg_token id="107" token="ehrenamtliches"/>
+        <int_arg_token id="108" token="Engagement"/>
+        <int_arg_token id="109" token="im"/>
+        <int_arg_token id="110" token="Dienste"/>
+        <int_arg_token id="111" token="dieser"/>
+        <int_arg_token id="112" token="guten"/>
+        <int_arg_token id="113" token="Sache"/>
+        <int_arg_token id="114" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="166" token="sondern"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="159" token="Solche"/>
+        <ext_arg_token id="160" token="Aktivitäten"/>
+        <ext_arg_token id="161" token="sind"/>
+        <ext_arg_token id="162" token="nicht"/>
+        <ext_arg_token id="163" token="nur"/>
+        <ext_arg_token id="164" token="nachahmenswert"/>
+        <ext_arg_token id="165" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="167" token="auch"/>
+        <int_arg_token id="168" token="ein"/>
+        <int_arg_token id="169" token="Aushängeschild"/>
+        <int_arg_token id="170" token="für"/>
+        <int_arg_token id="171" token="die"/>
+        <int_arg_token id="172" token="Region"/>
+        <int_arg_token id="173" token="."/>
+        <int_arg_token id="174" token="Sie"/>
+        <int_arg_token id="175" token="bedürfen"/>
+        <int_arg_token id="176" token="unser"/>
+        <int_arg_token id="177" token="aller"/>
+        <int_arg_token id="178" token="Unterstützung"/>
+        <int_arg_token id="179" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>genauer gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="2" token="Integration"/>
+        <ext_arg_token id="3" token="ist"/>
+        <ext_arg_token id="4" token="ein"/>
+        <ext_arg_token id="5" token="wichtiges"/>
+        <ext_arg_token id="6" token="Anliegen"/>
+        <ext_arg_token id="7" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="8" token="Ja"/>
+        <int_arg_token id="9" token=","/>
+        <int_arg_token id="10" token="heutzutage"/>
+        <int_arg_token id="11" token="ist"/>
+        <int_arg_token id="12" token="es"/>
+        <int_arg_token id="13" token="sogar"/>
+        <int_arg_token id="14" token="wichtiger"/>
+        <int_arg_token id="15" token="denn"/>
+        <int_arg_token id="16" token="je"/>
+        <int_arg_token id="17" token=","/>
+        <int_arg_token id="18" token="dass"/>
+        <int_arg_token id="19" token="gesellschaftliche"/>
+        <int_arg_token id="20" token="Gruppen"/>
+        <int_arg_token id="21" token="nicht"/>
+        <int_arg_token id="22" token="ausgegrenzt"/>
+        <int_arg_token id="23" token="werden"/>
+        <int_arg_token id="24" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="8" token="Ja"/>
+        <ext_arg_token id="9" token=","/>
+        <ext_arg_token id="10" token="heutzutage"/>
+        <ext_arg_token id="11" token="ist"/>
+        <ext_arg_token id="12" token="es"/>
+        <ext_arg_token id="13" token="sogar"/>
+        <ext_arg_token id="14" token="wichtiger"/>
+        <ext_arg_token id="15" token="denn"/>
+        <ext_arg_token id="16" token="je"/>
+        <ext_arg_token id="17" token=","/>
+        <ext_arg_token id="18" token="dass"/>
+        <ext_arg_token id="19" token="gesellschaftliche"/>
+        <ext_arg_token id="20" token="Gruppen"/>
+        <ext_arg_token id="21" token="nicht"/>
+        <ext_arg_token id="22" token="ausgegrenzt"/>
+        <ext_arg_token id="23" token="werden"/>
+        <ext_arg_token id="24" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="25" token="Angesichts"/>
+        <int_arg_token id="26" token="der"/>
+        <int_arg_token id="27" token="seit"/>
+        <int_arg_token id="28" token="Jahren"/>
+        <int_arg_token id="29" token="obwaltenden"/>
+        <int_arg_token id="30" token="rechtsradikalen"/>
+        <int_arg_token id="31" token="Umtriebe"/>
+        <int_arg_token id="32" token="sind"/>
+        <int_arg_token id="33" token="insbesondere"/>
+        <int_arg_token id="34" token="die"/>
+        <int_arg_token id="35" token="Bemühungen"/>
+        <int_arg_token id="36" token="um"/>
+        <int_arg_token id="37" token="die"/>
+        <int_arg_token id="38" token="Integration"/>
+        <int_arg_token id="39" token="hier"/>
+        <int_arg_token id="40" token="lebender"/>
+        <int_arg_token id="41" token="Nicht-Deutscher"/>
+        <int_arg_token id="42" token="und"/>
+        <int_arg_token id="43" token="Aussiedler"/>
+        <int_arg_token id="44" token="wichtig"/>
+        <int_arg_token id="45" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="20" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="98" token="Aber"/>
+        <ext_arg_token id="99" token="darüber"/>
+        <ext_arg_token id="100" token="hinaus"/>
+        <ext_arg_token id="101" token="gibt"/>
+        <ext_arg_token id="102" token="es"/>
+        <ext_arg_token id="103" token="in"/>
+        <ext_arg_token id="104" token="diesem"/>
+        <ext_arg_token id="105" token="Kreis"/>
+        <ext_arg_token id="106" token="ebenso"/>
+        <ext_arg_token id="107" token="ehrenamtliches"/>
+        <ext_arg_token id="108" token="Engagement"/>
+        <ext_arg_token id="109" token="im"/>
+        <ext_arg_token id="110" token="Dienste"/>
+        <ext_arg_token id="111" token="dieser"/>
+        <ext_arg_token id="112" token="guten"/>
+        <ext_arg_token id="113" token="Sache"/>
+        <ext_arg_token id="114" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="115" token="Einer"/>
+        <int_arg_token id="116" token=","/>
+        <int_arg_token id="117" token="der"/>
+        <int_arg_token id="118" token="sie"/>
+        <int_arg_token id="119" token="sich"/>
+        <int_arg_token id="120" token="zu"/>
+        <int_arg_token id="121" token="eigen"/>
+        <int_arg_token id="122" token="gemacht"/>
+        <int_arg_token id="123" token="hat"/>
+        <int_arg_token id="124" token=","/>
+        <int_arg_token id="125" token="erhielt"/>
+        <int_arg_token id="126" token="am"/>
+        <int_arg_token id="127" token="Sonnabend"/>
+        <int_arg_token id="128" token="eine"/>
+        <int_arg_token id="129" token="Auszeichnung"/>
+        <int_arg_token id="130" token=":"/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

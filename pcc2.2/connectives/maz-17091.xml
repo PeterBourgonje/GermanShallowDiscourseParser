@@ -1,0 +1,622 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Nach</token>
+    <token id="2">dem</token>
+    <token id="3">großen</token>
+    <token id="4">Coup</token>
+    <token id="5">Die</token>
+    <token id="6">Weiße</token>
+    <token id="7">Stadt</token>
+    <token id="8">in</token>
+    <token id="9">Oranienburg</token>
+    <token id="10">war</token>
+    <token id="11">vor</token>
+    <token id="12">wenigen</token>
+    <token id="13">Jahren</token>
+    <token id="14">ein</token>
+    <token id="15">gefeiertes</token>
+    <token id="16">Modellprojekt</token>
+    <token id="17">.</token>
+    <token id="18">Firmenchef</token>
+    <token id="19">Klaus</token>
+    <token id="20">Kesting</token>
+    <token id="21">gelang</token>
+    <token id="22">ein</token>
+    <token id="23">großer</token>
+    <token id="24">Coup</token>
+    <token id="25">.</token>
+    <token id="26">Noch</token>
+    <token id="27">vor</token>
+    <token id="28">dem</token>
+    <token id="29">endgültigen</token>
+    <token id="30">Abzug</token>
+    <token id="31">der</token>
+    <token id="32">russischen</token>
+    <token id="33">Armee</token>
+    <token id="34">1994</token>
+    <token id="35">begann</token>
+    <token id="36">er</token>
+    <token id="37">mit</token>
+    <token id="38">dem</token>
+    <token id="39">Umbau</token>
+    <token id="40">von</token>
+    <token id="41">Kasernen</token>
+    <token id="42">zu</token>
+    <token id="43">Sozial-</token>
+    <token id="44">und</token>
+    <token id="45">Eigentumswohnungen</token>
+    <token id="46">.</token>
+    <token id="47">Der</token>
+    <token id="48">Unternehmer</token>
+    <token id="49">erhielt</token>
+    <token id="50">für</token>
+    <token id="51">das</token>
+    <token id="52">Vorhaben</token>
+    <token id="53">viele</token>
+    <token id="54">Fördermillionen</token>
+    <token id="55">,</token>
+    <token id="56">eine</token>
+    <token id="57">60_000</token>
+    <token id="58">Quadratmeter</token>
+    <token id="59">große</token>
+    <token id="60">Fläche</token>
+    <token id="61">erwarb</token>
+    <token id="62">er</token>
+    <token id="63">für</token>
+    <token id="64">eine</token>
+    <token id="65">Mark</token>
+    <token id="66">.</token>
+    <token id="67">1997</token>
+    <token id="68">folgte</token>
+    <token id="69">der</token>
+    <token id="70">große</token>
+    <token id="71">Katzenjammer</token>
+    <token id="72">.</token>
+    <token id="73">Die</token>
+    <token id="74">Gesellschaft</token>
+    <token id="75">Kesting</token>
+    <token id="76">Fertigbau</token>
+    <token id="77">musste</token>
+    <token id="78">Konkurs</token>
+    <token id="79">anmelden</token>
+    <token id="80">.</token>
+    <token id="81">Mehrere</token>
+    <token id="82">beteiligte</token>
+    <token id="83">Firmen</token>
+    <token id="84">erhielten</token>
+    <token id="85">kein</token>
+    <token id="86">Geld</token>
+    <token id="87">,</token>
+    <token id="88">ausstehende</token>
+    <token id="89">Bauabschnitte</token>
+    <token id="90">konnten</token>
+    <token id="91">nicht</token>
+    <token id="92">fortgeführt</token>
+    <token id="93">werden</token>
+    <token id="94">.</token>
+    <token id="95">Seitdem</token>
+    <token id="96">führt</token>
+    <token id="97">ein</token>
+    <token id="98">Zwangsverwalter</token>
+    <token id="99">das</token>
+    <token id="100">Zepter</token>
+    <token id="101">.</token>
+    <token id="102">Der</token>
+    <token id="103">Verkauf</token>
+    <token id="104">des</token>
+    <token id="105">Wohngebiets</token>
+    <token id="106">und</token>
+    <token id="107">neue</token>
+    <token id="108">Geldgeber</token>
+    <token id="109">sind</token>
+    <token id="110">nicht</token>
+    <token id="111">in</token>
+    <token id="112">Sicht</token>
+    <token id="113">.</token>
+    <token id="114">Für</token>
+    <token id="115">Investitionen</token>
+    <token id="116">in</token>
+    <token id="117">die</token>
+    <token id="118">Infrastruktur</token>
+    <token id="119">der</token>
+    <token id="120">einstigen</token>
+    <token id="121">Heinkel-Siedlung</token>
+    <token id="122">gibt</token>
+    <token id="123">es</token>
+    <token id="124">keine</token>
+    <token id="125">müde</token>
+    <token id="126">Mark</token>
+    <token id="127">.</token>
+    <token id="128">Die</token>
+    <token id="129">Folgen</token>
+    <token id="130">sind</token>
+    <token id="131">Stagnation</token>
+    <token id="132">und</token>
+    <token id="133">stellenweise</token>
+    <token id="134">schon</token>
+    <token id="135">Verwahrlosung</token>
+    <token id="136">.</token>
+    <token id="137">Damit</token>
+    <token id="138">will</token>
+    <token id="139">sich</token>
+    <token id="140">der</token>
+    <token id="141">jetzt</token>
+    <token id="142">gegründete</token>
+    <token id="143">Bürgerverein</token>
+    <token id="144">nicht</token>
+    <token id="145">abfinden</token>
+    <token id="146">.</token>
+    <token id="147">Dass</token>
+    <token id="148">seine</token>
+    <token id="149">Mitstreiter</token>
+    <token id="150">durchaus</token>
+    <token id="151">etwas</token>
+    <token id="152">erreichen</token>
+    <token id="153">können</token>
+    <token id="154">,</token>
+    <token id="155">haben</token>
+    <token id="156">sie</token>
+    <token id="157">bereits</token>
+    <token id="158">bewiesen</token>
+    <token id="159">.</token>
+    <token id="160">Entgegen</token>
+    <token id="161">der</token>
+    <token id="162">ursprünglichen</token>
+    <token id="163">Planung</token>
+    <token id="164">wurde</token>
+    <token id="165">jetzt</token>
+    <token id="166">auch</token>
+    <token id="167">die</token>
+    <token id="168">Weiße</token>
+    <token id="169">Stadt</token>
+    <token id="170">in</token>
+    <token id="171">das</token>
+    <token id="172">EU-Förderprogramm</token>
+    <token id="173">"</token>
+    <token id="174">Zukunft</token>
+    <token id="175">im</token>
+    <token id="176">Stadtteil</token>
+    <token id="177">"</token>
+    <token id="178">aufgenommen</token>
+    <token id="179">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="3" pdtb3_sense="Temporal.Asynchronous.Precedence" type="explicit">
+      <connective_tokens>
+        <connective_token id="95" token="Seitdem"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="81" token="Mehrere"/>
+        <ext_arg_token id="82" token="beteiligte"/>
+        <ext_arg_token id="83" token="Firmen"/>
+        <ext_arg_token id="84" token="erhielten"/>
+        <ext_arg_token id="85" token="kein"/>
+        <ext_arg_token id="86" token="Geld"/>
+        <ext_arg_token id="87" token=","/>
+        <ext_arg_token id="88" token="ausstehende"/>
+        <ext_arg_token id="89" token="Bauabschnitte"/>
+        <ext_arg_token id="90" token="konnten"/>
+        <ext_arg_token id="91" token="nicht"/>
+        <ext_arg_token id="92" token="fortgeführt"/>
+        <ext_arg_token id="93" token="werden"/>
+        <ext_arg_token id="94" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="96" token="führt"/>
+        <int_arg_token id="97" token="ein"/>
+        <int_arg_token id="98" token="Zwangsverwalter"/>
+        <int_arg_token id="99" token="das"/>
+        <int_arg_token id="100" token="Zepter"/>
+        <int_arg_token id="101" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="160" token="Entgegen"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="161" token="der"/>
+        <int_arg_token id="162" token="ursprünglichen"/>
+        <int_arg_token id="163" token="Planung"/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="164" token="wurde"/>
+        <ext_arg_token id="165" token="jetzt"/>
+        <ext_arg_token id="166" token="auch"/>
+        <ext_arg_token id="167" token="die"/>
+        <ext_arg_token id="168" token="Weiße"/>
+        <ext_arg_token id="169" token="Stadt"/>
+        <ext_arg_token id="170" token="in"/>
+        <ext_arg_token id="171" token="das"/>
+        <ext_arg_token id="172" token="EU-Förderprogramm"/>
+        <ext_arg_token id="173" token="&quot;"/>
+        <ext_arg_token id="174" token="Zukunft"/>
+        <ext_arg_token id="175" token="im"/>
+        <ext_arg_token id="176" token="Stadtteil"/>
+        <ext_arg_token id="177" token="&quot;"/>
+        <ext_arg_token id="178" token="aufgenommen"/>
+        <ext_arg_token id="179" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Temporal.Asynchronous.Succession" type="implicit">
+      <connective_tokens>
+        <implicit_connective>vorher</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="5" token="Die"/>
+        <ext_arg_token id="6" token="Weiße"/>
+        <ext_arg_token id="7" token="Stadt"/>
+        <ext_arg_token id="8" token="in"/>
+        <ext_arg_token id="9" token="Oranienburg"/>
+        <ext_arg_token id="10" token="war"/>
+        <ext_arg_token id="11" token="vor"/>
+        <ext_arg_token id="12" token="wenigen"/>
+        <ext_arg_token id="13" token="Jahren"/>
+        <ext_arg_token id="14" token="ein"/>
+        <ext_arg_token id="15" token="gefeiertes"/>
+        <ext_arg_token id="16" token="Modellprojekt"/>
+        <ext_arg_token id="17" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="18" token="Firmenchef"/>
+        <int_arg_token id="19" token="Klaus"/>
+        <int_arg_token id="20" token="Kesting"/>
+        <int_arg_token id="21" token="gelang"/>
+        <int_arg_token id="22" token="ein"/>
+        <int_arg_token id="23" token="großer"/>
+        <int_arg_token id="24" token="Coup"/>
+        <int_arg_token id="25" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="26" token="Noch"/>
+	<connective_token id="27" token="vor"/>
+	<connective_token id="28" token="dem"/>
+	<connective_token id="29" token="endgültigen"/>
+	<connective_token id="30" token="Abzug"/>
+	<connective_token id="31" token="der"/>
+	<connective_token id="32" token="russischen"/>
+	<connective_token id="33" token="Armee"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="18" token="Firmenchef"/>
+        <ext_arg_token id="19" token="Klaus"/>
+        <ext_arg_token id="20" token="Kesting"/>
+        <ext_arg_token id="21" token="gelang"/>
+        <ext_arg_token id="22" token="ein"/>
+        <ext_arg_token id="23" token="großer"/>
+        <ext_arg_token id="24" token="Coup"/>
+        <ext_arg_token id="25" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="26" token="Noch"/>
+        <int_arg_token id="27" token="vor"/>
+        <int_arg_token id="28" token="dem"/>
+        <int_arg_token id="29" token="endgültigen"/>
+        <int_arg_token id="30" token="Abzug"/>
+        <int_arg_token id="31" token="der"/>
+        <int_arg_token id="32" token="russischen"/>
+        <int_arg_token id="33" token="Armee"/>
+        <int_arg_token id="34" token="1994"/>
+        <int_arg_token id="35" token="begann"/>
+        <int_arg_token id="36" token="er"/>
+        <int_arg_token id="37" token="mit"/>
+        <int_arg_token id="38" token="dem"/>
+        <int_arg_token id="39" token="Umbau"/>
+        <int_arg_token id="40" token="von"/>
+        <int_arg_token id="41" token="Kasernen"/>
+        <int_arg_token id="42" token="zu"/>
+        <int_arg_token id="43" token="Sozial-"/>
+        <int_arg_token id="44" token="und"/>
+        <int_arg_token id="45" token="Eigentumswohnungen"/>
+        <int_arg_token id="46" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="26" token="Noch"/>
+        <ext_arg_token id="27" token="vor"/>
+        <ext_arg_token id="28" token="dem"/>
+        <ext_arg_token id="29" token="endgültigen"/>
+        <ext_arg_token id="30" token="Abzug"/>
+        <ext_arg_token id="31" token="der"/>
+        <ext_arg_token id="32" token="russischen"/>
+        <ext_arg_token id="33" token="Armee"/>
+        <ext_arg_token id="34" token="1994"/>
+        <ext_arg_token id="35" token="begann"/>
+        <ext_arg_token id="36" token="er"/>
+        <ext_arg_token id="37" token="mit"/>
+        <ext_arg_token id="38" token="dem"/>
+        <ext_arg_token id="39" token="Umbau"/>
+        <ext_arg_token id="40" token="von"/>
+        <ext_arg_token id="41" token="Kasernen"/>
+        <ext_arg_token id="42" token="zu"/>
+        <ext_arg_token id="43" token="Sozial-"/>
+        <ext_arg_token id="44" token="und"/>
+        <ext_arg_token id="45" token="Eigentumswohnungen"/>
+        <ext_arg_token id="46" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="47" token="Der"/>
+        <int_arg_token id="48" token="Unternehmer"/>
+        <int_arg_token id="49" token="erhielt"/>
+        <int_arg_token id="50" token="für"/>
+        <int_arg_token id="51" token="das"/>
+        <int_arg_token id="52" token="Vorhaben"/>
+        <int_arg_token id="53" token="viele"/>
+        <int_arg_token id="54" token="Fördermillionen"/>
+        <int_arg_token id="55" token=","/>
+        <int_arg_token id="56" token="eine"/>
+        <int_arg_token id="57" token="60_000"/>
+        <int_arg_token id="58" token="Quadratmeter"/>
+        <int_arg_token id="59" token="große"/>
+        <int_arg_token id="60" token="Fläche"/>
+        <int_arg_token id="61" token="erwarb"/>
+        <int_arg_token id="62" token="er"/>
+        <int_arg_token id="63" token="für"/>
+        <int_arg_token id="64" token="eine"/>
+        <int_arg_token id="65" token="Mark"/>
+        <int_arg_token id="66" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und zwar</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="67" token="1997"/>
+        <ext_arg_token id="68" token="folgte"/>
+        <ext_arg_token id="69" token="der"/>
+        <ext_arg_token id="70" token="große"/>
+        <ext_arg_token id="71" token="Katzenjammer"/>
+        <ext_arg_token id="72" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="73" token="Die"/>
+        <int_arg_token id="74" token="Gesellschaft"/>
+        <int_arg_token id="75" token="Kesting"/>
+        <int_arg_token id="76" token="Fertigbau"/>
+        <int_arg_token id="77" token="musste"/>
+        <int_arg_token id="78" token="Konkurs"/>
+        <int_arg_token id="79" token="anmelden"/>
+        <int_arg_token id="80" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>aufgrund dessen</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="73" token="Die"/>
+        <ext_arg_token id="74" token="Gesellschaft"/>
+        <ext_arg_token id="75" token="Kesting"/>
+        <ext_arg_token id="76" token="Fertigbau"/>
+        <ext_arg_token id="77" token="musste"/>
+        <ext_arg_token id="78" token="Konkurs"/>
+        <ext_arg_token id="79" token="anmelden"/>
+        <ext_arg_token id="80" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="81" token="Mehrere"/>
+        <int_arg_token id="82" token="beteiligte"/>
+        <int_arg_token id="83" token="Firmen"/>
+        <int_arg_token id="84" token="erhielten"/>
+        <int_arg_token id="85" token="kein"/>
+        <int_arg_token id="86" token="Geld"/>
+        <int_arg_token id="87" token=","/>
+        <int_arg_token id="88" token="ausstehende"/>
+        <int_arg_token id="89" token="Bauabschnitte"/>
+        <int_arg_token id="90" token="konnten"/>
+        <int_arg_token id="91" token="nicht"/>
+        <int_arg_token id="92" token="fortgeführt"/>
+        <int_arg_token id="93" token="werden"/>
+        <int_arg_token id="94" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="95" token="Seitdem"/>
+        <ext_arg_token id="96" token="führt"/>
+        <ext_arg_token id="97" token="ein"/>
+        <ext_arg_token id="98" token="Zwangsverwalter"/>
+        <ext_arg_token id="99" token="das"/>
+        <ext_arg_token id="100" token="Zepter"/>
+        <ext_arg_token id="101" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="102" token="Der"/>
+        <int_arg_token id="103" token="Verkauf"/>
+        <int_arg_token id="104" token="des"/>
+        <int_arg_token id="105" token="Wohngebiets"/>
+        <int_arg_token id="106" token="und"/>
+        <int_arg_token id="107" token="neue"/>
+        <int_arg_token id="108" token="Geldgeber"/>
+        <int_arg_token id="109" token="sind"/>
+        <int_arg_token id="110" token="nicht"/>
+        <int_arg_token id="111" token="in"/>
+        <int_arg_token id="112" token="Sicht"/>
+        <int_arg_token id="113" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="102" token="Der"/>
+        <ext_arg_token id="103" token="Verkauf"/>
+        <ext_arg_token id="104" token="des"/>
+        <ext_arg_token id="105" token="Wohngebiets"/>
+        <ext_arg_token id="106" token="und"/>
+        <ext_arg_token id="107" token="neue"/>
+        <ext_arg_token id="108" token="Geldgeber"/>
+        <ext_arg_token id="109" token="sind"/>
+        <ext_arg_token id="110" token="nicht"/>
+        <ext_arg_token id="111" token="in"/>
+        <ext_arg_token id="112" token="Sicht"/>
+        <ext_arg_token id="113" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="114" token="Für"/>
+        <int_arg_token id="115" token="Investitionen"/>
+        <int_arg_token id="116" token="in"/>
+        <int_arg_token id="117" token="die"/>
+        <int_arg_token id="118" token="Infrastruktur"/>
+        <int_arg_token id="119" token="der"/>
+        <int_arg_token id="120" token="einstigen"/>
+        <int_arg_token id="121" token="Heinkel-Siedlung"/>
+        <int_arg_token id="122" token="gibt"/>
+        <int_arg_token id="123" token="es"/>
+        <int_arg_token id="124" token="keine"/>
+        <int_arg_token id="125" token="müde"/>
+        <int_arg_token id="126" token="Mark"/>
+        <int_arg_token id="127" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Contingency.Cause.Result" type="AltLex">
+      <connective_tokens>
+	<connective_token id="128" token="Die"/>
+	<connective_token id="129" token="Folgen"/>
+	<connective_token id="130" token="sind"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="114" token="Für"/>
+        <ext_arg_token id="115" token="Investitionen"/>
+        <ext_arg_token id="116" token="in"/>
+        <ext_arg_token id="117" token="die"/>
+        <ext_arg_token id="118" token="Infrastruktur"/>
+        <ext_arg_token id="119" token="der"/>
+        <ext_arg_token id="120" token="einstigen"/>
+        <ext_arg_token id="121" token="Heinkel-Siedlung"/>
+        <ext_arg_token id="122" token="gibt"/>
+        <ext_arg_token id="123" token="es"/>
+        <ext_arg_token id="124" token="keine"/>
+        <ext_arg_token id="125" token="müde"/>
+        <ext_arg_token id="126" token="Mark"/>
+        <ext_arg_token id="127" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="128" token="Die"/>
+        <int_arg_token id="129" token="Folgen"/>
+        <int_arg_token id="130" token="sind"/>
+        <int_arg_token id="131" token="Stagnation"/>
+        <int_arg_token id="132" token="und"/>
+        <int_arg_token id="133" token="stellenweise"/>
+        <int_arg_token id="134" token="schon"/>
+        <int_arg_token id="135" token="Verwahrlosung"/>
+        <int_arg_token id="136" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="128" token="Die"/>
+        <ext_arg_token id="129" token="Folgen"/>
+        <ext_arg_token id="130" token="sind"/>
+        <ext_arg_token id="131" token="Stagnation"/>
+        <ext_arg_token id="132" token="und"/>
+        <ext_arg_token id="133" token="stellenweise"/>
+        <ext_arg_token id="134" token="schon"/>
+        <ext_arg_token id="135" token="Verwahrlosung"/>
+        <ext_arg_token id="136" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="137" token="Damit"/>
+        <int_arg_token id="138" token="will"/>
+        <int_arg_token id="139" token="sich"/>
+        <int_arg_token id="140" token="der"/>
+        <int_arg_token id="141" token="jetzt"/>
+        <int_arg_token id="142" token="gegründete"/>
+        <int_arg_token id="143" token="Bürgerverein"/>
+        <int_arg_token id="144" token="nicht"/>
+        <int_arg_token id="145" token="abfinden"/>
+        <int_arg_token id="146" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="137" token="Damit"/>
+        <ext_arg_token id="138" token="will"/>
+        <ext_arg_token id="139" token="sich"/>
+        <ext_arg_token id="140" token="der"/>
+        <ext_arg_token id="141" token="jetzt"/>
+        <ext_arg_token id="142" token="gegründete"/>
+        <ext_arg_token id="143" token="Bürgerverein"/>
+        <ext_arg_token id="144" token="nicht"/>
+        <ext_arg_token id="145" token="abfinden"/>
+        <ext_arg_token id="146" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="147" token="Dass"/>
+        <int_arg_token id="148" token="seine"/>
+        <int_arg_token id="149" token="Mitstreiter"/>
+        <int_arg_token id="150" token="durchaus"/>
+        <int_arg_token id="151" token="etwas"/>
+        <int_arg_token id="152" token="erreichen"/>
+        <int_arg_token id="153" token="können"/>
+        <int_arg_token id="154" token=","/>
+        <int_arg_token id="155" token="haben"/>
+        <int_arg_token id="156" token="sie"/>
+        <int_arg_token id="157" token="bereits"/>
+        <int_arg_token id="158" token="bewiesen"/>
+        <int_arg_token id="159" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="147" token="Dass"/>
+        <ext_arg_token id="148" token="seine"/>
+        <ext_arg_token id="149" token="Mitstreiter"/>
+        <ext_arg_token id="150" token="durchaus"/>
+        <ext_arg_token id="151" token="etwas"/>
+        <ext_arg_token id="152" token="erreichen"/>
+        <ext_arg_token id="153" token="können"/>
+        <ext_arg_token id="154" token=","/>
+        <ext_arg_token id="155" token="haben"/>
+        <ext_arg_token id="156" token="sie"/>
+        <ext_arg_token id="157" token="bereits"/>
+        <ext_arg_token id="158" token="bewiesen"/>
+        <ext_arg_token id="159" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="160" token="Entgegen"/>
+        <int_arg_token id="161" token="der"/>
+        <int_arg_token id="162" token="ursprünglichen"/>
+        <int_arg_token id="163" token="Planung"/>
+        <int_arg_token id="164" token="wurde"/>
+        <int_arg_token id="165" token="jetzt"/>
+        <int_arg_token id="166" token="auch"/>
+        <int_arg_token id="167" token="die"/>
+        <int_arg_token id="168" token="Weiße"/>
+        <int_arg_token id="169" token="Stadt"/>
+        <int_arg_token id="170" token="in"/>
+        <int_arg_token id="171" token="das"/>
+        <int_arg_token id="172" token="EU-Förderprogramm"/>
+        <int_arg_token id="173" token="&quot;"/>
+        <int_arg_token id="174" token="Zukunft"/>
+        <int_arg_token id="175" token="im"/>
+        <int_arg_token id="176" token="Stadtteil"/>
+        <int_arg_token id="177" token="&quot;"/>
+        <int_arg_token id="178" token="aufgenommen"/>
+        <int_arg_token id="179" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

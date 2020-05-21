@@ -1,0 +1,569 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Nicht</token>
+    <token id="2">vergessen</token>
+    <token id="3">!</token>
+    <token id="4">Alle</token>
+    <token id="5">Jahre</token>
+    <token id="6">wieder</token>
+    <token id="7">Stress</token>
+    <token id="8">vor</token>
+    <token id="9">dem</token>
+    <token id="10">Fest</token>
+    <token id="11">.</token>
+    <token id="12">Am</token>
+    <token id="13">Sonnabend</token>
+    <token id="14">hetzten</token>
+    <token id="15">nicht</token>
+    <token id="16">wenige</token>
+    <token id="17">noch</token>
+    <token id="18">von</token>
+    <token id="19">Geschäft</token>
+    <token id="20">zu</token>
+    <token id="21">Geschäft</token>
+    <token id="22">,</token>
+    <token id="23">um</token>
+    <token id="24">die</token>
+    <token id="25">letzten</token>
+    <token id="26">Einkäufe</token>
+    <token id="27">zu</token>
+    <token id="28">erledigen</token>
+    <token id="29">.</token>
+    <token id="30">Manchem</token>
+    <token id="31">schien</token>
+    <token id="32">erst</token>
+    <token id="33">jetzt</token>
+    <token id="34">eingefallen</token>
+    <token id="35">zu</token>
+    <token id="36">sein</token>
+    <token id="37">,</token>
+    <token id="38">dass</token>
+    <token id="39">man</token>
+    <token id="40">am</token>
+    <token id="41">heutigen</token>
+    <token id="42">Heiligen</token>
+    <token id="43">Abend</token>
+    <token id="44">seinen</token>
+    <token id="45">Lieben</token>
+    <token id="46">etwas</token>
+    <token id="47">schenken</token>
+    <token id="48">könnte</token>
+    <token id="49">.</token>
+    <token id="50">Doch</token>
+    <token id="51">nicht</token>
+    <token id="52">nur</token>
+    <token id="53">wegen</token>
+    <token id="54">solcher</token>
+    <token id="55">Vergesslichkeit</token>
+    <token id="56">werden</token>
+    <token id="57">auch</token>
+    <token id="58">heute</token>
+    <token id="59">Abend</token>
+    <token id="60">wieder</token>
+    <token id="61">viele</token>
+    <token id="62">Menschen</token>
+    <token id="63">ohne</token>
+    <token id="64">eine</token>
+    <token id="65">Liebesgabe</token>
+    <token id="66">auskommen</token>
+    <token id="67">müssen</token>
+    <token id="68">.</token>
+    <token id="69">Häufig</token>
+    <token id="70">werden</token>
+    <token id="71">sie</token>
+    <token id="72">über</token>
+    <token id="73">all</token>
+    <token id="74">dem</token>
+    <token id="75">Feiertagstrubel</token>
+    <token id="76">wirklich</token>
+    <token id="77">vergessen</token>
+    <token id="78">,</token>
+    <token id="79">die</token>
+    <token id="80">Alten</token>
+    <token id="81">und</token>
+    <token id="82">Einsamen</token>
+    <token id="83">,</token>
+    <token id="84">die</token>
+    <token id="85">Flüchtlinge</token>
+    <token id="86">und</token>
+    <token id="87">Asylsuchenden</token>
+    <token id="88">,</token>
+    <token id="89">die</token>
+    <token id="90">Heimatlosen</token>
+    <token id="91">,</token>
+    <token id="92">Hungernden</token>
+    <token id="93">,</token>
+    <token id="94">Kranken</token>
+    <token id="95">.</token>
+    <token id="96">Die</token>
+    <token id="97">Erinnerung</token>
+    <token id="98">an</token>
+    <token id="99">diese</token>
+    <token id="100">Verlierer</token>
+    <token id="101">unserer</token>
+    <token id="102">Zeit</token>
+    <token id="103">sollte</token>
+    <token id="104">niemandem</token>
+    <token id="105">sein</token>
+    <token id="106">Weihnachtsfest</token>
+    <token id="107">vermiesen</token>
+    <token id="108">.</token>
+    <token id="109">Ganz</token>
+    <token id="110">im</token>
+    <token id="111">Gegenteil</token>
+    <token id="112">:</token>
+    <token id="113">Vielleicht</token>
+    <token id="114">machen</token>
+    <token id="115">ein</token>
+    <token id="116">paar</token>
+    <token id="117">Gedanken</token>
+    <token id="118">an</token>
+    <token id="119">diejenigen</token>
+    <token id="120">,</token>
+    <token id="121">die</token>
+    <token id="122">es</token>
+    <token id="123">heute</token>
+    <token id="124">nicht</token>
+    <token id="125">so</token>
+    <token id="126">gut</token>
+    <token id="127">haben</token>
+    <token id="128">,</token>
+    <token id="129">einem</token>
+    <token id="130">das</token>
+    <token id="131">eigene</token>
+    <token id="132">Glück</token>
+    <token id="133">ja</token>
+    <token id="134">noch</token>
+    <token id="135">deutlicher</token>
+    <token id="136">bewusst</token>
+    <token id="137">.</token>
+    <token id="138">Vielleicht</token>
+    <token id="139">halten</token>
+    <token id="140">solche</token>
+    <token id="141">Gedanken</token>
+    <token id="142">auch</token>
+    <token id="143">wach</token>
+    <token id="144">,</token>
+    <token id="145">damit</token>
+    <token id="146">man</token>
+    <token id="147">nicht</token>
+    <token id="148">verpasst</token>
+    <token id="149">zu</token>
+    <token id="150">helfen</token>
+    <token id="151">,</token>
+    <token id="152">wenn</token>
+    <token id="153">sich</token>
+    <token id="154">die</token>
+    <token id="155">Gelegenheit</token>
+    <token id="156">dazu</token>
+    <token id="157">bietet</token>
+    <token id="158">.</token>
+    <token id="159">Wer</token>
+    <token id="160">will</token>
+    <token id="161">daran</token>
+    <token id="162">zweifeln</token>
+    <token id="163">:</token>
+    <token id="164">Weihnachten</token>
+    <token id="165">sollte</token>
+    <token id="166">mehr</token>
+    <token id="167">sein</token>
+    <token id="168">als</token>
+    <token id="169">fettes</token>
+    <token id="170">Essen</token>
+    <token id="171">und</token>
+    <token id="172">Geschenke</token>
+    <token id="173">.</token>
+    <token id="174">In</token>
+    <token id="175">diesem</token>
+    <token id="176">Sinne</token>
+    <token id="177">wünscht</token>
+    <token id="178">die</token>
+    <token id="179">MAZ</token>
+    <token id="180">allen</token>
+    <token id="181">Lesern</token>
+    <token id="182">ein</token>
+    <token id="183">ebenso</token>
+    <token id="184">fröhliches</token>
+    <token id="185">wie</token>
+    <token id="186">besinnliches</token>
+    <token id="187">Fest</token>
+    <token id="188">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="2" pdtb3_sense="Contingency.Purpose.Arg2-as-goal" type="explicit">
+      <connective_tokens>
+        <connective_token id="23" token="um"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="12" token="Am"/>
+        <ext_arg_token id="13" token="Sonnabend"/>
+        <ext_arg_token id="14" token="hetzten"/>
+        <ext_arg_token id="15" token="nicht"/>
+        <ext_arg_token id="16" token="wenige"/>
+        <ext_arg_token id="17" token="noch"/>
+        <ext_arg_token id="18" token="von"/>
+        <ext_arg_token id="19" token="Geschäft"/>
+        <ext_arg_token id="20" token="zu"/>
+        <ext_arg_token id="21" token="Geschäft"/>
+        <ext_arg_token id="22" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="24" token="die"/>
+        <int_arg_token id="25" token="letzten"/>
+        <int_arg_token id="26" token="Einkäufe"/>
+        <int_arg_token id="27" token="zu"/>
+        <int_arg_token id="28" token="erledigen"/>
+        <int_arg_token id="29" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="50" token="Doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="30" token="Manchem"/>
+        <ext_arg_token id="31" token="schien"/>
+        <ext_arg_token id="32" token="erst"/>
+        <ext_arg_token id="33" token="jetzt"/>
+        <ext_arg_token id="34" token="eingefallen"/>
+        <ext_arg_token id="35" token="zu"/>
+        <ext_arg_token id="36" token="sein"/>
+        <ext_arg_token id="37" token=","/>
+        <ext_arg_token id="38" token="dass"/>
+        <ext_arg_token id="39" token="man"/>
+        <ext_arg_token id="40" token="am"/>
+        <ext_arg_token id="41" token="heutigen"/>
+        <ext_arg_token id="42" token="Heiligen"/>
+        <ext_arg_token id="43" token="Abend"/>
+        <ext_arg_token id="44" token="seinen"/>
+        <ext_arg_token id="45" token="Lieben"/>
+        <ext_arg_token id="46" token="etwas"/>
+        <ext_arg_token id="47" token="schenken"/>
+        <ext_arg_token id="48" token="könnte"/>
+        <ext_arg_token id="49" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="51" token="nicht"/>
+        <int_arg_token id="52" token="nur"/>
+        <int_arg_token id="53" token="wegen"/>
+        <int_arg_token id="54" token="solcher"/>
+        <int_arg_token id="55" token="Vergesslichkeit"/>
+        <int_arg_token id="56" token="werden"/>
+        <int_arg_token id="57" token="auch"/>
+        <int_arg_token id="58" token="heute"/>
+        <int_arg_token id="59" token="Abend"/>
+        <int_arg_token id="60" token="wieder"/>
+        <int_arg_token id="61" token="viele"/>
+        <int_arg_token id="62" token="Menschen"/>
+        <int_arg_token id="63" token="ohne"/>
+        <int_arg_token id="64" token="eine"/>
+        <int_arg_token id="65" token="Liebesgabe"/>
+        <int_arg_token id="66" token="auskommen"/>
+        <int_arg_token id="67" token="müssen"/>
+        <int_arg_token id="68" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Contingency.Purpose.Arg2-as-goal" type="explicit">
+      <connective_tokens>
+        <connective_token id="145" token="damit"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="138" token="Vielleicht"/>
+        <ext_arg_token id="139" token="halten"/>
+        <ext_arg_token id="140" token="solche"/>
+        <ext_arg_token id="141" token="Gedanken"/>
+        <ext_arg_token id="142" token="auch"/>
+        <ext_arg_token id="143" token="wach"/>
+        <ext_arg_token id="144" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="146" token="man"/>
+        <int_arg_token id="147" token="nicht"/>
+        <int_arg_token id="148" token="verpasst"/>
+        <int_arg_token id="149" token="zu"/>
+        <int_arg_token id="150" token="helfen"/>
+        <int_arg_token id="151" token=","/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Contingency.Condition.Arg2-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="152" token="wenn"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="153" token="sich"/>
+        <int_arg_token id="154" token="die"/>
+        <int_arg_token id="155" token="Gelegenheit"/>
+        <int_arg_token id="156" token="dazu"/>
+        <int_arg_token id="157" token="bietet"/>
+        <int_arg_token id="158" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="138" token="Vielleicht"/>
+        <ext_arg_token id="139" token="halten"/>
+        <ext_arg_token id="140" token="solche"/>
+        <ext_arg_token id="141" token="Gedanken"/>
+        <ext_arg_token id="142" token="auch"/>
+        <ext_arg_token id="143" token="wach"/>
+        <ext_arg_token id="144" token=","/>
+        <ext_arg_token id="145" token="damit"/>
+        <ext_arg_token id="146" token="man"/>
+        <ext_arg_token id="147" token="nicht"/>
+        <ext_arg_token id="148" token="verpasst"/>
+        <ext_arg_token id="149" token="zu"/>
+        <ext_arg_token id="150" token="helfen"/>
+        <ext_arg_token id="151" token=","/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>genauer gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="4" token="Alle"/>
+        <ext_arg_token id="5" token="Jahre"/>
+        <ext_arg_token id="6" token="wieder"/>
+        <ext_arg_token id="7" token="Stress"/>
+        <ext_arg_token id="8" token="vor"/>
+        <ext_arg_token id="9" token="dem"/>
+        <ext_arg_token id="10" token="Fest"/>
+        <ext_arg_token id="11" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="12" token="Am"/>
+        <int_arg_token id="13" token="Sonnabend"/>
+        <int_arg_token id="14" token="hetzten"/>
+        <int_arg_token id="15" token="nicht"/>
+        <int_arg_token id="16" token="wenige"/>
+        <int_arg_token id="17" token="noch"/>
+        <int_arg_token id="18" token="von"/>
+        <int_arg_token id="19" token="Geschäft"/>
+        <int_arg_token id="20" token="zu"/>
+        <int_arg_token id="21" token="Geschäft"/>
+        <int_arg_token id="22" token=","/>
+        <int_arg_token id="23" token="um"/>
+        <int_arg_token id="24" token="die"/>
+        <int_arg_token id="25" token="letzten"/>
+        <int_arg_token id="26" token="Einkäufe"/>
+        <int_arg_token id="27" token="zu"/>
+        <int_arg_token id="28" token="erledigen"/>
+        <int_arg_token id="29" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="12" token="Am"/>
+        <ext_arg_token id="13" token="Sonnabend"/>
+        <ext_arg_token id="14" token="hetzten"/>
+        <ext_arg_token id="15" token="nicht"/>
+        <ext_arg_token id="16" token="wenige"/>
+        <ext_arg_token id="17" token="noch"/>
+        <ext_arg_token id="18" token="von"/>
+        <ext_arg_token id="19" token="Geschäft"/>
+        <ext_arg_token id="20" token="zu"/>
+        <ext_arg_token id="21" token="Geschäft"/>
+        <ext_arg_token id="22" token=","/>
+        <ext_arg_token id="23" token="um"/>
+        <ext_arg_token id="24" token="die"/>
+        <ext_arg_token id="25" token="letzten"/>
+        <ext_arg_token id="26" token="Einkäufe"/>
+        <ext_arg_token id="27" token="zu"/>
+        <ext_arg_token id="28" token="erledigen"/>
+        <ext_arg_token id="29" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="30" token="Manchem"/>
+        <int_arg_token id="31" token="schien"/>
+        <int_arg_token id="32" token="erst"/>
+        <int_arg_token id="33" token="jetzt"/>
+        <int_arg_token id="34" token="eingefallen"/>
+        <int_arg_token id="35" token="zu"/>
+        <int_arg_token id="36" token="sein"/>
+        <int_arg_token id="37" token=","/>
+        <int_arg_token id="38" token="dass"/>
+        <int_arg_token id="39" token="man"/>
+        <int_arg_token id="40" token="am"/>
+        <int_arg_token id="41" token="heutigen"/>
+        <int_arg_token id="42" token="Heiligen"/>
+        <int_arg_token id="43" token="Abend"/>
+        <int_arg_token id="44" token="seinen"/>
+        <int_arg_token id="45" token="Lieben"/>
+        <int_arg_token id="46" token="etwas"/>
+        <int_arg_token id="47" token="schenken"/>
+        <int_arg_token id="48" token="könnte"/>
+        <int_arg_token id="49" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>denn</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="50" token="Doch"/>
+        <ext_arg_token id="51" token="nicht"/>
+        <ext_arg_token id="52" token="nur"/>
+        <ext_arg_token id="53" token="wegen"/>
+        <ext_arg_token id="54" token="solcher"/>
+        <ext_arg_token id="55" token="Vergesslichkeit"/>
+        <ext_arg_token id="56" token="werden"/>
+        <ext_arg_token id="57" token="auch"/>
+        <ext_arg_token id="58" token="heute"/>
+        <ext_arg_token id="59" token="Abend"/>
+        <ext_arg_token id="60" token="wieder"/>
+        <ext_arg_token id="61" token="viele"/>
+        <ext_arg_token id="62" token="Menschen"/>
+        <ext_arg_token id="63" token="ohne"/>
+        <ext_arg_token id="64" token="eine"/>
+        <ext_arg_token id="65" token="Liebesgabe"/>
+        <ext_arg_token id="66" token="auskommen"/>
+        <ext_arg_token id="67" token="müssen"/>
+        <ext_arg_token id="68" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="69" token="Häufig"/>
+        <int_arg_token id="70" token="werden"/>
+        <int_arg_token id="71" token="sie"/>
+        <int_arg_token id="72" token="über"/>
+        <int_arg_token id="73" token="all"/>
+        <int_arg_token id="74" token="dem"/>
+        <int_arg_token id="75" token="Feiertagstrubel"/>
+        <int_arg_token id="76" token="wirklich"/>
+        <int_arg_token id="77" token="vergessen"/>
+        <int_arg_token id="78" token=","/>
+        <int_arg_token id="79" token="die"/>
+        <int_arg_token id="80" token="Alten"/>
+        <int_arg_token id="81" token="und"/>
+        <int_arg_token id="82" token="Einsamen"/>
+        <int_arg_token id="83" token=","/>
+        <int_arg_token id="84" token="die"/>
+        <int_arg_token id="85" token="Flüchtlinge"/>
+        <int_arg_token id="86" token="und"/>
+        <int_arg_token id="87" token="Asylsuchenden"/>
+        <int_arg_token id="88" token=","/>
+        <int_arg_token id="89" token="die"/>
+        <int_arg_token id="90" token="Heimatlosen"/>
+        <int_arg_token id="91" token=","/>
+        <int_arg_token id="92" token="Hungernden"/>
+        <int_arg_token id="93" token=","/>
+        <int_arg_token id="94" token="Kranken"/>
+        <int_arg_token id="95" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Comparison.Contrast" type="AltLex">
+      <connective_tokens>
+	<connective_token id="109" token="Ganz"/>
+	<connective_token id="110" token="im"/>
+	<connective_token id="111" token="Gegenteil"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="96" token="Die"/>
+        <ext_arg_token id="97" token="Erinnerung"/>
+        <ext_arg_token id="98" token="an"/>
+        <ext_arg_token id="99" token="diese"/>
+        <ext_arg_token id="100" token="Verlierer"/>
+        <ext_arg_token id="101" token="unserer"/>
+        <ext_arg_token id="102" token="Zeit"/>
+        <ext_arg_token id="103" token="sollte"/>
+        <ext_arg_token id="104" token="niemandem"/>
+        <ext_arg_token id="105" token="sein"/>
+        <ext_arg_token id="106" token="Weihnachtsfest"/>
+        <ext_arg_token id="107" token="vermiesen"/>
+        <ext_arg_token id="108" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="109" token="Ganz"/>
+        <int_arg_token id="110" token="im"/>
+        <int_arg_token id="111" token="Gegenteil"/>
+        <int_arg_token id="112" token=":"/>
+        <int_arg_token id="113" token="Vielleicht"/>
+        <int_arg_token id="114" token="machen"/>
+        <int_arg_token id="115" token="ein"/>
+        <int_arg_token id="116" token="paar"/>
+        <int_arg_token id="117" token="Gedanken"/>
+        <int_arg_token id="118" token="an"/>
+        <int_arg_token id="119" token="diejenigen"/>
+        <int_arg_token id="120" token=","/>
+        <int_arg_token id="121" token="die"/>
+        <int_arg_token id="122" token="es"/>
+        <int_arg_token id="123" token="heute"/>
+        <int_arg_token id="124" token="nicht"/>
+        <int_arg_token id="125" token="so"/>
+        <int_arg_token id="126" token="gut"/>
+        <int_arg_token id="127" token="haben"/>
+        <int_arg_token id="128" token=","/>
+        <int_arg_token id="129" token="einem"/>
+        <int_arg_token id="130" token="das"/>
+        <int_arg_token id="131" token="eigene"/>
+        <int_arg_token id="132" token="Glück"/>
+        <int_arg_token id="133" token="ja"/>
+        <int_arg_token id="134" token="noch"/>
+        <int_arg_token id="135" token="deutlicher"/>
+        <int_arg_token id="136" token="bewusst"/>
+        <int_arg_token id="137" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="138" token="Vielleicht"/>
+        <ext_arg_token id="139" token="halten"/>
+        <ext_arg_token id="140" token="solche"/>
+        <ext_arg_token id="141" token="Gedanken"/>
+        <ext_arg_token id="142" token="auch"/>
+        <ext_arg_token id="143" token="wach"/>
+        <ext_arg_token id="144" token=","/>
+        <ext_arg_token id="145" token="damit"/>
+        <ext_arg_token id="146" token="man"/>
+        <ext_arg_token id="147" token="nicht"/>
+        <ext_arg_token id="148" token="verpasst"/>
+        <ext_arg_token id="149" token="zu"/>
+        <ext_arg_token id="150" token="helfen"/>
+        <ext_arg_token id="151" token=","/>
+        <ext_arg_token id="152" token="wenn"/>
+        <ext_arg_token id="153" token="sich"/>
+        <ext_arg_token id="154" token="die"/>
+        <ext_arg_token id="155" token="Gelegenheit"/>
+        <ext_arg_token id="156" token="dazu"/>
+        <ext_arg_token id="157" token="bietet"/>
+        <ext_arg_token id="158" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="159" token="Wer"/>
+        <int_arg_token id="160" token="will"/>
+        <int_arg_token id="161" token="daran"/>
+        <int_arg_token id="162" token="zweifeln"/>
+        <int_arg_token id="163" token=":"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>nämlich</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="159" token="Wer"/>
+        <ext_arg_token id="160" token="will"/>
+        <ext_arg_token id="161" token="daran"/>
+        <ext_arg_token id="162" token="zweifeln"/>
+        <ext_arg_token id="163" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="164" token="Weihnachten"/>
+        <int_arg_token id="165" token="sollte"/>
+        <int_arg_token id="166" token="mehr"/>
+        <int_arg_token id="167" token="sein"/>
+        <int_arg_token id="168" token="als"/>
+        <int_arg_token id="169" token="fettes"/>
+        <int_arg_token id="170" token="Essen"/>
+        <int_arg_token id="171" token="und"/>
+        <int_arg_token id="172" token="Geschenke"/>
+        <int_arg_token id="173" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

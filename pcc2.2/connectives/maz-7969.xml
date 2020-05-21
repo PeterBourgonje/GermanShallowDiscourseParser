@@ -1,0 +1,622 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Schwierige</token>
+    <token id="2">Geburt</token>
+    <token id="3">Die</token>
+    <token id="4">Geburt</token>
+    <token id="5">war</token>
+    <token id="6">denkbar</token>
+    <token id="7">schwer</token>
+    <token id="8">,</token>
+    <token id="9">doch</token>
+    <token id="10">jetzt</token>
+    <token id="11">hat</token>
+    <token id="12">das</token>
+    <token id="13">Kind</token>
+    <token id="14">sogar</token>
+    <token id="15">schon</token>
+    <token id="16">einen</token>
+    <token id="17">Namen</token>
+    <token id="18">:</token>
+    <token id="19">Ein</token>
+    <token id="20">"</token>
+    <token id="21">Humboldt-Forum</token>
+    <token id="22">"</token>
+    <token id="23">soll</token>
+    <token id="24">anstelle</token>
+    <token id="25">des</token>
+    <token id="26">einstigen</token>
+    <token id="27">Berliner</token>
+    <token id="28">Stadtschlosses</token>
+    <token id="29">entstehen</token>
+    <token id="30">.</token>
+    <token id="31">Diese</token>
+    <token id="32">Empfehlung</token>
+    <token id="33">sprach</token>
+    <token id="34">gestern</token>
+    <token id="35">die</token>
+    <token id="36">Expertenkomission</token>
+    <token id="37">"</token>
+    <token id="38">Historische</token>
+    <token id="39">Mitte</token>
+    <token id="40">Berlins</token>
+    <token id="41">"</token>
+    <token id="42">aus</token>
+    <token id="43">.</token>
+    <token id="44">Das</token>
+    <token id="45">Forum</token>
+    <token id="46">soll</token>
+    <token id="47">die</token>
+    <token id="48">Fassade</token>
+    <token id="49">und</token>
+    <token id="50">die</token>
+    <token id="51">Dimensionen</token>
+    <token id="52">des</token>
+    <token id="53">1950</token>
+    <token id="54">gesprengten</token>
+    <token id="55">Schlosses</token>
+    <token id="56">erhalten</token>
+    <token id="57">und</token>
+    <token id="58">die</token>
+    <token id="59">Berliner</token>
+    <token id="60">Landesbibliothek</token>
+    <token id="61">,</token>
+    <token id="62">Museen</token>
+    <token id="63">und</token>
+    <token id="64">Konzertsäle</token>
+    <token id="65">aufnehmen</token>
+    <token id="66">.</token>
+    <token id="67">Endlich</token>
+    <token id="68">eine</token>
+    <token id="69">Perspektive</token>
+    <token id="70">für</token>
+    <token id="71">den</token>
+    <token id="72">Schlossplatz</token>
+    <token id="73">nach</token>
+    <token id="74">einem</token>
+    <token id="75">Jahrzehnt</token>
+    <token id="76">der</token>
+    <token id="77">Agonie</token>
+    <token id="78">,</token>
+    <token id="79">möchte</token>
+    <token id="80">man</token>
+    <token id="81">aufseufzen</token>
+    <token id="82">.</token>
+    <token id="83">Die</token>
+    <token id="84">mühselige</token>
+    <token id="85">Debatte</token>
+    <token id="86">um</token>
+    <token id="87">das</token>
+    <token id="88">ob</token>
+    <token id="89">und</token>
+    <token id="90">wie</token>
+    <token id="91">der</token>
+    <token id="92">Schloss-Rekonstruktion</token>
+    <token id="93">gehört</token>
+    <token id="94">zu</token>
+    <token id="95">den</token>
+    <token id="96">ärgerlichsten</token>
+    <token id="97">Episoden</token>
+    <token id="98">der</token>
+    <token id="99">Berliner</token>
+    <token id="100">Stadtentwicklungspolitik</token>
+    <token id="101">.</token>
+    <token id="102">Es</token>
+    <token id="103">ist</token>
+    <token id="104">ja</token>
+    <token id="105">richtig</token>
+    <token id="106">,</token>
+    <token id="107">über</token>
+    <token id="108">diese</token>
+    <token id="109">Dinge</token>
+    <token id="110">zu</token>
+    <token id="111">streiten</token>
+    <token id="112">,</token>
+    <token id="113">doch</token>
+    <token id="114">welche</token>
+    <token id="115">andere</token>
+    <token id="116">Hauptstadt</token>
+    <token id="117">würde</token>
+    <token id="118">es</token>
+    <token id="119">sich</token>
+    <token id="120">leisten</token>
+    <token id="121">,</token>
+    <token id="122">ausufernden</token>
+    <token id="123">Grundsatzdebatten</token>
+    <token id="124">zuliebe</token>
+    <token id="125">ihre</token>
+    <token id="126">"</token>
+    <token id="127">gute</token>
+    <token id="128">Stube</token>
+    <token id="129">"</token>
+    <token id="130">für</token>
+    <token id="131">zehn</token>
+    <token id="132">Jahre</token>
+    <token id="133">dem</token>
+    <token id="134">Unkraut</token>
+    <token id="135">zu</token>
+    <token id="136">überlassen</token>
+    <token id="137">?</token>
+    <token id="138">Mit</token>
+    <token id="139">ihrer</token>
+    <token id="140">Entscheidungsschwäche</token>
+    <token id="141">in</token>
+    <token id="142">Sachen</token>
+    <token id="143">Schloss</token>
+    <token id="144">hat</token>
+    <token id="145">sich</token>
+    <token id="146">die</token>
+    <token id="147">Berliner</token>
+    <token id="148">Stadtpolitik</token>
+    <token id="149">ein</token>
+    <token id="150">Armutszeugnis</token>
+    <token id="151">ausgestellt</token>
+    <token id="152">.</token>
+    <token id="153">Jetzt</token>
+    <token id="154">ist</token>
+    <token id="155">die</token>
+    <token id="156">Zeit</token>
+    <token id="157">des</token>
+    <token id="158">Diskutierens</token>
+    <token id="159">abgelaufen</token>
+    <token id="160">-</token>
+    <token id="161">wichtig</token>
+    <token id="162">ist</token>
+    <token id="163">,</token>
+    <token id="164">dass</token>
+    <token id="165">endlich</token>
+    <token id="166">etwas</token>
+    <token id="167">passiert</token>
+    <token id="168">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="9" token="doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Die"/>
+        <ext_arg_token id="4" token="Geburt"/>
+        <ext_arg_token id="5" token="war"/>
+        <ext_arg_token id="6" token="denkbar"/>
+        <ext_arg_token id="7" token="schwer"/>
+        <ext_arg_token id="8" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="10" token="jetzt"/>
+        <int_arg_token id="11" token="hat"/>
+        <int_arg_token id="12" token="das"/>
+        <int_arg_token id="13" token="Kind"/>
+        <int_arg_token id="14" token="sogar"/>
+        <int_arg_token id="15" token="schon"/>
+        <int_arg_token id="16" token="einen"/>
+        <int_arg_token id="17" token="Namen"/>
+        <int_arg_token id="18" token=":"/>
+        <int_arg_token id="19" token="Ein"/>
+        <int_arg_token id="20" token="&quot;"/>
+        <int_arg_token id="21" token="Humboldt-Forum"/>
+        <int_arg_token id="22" token="&quot;"/>
+        <int_arg_token id="23" token="soll"/>
+        <int_arg_token id="24" token="anstelle"/>
+        <int_arg_token id="25" token="des"/>
+        <int_arg_token id="26" token="einstigen"/>
+        <int_arg_token id="27" token="Berliner"/>
+        <int_arg_token id="28" token="Stadtschlosses"/>
+        <int_arg_token id="29" token="entstehen"/>
+        <int_arg_token id="30" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="2" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="57" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="44" token="Das"/>
+        <ext_arg_token id="45" token="Forum"/>
+        <ext_arg_token id="46" token="soll"/>
+        <ext_arg_token id="47" token="die"/>
+        <ext_arg_token id="48" token="Fassade"/>
+        <ext_arg_token id="49" token="und"/>
+        <ext_arg_token id="50" token="die"/>
+        <ext_arg_token id="51" token="Dimensionen"/>
+        <ext_arg_token id="52" token="des"/>
+        <ext_arg_token id="53" token="1950"/>
+        <ext_arg_token id="54" token="gesprengten"/>
+        <ext_arg_token id="55" token="Schlosses"/>
+        <ext_arg_token id="56" token="erhalten"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="58" token="die"/>
+        <int_arg_token id="59" token="Berliner"/>
+        <int_arg_token id="60" token="Landesbibliothek"/>
+        <int_arg_token id="61" token=","/>
+        <int_arg_token id="62" token="Museen"/>
+        <int_arg_token id="63" token="und"/>
+        <int_arg_token id="64" token="Konzertsäle"/>
+        <int_arg_token id="65" token="aufnehmen"/>
+        <int_arg_token id="66" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="113" token="doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="102" token="Es"/>
+        <ext_arg_token id="103" token="ist"/>
+        <ext_arg_token id="104" token="ja"/>
+        <ext_arg_token id="105" token="richtig"/>
+        <ext_arg_token id="106" token=","/>
+        <ext_arg_token id="107" token="über"/>
+        <ext_arg_token id="108" token="diese"/>
+        <ext_arg_token id="109" token="Dinge"/>
+        <ext_arg_token id="110" token="zu"/>
+        <ext_arg_token id="111" token="streiten"/>
+        <ext_arg_token id="112" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="114" token="welche"/>
+        <int_arg_token id="115" token="andere"/>
+        <int_arg_token id="116" token="Hauptstadt"/>
+        <int_arg_token id="117" token="würde"/>
+        <int_arg_token id="118" token="es"/>
+        <int_arg_token id="119" token="sich"/>
+        <int_arg_token id="120" token="leisten"/>
+        <int_arg_token id="121" token=","/>
+        <int_arg_token id="122" token="ausufernden"/>
+        <int_arg_token id="123" token="Grundsatzdebatten"/>
+        <int_arg_token id="124" token="zuliebe"/>
+        <int_arg_token id="125" token="ihre"/>
+        <int_arg_token id="126" token="&quot;"/>
+        <int_arg_token id="127" token="gute"/>
+        <int_arg_token id="128" token="Stube"/>
+        <int_arg_token id="129" token="&quot;"/>
+        <int_arg_token id="130" token="für"/>
+        <int_arg_token id="131" token="zehn"/>
+        <int_arg_token id="132" token="Jahre"/>
+        <int_arg_token id="133" token="dem"/>
+        <int_arg_token id="134" token="Unkraut"/>
+        <int_arg_token id="135" token="zu"/>
+        <int_arg_token id="136" token="überlassen"/>
+        <int_arg_token id="137" token="?"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" type="EntRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="19" token="Ein"/>
+        <ext_arg_token id="20" token="&quot;"/>
+        <ext_arg_token id="21" token="Humboldt-Forum"/>
+        <ext_arg_token id="22" token="&quot;"/>
+        <ext_arg_token id="23" token="soll"/>
+        <ext_arg_token id="24" token="anstelle"/>
+        <ext_arg_token id="25" token="des"/>
+        <ext_arg_token id="26" token="einstigen"/>
+        <ext_arg_token id="27" token="Berliner"/>
+        <ext_arg_token id="28" token="Stadtschlosses"/>
+        <ext_arg_token id="29" token="entstehen"/>
+        <ext_arg_token id="30" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="31" token="Diese"/>
+        <int_arg_token id="32" token="Empfehlung"/>
+        <int_arg_token id="33" token="sprach"/>
+        <int_arg_token id="34" token="gestern"/>
+        <int_arg_token id="35" token="die"/>
+        <int_arg_token id="36" token="Expertenkomission"/>
+        <int_arg_token id="37" token="&quot;"/>
+        <int_arg_token id="38" token="Historische"/>
+        <int_arg_token id="39" token="Mitte"/>
+        <int_arg_token id="40" token="Berlins"/>
+        <int_arg_token id="41" token="&quot;"/>
+        <int_arg_token id="42" token="aus"/>
+        <int_arg_token id="43" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="31" token="Diese"/>
+        <ext_arg_token id="32" token="Empfehlung"/>
+        <ext_arg_token id="33" token="sprach"/>
+        <ext_arg_token id="34" token="gestern"/>
+        <ext_arg_token id="35" token="die"/>
+        <ext_arg_token id="36" token="Expertenkomission"/>
+        <ext_arg_token id="37" token="&quot;"/>
+        <ext_arg_token id="38" token="Historische"/>
+        <ext_arg_token id="39" token="Mitte"/>
+        <ext_arg_token id="40" token="Berlins"/>
+        <ext_arg_token id="41" token="&quot;"/>
+        <ext_arg_token id="42" token="aus"/>
+        <ext_arg_token id="43" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="44" token="Das"/>
+        <int_arg_token id="45" token="Forum"/>
+        <int_arg_token id="46" token="soll"/>
+        <int_arg_token id="47" token="die"/>
+        <int_arg_token id="48" token="Fassade"/>
+        <int_arg_token id="49" token="und"/>
+        <int_arg_token id="50" token="die"/>
+        <int_arg_token id="51" token="Dimensionen"/>
+        <int_arg_token id="52" token="des"/>
+        <int_arg_token id="53" token="1950"/>
+        <int_arg_token id="54" token="gesprengten"/>
+        <int_arg_token id="55" token="Schlosses"/>
+        <int_arg_token id="56" token="erhalten"/>
+        <int_arg_token id="57" token="und"/>
+        <int_arg_token id="58" token="die"/>
+        <int_arg_token id="59" token="Berliner"/>
+        <int_arg_token id="60" token="Landesbibliothek"/>
+        <int_arg_token id="61" token=","/>
+        <int_arg_token id="62" token="Museen"/>
+        <int_arg_token id="63" token="und"/>
+        <int_arg_token id="64" token="Konzertsäle"/>
+        <int_arg_token id="65" token="aufnehmen"/>
+        <int_arg_token id="66" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="44" token="Das"/>
+        <ext_arg_token id="45" token="Forum"/>
+        <ext_arg_token id="46" token="soll"/>
+        <ext_arg_token id="47" token="die"/>
+        <ext_arg_token id="48" token="Fassade"/>
+        <ext_arg_token id="49" token="und"/>
+        <ext_arg_token id="50" token="die"/>
+        <ext_arg_token id="51" token="Dimensionen"/>
+        <ext_arg_token id="52" token="des"/>
+        <ext_arg_token id="53" token="1950"/>
+        <ext_arg_token id="54" token="gesprengten"/>
+        <ext_arg_token id="55" token="Schlosses"/>
+        <ext_arg_token id="56" token="erhalten"/>
+        <ext_arg_token id="57" token="und"/>
+        <ext_arg_token id="58" token="die"/>
+        <ext_arg_token id="59" token="Berliner"/>
+        <ext_arg_token id="60" token="Landesbibliothek"/>
+        <ext_arg_token id="61" token=","/>
+        <ext_arg_token id="62" token="Museen"/>
+        <ext_arg_token id="63" token="und"/>
+        <ext_arg_token id="64" token="Konzertsäle"/>
+        <ext_arg_token id="65" token="aufnehmen"/>
+        <ext_arg_token id="66" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="67" token="Endlich"/>
+        <int_arg_token id="68" token="eine"/>
+        <int_arg_token id="69" token="Perspektive"/>
+        <int_arg_token id="70" token="für"/>
+        <int_arg_token id="71" token="den"/>
+        <int_arg_token id="72" token="Schlossplatz"/>
+        <int_arg_token id="73" token="nach"/>
+        <int_arg_token id="74" token="einem"/>
+        <int_arg_token id="75" token="Jahrzehnt"/>
+        <int_arg_token id="76" token="der"/>
+        <int_arg_token id="77" token="Agonie"/>
+        <int_arg_token id="78" token=","/>
+        <int_arg_token id="79" token="möchte"/>
+        <int_arg_token id="80" token="man"/>
+        <int_arg_token id="81" token="aufseufzen"/>
+        <int_arg_token id="82" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="67" token="Endlich"/>
+        <ext_arg_token id="68" token="eine"/>
+        <ext_arg_token id="69" token="Perspektive"/>
+        <ext_arg_token id="70" token="für"/>
+        <ext_arg_token id="71" token="den"/>
+        <ext_arg_token id="72" token="Schlossplatz"/>
+        <ext_arg_token id="73" token="nach"/>
+        <ext_arg_token id="74" token="einem"/>
+        <ext_arg_token id="75" token="Jahrzehnt"/>
+        <ext_arg_token id="76" token="der"/>
+        <ext_arg_token id="77" token="Agonie"/>
+        <ext_arg_token id="78" token=","/>
+        <ext_arg_token id="79" token="möchte"/>
+        <ext_arg_token id="80" token="man"/>
+        <ext_arg_token id="81" token="aufseufzen"/>
+        <ext_arg_token id="82" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="83" token="Die"/>
+        <int_arg_token id="84" token="mühselige"/>
+        <int_arg_token id="85" token="Debatte"/>
+        <int_arg_token id="86" token="um"/>
+        <int_arg_token id="87" token="das"/>
+        <int_arg_token id="88" token="ob"/>
+        <int_arg_token id="89" token="und"/>
+        <int_arg_token id="90" token="wie"/>
+        <int_arg_token id="91" token="der"/>
+        <int_arg_token id="92" token="Schloss-Rekonstruktion"/>
+        <int_arg_token id="93" token="gehört"/>
+        <int_arg_token id="94" token="zu"/>
+        <int_arg_token id="95" token="den"/>
+        <int_arg_token id="96" token="ärgerlichsten"/>
+        <int_arg_token id="97" token="Episoden"/>
+        <int_arg_token id="98" token="der"/>
+        <int_arg_token id="99" token="Berliner"/>
+        <int_arg_token id="100" token="Stadtentwicklungspolitik"/>
+        <int_arg_token id="101" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" type="EntRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="83" token="Die"/>
+        <ext_arg_token id="84" token="mühselige"/>
+        <ext_arg_token id="85" token="Debatte"/>
+        <ext_arg_token id="86" token="um"/>
+        <ext_arg_token id="87" token="das"/>
+        <ext_arg_token id="88" token="ob"/>
+        <ext_arg_token id="89" token="und"/>
+        <ext_arg_token id="90" token="wie"/>
+        <ext_arg_token id="91" token="der"/>
+        <ext_arg_token id="92" token="Schloss-Rekonstruktion"/>
+        <ext_arg_token id="93" token="gehört"/>
+        <ext_arg_token id="94" token="zu"/>
+        <ext_arg_token id="95" token="den"/>
+        <ext_arg_token id="96" token="ärgerlichsten"/>
+        <ext_arg_token id="97" token="Episoden"/>
+        <ext_arg_token id="98" token="der"/>
+        <ext_arg_token id="99" token="Berliner"/>
+        <ext_arg_token id="100" token="Stadtentwicklungspolitik"/>
+        <ext_arg_token id="101" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="102" token="Es"/>
+        <int_arg_token id="103" token="ist"/>
+        <int_arg_token id="104" token="ja"/>
+        <int_arg_token id="105" token="richtig"/>
+        <int_arg_token id="106" token=","/>
+        <int_arg_token id="107" token="über"/>
+        <int_arg_token id="108" token="diese"/>
+        <int_arg_token id="109" token="Dinge"/>
+        <int_arg_token id="110" token="zu"/>
+        <int_arg_token id="111" token="streiten"/>
+        <int_arg_token id="112" token=","/>
+        <int_arg_token id="113" token="doch"/>
+        <int_arg_token id="114" token="welche"/>
+        <int_arg_token id="115" token="andere"/>
+        <int_arg_token id="116" token="Hauptstadt"/>
+        <int_arg_token id="117" token="würde"/>
+        <int_arg_token id="118" token="es"/>
+        <int_arg_token id="119" token="sich"/>
+        <int_arg_token id="120" token="leisten"/>
+        <int_arg_token id="121" token=","/>
+        <int_arg_token id="122" token="ausufernden"/>
+        <int_arg_token id="123" token="Grundsatzdebatten"/>
+        <int_arg_token id="124" token="zuliebe"/>
+        <int_arg_token id="125" token="ihre"/>
+        <int_arg_token id="126" token="&quot;"/>
+        <int_arg_token id="127" token="gute"/>
+        <int_arg_token id="128" token="Stube"/>
+        <int_arg_token id="129" token="&quot;"/>
+        <int_arg_token id="130" token="für"/>
+        <int_arg_token id="131" token="zehn"/>
+        <int_arg_token id="132" token="Jahre"/>
+        <int_arg_token id="133" token="dem"/>
+        <int_arg_token id="134" token="Unkraut"/>
+        <int_arg_token id="135" token="zu"/>
+        <int_arg_token id="136" token="überlassen"/>
+        <int_arg_token id="137" token="?"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Expansion.Level-of-detail.Arg1-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>kurz gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="102" token="Es"/>
+        <ext_arg_token id="103" token="ist"/>
+        <ext_arg_token id="104" token="ja"/>
+        <ext_arg_token id="105" token="richtig"/>
+        <ext_arg_token id="106" token=","/>
+        <ext_arg_token id="107" token="über"/>
+        <ext_arg_token id="108" token="diese"/>
+        <ext_arg_token id="109" token="Dinge"/>
+        <ext_arg_token id="110" token="zu"/>
+        <ext_arg_token id="111" token="streiten"/>
+        <ext_arg_token id="112" token=","/>
+        <ext_arg_token id="113" token="doch"/>
+        <ext_arg_token id="114" token="welche"/>
+        <ext_arg_token id="115" token="andere"/>
+        <ext_arg_token id="116" token="Hauptstadt"/>
+        <ext_arg_token id="117" token="würde"/>
+        <ext_arg_token id="118" token="es"/>
+        <ext_arg_token id="119" token="sich"/>
+        <ext_arg_token id="120" token="leisten"/>
+        <ext_arg_token id="121" token=","/>
+        <ext_arg_token id="122" token="ausufernden"/>
+        <ext_arg_token id="123" token="Grundsatzdebatten"/>
+        <ext_arg_token id="124" token="zuliebe"/>
+        <ext_arg_token id="125" token="ihre"/>
+        <ext_arg_token id="126" token="&quot;"/>
+        <ext_arg_token id="127" token="gute"/>
+        <ext_arg_token id="128" token="Stube"/>
+        <ext_arg_token id="129" token="&quot;"/>
+        <ext_arg_token id="130" token="für"/>
+        <ext_arg_token id="131" token="zehn"/>
+        <ext_arg_token id="132" token="Jahre"/>
+        <ext_arg_token id="133" token="dem"/>
+        <ext_arg_token id="134" token="Unkraut"/>
+        <ext_arg_token id="135" token="zu"/>
+        <ext_arg_token id="136" token="überlassen"/>
+        <ext_arg_token id="137" token="?"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="138" token="Mit"/>
+        <int_arg_token id="139" token="ihrer"/>
+        <int_arg_token id="140" token="Entscheidungsschwäche"/>
+        <int_arg_token id="141" token="in"/>
+        <int_arg_token id="142" token="Sachen"/>
+        <int_arg_token id="143" token="Schloss"/>
+        <int_arg_token id="144" token="hat"/>
+        <int_arg_token id="145" token="sich"/>
+        <int_arg_token id="146" token="die"/>
+        <int_arg_token id="147" token="Berliner"/>
+        <int_arg_token id="148" token="Stadtpolitik"/>
+        <int_arg_token id="149" token="ein"/>
+        <int_arg_token id="150" token="Armutszeugnis"/>
+        <int_arg_token id="151" token="ausgestellt"/>
+        <int_arg_token id="152" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="153" token="Jetzt"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="138" token="Mit"/>
+        <ext_arg_token id="139" token="ihrer"/>
+        <ext_arg_token id="140" token="Entscheidungsschwäche"/>
+        <ext_arg_token id="141" token="in"/>
+        <ext_arg_token id="142" token="Sachen"/>
+        <ext_arg_token id="143" token="Schloss"/>
+        <ext_arg_token id="144" token="hat"/>
+        <ext_arg_token id="145" token="sich"/>
+        <ext_arg_token id="146" token="die"/>
+        <ext_arg_token id="147" token="Berliner"/>
+        <ext_arg_token id="148" token="Stadtpolitik"/>
+        <ext_arg_token id="149" token="ein"/>
+        <ext_arg_token id="150" token="Armutszeugnis"/>
+        <ext_arg_token id="151" token="ausgestellt"/>
+        <ext_arg_token id="152" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="153" token="Jetzt"/>
+        <int_arg_token id="154" token="ist"/>
+        <int_arg_token id="155" token="die"/>
+        <int_arg_token id="156" token="Zeit"/>
+        <int_arg_token id="157" token="des"/>
+        <int_arg_token id="158" token="Diskutierens"/>
+        <int_arg_token id="159" token="abgelaufen"/>
+        <int_arg_token id="160" token="-"/>
+        <int_arg_token id="161" token="wichtig"/>
+        <int_arg_token id="162" token="ist"/>
+        <int_arg_token id="163" token=","/>
+        <int_arg_token id="164" token="dass"/>
+        <int_arg_token id="165" token="endlich"/>
+        <int_arg_token id="166" token="etwas"/>
+        <int_arg_token id="167" token="passiert"/>
+        <int_arg_token id="168" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

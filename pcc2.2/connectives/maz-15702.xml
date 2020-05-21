@@ -1,0 +1,650 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Eigentlich</token>
+    <token id="2">fehlt</token>
+    <token id="3">ja</token>
+    <token id="4">keiner</token>
+    <token id="5">...</token>
+    <token id="6">Von</token>
+    <token id="7">spektakulären</token>
+    <token id="8">Ausbrüchen</token>
+    <token id="9">aus</token>
+    <token id="10">den</token>
+    <token id="11">Gefängnissen</token>
+    <token id="12">ist</token>
+    <token id="13">Justizminister</token>
+    <token id="14">Schelter</token>
+    <token id="15">bislang</token>
+    <token id="16">verschont</token>
+    <token id="17">geblieben</token>
+    <token id="18">.</token>
+    <token id="19">Für</token>
+    <token id="20">seine</token>
+    <token id="21">Amtszeit</token>
+    <token id="22">verbucht</token>
+    <token id="23">die</token>
+    <token id="24">Justizchronik</token>
+    <token id="25">nun</token>
+    <token id="26">aber</token>
+    <token id="27">einen</token>
+    <token id="28">Vorgang</token>
+    <token id="29">der</token>
+    <token id="30">besonderen</token>
+    <token id="31">Art</token>
+    <token id="32">.</token>
+    <token id="33">Die</token>
+    <token id="34">Haftanstalt</token>
+    <token id="35">in</token>
+    <token id="36">Spremberg</token>
+    <token id="37">hat</token>
+    <token id="38">am</token>
+    <token id="39">Dienstag</token>
+    <token id="40">einen</token>
+    <token id="41">Häftling</token>
+    <token id="42">freigelassen</token>
+    <token id="43">,</token>
+    <token id="44">der</token>
+    <token id="45">gar</token>
+    <token id="46">nicht</token>
+    <token id="47">zur</token>
+    <token id="48">Entlassung</token>
+    <token id="49">anstand</token>
+    <token id="50">.</token>
+    <token id="51">Schlicht</token>
+    <token id="52">durch</token>
+    <token id="53">eine</token>
+    <token id="54">Namensverwechslung</token>
+    <token id="55">konnte</token>
+    <token id="56">der</token>
+    <token id="57">verurteilte</token>
+    <token id="58">Dieb</token>
+    <token id="59">das</token>
+    <token id="60">Gefängnistor</token>
+    <token id="61">passieren</token>
+    <token id="62">.</token>
+    <token id="63">Seither</token>
+    <token id="64">ist</token>
+    <token id="65">er</token>
+    <token id="66">verschwunden</token>
+    <token id="67">.</token>
+    <token id="68">Gefährlich</token>
+    <token id="69">sei</token>
+    <token id="70">er</token>
+    <token id="71">nicht</token>
+    <token id="72">,</token>
+    <token id="73">beeilte</token>
+    <token id="74">sich</token>
+    <token id="75">das</token>
+    <token id="76">Justizministerium</token>
+    <token id="77">gestern</token>
+    <token id="78">mitzuteilen</token>
+    <token id="79">,</token>
+    <token id="80">aber</token>
+    <token id="81">-</token>
+    <token id="82">klar</token>
+    <token id="83">doch</token>
+    <token id="84">-</token>
+    <token id="85">in</token>
+    <token id="86">die</token>
+    <token id="87">Freiheit</token>
+    <token id="88">gehört</token>
+    <token id="89">er</token>
+    <token id="90">auch</token>
+    <token id="91">noch</token>
+    <token id="92">nicht</token>
+    <token id="93">.</token>
+    <token id="94">Der</token>
+    <token id="95">Minister</token>
+    <token id="96">muss</token>
+    <token id="97">sich</token>
+    <token id="98">natürlich</token>
+    <token id="99">fragen</token>
+    <token id="100">lassen</token>
+    <token id="101">,</token>
+    <token id="102">was</token>
+    <token id="103">in</token>
+    <token id="104">Spremberg</token>
+    <token id="105">los</token>
+    <token id="106">ist</token>
+    <token id="107">.</token>
+    <token id="108">Da</token>
+    <token id="109">bekommt</token>
+    <token id="110">einer</token>
+    <token id="111">Entlassungspapiere</token>
+    <token id="112">,</token>
+    <token id="113">nur</token>
+    <token id="114">weil</token>
+    <token id="115">er</token>
+    <token id="116">zufällig</token>
+    <token id="117">den</token>
+    <token id="118">selben</token>
+    <token id="119">Nachnamen</token>
+    <token id="120">wie</token>
+    <token id="121">ein</token>
+    <token id="122">Mitgefangener</token>
+    <token id="123">trägt</token>
+    <token id="124">.</token>
+    <token id="125">Und</token>
+    <token id="126">hätte</token>
+    <token id="127">die</token>
+    <token id="128">Frau</token>
+    <token id="129">des</token>
+    <token id="130">eigentlich</token>
+    <token id="131">zu</token>
+    <token id="132">Entlassenden</token>
+    <token id="133">nicht</token>
+    <token id="134">nachgefragt</token>
+    <token id="135">,</token>
+    <token id="136">wo</token>
+    <token id="137">ihr</token>
+    <token id="138">Mann</token>
+    <token id="139">eigentlich</token>
+    <token id="140">bleibt</token>
+    <token id="141">,</token>
+    <token id="142">wäre</token>
+    <token id="143">der</token>
+    <token id="144">falsche</token>
+    <token id="145">Abgänger</token>
+    <token id="146">vielleicht</token>
+    <token id="147">noch</token>
+    <token id="148">immer</token>
+    <token id="149">nicht</token>
+    <token id="150">aufgefallen</token>
+    <token id="151">.</token>
+    <token id="152">In</token>
+    <token id="153">Spremberg</token>
+    <token id="154">verfahren</token>
+    <token id="155">die</token>
+    <token id="156">Wärter</token>
+    <token id="157">offenbar</token>
+    <token id="158">nach</token>
+    <token id="159">der</token>
+    <token id="160">einfachen</token>
+    <token id="161">Rechnung</token>
+    <token id="162">:</token>
+    <token id="163">Hauptsache</token>
+    <token id="164">die</token>
+    <token id="165">Gesamtzahl</token>
+    <token id="166">stimmt</token>
+    <token id="167">,</token>
+    <token id="168">wenn</token>
+    <token id="169">abends</token>
+    <token id="170">zugeschlossen</token>
+    <token id="171">wird</token>
+    <token id="172">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="26" token="aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="6" token="Von"/>
+        <ext_arg_token id="7" token="spektakulären"/>
+        <ext_arg_token id="8" token="Ausbrüchen"/>
+        <ext_arg_token id="9" token="aus"/>
+        <ext_arg_token id="10" token="den"/>
+        <ext_arg_token id="11" token="Gefängnissen"/>
+        <ext_arg_token id="12" token="ist"/>
+        <ext_arg_token id="13" token="Justizminister"/>
+        <ext_arg_token id="14" token="Schelter"/>
+        <ext_arg_token id="15" token="bislang"/>
+        <ext_arg_token id="16" token="verschont"/>
+        <ext_arg_token id="17" token="geblieben"/>
+        <ext_arg_token id="18" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="19" token="Für"/>
+        <int_arg_token id="20" token="seine"/>
+        <int_arg_token id="21" token="Amtszeit"/>
+        <int_arg_token id="22" token="verbucht"/>
+        <int_arg_token id="23" token="die"/>
+        <int_arg_token id="24" token="Justizchronik"/>
+        <int_arg_token id="25" token="nun"/>
+        <int_arg_token id="27" token="einen"/>
+        <int_arg_token id="28" token="Vorgang"/>
+        <int_arg_token id="29" token="der"/>
+        <int_arg_token id="30" token="besonderen"/>
+        <int_arg_token id="31" token="Art"/>
+        <int_arg_token id="32" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="2" pdtb3_sense="Temporal.Asynchronous.Precedence" type="explicit">
+      <connective_tokens>
+        <connective_token id="63" token="Seither"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="51" token="Schlicht"/>
+        <ext_arg_token id="52" token="durch"/>
+        <ext_arg_token id="53" token="eine"/>
+        <ext_arg_token id="54" token="Namensverwechslung"/>
+        <ext_arg_token id="55" token="konnte"/>
+        <ext_arg_token id="56" token="der"/>
+        <ext_arg_token id="57" token="verurteilte"/>
+        <ext_arg_token id="58" token="Dieb"/>
+        <ext_arg_token id="59" token="das"/>
+        <ext_arg_token id="60" token="Gefängnistor"/>
+        <ext_arg_token id="61" token="passieren"/>
+        <ext_arg_token id="62" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="64" token="ist"/>
+        <int_arg_token id="65" token="er"/>
+        <int_arg_token id="66" token="verschwunden"/>
+        <int_arg_token id="67" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="80" token="aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="68" token="Gefährlich"/>
+        <ext_arg_token id="69" token="sei"/>
+        <ext_arg_token id="70" token="er"/>
+        <ext_arg_token id="71" token="nicht"/>
+        <ext_arg_token id="72" token=","/>
+        <ext_arg_token id="73" token="beeilte"/>
+        <ext_arg_token id="74" token="sich"/>
+        <ext_arg_token id="75" token="das"/>
+        <ext_arg_token id="76" token="Justizministerium"/>
+        <ext_arg_token id="77" token="gestern"/>
+        <ext_arg_token id="78" token="mitzuteilen"/>
+        <ext_arg_token id="79" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="81" token="-"/>
+        <int_arg_token id="82" token="klar"/>
+        <int_arg_token id="83" token="doch"/>
+        <int_arg_token id="84" token="-"/>
+        <int_arg_token id="85" token="in"/>
+        <int_arg_token id="86" token="die"/>
+        <int_arg_token id="87" token="Freiheit"/>
+        <int_arg_token id="88" token="gehört"/>
+        <int_arg_token id="89" token="er"/>
+        <int_arg_token id="90" token="auch"/>
+        <int_arg_token id="91" token="noch"/>
+        <int_arg_token id="92" token="nicht"/>
+        <int_arg_token id="93" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="125" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="108" token="Da"/>
+        <ext_arg_token id="109" token="bekommt"/>
+        <ext_arg_token id="110" token="einer"/>
+        <ext_arg_token id="111" token="Entlassungspapiere"/>
+        <ext_arg_token id="112" token=","/>
+        <ext_arg_token id="113" token="nur"/>
+        <ext_arg_token id="114" token="weil"/>
+        <ext_arg_token id="115" token="er"/>
+        <ext_arg_token id="116" token="zufällig"/>
+        <ext_arg_token id="117" token="den"/>
+        <ext_arg_token id="118" token="selben"/>
+        <ext_arg_token id="119" token="Nachnamen"/>
+        <ext_arg_token id="120" token="wie"/>
+        <ext_arg_token id="121" token="ein"/>
+        <ext_arg_token id="122" token="Mitgefangener"/>
+        <ext_arg_token id="123" token="trägt"/>
+        <ext_arg_token id="124" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="126" token="hätte"/>
+        <int_arg_token id="127" token="die"/>
+        <int_arg_token id="128" token="Frau"/>
+        <int_arg_token id="129" token="des"/>
+        <int_arg_token id="130" token="eigentlich"/>
+        <int_arg_token id="131" token="zu"/>
+        <int_arg_token id="132" token="Entlassenden"/>
+        <int_arg_token id="133" token="nicht"/>
+        <int_arg_token id="134" token="nachgefragt"/>
+        <int_arg_token id="135" token=","/>
+        <int_arg_token id="136" token="wo"/>
+        <int_arg_token id="137" token="ihr"/>
+        <int_arg_token id="138" token="Mann"/>
+        <int_arg_token id="139" token="eigentlich"/>
+        <int_arg_token id="140" token="bleibt"/>
+        <int_arg_token id="141" token=","/>
+        <int_arg_token id="142" token="wäre"/>
+        <int_arg_token id="143" token="der"/>
+        <int_arg_token id="144" token="falsche"/>
+        <int_arg_token id="145" token="Abgänger"/>
+        <int_arg_token id="146" token="vielleicht"/>
+        <int_arg_token id="147" token="noch"/>
+        <int_arg_token id="148" token="immer"/>
+        <int_arg_token id="149" token="nicht"/>
+        <int_arg_token id="150" token="aufgefallen"/>
+        <int_arg_token id="151" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="52" token="durch"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="53" token="eine"/>
+        <int_arg_token id="54" token="Namensverwechslung"/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="51" token="Schlicht"/>
+        <ext_arg_token id="55" token="konnte"/>
+        <ext_arg_token id="56" token="der"/>
+        <ext_arg_token id="57" token="verurteilte"/>
+        <ext_arg_token id="58" token="Dieb"/>
+        <ext_arg_token id="59" token="das"/>
+        <ext_arg_token id="60" token="Gefängnistor"/>
+        <ext_arg_token id="61" token="passieren"/>
+        <ext_arg_token id="62" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Temporal.Synchronous" type="explicit">
+      <connective_tokens>
+        <connective_token id="168" token="wenn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="163" token="Hauptsache"/>
+        <ext_arg_token id="164" token="die"/>
+        <ext_arg_token id="165" token="Gesamtzahl"/>
+        <ext_arg_token id="166" token="stimmt"/>
+        <ext_arg_token id="167" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="169" token="abends"/>
+        <int_arg_token id="170" token="zugeschlossen"/>
+        <int_arg_token id="171" token="wird"/>
+        <int_arg_token id="172" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und zwar</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="19" token="Für"/>
+        <ext_arg_token id="20" token="seine"/>
+        <ext_arg_token id="21" token="Amtszeit"/>
+        <ext_arg_token id="22" token="verbucht"/>
+        <ext_arg_token id="23" token="die"/>
+        <ext_arg_token id="24" token="Justizchronik"/>
+        <ext_arg_token id="25" token="nun"/>
+        <ext_arg_token id="26" token="aber"/>
+        <ext_arg_token id="27" token="einen"/>
+        <ext_arg_token id="28" token="Vorgang"/>
+        <ext_arg_token id="29" token="der"/>
+        <ext_arg_token id="30" token="besonderen"/>
+        <ext_arg_token id="31" token="Art"/>
+        <ext_arg_token id="32" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="33" token="Die"/>
+        <int_arg_token id="34" token="Haftanstalt"/>
+        <int_arg_token id="35" token="in"/>
+        <int_arg_token id="36" token="Spremberg"/>
+        <int_arg_token id="37" token="hat"/>
+        <int_arg_token id="38" token="am"/>
+        <int_arg_token id="39" token="Dienstag"/>
+        <int_arg_token id="40" token="einen"/>
+        <int_arg_token id="41" token="Häftling"/>
+        <int_arg_token id="42" token="freigelassen"/>
+        <int_arg_token id="43" token=","/>
+        <int_arg_token id="44" token="der"/>
+        <int_arg_token id="45" token="gar"/>
+        <int_arg_token id="46" token="nicht"/>
+        <int_arg_token id="47" token="zur"/>
+        <int_arg_token id="48" token="Entlassung"/>
+        <int_arg_token id="49" token="anstand"/>
+        <int_arg_token id="50" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Expansion.Equivalence" type="implicit">
+      <connective_tokens>
+        <implicit_connective>anders gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="33" token="Die"/>
+        <ext_arg_token id="34" token="Haftanstalt"/>
+        <ext_arg_token id="35" token="in"/>
+        <ext_arg_token id="36" token="Spremberg"/>
+        <ext_arg_token id="37" token="hat"/>
+        <ext_arg_token id="38" token="am"/>
+        <ext_arg_token id="39" token="Dienstag"/>
+        <ext_arg_token id="40" token="einen"/>
+        <ext_arg_token id="41" token="Häftling"/>
+        <ext_arg_token id="42" token="freigelassen"/>
+        <ext_arg_token id="43" token=","/>
+        <ext_arg_token id="44" token="der"/>
+        <ext_arg_token id="45" token="gar"/>
+        <ext_arg_token id="46" token="nicht"/>
+        <ext_arg_token id="47" token="zur"/>
+        <ext_arg_token id="48" token="Entlassung"/>
+        <ext_arg_token id="49" token="anstand"/>
+        <ext_arg_token id="50" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="51" token="Schlicht"/>
+        <int_arg_token id="52" token="durch"/>
+        <int_arg_token id="53" token="eine"/>
+        <int_arg_token id="54" token="Namensverwechslung"/>
+        <int_arg_token id="55" token="konnte"/>
+        <int_arg_token id="56" token="der"/>
+        <int_arg_token id="57" token="verurteilte"/>
+        <int_arg_token id="58" token="Dieb"/>
+        <int_arg_token id="59" token="das"/>
+        <int_arg_token id="60" token="Gefängnistor"/>
+        <int_arg_token id="61" token="passieren"/>
+        <int_arg_token id="62" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" type="EntRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="63" token="Seither"/>
+        <ext_arg_token id="64" token="ist"/>
+        <ext_arg_token id="65" token="er"/>
+        <ext_arg_token id="66" token="verschwunden"/>
+        <ext_arg_token id="67" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="68" token="Gefährlich"/>
+        <int_arg_token id="69" token="sei"/>
+        <int_arg_token id="70" token="er"/>
+        <int_arg_token id="71" token="nicht"/>
+        <int_arg_token id="72" token=","/>
+        <int_arg_token id="73" token="beeilte"/>
+        <int_arg_token id="74" token="sich"/>
+        <int_arg_token id="75" token="das"/>
+        <int_arg_token id="76" token="Justizministerium"/>
+        <int_arg_token id="77" token="gestern"/>
+        <int_arg_token id="78" token="mitzuteilen"/>
+        <int_arg_token id="79" token=","/>
+        <int_arg_token id="80" token="aber"/>
+        <int_arg_token id="81" token="-"/>
+        <int_arg_token id="82" token="klar"/>
+        <int_arg_token id="83" token="doch"/>
+        <int_arg_token id="84" token="-"/>
+        <int_arg_token id="85" token="in"/>
+        <int_arg_token id="86" token="die"/>
+        <int_arg_token id="87" token="Freiheit"/>
+        <int_arg_token id="88" token="gehört"/>
+        <int_arg_token id="89" token="er"/>
+        <int_arg_token id="90" token="auch"/>
+        <int_arg_token id="91" token="noch"/>
+        <int_arg_token id="92" token="nicht"/>
+        <int_arg_token id="93" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>deswegen</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="68" token="Gefährlich"/>
+        <ext_arg_token id="69" token="sei"/>
+        <ext_arg_token id="70" token="er"/>
+        <ext_arg_token id="71" token="nicht"/>
+        <ext_arg_token id="72" token=","/>
+        <ext_arg_token id="73" token="beeilte"/>
+        <ext_arg_token id="74" token="sich"/>
+        <ext_arg_token id="75" token="das"/>
+        <ext_arg_token id="76" token="Justizministerium"/>
+        <ext_arg_token id="77" token="gestern"/>
+        <ext_arg_token id="78" token="mitzuteilen"/>
+        <ext_arg_token id="79" token=","/>
+        <ext_arg_token id="80" token="aber"/>
+        <ext_arg_token id="81" token="-"/>
+        <ext_arg_token id="82" token="klar"/>
+        <ext_arg_token id="83" token="doch"/>
+        <ext_arg_token id="84" token="-"/>
+        <ext_arg_token id="85" token="in"/>
+        <ext_arg_token id="86" token="die"/>
+        <ext_arg_token id="87" token="Freiheit"/>
+        <ext_arg_token id="88" token="gehört"/>
+        <ext_arg_token id="89" token="er"/>
+        <ext_arg_token id="90" token="auch"/>
+        <ext_arg_token id="91" token="noch"/>
+        <ext_arg_token id="92" token="nicht"/>
+        <ext_arg_token id="93" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="94" token="Der"/>
+        <int_arg_token id="95" token="Minister"/>
+        <int_arg_token id="96" token="muss"/>
+        <int_arg_token id="97" token="sich"/>
+        <int_arg_token id="98" token="natürlich"/>
+        <int_arg_token id="99" token="fragen"/>
+        <int_arg_token id="100" token="lassen"/>
+        <int_arg_token id="101" token=","/>
+        <int_arg_token id="102" token="was"/>
+        <int_arg_token id="103" token="in"/>
+        <int_arg_token id="104" token="Spremberg"/>
+        <int_arg_token id="105" token="los"/>
+        <int_arg_token id="106" token="ist"/>
+        <int_arg_token id="107" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="94" token="Der"/>
+        <ext_arg_token id="95" token="Minister"/>
+        <ext_arg_token id="96" token="muss"/>
+        <ext_arg_token id="97" token="sich"/>
+        <ext_arg_token id="98" token="natürlich"/>
+        <ext_arg_token id="99" token="fragen"/>
+        <ext_arg_token id="100" token="lassen"/>
+        <ext_arg_token id="101" token=","/>
+        <ext_arg_token id="102" token="was"/>
+        <ext_arg_token id="103" token="in"/>
+        <ext_arg_token id="104" token="Spremberg"/>
+        <ext_arg_token id="105" token="los"/>
+        <ext_arg_token id="106" token="ist"/>
+        <ext_arg_token id="107" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="108" token="Da"/>
+        <int_arg_token id="109" token="bekommt"/>
+        <int_arg_token id="110" token="einer"/>
+        <int_arg_token id="111" token="Entlassungspapiere"/>
+        <int_arg_token id="112" token=","/>
+        <int_arg_token id="113" token="nur"/>
+        <int_arg_token id="114" token="weil"/>
+        <int_arg_token id="115" token="er"/>
+        <int_arg_token id="116" token="zufällig"/>
+        <int_arg_token id="117" token="den"/>
+        <int_arg_token id="118" token="selben"/>
+        <int_arg_token id="119" token="Nachnamen"/>
+        <int_arg_token id="120" token="wie"/>
+        <int_arg_token id="121" token="ein"/>
+        <int_arg_token id="122" token="Mitgefangener"/>
+        <int_arg_token id="123" token="trägt"/>
+        <int_arg_token id="124" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="125" token="Und"/>
+        <ext_arg_token id="126" token="hätte"/>
+        <ext_arg_token id="127" token="die"/>
+        <ext_arg_token id="128" token="Frau"/>
+        <ext_arg_token id="129" token="des"/>
+        <ext_arg_token id="130" token="eigentlich"/>
+        <ext_arg_token id="131" token="zu"/>
+        <ext_arg_token id="132" token="Entlassenden"/>
+        <ext_arg_token id="133" token="nicht"/>
+        <ext_arg_token id="134" token="nachgefragt"/>
+        <ext_arg_token id="135" token=","/>
+        <ext_arg_token id="136" token="wo"/>
+        <ext_arg_token id="137" token="ihr"/>
+        <ext_arg_token id="138" token="Mann"/>
+        <ext_arg_token id="139" token="eigentlich"/>
+        <ext_arg_token id="140" token="bleibt"/>
+        <ext_arg_token id="141" token=","/>
+        <ext_arg_token id="142" token="wäre"/>
+        <ext_arg_token id="143" token="der"/>
+        <ext_arg_token id="144" token="falsche"/>
+        <ext_arg_token id="145" token="Abgänger"/>
+        <ext_arg_token id="146" token="vielleicht"/>
+        <ext_arg_token id="147" token="noch"/>
+        <ext_arg_token id="148" token="immer"/>
+        <ext_arg_token id="149" token="nicht"/>
+        <ext_arg_token id="150" token="aufgefallen"/>
+        <ext_arg_token id="151" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="152" token="In"/>
+        <int_arg_token id="153" token="Spremberg"/>
+        <int_arg_token id="154" token="verfahren"/>
+        <int_arg_token id="155" token="die"/>
+        <int_arg_token id="156" token="Wärter"/>
+        <int_arg_token id="157" token="offenbar"/>
+        <int_arg_token id="158" token="nach"/>
+        <int_arg_token id="159" token="der"/>
+        <int_arg_token id="160" token="einfachen"/>
+        <int_arg_token id="161" token="Rechnung"/>
+        <int_arg_token id="162" token=":"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>nämlich</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="152" token="In"/>
+        <ext_arg_token id="153" token="Spremberg"/>
+        <ext_arg_token id="154" token="verfahren"/>
+        <ext_arg_token id="155" token="die"/>
+        <ext_arg_token id="156" token="Wärter"/>
+        <ext_arg_token id="157" token="offenbar"/>
+        <ext_arg_token id="158" token="nach"/>
+        <ext_arg_token id="159" token="der"/>
+        <ext_arg_token id="160" token="einfachen"/>
+        <ext_arg_token id="161" token="Rechnung"/>
+        <ext_arg_token id="162" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="163" token="Hauptsache"/>
+        <int_arg_token id="164" token="die"/>
+        <int_arg_token id="165" token="Gesamtzahl"/>
+        <int_arg_token id="166" token="stimmt"/>
+        <int_arg_token id="167" token=","/>
+        <int_arg_token id="168" token="wenn"/>
+        <int_arg_token id="169" token="abends"/>
+        <int_arg_token id="170" token="zugeschlossen"/>
+        <int_arg_token id="171" token="wird"/>
+        <int_arg_token id="172" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Zweck</token>
+    <token id="2">heiligt</token>
+    <token id="3">Mittel</token>
+    <token id="4">nicht</token>
+    <token id="5">Die</token>
+    <token id="6">Verwaltungsspitze</token>
+    <token id="7">des</token>
+    <token id="8">Kreises</token>
+    <token id="9">Potsdam-Mittelmark</token>
+    <token id="10">gerät</token>
+    <token id="11">einmal</token>
+    <token id="12">mehr</token>
+    <token id="13">unter</token>
+    <token id="14">Druck</token>
+    <token id="15">.</token>
+    <token id="16">Nicht</token>
+    <token id="17">zum</token>
+    <token id="18">ersten</token>
+    <token id="19">Mal</token>
+    <token id="20">steht</token>
+    <token id="21">die</token>
+    <token id="22">wirtschaftliche</token>
+    <token id="23">Betätigung</token>
+    <token id="24">der</token>
+    <token id="25">Tochtergesellschaften</token>
+    <token id="26">mit</token>
+    <token id="27">ihren</token>
+    <token id="28">vielfältigen</token>
+    <token id="29">und</token>
+    <token id="30">offenkundig</token>
+    <token id="31">schwer</token>
+    <token id="32">überschaubaren</token>
+    <token id="33">Verflechtungen</token>
+    <token id="34">in</token>
+    <token id="35">der</token>
+    <token id="36">Kritik</token>
+    <token id="37">.</token>
+    <token id="38">Die</token>
+    <token id="39">diesmal</token>
+    <token id="40">schwerwiegenden</token>
+    <token id="41">Vorwürfe</token>
+    <token id="42">müssen</token>
+    <token id="43">nun</token>
+    <token id="44">von</token>
+    <token id="45">der</token>
+    <token id="46">Staatsanwaltschaft</token>
+    <token id="47">unter</token>
+    <token id="48">die</token>
+    <token id="49">Lupe</token>
+    <token id="50">genommen</token>
+    <token id="51">werden</token>
+    <token id="52">-</token>
+    <token id="53">nicht</token>
+    <token id="54">gerade</token>
+    <token id="55">eine</token>
+    <token id="56">Empfehlung</token>
+    <token id="57">für</token>
+    <token id="58">die</token>
+    <token id="59">am</token>
+    <token id="60">Donnerstag</token>
+    <token id="61">geplante</token>
+    <token id="62">Wiederwahl</token>
+    <token id="63">von</token>
+    <token id="64">Landrat</token>
+    <token id="65">Lothar</token>
+    <token id="66">Koch</token>
+    <token id="67">(</token>
+    <token id="68">SPD</token>
+    <token id="69">)</token>
+    <token id="70">.</token>
+    <token id="71">Warnungen</token>
+    <token id="72">vor</token>
+    <token id="73">einer</token>
+    <token id="74">ausufernden</token>
+    <token id="75">Geschäftstätigkeit</token>
+    <token id="76">des</token>
+    <token id="77">Kreises</token>
+    <token id="78">Potsdam-Mittelmark</token>
+    <token id="79">hat</token>
+    <token id="80">es</token>
+    <token id="81">oft</token>
+    <token id="82">genug</token>
+    <token id="83">gegeben</token>
+    <token id="84">.</token>
+    <token id="85">Sie</token>
+    <token id="86">wurden</token>
+    <token id="87">ignoriert</token>
+    <token id="88">.</token>
+    <token id="89">Verkehrsgesellschaften</token>
+    <token id="90">,</token>
+    <token id="91">Krankenhaus-GmbH</token>
+    <token id="92">oder</token>
+    <token id="93">Abfallwirtschaftsbetrieb</token>
+    <token id="94">stehen</token>
+    <token id="95">außerhalb</token>
+    <token id="96">der</token>
+    <token id="97">Kritik</token>
+    <token id="98">,</token>
+    <token id="99">diese</token>
+    <token id="100">Unternehmen</token>
+    <token id="101">erledigen</token>
+    <token id="102">Aufgaben</token>
+    <token id="103">der</token>
+    <token id="104">Daseinsvorsorge</token>
+    <token id="105">.</token>
+    <token id="106">Dass</token>
+    <token id="107">aber</token>
+    <token id="108">etwa</token>
+    <token id="109">bei</token>
+    <token id="110">der</token>
+    <token id="111">ABU-Service-GmbH</token>
+    <token id="112">oder</token>
+    <token id="113">nun</token>
+    <token id="114">auch</token>
+    <token id="115">bei</token>
+    <token id="116">der</token>
+    <token id="117">Gesundheitszentrum-GmbH</token>
+    <token id="118">der</token>
+    <token id="119">zunächst</token>
+    <token id="120">gut</token>
+    <token id="121">gemeinte</token>
+    <token id="122">soziale</token>
+    <token id="123">Zweck</token>
+    <token id="124">alle</token>
+    <token id="125">Mittel</token>
+    <token id="126">der</token>
+    <token id="127">geschäftlichen</token>
+    <token id="128">Betätigung</token>
+    <token id="129">heiligen</token>
+    <token id="130">soll</token>
+    <token id="131">,</token>
+    <token id="132">ist</token>
+    <token id="133">nicht</token>
+    <token id="134">nachvollziehbar</token>
+    <token id="135">.</token>
+    <token id="136">Erst</token>
+    <token id="137">recht</token>
+    <token id="138">nicht</token>
+    <token id="139">,</token>
+    <token id="140">wenn</token>
+    <token id="141">sich</token>
+    <token id="142">der</token>
+    <token id="143">Verdacht</token>
+    <token id="144">bestätigt</token>
+    <token id="145">,</token>
+    <token id="146">dass</token>
+    <token id="147">der</token>
+    <token id="148">Kreis</token>
+    <token id="149">Potsdam-Mittelmark</token>
+    <token id="150">so</token>
+    <token id="151">verantwortungslos</token>
+    <token id="152">wie</token>
+    <token id="153">in</token>
+    <token id="154">der</token>
+    <token id="155">anonymen</token>
+    <token id="156">Anzeige</token>
+    <token id="157">geschildert</token>
+    <token id="158">mit</token>
+    <token id="159">Steuergeld</token>
+    <token id="160">und</token>
+    <token id="161">Gebühreneinnahmen</token>
+    <token id="162">umgeht</token>
+    <token id="163">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="4" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="107" token="aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="89" token="Verkehrsgesellschaften"/>
+        <ext_arg_token id="90" token=","/>
+        <ext_arg_token id="91" token="Krankenhaus-GmbH"/>
+        <ext_arg_token id="92" token="oder"/>
+        <ext_arg_token id="93" token="Abfallwirtschaftsbetrieb"/>
+        <ext_arg_token id="94" token="stehen"/>
+        <ext_arg_token id="95" token="außerhalb"/>
+        <ext_arg_token id="96" token="der"/>
+        <ext_arg_token id="97" token="Kritik"/>
+        <ext_arg_token id="98" token=","/>
+        <ext_arg_token id="99" token="diese"/>
+        <ext_arg_token id="100" token="Unternehmen"/>
+        <ext_arg_token id="101" token="erledigen"/>
+        <ext_arg_token id="102" token="Aufgaben"/>
+        <ext_arg_token id="103" token="der"/>
+        <ext_arg_token id="104" token="Daseinsvorsorge"/>
+        <ext_arg_token id="105" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="106" token="Dass"/>
+        <int_arg_token id="108" token="etwa"/>
+        <int_arg_token id="109" token="bei"/>
+        <int_arg_token id="110" token="der"/>
+        <int_arg_token id="111" token="ABU-Service-GmbH"/>
+        <int_arg_token id="112" token="oder"/>
+        <int_arg_token id="113" token="nun"/>
+        <int_arg_token id="114" token="auch"/>
+        <int_arg_token id="115" token="bei"/>
+        <int_arg_token id="116" token="der"/>
+        <int_arg_token id="117" token="Gesundheitszentrum-GmbH"/>
+        <int_arg_token id="118" token="der"/>
+        <int_arg_token id="119" token="zunächst"/>
+        <int_arg_token id="120" token="gut"/>
+        <int_arg_token id="121" token="gemeinte"/>
+        <int_arg_token id="122" token="soziale"/>
+        <int_arg_token id="123" token="Zweck"/>
+        <int_arg_token id="124" token="alle"/>
+        <int_arg_token id="125" token="Mittel"/>
+        <int_arg_token id="126" token="der"/>
+        <int_arg_token id="127" token="geschäftlichen"/>
+        <int_arg_token id="128" token="Betätigung"/>
+        <int_arg_token id="129" token="heiligen"/>
+        <int_arg_token id="130" token="soll"/>
+        <int_arg_token id="131" token=","/>
+        <int_arg_token id="132" token="ist"/>
+        <int_arg_token id="133" token="nicht"/>
+        <int_arg_token id="134" token="nachvollziehbar"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Contingency.Condition.Arg2-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="140" token="wenn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="136" token="Erst"/>
+        <ext_arg_token id="137" token="recht"/>
+        <ext_arg_token id="138" token="nicht"/>
+        <ext_arg_token id="139" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="141" token="sich"/>
+        <int_arg_token id="142" token="der"/>
+        <int_arg_token id="143" token="Verdacht"/>
+        <int_arg_token id="144" token="bestätigt"/>
+        <int_arg_token id="145" token=","/>
+        <int_arg_token id="146" token="dass"/>
+        <int_arg_token id="147" token="der"/>
+        <int_arg_token id="148" token="Kreis"/>
+        <int_arg_token id="149" token="Potsdam-Mittelmark"/>
+        <int_arg_token id="150" token="so"/>
+        <int_arg_token id="151" token="verantwortungslos"/>
+        <int_arg_token id="152" token="wie"/>
+        <int_arg_token id="153" token="in"/>
+        <int_arg_token id="154" token="der"/>
+        <int_arg_token id="155" token="anonymen"/>
+        <int_arg_token id="156" token="Anzeige"/>
+        <int_arg_token id="157" token="geschildert"/>
+        <int_arg_token id="158" token="mit"/>
+        <int_arg_token id="159" token="Steuergeld"/>
+        <int_arg_token id="160" token="und"/>
+        <int_arg_token id="161" token="Gebühreneinnahmen"/>
+        <int_arg_token id="162" token="umgeht"/>
+        <int_arg_token id="163" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="5" token="Die"/>
+        <ext_arg_token id="6" token="Verwaltungsspitze"/>
+        <ext_arg_token id="7" token="des"/>
+        <ext_arg_token id="8" token="Kreises"/>
+        <ext_arg_token id="9" token="Potsdam-Mittelmark"/>
+        <ext_arg_token id="10" token="gerät"/>
+        <ext_arg_token id="11" token="einmal"/>
+        <ext_arg_token id="12" token="mehr"/>
+        <ext_arg_token id="13" token="unter"/>
+        <ext_arg_token id="14" token="Druck"/>
+        <ext_arg_token id="15" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="16" token="Nicht"/>
+        <int_arg_token id="17" token="zum"/>
+        <int_arg_token id="18" token="ersten"/>
+        <int_arg_token id="19" token="Mal"/>
+        <int_arg_token id="20" token="steht"/>
+        <int_arg_token id="21" token="die"/>
+        <int_arg_token id="22" token="wirtschaftliche"/>
+        <int_arg_token id="23" token="Betätigung"/>
+        <int_arg_token id="24" token="der"/>
+        <int_arg_token id="25" token="Tochtergesellschaften"/>
+        <int_arg_token id="26" token="mit"/>
+        <int_arg_token id="27" token="ihren"/>
+        <int_arg_token id="28" token="vielfältigen"/>
+        <int_arg_token id="29" token="und"/>
+        <int_arg_token id="30" token="offenkundig"/>
+        <int_arg_token id="31" token="schwer"/>
+        <int_arg_token id="32" token="überschaubaren"/>
+        <int_arg_token id="33" token="Verflechtungen"/>
+        <int_arg_token id="34" token="in"/>
+        <int_arg_token id="35" token="der"/>
+        <int_arg_token id="36" token="Kritik"/>
+        <int_arg_token id="37" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="16" token="Nicht"/>
+        <ext_arg_token id="17" token="zum"/>
+        <ext_arg_token id="18" token="ersten"/>
+        <ext_arg_token id="19" token="Mal"/>
+        <ext_arg_token id="20" token="steht"/>
+        <ext_arg_token id="21" token="die"/>
+        <ext_arg_token id="22" token="wirtschaftliche"/>
+        <ext_arg_token id="23" token="Betätigung"/>
+        <ext_arg_token id="24" token="der"/>
+        <ext_arg_token id="25" token="Tochtergesellschaften"/>
+        <ext_arg_token id="26" token="mit"/>
+        <ext_arg_token id="27" token="ihren"/>
+        <ext_arg_token id="28" token="vielfältigen"/>
+        <ext_arg_token id="29" token="und"/>
+        <ext_arg_token id="30" token="offenkundig"/>
+        <ext_arg_token id="31" token="schwer"/>
+        <ext_arg_token id="32" token="überschaubaren"/>
+        <ext_arg_token id="33" token="Verflechtungen"/>
+        <ext_arg_token id="34" token="in"/>
+        <ext_arg_token id="35" token="der"/>
+        <ext_arg_token id="36" token="Kritik"/>
+        <ext_arg_token id="37" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="38" token="Die"/>
+        <int_arg_token id="39" token="diesmal"/>
+        <int_arg_token id="40" token="schwerwiegenden"/>
+        <int_arg_token id="41" token="Vorwürfe"/>
+        <int_arg_token id="42" token="müssen"/>
+        <int_arg_token id="43" token="nun"/>
+        <int_arg_token id="44" token="von"/>
+        <int_arg_token id="45" token="der"/>
+        <int_arg_token id="46" token="Staatsanwaltschaft"/>
+        <int_arg_token id="47" token="unter"/>
+        <int_arg_token id="48" token="die"/>
+        <int_arg_token id="49" token="Lupe"/>
+        <int_arg_token id="50" token="genommen"/>
+        <int_arg_token id="51" token="werden"/>
+        <int_arg_token id="52" token="-"/>
+        <int_arg_token id="53" token="nicht"/>
+        <int_arg_token id="54" token="gerade"/>
+        <int_arg_token id="55" token="eine"/>
+        <int_arg_token id="56" token="Empfehlung"/>
+        <int_arg_token id="57" token="für"/>
+        <int_arg_token id="58" token="die"/>
+        <int_arg_token id="59" token="am"/>
+        <int_arg_token id="60" token="Donnerstag"/>
+        <int_arg_token id="61" token="geplante"/>
+        <int_arg_token id="62" token="Wiederwahl"/>
+        <int_arg_token id="63" token="von"/>
+        <int_arg_token id="64" token="Landrat"/>
+        <int_arg_token id="65" token="Lothar"/>
+        <int_arg_token id="66" token="Koch"/>
+        <int_arg_token id="67" token="("/>
+        <int_arg_token id="68" token="SPD"/>
+        <int_arg_token id="69" token=")"/>
+        <int_arg_token id="70" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="implicit">
+      <connective_tokens>
+        <implicit_connective>aber</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="71" token="Warnungen"/>
+        <ext_arg_token id="72" token="vor"/>
+        <ext_arg_token id="73" token="einer"/>
+        <ext_arg_token id="74" token="ausufernden"/>
+        <ext_arg_token id="75" token="Geschäftstätigkeit"/>
+        <ext_arg_token id="76" token="des"/>
+        <ext_arg_token id="77" token="Kreises"/>
+        <ext_arg_token id="78" token="Potsdam-Mittelmark"/>
+        <ext_arg_token id="79" token="hat"/>
+        <ext_arg_token id="80" token="es"/>
+        <ext_arg_token id="81" token="oft"/>
+        <ext_arg_token id="82" token="genug"/>
+        <ext_arg_token id="83" token="gegeben"/>
+        <ext_arg_token id="84" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="85" token="Sie"/>
+        <int_arg_token id="86" token="wurden"/>
+        <int_arg_token id="87" token="ignoriert"/>
+        <int_arg_token id="88" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Exception.Arg2-as-except" type="AltLex">
+      <connective_tokens>
+	<connective_token id="94" token="stehen"/>
+	<connective_token id="95" token="außerhalb"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="85" token="Sie"/>
+        <ext_arg_token id="86" token="wurden"/>
+        <ext_arg_token id="87" token="ignoriert"/>
+        <ext_arg_token id="88" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="89" token="Verkehrsgesellschaften"/>
+        <int_arg_token id="90" token=","/>
+        <int_arg_token id="91" token="Krankenhaus-GmbH"/>
+        <int_arg_token id="92" token="oder"/>
+        <int_arg_token id="93" token="Abfallwirtschaftsbetrieb"/>
+        <int_arg_token id="94" token="stehen"/>
+        <int_arg_token id="95" token="außerhalb"/>
+        <int_arg_token id="96" token="der"/>
+        <int_arg_token id="97" token="Kritik"/>
+        <int_arg_token id="98" token=","/>
+        <int_arg_token id="99" token="diese"/>
+        <int_arg_token id="100" token="Unternehmen"/>
+        <int_arg_token id="101" token="erledigen"/>
+        <int_arg_token id="102" token="Aufgaben"/>
+        <int_arg_token id="103" token="der"/>
+        <int_arg_token id="104" token="Daseinsvorsorge"/>
+        <int_arg_token id="105" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="AltLex">
+      <connective_tokens>
+	<connective_token id="136" token="Erst"/>
+	<connective_token id="137" token="recht"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="106" token="Dass"/>
+        <ext_arg_token id="107" token="aber"/>
+        <ext_arg_token id="108" token="etwa"/>
+        <ext_arg_token id="109" token="bei"/>
+        <ext_arg_token id="110" token="der"/>
+        <ext_arg_token id="111" token="ABU-Service-GmbH"/>
+        <ext_arg_token id="112" token="oder"/>
+        <ext_arg_token id="113" token="nun"/>
+        <ext_arg_token id="114" token="auch"/>
+        <ext_arg_token id="115" token="bei"/>
+        <ext_arg_token id="116" token="der"/>
+        <ext_arg_token id="117" token="Gesundheitszentrum-GmbH"/>
+        <ext_arg_token id="118" token="der"/>
+        <ext_arg_token id="119" token="zunächst"/>
+        <ext_arg_token id="120" token="gut"/>
+        <ext_arg_token id="121" token="gemeinte"/>
+        <ext_arg_token id="122" token="soziale"/>
+        <ext_arg_token id="123" token="Zweck"/>
+        <ext_arg_token id="124" token="alle"/>
+        <ext_arg_token id="125" token="Mittel"/>
+        <ext_arg_token id="126" token="der"/>
+        <ext_arg_token id="127" token="geschäftlichen"/>
+        <ext_arg_token id="128" token="Betätigung"/>
+        <ext_arg_token id="129" token="heiligen"/>
+        <ext_arg_token id="130" token="soll"/>
+        <ext_arg_token id="131" token=","/>
+        <ext_arg_token id="132" token="ist"/>
+        <ext_arg_token id="133" token="nicht"/>
+        <ext_arg_token id="134" token="nachvollziehbar"/>
+        <ext_arg_token id="135" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="136" token="Erst"/>
+        <int_arg_token id="137" token="recht"/>
+        <int_arg_token id="138" token="nicht"/>
+        <int_arg_token id="139" token=","/>
+        <int_arg_token id="140" token="wenn"/>
+        <int_arg_token id="141" token="sich"/>
+        <int_arg_token id="142" token="der"/>
+        <int_arg_token id="143" token="Verdacht"/>
+        <int_arg_token id="144" token="bestätigt"/>
+        <int_arg_token id="145" token=","/>
+        <int_arg_token id="146" token="dass"/>
+        <int_arg_token id="147" token="der"/>
+        <int_arg_token id="148" token="Kreis"/>
+        <int_arg_token id="149" token="Potsdam-Mittelmark"/>
+        <int_arg_token id="150" token="so"/>
+        <int_arg_token id="151" token="verantwortungslos"/>
+        <int_arg_token id="152" token="wie"/>
+        <int_arg_token id="153" token="in"/>
+        <int_arg_token id="154" token="der"/>
+        <int_arg_token id="155" token="anonymen"/>
+        <int_arg_token id="156" token="Anzeige"/>
+        <int_arg_token id="157" token="geschildert"/>
+        <int_arg_token id="158" token="mit"/>
+        <int_arg_token id="159" token="Steuergeld"/>
+        <int_arg_token id="160" token="und"/>
+        <int_arg_token id="161" token="Gebühreneinnahmen"/>
+        <int_arg_token id="162" token="umgeht"/>
+        <int_arg_token id="163" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

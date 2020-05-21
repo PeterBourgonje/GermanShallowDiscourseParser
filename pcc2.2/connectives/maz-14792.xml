@@ -1,0 +1,590 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Böse</token>
+    <token id="2">,</token>
+    <token id="3">die</token>
+    <token id="4">nicht</token>
+    <token id="5">böse</token>
+    <token id="6">sind</token>
+    <token id="7">Die</token>
+    <token id="8">Bösen</token>
+    <token id="9">sind</token>
+    <token id="10">längst</token>
+    <token id="11">gefunden</token>
+    <token id="12">.</token>
+    <token id="13">Wer</token>
+    <token id="14">sich</token>
+    <token id="15">kritisch</token>
+    <token id="16">zur</token>
+    <token id="17">Finanzierung</token>
+    <token id="18">der</token>
+    <token id="19">Landesgartenschau</token>
+    <token id="20">äußert</token>
+    <token id="21">,</token>
+    <token id="22">der</token>
+    <token id="23">ist</token>
+    <token id="24">ein</token>
+    <token id="25">Nestbeschmutzer</token>
+    <token id="26">.</token>
+    <token id="27">Das</token>
+    <token id="28">müssen</token>
+    <token id="29">in</token>
+    <token id="30">diesem</token>
+    <token id="31">Tagen</token>
+    <token id="32">alle</token>
+    <token id="33">erfahren</token>
+    <token id="34">,</token>
+    <token id="35">die</token>
+    <token id="36">unangenehme</token>
+    <token id="37">Fragen</token>
+    <token id="38">stellen</token>
+    <token id="39">und</token>
+    <token id="40">Antworten</token>
+    <token id="41">erwarten</token>
+    <token id="42">.</token>
+    <token id="43">Wer</token>
+    <token id="44">sich</token>
+    <token id="45">über</token>
+    <token id="46">die</token>
+    <token id="47">Finanzierung</token>
+    <token id="48">der</token>
+    <token id="49">Landesgartenschau</token>
+    <token id="50">genauer</token>
+    <token id="51">informieren</token>
+    <token id="52">will</token>
+    <token id="53">,</token>
+    <token id="54">dem</token>
+    <token id="55">haftet</token>
+    <token id="56">sofort</token>
+    <token id="57">an</token>
+    <token id="58">,</token>
+    <token id="59">die</token>
+    <token id="60">Veranstaltung</token>
+    <token id="61">gar</token>
+    <token id="62">nicht</token>
+    <token id="63">zu</token>
+    <token id="64">wollen</token>
+    <token id="65">.</token>
+    <token id="66">Nun</token>
+    <token id="67">sind</token>
+    <token id="68">die</token>
+    <token id="69">Bösen</token>
+    <token id="70">gar</token>
+    <token id="71">nicht</token>
+    <token id="72">so</token>
+    <token id="73">böse</token>
+    <token id="74">,</token>
+    <token id="75">wie</token>
+    <token id="76">allgemein</token>
+    <token id="77">angenommen</token>
+    <token id="78">.</token>
+    <token id="79">Die</token>
+    <token id="80">Landesgartenschau</token>
+    <token id="81">wird</token>
+    <token id="82">auch</token>
+    <token id="83">von</token>
+    <token id="84">ihnen</token>
+    <token id="85">nicht</token>
+    <token id="86">infrage</token>
+    <token id="87">gestellt</token>
+    <token id="88">.</token>
+    <token id="89">Der</token>
+    <token id="90">Bürgermeister</token>
+    <token id="91">hat</token>
+    <token id="92">die</token>
+    <token id="93">Finanzsituation</token>
+    <token id="94">,</token>
+    <token id="95">in</token>
+    <token id="96">der</token>
+    <token id="97">sich</token>
+    <token id="98">die</token>
+    <token id="99">Stadt</token>
+    <token id="100">befindet</token>
+    <token id="101">als</token>
+    <token id="102">"</token>
+    <token id="103">schwierig</token>
+    <token id="104">aber</token>
+    <token id="105">beherrschbar</token>
+    <token id="106">"</token>
+    <token id="107">bezeichnet</token>
+    <token id="108">.</token>
+    <token id="109">Wenn</token>
+    <token id="110">das</token>
+    <token id="111">so</token>
+    <token id="112">ist</token>
+    <token id="113">,</token>
+    <token id="114">dann</token>
+    <token id="115">müssen</token>
+    <token id="116">Konzepte</token>
+    <token id="117">zur</token>
+    <token id="118">Landesgartenschau</token>
+    <token id="119">jetzt</token>
+    <token id="120">mit</token>
+    <token id="121">nachvollziehbaren</token>
+    <token id="122">Zahlen</token>
+    <token id="123">untersetzt</token>
+    <token id="124">werden</token>
+    <token id="125">.</token>
+    <token id="126">Warum</token>
+    <token id="127">wird</token>
+    <token id="128">im</token>
+    <token id="129">Landwirtschaftsministerium</token>
+    <token id="130">ein</token>
+    <token id="131">städtischer</token>
+    <token id="132">Eigenanteil</token>
+    <token id="133">an</token>
+    <token id="134">Laga-Vorhaben</token>
+    <token id="135">mit</token>
+    <token id="136">7,5</token>
+    <token id="137">Millionen</token>
+    <token id="138">Mark</token>
+    <token id="139">berechnet</token>
+    <token id="140">,</token>
+    <token id="141">während</token>
+    <token id="142">im</token>
+    <token id="143">Laga-Finanzierungskonzept</token>
+    <token id="144">der</token>
+    <token id="145">Stadt</token>
+    <token id="146">gerade</token>
+    <token id="147">5</token>
+    <token id="148">Millionen</token>
+    <token id="149">Mark</token>
+    <token id="150">hineingeschrieben</token>
+    <token id="151">wurden</token>
+    <token id="152">?</token>
+    <token id="153">Eben</token>
+    <token id="154">dieses</token>
+    <token id="155">Verwirrspiel</token>
+    <token id="156">ist</token>
+    <token id="157">es</token>
+    <token id="158">,</token>
+    <token id="159">was</token>
+    <token id="160">diejenigen</token>
+    <token id="161">in</token>
+    <token id="162">Sorge</token>
+    <token id="163">treibt</token>
+    <token id="164">,</token>
+    <token id="165">die</token>
+    <token id="166">jetzt</token>
+    <token id="167">die</token>
+    <token id="168">Landesgartenschau</token>
+    <token id="169">konkreter</token>
+    <token id="170">hinterfragen</token>
+    <token id="171">.</token>
+    <token id="172">Denn</token>
+    <token id="173">auch</token>
+    <token id="174">sie</token>
+    <token id="175">wollen</token>
+    <token id="176">,</token>
+    <token id="177">dass</token>
+    <token id="178">in</token>
+    <token id="179">Rathenow</token>
+    <token id="180">eine</token>
+    <token id="181">gut</token>
+    <token id="182">vorbereitete</token>
+    <token id="183">Laga</token>
+    <token id="184">2006</token>
+    <token id="185">stattfindet</token>
+    <token id="186">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="6" pdtb3_sense="Contingency.Condition.Arg1-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="109" token="Wenn"/>
+        <connective_token id="114" token="dann"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="115" token="müssen"/>
+        <int_arg_token id="116" token="Konzepte"/>
+        <int_arg_token id="117" token="zur"/>
+        <int_arg_token id="118" token="Landesgartenschau"/>
+        <int_arg_token id="119" token="jetzt"/>
+        <int_arg_token id="120" token="mit"/>
+        <int_arg_token id="121" token="nachvollziehbaren"/>
+        <int_arg_token id="122" token="Zahlen"/>
+        <int_arg_token id="123" token="untersetzt"/>
+        <int_arg_token id="124" token="werden"/>
+        <int_arg_token id="125" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="109" token="Wenn"/>
+        <ext_arg_token id="110" token="das"/>
+        <ext_arg_token id="111" token="so"/>
+        <ext_arg_token id="112" token="ist"/>
+        <ext_arg_token id="113" token=","/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Temporal.Synchronous" type="explicit">
+      <connective_tokens>
+        <connective_token id="141" token="während"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="126" token="Warum"/>
+        <ext_arg_token id="127" token="wird"/>
+        <ext_arg_token id="128" token="im"/>
+        <ext_arg_token id="129" token="Landwirtschaftsministerium"/>
+        <ext_arg_token id="130" token="ein"/>
+        <ext_arg_token id="131" token="städtischer"/>
+        <ext_arg_token id="132" token="Eigenanteil"/>
+        <ext_arg_token id="133" token="an"/>
+        <ext_arg_token id="134" token="Laga-Vorhaben"/>
+        <ext_arg_token id="135" token="mit"/>
+        <ext_arg_token id="136" token="7,5"/>
+        <ext_arg_token id="137" token="Millionen"/>
+        <ext_arg_token id="138" token="Mark"/>
+        <ext_arg_token id="139" token="berechnet"/>
+        <ext_arg_token id="140" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="142" token="im"/>
+        <int_arg_token id="143" token="Laga-Finanzierungskonzept"/>
+        <int_arg_token id="144" token="der"/>
+        <int_arg_token id="145" token="Stadt"/>
+        <int_arg_token id="146" token="gerade"/>
+        <int_arg_token id="147" token="5"/>
+        <int_arg_token id="148" token="Millionen"/>
+        <int_arg_token id="149" token="Mark"/>
+        <int_arg_token id="150" token="hineingeschrieben"/>
+        <int_arg_token id="151" token="wurden"/>
+        <int_arg_token id="152" token="?"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="172" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="153" token="Eben"/>
+        <ext_arg_token id="154" token="dieses"/>
+        <ext_arg_token id="155" token="Verwirrspiel"/>
+        <ext_arg_token id="156" token="ist"/>
+        <ext_arg_token id="157" token="es"/>
+        <ext_arg_token id="158" token=","/>
+        <ext_arg_token id="159" token="was"/>
+        <ext_arg_token id="160" token="diejenigen"/>
+        <ext_arg_token id="161" token="in"/>
+        <ext_arg_token id="162" token="Sorge"/>
+        <ext_arg_token id="163" token="treibt"/>
+        <ext_arg_token id="164" token=","/>
+        <ext_arg_token id="165" token="die"/>
+        <ext_arg_token id="166" token="jetzt"/>
+        <ext_arg_token id="167" token="die"/>
+        <ext_arg_token id="168" token="Landesgartenschau"/>
+        <ext_arg_token id="169" token="konkreter"/>
+        <ext_arg_token id="170" token="hinterfragen"/>
+        <ext_arg_token id="171" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="173" token="auch"/>
+        <int_arg_token id="174" token="sie"/>
+        <int_arg_token id="175" token="wollen"/>
+        <int_arg_token id="176" token=","/>
+        <int_arg_token id="177" token="dass"/>
+        <int_arg_token id="178" token="in"/>
+        <int_arg_token id="179" token="Rathenow"/>
+        <int_arg_token id="180" token="eine"/>
+        <int_arg_token id="181" token="gut"/>
+        <int_arg_token id="182" token="vorbereitete"/>
+        <int_arg_token id="183" token="Laga"/>
+        <int_arg_token id="184" token="2006"/>
+        <int_arg_token id="185" token="stattfindet"/>
+        <int_arg_token id="186" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="7" token="Die"/>
+        <ext_arg_token id="8" token="Bösen"/>
+        <ext_arg_token id="9" token="sind"/>
+        <ext_arg_token id="10" token="längst"/>
+        <ext_arg_token id="11" token="gefunden"/>
+        <ext_arg_token id="12" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="13" token="Wer"/>
+        <int_arg_token id="14" token="sich"/>
+        <int_arg_token id="15" token="kritisch"/>
+        <int_arg_token id="16" token="zur"/>
+        <int_arg_token id="17" token="Finanzierung"/>
+        <int_arg_token id="18" token="der"/>
+        <int_arg_token id="19" token="Landesgartenschau"/>
+        <int_arg_token id="20" token="äußert"/>
+        <int_arg_token id="21" token=","/>
+        <int_arg_token id="22" token="der"/>
+        <int_arg_token id="23" token="ist"/>
+        <int_arg_token id="24" token="ein"/>
+        <int_arg_token id="25" token="Nestbeschmutzer"/>
+        <int_arg_token id="26" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="13" token="Wer"/>
+        <ext_arg_token id="14" token="sich"/>
+        <ext_arg_token id="15" token="kritisch"/>
+        <ext_arg_token id="16" token="zur"/>
+        <ext_arg_token id="17" token="Finanzierung"/>
+        <ext_arg_token id="18" token="der"/>
+        <ext_arg_token id="19" token="Landesgartenschau"/>
+        <ext_arg_token id="20" token="äußert"/>
+        <ext_arg_token id="21" token=","/>
+        <ext_arg_token id="22" token="der"/>
+        <ext_arg_token id="23" token="ist"/>
+        <ext_arg_token id="24" token="ein"/>
+        <ext_arg_token id="25" token="Nestbeschmutzer"/>
+        <ext_arg_token id="26" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="27" token="Das"/>
+        <int_arg_token id="28" token="müssen"/>
+        <int_arg_token id="29" token="in"/>
+        <int_arg_token id="30" token="diesem"/>
+        <int_arg_token id="31" token="Tagen"/>
+        <int_arg_token id="32" token="alle"/>
+        <int_arg_token id="33" token="erfahren"/>
+        <int_arg_token id="34" token=","/>
+        <int_arg_token id="35" token="die"/>
+        <int_arg_token id="36" token="unangenehme"/>
+        <int_arg_token id="37" token="Fragen"/>
+        <int_arg_token id="38" token="stellen"/>
+        <int_arg_token id="39" token="und"/>
+        <int_arg_token id="40" token="Antworten"/>
+        <int_arg_token id="41" token="erwarten"/>
+        <int_arg_token id="42" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="27" token="Das"/>
+        <ext_arg_token id="28" token="müssen"/>
+        <ext_arg_token id="29" token="in"/>
+        <ext_arg_token id="30" token="diesem"/>
+        <ext_arg_token id="31" token="Tagen"/>
+        <ext_arg_token id="32" token="alle"/>
+        <ext_arg_token id="33" token="erfahren"/>
+        <ext_arg_token id="34" token=","/>
+        <ext_arg_token id="35" token="die"/>
+        <ext_arg_token id="36" token="unangenehme"/>
+        <ext_arg_token id="37" token="Fragen"/>
+        <ext_arg_token id="38" token="stellen"/>
+        <ext_arg_token id="39" token="und"/>
+        <ext_arg_token id="40" token="Antworten"/>
+        <ext_arg_token id="41" token="erwarten"/>
+        <ext_arg_token id="42" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="43" token="Wer"/>
+        <int_arg_token id="44" token="sich"/>
+        <int_arg_token id="45" token="über"/>
+        <int_arg_token id="46" token="die"/>
+        <int_arg_token id="47" token="Finanzierung"/>
+        <int_arg_token id="48" token="der"/>
+        <int_arg_token id="49" token="Landesgartenschau"/>
+        <int_arg_token id="50" token="genauer"/>
+        <int_arg_token id="51" token="informieren"/>
+        <int_arg_token id="52" token="will"/>
+        <int_arg_token id="53" token=","/>
+        <int_arg_token id="54" token="dem"/>
+        <int_arg_token id="55" token="haftet"/>
+        <int_arg_token id="56" token="sofort"/>
+        <int_arg_token id="57" token="an"/>
+        <int_arg_token id="58" token=","/>
+        <int_arg_token id="59" token="die"/>
+        <int_arg_token id="60" token="Veranstaltung"/>
+        <int_arg_token id="61" token="gar"/>
+        <int_arg_token id="62" token="nicht"/>
+        <int_arg_token id="63" token="zu"/>
+        <int_arg_token id="64" token="wollen"/>
+        <int_arg_token id="65" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="66" token="Nun"/>
+        <ext_arg_token id="67" token="sind"/>
+        <ext_arg_token id="68" token="die"/>
+        <ext_arg_token id="69" token="Bösen"/>
+        <ext_arg_token id="70" token="gar"/>
+        <ext_arg_token id="71" token="nicht"/>
+        <ext_arg_token id="72" token="so"/>
+        <ext_arg_token id="73" token="böse"/>
+        <ext_arg_token id="74" token=","/>
+        <ext_arg_token id="75" token="wie"/>
+        <ext_arg_token id="76" token="allgemein"/>
+        <ext_arg_token id="77" token="angenommen"/>
+        <ext_arg_token id="78" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="79" token="Die"/>
+        <int_arg_token id="80" token="Landesgartenschau"/>
+        <int_arg_token id="81" token="wird"/>
+        <int_arg_token id="82" token="auch"/>
+        <int_arg_token id="83" token="von"/>
+        <int_arg_token id="84" token="ihnen"/>
+        <int_arg_token id="85" token="nicht"/>
+        <int_arg_token id="86" token="infrage"/>
+        <int_arg_token id="87" token="gestellt"/>
+        <int_arg_token id="88" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="implicit">
+      <connective_tokens>
+        <implicit_connective>doch</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="79" token="Die"/>
+        <ext_arg_token id="80" token="Landesgartenschau"/>
+        <ext_arg_token id="81" token="wird"/>
+        <ext_arg_token id="82" token="auch"/>
+        <ext_arg_token id="83" token="von"/>
+        <ext_arg_token id="84" token="ihnen"/>
+        <ext_arg_token id="85" token="nicht"/>
+        <ext_arg_token id="86" token="infrage"/>
+        <ext_arg_token id="87" token="gestellt"/>
+        <ext_arg_token id="88" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="89" token="Der"/>
+        <int_arg_token id="90" token="Bürgermeister"/>
+        <int_arg_token id="91" token="hat"/>
+        <int_arg_token id="92" token="die"/>
+        <int_arg_token id="93" token="Finanzsituation"/>
+        <int_arg_token id="94" token=","/>
+        <int_arg_token id="95" token="in"/>
+        <int_arg_token id="96" token="der"/>
+        <int_arg_token id="97" token="sich"/>
+        <int_arg_token id="98" token="die"/>
+        <int_arg_token id="99" token="Stadt"/>
+        <int_arg_token id="100" token="befindet"/>
+        <int_arg_token id="101" token="als"/>
+        <int_arg_token id="102" token="&quot;"/>
+        <int_arg_token id="103" token="schwierig"/>
+        <int_arg_token id="104" token="aber"/>
+        <int_arg_token id="105" token="beherrschbar"/>
+        <int_arg_token id="106" token="&quot;"/>
+        <int_arg_token id="107" token="bezeichnet"/>
+        <int_arg_token id="108" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Contingency.Cause.Result" type="AltLex">
+      <connective_tokens>
+	<connective_token id="109" token="Wenn"/>
+	<connective_token id="110" token="das"/>
+	<connective_token id="111" token="so"/>
+	<connective_token id="112" token="ist"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="89" token="Der"/>
+        <ext_arg_token id="90" token="Bürgermeister"/>
+        <ext_arg_token id="91" token="hat"/>
+        <ext_arg_token id="92" token="die"/>
+        <ext_arg_token id="93" token="Finanzsituation"/>
+        <ext_arg_token id="94" token=","/>
+        <ext_arg_token id="95" token="in"/>
+        <ext_arg_token id="96" token="der"/>
+        <ext_arg_token id="97" token="sich"/>
+        <ext_arg_token id="98" token="die"/>
+        <ext_arg_token id="99" token="Stadt"/>
+        <ext_arg_token id="100" token="befindet"/>
+        <ext_arg_token id="101" token="als"/>
+        <ext_arg_token id="102" token="&quot;"/>
+        <ext_arg_token id="103" token="schwierig"/>
+        <ext_arg_token id="104" token="aber"/>
+        <ext_arg_token id="105" token="beherrschbar"/>
+        <ext_arg_token id="106" token="&quot;"/>
+        <ext_arg_token id="107" token="bezeichnet"/>
+        <ext_arg_token id="108" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="109" token="Wenn"/>
+        <int_arg_token id="110" token="das"/>
+        <int_arg_token id="111" token="so"/>
+        <int_arg_token id="112" token="ist"/>
+        <int_arg_token id="113" token=","/>
+        <int_arg_token id="114" token="dann"/>
+        <int_arg_token id="115" token="müssen"/>
+        <int_arg_token id="116" token="Konzepte"/>
+        <int_arg_token id="117" token="zur"/>
+        <int_arg_token id="118" token="Landesgartenschau"/>
+        <int_arg_token id="119" token="jetzt"/>
+        <int_arg_token id="120" token="mit"/>
+        <int_arg_token id="121" token="nachvollziehbaren"/>
+        <int_arg_token id="122" token="Zahlen"/>
+        <int_arg_token id="123" token="untersetzt"/>
+        <int_arg_token id="124" token="werden"/>
+        <int_arg_token id="125" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="AltLex">
+      <connective_tokens>
+	<connective_token id="153" token="Eben"/>
+	<connective_token id="154" token="dieses"/>
+	<connective_token id="155" token="Verwirrspiel"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="126" token="Warum"/>
+        <ext_arg_token id="127" token="wird"/>
+        <ext_arg_token id="128" token="im"/>
+        <ext_arg_token id="129" token="Landwirtschaftsministerium"/>
+        <ext_arg_token id="130" token="ein"/>
+        <ext_arg_token id="131" token="städtischer"/>
+        <ext_arg_token id="132" token="Eigenanteil"/>
+        <ext_arg_token id="133" token="an"/>
+        <ext_arg_token id="134" token="Laga-Vorhaben"/>
+        <ext_arg_token id="135" token="mit"/>
+        <ext_arg_token id="136" token="7,5"/>
+        <ext_arg_token id="137" token="Millionen"/>
+        <ext_arg_token id="138" token="Mark"/>
+        <ext_arg_token id="139" token="berechnet"/>
+        <ext_arg_token id="140" token=","/>
+        <ext_arg_token id="141" token="während"/>
+        <ext_arg_token id="142" token="im"/>
+        <ext_arg_token id="143" token="Laga-Finanzierungskonzept"/>
+        <ext_arg_token id="144" token="der"/>
+        <ext_arg_token id="145" token="Stadt"/>
+        <ext_arg_token id="146" token="gerade"/>
+        <ext_arg_token id="147" token="5"/>
+        <ext_arg_token id="148" token="Millionen"/>
+        <ext_arg_token id="149" token="Mark"/>
+        <ext_arg_token id="150" token="hineingeschrieben"/>
+        <ext_arg_token id="151" token="wurden"/>
+        <ext_arg_token id="152" token="?"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="153" token="Eben"/>
+        <int_arg_token id="154" token="dieses"/>
+        <int_arg_token id="155" token="Verwirrspiel"/>
+        <int_arg_token id="156" token="ist"/>
+        <int_arg_token id="157" token="es"/>
+        <int_arg_token id="158" token=","/>
+        <int_arg_token id="159" token="was"/>
+        <int_arg_token id="160" token="diejenigen"/>
+        <int_arg_token id="161" token="in"/>
+        <int_arg_token id="162" token="Sorge"/>
+        <int_arg_token id="163" token="treibt"/>
+        <int_arg_token id="164" token=","/>
+        <int_arg_token id="165" token="die"/>
+        <int_arg_token id="166" token="jetzt"/>
+        <int_arg_token id="167" token="die"/>
+        <int_arg_token id="168" token="Landesgartenschau"/>
+        <int_arg_token id="169" token="konkreter"/>
+        <int_arg_token id="170" token="hinterfragen"/>
+        <int_arg_token id="171" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

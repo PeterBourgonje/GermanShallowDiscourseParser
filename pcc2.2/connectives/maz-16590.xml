@@ -1,0 +1,614 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Von</token>
+    <token id="2">wegen</token>
+    <token id="3">Förderung</token>
+    <token id="4">Zu</token>
+    <token id="5">Jahresbeginn</token>
+    <token id="6">sorgte</token>
+    <token id="7">wochenlanges</token>
+    <token id="8">Tauziehen</token>
+    <token id="9">um</token>
+    <token id="10">30</token>
+    <token id="11">Mark</token>
+    <token id="12">mehr</token>
+    <token id="13">Kindergeld</token>
+    <token id="14">für</token>
+    <token id="15">Schlagzeilen</token>
+    <token id="16">.</token>
+    <token id="17">Als</token>
+    <token id="18">der</token>
+    <token id="19">Bundestag</token>
+    <token id="20">Anfang</token>
+    <token id="21">Juli</token>
+    <token id="22">den</token>
+    <token id="23">Beschluss</token>
+    <token id="24">darüber</token>
+    <token id="25">fasste</token>
+    <token id="26">,</token>
+    <token id="27">wurde</token>
+    <token id="28">dies</token>
+    <token id="29">als</token>
+    <token id="30">Sieg</token>
+    <token id="31">verkauft</token>
+    <token id="32">.</token>
+    <token id="33">Jetzt</token>
+    <token id="34">,</token>
+    <token id="35">da</token>
+    <token id="36">das</token>
+    <token id="37">gesamte</token>
+    <token id="38">Paket</token>
+    <token id="39">an</token>
+    <token id="40">Neuerungen</token>
+    <token id="41">zur</token>
+    <token id="42">Familienförderung</token>
+    <token id="43">ab</token>
+    <token id="44">2002</token>
+    <token id="45">für</token>
+    <token id="46">die</token>
+    <token id="47">Betroffenen</token>
+    <token id="48">überschaubar</token>
+    <token id="49">wird</token>
+    <token id="50">,</token>
+    <token id="51">erweist</token>
+    <token id="52">es</token>
+    <token id="53">sich</token>
+    <token id="54">als</token>
+    <token id="55">Mogelpackung</token>
+    <token id="56">.</token>
+    <token id="57">Mit</token>
+    <token id="58">den</token>
+    <token id="59">Steuerkarten</token>
+    <token id="60">fürs</token>
+    <token id="61">neue</token>
+    <token id="62">Jahr</token>
+    <token id="63">in</token>
+    <token id="64">den</token>
+    <token id="65">Händen</token>
+    <token id="66">ahnen</token>
+    <token id="67">Eltern</token>
+    <token id="68">,</token>
+    <token id="69">was</token>
+    <token id="70">auf</token>
+    <token id="71">sie</token>
+    <token id="72">zu</token>
+    <token id="73">kommt</token>
+    <token id="74">:</token>
+    <token id="75">höhere</token>
+    <token id="76">Abgaben</token>
+    <token id="77">für</token>
+    <token id="78">nicht</token>
+    <token id="79">wenige</token>
+    <token id="80">von</token>
+    <token id="81">ihnen</token>
+    <token id="82">.</token>
+    <token id="83">Im</token>
+    <token id="84">Zuge</token>
+    <token id="85">der</token>
+    <token id="86">Abschaffung</token>
+    <token id="87">des</token>
+    <token id="88">Haushaltsfreibetrages</token>
+    <token id="89">bis</token>
+    <token id="90">2005</token>
+    <token id="91">finden</token>
+    <token id="92">sich</token>
+    <token id="93">ausgerechnet</token>
+    <token id="94">die</token>
+    <token id="95">allein</token>
+    <token id="96">Erziehenden</token>
+    <token id="97">künftig</token>
+    <token id="98">mit</token>
+    <token id="99">jenen</token>
+    <token id="100">,</token>
+    <token id="101">die</token>
+    <token id="102">keine</token>
+    <token id="103">Kinder</token>
+    <token id="104">aufziehen</token>
+    <token id="105">,</token>
+    <token id="106">in</token>
+    <token id="107">der</token>
+    <token id="108">höchsten</token>
+    <token id="109">Steuerklasse</token>
+    <token id="110">wieder</token>
+    <token id="111">.</token>
+    <token id="112">Selbst</token>
+    <token id="113">Familien</token>
+    <token id="114">profitieren</token>
+    <token id="115">erst</token>
+    <token id="116">ab</token>
+    <token id="117">einem</token>
+    <token id="118">Jahreseinkommen</token>
+    <token id="119">von</token>
+    <token id="120">120_000</token>
+    <token id="121">Mark</token>
+    <token id="122">von</token>
+    <token id="123">dem</token>
+    <token id="124">neuen</token>
+    <token id="125">Recht</token>
+    <token id="126">.</token>
+    <token id="127">Dabei</token>
+    <token id="128">hatte</token>
+    <token id="129">das</token>
+    <token id="130">Bundesverfassungsgericht</token>
+    <token id="131">eine</token>
+    <token id="132">Entlastung</token>
+    <token id="133">ausdrücklich</token>
+    <token id="134">für</token>
+    <token id="135">alle</token>
+    <token id="136">Familien</token>
+    <token id="137">gefordert</token>
+    <token id="138">.</token>
+    <token id="139">Den</token>
+    <token id="140">Betroffenen</token>
+    <token id="141">bleibt</token>
+    <token id="142">nur</token>
+    <token id="143">,</token>
+    <token id="144">erneut</token>
+    <token id="145">vor</token>
+    <token id="146">Gericht</token>
+    <token id="147">zu</token>
+    <token id="148">ziehen</token>
+    <token id="149">.</token>
+    <token id="150">Und</token>
+    <token id="151">das</token>
+    <token id="152">dauert</token>
+    <token id="153">.</token>
+    <token id="154">Die</token>
+    <token id="155">Kinder</token>
+    <token id="156">aber</token>
+    <token id="157">werden</token>
+    <token id="158">älter</token>
+    <token id="159">und</token>
+    <token id="160">kosten</token>
+    <token id="161">immer</token>
+    <token id="162">mehr</token>
+    <token id="163">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="4" pdtb3_sense="Temporal.Synchronous" type="explicit">
+      <connective_tokens>
+        <connective_token id="17" token="Als"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="18" token="der"/>
+        <int_arg_token id="19" token="Bundestag"/>
+        <int_arg_token id="20" token="Anfang"/>
+        <int_arg_token id="21" token="Juli"/>
+        <int_arg_token id="22" token="den"/>
+        <int_arg_token id="23" token="Beschluss"/>
+        <int_arg_token id="24" token="darüber"/>
+        <int_arg_token id="25" token="fasste"/>
+        <int_arg_token id="26" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="27" token="wurde"/>
+        <ext_arg_token id="28" token="dies"/>
+        <ext_arg_token id="29" token="als"/>
+        <ext_arg_token id="30" token="Sieg"/>
+        <ext_arg_token id="31" token="verkauft"/>
+        <ext_arg_token id="32" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="35" token="da"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="36" token="das"/>
+        <int_arg_token id="37" token="gesamte"/>
+        <int_arg_token id="38" token="Paket"/>
+        <int_arg_token id="39" token="an"/>
+        <int_arg_token id="40" token="Neuerungen"/>
+        <int_arg_token id="41" token="zur"/>
+        <int_arg_token id="42" token="Familienförderung"/>
+        <int_arg_token id="43" token="ab"/>
+        <int_arg_token id="44" token="2002"/>
+        <int_arg_token id="45" token="für"/>
+        <int_arg_token id="46" token="die"/>
+        <int_arg_token id="47" token="Betroffenen"/>
+        <int_arg_token id="48" token="überschaubar"/>
+        <int_arg_token id="49" token="wird"/>
+        <int_arg_token id="50" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="51" token="erweist"/>
+        <ext_arg_token id="52" token="es"/>
+        <ext_arg_token id="53" token="sich"/>
+        <ext_arg_token id="54" token="als"/>
+        <ext_arg_token id="55" token="Mogelpackung"/>
+        <ext_arg_token id="56" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Comparison.Contrast" type="explicit">
+      <connective_tokens>
+        <connective_token id="127" token="Dabei"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="112" token="Selbst"/>
+        <ext_arg_token id="113" token="Familien"/>
+        <ext_arg_token id="114" token="profitieren"/>
+        <ext_arg_token id="115" token="erst"/>
+        <ext_arg_token id="116" token="ab"/>
+        <ext_arg_token id="117" token="einem"/>
+        <ext_arg_token id="118" token="Jahreseinkommen"/>
+        <ext_arg_token id="119" token="von"/>
+        <ext_arg_token id="120" token="120_000"/>
+        <ext_arg_token id="121" token="Mark"/>
+        <ext_arg_token id="122" token="von"/>
+        <ext_arg_token id="123" token="dem"/>
+        <ext_arg_token id="124" token="neuen"/>
+        <ext_arg_token id="125" token="Recht"/>
+        <ext_arg_token id="126" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="128" token="hatte"/>
+        <int_arg_token id="129" token="das"/>
+        <int_arg_token id="130" token="Bundesverfassungsgericht"/>
+        <int_arg_token id="131" token="eine"/>
+        <int_arg_token id="132" token="Entlastung"/>
+        <int_arg_token id="133" token="ausdrücklich"/>
+        <int_arg_token id="134" token="für"/>
+        <int_arg_token id="135" token="alle"/>
+        <int_arg_token id="136" token="Familien"/>
+        <int_arg_token id="137" token="gefordert"/>
+        <int_arg_token id="138" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="150" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="139" token="Den"/>
+        <ext_arg_token id="140" token="Betroffenen"/>
+        <ext_arg_token id="141" token="bleibt"/>
+        <ext_arg_token id="142" token="nur"/>
+        <ext_arg_token id="143" token=","/>
+        <ext_arg_token id="144" token="erneut"/>
+        <ext_arg_token id="145" token="vor"/>
+        <ext_arg_token id="146" token="Gericht"/>
+        <ext_arg_token id="147" token="zu"/>
+        <ext_arg_token id="148" token="ziehen"/>
+        <ext_arg_token id="149" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="151" token="das"/>
+        <int_arg_token id="152" token="dauert"/>
+        <int_arg_token id="153" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Comparison.Contrast" type="explicit">
+      <connective_tokens>
+        <connective_token id="156" token="aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="139" token="Den"/>
+        <ext_arg_token id="140" token="Betroffenen"/>
+        <ext_arg_token id="141" token="bleibt"/>
+        <ext_arg_token id="142" token="nur"/>
+        <ext_arg_token id="143" token=","/>
+        <ext_arg_token id="144" token="erneut"/>
+        <ext_arg_token id="145" token="vor"/>
+        <ext_arg_token id="146" token="Gericht"/>
+        <ext_arg_token id="147" token="zu"/>
+        <ext_arg_token id="148" token="ziehen"/>
+        <ext_arg_token id="149" token="."/>
+        <ext_arg_token id="150" token="Und"/>
+        <ext_arg_token id="151" token="das"/>
+        <ext_arg_token id="152" token="dauert"/>
+        <ext_arg_token id="153" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="154" token="Die"/>
+        <int_arg_token id="155" token="Kinder"/>
+        <int_arg_token id="157" token="werden"/>
+        <int_arg_token id="158" token="älter"/>
+        <int_arg_token id="159" token="und"/>
+        <int_arg_token id="160" token="kosten"/>
+        <int_arg_token id="161" token="immer"/>
+        <int_arg_token id="162" token="mehr"/>
+        <int_arg_token id="163" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="17" token="Als"/>
+	<connective_token id="18" token="der"/>
+	<connective_token id="19" token="Bundestag"/>
+	<connective_token id="20" token="anfang"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="4" token="Zu"/>
+        <ext_arg_token id="5" token="Jahresbeginn"/>
+        <ext_arg_token id="6" token="sorgte"/>
+        <ext_arg_token id="7" token="wochenlanges"/>
+        <ext_arg_token id="8" token="Tauziehen"/>
+        <ext_arg_token id="9" token="um"/>
+        <ext_arg_token id="10" token="30"/>
+        <ext_arg_token id="11" token="Mark"/>
+        <ext_arg_token id="12" token="mehr"/>
+        <ext_arg_token id="13" token="Kindergeld"/>
+        <ext_arg_token id="14" token="für"/>
+        <ext_arg_token id="15" token="Schlagzeilen"/>
+        <ext_arg_token id="16" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="17" token="Als"/>
+        <int_arg_token id="18" token="der"/>
+        <int_arg_token id="19" token="Bundestag"/>
+        <int_arg_token id="20" token="Anfang"/>
+        <int_arg_token id="21" token="Juli"/>
+        <int_arg_token id="22" token="den"/>
+        <int_arg_token id="23" token="Beschluss"/>
+        <int_arg_token id="24" token="darüber"/>
+        <int_arg_token id="25" token="fasste"/>
+        <int_arg_token id="26" token=","/>
+        <int_arg_token id="27" token="wurde"/>
+        <int_arg_token id="28" token="dies"/>
+        <int_arg_token id="29" token="als"/>
+        <int_arg_token id="30" token="Sieg"/>
+        <int_arg_token id="31" token="verkauft"/>
+        <int_arg_token id="32" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="33" token="Jetzt"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="17" token="Als"/>
+        <ext_arg_token id="18" token="der"/>
+        <ext_arg_token id="19" token="Bundestag"/>
+        <ext_arg_token id="20" token="Anfang"/>
+        <ext_arg_token id="21" token="Juli"/>
+        <ext_arg_token id="22" token="den"/>
+        <ext_arg_token id="23" token="Beschluss"/>
+        <ext_arg_token id="24" token="darüber"/>
+        <ext_arg_token id="25" token="fasste"/>
+        <ext_arg_token id="26" token=","/>
+        <ext_arg_token id="27" token="wurde"/>
+        <ext_arg_token id="28" token="dies"/>
+        <ext_arg_token id="29" token="als"/>
+        <ext_arg_token id="30" token="Sieg"/>
+        <ext_arg_token id="31" token="verkauft"/>
+        <ext_arg_token id="32" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="33" token="Jetzt"/>
+        <int_arg_token id="34" token=","/>
+        <int_arg_token id="35" token="da"/>
+        <int_arg_token id="36" token="das"/>
+        <int_arg_token id="37" token="gesamte"/>
+        <int_arg_token id="38" token="Paket"/>
+        <int_arg_token id="39" token="an"/>
+        <int_arg_token id="40" token="Neuerungen"/>
+        <int_arg_token id="41" token="zur"/>
+        <int_arg_token id="42" token="Familienförderung"/>
+        <int_arg_token id="43" token="ab"/>
+        <int_arg_token id="44" token="2002"/>
+        <int_arg_token id="45" token="für"/>
+        <int_arg_token id="46" token="die"/>
+        <int_arg_token id="47" token="Betroffenen"/>
+        <int_arg_token id="48" token="überschaubar"/>
+        <int_arg_token id="49" token="wird"/>
+        <int_arg_token id="50" token=","/>
+        <int_arg_token id="51" token="erweist"/>
+        <int_arg_token id="52" token="es"/>
+        <int_arg_token id="53" token="sich"/>
+        <int_arg_token id="54" token="als"/>
+        <int_arg_token id="55" token="Mogelpackung"/>
+        <int_arg_token id="56" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="33" token="Jetzt"/>
+        <ext_arg_token id="34" token=","/>
+        <ext_arg_token id="35" token="da"/>
+        <ext_arg_token id="36" token="das"/>
+        <ext_arg_token id="37" token="gesamte"/>
+        <ext_arg_token id="38" token="Paket"/>
+        <ext_arg_token id="39" token="an"/>
+        <ext_arg_token id="40" token="Neuerungen"/>
+        <ext_arg_token id="41" token="zur"/>
+        <ext_arg_token id="42" token="Familienförderung"/>
+        <ext_arg_token id="43" token="ab"/>
+        <ext_arg_token id="44" token="2002"/>
+        <ext_arg_token id="45" token="für"/>
+        <ext_arg_token id="46" token="die"/>
+        <ext_arg_token id="47" token="Betroffenen"/>
+        <ext_arg_token id="48" token="überschaubar"/>
+        <ext_arg_token id="49" token="wird"/>
+        <ext_arg_token id="50" token=","/>
+        <ext_arg_token id="51" token="erweist"/>
+        <ext_arg_token id="52" token="es"/>
+        <ext_arg_token id="53" token="sich"/>
+        <ext_arg_token id="54" token="als"/>
+        <ext_arg_token id="55" token="Mogelpackung"/>
+        <ext_arg_token id="56" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="57" token="Mit"/>
+        <int_arg_token id="58" token="den"/>
+        <int_arg_token id="59" token="Steuerkarten"/>
+        <int_arg_token id="60" token="fürs"/>
+        <int_arg_token id="61" token="neue"/>
+        <int_arg_token id="62" token="Jahr"/>
+        <int_arg_token id="63" token="in"/>
+        <int_arg_token id="64" token="den"/>
+        <int_arg_token id="65" token="Händen"/>
+        <int_arg_token id="66" token="ahnen"/>
+        <int_arg_token id="67" token="Eltern"/>
+        <int_arg_token id="68" token=","/>
+        <int_arg_token id="69" token="was"/>
+        <int_arg_token id="70" token="auf"/>
+        <int_arg_token id="71" token="sie"/>
+        <int_arg_token id="72" token="zu"/>
+        <int_arg_token id="73" token="kommt"/>
+        <int_arg_token id="74" token=":"/>
+        <int_arg_token id="75" token="höhere"/>
+        <int_arg_token id="76" token="Abgaben"/>
+        <int_arg_token id="77" token="für"/>
+        <int_arg_token id="78" token="nicht"/>
+        <int_arg_token id="79" token="wenige"/>
+        <int_arg_token id="80" token="von"/>
+        <int_arg_token id="81" token="ihnen"/>
+        <int_arg_token id="82" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>genauer gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="57" token="Mit"/>
+        <ext_arg_token id="58" token="den"/>
+        <ext_arg_token id="59" token="Steuerkarten"/>
+        <ext_arg_token id="60" token="fürs"/>
+        <ext_arg_token id="61" token="neue"/>
+        <ext_arg_token id="62" token="Jahr"/>
+        <ext_arg_token id="63" token="in"/>
+        <ext_arg_token id="64" token="den"/>
+        <ext_arg_token id="65" token="Händen"/>
+        <ext_arg_token id="66" token="ahnen"/>
+        <ext_arg_token id="67" token="Eltern"/>
+        <ext_arg_token id="68" token=","/>
+        <ext_arg_token id="69" token="was"/>
+        <ext_arg_token id="70" token="auf"/>
+        <ext_arg_token id="71" token="sie"/>
+        <ext_arg_token id="72" token="zu"/>
+        <ext_arg_token id="73" token="kommt"/>
+        <ext_arg_token id="74" token=":"/>
+        <ext_arg_token id="75" token="höhere"/>
+        <ext_arg_token id="76" token="Abgaben"/>
+        <ext_arg_token id="77" token="für"/>
+        <ext_arg_token id="78" token="nicht"/>
+        <ext_arg_token id="79" token="wenige"/>
+        <ext_arg_token id="80" token="von"/>
+        <ext_arg_token id="81" token="ihnen"/>
+        <ext_arg_token id="82" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="83" token="Im"/>
+        <int_arg_token id="84" token="Zuge"/>
+        <int_arg_token id="85" token="der"/>
+        <int_arg_token id="86" token="Abschaffung"/>
+        <int_arg_token id="87" token="des"/>
+        <int_arg_token id="88" token="Haushaltsfreibetrages"/>
+        <int_arg_token id="89" token="bis"/>
+        <int_arg_token id="90" token="2005"/>
+        <int_arg_token id="91" token="finden"/>
+        <int_arg_token id="92" token="sich"/>
+        <int_arg_token id="93" token="ausgerechnet"/>
+        <int_arg_token id="94" token="die"/>
+        <int_arg_token id="95" token="allein"/>
+        <int_arg_token id="96" token="Erziehenden"/>
+        <int_arg_token id="97" token="künftig"/>
+        <int_arg_token id="98" token="mit"/>
+        <int_arg_token id="99" token="jenen"/>
+        <int_arg_token id="100" token=","/>
+        <int_arg_token id="101" token="die"/>
+        <int_arg_token id="102" token="keine"/>
+        <int_arg_token id="103" token="Kinder"/>
+        <int_arg_token id="104" token="aufziehen"/>
+        <int_arg_token id="105" token=","/>
+        <int_arg_token id="106" token="in"/>
+        <int_arg_token id="107" token="der"/>
+        <int_arg_token id="108" token="höchsten"/>
+        <int_arg_token id="109" token="Steuerklasse"/>
+        <int_arg_token id="110" token="wieder"/>
+        <int_arg_token id="111" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="83" token="Im"/>
+        <ext_arg_token id="84" token="Zuge"/>
+        <ext_arg_token id="85" token="der"/>
+        <ext_arg_token id="86" token="Abschaffung"/>
+        <ext_arg_token id="87" token="des"/>
+        <ext_arg_token id="88" token="Haushaltsfreibetrages"/>
+        <ext_arg_token id="89" token="bis"/>
+        <ext_arg_token id="90" token="2005"/>
+        <ext_arg_token id="91" token="finden"/>
+        <ext_arg_token id="92" token="sich"/>
+        <ext_arg_token id="93" token="ausgerechnet"/>
+        <ext_arg_token id="94" token="die"/>
+        <ext_arg_token id="95" token="allein"/>
+        <ext_arg_token id="96" token="Erziehenden"/>
+        <ext_arg_token id="97" token="künftig"/>
+        <ext_arg_token id="98" token="mit"/>
+        <ext_arg_token id="99" token="jenen"/>
+        <ext_arg_token id="100" token=","/>
+        <ext_arg_token id="101" token="die"/>
+        <ext_arg_token id="102" token="keine"/>
+        <ext_arg_token id="103" token="Kinder"/>
+        <ext_arg_token id="104" token="aufziehen"/>
+        <ext_arg_token id="105" token=","/>
+        <ext_arg_token id="106" token="in"/>
+        <ext_arg_token id="107" token="der"/>
+        <ext_arg_token id="108" token="höchsten"/>
+        <ext_arg_token id="109" token="Steuerklasse"/>
+        <ext_arg_token id="110" token="wieder"/>
+        <ext_arg_token id="111" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="112" token="Selbst"/>
+        <int_arg_token id="113" token="Familien"/>
+        <int_arg_token id="114" token="profitieren"/>
+        <int_arg_token id="115" token="erst"/>
+        <int_arg_token id="116" token="ab"/>
+        <int_arg_token id="117" token="einem"/>
+        <int_arg_token id="118" token="Jahreseinkommen"/>
+        <int_arg_token id="119" token="von"/>
+        <int_arg_token id="120" token="120_000"/>
+        <int_arg_token id="121" token="Mark"/>
+        <int_arg_token id="122" token="von"/>
+        <int_arg_token id="123" token="dem"/>
+        <int_arg_token id="124" token="neuen"/>
+        <int_arg_token id="125" token="Recht"/>
+        <int_arg_token id="126" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="127" token="Dabei"/>
+        <ext_arg_token id="128" token="hatte"/>
+        <ext_arg_token id="129" token="das"/>
+        <ext_arg_token id="130" token="Bundesverfassungsgericht"/>
+        <ext_arg_token id="131" token="eine"/>
+        <ext_arg_token id="132" token="Entlastung"/>
+        <ext_arg_token id="133" token="ausdrücklich"/>
+        <ext_arg_token id="134" token="für"/>
+        <ext_arg_token id="135" token="alle"/>
+        <ext_arg_token id="136" token="Familien"/>
+        <ext_arg_token id="137" token="gefordert"/>
+        <ext_arg_token id="138" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="139" token="Den"/>
+        <int_arg_token id="140" token="Betroffenen"/>
+        <int_arg_token id="141" token="bleibt"/>
+        <int_arg_token id="142" token="nur"/>
+        <int_arg_token id="143" token=","/>
+        <int_arg_token id="144" token="erneut"/>
+        <int_arg_token id="145" token="vor"/>
+        <int_arg_token id="146" token="Gericht"/>
+        <int_arg_token id="147" token="zu"/>
+        <int_arg_token id="148" token="ziehen"/>
+        <int_arg_token id="149" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

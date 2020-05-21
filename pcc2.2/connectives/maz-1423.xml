@@ -1,0 +1,627 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Zum</token>
+    <token id="2">Angewöhnen</token>
+    <token id="3">Die</token>
+    <token id="4">Diskussion</token>
+    <token id="5">,</token>
+    <token id="6">wie</token>
+    <token id="7">teuer</token>
+    <token id="8">die</token>
+    <token id="9">neue</token>
+    <token id="10">Wittstocker</token>
+    <token id="11">Stadthalle</token>
+    <token id="12">für</token>
+    <token id="13">Vereine</token>
+    <token id="14">und</token>
+    <token id="15">Veranstalter</token>
+    <token id="16">wird</token>
+    <token id="17">,</token>
+    <token id="18">hat</token>
+    <token id="19">einige</token>
+    <token id="20">Zeit</token>
+    <token id="21">in</token>
+    <token id="22">Anspruch</token>
+    <token id="23">genommen</token>
+    <token id="24">.</token>
+    <token id="25">Bei</token>
+    <token id="26">der</token>
+    <token id="27">jüngsten</token>
+    <token id="28">Sitzung</token>
+    <token id="29">haben</token>
+    <token id="30">die</token>
+    <token id="31">Stadtverordneten</token>
+    <token id="32">entschieden</token>
+    <token id="33">.</token>
+    <token id="34">Vor</token>
+    <token id="35">allem</token>
+    <token id="36">kommerzielle</token>
+    <token id="37">Veranstalter</token>
+    <token id="38">werden</token>
+    <token id="39">ab</token>
+    <token id="40">2002</token>
+    <token id="41">gut</token>
+    <token id="42">zur</token>
+    <token id="43">Kasse</token>
+    <token id="44">gebeten</token>
+    <token id="45">.</token>
+    <token id="46">Die</token>
+    <token id="47">Einnahmen</token>
+    <token id="48">sind</token>
+    <token id="49">dennoch</token>
+    <token id="50">nur</token>
+    <token id="51">ein</token>
+    <token id="52">Tropfen</token>
+    <token id="53">auf</token>
+    <token id="54">den</token>
+    <token id="55">heißen</token>
+    <token id="56">Stein</token>
+    <token id="57">.</token>
+    <token id="58">Die</token>
+    <token id="59">Betriebskosten</token>
+    <token id="60">für</token>
+    <token id="61">den</token>
+    <token id="62">schmucken</token>
+    <token id="63">Veranstaltungsort</token>
+    <token id="64">sind</token>
+    <token id="65">hoch</token>
+    <token id="66">.</token>
+    <token id="67">Jetzt</token>
+    <token id="68">wird</token>
+    <token id="69">es</token>
+    <token id="70">darum</token>
+    <token id="71">gehen</token>
+    <token id="72">,</token>
+    <token id="73">die</token>
+    <token id="74">Halle</token>
+    <token id="75">so</token>
+    <token id="76">oft</token>
+    <token id="77">wie</token>
+    <token id="78">möglich</token>
+    <token id="79">zu</token>
+    <token id="80">füllen</token>
+    <token id="81">.</token>
+    <token id="82">Je</token>
+    <token id="83">mehr</token>
+    <token id="84">Veranstaltungen</token>
+    <token id="85">stattfinden</token>
+    <token id="86">,</token>
+    <token id="87">desto</token>
+    <token id="88">weniger</token>
+    <token id="89">wird</token>
+    <token id="90">der</token>
+    <token id="91">Stadthaushalt</token>
+    <token id="92">belastet</token>
+    <token id="93">.</token>
+    <token id="94">Die</token>
+    <token id="95">Halle</token>
+    <token id="96">muss</token>
+    <token id="97">ausgelastet</token>
+    <token id="98">sein</token>
+    <token id="99">.</token>
+    <token id="100">Und</token>
+    <token id="101">in</token>
+    <token id="102">der</token>
+    <token id="103">Region</token>
+    <token id="104">gibt</token>
+    <token id="105">es</token>
+    <token id="106">Konkurrenz</token>
+    <token id="107">.</token>
+    <token id="108">Auch</token>
+    <token id="109">die</token>
+    <token id="110">Nachbarstädte</token>
+    <token id="111">bieten</token>
+    <token id="112">Veranstaltern</token>
+    <token id="113">genügend</token>
+    <token id="114">Platz</token>
+    <token id="115">.</token>
+    <token id="116">Wittstock</token>
+    <token id="117">dagegen</token>
+    <token id="118">muss</token>
+    <token id="119">sich</token>
+    <token id="120">erst</token>
+    <token id="121">einen</token>
+    <token id="122">Namen</token>
+    <token id="123">machen</token>
+    <token id="124">.</token>
+    <token id="125">Das</token>
+    <token id="126">Oktoberfest</token>
+    <token id="127">hat</token>
+    <token id="128">gezeigt</token>
+    <token id="129">,</token>
+    <token id="130">dass</token>
+    <token id="131">es</token>
+    <token id="132">eine</token>
+    <token id="133">Anlaufzeit</token>
+    <token id="134">braucht</token>
+    <token id="135">.</token>
+    <token id="136">Die</token>
+    <token id="137">Gäste</token>
+    <token id="138">aus</token>
+    <token id="139">nah</token>
+    <token id="140">und</token>
+    <token id="141">fern</token>
+    <token id="142">müssen</token>
+    <token id="143">sich</token>
+    <token id="144">erst</token>
+    <token id="145">daran</token>
+    <token id="146">gewöhnen</token>
+    <token id="147">,</token>
+    <token id="148">nach</token>
+    <token id="149">Wittstock</token>
+    <token id="150">und</token>
+    <token id="151">Richtung</token>
+    <token id="152">Gymnasium</token>
+    <token id="153">zu</token>
+    <token id="154">pilgern</token>
+    <token id="155">.</token>
+    <token id="156">Fest</token>
+    <token id="157">steht</token>
+    <token id="158">,</token>
+    <token id="159">dass</token>
+    <token id="160">die</token>
+    <token id="161">Dosse-Stadt</token>
+    <token id="162">als</token>
+    <token id="163">Mittelzentrum</token>
+    <token id="164">ohne</token>
+    <token id="165">einen</token>
+    <token id="166">ansehnlichen</token>
+    <token id="167">Veranstaltungsort</token>
+    <token id="168">mit</token>
+    <token id="169">ausreichend</token>
+    <token id="170">Platz</token>
+    <token id="171">fürs</token>
+    <token id="172">Publikum</token>
+    <token id="173">nicht</token>
+    <token id="174">auskommt</token>
+    <token id="175">.</token>
+    <token id="176">Ohne</token>
+    <token id="177">die</token>
+    <token id="178">Halle</token>
+    <token id="179">würde</token>
+    <token id="180">Wittstock</token>
+    <token id="181">bald</token>
+    <token id="182">ins</token>
+    <token id="183">Hintertreffen</token>
+    <token id="184">geraten</token>
+    <token id="185">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="4" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="49" token="dennoch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="34" token="Vor"/>
+        <ext_arg_token id="35" token="allem"/>
+        <ext_arg_token id="36" token="kommerzielle"/>
+        <ext_arg_token id="37" token="Veranstalter"/>
+        <ext_arg_token id="38" token="werden"/>
+        <ext_arg_token id="39" token="ab"/>
+        <ext_arg_token id="40" token="2002"/>
+        <ext_arg_token id="41" token="gut"/>
+        <ext_arg_token id="42" token="zur"/>
+        <ext_arg_token id="43" token="Kasse"/>
+        <ext_arg_token id="44" token="gebeten"/>
+        <ext_arg_token id="45" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="46" token="Die"/>
+        <int_arg_token id="47" token="Einnahmen"/>
+        <int_arg_token id="48" token="sind"/>
+        <int_arg_token id="50" token="nur"/>
+        <int_arg_token id="51" token="ein"/>
+        <int_arg_token id="52" token="Tropfen"/>
+        <int_arg_token id="53" token="auf"/>
+        <int_arg_token id="54" token="den"/>
+        <int_arg_token id="55" token="heißen"/>
+        <int_arg_token id="56" token="Stein"/>
+        <int_arg_token id="57" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="100" token="Und"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="101" token="in"/>
+        <int_arg_token id="102" token="der"/>
+        <int_arg_token id="103" token="Region"/>
+        <int_arg_token id="104" token="gibt"/>
+        <int_arg_token id="105" token="es"/>
+        <int_arg_token id="106" token="Konkurrenz"/>
+        <int_arg_token id="107" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="82" token="Je"/>
+        <ext_arg_token id="83" token="mehr"/>
+        <ext_arg_token id="84" token="Veranstaltungen"/>
+        <ext_arg_token id="85" token="stattfinden"/>
+        <ext_arg_token id="86" token=","/>
+        <ext_arg_token id="87" token="desto"/>
+        <ext_arg_token id="88" token="weniger"/>
+        <ext_arg_token id="89" token="wird"/>
+        <ext_arg_token id="90" token="der"/>
+        <ext_arg_token id="91" token="Stadthaushalt"/>
+        <ext_arg_token id="92" token="belastet"/>
+        <ext_arg_token id="93" token="."/>
+        <ext_arg_token id="94" token="Die"/>
+        <ext_arg_token id="95" token="Halle"/>
+        <ext_arg_token id="96" token="muss"/>
+        <ext_arg_token id="97" token="ausgelastet"/>
+        <ext_arg_token id="98" token="sein"/>
+        <ext_arg_token id="99" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="108" token="Auch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="100" token="Und"/>
+        <ext_arg_token id="101" token="in"/>
+        <ext_arg_token id="102" token="der"/>
+        <ext_arg_token id="103" token="Region"/>
+        <ext_arg_token id="104" token="gibt"/>
+        <ext_arg_token id="105" token="es"/>
+        <ext_arg_token id="106" token="Konkurrenz"/>
+        <ext_arg_token id="107" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="109" token="die"/>
+        <int_arg_token id="110" token="Nachbarstädte"/>
+        <int_arg_token id="111" token="bieten"/>
+        <int_arg_token id="112" token="Veranstaltern"/>
+        <int_arg_token id="113" token="genügend"/>
+        <int_arg_token id="114" token="Platz"/>
+        <int_arg_token id="115" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Comparison.Contrast" type="explicit">
+      <connective_tokens>
+        <connective_token id="117" token="dagegen"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="108" token="Auch"/>
+        <ext_arg_token id="109" token="die"/>
+        <ext_arg_token id="110" token="Nachbarstädte"/>
+        <ext_arg_token id="111" token="bieten"/>
+        <ext_arg_token id="112" token="Veranstaltern"/>
+        <ext_arg_token id="113" token="genügend"/>
+        <ext_arg_token id="114" token="Platz"/>
+        <ext_arg_token id="115" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="116" token="Wittstock"/>
+        <int_arg_token id="118" token="muss"/>
+        <int_arg_token id="119" token="sich"/>
+        <int_arg_token id="120" token="erst"/>
+        <int_arg_token id="121" token="einen"/>
+        <int_arg_token id="122" token="Namen"/>
+        <int_arg_token id="123" token="machen"/>
+        <int_arg_token id="124" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Comparison.Similarity" type="explicit">
+      <connective_tokens>
+        <connective_token id="82" token="Je"/>
+        <connective_token id="87" token="desto"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="83" token="mehr"/>
+        <int_arg_token id="84" token="Veranstaltungen"/>
+        <int_arg_token id="85" token="stattfinden"/>
+        <int_arg_token id="86" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="88" token="weniger"/>
+        <ext_arg_token id="89" token="wird"/>
+        <ext_arg_token id="90" token="der"/>
+        <ext_arg_token id="91" token="Stadthaushalt"/>
+        <ext_arg_token id="92" token="belastet"/>
+        <ext_arg_token id="93" token="."/>
+        <ext_arg_token id="94" token="Die"/>
+        <ext_arg_token id="95" token="Halle"/>
+        <ext_arg_token id="96" token="muss"/>
+        <ext_arg_token id="97" token="ausgelastet"/>
+        <ext_arg_token id="98" token="sein"/>
+        <ext_arg_token id="99" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="implicit">
+      <connective_tokens>
+        <implicit_connective>doch</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Die"/>
+        <ext_arg_token id="4" token="Diskussion"/>
+        <ext_arg_token id="5" token=","/>
+        <ext_arg_token id="6" token="wie"/>
+        <ext_arg_token id="7" token="teuer"/>
+        <ext_arg_token id="8" token="die"/>
+        <ext_arg_token id="9" token="neue"/>
+        <ext_arg_token id="10" token="Wittstocker"/>
+        <ext_arg_token id="11" token="Stadthalle"/>
+        <ext_arg_token id="12" token="für"/>
+        <ext_arg_token id="13" token="Vereine"/>
+        <ext_arg_token id="14" token="und"/>
+        <ext_arg_token id="15" token="Veranstalter"/>
+        <ext_arg_token id="16" token="wird"/>
+        <ext_arg_token id="17" token=","/>
+        <ext_arg_token id="18" token="hat"/>
+        <ext_arg_token id="19" token="einige"/>
+        <ext_arg_token id="20" token="Zeit"/>
+        <ext_arg_token id="21" token="in"/>
+        <ext_arg_token id="22" token="Anspruch"/>
+        <ext_arg_token id="23" token="genommen"/>
+        <ext_arg_token id="24" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="25" token="Bei"/>
+        <int_arg_token id="26" token="der"/>
+        <int_arg_token id="27" token="jüngsten"/>
+        <int_arg_token id="28" token="Sitzung"/>
+        <int_arg_token id="29" token="haben"/>
+        <int_arg_token id="30" token="die"/>
+        <int_arg_token id="31" token="Stadtverordneten"/>
+        <int_arg_token id="32" token="entschieden"/>
+        <int_arg_token id="33" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="25" token="Bei"/>
+        <ext_arg_token id="26" token="der"/>
+        <ext_arg_token id="27" token="jüngsten"/>
+        <ext_arg_token id="28" token="Sitzung"/>
+        <ext_arg_token id="29" token="haben"/>
+        <ext_arg_token id="30" token="die"/>
+        <ext_arg_token id="31" token="Stadtverordneten"/>
+        <ext_arg_token id="32" token="entschieden"/>
+        <ext_arg_token id="33" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="34" token="Vor"/>
+        <int_arg_token id="35" token="allem"/>
+        <int_arg_token id="36" token="kommerzielle"/>
+        <int_arg_token id="37" token="Veranstalter"/>
+        <int_arg_token id="38" token="werden"/>
+        <int_arg_token id="39" token="ab"/>
+        <int_arg_token id="40" token="2002"/>
+        <int_arg_token id="41" token="gut"/>
+        <int_arg_token id="42" token="zur"/>
+        <int_arg_token id="43" token="Kasse"/>
+        <int_arg_token id="44" token="gebeten"/>
+        <int_arg_token id="45" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="46" token="Die"/>
+        <ext_arg_token id="47" token="Einnahmen"/>
+        <ext_arg_token id="48" token="sind"/>
+        <ext_arg_token id="49" token="dennoch"/>
+        <ext_arg_token id="50" token="nur"/>
+        <ext_arg_token id="51" token="ein"/>
+        <ext_arg_token id="52" token="Tropfen"/>
+        <ext_arg_token id="53" token="auf"/>
+        <ext_arg_token id="54" token="den"/>
+        <ext_arg_token id="55" token="heißen"/>
+        <ext_arg_token id="56" token="Stein"/>
+        <ext_arg_token id="57" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="58" token="Die"/>
+        <int_arg_token id="59" token="Betriebskosten"/>
+        <int_arg_token id="60" token="für"/>
+        <int_arg_token id="61" token="den"/>
+        <int_arg_token id="62" token="schmucken"/>
+        <int_arg_token id="63" token="Veranstaltungsort"/>
+        <int_arg_token id="64" token="sind"/>
+        <int_arg_token id="65" token="hoch"/>
+        <int_arg_token id="66" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="67" token="Jetzt"/>
+        <ext_arg_token id="68" token="wird"/>
+        <ext_arg_token id="69" token="es"/>
+        <ext_arg_token id="70" token="darum"/>
+        <ext_arg_token id="71" token="gehen"/>
+        <ext_arg_token id="72" token=","/>
+        <ext_arg_token id="73" token="die"/>
+        <ext_arg_token id="74" token="Halle"/>
+        <ext_arg_token id="75" token="so"/>
+        <ext_arg_token id="76" token="oft"/>
+        <ext_arg_token id="77" token="wie"/>
+        <ext_arg_token id="78" token="möglich"/>
+        <ext_arg_token id="79" token="zu"/>
+        <ext_arg_token id="80" token="füllen"/>
+        <ext_arg_token id="81" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="82" token="Je"/>
+        <int_arg_token id="83" token="mehr"/>
+        <int_arg_token id="84" token="Veranstaltungen"/>
+        <int_arg_token id="85" token="stattfinden"/>
+        <int_arg_token id="86" token=","/>
+        <int_arg_token id="87" token="desto"/>
+        <int_arg_token id="88" token="weniger"/>
+        <int_arg_token id="89" token="wird"/>
+        <int_arg_token id="90" token="der"/>
+        <int_arg_token id="91" token="Stadthaushalt"/>
+        <int_arg_token id="92" token="belastet"/>
+        <int_arg_token id="93" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="116" token="Wittstock"/>
+        <ext_arg_token id="117" token="dagegen"/>
+        <ext_arg_token id="118" token="muss"/>
+        <ext_arg_token id="119" token="sich"/>
+        <ext_arg_token id="120" token="erst"/>
+        <ext_arg_token id="121" token="einen"/>
+        <ext_arg_token id="122" token="Namen"/>
+        <ext_arg_token id="123" token="machen"/>
+        <ext_arg_token id="124" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="125" token="Das"/>
+        <int_arg_token id="126" token="Oktoberfest"/>
+        <int_arg_token id="127" token="hat"/>
+        <int_arg_token id="128" token="gezeigt"/>
+        <int_arg_token id="129" token=","/>
+        <int_arg_token id="130" token="dass"/>
+        <int_arg_token id="131" token="es"/>
+        <int_arg_token id="132" token="eine"/>
+        <int_arg_token id="133" token="Anlaufzeit"/>
+        <int_arg_token id="134" token="braucht"/>
+        <int_arg_token id="135" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>schließlich</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="125" token="Das"/>
+        <ext_arg_token id="126" token="Oktoberfest"/>
+        <ext_arg_token id="127" token="hat"/>
+        <ext_arg_token id="128" token="gezeigt"/>
+        <ext_arg_token id="129" token=","/>
+        <ext_arg_token id="130" token="dass"/>
+        <ext_arg_token id="131" token="es"/>
+        <ext_arg_token id="132" token="eine"/>
+        <ext_arg_token id="133" token="Anlaufzeit"/>
+        <ext_arg_token id="134" token="braucht"/>
+        <ext_arg_token id="135" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="136" token="Die"/>
+        <int_arg_token id="137" token="Gäste"/>
+        <int_arg_token id="138" token="aus"/>
+        <int_arg_token id="139" token="nah"/>
+        <int_arg_token id="140" token="und"/>
+        <int_arg_token id="141" token="fern"/>
+        <int_arg_token id="142" token="müssen"/>
+        <int_arg_token id="143" token="sich"/>
+        <int_arg_token id="144" token="erst"/>
+        <int_arg_token id="145" token="daran"/>
+        <int_arg_token id="146" token="gewöhnen"/>
+        <int_arg_token id="147" token=","/>
+        <int_arg_token id="148" token="nach"/>
+        <int_arg_token id="149" token="Wittstock"/>
+        <int_arg_token id="150" token="und"/>
+        <int_arg_token id="151" token="Richtung"/>
+        <int_arg_token id="152" token="Gymnasium"/>
+        <int_arg_token id="153" token="zu"/>
+        <int_arg_token id="154" token="pilgern"/>
+        <int_arg_token id="155" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" type="EntRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="136" token="Die"/>
+        <ext_arg_token id="137" token="Gäste"/>
+        <ext_arg_token id="138" token="aus"/>
+        <ext_arg_token id="139" token="nah"/>
+        <ext_arg_token id="140" token="und"/>
+        <ext_arg_token id="141" token="fern"/>
+        <ext_arg_token id="142" token="müssen"/>
+        <ext_arg_token id="143" token="sich"/>
+        <ext_arg_token id="144" token="erst"/>
+        <ext_arg_token id="145" token="daran"/>
+        <ext_arg_token id="146" token="gewöhnen"/>
+        <ext_arg_token id="147" token=","/>
+        <ext_arg_token id="148" token="nach"/>
+        <ext_arg_token id="149" token="Wittstock"/>
+        <ext_arg_token id="150" token="und"/>
+        <ext_arg_token id="151" token="Richtung"/>
+        <ext_arg_token id="152" token="Gymnasium"/>
+        <ext_arg_token id="153" token="zu"/>
+        <ext_arg_token id="154" token="pilgern"/>
+        <ext_arg_token id="155" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="156" token="Fest"/>
+        <int_arg_token id="157" token="steht"/>
+        <int_arg_token id="158" token=","/>
+        <int_arg_token id="159" token="dass"/>
+        <int_arg_token id="160" token="die"/>
+        <int_arg_token id="161" token="Dosse-Stadt"/>
+        <int_arg_token id="162" token="als"/>
+        <int_arg_token id="163" token="Mittelzentrum"/>
+        <int_arg_token id="164" token="ohne"/>
+        <int_arg_token id="165" token="einen"/>
+        <int_arg_token id="166" token="ansehnlichen"/>
+        <int_arg_token id="167" token="Veranstaltungsort"/>
+        <int_arg_token id="168" token="mit"/>
+        <int_arg_token id="169" token="ausreichend"/>
+        <int_arg_token id="170" token="Platz"/>
+        <int_arg_token id="171" token="fürs"/>
+        <int_arg_token id="172" token="Publikum"/>
+        <int_arg_token id="173" token="nicht"/>
+        <int_arg_token id="174" token="auskommt"/>
+        <int_arg_token id="175" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="156" token="Fest"/>
+        <ext_arg_token id="157" token="steht"/>
+        <ext_arg_token id="158" token=","/>
+        <ext_arg_token id="159" token="dass"/>
+        <ext_arg_token id="160" token="die"/>
+        <ext_arg_token id="161" token="Dosse-Stadt"/>
+        <ext_arg_token id="162" token="als"/>
+        <ext_arg_token id="163" token="Mittelzentrum"/>
+        <ext_arg_token id="164" token="ohne"/>
+        <ext_arg_token id="165" token="einen"/>
+        <ext_arg_token id="166" token="ansehnlichen"/>
+        <ext_arg_token id="167" token="Veranstaltungsort"/>
+        <ext_arg_token id="168" token="mit"/>
+        <ext_arg_token id="169" token="ausreichend"/>
+        <ext_arg_token id="170" token="Platz"/>
+        <ext_arg_token id="171" token="fürs"/>
+        <ext_arg_token id="172" token="Publikum"/>
+        <ext_arg_token id="173" token="nicht"/>
+        <ext_arg_token id="174" token="auskommt"/>
+        <ext_arg_token id="175" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="176" token="Ohne"/>
+        <int_arg_token id="177" token="die"/>
+        <int_arg_token id="178" token="Halle"/>
+        <int_arg_token id="179" token="würde"/>
+        <int_arg_token id="180" token="Wittstock"/>
+        <int_arg_token id="181" token="bald"/>
+        <int_arg_token id="182" token="ins"/>
+        <int_arg_token id="183" token="Hintertreffen"/>
+        <int_arg_token id="184" token="geraten"/>
+        <int_arg_token id="185" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

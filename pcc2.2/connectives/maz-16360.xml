@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Schätze</token>
+    <token id="2">gehoben</token>
+    <token id="3">Als</token>
+    <token id="4">Raubritter</token>
+    <token id="5">Bassewitz</token>
+    <token id="6">die</token>
+    <token id="7">Kyritzer</token>
+    <token id="8">einst</token>
+    <token id="9">bedrängte</token>
+    <token id="10">,</token>
+    <token id="11">sollen</token>
+    <token id="12">sich</token>
+    <token id="13">die</token>
+    <token id="14">Bewohner</token>
+    <token id="15">mit</token>
+    <token id="16">Knatterkrapfen</token>
+    <token id="17">gestärkt</token>
+    <token id="18">haben</token>
+    <token id="19">.</token>
+    <token id="20">Der</token>
+    <token id="21">Kyritzer</token>
+    <token id="22">Bäckermeister</token>
+    <token id="23">Thomas</token>
+    <token id="24">Haupt</token>
+    <token id="25">brachte</token>
+    <token id="26">gestern</token>
+    <token id="27">zum</token>
+    <token id="28">Spezialitätenwettbewerb</token>
+    <token id="29">der</token>
+    <token id="30">Prignitzer</token>
+    <token id="31">Bäcker-Innung</token>
+    <token id="32">eine</token>
+    <token id="33">Tafel</token>
+    <token id="34">mit</token>
+    <token id="35">,</token>
+    <token id="36">auf</token>
+    <token id="37">der</token>
+    <token id="38">von</token>
+    <token id="39">dieser</token>
+    <token id="40">Begebenheit</token>
+    <token id="41">berichtet</token>
+    <token id="42">wird</token>
+    <token id="43">.</token>
+    <token id="44">Die</token>
+    <token id="45">Rezeptur</token>
+    <token id="46">für</token>
+    <token id="47">seinen</token>
+    <token id="48">Knatterkrapfen</token>
+    <token id="49">hat</token>
+    <token id="50">er</token>
+    <token id="51">von</token>
+    <token id="52">seiner</token>
+    <token id="53">Großmutter</token>
+    <token id="54">übernommen</token>
+    <token id="55">.</token>
+    <token id="56">Auch</token>
+    <token id="57">die</token>
+    <token id="58">anderen</token>
+    <token id="59">Bäckermeister</token>
+    <token id="60">stellten</token>
+    <token id="61">Rezepturen</token>
+    <token id="62">vor</token>
+    <token id="63">,</token>
+    <token id="64">die</token>
+    <token id="65">so</token>
+    <token id="66">wohl</token>
+    <token id="67">kaum</token>
+    <token id="68">bekannt</token>
+    <token id="69">waren</token>
+    <token id="70">.</token>
+    <token id="71">Einmalig</token>
+    <token id="72">dürfte</token>
+    <token id="73">das</token>
+    <token id="74">geflochtene</token>
+    <token id="75">Bunte</token>
+    <token id="76">Brot</token>
+    <token id="77">von</token>
+    <token id="78">Winfried</token>
+    <token id="79">Höfler</token>
+    <token id="80">aus</token>
+    <token id="81">Perleberg</token>
+    <token id="82">sein</token>
+    <token id="83">,</token>
+    <token id="84">ebenso</token>
+    <token id="85">einmalig</token>
+    <token id="86">wie</token>
+    <token id="87">die</token>
+    <token id="88">Elbwelle</token>
+    <token id="89">von</token>
+    <token id="90">Wolfgang</token>
+    <token id="91">Grünberg</token>
+    <token id="92">aus</token>
+    <token id="93">Lenzen</token>
+    <token id="94">.</token>
+    <token id="95">Eine</token>
+    <token id="96">Neuentwicklung</token>
+    <token id="97">präsentierte</token>
+    <token id="98">auch</token>
+    <token id="99">der</token>
+    <token id="100">Fretzdorfer</token>
+    <token id="101">Thomas</token>
+    <token id="102">Hausbalk</token>
+    <token id="103">mit</token>
+    <token id="104">seinem</token>
+    <token id="105">Schrotbrot</token>
+    <token id="106">,</token>
+    <token id="107">dass</token>
+    <token id="108">sich</token>
+    <token id="109">nicht</token>
+    <token id="110">nur</token>
+    <token id="111">lange</token>
+    <token id="112">frisch</token>
+    <token id="113">hält</token>
+    <token id="114">,</token>
+    <token id="115">sondern</token>
+    <token id="116">auch</token>
+    <token id="117">den</token>
+    <token id="118">Ansprüchen</token>
+    <token id="119">gesunder</token>
+    <token id="120">Ernährung</token>
+    <token id="121">entspricht</token>
+    <token id="122">.</token>
+    <token id="123">Die</token>
+    <token id="124">Meister</token>
+    <token id="125">werden</token>
+    <token id="126">nun</token>
+    <token id="127">ihre</token>
+    <token id="128">Spezialitäten</token>
+    <token id="129">auf</token>
+    <token id="130">der</token>
+    <token id="131">Grünen</token>
+    <token id="132">Woche</token>
+    <token id="133">vorstellen</token>
+    <token id="134">und</token>
+    <token id="135">damit</token>
+    <token id="136">für</token>
+    <token id="137">die</token>
+    <token id="138">Prignitz</token>
+    <token id="139">werben</token>
+    <token id="140">.</token>
+    <token id="141">Der</token>
+    <token id="142">Wettbewerb</token>
+    <token id="143">hat</token>
+    <token id="144">jedoch</token>
+    <token id="145">auch</token>
+    <token id="146">gezeigt</token>
+    <token id="147">,</token>
+    <token id="148">dass</token>
+    <token id="149">im</token>
+    <token id="150">Handwerk</token>
+    <token id="151">verborgene</token>
+    <token id="152">Schätze</token>
+    <token id="153">schlummern</token>
+    <token id="154">-</token>
+    <token id="155">mehr</token>
+    <token id="156">als</token>
+    <token id="157">man</token>
+    <token id="158">sich</token>
+    <token id="159">denkt</token>
+    <token id="160">.</token>
+    <token id="161">Oft</token>
+    <token id="162">fehlt</token>
+    <token id="163">es</token>
+    <token id="164">nur</token>
+    <token id="165">am</token>
+    <token id="166">Mut</token>
+    <token id="167">,</token>
+    <token id="168">mit</token>
+    <token id="169">diesen</token>
+    <token id="170">Schätzen</token>
+    <token id="171">an</token>
+    <token id="172">die</token>
+    <token id="173">Öffentlichkeit</token>
+    <token id="174">zu</token>
+    <token id="175">gehen</token>
+    <token id="176">.</token>
+    <token id="177">Mit</token>
+    <token id="178">der</token>
+    <token id="179">PR-Aktion</token>
+    <token id="180">wurde</token>
+    <token id="181">eben</token>
+    <token id="182">auch</token>
+    <token id="183">eine</token>
+    <token id="184">Hemmschwelle</token>
+    <token id="185">überwunden</token>
+    <token id="186">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Temporal.Synchronous" type="explicit">
+      <connective_tokens>
+        <connective_token id="3" token="Als"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="4" token="Raubritter"/>
+        <int_arg_token id="5" token="Bassewitz"/>
+        <int_arg_token id="6" token="die"/>
+        <int_arg_token id="7" token="Kyritzer"/>
+        <int_arg_token id="8" token="einst"/>
+        <int_arg_token id="9" token="bedrängte"/>
+        <int_arg_token id="10" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="11" token="sollen"/>
+        <ext_arg_token id="12" token="sich"/>
+        <ext_arg_token id="13" token="die"/>
+        <ext_arg_token id="14" token="Bewohner"/>
+        <ext_arg_token id="15" token="mit"/>
+        <ext_arg_token id="16" token="Knatterkrapfen"/>
+        <ext_arg_token id="17" token="gestärkt"/>
+        <ext_arg_token id="18" token="haben"/>
+        <ext_arg_token id="19" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="2" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="56" token="Auch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="20" token="Der"/>
+        <ext_arg_token id="21" token="Kyritzer"/>
+        <ext_arg_token id="22" token="Bäckermeister"/>
+        <ext_arg_token id="23" token="Thomas"/>
+        <ext_arg_token id="24" token="Haupt"/>
+        <ext_arg_token id="25" token="brachte"/>
+        <ext_arg_token id="26" token="gestern"/>
+        <ext_arg_token id="27" token="zum"/>
+        <ext_arg_token id="28" token="Spezialitätenwettbewerb"/>
+        <ext_arg_token id="29" token="der"/>
+        <ext_arg_token id="30" token="Prignitzer"/>
+        <ext_arg_token id="31" token="Bäcker-Innung"/>
+        <ext_arg_token id="32" token="eine"/>
+        <ext_arg_token id="33" token="Tafel"/>
+        <ext_arg_token id="34" token="mit"/>
+        <ext_arg_token id="35" token=","/>
+        <ext_arg_token id="36" token="auf"/>
+        <ext_arg_token id="37" token="der"/>
+        <ext_arg_token id="38" token="von"/>
+        <ext_arg_token id="39" token="dieser"/>
+        <ext_arg_token id="40" token="Begebenheit"/>
+        <ext_arg_token id="41" token="berichtet"/>
+        <ext_arg_token id="42" token="wird"/>
+        <ext_arg_token id="43" token="."/>
+        <ext_arg_token id="44" token="Die"/>
+        <ext_arg_token id="45" token="Rezeptur"/>
+        <ext_arg_token id="46" token="für"/>
+        <ext_arg_token id="47" token="seinen"/>
+        <ext_arg_token id="48" token="Knatterkrapfen"/>
+        <ext_arg_token id="49" token="hat"/>
+        <ext_arg_token id="50" token="er"/>
+        <ext_arg_token id="51" token="von"/>
+        <ext_arg_token id="52" token="seiner"/>
+        <ext_arg_token id="53" token="Großmutter"/>
+        <ext_arg_token id="54" token="übernommen"/>
+        <ext_arg_token id="55" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="57" token="die"/>
+        <int_arg_token id="58" token="anderen"/>
+        <int_arg_token id="59" token="Bäckermeister"/>
+        <int_arg_token id="60" token="stellten"/>
+        <int_arg_token id="61" token="Rezepturen"/>
+        <int_arg_token id="62" token="vor"/>
+        <int_arg_token id="63" token=","/>
+        <int_arg_token id="64" token="die"/>
+        <int_arg_token id="65" token="so"/>
+        <int_arg_token id="66" token="wohl"/>
+        <int_arg_token id="67" token="kaum"/>
+        <int_arg_token id="68" token="bekannt"/>
+        <int_arg_token id="69" token="waren"/>
+        <int_arg_token id="70" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Comparison.Similarity" type="explicit">
+      <connective_tokens>
+        <connective_token id="84" token="ebenso"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="71" token="Einmalig"/>
+        <ext_arg_token id="72" token="dürfte"/>
+        <ext_arg_token id="73" token="das"/>
+        <ext_arg_token id="74" token="geflochtene"/>
+        <ext_arg_token id="75" token="Bunte"/>
+        <ext_arg_token id="76" token="Brot"/>
+        <ext_arg_token id="77" token="von"/>
+        <ext_arg_token id="78" token="Winfried"/>
+        <ext_arg_token id="79" token="Höfler"/>
+        <ext_arg_token id="80" token="aus"/>
+        <ext_arg_token id="81" token="Perleberg"/>
+        <ext_arg_token id="82" token="sein"/>
+        <ext_arg_token id="83" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="85" token="einmalig"/>
+        <int_arg_token id="86" token="wie"/>
+        <int_arg_token id="87" token="die"/>
+        <int_arg_token id="88" token="Elbwelle"/>
+        <int_arg_token id="89" token="von"/>
+        <int_arg_token id="90" token="Wolfgang"/>
+        <int_arg_token id="91" token="Grünberg"/>
+        <int_arg_token id="92" token="aus"/>
+        <int_arg_token id="93" token="Lenzen"/>
+        <int_arg_token id="94" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="98" token="auch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="71" token="Einmalig"/>
+        <ext_arg_token id="72" token="dürfte"/>
+        <ext_arg_token id="73" token="das"/>
+        <ext_arg_token id="74" token="geflochtene"/>
+        <ext_arg_token id="75" token="Bunte"/>
+        <ext_arg_token id="76" token="Brot"/>
+        <ext_arg_token id="77" token="von"/>
+        <ext_arg_token id="78" token="Winfried"/>
+        <ext_arg_token id="79" token="Höfler"/>
+        <ext_arg_token id="80" token="aus"/>
+        <ext_arg_token id="81" token="Perleberg"/>
+        <ext_arg_token id="82" token="sein"/>
+        <ext_arg_token id="83" token=","/>
+        <ext_arg_token id="84" token="ebenso"/>
+        <ext_arg_token id="85" token="einmalig"/>
+        <ext_arg_token id="86" token="wie"/>
+        <ext_arg_token id="87" token="die"/>
+        <ext_arg_token id="88" token="Elbwelle"/>
+        <ext_arg_token id="89" token="von"/>
+        <ext_arg_token id="90" token="Wolfgang"/>
+        <ext_arg_token id="91" token="Grünberg"/>
+        <ext_arg_token id="92" token="aus"/>
+        <ext_arg_token id="93" token="Lenzen"/>
+        <ext_arg_token id="94" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="95" token="Eine"/>
+        <int_arg_token id="96" token="Neuentwicklung"/>
+        <int_arg_token id="97" token="präsentierte"/>
+        <int_arg_token id="99" token="der"/>
+        <int_arg_token id="100" token="Fretzdorfer"/>
+        <int_arg_token id="101" token="Thomas"/>
+        <int_arg_token id="102" token="Hausbalk"/>
+        <int_arg_token id="103" token="mit"/>
+        <int_arg_token id="104" token="seinem"/>
+        <int_arg_token id="105" token="Schrotbrot"/>
+        <int_arg_token id="106" token=","/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="115" token="sondern"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="107" token="dass"/>
+        <ext_arg_token id="108" token="sich"/>
+        <ext_arg_token id="109" token="nicht"/>
+        <ext_arg_token id="110" token="nur"/>
+        <ext_arg_token id="111" token="lange"/>
+        <ext_arg_token id="112" token="frisch"/>
+        <ext_arg_token id="113" token="hält"/>
+        <ext_arg_token id="114" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="116" token="auch"/>
+        <int_arg_token id="117" token="den"/>
+        <int_arg_token id="118" token="Ansprüchen"/>
+        <int_arg_token id="119" token="gesunder"/>
+        <int_arg_token id="120" token="Ernährung"/>
+        <int_arg_token id="121" token="entspricht"/>
+        <int_arg_token id="122" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="134" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="123" token="Die"/>
+        <ext_arg_token id="124" token="Meister"/>
+        <ext_arg_token id="125" token="werden"/>
+        <ext_arg_token id="126" token="nun"/>
+        <ext_arg_token id="127" token="ihre"/>
+        <ext_arg_token id="128" token="Spezialitäten"/>
+        <ext_arg_token id="129" token="auf"/>
+        <ext_arg_token id="130" token="der"/>
+        <ext_arg_token id="131" token="Grünen"/>
+        <ext_arg_token id="132" token="Woche"/>
+        <ext_arg_token id="133" token="vorstellen"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="135" token="damit"/>
+        <int_arg_token id="136" token="für"/>
+        <int_arg_token id="137" token="die"/>
+        <int_arg_token id="138" token="Prignitz"/>
+        <int_arg_token id="139" token="werben"/>
+        <int_arg_token id="140" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="144" token="jedoch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="123" token="Die"/>
+        <ext_arg_token id="124" token="Meister"/>
+        <ext_arg_token id="125" token="werden"/>
+        <ext_arg_token id="126" token="nun"/>
+        <ext_arg_token id="127" token="ihre"/>
+        <ext_arg_token id="128" token="Spezialitäten"/>
+        <ext_arg_token id="129" token="auf"/>
+        <ext_arg_token id="130" token="der"/>
+        <ext_arg_token id="131" token="Grünen"/>
+        <ext_arg_token id="132" token="Woche"/>
+        <ext_arg_token id="133" token="vorstellen"/>
+        <ext_arg_token id="134" token="und"/>
+        <ext_arg_token id="135" token="damit"/>
+        <ext_arg_token id="136" token="für"/>
+        <ext_arg_token id="137" token="die"/>
+        <ext_arg_token id="138" token="Prignitz"/>
+        <ext_arg_token id="139" token="werben"/>
+        <ext_arg_token id="140" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="141" token="Der"/>
+        <int_arg_token id="142" token="Wettbewerb"/>
+        <int_arg_token id="143" token="hat"/>
+        <int_arg_token id="145" token="auch"/>
+        <int_arg_token id="146" token="gezeigt"/>
+        <int_arg_token id="147" token=","/>
+        <int_arg_token id="148" token="dass"/>
+        <int_arg_token id="149" token="im"/>
+        <int_arg_token id="150" token="Handwerk"/>
+        <int_arg_token id="151" token="verborgene"/>
+        <int_arg_token id="152" token="Schätze"/>
+        <int_arg_token id="153" token="schlummern"/>
+        <int_arg_token id="154" token="-"/>
+        <int_arg_token id="155" token="mehr"/>
+        <int_arg_token id="156" token="als"/>
+        <int_arg_token id="157" token="man"/>
+        <int_arg_token id="158" token="sich"/>
+        <int_arg_token id="159" token="denkt"/>
+        <int_arg_token id="160" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Als"/>
+        <ext_arg_token id="4" token="Raubritter"/>
+        <ext_arg_token id="5" token="Bassewitz"/>
+        <ext_arg_token id="6" token="die"/>
+        <ext_arg_token id="7" token="Kyritzer"/>
+        <ext_arg_token id="8" token="einst"/>
+        <ext_arg_token id="9" token="bedrängte"/>
+        <ext_arg_token id="10" token=","/>
+        <ext_arg_token id="11" token="sollen"/>
+        <ext_arg_token id="12" token="sich"/>
+        <ext_arg_token id="13" token="die"/>
+        <ext_arg_token id="14" token="Bewohner"/>
+        <ext_arg_token id="15" token="mit"/>
+        <ext_arg_token id="16" token="Knatterkrapfen"/>
+        <ext_arg_token id="17" token="gestärkt"/>
+        <ext_arg_token id="18" token="haben"/>
+        <ext_arg_token id="19" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="20" token="Der"/>
+        <int_arg_token id="21" token="Kyritzer"/>
+        <int_arg_token id="22" token="Bäckermeister"/>
+        <int_arg_token id="23" token="Thomas"/>
+        <int_arg_token id="24" token="Haupt"/>
+        <int_arg_token id="25" token="brachte"/>
+        <int_arg_token id="26" token="gestern"/>
+        <int_arg_token id="27" token="zum"/>
+        <int_arg_token id="28" token="Spezialitätenwettbewerb"/>
+        <int_arg_token id="29" token="der"/>
+        <int_arg_token id="30" token="Prignitzer"/>
+        <int_arg_token id="31" token="Bäcker-Innung"/>
+        <int_arg_token id="32" token="eine"/>
+        <int_arg_token id="33" token="Tafel"/>
+        <int_arg_token id="34" token="mit"/>
+        <int_arg_token id="35" token=","/>
+        <int_arg_token id="36" token="auf"/>
+        <int_arg_token id="37" token="der"/>
+        <int_arg_token id="38" token="von"/>
+        <int_arg_token id="39" token="dieser"/>
+        <int_arg_token id="40" token="Begebenheit"/>
+        <int_arg_token id="41" token="berichtet"/>
+        <int_arg_token id="42" token="wird"/>
+        <int_arg_token id="43" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="56" token="Auch"/>
+        <ext_arg_token id="57" token="die"/>
+        <ext_arg_token id="58" token="anderen"/>
+        <ext_arg_token id="59" token="Bäckermeister"/>
+        <ext_arg_token id="60" token="stellten"/>
+        <ext_arg_token id="61" token="Rezepturen"/>
+        <ext_arg_token id="62" token="vor"/>
+        <ext_arg_token id="63" token=","/>
+        <ext_arg_token id="64" token="die"/>
+        <ext_arg_token id="65" token="so"/>
+        <ext_arg_token id="66" token="wohl"/>
+        <ext_arg_token id="67" token="kaum"/>
+        <ext_arg_token id="68" token="bekannt"/>
+        <ext_arg_token id="69" token="waren"/>
+        <ext_arg_token id="70" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="71" token="Einmalig"/>
+        <int_arg_token id="72" token="dürfte"/>
+        <int_arg_token id="73" token="das"/>
+        <int_arg_token id="74" token="geflochtene"/>
+        <int_arg_token id="75" token="Bunte"/>
+        <int_arg_token id="76" token="Brot"/>
+        <int_arg_token id="77" token="von"/>
+        <int_arg_token id="78" token="Winfried"/>
+        <int_arg_token id="79" token="Höfler"/>
+        <int_arg_token id="80" token="aus"/>
+        <int_arg_token id="81" token="Perleberg"/>
+        <int_arg_token id="82" token="sein"/>
+        <int_arg_token id="83" token=","/>
+        <int_arg_token id="84" token="ebenso"/>
+        <int_arg_token id="85" token="einmalig"/>
+        <int_arg_token id="86" token="wie"/>
+        <int_arg_token id="87" token="die"/>
+        <int_arg_token id="88" token="Elbwelle"/>
+        <int_arg_token id="89" token="von"/>
+        <int_arg_token id="90" token="Wolfgang"/>
+        <int_arg_token id="91" token="Grünberg"/>
+        <int_arg_token id="92" token="aus"/>
+        <int_arg_token id="93" token="Lenzen"/>
+        <int_arg_token id="94" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="141" token="Der"/>
+        <ext_arg_token id="142" token="Wettbewerb"/>
+        <ext_arg_token id="143" token="hat"/>
+        <ext_arg_token id="144" token="jedoch"/>
+        <ext_arg_token id="145" token="auch"/>
+        <ext_arg_token id="146" token="gezeigt"/>
+        <ext_arg_token id="147" token=","/>
+        <ext_arg_token id="148" token="dass"/>
+        <ext_arg_token id="149" token="im"/>
+        <ext_arg_token id="150" token="Handwerk"/>
+        <ext_arg_token id="151" token="verborgene"/>
+        <ext_arg_token id="152" token="Schätze"/>
+        <ext_arg_token id="153" token="schlummern"/>
+        <ext_arg_token id="154" token="-"/>
+        <ext_arg_token id="155" token="mehr"/>
+        <ext_arg_token id="156" token="als"/>
+        <ext_arg_token id="157" token="man"/>
+        <ext_arg_token id="158" token="sich"/>
+        <ext_arg_token id="159" token="denkt"/>
+        <ext_arg_token id="160" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="161" token="Oft"/>
+        <int_arg_token id="162" token="fehlt"/>
+        <int_arg_token id="163" token="es"/>
+        <int_arg_token id="164" token="nur"/>
+        <int_arg_token id="165" token="am"/>
+        <int_arg_token id="166" token="Mut"/>
+        <int_arg_token id="167" token=","/>
+        <int_arg_token id="168" token="mit"/>
+        <int_arg_token id="169" token="diesen"/>
+        <int_arg_token id="170" token="Schätzen"/>
+        <int_arg_token id="171" token="an"/>
+        <int_arg_token id="172" token="die"/>
+        <int_arg_token id="173" token="Öffentlichkeit"/>
+        <int_arg_token id="174" token="zu"/>
+        <int_arg_token id="175" token="gehen"/>
+        <int_arg_token id="176" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="implicit">
+      <connective_tokens>
+        <implicit_connective>doch</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="161" token="Oft"/>
+        <ext_arg_token id="162" token="fehlt"/>
+        <ext_arg_token id="163" token="es"/>
+        <ext_arg_token id="164" token="nur"/>
+        <ext_arg_token id="165" token="am"/>
+        <ext_arg_token id="166" token="Mut"/>
+        <ext_arg_token id="167" token=","/>
+        <ext_arg_token id="168" token="mit"/>
+        <ext_arg_token id="169" token="diesen"/>
+        <ext_arg_token id="170" token="Schätzen"/>
+        <ext_arg_token id="171" token="an"/>
+        <ext_arg_token id="172" token="die"/>
+        <ext_arg_token id="173" token="Öffentlichkeit"/>
+        <ext_arg_token id="174" token="zu"/>
+        <ext_arg_token id="175" token="gehen"/>
+        <ext_arg_token id="176" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="177" token="Mit"/>
+        <int_arg_token id="178" token="der"/>
+        <int_arg_token id="179" token="PR-Aktion"/>
+        <int_arg_token id="180" token="wurde"/>
+        <int_arg_token id="181" token="eben"/>
+        <int_arg_token id="182" token="auch"/>
+        <int_arg_token id="183" token="eine"/>
+        <int_arg_token id="184" token="Hemmschwelle"/>
+        <int_arg_token id="185" token="überwunden"/>
+        <int_arg_token id="186" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

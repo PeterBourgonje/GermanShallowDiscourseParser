@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Scheibchenweise</token>
+    <token id="2">Es</token>
+    <token id="3">ist</token>
+    <token id="4">eine</token>
+    <token id="5">erfreuliche</token>
+    <token id="6">Serie</token>
+    <token id="7">:</token>
+    <token id="8">Am</token>
+    <token id="9">Donnerstag</token>
+    <token id="10">vergangener</token>
+    <token id="11">Woche</token>
+    <token id="12">nahmen</token>
+    <token id="13">die</token>
+    <token id="14">Klimafolgenforscher</token>
+    <token id="15">auf</token>
+    <token id="16">dem</token>
+    <token id="17">Telegrafenberg</token>
+    <token id="18">einen</token>
+    <token id="19">Supercomputer</token>
+    <token id="20">in</token>
+    <token id="21">Betrieb</token>
+    <token id="22">,</token>
+    <token id="23">gestern</token>
+    <token id="24">startete</token>
+    <token id="25">eine</token>
+    <token id="26">Hightech-Anlage</token>
+    <token id="27">in</token>
+    <token id="28">den</token>
+    <token id="29">Roten</token>
+    <token id="30">Kasernen</token>
+    <token id="31">,</token>
+    <token id="32">heute</token>
+    <token id="33">wird</token>
+    <token id="34">am</token>
+    <token id="35">Griebnitzsee</token>
+    <token id="36">das</token>
+    <token id="37">Hasso-Plattner-Institut</token>
+    <token id="38">eröffnet</token>
+    <token id="39">...</token>
+    <token id="40">So</token>
+    <token id="41">betrachtet</token>
+    <token id="42">,</token>
+    <token id="43">reiht</token>
+    <token id="44">sich</token>
+    <token id="45">das</token>
+    <token id="46">gestern</token>
+    <token id="47">gestartete</token>
+    <token id="48">Projekt</token>
+    <token id="49">der</token>
+    <token id="50">PanMedium-Stiftung</token>
+    <token id="51">in</token>
+    <token id="52">der</token>
+    <token id="53">Nedlitzer</token>
+    <token id="54">Straße</token>
+    <token id="55">nahtlos</token>
+    <token id="56">in</token>
+    <token id="57">die</token>
+    <token id="58">expandierende</token>
+    <token id="59">Potsdamer</token>
+    <token id="60">Hochtechnologie-Landschaft</token>
+    <token id="61">ein</token>
+    <token id="62">.</token>
+    <token id="63">Und</token>
+    <token id="64">das</token>
+    <token id="65">auf</token>
+    <token id="66">hoffnungsvolle</token>
+    <token id="67">Weise</token>
+    <token id="68">.</token>
+    <token id="69">Nur</token>
+    <token id="70">zu</token>
+    <token id="71">gut</token>
+    <token id="72">ist</token>
+    <token id="73">das</token>
+    <token id="74">Debakel</token>
+    <token id="75">um</token>
+    <token id="76">ein</token>
+    <token id="77">ähnlich</token>
+    <token id="78">hochgestecktes</token>
+    <token id="79">Wirtschafts-Computerprojekt</token>
+    <token id="80">in</token>
+    <token id="81">Erinnerung</token>
+    <token id="82">:</token>
+    <token id="83">Das</token>
+    <token id="84">FX-Center</token>
+    <token id="85">,</token>
+    <token id="86">das</token>
+    <token id="87">kaum</token>
+    <token id="88">aus</token>
+    <token id="89">den</token>
+    <token id="90">Negativ-Schlagzeilen</token>
+    <token id="91">heraus</token>
+    <token id="92">ist</token>
+    <token id="93">.</token>
+    <token id="94">Im</token>
+    <token id="95">Vergleich</token>
+    <token id="96">zum</token>
+    <token id="97">Hightech-Kollegen</token>
+    <token id="98">in</token>
+    <token id="99">der</token>
+    <token id="100">Medienstadt</token>
+    <token id="101">ist</token>
+    <token id="102">das</token>
+    <token id="103">PanMedium-Unternehmen</token>
+    <token id="104">aber</token>
+    <token id="105">von</token>
+    <token id="106">Anfang</token>
+    <token id="107">an</token>
+    <token id="108">bescheidener</token>
+    <token id="109">ausgelegt</token>
+    <token id="110">.</token>
+    <token id="111">Nicht</token>
+    <token id="112">nur</token>
+    <token id="113">bei</token>
+    <token id="114">der</token>
+    <token id="115">Förderung</token>
+    <token id="116">(</token>
+    <token id="117">19,5</token>
+    <token id="118">statt</token>
+    <token id="119">93</token>
+    <token id="120">Millionen</token>
+    <token id="121">Mark</token>
+    <token id="122">bei</token>
+    <token id="123">einer</token>
+    <token id="124">Gesamtinvestition</token>
+    <token id="125">von</token>
+    <token id="126">29</token>
+    <token id="127">statt</token>
+    <token id="128">104</token>
+    <token id="129">Millionen</token>
+    <token id="130">)</token>
+    <token id="131">,</token>
+    <token id="132">auch</token>
+    <token id="133">im</token>
+    <token id="134">Konzept</token>
+    <token id="135">geht</token>
+    <token id="136">PanMedium</token>
+    <token id="137">andere</token>
+    <token id="138">Wege</token>
+    <token id="139">.</token>
+    <token id="140">Der</token>
+    <token id="141">Computer</token>
+    <token id="142">startet</token>
+    <token id="143">in</token>
+    <token id="144">verhältnismäßig</token>
+    <token id="145">kleinem</token>
+    <token id="146">Umfang</token>
+    <token id="147">,</token>
+    <token id="148">wächst</token>
+    <token id="149">aber</token>
+    <token id="150">bei</token>
+    <token id="151">Kundennachfrage</token>
+    <token id="152">mit</token>
+    <token id="153">.</token>
+    <token id="154">Das</token>
+    <token id="155">klingt</token>
+    <token id="156">nicht</token>
+    <token id="157">nur</token>
+    <token id="158">technisch</token>
+    <token id="159">sinnvoll</token>
+    <token id="160">,</token>
+    <token id="161">das</token>
+    <token id="162">gibt</token>
+    <token id="163">der</token>
+    <token id="164">Wirtschaft</token>
+    <token id="165">auch</token>
+    <token id="166">finanziell</token>
+    <token id="167">halbwegs</token>
+    <token id="168">die</token>
+    <token id="169">Garantie</token>
+    <token id="170">,</token>
+    <token id="171">kein</token>
+    <token id="172">neues</token>
+    <token id="173">Dienstleister-Fiasko</token>
+    <token id="174">wie</token>
+    <token id="175">bei</token>
+    <token id="176">FX</token>
+    <token id="177">zu</token>
+    <token id="178">erleben</token>
+    <token id="179">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="63" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="40" token="So"/>
+        <ext_arg_token id="41" token="betrachtet"/>
+        <ext_arg_token id="42" token=","/>
+        <ext_arg_token id="43" token="reiht"/>
+        <ext_arg_token id="44" token="sich"/>
+        <ext_arg_token id="45" token="das"/>
+        <ext_arg_token id="46" token="gestern"/>
+        <ext_arg_token id="47" token="gestartete"/>
+        <ext_arg_token id="48" token="Projekt"/>
+        <ext_arg_token id="49" token="der"/>
+        <ext_arg_token id="50" token="PanMedium-Stiftung"/>
+        <ext_arg_token id="51" token="in"/>
+        <ext_arg_token id="52" token="der"/>
+        <ext_arg_token id="53" token="Nedlitzer"/>
+        <ext_arg_token id="54" token="Straße"/>
+        <ext_arg_token id="55" token="nahtlos"/>
+        <ext_arg_token id="56" token="in"/>
+        <ext_arg_token id="57" token="die"/>
+        <ext_arg_token id="58" token="expandierende"/>
+        <ext_arg_token id="59" token="Potsdamer"/>
+        <ext_arg_token id="60" token="Hochtechnologie-Landschaft"/>
+        <ext_arg_token id="61" token="ein"/>
+        <ext_arg_token id="62" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="64" token="das"/>
+        <int_arg_token id="65" token="auf"/>
+        <int_arg_token id="66" token="hoffnungsvolle"/>
+        <int_arg_token id="67" token="Weise"/>
+        <int_arg_token id="68" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="104" token="aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="69" token="Nur"/>
+        <ext_arg_token id="70" token="zu"/>
+        <ext_arg_token id="71" token="gut"/>
+        <ext_arg_token id="72" token="ist"/>
+        <ext_arg_token id="73" token="das"/>
+        <ext_arg_token id="74" token="Debakel"/>
+        <ext_arg_token id="75" token="um"/>
+        <ext_arg_token id="76" token="ein"/>
+        <ext_arg_token id="77" token="ähnlich"/>
+        <ext_arg_token id="78" token="hochgestecktes"/>
+        <ext_arg_token id="79" token="Wirtschafts-Computerprojekt"/>
+        <ext_arg_token id="80" token="in"/>
+        <ext_arg_token id="81" token="Erinnerung"/>
+        <ext_arg_token id="82" token=":"/>
+        <ext_arg_token id="83" token="Das"/>
+        <ext_arg_token id="84" token="FX-Center"/>
+        <ext_arg_token id="85" token=","/>
+        <ext_arg_token id="86" token="das"/>
+        <ext_arg_token id="87" token="kaum"/>
+        <ext_arg_token id="88" token="aus"/>
+        <ext_arg_token id="89" token="den"/>
+        <ext_arg_token id="90" token="Negativ-Schlagzeilen"/>
+        <ext_arg_token id="91" token="heraus"/>
+        <ext_arg_token id="92" token="ist"/>
+        <ext_arg_token id="93" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="94" token="Im"/>
+        <int_arg_token id="95" token="Vergleich"/>
+        <int_arg_token id="96" token="zum"/>
+        <int_arg_token id="97" token="Hightech-Kollegen"/>
+        <int_arg_token id="98" token="in"/>
+        <int_arg_token id="99" token="der"/>
+        <int_arg_token id="100" token="Medienstadt"/>
+        <int_arg_token id="101" token="ist"/>
+        <int_arg_token id="102" token="das"/>
+        <int_arg_token id="103" token="PanMedium-Unternehmen"/>
+        <int_arg_token id="105" token="von"/>
+        <int_arg_token id="106" token="Anfang"/>
+        <int_arg_token id="107" token="an"/>
+        <int_arg_token id="108" token="bescheidener"/>
+        <int_arg_token id="109" token="ausgelegt"/>
+        <int_arg_token id="110" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="132" token="auch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="111" token="Nicht"/>
+        <ext_arg_token id="112" token="nur"/>
+        <ext_arg_token id="113" token="bei"/>
+        <ext_arg_token id="114" token="der"/>
+        <ext_arg_token id="115" token="Förderung"/>
+        <ext_arg_token id="116" token="("/>
+        <ext_arg_token id="117" token="19,5"/>
+        <ext_arg_token id="118" token="statt"/>
+        <ext_arg_token id="119" token="93"/>
+        <ext_arg_token id="120" token="Millionen"/>
+        <ext_arg_token id="121" token="Mark"/>
+        <ext_arg_token id="122" token="bei"/>
+        <ext_arg_token id="123" token="einer"/>
+        <ext_arg_token id="124" token="Gesamtinvestition"/>
+        <ext_arg_token id="125" token="von"/>
+        <ext_arg_token id="126" token="29"/>
+        <ext_arg_token id="127" token="statt"/>
+        <ext_arg_token id="128" token="104"/>
+        <ext_arg_token id="129" token="Millionen"/>
+        <ext_arg_token id="130" token=")"/>
+        <ext_arg_token id="131" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="133" token="im"/>
+        <int_arg_token id="134" token="Konzept"/>
+        <int_arg_token id="135" token="geht"/>
+        <int_arg_token id="136" token="PanMedium"/>
+        <int_arg_token id="137" token="andere"/>
+        <int_arg_token id="138" token="Wege"/>
+        <int_arg_token id="139" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="149" token="aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="140" token="Der"/>
+        <ext_arg_token id="141" token="Computer"/>
+        <ext_arg_token id="142" token="startet"/>
+        <ext_arg_token id="143" token="in"/>
+        <ext_arg_token id="144" token="verhältnismäßig"/>
+        <ext_arg_token id="145" token="kleinem"/>
+        <ext_arg_token id="146" token="Umfang"/>
+        <ext_arg_token id="147" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="148" token="wächst"/>
+        <int_arg_token id="150" token="bei"/>
+        <int_arg_token id="151" token="Kundennachfrage"/>
+        <int_arg_token id="152" token="mit"/>
+        <int_arg_token id="153" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="165" token="auch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="154" token="Das"/>
+        <ext_arg_token id="155" token="klingt"/>
+        <ext_arg_token id="156" token="nicht"/>
+        <ext_arg_token id="157" token="nur"/>
+        <ext_arg_token id="158" token="technisch"/>
+        <ext_arg_token id="159" token="sinnvoll"/>
+        <ext_arg_token id="160" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="161" token="das"/>
+        <int_arg_token id="162" token="gibt"/>
+        <int_arg_token id="163" token="der"/>
+        <int_arg_token id="164" token="Wirtschaft"/>
+        <int_arg_token id="166" token="finanziell"/>
+        <int_arg_token id="167" token="halbwegs"/>
+        <int_arg_token id="168" token="die"/>
+        <int_arg_token id="169" token="Garantie"/>
+        <int_arg_token id="170" token=","/>
+        <int_arg_token id="171" token="kein"/>
+        <int_arg_token id="172" token="neues"/>
+        <int_arg_token id="173" token="Dienstleister-Fiasko"/>
+        <int_arg_token id="174" token="wie"/>
+        <int_arg_token id="175" token="bei"/>
+        <int_arg_token id="176" token="FX"/>
+        <int_arg_token id="177" token="zu"/>
+        <int_arg_token id="178" token="erleben"/>
+        <int_arg_token id="179" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="2" token="Es"/>
+        <ext_arg_token id="3" token="ist"/>
+        <ext_arg_token id="4" token="eine"/>
+        <ext_arg_token id="5" token="erfreuliche"/>
+        <ext_arg_token id="6" token="Serie"/>
+        <ext_arg_token id="7" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="8" token="Am"/>
+        <int_arg_token id="9" token="Donnerstag"/>
+        <int_arg_token id="10" token="vergangener"/>
+        <int_arg_token id="11" token="Woche"/>
+        <int_arg_token id="12" token="nahmen"/>
+        <int_arg_token id="13" token="die"/>
+        <int_arg_token id="14" token="Klimafolgenforscher"/>
+        <int_arg_token id="15" token="auf"/>
+        <int_arg_token id="16" token="dem"/>
+        <int_arg_token id="17" token="Telegrafenberg"/>
+        <int_arg_token id="18" token="einen"/>
+        <int_arg_token id="19" token="Supercomputer"/>
+        <int_arg_token id="20" token="in"/>
+        <int_arg_token id="21" token="Betrieb"/>
+        <int_arg_token id="22" token=","/>
+        <int_arg_token id="23" token="gestern"/>
+        <int_arg_token id="24" token="startete"/>
+        <int_arg_token id="25" token="eine"/>
+        <int_arg_token id="26" token="Hightech-Anlage"/>
+        <int_arg_token id="27" token="in"/>
+        <int_arg_token id="28" token="den"/>
+        <int_arg_token id="29" token="Roten"/>
+        <int_arg_token id="30" token="Kasernen"/>
+        <int_arg_token id="31" token=","/>
+        <int_arg_token id="32" token="heute"/>
+        <int_arg_token id="33" token="wird"/>
+        <int_arg_token id="34" token="am"/>
+        <int_arg_token id="35" token="Griebnitzsee"/>
+        <int_arg_token id="36" token="das"/>
+        <int_arg_token id="37" token="Hasso-Plattner-Institut"/>
+        <int_arg_token id="38" token="eröffnet"/>
+        <int_arg_token id="39" token="..."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Contingency.Cause.Result" type="AltLex">
+      <connective_tokens>
+	<connective_token id="40" token="So"/>
+	<connective_token id="41" token="betrachtet"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="8" token="Am"/>
+        <ext_arg_token id="9" token="Donnerstag"/>
+        <ext_arg_token id="10" token="vergangener"/>
+        <ext_arg_token id="11" token="Woche"/>
+        <ext_arg_token id="12" token="nahmen"/>
+        <ext_arg_token id="13" token="die"/>
+        <ext_arg_token id="14" token="Klimafolgenforscher"/>
+        <ext_arg_token id="15" token="auf"/>
+        <ext_arg_token id="16" token="dem"/>
+        <ext_arg_token id="17" token="Telegrafenberg"/>
+        <ext_arg_token id="18" token="einen"/>
+        <ext_arg_token id="19" token="Supercomputer"/>
+        <ext_arg_token id="20" token="in"/>
+        <ext_arg_token id="21" token="Betrieb"/>
+        <ext_arg_token id="22" token=","/>
+        <ext_arg_token id="23" token="gestern"/>
+        <ext_arg_token id="24" token="startete"/>
+        <ext_arg_token id="25" token="eine"/>
+        <ext_arg_token id="26" token="Hightech-Anlage"/>
+        <ext_arg_token id="27" token="in"/>
+        <ext_arg_token id="28" token="den"/>
+        <ext_arg_token id="29" token="Roten"/>
+        <ext_arg_token id="30" token="Kasernen"/>
+        <ext_arg_token id="31" token=","/>
+        <ext_arg_token id="32" token="heute"/>
+        <ext_arg_token id="33" token="wird"/>
+        <ext_arg_token id="34" token="am"/>
+        <ext_arg_token id="35" token="Griebnitzsee"/>
+        <ext_arg_token id="36" token="das"/>
+        <ext_arg_token id="37" token="Hasso-Plattner-Institut"/>
+        <ext_arg_token id="38" token="eröffnet"/>
+        <ext_arg_token id="39" token="..."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="40" token="So"/>
+        <int_arg_token id="41" token="betrachtet"/>
+        <int_arg_token id="42" token=","/>
+        <int_arg_token id="43" token="reiht"/>
+        <int_arg_token id="44" token="sich"/>
+        <int_arg_token id="45" token="das"/>
+        <int_arg_token id="46" token="gestern"/>
+        <int_arg_token id="47" token="gestartete"/>
+        <int_arg_token id="48" token="Projekt"/>
+        <int_arg_token id="49" token="der"/>
+        <int_arg_token id="50" token="PanMedium-Stiftung"/>
+        <int_arg_token id="51" token="in"/>
+        <int_arg_token id="52" token="der"/>
+        <int_arg_token id="53" token="Nedlitzer"/>
+        <int_arg_token id="54" token="Straße"/>
+        <int_arg_token id="55" token="nahtlos"/>
+        <int_arg_token id="56" token="in"/>
+        <int_arg_token id="57" token="die"/>
+        <int_arg_token id="58" token="expandierende"/>
+        <int_arg_token id="59" token="Potsdamer"/>
+        <int_arg_token id="60" token="Hochtechnologie-Landschaft"/>
+        <int_arg_token id="61" token="ein"/>
+        <int_arg_token id="62" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="94" token="Im"/>
+        <ext_arg_token id="95" token="Vergleich"/>
+        <ext_arg_token id="96" token="zum"/>
+        <ext_arg_token id="97" token="Hightech-Kollegen"/>
+        <ext_arg_token id="98" token="in"/>
+        <ext_arg_token id="99" token="der"/>
+        <ext_arg_token id="100" token="Medienstadt"/>
+        <ext_arg_token id="101" token="ist"/>
+        <ext_arg_token id="102" token="das"/>
+        <ext_arg_token id="103" token="PanMedium-Unternehmen"/>
+        <ext_arg_token id="104" token="aber"/>
+        <ext_arg_token id="105" token="von"/>
+        <ext_arg_token id="106" token="Anfang"/>
+        <ext_arg_token id="107" token="an"/>
+        <ext_arg_token id="108" token="bescheidener"/>
+        <ext_arg_token id="109" token="ausgelegt"/>
+        <ext_arg_token id="110" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="111" token="Nicht"/>
+        <int_arg_token id="112" token="nur"/>
+        <int_arg_token id="113" token="bei"/>
+        <int_arg_token id="114" token="der"/>
+        <int_arg_token id="115" token="Förderung"/>
+        <int_arg_token id="116" token="("/>
+        <int_arg_token id="117" token="19,5"/>
+        <int_arg_token id="118" token="statt"/>
+        <int_arg_token id="119" token="93"/>
+        <int_arg_token id="120" token="Millionen"/>
+        <int_arg_token id="121" token="Mark"/>
+        <int_arg_token id="122" token="bei"/>
+        <int_arg_token id="123" token="einer"/>
+        <int_arg_token id="124" token="Gesamtinvestition"/>
+        <int_arg_token id="125" token="von"/>
+        <int_arg_token id="126" token="29"/>
+        <int_arg_token id="127" token="statt"/>
+        <int_arg_token id="128" token="104"/>
+        <int_arg_token id="129" token="Millionen"/>
+        <int_arg_token id="130" token=")"/>
+        <int_arg_token id="131" token=","/>
+        <int_arg_token id="132" token="auch"/>
+        <int_arg_token id="133" token="im"/>
+        <int_arg_token id="134" token="Konzept"/>
+        <int_arg_token id="135" token="geht"/>
+        <int_arg_token id="136" token="PanMedium"/>
+        <int_arg_token id="137" token="andere"/>
+        <int_arg_token id="138" token="Wege"/>
+        <int_arg_token id="139" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="111" token="Nicht"/>
+        <ext_arg_token id="112" token="nur"/>
+        <ext_arg_token id="113" token="bei"/>
+        <ext_arg_token id="114" token="der"/>
+        <ext_arg_token id="115" token="Förderung"/>
+        <ext_arg_token id="116" token="("/>
+        <ext_arg_token id="117" token="19,5"/>
+        <ext_arg_token id="118" token="statt"/>
+        <ext_arg_token id="119" token="93"/>
+        <ext_arg_token id="120" token="Millionen"/>
+        <ext_arg_token id="121" token="Mark"/>
+        <ext_arg_token id="122" token="bei"/>
+        <ext_arg_token id="123" token="einer"/>
+        <ext_arg_token id="124" token="Gesamtinvestition"/>
+        <ext_arg_token id="125" token="von"/>
+        <ext_arg_token id="126" token="29"/>
+        <ext_arg_token id="127" token="statt"/>
+        <ext_arg_token id="128" token="104"/>
+        <ext_arg_token id="129" token="Millionen"/>
+        <ext_arg_token id="130" token=")"/>
+        <ext_arg_token id="131" token=","/>
+        <ext_arg_token id="132" token="auch"/>
+        <ext_arg_token id="133" token="im"/>
+        <ext_arg_token id="134" token="Konzept"/>
+        <ext_arg_token id="135" token="geht"/>
+        <ext_arg_token id="136" token="PanMedium"/>
+        <ext_arg_token id="137" token="andere"/>
+        <ext_arg_token id="138" token="Wege"/>
+        <ext_arg_token id="139" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="140" token="Der"/>
+        <int_arg_token id="141" token="Computer"/>
+        <int_arg_token id="142" token="startet"/>
+        <int_arg_token id="143" token="in"/>
+        <int_arg_token id="144" token="verhältnismäßig"/>
+        <int_arg_token id="145" token="kleinem"/>
+        <int_arg_token id="146" token="Umfang"/>
+        <int_arg_token id="147" token=","/>
+        <int_arg_token id="148" token="wächst"/>
+        <int_arg_token id="149" token="aber"/>
+        <int_arg_token id="150" token="bei"/>
+        <int_arg_token id="151" token="Kundennachfrage"/>
+        <int_arg_token id="152" token="mit"/>
+        <int_arg_token id="153" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="140" token="Der"/>
+        <ext_arg_token id="141" token="Computer"/>
+        <ext_arg_token id="142" token="startet"/>
+        <ext_arg_token id="143" token="in"/>
+        <ext_arg_token id="144" token="verhältnismäßig"/>
+        <ext_arg_token id="145" token="kleinem"/>
+        <ext_arg_token id="146" token="Umfang"/>
+        <ext_arg_token id="147" token=","/>
+        <ext_arg_token id="148" token="wächst"/>
+        <ext_arg_token id="149" token="aber"/>
+        <ext_arg_token id="150" token="bei"/>
+        <ext_arg_token id="151" token="Kundennachfrage"/>
+        <ext_arg_token id="152" token="mit"/>
+        <ext_arg_token id="153" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="154" token="Das"/>
+        <int_arg_token id="155" token="klingt"/>
+        <int_arg_token id="156" token="nicht"/>
+        <int_arg_token id="157" token="nur"/>
+        <int_arg_token id="158" token="technisch"/>
+        <int_arg_token id="159" token="sinnvoll"/>
+        <int_arg_token id="160" token=","/>
+        <int_arg_token id="161" token="das"/>
+        <int_arg_token id="162" token="gibt"/>
+        <int_arg_token id="163" token="der"/>
+        <int_arg_token id="164" token="Wirtschaft"/>
+        <int_arg_token id="165" token="auch"/>
+        <int_arg_token id="166" token="finanziell"/>
+        <int_arg_token id="167" token="halbwegs"/>
+        <int_arg_token id="168" token="die"/>
+        <int_arg_token id="169" token="Garantie"/>
+        <int_arg_token id="170" token=","/>
+        <int_arg_token id="171" token="kein"/>
+        <int_arg_token id="172" token="neues"/>
+        <int_arg_token id="173" token="Dienstleister-Fiasko"/>
+        <int_arg_token id="174" token="wie"/>
+        <int_arg_token id="175" token="bei"/>
+        <int_arg_token id="176" token="FX"/>
+        <int_arg_token id="177" token="zu"/>
+        <int_arg_token id="178" token="erleben"/>
+        <int_arg_token id="179" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

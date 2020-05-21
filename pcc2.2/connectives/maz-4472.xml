@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Zu</token>
+    <token id="2">spät</token>
+    <token id="3">Die</token>
+    <token id="4">Ketziner</token>
+    <token id="5">und</token>
+    <token id="6">Paretzer</token>
+    <token id="7">werden</token>
+    <token id="8">heute</token>
+    <token id="9">aus</token>
+    <token id="10">der</token>
+    <token id="11">Zeitung</token>
+    <token id="12">erfahren</token>
+    <token id="13">,</token>
+    <token id="14">dass</token>
+    <token id="15">sie</token>
+    <token id="16">ab</token>
+    <token id="17">Mittwoch</token>
+    <token id="18">nach</token>
+    <token id="19">Uetz</token>
+    <token id="20">,</token>
+    <token id="21">Marquardt</token>
+    <token id="22">und</token>
+    <token id="23">Potsdam</token>
+    <token id="24">nur</token>
+    <token id="25">noch</token>
+    <token id="26">über</token>
+    <token id="27">Falkenrehde</token>
+    <token id="28">fahren</token>
+    <token id="29">können</token>
+    <token id="30">.</token>
+    <token id="31">Weder</token>
+    <token id="32">das</token>
+    <token id="33">Wasserstraßenneubauamt</token>
+    <token id="34">Berlin</token>
+    <token id="35">als</token>
+    <token id="36">Bauherr</token>
+    <token id="37">,</token>
+    <token id="38">noch</token>
+    <token id="39">die</token>
+    <token id="40">bauausführende</token>
+    <token id="41">Firma</token>
+    <token id="42">oder</token>
+    <token id="43">die</token>
+    <token id="44">Straßenverkehrsbehörde</token>
+    <token id="45">Nauen</token>
+    <token id="46">hatten</token>
+    <token id="47">bis</token>
+    <token id="48">gestern</token>
+    <token id="49">Informationen</token>
+    <token id="50">dazu</token>
+    <token id="51">veröffentlicht</token>
+    <token id="52">.</token>
+    <token id="53">Abgesehen</token>
+    <token id="54">von</token>
+    <token id="55">der</token>
+    <token id="56">in</token>
+    <token id="57">Paretz</token>
+    <token id="58">herrschenden</token>
+    <token id="59">generellen</token>
+    <token id="60">Ablehnung</token>
+    <token id="61">gegen</token>
+    <token id="62">den</token>
+    <token id="63">Havelausbau</token>
+    <token id="64">und</token>
+    <token id="65">den</token>
+    <token id="66">damit</token>
+    <token id="67">verbundenen</token>
+    <token id="68">Brückenneubau</token>
+    <token id="69">-</token>
+    <token id="70">die</token>
+    <token id="71">Bürger</token>
+    <token id="72">quasi</token>
+    <token id="73">bis</token>
+    <token id="74">fünf</token>
+    <token id="75">Minuten</token>
+    <token id="76">vor</token>
+    <token id="77">Zwölf</token>
+    <token id="78">im</token>
+    <token id="79">Regen</token>
+    <token id="80">stehen</token>
+    <token id="81">zu</token>
+    <token id="82">lassen</token>
+    <token id="83">,</token>
+    <token id="84">ist</token>
+    <token id="85">nicht</token>
+    <token id="86">zu</token>
+    <token id="87">fassen</token>
+    <token id="88">bei</token>
+    <token id="89">solch</token>
+    <token id="90">einem</token>
+    <token id="91">Großprojekt</token>
+    <token id="92">.</token>
+    <token id="93">Zwar</token>
+    <token id="94">ist</token>
+    <token id="95">die</token>
+    <token id="96">Umleitung</token>
+    <token id="97">laut</token>
+    <token id="98">Bauherr</token>
+    <token id="99">nur</token>
+    <token id="100">4,5</token>
+    <token id="101">Kilometer</token>
+    <token id="102">lang</token>
+    <token id="103">.</token>
+    <token id="104">Aber</token>
+    <token id="105">was</token>
+    <token id="106">machen</token>
+    <token id="107">die</token>
+    <token id="108">Wanderer</token>
+    <token id="109">und</token>
+    <token id="110">Radfahrer</token>
+    <token id="111">?</token>
+    <token id="112">Und</token>
+    <token id="113">noch</token>
+    <token id="114">schlimmer</token>
+    <token id="115">-</token>
+    <token id="116">wie</token>
+    <token id="117">kommen</token>
+    <token id="118">die</token>
+    <token id="119">Landwirte</token>
+    <token id="120">mit</token>
+    <token id="121">ihren</token>
+    <token id="122">Traktoren</token>
+    <token id="123">ab</token>
+    <token id="124">Mittwoch</token>
+    <token id="125">auf</token>
+    <token id="126">die</token>
+    <token id="127">Felder</token>
+    <token id="128">jenseits</token>
+    <token id="129">des</token>
+    <token id="130">Kanals</token>
+    <token id="131">?</token>
+    <token id="132">Hier</token>
+    <token id="133">hat</token>
+    <token id="134">das</token>
+    <token id="135">Wasserstraßenneubauamt</token>
+    <token id="136">versagt</token>
+    <token id="137">-</token>
+    <token id="138">ohne</token>
+    <token id="139">Wenn</token>
+    <token id="140">und</token>
+    <token id="141">Aber</token>
+    <token id="142">.</token>
+    <token id="143">Wofür</token>
+    <token id="144">die</token>
+    <token id="145">Behörde</token>
+    <token id="146">jedoch</token>
+    <token id="147">nichts</token>
+    <token id="148">kann</token>
+    <token id="149">,</token>
+    <token id="150">ist</token>
+    <token id="151">der</token>
+    <token id="152">unglückliche</token>
+    <token id="153">Zeitpunkt</token>
+    <token id="154">des</token>
+    <token id="155">Baubeginns</token>
+    <token id="156">so</token>
+    <token id="157">kurz</token>
+    <token id="158">nach</token>
+    <token id="159">der</token>
+    <token id="160">Wiedereröffnung</token>
+    <token id="161">des</token>
+    <token id="162">Schlosses</token>
+    <token id="163">.</token>
+    <token id="164">Seit</token>
+    <token id="165">einem</token>
+    <token id="166">Jahr</token>
+    <token id="167">ist</token>
+    <token id="168">klar</token>
+    <token id="169">,</token>
+    <token id="170">dass</token>
+    <token id="171">es</token>
+    <token id="172">nach</token>
+    <token id="173">der</token>
+    <token id="174">Buga</token>
+    <token id="175">los</token>
+    <token id="176">geht</token>
+    <token id="177">.</token>
+    <token id="178">Der</token>
+    <token id="179">enorme</token>
+    <token id="180">Zeitverzug</token>
+    <token id="181">beim</token>
+    <token id="182">Schloss</token>
+    <token id="183">war</token>
+    <token id="184">nicht</token>
+    <token id="185">vorhersehbar</token>
+    <token id="186">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="8" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="64" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="53" token="Abgesehen"/>
+        <ext_arg_token id="54" token="von"/>
+        <ext_arg_token id="55" token="der"/>
+        <ext_arg_token id="56" token="in"/>
+        <ext_arg_token id="57" token="Paretz"/>
+        <ext_arg_token id="58" token="herrschenden"/>
+        <ext_arg_token id="59" token="generellen"/>
+        <ext_arg_token id="60" token="Ablehnung"/>
+        <ext_arg_token id="61" token="gegen"/>
+        <ext_arg_token id="62" token="den"/>
+        <ext_arg_token id="63" token="Havelausbau"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="65" token="den"/>
+        <int_arg_token id="66" token="damit"/>
+        <int_arg_token id="67" token="verbundenen"/>
+        <int_arg_token id="68" token="Brückenneubau"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="93" token="Zwar"/>
+        <connective_token id="104" token="Aber"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="93" token="Zwar"/>
+        <ext_arg_token id="94" token="ist"/>
+        <ext_arg_token id="95" token="die"/>
+        <ext_arg_token id="96" token="Umleitung"/>
+        <ext_arg_token id="97" token="laut"/>
+        <ext_arg_token id="98" token="Bauherr"/>
+        <ext_arg_token id="99" token="nur"/>
+        <ext_arg_token id="100" token="4,5"/>
+        <ext_arg_token id="101" token="Kilometer"/>
+        <ext_arg_token id="102" token="lang"/>
+        <ext_arg_token id="103" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="105" token="was"/>
+        <int_arg_token id="106" token="machen"/>
+        <int_arg_token id="107" token="die"/>
+        <int_arg_token id="108" token="Wanderer"/>
+        <int_arg_token id="109" token="und"/>
+        <int_arg_token id="110" token="Radfahrer"/>
+        <int_arg_token id="111" token="?"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="112" token="Und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="93" token="Zwar"/>
+        <ext_arg_token id="94" token="ist"/>
+        <ext_arg_token id="95" token="die"/>
+        <ext_arg_token id="96" token="Umleitung"/>
+        <ext_arg_token id="97" token="laut"/>
+        <ext_arg_token id="98" token="Bauherr"/>
+        <ext_arg_token id="99" token="nur"/>
+        <ext_arg_token id="100" token="4,5"/>
+        <ext_arg_token id="101" token="Kilometer"/>
+        <ext_arg_token id="102" token="lang"/>
+        <ext_arg_token id="103" token="."/>
+        <ext_arg_token id="104" token="Aber"/>
+        <ext_arg_token id="105" token="was"/>
+        <ext_arg_token id="106" token="machen"/>
+        <ext_arg_token id="107" token="die"/>
+        <ext_arg_token id="108" token="Wanderer"/>
+        <ext_arg_token id="109" token="und"/>
+        <ext_arg_token id="110" token="Radfahrer"/>
+        <ext_arg_token id="111" token="?"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="113" token="noch"/>
+        <int_arg_token id="114" token="schlimmer"/>
+        <int_arg_token id="115" token="-"/>
+        <int_arg_token id="116" token="wie"/>
+        <int_arg_token id="117" token="kommen"/>
+        <int_arg_token id="118" token="die"/>
+        <int_arg_token id="119" token="Landwirte"/>
+        <int_arg_token id="120" token="mit"/>
+        <int_arg_token id="121" token="ihren"/>
+        <int_arg_token id="122" token="Traktoren"/>
+        <int_arg_token id="123" token="ab"/>
+        <int_arg_token id="124" token="Mittwoch"/>
+        <int_arg_token id="125" token="auf"/>
+        <int_arg_token id="126" token="die"/>
+        <int_arg_token id="127" token="Felder"/>
+        <int_arg_token id="128" token="jenseits"/>
+        <int_arg_token id="129" token="des"/>
+        <int_arg_token id="130" token="Kanals"/>
+        <int_arg_token id="131" token="?"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="146" token="jedoch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="132" token="Hier"/>
+        <ext_arg_token id="133" token="hat"/>
+        <ext_arg_token id="134" token="das"/>
+        <ext_arg_token id="135" token="Wasserstraßenneubauamt"/>
+        <ext_arg_token id="136" token="versagt"/>
+        <ext_arg_token id="137" token="-"/>
+        <ext_arg_token id="138" token="ohne"/>
+        <ext_arg_token id="139" token="Wenn"/>
+        <ext_arg_token id="140" token="und"/>
+        <ext_arg_token id="141" token="Aber"/>
+        <ext_arg_token id="142" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="143" token="Wofür"/>
+        <int_arg_token id="144" token="die"/>
+        <int_arg_token id="145" token="Behörde"/>
+        <int_arg_token id="147" token="nichts"/>
+        <int_arg_token id="148" token="kann"/>
+        <int_arg_token id="149" token=","/>
+        <int_arg_token id="150" token="ist"/>
+        <int_arg_token id="151" token="der"/>
+        <int_arg_token id="152" token="unglückliche"/>
+        <int_arg_token id="153" token="Zeitpunkt"/>
+        <int_arg_token id="154" token="des"/>
+        <int_arg_token id="155" token="Baubeginns"/>
+        <int_arg_token id="156" token="so"/>
+        <int_arg_token id="157" token="kurz"/>
+        <int_arg_token id="158" token="nach"/>
+        <int_arg_token id="159" token="der"/>
+        <int_arg_token id="160" token="Wiedereröffnung"/>
+        <int_arg_token id="161" token="des"/>
+        <int_arg_token id="162" token="Schlosses"/>
+        <int_arg_token id="163" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="3" token="Die"/>
+        <ext_arg_token id="4" token="Ketziner"/>
+        <ext_arg_token id="5" token="und"/>
+        <ext_arg_token id="6" token="Paretzer"/>
+        <ext_arg_token id="7" token="werden"/>
+        <ext_arg_token id="8" token="heute"/>
+        <ext_arg_token id="9" token="aus"/>
+        <ext_arg_token id="10" token="der"/>
+        <ext_arg_token id="11" token="Zeitung"/>
+        <ext_arg_token id="12" token="erfahren"/>
+        <ext_arg_token id="13" token=","/>
+        <ext_arg_token id="14" token="dass"/>
+        <ext_arg_token id="15" token="sie"/>
+        <ext_arg_token id="16" token="ab"/>
+        <ext_arg_token id="17" token="Mittwoch"/>
+        <ext_arg_token id="18" token="nach"/>
+        <ext_arg_token id="19" token="Uetz"/>
+        <ext_arg_token id="20" token=","/>
+        <ext_arg_token id="21" token="Marquardt"/>
+        <ext_arg_token id="22" token="und"/>
+        <ext_arg_token id="23" token="Potsdam"/>
+        <ext_arg_token id="24" token="nur"/>
+        <ext_arg_token id="25" token="noch"/>
+        <ext_arg_token id="26" token="über"/>
+        <ext_arg_token id="27" token="Falkenrehde"/>
+        <ext_arg_token id="28" token="fahren"/>
+        <ext_arg_token id="29" token="können"/>
+        <ext_arg_token id="30" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="31" token="Weder"/>
+        <int_arg_token id="32" token="das"/>
+        <int_arg_token id="33" token="Wasserstraßenneubauamt"/>
+        <int_arg_token id="34" token="Berlin"/>
+        <int_arg_token id="35" token="als"/>
+        <int_arg_token id="36" token="Bauherr"/>
+        <int_arg_token id="37" token=","/>
+        <int_arg_token id="38" token="noch"/>
+        <int_arg_token id="39" token="die"/>
+        <int_arg_token id="40" token="bauausführende"/>
+        <int_arg_token id="41" token="Firma"/>
+        <int_arg_token id="42" token="oder"/>
+        <int_arg_token id="43" token="die"/>
+        <int_arg_token id="44" token="Straßenverkehrsbehörde"/>
+        <int_arg_token id="45" token="Nauen"/>
+        <int_arg_token id="46" token="hatten"/>
+        <int_arg_token id="47" token="bis"/>
+        <int_arg_token id="48" token="gestern"/>
+        <int_arg_token id="49" token="Informationen"/>
+        <int_arg_token id="50" token="dazu"/>
+        <int_arg_token id="51" token="veröffentlicht"/>
+        <int_arg_token id="52" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+	<connective_token id="93" token="Zwar"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="53" token="Abgesehen"/>
+        <ext_arg_token id="54" token="von"/>
+        <ext_arg_token id="55" token="der"/>
+        <ext_arg_token id="56" token="in"/>
+        <ext_arg_token id="57" token="Paretz"/>
+        <ext_arg_token id="58" token="herrschenden"/>
+        <ext_arg_token id="59" token="generellen"/>
+        <ext_arg_token id="60" token="Ablehnung"/>
+        <ext_arg_token id="61" token="gegen"/>
+        <ext_arg_token id="62" token="den"/>
+        <ext_arg_token id="63" token="Havelausbau"/>
+        <ext_arg_token id="64" token="und"/>
+        <ext_arg_token id="65" token="den"/>
+        <ext_arg_token id="66" token="damit"/>
+        <ext_arg_token id="67" token="verbundenen"/>
+        <ext_arg_token id="68" token="Brückenneubau"/>
+        <ext_arg_token id="69" token="-"/>
+        <ext_arg_token id="70" token="die"/>
+        <ext_arg_token id="71" token="Bürger"/>
+        <ext_arg_token id="72" token="quasi"/>
+        <ext_arg_token id="73" token="bis"/>
+        <ext_arg_token id="74" token="fünf"/>
+        <ext_arg_token id="75" token="Minuten"/>
+        <ext_arg_token id="76" token="vor"/>
+        <ext_arg_token id="77" token="Zwölf"/>
+        <ext_arg_token id="78" token="im"/>
+        <ext_arg_token id="79" token="Regen"/>
+        <ext_arg_token id="80" token="stehen"/>
+        <ext_arg_token id="81" token="zu"/>
+        <ext_arg_token id="82" token="lassen"/>
+        <ext_arg_token id="83" token=","/>
+        <ext_arg_token id="84" token="ist"/>
+        <ext_arg_token id="85" token="nicht"/>
+        <ext_arg_token id="86" token="zu"/>
+        <ext_arg_token id="87" token="fassen"/>
+        <ext_arg_token id="88" token="bei"/>
+        <ext_arg_token id="89" token="solch"/>
+        <ext_arg_token id="90" token="einem"/>
+        <ext_arg_token id="91" token="Großprojekt"/>
+        <ext_arg_token id="92" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="93" token="Zwar"/>
+        <int_arg_token id="94" token="ist"/>
+        <int_arg_token id="95" token="die"/>
+        <int_arg_token id="96" token="Umleitung"/>
+        <int_arg_token id="97" token="laut"/>
+        <int_arg_token id="98" token="Bauherr"/>
+        <int_arg_token id="99" token="nur"/>
+        <int_arg_token id="100" token="4,5"/>
+        <int_arg_token id="101" token="Kilometer"/>
+        <int_arg_token id="102" token="lang"/>
+        <int_arg_token id="103" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Temporal.Synchronous" type="AltLex">
+      <connective_tokens>
+	<connective_token id="164" token="Seit"/>
+	<connective_token id="165" token="einem"/>
+	<connective_token id="166" token="Jahr"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="143" token="Wofür"/>
+        <ext_arg_token id="144" token="die"/>
+        <ext_arg_token id="145" token="Behörde"/>
+        <ext_arg_token id="146" token="jedoch"/>
+        <ext_arg_token id="147" token="nichts"/>
+        <ext_arg_token id="148" token="kann"/>
+        <ext_arg_token id="149" token=","/>
+        <ext_arg_token id="150" token="ist"/>
+        <ext_arg_token id="151" token="der"/>
+        <ext_arg_token id="152" token="unglückliche"/>
+        <ext_arg_token id="153" token="Zeitpunkt"/>
+        <ext_arg_token id="154" token="des"/>
+        <ext_arg_token id="155" token="Baubeginns"/>
+        <ext_arg_token id="156" token="so"/>
+        <ext_arg_token id="157" token="kurz"/>
+        <ext_arg_token id="158" token="nach"/>
+        <ext_arg_token id="159" token="der"/>
+        <ext_arg_token id="160" token="Wiedereröffnung"/>
+        <ext_arg_token id="161" token="des"/>
+        <ext_arg_token id="162" token="Schlosses"/>
+        <ext_arg_token id="163" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="164" token="Seit"/>
+        <int_arg_token id="165" token="einem"/>
+        <int_arg_token id="166" token="Jahr"/>
+        <int_arg_token id="167" token="ist"/>
+        <int_arg_token id="168" token="klar"/>
+        <int_arg_token id="169" token=","/>
+        <int_arg_token id="170" token="dass"/>
+        <int_arg_token id="171" token="es"/>
+        <int_arg_token id="172" token="nach"/>
+        <int_arg_token id="173" token="der"/>
+        <int_arg_token id="174" token="Buga"/>
+        <int_arg_token id="175" token="los"/>
+        <int_arg_token id="176" token="geht"/>
+        <int_arg_token id="177" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="20" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="164" token="Seit"/>
+        <ext_arg_token id="165" token="einem"/>
+        <ext_arg_token id="166" token="Jahr"/>
+        <ext_arg_token id="167" token="ist"/>
+        <ext_arg_token id="168" token="klar"/>
+        <ext_arg_token id="169" token=","/>
+        <ext_arg_token id="170" token="dass"/>
+        <ext_arg_token id="171" token="es"/>
+        <ext_arg_token id="172" token="nach"/>
+        <ext_arg_token id="173" token="der"/>
+        <ext_arg_token id="174" token="Buga"/>
+        <ext_arg_token id="175" token="los"/>
+        <ext_arg_token id="176" token="geht"/>
+        <ext_arg_token id="177" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="178" token="Der"/>
+        <int_arg_token id="179" token="enorme"/>
+        <int_arg_token id="180" token="Zeitverzug"/>
+        <int_arg_token id="181" token="beim"/>
+        <int_arg_token id="182" token="Schloss"/>
+        <int_arg_token id="183" token="war"/>
+        <int_arg_token id="184" token="nicht"/>
+        <int_arg_token id="185" token="vorhersehbar"/>
+        <int_arg_token id="186" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

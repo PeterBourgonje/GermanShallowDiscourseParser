@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Spaß</token>
+    <token id="2">in</token>
+    <token id="3">der</token>
+    <token id="4">ersten</token>
+    <token id="5">Reihe</token>
+    <token id="6">Das</token>
+    <token id="7">ganze</token>
+    <token id="8">Leben</token>
+    <token id="9">ist</token>
+    <token id="10">ein</token>
+    <token id="11">Quiz</token>
+    <token id="12">und</token>
+    <token id="13">wir</token>
+    <token id="14">sind</token>
+    <token id="15">nur</token>
+    <token id="16">die</token>
+    <token id="17">Kandidaten</token>
+    <token id="18">,</token>
+    <token id="19">sang</token>
+    <token id="20">bereits</token>
+    <token id="21">vor</token>
+    <token id="22">zehn</token>
+    <token id="23">Jahren</token>
+    <token id="24">Hape</token>
+    <token id="25">Kerkeling</token>
+    <token id="26">.</token>
+    <token id="27">Nun</token>
+    <token id="28">bestätigt</token>
+    <token id="29">eine</token>
+    <token id="30">Studie</token>
+    <token id="31">den</token>
+    <token id="32">weitsichtigen</token>
+    <token id="33">Entertainer</token>
+    <token id="34">:</token>
+    <token id="35">Die</token>
+    <token id="36">Entwicklung</token>
+    <token id="37">-</token>
+    <token id="38">vor</token>
+    <token id="39">allem</token>
+    <token id="40">im</token>
+    <token id="41">öffentlich-rechtlichen</token>
+    <token id="42">Fernsehen</token>
+    <token id="43">-</token>
+    <token id="44">geht</token>
+    <token id="45">stramm</token>
+    <token id="46">in</token>
+    <token id="47">Richtung</token>
+    <token id="48">Unterhaltung</token>
+    <token id="49">.</token>
+    <token id="50">Der</token>
+    <token id="51">Anteil</token>
+    <token id="52">politischer</token>
+    <token id="53">Sendungen</token>
+    <token id="54">am</token>
+    <token id="55">Programm</token>
+    <token id="56">hat</token>
+    <token id="57">weiter</token>
+    <token id="58">abgenommen</token>
+    <token id="59">und</token>
+    <token id="60">ein</token>
+    <token id="61">Ende</token>
+    <token id="62">ist</token>
+    <token id="63">nicht</token>
+    <token id="64">in</token>
+    <token id="65">Sicht</token>
+    <token id="66">.</token>
+    <token id="67">Dass</token>
+    <token id="68">private</token>
+    <token id="69">Anbieter</token>
+    <token id="70">,</token>
+    <token id="71">die</token>
+    <token id="72">sich</token>
+    <token id="73">nur</token>
+    <token id="74">durch</token>
+    <token id="75">Werbung</token>
+    <token id="76">finanzieren</token>
+    <token id="77">,</token>
+    <token id="78">publikumswirksame</token>
+    <token id="79">Unterhaltungssendungen</token>
+    <token id="80">in</token>
+    <token id="81">den</token>
+    <token id="82">Vordergrund</token>
+    <token id="83">stellen</token>
+    <token id="84">,</token>
+    <token id="85">ist</token>
+    <token id="86">verständlich</token>
+    <token id="87">.</token>
+    <token id="88">Dass</token>
+    <token id="89">aber</token>
+    <token id="90">die</token>
+    <token id="91">gebührenfinanzierten</token>
+    <token id="92">Programme</token>
+    <token id="93">ihren</token>
+    <token id="94">Auftrag</token>
+    <token id="95">-</token>
+    <token id="96">die</token>
+    <token id="97">fernsehpublizistische</token>
+    <token id="98">und</token>
+    <token id="99">politische</token>
+    <token id="100">Grundversorgung</token>
+    <token id="101">zu</token>
+    <token id="102">sichern</token>
+    <token id="103">-</token>
+    <token id="104">zunehmend</token>
+    <token id="105">ignorieren</token>
+    <token id="106">,</token>
+    <token id="107">ist</token>
+    <token id="108">mehr</token>
+    <token id="109">als</token>
+    <token id="110">bedenklich</token>
+    <token id="111">.</token>
+    <token id="112">Denn</token>
+    <token id="113">das</token>
+    <token id="114">öffentliche</token>
+    <token id="115">Mandat</token>
+    <token id="116">fordert</token>
+    <token id="117">eine</token>
+    <token id="118">gesunde</token>
+    <token id="119">Mischung</token>
+    <token id="120">von</token>
+    <token id="121">Unterhaltung</token>
+    <token id="122">und</token>
+    <token id="123">Information</token>
+    <token id="124">.</token>
+    <token id="125">Dafür</token>
+    <token id="126">zahlen</token>
+    <token id="127">wir</token>
+    <token id="128">Gebühren</token>
+    <token id="129">.</token>
+    <token id="130">Wenn</token>
+    <token id="131">an</token>
+    <token id="132">Katastrophen-Tagen</token>
+    <token id="133">Sondersendungen</token>
+    <token id="134">wie</token>
+    <token id="135">der</token>
+    <token id="136">"</token>
+    <token id="137">ARD-Brennpunkt</token>
+    <token id="138">"</token>
+    <token id="139">laufen</token>
+    <token id="140">,</token>
+    <token id="141">kann</token>
+    <token id="142">das</token>
+    <token id="143">nicht</token>
+    <token id="144">darüber</token>
+    <token id="145">hinwegtäuschen</token>
+    <token id="146">,</token>
+    <token id="147">dass</token>
+    <token id="148">die</token>
+    <token id="149">Spaßgesellschaft</token>
+    <token id="150">längst</token>
+    <token id="151">auch</token>
+    <token id="152">beim</token>
+    <token id="153">öffentlich-rechtlichen</token>
+    <token id="154">Rundfunk</token>
+    <token id="155">den</token>
+    <token id="156">Ton</token>
+    <token id="157">angibt</token>
+    <token id="158">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="12" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="6" token="Das"/>
+        <ext_arg_token id="7" token="ganze"/>
+        <ext_arg_token id="8" token="Leben"/>
+        <ext_arg_token id="9" token="ist"/>
+        <ext_arg_token id="10" token="ein"/>
+        <ext_arg_token id="11" token="Quiz"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="13" token="wir"/>
+        <int_arg_token id="14" token="sind"/>
+        <int_arg_token id="15" token="nur"/>
+        <int_arg_token id="16" token="die"/>
+        <int_arg_token id="17" token="Kandidaten"/>
+        <int_arg_token id="18" token=","/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="59" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="50" token="Der"/>
+        <ext_arg_token id="51" token="Anteil"/>
+        <ext_arg_token id="52" token="politischer"/>
+        <ext_arg_token id="53" token="Sendungen"/>
+        <ext_arg_token id="54" token="am"/>
+        <ext_arg_token id="55" token="Programm"/>
+        <ext_arg_token id="56" token="hat"/>
+        <ext_arg_token id="57" token="weiter"/>
+        <ext_arg_token id="58" token="abgenommen"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="60" token="ein"/>
+        <int_arg_token id="61" token="Ende"/>
+        <int_arg_token id="62" token="ist"/>
+        <int_arg_token id="63" token="nicht"/>
+        <int_arg_token id="64" token="in"/>
+        <int_arg_token id="65" token="Sicht"/>
+        <int_arg_token id="66" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="89" token="aber"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="88" token="Dass"/>
+        <int_arg_token id="90" token="die"/>
+        <int_arg_token id="91" token="gebührenfinanzierten"/>
+        <int_arg_token id="92" token="Programme"/>
+        <int_arg_token id="93" token="ihren"/>
+        <int_arg_token id="94" token="Auftrag"/>
+        <int_arg_token id="95" token="-"/>
+        <int_arg_token id="96" token="die"/>
+        <int_arg_token id="97" token="fernsehpublizistische"/>
+        <int_arg_token id="98" token="und"/>
+        <int_arg_token id="99" token="politische"/>
+        <int_arg_token id="100" token="Grundversorgung"/>
+        <int_arg_token id="101" token="zu"/>
+        <int_arg_token id="102" token="sichern"/>
+        <int_arg_token id="103" token="-"/>
+        <int_arg_token id="104" token="zunehmend"/>
+        <int_arg_token id="105" token="ignorieren"/>
+        <int_arg_token id="106" token=","/>
+        <int_arg_token id="107" token="ist"/>
+        <int_arg_token id="108" token="mehr"/>
+        <int_arg_token id="109" token="als"/>
+        <int_arg_token id="110" token="bedenklich"/>
+        <int_arg_token id="111" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="67" token="Dass"/>
+        <ext_arg_token id="68" token="private"/>
+        <ext_arg_token id="69" token="Anbieter"/>
+        <ext_arg_token id="70" token=","/>
+        <ext_arg_token id="71" token="die"/>
+        <ext_arg_token id="72" token="sich"/>
+        <ext_arg_token id="73" token="nur"/>
+        <ext_arg_token id="74" token="durch"/>
+        <ext_arg_token id="75" token="Werbung"/>
+        <ext_arg_token id="76" token="finanzieren"/>
+        <ext_arg_token id="77" token=","/>
+        <ext_arg_token id="78" token="publikumswirksame"/>
+        <ext_arg_token id="79" token="Unterhaltungssendungen"/>
+        <ext_arg_token id="80" token="in"/>
+        <ext_arg_token id="81" token="den"/>
+        <ext_arg_token id="82" token="Vordergrund"/>
+        <ext_arg_token id="83" token="stellen"/>
+        <ext_arg_token id="84" token=","/>
+        <ext_arg_token id="85" token="ist"/>
+        <ext_arg_token id="86" token="verständlich"/>
+        <ext_arg_token id="87" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="112" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="88" token="Dass"/>
+        <ext_arg_token id="89" token="aber"/>
+        <ext_arg_token id="90" token="die"/>
+        <ext_arg_token id="91" token="gebührenfinanzierten"/>
+        <ext_arg_token id="92" token="Programme"/>
+        <ext_arg_token id="93" token="ihren"/>
+        <ext_arg_token id="94" token="Auftrag"/>
+        <ext_arg_token id="95" token="-"/>
+        <ext_arg_token id="96" token="die"/>
+        <ext_arg_token id="97" token="fernsehpublizistische"/>
+        <ext_arg_token id="98" token="und"/>
+        <ext_arg_token id="99" token="politische"/>
+        <ext_arg_token id="100" token="Grundversorgung"/>
+        <ext_arg_token id="101" token="zu"/>
+        <ext_arg_token id="102" token="sichern"/>
+        <ext_arg_token id="103" token="-"/>
+        <ext_arg_token id="104" token="zunehmend"/>
+        <ext_arg_token id="105" token="ignorieren"/>
+        <ext_arg_token id="106" token=","/>
+        <ext_arg_token id="107" token="ist"/>
+        <ext_arg_token id="108" token="mehr"/>
+        <ext_arg_token id="109" token="als"/>
+        <ext_arg_token id="110" token="bedenklich"/>
+        <ext_arg_token id="111" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="113" token="das"/>
+        <int_arg_token id="114" token="öffentliche"/>
+        <int_arg_token id="115" token="Mandat"/>
+        <int_arg_token id="116" token="fordert"/>
+        <int_arg_token id="117" token="eine"/>
+        <int_arg_token id="118" token="gesunde"/>
+        <int_arg_token id="119" token="Mischung"/>
+        <int_arg_token id="120" token="von"/>
+        <int_arg_token id="121" token="Unterhaltung"/>
+        <int_arg_token id="122" token="und"/>
+        <int_arg_token id="123" token="Information"/>
+        <int_arg_token id="124" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Contingency.Condition.Arg2-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="130" token="Wenn"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="131" token="an"/>
+        <int_arg_token id="132" token="Katastrophen-Tagen"/>
+        <int_arg_token id="133" token="Sondersendungen"/>
+        <int_arg_token id="134" token="wie"/>
+        <int_arg_token id="135" token="der"/>
+        <int_arg_token id="136" token="&quot;"/>
+        <int_arg_token id="137" token="ARD-Brennpunkt"/>
+        <int_arg_token id="138" token="&quot;"/>
+        <int_arg_token id="139" token="laufen"/>
+        <int_arg_token id="140" token=","/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="141" token="kann"/>
+        <ext_arg_token id="142" token="das"/>
+        <ext_arg_token id="143" token="nicht"/>
+        <ext_arg_token id="144" token="darüber"/>
+        <ext_arg_token id="145" token="hinwegtäuschen"/>
+        <ext_arg_token id="146" token=","/>
+        <ext_arg_token id="147" token="dass"/>
+        <ext_arg_token id="148" token="die"/>
+        <ext_arg_token id="149" token="Spaßgesellschaft"/>
+        <ext_arg_token id="150" token="längst"/>
+        <ext_arg_token id="151" token="auch"/>
+        <ext_arg_token id="152" token="beim"/>
+        <ext_arg_token id="153" token="öffentlich-rechtlichen"/>
+        <ext_arg_token id="154" token="Rundfunk"/>
+        <ext_arg_token id="155" token="den"/>
+        <ext_arg_token id="156" token="Ton"/>
+        <ext_arg_token id="157" token="angibt"/>
+        <ext_arg_token id="158" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="27" token="Nun"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="6" token="Das"/>
+        <ext_arg_token id="7" token="ganze"/>
+        <ext_arg_token id="8" token="Leben"/>
+        <ext_arg_token id="9" token="ist"/>
+        <ext_arg_token id="10" token="ein"/>
+        <ext_arg_token id="11" token="Quiz"/>
+        <ext_arg_token id="12" token="und"/>
+        <ext_arg_token id="13" token="wir"/>
+        <ext_arg_token id="14" token="sind"/>
+        <ext_arg_token id="15" token="nur"/>
+        <ext_arg_token id="16" token="die"/>
+        <ext_arg_token id="17" token="Kandidaten"/>
+        <ext_arg_token id="18" token=","/>
+        <ext_arg_token id="19" token="sang"/>
+        <ext_arg_token id="20" token="bereits"/>
+        <ext_arg_token id="21" token="vor"/>
+        <ext_arg_token id="22" token="zehn"/>
+        <ext_arg_token id="23" token="Jahren"/>
+        <ext_arg_token id="24" token="Hape"/>
+        <ext_arg_token id="25" token="Kerkeling"/>
+        <ext_arg_token id="26" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="27" token="Nun"/>
+        <int_arg_token id="28" token="bestätigt"/>
+        <int_arg_token id="29" token="eine"/>
+        <int_arg_token id="30" token="Studie"/>
+        <int_arg_token id="31" token="den"/>
+        <int_arg_token id="32" token="weitsichtigen"/>
+        <int_arg_token id="33" token="Entertainer"/>
+        <int_arg_token id="34" token=":"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und zwar</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="27" token="Nun"/>
+        <ext_arg_token id="28" token="bestätigt"/>
+        <ext_arg_token id="29" token="eine"/>
+        <ext_arg_token id="30" token="Studie"/>
+        <ext_arg_token id="31" token="den"/>
+        <ext_arg_token id="32" token="weitsichtigen"/>
+        <ext_arg_token id="33" token="Entertainer"/>
+        <ext_arg_token id="34" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="35" token="Die"/>
+        <int_arg_token id="36" token="Entwicklung"/>
+        <int_arg_token id="37" token="-"/>
+        <int_arg_token id="38" token="vor"/>
+        <int_arg_token id="39" token="allem"/>
+        <int_arg_token id="40" token="im"/>
+        <int_arg_token id="41" token="öffentlich-rechtlichen"/>
+        <int_arg_token id="42" token="Fernsehen"/>
+        <int_arg_token id="43" token="-"/>
+        <int_arg_token id="44" token="geht"/>
+        <int_arg_token id="45" token="stramm"/>
+        <int_arg_token id="46" token="in"/>
+        <int_arg_token id="47" token="Richtung"/>
+        <int_arg_token id="48" token="Unterhaltung"/>
+        <int_arg_token id="49" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Expansion.Equivalence" type="implicit">
+      <connective_tokens>
+        <implicit_connective>anders gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="35" token="Die"/>
+        <ext_arg_token id="36" token="Entwicklung"/>
+        <ext_arg_token id="37" token="-"/>
+        <ext_arg_token id="38" token="vor"/>
+        <ext_arg_token id="39" token="allem"/>
+        <ext_arg_token id="40" token="im"/>
+        <ext_arg_token id="41" token="öffentlich-rechtlichen"/>
+        <ext_arg_token id="42" token="Fernsehen"/>
+        <ext_arg_token id="43" token="-"/>
+        <ext_arg_token id="44" token="geht"/>
+        <ext_arg_token id="45" token="stramm"/>
+        <ext_arg_token id="46" token="in"/>
+        <ext_arg_token id="47" token="Richtung"/>
+        <ext_arg_token id="48" token="Unterhaltung"/>
+        <ext_arg_token id="49" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="50" token="Der"/>
+        <int_arg_token id="51" token="Anteil"/>
+        <int_arg_token id="52" token="politischer"/>
+        <int_arg_token id="53" token="Sendungen"/>
+        <int_arg_token id="54" token="am"/>
+        <int_arg_token id="55" token="Programm"/>
+        <int_arg_token id="56" token="hat"/>
+        <int_arg_token id="57" token="weiter"/>
+        <int_arg_token id="58" token="abgenommen"/>
+        <int_arg_token id="59" token="und"/>
+        <int_arg_token id="60" token="ein"/>
+        <int_arg_token id="61" token="Ende"/>
+        <int_arg_token id="62" token="ist"/>
+        <int_arg_token id="63" token="nicht"/>
+        <int_arg_token id="64" token="in"/>
+        <int_arg_token id="65" token="Sicht"/>
+        <int_arg_token id="66" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="13" type="NoRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="50" token="Der"/>
+        <ext_arg_token id="51" token="Anteil"/>
+        <ext_arg_token id="52" token="politischer"/>
+        <ext_arg_token id="53" token="Sendungen"/>
+        <ext_arg_token id="54" token="am"/>
+        <ext_arg_token id="55" token="Programm"/>
+        <ext_arg_token id="56" token="hat"/>
+        <ext_arg_token id="57" token="weiter"/>
+        <ext_arg_token id="58" token="abgenommen"/>
+        <ext_arg_token id="59" token="und"/>
+        <ext_arg_token id="60" token="ein"/>
+        <ext_arg_token id="61" token="Ende"/>
+        <ext_arg_token id="62" token="ist"/>
+        <ext_arg_token id="63" token="nicht"/>
+        <ext_arg_token id="64" token="in"/>
+        <ext_arg_token id="65" token="Sicht"/>
+        <ext_arg_token id="66" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="67" token="Dass"/>
+        <int_arg_token id="68" token="private"/>
+        <int_arg_token id="69" token="Anbieter"/>
+        <int_arg_token id="70" token=","/>
+        <int_arg_token id="71" token="die"/>
+        <int_arg_token id="72" token="sich"/>
+        <int_arg_token id="73" token="nur"/>
+        <int_arg_token id="74" token="durch"/>
+        <int_arg_token id="75" token="Werbung"/>
+        <int_arg_token id="76" token="finanzieren"/>
+        <int_arg_token id="77" token=","/>
+        <int_arg_token id="78" token="publikumswirksame"/>
+        <int_arg_token id="79" token="Unterhaltungssendungen"/>
+        <int_arg_token id="80" token="in"/>
+        <int_arg_token id="81" token="den"/>
+        <int_arg_token id="82" token="Vordergrund"/>
+        <int_arg_token id="83" token="stellen"/>
+        <int_arg_token id="84" token=","/>
+        <int_arg_token id="85" token="ist"/>
+        <int_arg_token id="86" token="verständlich"/>
+        <int_arg_token id="87" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>schließlich</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="112" token="Denn"/>
+        <ext_arg_token id="113" token="das"/>
+        <ext_arg_token id="114" token="öffentliche"/>
+        <ext_arg_token id="115" token="Mandat"/>
+        <ext_arg_token id="116" token="fordert"/>
+        <ext_arg_token id="117" token="eine"/>
+        <ext_arg_token id="118" token="gesunde"/>
+        <ext_arg_token id="119" token="Mischung"/>
+        <ext_arg_token id="120" token="von"/>
+        <ext_arg_token id="121" token="Unterhaltung"/>
+        <ext_arg_token id="122" token="und"/>
+        <ext_arg_token id="123" token="Information"/>
+        <ext_arg_token id="124" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="125" token="Dafür"/>
+        <int_arg_token id="126" token="zahlen"/>
+        <int_arg_token id="127" token="wir"/>
+        <int_arg_token id="128" token="Gebühren"/>
+        <int_arg_token id="129" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="125" token="Dafür"/>
+        <ext_arg_token id="126" token="zahlen"/>
+        <ext_arg_token id="127" token="wir"/>
+        <ext_arg_token id="128" token="Gebühren"/>
+        <ext_arg_token id="129" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="130" token="Wenn"/>
+        <int_arg_token id="131" token="an"/>
+        <int_arg_token id="132" token="Katastrophen-Tagen"/>
+        <int_arg_token id="133" token="Sondersendungen"/>
+        <int_arg_token id="134" token="wie"/>
+        <int_arg_token id="135" token="der"/>
+        <int_arg_token id="136" token="&quot;"/>
+        <int_arg_token id="137" token="ARD-Brennpunkt"/>
+        <int_arg_token id="138" token="&quot;"/>
+        <int_arg_token id="139" token="laufen"/>
+        <int_arg_token id="140" token=","/>
+        <int_arg_token id="141" token="kann"/>
+        <int_arg_token id="142" token="das"/>
+        <int_arg_token id="143" token="nicht"/>
+        <int_arg_token id="144" token="darüber"/>
+        <int_arg_token id="145" token="hinwegtäuschen"/>
+        <int_arg_token id="146" token=","/>
+        <int_arg_token id="147" token="dass"/>
+        <int_arg_token id="148" token="die"/>
+        <int_arg_token id="149" token="Spaßgesellschaft"/>
+        <int_arg_token id="150" token="längst"/>
+        <int_arg_token id="151" token="auch"/>
+        <int_arg_token id="152" token="beim"/>
+        <int_arg_token id="153" token="öffentlich-rechtlichen"/>
+        <int_arg_token id="154" token="Rundfunk"/>
+        <int_arg_token id="155" token="den"/>
+        <int_arg_token id="156" token="Ton"/>
+        <int_arg_token id="157" token="angibt"/>
+        <int_arg_token id="158" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

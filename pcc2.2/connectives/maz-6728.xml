@@ -1,0 +1,613 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Ansturm</token>
+    <token id="2">Das</token>
+    <token id="3">Schulmuseum</token>
+    <token id="4">in</token>
+    <token id="5">Reckahn</token>
+    <token id="6">erlebt</token>
+    <token id="7">einen</token>
+    <token id="8">wahren</token>
+    <token id="9">Besucheransturm</token>
+    <token id="10">.</token>
+    <token id="11">War</token>
+    <token id="12">das</token>
+    <token id="13">von</token>
+    <token id="14">Friedrich</token>
+    <token id="15">Eberhard</token>
+    <token id="16">von</token>
+    <token id="17">Rochow</token>
+    <token id="18">initiierte</token>
+    <token id="19">Haus</token>
+    <token id="20">im</token>
+    <token id="21">18.</token>
+    <token id="22">und</token>
+    <token id="23">19.</token>
+    <token id="24">Jahrhundert</token>
+    <token id="25">Vorbild</token>
+    <token id="26">für</token>
+    <token id="27">die</token>
+    <token id="28">Entwicklung</token>
+    <token id="29">der</token>
+    <token id="30">Volksschulen</token>
+    <token id="31">,</token>
+    <token id="32">wollen</token>
+    <token id="33">heute</token>
+    <token id="34">Tausende</token>
+    <token id="35">das</token>
+    <token id="36">Flair</token>
+    <token id="37">eines</token>
+    <token id="38">historischen</token>
+    <token id="39">Klassenzimmers</token>
+    <token id="40">kennen</token>
+    <token id="41">lernen</token>
+    <token id="42">,</token>
+    <token id="43">wie</token>
+    <token id="44">sie</token>
+    <token id="45">nur</token>
+    <token id="46">noch</token>
+    <token id="47">wenige</token>
+    <token id="48">in</token>
+    <token id="49">Deutschland</token>
+    <token id="50">existieren</token>
+    <token id="51">.</token>
+    <token id="52">Ohne</token>
+    <token id="53">Zweifel</token>
+    <token id="54">profitiert</token>
+    <token id="55">die</token>
+    <token id="56">vom</token>
+    <token id="57">Landkreis</token>
+    <token id="58">getragene</token>
+    <token id="59">Einrichtung</token>
+    <token id="60">von</token>
+    <token id="61">der</token>
+    <token id="62">im</token>
+    <token id="63">August</token>
+    <token id="64">im</token>
+    <token id="65">benachbarten</token>
+    <token id="66">Barockschloss</token>
+    <token id="67">eröffneten</token>
+    <token id="68">Ausstellung</token>
+    <token id="69">zur</token>
+    <token id="70">brandenburgisch-preußischen</token>
+    <token id="71">Schulgeschichte</token>
+    <token id="72">.</token>
+    <token id="73">Denn</token>
+    <token id="74">wer</token>
+    <token id="75">das</token>
+    <token id="76">mit</token>
+    <token id="77">großem</token>
+    <token id="78">Aufwand</token>
+    <token id="79">sanierte</token>
+    <token id="80">Schloss</token>
+    <token id="81">besucht</token>
+    <token id="82">,</token>
+    <token id="83">kommt</token>
+    <token id="84">zwangsläufig</token>
+    <token id="85">an</token>
+    <token id="86">der</token>
+    <token id="87">alten</token>
+    <token id="88">Dorfschule</token>
+    <token id="89">vorbei</token>
+    <token id="90">.</token>
+    <token id="91">In</token>
+    <token id="92">diesen</token>
+    <token id="93">knapp</token>
+    <token id="94">drei</token>
+    <token id="95">Monaten</token>
+    <token id="96">wurden</token>
+    <token id="97">2700</token>
+    <token id="98">Gäste</token>
+    <token id="99">durch</token>
+    <token id="100">das</token>
+    <token id="101">Museum</token>
+    <token id="102">geführt</token>
+    <token id="103">.</token>
+    <token id="104">Viele</token>
+    <token id="105">von</token>
+    <token id="106">ihnen</token>
+    <token id="107">kamen</token>
+    <token id="108">übers</token>
+    <token id="109">Wochenende</token>
+    <token id="110">nach</token>
+    <token id="111">Reckahn</token>
+    <token id="112">,</token>
+    <token id="113">was</token>
+    <token id="114">wohl</token>
+    <token id="115">auf</token>
+    <token id="116">die</token>
+    <token id="117">kompakte</token>
+    <token id="118">Werbung</token>
+    <token id="119">für</token>
+    <token id="120">das</token>
+    <token id="121">Preußenjahr</token>
+    <token id="122">zurückzuführen</token>
+    <token id="123">ist</token>
+    <token id="124">.</token>
+    <token id="125">Der</token>
+    <token id="126">Verein</token>
+    <token id="127">"</token>
+    <token id="128">Historisches</token>
+    <token id="129">Reckahn</token>
+    <token id="130">"</token>
+    <token id="131">mit</token>
+    <token id="132">seinem</token>
+    <token id="133">Vorsitzenden</token>
+    <token id="134">Otto-Günther</token>
+    <token id="135">Beckmann</token>
+    <token id="136">kann</token>
+    <token id="137">stolz</token>
+    <token id="138">auf</token>
+    <token id="139">die</token>
+    <token id="140">große</token>
+    <token id="141">Resonanz</token>
+    <token id="142">seiner</token>
+    <token id="143">Arbeit</token>
+    <token id="144">in</token>
+    <token id="145">der</token>
+    <token id="146">Öffentlichkeit</token>
+    <token id="147">sein</token>
+    <token id="148">.</token>
+    <token id="149">Er</token>
+    <token id="150">hat</token>
+    <token id="151">Reckahn</token>
+    <token id="152">mit</token>
+    <token id="153">unermüdlichem</token>
+    <token id="154">Engagement</token>
+    <token id="155">weit</token>
+    <token id="156">über</token>
+    <token id="157">den</token>
+    <token id="158">Kreis</token>
+    <token id="159">hinaus</token>
+    <token id="160">bekannt</token>
+    <token id="161">gemacht</token>
+    <token id="162">.</token>
+    <token id="163">Das</token>
+    <token id="164">Preußenjahr</token>
+    <token id="165">geht</token>
+    <token id="166">zu</token>
+    <token id="167">Ende</token>
+    <token id="168">,</token>
+    <token id="169">doch</token>
+    <token id="170">Schloss-</token>
+    <token id="171">und</token>
+    <token id="172">Schulmuseum</token>
+    <token id="173">werden</token>
+    <token id="174">weiter</token>
+    <token id="175">von</token>
+    <token id="176">sich</token>
+    <token id="177">reden</token>
+    <token id="178">machen</token>
+    <token id="179">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="4" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="73" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="52" token="Ohne"/>
+        <ext_arg_token id="53" token="Zweifel"/>
+        <ext_arg_token id="54" token="profitiert"/>
+        <ext_arg_token id="55" token="die"/>
+        <ext_arg_token id="56" token="vom"/>
+        <ext_arg_token id="57" token="Landkreis"/>
+        <ext_arg_token id="58" token="getragene"/>
+        <ext_arg_token id="59" token="Einrichtung"/>
+        <ext_arg_token id="60" token="von"/>
+        <ext_arg_token id="61" token="der"/>
+        <ext_arg_token id="62" token="im"/>
+        <ext_arg_token id="63" token="August"/>
+        <ext_arg_token id="64" token="im"/>
+        <ext_arg_token id="65" token="benachbarten"/>
+        <ext_arg_token id="66" token="Barockschloss"/>
+        <ext_arg_token id="67" token="eröffneten"/>
+        <ext_arg_token id="68" token="Ausstellung"/>
+        <ext_arg_token id="69" token="zur"/>
+        <ext_arg_token id="70" token="brandenburgisch-preußischen"/>
+        <ext_arg_token id="71" token="Schulgeschichte"/>
+        <ext_arg_token id="72" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="74" token="wer"/>
+        <int_arg_token id="75" token="das"/>
+        <int_arg_token id="76" token="mit"/>
+        <int_arg_token id="77" token="großem"/>
+        <int_arg_token id="78" token="Aufwand"/>
+        <int_arg_token id="79" token="sanierte"/>
+        <int_arg_token id="80" token="Schloss"/>
+        <int_arg_token id="81" token="besucht"/>
+        <int_arg_token id="82" token=","/>
+        <int_arg_token id="83" token="kommt"/>
+        <int_arg_token id="84" token="zwangsläufig"/>
+        <int_arg_token id="85" token="an"/>
+        <int_arg_token id="86" token="der"/>
+        <int_arg_token id="87" token="alten"/>
+        <int_arg_token id="88" token="Dorfschule"/>
+        <int_arg_token id="89" token="vorbei"/>
+        <int_arg_token id="90" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="169" token="doch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="163" token="Das"/>
+        <ext_arg_token id="164" token="Preußenjahr"/>
+        <ext_arg_token id="165" token="geht"/>
+        <ext_arg_token id="166" token="zu"/>
+        <ext_arg_token id="167" token="Ende"/>
+        <ext_arg_token id="168" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="170" token="Schloss-"/>
+        <int_arg_token id="171" token="und"/>
+        <int_arg_token id="172" token="Schulmuseum"/>
+        <int_arg_token id="173" token="werden"/>
+        <int_arg_token id="174" token="weiter"/>
+        <int_arg_token id="175" token="von"/>
+        <int_arg_token id="176" token="sich"/>
+        <int_arg_token id="177" token="reden"/>
+        <int_arg_token id="178" token="machen"/>
+        <int_arg_token id="179" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Expansion.Equivalence" type="implicit">
+      <connective_tokens>
+        <implicit_connective>mit anderen Worten</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="2" token="Das"/>
+        <ext_arg_token id="3" token="Schulmuseum"/>
+        <ext_arg_token id="4" token="in"/>
+        <ext_arg_token id="5" token="Reckahn"/>
+        <ext_arg_token id="6" token="erlebt"/>
+        <ext_arg_token id="7" token="einen"/>
+        <ext_arg_token id="8" token="wahren"/>
+        <ext_arg_token id="9" token="Besucheransturm"/>
+        <ext_arg_token id="10" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="11" token="War"/>
+        <int_arg_token id="12" token="das"/>
+        <int_arg_token id="13" token="von"/>
+        <int_arg_token id="14" token="Friedrich"/>
+        <int_arg_token id="15" token="Eberhard"/>
+        <int_arg_token id="16" token="von"/>
+        <int_arg_token id="17" token="Rochow"/>
+        <int_arg_token id="18" token="initiierte"/>
+        <int_arg_token id="19" token="Haus"/>
+        <int_arg_token id="20" token="im"/>
+        <int_arg_token id="21" token="18."/>
+        <int_arg_token id="22" token="und"/>
+        <int_arg_token id="23" token="19."/>
+        <int_arg_token id="24" token="Jahrhundert"/>
+        <int_arg_token id="25" token="Vorbild"/>
+        <int_arg_token id="26" token="für"/>
+        <int_arg_token id="27" token="die"/>
+        <int_arg_token id="28" token="Entwicklung"/>
+        <int_arg_token id="29" token="der"/>
+        <int_arg_token id="30" token="Volksschulen"/>
+        <int_arg_token id="31" token=","/>
+        <int_arg_token id="32" token="wollen"/>
+        <int_arg_token id="33" token="heute"/>
+        <int_arg_token id="34" token="Tausende"/>
+        <int_arg_token id="35" token="das"/>
+        <int_arg_token id="36" token="Flair"/>
+        <int_arg_token id="37" token="eines"/>
+        <int_arg_token id="38" token="historischen"/>
+        <int_arg_token id="39" token="Klassenzimmers"/>
+        <int_arg_token id="40" token="kennen"/>
+        <int_arg_token id="41" token="lernen"/>
+        <int_arg_token id="42" token=","/>
+        <int_arg_token id="43" token="wie"/>
+        <int_arg_token id="44" token="sie"/>
+        <int_arg_token id="45" token="nur"/>
+        <int_arg_token id="46" token="noch"/>
+        <int_arg_token id="47" token="wenige"/>
+        <int_arg_token id="48" token="in"/>
+        <int_arg_token id="49" token="Deutschland"/>
+        <int_arg_token id="50" token="existieren"/>
+        <int_arg_token id="51" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" type="EntRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="11" token="War"/>
+        <ext_arg_token id="12" token="das"/>
+        <ext_arg_token id="13" token="von"/>
+        <ext_arg_token id="14" token="Friedrich"/>
+        <ext_arg_token id="15" token="Eberhard"/>
+        <ext_arg_token id="16" token="von"/>
+        <ext_arg_token id="17" token="Rochow"/>
+        <ext_arg_token id="18" token="initiierte"/>
+        <ext_arg_token id="19" token="Haus"/>
+        <ext_arg_token id="20" token="im"/>
+        <ext_arg_token id="21" token="18."/>
+        <ext_arg_token id="22" token="und"/>
+        <ext_arg_token id="23" token="19."/>
+        <ext_arg_token id="24" token="Jahrhundert"/>
+        <ext_arg_token id="25" token="Vorbild"/>
+        <ext_arg_token id="26" token="für"/>
+        <ext_arg_token id="27" token="die"/>
+        <ext_arg_token id="28" token="Entwicklung"/>
+        <ext_arg_token id="29" token="der"/>
+        <ext_arg_token id="30" token="Volksschulen"/>
+        <ext_arg_token id="31" token=","/>
+        <ext_arg_token id="32" token="wollen"/>
+        <ext_arg_token id="33" token="heute"/>
+        <ext_arg_token id="34" token="Tausende"/>
+        <ext_arg_token id="35" token="das"/>
+        <ext_arg_token id="36" token="Flair"/>
+        <ext_arg_token id="37" token="eines"/>
+        <ext_arg_token id="38" token="historischen"/>
+        <ext_arg_token id="39" token="Klassenzimmers"/>
+        <ext_arg_token id="40" token="kennen"/>
+        <ext_arg_token id="41" token="lernen"/>
+        <ext_arg_token id="42" token=","/>
+        <ext_arg_token id="43" token="wie"/>
+        <ext_arg_token id="44" token="sie"/>
+        <ext_arg_token id="45" token="nur"/>
+        <ext_arg_token id="46" token="noch"/>
+        <ext_arg_token id="47" token="wenige"/>
+        <ext_arg_token id="48" token="in"/>
+        <ext_arg_token id="49" token="Deutschland"/>
+        <ext_arg_token id="50" token="existieren"/>
+        <ext_arg_token id="51" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="52" token="Ohne"/>
+        <int_arg_token id="53" token="Zweifel"/>
+        <int_arg_token id="54" token="profitiert"/>
+        <int_arg_token id="55" token="die"/>
+        <int_arg_token id="56" token="vom"/>
+        <int_arg_token id="57" token="Landkreis"/>
+        <int_arg_token id="58" token="getragene"/>
+        <int_arg_token id="59" token="Einrichtung"/>
+        <int_arg_token id="60" token="von"/>
+        <int_arg_token id="61" token="der"/>
+        <int_arg_token id="62" token="im"/>
+        <int_arg_token id="63" token="August"/>
+        <int_arg_token id="64" token="im"/>
+        <int_arg_token id="65" token="benachbarten"/>
+        <int_arg_token id="66" token="Barockschloss"/>
+        <int_arg_token id="67" token="eröffneten"/>
+        <int_arg_token id="68" token="Ausstellung"/>
+        <int_arg_token id="69" token="zur"/>
+        <int_arg_token id="70" token="brandenburgisch-preußischen"/>
+        <int_arg_token id="71" token="Schulgeschichte"/>
+        <int_arg_token id="72" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="73" token="Denn"/>
+        <ext_arg_token id="74" token="wer"/>
+        <ext_arg_token id="75" token="das"/>
+        <ext_arg_token id="76" token="mit"/>
+        <ext_arg_token id="77" token="großem"/>
+        <ext_arg_token id="78" token="Aufwand"/>
+        <ext_arg_token id="79" token="sanierte"/>
+        <ext_arg_token id="80" token="Schloss"/>
+        <ext_arg_token id="81" token="besucht"/>
+        <ext_arg_token id="82" token=","/>
+        <ext_arg_token id="83" token="kommt"/>
+        <ext_arg_token id="84" token="zwangsläufig"/>
+        <ext_arg_token id="85" token="an"/>
+        <ext_arg_token id="86" token="der"/>
+        <ext_arg_token id="87" token="alten"/>
+        <ext_arg_token id="88" token="Dorfschule"/>
+        <ext_arg_token id="89" token="vorbei"/>
+        <ext_arg_token id="90" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="91" token="In"/>
+        <int_arg_token id="92" token="diesen"/>
+        <int_arg_token id="93" token="knapp"/>
+        <int_arg_token id="94" token="drei"/>
+        <int_arg_token id="95" token="Monaten"/>
+        <int_arg_token id="96" token="wurden"/>
+        <int_arg_token id="97" token="2700"/>
+        <int_arg_token id="98" token="Gäste"/>
+        <int_arg_token id="99" token="durch"/>
+        <int_arg_token id="100" token="das"/>
+        <int_arg_token id="101" token="Museum"/>
+        <int_arg_token id="102" token="geführt"/>
+        <int_arg_token id="103" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective></implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="91" token="In"/>
+        <ext_arg_token id="92" token="diesen"/>
+        <ext_arg_token id="93" token="knapp"/>
+        <ext_arg_token id="94" token="drei"/>
+        <ext_arg_token id="95" token="Monaten"/>
+        <ext_arg_token id="96" token="wurden"/>
+        <ext_arg_token id="97" token="2700"/>
+        <ext_arg_token id="98" token="Gäste"/>
+        <ext_arg_token id="99" token="durch"/>
+        <ext_arg_token id="100" token="das"/>
+        <ext_arg_token id="101" token="Museum"/>
+        <ext_arg_token id="102" token="geführt"/>
+        <ext_arg_token id="103" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="104" token="Viele"/>
+        <int_arg_token id="105" token="von"/>
+        <int_arg_token id="106" token="ihnen"/>
+        <int_arg_token id="107" token="kamen"/>
+        <int_arg_token id="108" token="übers"/>
+        <int_arg_token id="109" token="Wochenende"/>
+        <int_arg_token id="110" token="nach"/>
+        <int_arg_token id="111" token="Reckahn"/>
+        <int_arg_token id="112" token=","/>
+        <int_arg_token id="113" token="was"/>
+        <int_arg_token id="114" token="wohl"/>
+        <int_arg_token id="115" token="auf"/>
+        <int_arg_token id="116" token="die"/>
+        <int_arg_token id="117" token="kompakte"/>
+        <int_arg_token id="118" token="Werbung"/>
+        <int_arg_token id="119" token="für"/>
+        <int_arg_token id="120" token="das"/>
+        <int_arg_token id="121" token="Preußenjahr"/>
+        <int_arg_token id="122" token="zurückzuführen"/>
+        <int_arg_token id="123" token="ist"/>
+        <int_arg_token id="124" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="104" token="Viele"/>
+        <ext_arg_token id="105" token="von"/>
+        <ext_arg_token id="106" token="ihnen"/>
+        <ext_arg_token id="107" token="kamen"/>
+        <ext_arg_token id="108" token="übers"/>
+        <ext_arg_token id="109" token="Wochenende"/>
+        <ext_arg_token id="110" token="nach"/>
+        <ext_arg_token id="111" token="Reckahn"/>
+        <ext_arg_token id="112" token=","/>
+        <ext_arg_token id="113" token="was"/>
+        <ext_arg_token id="114" token="wohl"/>
+        <ext_arg_token id="115" token="auf"/>
+        <ext_arg_token id="116" token="die"/>
+        <ext_arg_token id="117" token="kompakte"/>
+        <ext_arg_token id="118" token="Werbung"/>
+        <ext_arg_token id="119" token="für"/>
+        <ext_arg_token id="120" token="das"/>
+        <ext_arg_token id="121" token="Preußenjahr"/>
+        <ext_arg_token id="122" token="zurückzuführen"/>
+        <ext_arg_token id="123" token="ist"/>
+        <ext_arg_token id="124" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="125" token="Der"/>
+        <int_arg_token id="126" token="Verein"/>
+        <int_arg_token id="127" token="&quot;"/>
+        <int_arg_token id="128" token="Historisches"/>
+        <int_arg_token id="129" token="Reckahn"/>
+        <int_arg_token id="130" token="&quot;"/>
+        <int_arg_token id="131" token="mit"/>
+        <int_arg_token id="132" token="seinem"/>
+        <int_arg_token id="133" token="Vorsitzenden"/>
+        <int_arg_token id="134" token="Otto-Günther"/>
+        <int_arg_token id="135" token="Beckmann"/>
+        <int_arg_token id="136" token="kann"/>
+        <int_arg_token id="137" token="stolz"/>
+        <int_arg_token id="138" token="auf"/>
+        <int_arg_token id="139" token="die"/>
+        <int_arg_token id="140" token="große"/>
+        <int_arg_token id="141" token="Resonanz"/>
+        <int_arg_token id="142" token="seiner"/>
+        <int_arg_token id="143" token="Arbeit"/>
+        <int_arg_token id="144" token="in"/>
+        <int_arg_token id="145" token="der"/>
+        <int_arg_token id="146" token="Öffentlichkeit"/>
+        <int_arg_token id="147" token="sein"/>
+        <int_arg_token id="148" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="11" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="125" token="Der"/>
+        <ext_arg_token id="126" token="Verein"/>
+        <ext_arg_token id="127" token="&quot;"/>
+        <ext_arg_token id="128" token="Historisches"/>
+        <ext_arg_token id="129" token="Reckahn"/>
+        <ext_arg_token id="130" token="&quot;"/>
+        <ext_arg_token id="131" token="mit"/>
+        <ext_arg_token id="132" token="seinem"/>
+        <ext_arg_token id="133" token="Vorsitzenden"/>
+        <ext_arg_token id="134" token="Otto-Günther"/>
+        <ext_arg_token id="135" token="Beckmann"/>
+        <ext_arg_token id="136" token="kann"/>
+        <ext_arg_token id="137" token="stolz"/>
+        <ext_arg_token id="138" token="auf"/>
+        <ext_arg_token id="139" token="die"/>
+        <ext_arg_token id="140" token="große"/>
+        <ext_arg_token id="141" token="Resonanz"/>
+        <ext_arg_token id="142" token="seiner"/>
+        <ext_arg_token id="143" token="Arbeit"/>
+        <ext_arg_token id="144" token="in"/>
+        <ext_arg_token id="145" token="der"/>
+        <ext_arg_token id="146" token="Öffentlichkeit"/>
+        <ext_arg_token id="147" token="sein"/>
+        <ext_arg_token id="148" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="149" token="Er"/>
+        <int_arg_token id="150" token="hat"/>
+        <int_arg_token id="151" token="Reckahn"/>
+        <int_arg_token id="152" token="mit"/>
+        <int_arg_token id="153" token="unermüdlichem"/>
+        <int_arg_token id="154" token="Engagement"/>
+        <int_arg_token id="155" token="weit"/>
+        <int_arg_token id="156" token="über"/>
+        <int_arg_token id="157" token="den"/>
+        <int_arg_token id="158" token="Kreis"/>
+        <int_arg_token id="159" token="hinaus"/>
+        <int_arg_token id="160" token="bekannt"/>
+        <int_arg_token id="161" token="gemacht"/>
+        <int_arg_token id="162" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="12" pdtb3_sense="Contingency.Cause.Result" type="implicit">
+      <connective_tokens>
+        <implicit_connective>also</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="149" token="Er"/>
+        <ext_arg_token id="150" token="hat"/>
+        <ext_arg_token id="151" token="Reckahn"/>
+        <ext_arg_token id="152" token="mit"/>
+        <ext_arg_token id="153" token="unermüdlichem"/>
+        <ext_arg_token id="154" token="Engagement"/>
+        <ext_arg_token id="155" token="weit"/>
+        <ext_arg_token id="156" token="über"/>
+        <ext_arg_token id="157" token="den"/>
+        <ext_arg_token id="158" token="Kreis"/>
+        <ext_arg_token id="159" token="hinaus"/>
+        <ext_arg_token id="160" token="bekannt"/>
+        <ext_arg_token id="161" token="gemacht"/>
+        <ext_arg_token id="162" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="163" token="Das"/>
+        <int_arg_token id="164" token="Preußenjahr"/>
+        <int_arg_token id="165" token="geht"/>
+        <int_arg_token id="166" token="zu"/>
+        <int_arg_token id="167" token="Ende"/>
+        <int_arg_token id="168" token=","/>
+        <int_arg_token id="169" token="doch"/>
+        <int_arg_token id="170" token="Schloss-"/>
+        <int_arg_token id="171" token="und"/>
+        <int_arg_token id="172" token="Schulmuseum"/>
+        <int_arg_token id="173" token="werden"/>
+        <int_arg_token id="174" token="weiter"/>
+        <int_arg_token id="175" token="von"/>
+        <int_arg_token id="176" token="sich"/>
+        <int_arg_token id="177" token="reden"/>
+        <int_arg_token id="178" token="machen"/>
+        <int_arg_token id="179" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

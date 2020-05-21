@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Morgenluft</token>
+    <token id="2">Die</token>
+    <token id="3">jüngste</token>
+    <token id="4">Entwicklung</token>
+    <token id="5">in</token>
+    <token id="6">Groß</token>
+    <token id="7">Kreutz</token>
+    <token id="8">und</token>
+    <token id="9">Götz</token>
+    <token id="10">bedeutet</token>
+    <token id="11">Morgenluft</token>
+    <token id="12">für</token>
+    <token id="13">die</token>
+    <token id="14">Kommunalpolitiker</token>
+    <token id="15">,</token>
+    <token id="16">die</token>
+    <token id="17">das</token>
+    <token id="18">Amt</token>
+    <token id="19">Emster-Havel</token>
+    <token id="20">erhalten</token>
+    <token id="21">wollen</token>
+    <token id="22">.</token>
+    <token id="23">Sah</token>
+    <token id="24">es</token>
+    <token id="25">noch</token>
+    <token id="26">vor</token>
+    <token id="27">wenigen</token>
+    <token id="28">Wochen</token>
+    <token id="29">düster</token>
+    <token id="30">um</token>
+    <token id="31">die</token>
+    <token id="32">Zukunft</token>
+    <token id="33">der</token>
+    <token id="34">Verwaltungseinheit</token>
+    <token id="35">aus</token>
+    <token id="36">,</token>
+    <token id="37">dürfte</token>
+    <token id="38">die</token>
+    <token id="39">Schwächung</token>
+    <token id="40">des</token>
+    <token id="41">Amtes</token>
+    <token id="42">Groß</token>
+    <token id="43">Kreutz</token>
+    <token id="44">durch</token>
+    <token id="45">die</token>
+    <token id="46">Austrittswünsche</token>
+    <token id="47">zweier</token>
+    <token id="48">Gemeinden</token>
+    <token id="49">Emster-Havel</token>
+    <token id="50">stärken</token>
+    <token id="51">.</token>
+    <token id="52">Anfangs</token>
+    <token id="53">hatte</token>
+    <token id="54">Bürgermeister</token>
+    <token id="55">Detlef</token>
+    <token id="56">Lemke</token>
+    <token id="57">noch</token>
+    <token id="58">gehofft</token>
+    <token id="59">,</token>
+    <token id="60">nun</token>
+    <token id="61">bessere</token>
+    <token id="62">Verhandlungskarten</token>
+    <token id="63">für</token>
+    <token id="64">den</token>
+    <token id="65">Götzer</token>
+    <token id="66">Beitritt</token>
+    <token id="67">zur</token>
+    <token id="68">Groß-Kreutzer</token>
+    <token id="69">Großgemeinde</token>
+    <token id="70">zu</token>
+    <token id="71">haben</token>
+    <token id="72">.</token>
+    <token id="73">Inzwischen</token>
+    <token id="74">machen</token>
+    <token id="75">die</token>
+    <token id="76">dortigen</token>
+    <token id="77">Orte</token>
+    <token id="78">aus</token>
+    <token id="79">ihrer</token>
+    <token id="80">Ablehnung</token>
+    <token id="81">keinen</token>
+    <token id="82">Hehl</token>
+    <token id="83">.</token>
+    <token id="84">Schuld</token>
+    <token id="85">daran</token>
+    <token id="86">ist</token>
+    <token id="87">die</token>
+    <token id="88">rigorose</token>
+    <token id="89">Absage</token>
+    <token id="90">des</token>
+    <token id="91">Landes</token>
+    <token id="92">,</token>
+    <token id="93">Götz</token>
+    <token id="94">wesentliche</token>
+    <token id="95">Mittel</token>
+    <token id="96">zur</token>
+    <token id="97">Entschuldung</token>
+    <token id="98">zu</token>
+    <token id="99">geben</token>
+    <token id="100">.</token>
+    <token id="101">Angesichts</token>
+    <token id="102">der</token>
+    <token id="103">eigenen</token>
+    <token id="104">Haushaltsnot</token>
+    <token id="105">der</token>
+    <token id="106">Landesregierung</token>
+    <token id="107">dürfte</token>
+    <token id="108">es</token>
+    <token id="109">bei</token>
+    <token id="110">dieser</token>
+    <token id="111">Absage</token>
+    <token id="112">bleiben</token>
+    <token id="113">.</token>
+    <token id="114">"</token>
+    <token id="115">Nur</token>
+    <token id="116">ein</token>
+    <token id="117">Wunder</token>
+    <token id="118">"</token>
+    <token id="119">,</token>
+    <token id="120">sagt</token>
+    <token id="121">der</token>
+    <token id="122">Groß-Kreutzer</token>
+    <token id="123">Amtsdirektor</token>
+    <token id="124">Meske</token>
+    <token id="125">,</token>
+    <token id="126">könnte</token>
+    <token id="127">Götz</token>
+    <token id="128">den</token>
+    <token id="129">Weg</token>
+    <token id="130">in</token>
+    <token id="131">seinen</token>
+    <token id="132">Verbund</token>
+    <token id="133">noch</token>
+    <token id="134">ebnen</token>
+    <token id="135">.</token>
+    <token id="136">Dreht</token>
+    <token id="137">sich</token>
+    <token id="138">Götz</token>
+    <token id="139">um</token>
+    <token id="140">und</token>
+    <token id="141">blickt</token>
+    <token id="142">nach</token>
+    <token id="143">Emster-Havel</token>
+    <token id="144">,</token>
+    <token id="145">sieht</token>
+    <token id="146">es</token>
+    <token id="147">am</token>
+    <token id="148">Horizont</token>
+    <token id="149">unter</token>
+    <token id="150">anderem</token>
+    <token id="151">die</token>
+    <token id="152">schon</token>
+    <token id="153">wartenden</token>
+    <token id="154">Gemeinden</token>
+    <token id="155">Schenkenberg</token>
+    <token id="156">und</token>
+    <token id="157">Jeserig</token>
+    <token id="158">.</token>
+    <token id="159">Die</token>
+    <token id="160">hoffen</token>
+    <token id="161">,</token>
+    <token id="162">Götz</token>
+    <token id="163">nun</token>
+    <token id="164">leichter</token>
+    <token id="165">im</token>
+    <token id="166">Amt</token>
+    <token id="167">zu</token>
+    <token id="168">halten</token>
+    <token id="169">.</token>
+    <token id="170">Für</token>
+    <token id="171">die</token>
+    <token id="172">austrittswilligen</token>
+    <token id="173">Amtsgemeinden</token>
+    <token id="174">Damsdorf</token>
+    <token id="175">und</token>
+    <token id="176">Gollwitz</token>
+    <token id="177">freilich</token>
+    <token id="178">dürfte</token>
+    <token id="179">die</token>
+    <token id="180">Groß-Kreutzer</token>
+    <token id="181">Problemlage</token>
+    <token id="182">keine</token>
+    <token id="183">Folgen</token>
+    <token id="184">haben</token>
+    <token id="185">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Temporal.Asynchronous.Precedence" type="explicit">
+      <connective_tokens>
+        <connective_token id="73" token="Inzwischen"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="52" token="Anfangs"/>
+        <ext_arg_token id="53" token="hatte"/>
+        <ext_arg_token id="54" token="Bürgermeister"/>
+        <ext_arg_token id="55" token="Detlef"/>
+        <ext_arg_token id="56" token="Lemke"/>
+        <ext_arg_token id="57" token="noch"/>
+        <ext_arg_token id="58" token="gehofft"/>
+        <ext_arg_token id="59" token=","/>
+        <ext_arg_token id="60" token="nun"/>
+        <ext_arg_token id="61" token="bessere"/>
+        <ext_arg_token id="62" token="Verhandlungskarten"/>
+        <ext_arg_token id="63" token="für"/>
+        <ext_arg_token id="64" token="den"/>
+        <ext_arg_token id="65" token="Götzer"/>
+        <ext_arg_token id="66" token="Beitritt"/>
+        <ext_arg_token id="67" token="zur"/>
+        <ext_arg_token id="68" token="Groß-Kreutzer"/>
+        <ext_arg_token id="69" token="Großgemeinde"/>
+        <ext_arg_token id="70" token="zu"/>
+        <ext_arg_token id="71" token="haben"/>
+        <ext_arg_token id="72" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="74" token="machen"/>
+        <int_arg_token id="75" token="die"/>
+        <int_arg_token id="76" token="dortigen"/>
+        <int_arg_token id="77" token="Orte"/>
+        <int_arg_token id="78" token="aus"/>
+        <int_arg_token id="79" token="ihrer"/>
+        <int_arg_token id="80" token="Ablehnung"/>
+        <int_arg_token id="81" token="keinen"/>
+        <int_arg_token id="82" token="Hehl"/>
+        <int_arg_token id="83" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="2" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="140" token="und"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="136" token="Dreht"/>
+        <ext_arg_token id="137" token="sich"/>
+        <ext_arg_token id="138" token="Götz"/>
+        <ext_arg_token id="139" token="um"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="141" token="blickt"/>
+        <int_arg_token id="142" token="nach"/>
+        <int_arg_token id="143" token="Emster-Havel"/>
+        <int_arg_token id="144" token=","/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="3" pdtb3_sense="Contingency.Cause.Reason" type="implicit">
+      <connective_tokens>
+        <implicit_connective>weil</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="2" token="Die"/>
+        <ext_arg_token id="3" token="jüngste"/>
+        <ext_arg_token id="4" token="Entwicklung"/>
+        <ext_arg_token id="5" token="in"/>
+        <ext_arg_token id="6" token="Groß"/>
+        <ext_arg_token id="7" token="Kreutz"/>
+        <ext_arg_token id="8" token="und"/>
+        <ext_arg_token id="9" token="Götz"/>
+        <ext_arg_token id="10" token="bedeutet"/>
+        <ext_arg_token id="11" token="Morgenluft"/>
+        <ext_arg_token id="12" token="für"/>
+        <ext_arg_token id="13" token="die"/>
+        <ext_arg_token id="14" token="Kommunalpolitiker"/>
+        <ext_arg_token id="15" token=","/>
+        <ext_arg_token id="16" token="die"/>
+        <ext_arg_token id="17" token="das"/>
+        <ext_arg_token id="18" token="Amt"/>
+        <ext_arg_token id="19" token="Emster-Havel"/>
+        <ext_arg_token id="20" token="erhalten"/>
+        <ext_arg_token id="21" token="wollen"/>
+        <ext_arg_token id="22" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="23" token="Sah"/>
+        <int_arg_token id="24" token="es"/>
+        <int_arg_token id="25" token="noch"/>
+        <int_arg_token id="26" token="vor"/>
+        <int_arg_token id="27" token="wenigen"/>
+        <int_arg_token id="28" token="Wochen"/>
+        <int_arg_token id="29" token="düster"/>
+        <int_arg_token id="30" token="um"/>
+        <int_arg_token id="31" token="die"/>
+        <int_arg_token id="32" token="Zukunft"/>
+        <int_arg_token id="33" token="der"/>
+        <int_arg_token id="34" token="Verwaltungseinheit"/>
+        <int_arg_token id="35" token="aus"/>
+        <int_arg_token id="36" token=","/>
+        <int_arg_token id="37" token="dürfte"/>
+        <int_arg_token id="38" token="die"/>
+        <int_arg_token id="39" token="Schwächung"/>
+        <int_arg_token id="40" token="des"/>
+        <int_arg_token id="41" token="Amtes"/>
+        <int_arg_token id="42" token="Groß"/>
+        <int_arg_token id="43" token="Kreutz"/>
+        <int_arg_token id="44" token="durch"/>
+        <int_arg_token id="45" token="die"/>
+        <int_arg_token id="46" token="Austrittswünsche"/>
+        <int_arg_token id="47" token="zweier"/>
+        <int_arg_token id="48" token="Gemeinden"/>
+        <int_arg_token id="49" token="Emster-Havel"/>
+        <int_arg_token id="50" token="stärken"/>
+        <int_arg_token id="51" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="4" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="52" token="Anfangs"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="23" token="Sah"/>
+        <ext_arg_token id="24" token="es"/>
+        <ext_arg_token id="25" token="noch"/>
+        <ext_arg_token id="26" token="vor"/>
+        <ext_arg_token id="27" token="wenigen"/>
+        <ext_arg_token id="28" token="Wochen"/>
+        <ext_arg_token id="29" token="düster"/>
+        <ext_arg_token id="30" token="um"/>
+        <ext_arg_token id="31" token="die"/>
+        <ext_arg_token id="32" token="Zukunft"/>
+        <ext_arg_token id="33" token="der"/>
+        <ext_arg_token id="34" token="Verwaltungseinheit"/>
+        <ext_arg_token id="35" token="aus"/>
+        <ext_arg_token id="36" token=","/>
+        <ext_arg_token id="37" token="dürfte"/>
+        <ext_arg_token id="38" token="die"/>
+        <ext_arg_token id="39" token="Schwächung"/>
+        <ext_arg_token id="40" token="des"/>
+        <ext_arg_token id="41" token="Amtes"/>
+        <ext_arg_token id="42" token="Groß"/>
+        <ext_arg_token id="43" token="Kreutz"/>
+        <ext_arg_token id="44" token="durch"/>
+        <ext_arg_token id="45" token="die"/>
+        <ext_arg_token id="46" token="Austrittswünsche"/>
+        <ext_arg_token id="47" token="zweier"/>
+        <ext_arg_token id="48" token="Gemeinden"/>
+        <ext_arg_token id="49" token="Emster-Havel"/>
+        <ext_arg_token id="50" token="stärken"/>
+        <ext_arg_token id="51" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="52" token="Anfangs"/>
+        <int_arg_token id="53" token="hatte"/>
+        <int_arg_token id="54" token="Bürgermeister"/>
+        <int_arg_token id="55" token="Detlef"/>
+        <int_arg_token id="56" token="Lemke"/>
+        <int_arg_token id="57" token="noch"/>
+        <int_arg_token id="58" token="gehofft"/>
+        <int_arg_token id="59" token=","/>
+        <int_arg_token id="60" token="nun"/>
+        <int_arg_token id="61" token="bessere"/>
+        <int_arg_token id="62" token="Verhandlungskarten"/>
+        <int_arg_token id="63" token="für"/>
+        <int_arg_token id="64" token="den"/>
+        <int_arg_token id="65" token="Götzer"/>
+        <int_arg_token id="66" token="Beitritt"/>
+        <int_arg_token id="67" token="zur"/>
+        <int_arg_token id="68" token="Groß-Kreutzer"/>
+        <int_arg_token id="69" token="Großgemeinde"/>
+        <int_arg_token id="70" token="zu"/>
+        <int_arg_token id="71" token="haben"/>
+        <int_arg_token id="72" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="5" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="73" token="Inzwischen"/>
+        <ext_arg_token id="74" token="machen"/>
+        <ext_arg_token id="75" token="die"/>
+        <ext_arg_token id="76" token="dortigen"/>
+        <ext_arg_token id="77" token="Orte"/>
+        <ext_arg_token id="78" token="aus"/>
+        <ext_arg_token id="79" token="ihrer"/>
+        <ext_arg_token id="80" token="Ablehnung"/>
+        <ext_arg_token id="81" token="keinen"/>
+        <ext_arg_token id="82" token="Hehl"/>
+        <ext_arg_token id="83" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="84" token="Schuld"/>
+        <int_arg_token id="85" token="daran"/>
+        <int_arg_token id="86" token="ist"/>
+        <int_arg_token id="87" token="die"/>
+        <int_arg_token id="88" token="rigorose"/>
+        <int_arg_token id="89" token="Absage"/>
+        <int_arg_token id="90" token="des"/>
+        <int_arg_token id="91" token="Landes"/>
+        <int_arg_token id="92" token=","/>
+        <int_arg_token id="93" token="Götz"/>
+        <int_arg_token id="94" token="wesentliche"/>
+        <int_arg_token id="95" token="Mittel"/>
+        <int_arg_token id="96" token="zur"/>
+        <int_arg_token id="97" token="Entschuldung"/>
+        <int_arg_token id="98" token="zu"/>
+        <int_arg_token id="99" token="geben"/>
+        <int_arg_token id="100" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="84" token="Schuld"/>
+        <ext_arg_token id="85" token="daran"/>
+        <ext_arg_token id="86" token="ist"/>
+        <ext_arg_token id="87" token="die"/>
+        <ext_arg_token id="88" token="rigorose"/>
+        <ext_arg_token id="89" token="Absage"/>
+        <ext_arg_token id="90" token="des"/>
+        <ext_arg_token id="91" token="Landes"/>
+        <ext_arg_token id="92" token=","/>
+        <ext_arg_token id="93" token="Götz"/>
+        <ext_arg_token id="94" token="wesentliche"/>
+        <ext_arg_token id="95" token="Mittel"/>
+        <ext_arg_token id="96" token="zur"/>
+        <ext_arg_token id="97" token="Entschuldung"/>
+        <ext_arg_token id="98" token="zu"/>
+        <ext_arg_token id="99" token="geben"/>
+        <ext_arg_token id="100" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="101" token="Angesichts"/>
+        <int_arg_token id="102" token="der"/>
+        <int_arg_token id="103" token="eigenen"/>
+        <int_arg_token id="104" token="Haushaltsnot"/>
+        <int_arg_token id="105" token="der"/>
+        <int_arg_token id="106" token="Landesregierung"/>
+        <int_arg_token id="107" token="dürfte"/>
+        <int_arg_token id="108" token="es"/>
+        <int_arg_token id="109" token="bei"/>
+        <int_arg_token id="110" token="dieser"/>
+        <int_arg_token id="111" token="Absage"/>
+        <int_arg_token id="112" token="bleiben"/>
+        <int_arg_token id="113" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="101" token="Angesichts"/>
+        <ext_arg_token id="102" token="der"/>
+        <ext_arg_token id="103" token="eigenen"/>
+        <ext_arg_token id="104" token="Haushaltsnot"/>
+        <ext_arg_token id="105" token="der"/>
+        <ext_arg_token id="106" token="Landesregierung"/>
+        <ext_arg_token id="107" token="dürfte"/>
+        <ext_arg_token id="108" token="es"/>
+        <ext_arg_token id="109" token="bei"/>
+        <ext_arg_token id="110" token="dieser"/>
+        <ext_arg_token id="111" token="Absage"/>
+        <ext_arg_token id="112" token="bleiben"/>
+        <ext_arg_token id="113" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="114" token="&quot;"/>
+        <int_arg_token id="115" token="Nur"/>
+        <int_arg_token id="116" token="ein"/>
+        <int_arg_token id="117" token="Wunder"/>
+        <int_arg_token id="118" token="&quot;"/>
+        <int_arg_token id="119" token=","/>
+        <int_arg_token id="120" token="sagt"/>
+        <int_arg_token id="121" token="der"/>
+        <int_arg_token id="122" token="Groß-Kreutzer"/>
+        <int_arg_token id="123" token="Amtsdirektor"/>
+        <int_arg_token id="124" token="Meske"/>
+        <int_arg_token id="125" token=","/>
+        <int_arg_token id="126" token="könnte"/>
+        <int_arg_token id="127" token="Götz"/>
+        <int_arg_token id="128" token="den"/>
+        <int_arg_token id="129" token="Weg"/>
+        <int_arg_token id="130" token="in"/>
+        <int_arg_token id="131" token="seinen"/>
+        <int_arg_token id="132" token="Verbund"/>
+        <int_arg_token id="133" token="noch"/>
+        <int_arg_token id="134" token="ebnen"/>
+        <int_arg_token id="135" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="114" token="&quot;"/>
+        <ext_arg_token id="115" token="Nur"/>
+        <ext_arg_token id="116" token="ein"/>
+        <ext_arg_token id="117" token="Wunder"/>
+        <ext_arg_token id="118" token="&quot;"/>
+        <ext_arg_token id="119" token=","/>
+        <ext_arg_token id="120" token="sagt"/>
+        <ext_arg_token id="121" token="der"/>
+        <ext_arg_token id="122" token="Groß-Kreutzer"/>
+        <ext_arg_token id="123" token="Amtsdirektor"/>
+        <ext_arg_token id="124" token="Meske"/>
+        <ext_arg_token id="125" token=","/>
+        <ext_arg_token id="126" token="könnte"/>
+        <ext_arg_token id="127" token="Götz"/>
+        <ext_arg_token id="128" token="den"/>
+        <ext_arg_token id="129" token="Weg"/>
+        <ext_arg_token id="130" token="in"/>
+        <ext_arg_token id="131" token="seinen"/>
+        <ext_arg_token id="132" token="Verbund"/>
+        <ext_arg_token id="133" token="noch"/>
+        <ext_arg_token id="134" token="ebnen"/>
+        <ext_arg_token id="135" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="136" token="Dreht"/>
+        <int_arg_token id="137" token="sich"/>
+        <int_arg_token id="138" token="Götz"/>
+        <int_arg_token id="139" token="um"/>
+        <int_arg_token id="140" token="und"/>
+        <int_arg_token id="141" token="blickt"/>
+        <int_arg_token id="142" token="nach"/>
+        <int_arg_token id="143" token="Emster-Havel"/>
+        <int_arg_token id="144" token=","/>
+        <int_arg_token id="145" token="sieht"/>
+        <int_arg_token id="146" token="es"/>
+        <int_arg_token id="147" token="am"/>
+        <int_arg_token id="148" token="Horizont"/>
+        <int_arg_token id="149" token="unter"/>
+        <int_arg_token id="150" token="anderem"/>
+        <int_arg_token id="151" token="die"/>
+        <int_arg_token id="152" token="schon"/>
+        <int_arg_token id="153" token="wartenden"/>
+        <int_arg_token id="154" token="Gemeinden"/>
+        <int_arg_token id="155" token="Schenkenberg"/>
+        <int_arg_token id="156" token="und"/>
+        <int_arg_token id="157" token="Jeserig"/>
+        <int_arg_token id="158" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="9" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="136" token="Dreht"/>
+        <ext_arg_token id="137" token="sich"/>
+        <ext_arg_token id="138" token="Götz"/>
+        <ext_arg_token id="139" token="um"/>
+        <ext_arg_token id="140" token="und"/>
+        <ext_arg_token id="141" token="blickt"/>
+        <ext_arg_token id="142" token="nach"/>
+        <ext_arg_token id="143" token="Emster-Havel"/>
+        <ext_arg_token id="144" token=","/>
+        <ext_arg_token id="145" token="sieht"/>
+        <ext_arg_token id="146" token="es"/>
+        <ext_arg_token id="147" token="am"/>
+        <ext_arg_token id="148" token="Horizont"/>
+        <ext_arg_token id="149" token="unter"/>
+        <ext_arg_token id="150" token="anderem"/>
+        <ext_arg_token id="151" token="die"/>
+        <ext_arg_token id="152" token="schon"/>
+        <ext_arg_token id="153" token="wartenden"/>
+        <ext_arg_token id="154" token="Gemeinden"/>
+        <ext_arg_token id="155" token="Schenkenberg"/>
+        <ext_arg_token id="156" token="und"/>
+        <ext_arg_token id="157" token="Jeserig"/>
+        <ext_arg_token id="158" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="159" token="Die"/>
+        <int_arg_token id="160" token="hoffen"/>
+        <int_arg_token id="161" token=","/>
+        <int_arg_token id="162" token="Götz"/>
+        <int_arg_token id="163" token="nun"/>
+        <int_arg_token id="164" token="leichter"/>
+        <int_arg_token id="165" token="im"/>
+        <int_arg_token id="166" token="Amt"/>
+        <int_arg_token id="167" token="zu"/>
+        <int_arg_token id="168" token="halten"/>
+        <int_arg_token id="169" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Comparison.Concession.Arg2-as-denier" type="explicit">
+      <connective_tokens>
+        <connective_token id="177" token="freilich"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="159" token="Die"/>
+        <int_arg_token id="160" token="hoffen"/>
+        <int_arg_token id="161" token=","/>
+        <int_arg_token id="162" token="Götz"/>
+        <int_arg_token id="163" token="nun"/>
+        <int_arg_token id="164" token="leichter"/>
+        <int_arg_token id="165" token="im"/>
+        <int_arg_token id="166" token="Amt"/>
+        <int_arg_token id="167" token="zu"/>
+        <int_arg_token id="168" token="halten"/>
+        <int_arg_token id="169" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="170" token="Für"/>
+        <ext_arg_token id="171" token="die"/>
+        <ext_arg_token id="172" token="austrittswilligen"/>
+        <ext_arg_token id="173" token="Amtsgemeinden"/>
+        <ext_arg_token id="174" token="Damsdorf"/>
+        <ext_arg_token id="175" token="und"/>
+        <ext_arg_token id="176" token="Gollwitz"/>
+        <ext_arg_token id="177" token="freilich"/>
+        <ext_arg_token id="178" token="dürfte"/>
+        <ext_arg_token id="179" token="die"/>
+        <ext_arg_token id="180" token="Groß-Kreutzer"/>
+        <ext_arg_token id="181" token="Problemlage"/>
+        <ext_arg_token id="182" token="keine"/>
+        <ext_arg_token id="183" token="Folgen"/>
+        <ext_arg_token id="184" token="haben"/>
+        <ext_arg_token id="185" token="."/>
+      </ext_arg_tokens>
+    </relation>
+  </relations>
+</discourse>

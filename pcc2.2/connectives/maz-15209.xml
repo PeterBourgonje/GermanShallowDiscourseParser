@@ -1,0 +1,724 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?relations relSet="pdtb3" lexURL="jar:file:/home/lisa/Arbeit/Conano-Distrib/conano.jar!/de/uni_potsdam/ling/coli/resources/ConnectorLexicon.xml"?>
+<discourse>
+  <tokens>
+    <token id="1">Diener</token>
+    <token id="2">vieler</token>
+    <token id="3">Herren</token>
+    <token id="4">Wer</token>
+    <token id="5">es</token>
+    <token id="6">allen</token>
+    <token id="7">Recht</token>
+    <token id="8">machen</token>
+    <token id="9">möchte</token>
+    <token id="10">,</token>
+    <token id="11">hat</token>
+    <token id="12">es</token>
+    <token id="13">schwer</token>
+    <token id="14">.</token>
+    <token id="15">Wer</token>
+    <token id="16">es</token>
+    <token id="17">allen</token>
+    <token id="18">Recht</token>
+    <token id="19">machen</token>
+    <token id="20">muss</token>
+    <token id="21">noch</token>
+    <token id="22">mehr</token>
+    <token id="23">.</token>
+    <token id="24">Die</token>
+    <token id="25">Regionale</token>
+    <token id="26">Verkehrsgesellschaft</token>
+    <token id="27">Dahme-Spreewald</token>
+    <token id="28">(</token>
+    <token id="29">RVS</token>
+    <token id="30">)</token>
+    <token id="31">befördert</token>
+    <token id="32">täglich</token>
+    <token id="33">Menschen</token>
+    <token id="34">mit</token>
+    <token id="35">unterschiedlichen</token>
+    <token id="36">Bedürfnissen</token>
+    <token id="37">:</token>
+    <token id="38">Da</token>
+    <token id="39">sind</token>
+    <token id="40">Berufstätige</token>
+    <token id="41">,</token>
+    <token id="42">die</token>
+    <token id="43">pünktlich</token>
+    <token id="44">zur</token>
+    <token id="45">Arbeit</token>
+    <token id="46">erscheinen</token>
+    <token id="47">müssen</token>
+    <token id="48">.</token>
+    <token id="49">Sie</token>
+    <token id="50">sind</token>
+    <token id="51">oft</token>
+    <token id="52">auf</token>
+    <token id="53">einen</token>
+    <token id="54">guten</token>
+    <token id="55">Bahnanschluss</token>
+    <token id="56">angewiesen</token>
+    <token id="57">.</token>
+    <token id="58">Dann</token>
+    <token id="59">wären</token>
+    <token id="60">da</token>
+    <token id="61">noch</token>
+    <token id="62">die</token>
+    <token id="63">Schüler</token>
+    <token id="64">.</token>
+    <token id="65">Sie</token>
+    <token id="66">brauchen</token>
+    <token id="67">die</token>
+    <token id="68">RVS</token>
+    <token id="69">.</token>
+    <token id="70">Denn</token>
+    <token id="71">Minderjährige</token>
+    <token id="72">haben</token>
+    <token id="73">keine</token>
+    <token id="74">Wahl</token>
+    <token id="75">zwischen</token>
+    <token id="76">Pkw</token>
+    <token id="77">und</token>
+    <token id="78">Bus</token>
+    <token id="79">.</token>
+    <token id="80">Den</token>
+    <token id="81">dritten</token>
+    <token id="82">Schwerpunkt</token>
+    <token id="83">bilden</token>
+    <token id="84">Rentner</token>
+    <token id="85">,</token>
+    <token id="86">die</token>
+    <token id="87">häufig</token>
+    <token id="88">ihre</token>
+    <token id="89">Einkäufe</token>
+    <token id="90">oder</token>
+    <token id="91">Arztbesuche</token>
+    <token id="92">per</token>
+    <token id="93">Bus</token>
+    <token id="94">erledigen</token>
+    <token id="95">.</token>
+    <token id="96">Den</token>
+    <token id="97">Interessen</token>
+    <token id="98">aller</token>
+    <token id="99">drei</token>
+    <token id="100">Fahrgastgruppen</token>
+    <token id="101">gerecht</token>
+    <token id="102">zu</token>
+    <token id="103">werden</token>
+    <token id="104">,</token>
+    <token id="105">scheint</token>
+    <token id="106">unmöglich</token>
+    <token id="107">.</token>
+    <token id="108">Denn</token>
+    <token id="109">die</token>
+    <token id="110">RVS</token>
+    <token id="111">muss</token>
+    <token id="112">wirtschaftlich</token>
+    <token id="113">arbeiten</token>
+    <token id="114">.</token>
+    <token id="115">Busse</token>
+    <token id="116">können</token>
+    <token id="117">nur</token>
+    <token id="118">eingesetzt</token>
+    <token id="119">werden</token>
+    <token id="120">,</token>
+    <token id="121">wenn</token>
+    <token id="122">sie</token>
+    <token id="123">ausgelastet</token>
+    <token id="124">sind</token>
+    <token id="125">.</token>
+    <token id="126">Deshalb</token>
+    <token id="127">ist</token>
+    <token id="128">es</token>
+    <token id="129">lobenswert</token>
+    <token id="130">,</token>
+    <token id="131">dass</token>
+    <token id="132">die</token>
+    <token id="133">RVS</token>
+    <token id="134">sich</token>
+    <token id="135">bemüht</token>
+    <token id="136">,</token>
+    <token id="137">so</token>
+    <token id="138">schnell</token>
+    <token id="139">wie</token>
+    <token id="140">möglich</token>
+    <token id="141">auf</token>
+    <token id="142">Kundenbeschwerden</token>
+    <token id="143">zu</token>
+    <token id="144">reagieren</token>
+    <token id="145">.</token>
+    <token id="146">Die</token>
+    <token id="147">Berufstätigen</token>
+    <token id="148">forderten</token>
+    <token id="149">bessere</token>
+    <token id="150">Bahnanschlüsse</token>
+    <token id="151">:</token>
+    <token id="152">Die</token>
+    <token id="153">RVS</token>
+    <token id="154">stellte</token>
+    <token id="155">deswegen</token>
+    <token id="156">einen</token>
+    <token id="157">Busfahrplan</token>
+    <token id="158">um</token>
+    <token id="159">.</token>
+    <token id="160">Daraufhin</token>
+    <token id="161">schimpften</token>
+    <token id="162">Eltern</token>
+    <token id="163">,</token>
+    <token id="164">weil</token>
+    <token id="165">ihre</token>
+    <token id="166">Kinder</token>
+    <token id="167">dadurch</token>
+    <token id="168">zu</token>
+    <token id="169">lange</token>
+    <token id="170">vor</token>
+    <token id="171">Schulbeginn</token>
+    <token id="172">warten</token>
+    <token id="173">müssen</token>
+    <token id="174">.</token>
+    <token id="175">Nun</token>
+    <token id="176">wird</token>
+    <token id="177">ab</token>
+    <token id="178">Montag</token>
+    <token id="179">ein</token>
+    <token id="180">Sonderbus</token>
+    <token id="181">die</token>
+    <token id="182">Schüler</token>
+    <token id="183">befördern</token>
+    <token id="184">.</token>
+    <token id="185">Mal</token>
+    <token id="186">sehen</token>
+    <token id="187">,</token>
+    <token id="188">wer</token>
+    <token id="189">sich</token>
+    <token id="190">am</token>
+    <token id="191">Dienstag</token>
+    <token id="192">beschwert</token>
+    <token id="193">.</token>
+  </tokens>
+  <relations>
+    <relation relation_id="1" pdtb3_sense="Expansion.Conjunction" type="explicit">
+      <connective_tokens>
+        <connective_token id="58" token="Dann"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="38" token="Da"/>
+        <ext_arg_token id="39" token="sind"/>
+        <ext_arg_token id="40" token="Berufstätige"/>
+        <ext_arg_token id="41" token=","/>
+        <ext_arg_token id="42" token="die"/>
+        <ext_arg_token id="43" token="pünktlich"/>
+        <ext_arg_token id="44" token="zur"/>
+        <ext_arg_token id="45" token="Arbeit"/>
+        <ext_arg_token id="46" token="erscheinen"/>
+        <ext_arg_token id="47" token="müssen"/>
+        <ext_arg_token id="48" token="."/>
+        <ext_arg_token id="49" token="Sie"/>
+        <ext_arg_token id="50" token="sind"/>
+        <ext_arg_token id="51" token="oft"/>
+        <ext_arg_token id="52" token="auf"/>
+        <ext_arg_token id="53" token="einen"/>
+        <ext_arg_token id="54" token="guten"/>
+        <ext_arg_token id="55" token="Bahnanschluss"/>
+        <ext_arg_token id="56" token="angewiesen"/>
+        <ext_arg_token id="57" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="59" token="wären"/>
+        <int_arg_token id="60" token="da"/>
+        <int_arg_token id="61" token="noch"/>
+        <int_arg_token id="62" token="die"/>
+        <int_arg_token id="63" token="Schüler"/>
+        <int_arg_token id="64" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="2" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="70" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="65" token="Sie"/>
+        <ext_arg_token id="66" token="brauchen"/>
+        <ext_arg_token id="67" token="die"/>
+        <ext_arg_token id="68" token="RVS"/>
+        <ext_arg_token id="69" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="71" token="Minderjährige"/>
+        <int_arg_token id="72" token="haben"/>
+        <int_arg_token id="73" token="keine"/>
+        <int_arg_token id="74" token="Wahl"/>
+        <int_arg_token id="75" token="zwischen"/>
+        <int_arg_token id="76" token="Pkw"/>
+        <int_arg_token id="77" token="und"/>
+        <int_arg_token id="78" token="Bus"/>
+        <int_arg_token id="79" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="6" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="108" token="Denn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="96" token="Den"/>
+        <ext_arg_token id="97" token="Interessen"/>
+        <ext_arg_token id="98" token="aller"/>
+        <ext_arg_token id="99" token="drei"/>
+        <ext_arg_token id="100" token="Fahrgastgruppen"/>
+        <ext_arg_token id="101" token="gerecht"/>
+        <ext_arg_token id="102" token="zu"/>
+        <ext_arg_token id="103" token="werden"/>
+        <ext_arg_token id="104" token=","/>
+        <ext_arg_token id="105" token="scheint"/>
+        <ext_arg_token id="106" token="unmöglich"/>
+        <ext_arg_token id="107" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="109" token="die"/>
+        <int_arg_token id="110" token="RVS"/>
+        <int_arg_token id="111" token="muss"/>
+        <int_arg_token id="112" token="wirtschaftlich"/>
+        <int_arg_token id="113" token="arbeiten"/>
+        <int_arg_token id="114" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="7" pdtb3_sense="Contingency.Condition.Arg2-as-cond" type="explicit">
+      <connective_tokens>
+        <connective_token id="121" token="wenn"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="115" token="Busse"/>
+        <ext_arg_token id="116" token="können"/>
+        <ext_arg_token id="117" token="nur"/>
+        <ext_arg_token id="118" token="eingesetzt"/>
+        <ext_arg_token id="119" token="werden"/>
+        <ext_arg_token id="120" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="122" token="sie"/>
+        <int_arg_token id="123" token="ausgelastet"/>
+        <int_arg_token id="124" token="sind"/>
+        <int_arg_token id="125" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="8" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="126" token="Deshalb"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="115" token="Busse"/>
+        <ext_arg_token id="116" token="können"/>
+        <ext_arg_token id="117" token="nur"/>
+        <ext_arg_token id="118" token="eingesetzt"/>
+        <ext_arg_token id="119" token="werden"/>
+        <ext_arg_token id="120" token=","/>
+        <ext_arg_token id="121" token="wenn"/>
+        <ext_arg_token id="122" token="sie"/>
+        <ext_arg_token id="123" token="ausgelastet"/>
+        <ext_arg_token id="124" token="sind"/>
+        <ext_arg_token id="125" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="127" token="ist"/>
+        <int_arg_token id="128" token="es"/>
+        <int_arg_token id="129" token="lobenswert"/>
+        <int_arg_token id="130" token=","/>
+        <int_arg_token id="131" token="dass"/>
+        <int_arg_token id="132" token="die"/>
+        <int_arg_token id="133" token="RVS"/>
+        <int_arg_token id="134" token="sich"/>
+        <int_arg_token id="135" token="bemüht"/>
+        <int_arg_token id="136" token=","/>
+        <int_arg_token id="137" token="so"/>
+        <int_arg_token id="138" token="schnell"/>
+        <int_arg_token id="139" token="wie"/>
+        <int_arg_token id="140" token="möglich"/>
+        <int_arg_token id="141" token="auf"/>
+        <int_arg_token id="142" token="Kundenbeschwerden"/>
+        <int_arg_token id="143" token="zu"/>
+        <int_arg_token id="144" token="reagieren"/>
+        <int_arg_token id="145" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="10" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="155" token="deswegen"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="152" token="Die"/>
+        <int_arg_token id="153" token="RVS"/>
+        <int_arg_token id="154" token="stellte"/>
+        <int_arg_token id="156" token="einen"/>
+        <int_arg_token id="157" token="Busfahrplan"/>
+        <int_arg_token id="158" token="um"/>
+        <int_arg_token id="159" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="146" token="Die"/>
+        <ext_arg_token id="147" token="Berufstätigen"/>
+        <ext_arg_token id="148" token="forderten"/>
+        <ext_arg_token id="149" token="bessere"/>
+        <ext_arg_token id="150" token="Bahnanschlüsse"/>
+        <ext_arg_token id="151" token=":"/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="13" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="160" token="Daraufhin"/>
+      </connective_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="161" token="schimpften"/>
+        <int_arg_token id="162" token="Eltern"/>
+        <int_arg_token id="163" token=","/>
+        <int_arg_token id="164" token="weil"/>
+        <int_arg_token id="165" token="ihre"/>
+        <int_arg_token id="166" token="Kinder"/>
+        <int_arg_token id="167" token="dadurch"/>
+        <int_arg_token id="168" token="zu"/>
+        <int_arg_token id="169" token="lange"/>
+        <int_arg_token id="170" token="vor"/>
+        <int_arg_token id="171" token="Schulbeginn"/>
+        <int_arg_token id="172" token="warten"/>
+        <int_arg_token id="173" token="müssen"/>
+        <int_arg_token id="174" token="."/>
+      </int_arg_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="152" token="Die"/>
+        <ext_arg_token id="153" token="RVS"/>
+        <ext_arg_token id="154" token="stellte"/>
+        <ext_arg_token id="155" token="deswegen"/>
+        <ext_arg_token id="156" token="einen"/>
+        <ext_arg_token id="157" token="Busfahrplan"/>
+        <ext_arg_token id="158" token="um"/>
+        <ext_arg_token id="159" token="."/>
+      </ext_arg_tokens>
+    </relation>
+    <relation relation_id="14" pdtb3_sense="Contingency.Cause.Reason" type="explicit">
+      <connective_tokens>
+        <connective_token id="164" token="weil"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="160" token="Daraufhin"/>
+        <ext_arg_token id="161" token="schimpften"/>
+        <ext_arg_token id="162" token="Eltern"/>
+        <ext_arg_token id="163" token=","/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="165" token="ihre"/>
+        <int_arg_token id="166" token="Kinder"/>
+        <int_arg_token id="167" token="dadurch"/>
+        <int_arg_token id="168" token="zu"/>
+        <int_arg_token id="169" token="lange"/>
+        <int_arg_token id="170" token="vor"/>
+        <int_arg_token id="171" token="Schulbeginn"/>
+        <int_arg_token id="172" token="warten"/>
+        <int_arg_token id="173" token="müssen"/>
+        <int_arg_token id="174" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="15" pdtb3_sense="Contingency.Cause.Result" type="explicit">
+      <connective_tokens>
+        <connective_token id="167" token="dadurch"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="152" token="Die"/>
+        <ext_arg_token id="153" token="RVS"/>
+        <ext_arg_token id="154" token="stellte"/>
+        <ext_arg_token id="155" token="deswegen"/>
+        <ext_arg_token id="156" token="einen"/>
+        <ext_arg_token id="157" token="Busfahrplan"/>
+        <ext_arg_token id="158" token="um"/>
+        <ext_arg_token id="159" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="164" token="weil"/>
+        <int_arg_token id="165" token="ihre"/>
+        <int_arg_token id="166" token="Kinder"/>
+        <int_arg_token id="168" token="zu"/>
+        <int_arg_token id="169" token="lange"/>
+        <int_arg_token id="170" token="vor"/>
+        <int_arg_token id="171" token="Schulbeginn"/>
+        <int_arg_token id="172" token="warten"/>
+        <int_arg_token id="173" token="müssen"/>
+        <int_arg_token id="174" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="16" pdtb3_sense="Expansion.Substitution.Arg2-as-subst" type="implicit">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="4" token="Wer"/>
+        <ext_arg_token id="5" token="es"/>
+        <ext_arg_token id="6" token="allen"/>
+        <ext_arg_token id="7" token="Recht"/>
+        <ext_arg_token id="8" token="machen"/>
+        <ext_arg_token id="9" token="möchte"/>
+        <ext_arg_token id="10" token=","/>
+        <ext_arg_token id="11" token="hat"/>
+        <ext_arg_token id="12" token="es"/>
+        <ext_arg_token id="13" token="schwer"/>
+        <ext_arg_token id="14" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="15" token="Wer"/>
+        <int_arg_token id="16" token="es"/>
+        <int_arg_token id="17" token="allen"/>
+        <int_arg_token id="18" token="Recht"/>
+        <int_arg_token id="19" token="machen"/>
+        <int_arg_token id="20" token="muss"/>
+        <int_arg_token id="21" token="noch"/>
+        <int_arg_token id="22" token="mehr"/>
+        <int_arg_token id="23" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="17" pdtb3_sense="Expansion.Level-of-detail.Arg2-as-detail" type="implicit">
+      <connective_tokens>
+        <implicit_connective>genauer gesagt</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="15" token="Wer"/>
+        <ext_arg_token id="16" token="es"/>
+        <ext_arg_token id="17" token="allen"/>
+        <ext_arg_token id="18" token="Recht"/>
+        <ext_arg_token id="19" token="machen"/>
+        <ext_arg_token id="20" token="muss"/>
+        <ext_arg_token id="21" token="noch"/>
+        <ext_arg_token id="22" token="mehr"/>
+        <ext_arg_token id="23" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="24" token="Die"/>
+        <int_arg_token id="25" token="Regionale"/>
+        <int_arg_token id="26" token="Verkehrsgesellschaft"/>
+        <int_arg_token id="27" token="Dahme-Spreewald"/>
+        <int_arg_token id="28" token="("/>
+        <int_arg_token id="29" token="RVS"/>
+        <int_arg_token id="30" token=")"/>
+        <int_arg_token id="31" token="befördert"/>
+        <int_arg_token id="32" token="täglich"/>
+        <int_arg_token id="33" token="Menschen"/>
+        <int_arg_token id="34" token="mit"/>
+        <int_arg_token id="35" token="unterschiedlichen"/>
+        <int_arg_token id="36" token="Bedürfnissen"/>
+        <int_arg_token id="37" token=":"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="18" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective>zum Beispiel</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="24" token="Die"/>
+        <ext_arg_token id="25" token="Regionale"/>
+        <ext_arg_token id="26" token="Verkehrsgesellschaft"/>
+        <ext_arg_token id="27" token="Dahme-Spreewald"/>
+        <ext_arg_token id="28" token="("/>
+        <ext_arg_token id="29" token="RVS"/>
+        <ext_arg_token id="30" token=")"/>
+        <ext_arg_token id="31" token="befördert"/>
+        <ext_arg_token id="32" token="täglich"/>
+        <ext_arg_token id="33" token="Menschen"/>
+        <ext_arg_token id="34" token="mit"/>
+        <ext_arg_token id="35" token="unterschiedlichen"/>
+        <ext_arg_token id="36" token="Bedürfnissen"/>
+        <ext_arg_token id="37" token=":"/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="38" token="Da"/>
+        <int_arg_token id="39" token="sind"/>
+        <int_arg_token id="40" token="Berufstätige"/>
+        <int_arg_token id="41" token=","/>
+        <int_arg_token id="42" token="die"/>
+        <int_arg_token id="43" token="pünktlich"/>
+        <int_arg_token id="44" token="zur"/>
+        <int_arg_token id="45" token="Arbeit"/>
+        <int_arg_token id="46" token="erscheinen"/>
+        <int_arg_token id="47" token="müssen"/>
+        <int_arg_token id="48" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="19" pdtb3_sense="Expansion.Conjunction" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="58" token="Dann"/>
+        <ext_arg_token id="59" token="wären"/>
+        <ext_arg_token id="60" token="da"/>
+        <ext_arg_token id="61" token="noch"/>
+        <ext_arg_token id="62" token="die"/>
+        <ext_arg_token id="63" token="Schüler"/>
+        <ext_arg_token id="64" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="65" token="Sie"/>
+        <int_arg_token id="66" token="brauchen"/>
+        <int_arg_token id="67" token="die"/>
+        <int_arg_token id="68" token="RVS"/>
+        <int_arg_token id="69" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="20" pdtb3_sense="Expansion.Conjunction" type="AltLex">
+      <connective_tokens>
+	<connective_token id="80" token="Den"/>
+	<connective_token id="81" token="dritten"/>
+	<connective_token id="82" token="Schwerpunkt"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="70" token="Denn"/>
+        <ext_arg_token id="71" token="Minderjährige"/>
+        <ext_arg_token id="72" token="haben"/>
+        <ext_arg_token id="73" token="keine"/>
+        <ext_arg_token id="74" token="Wahl"/>
+        <ext_arg_token id="75" token="zwischen"/>
+        <ext_arg_token id="76" token="Pkw"/>
+        <ext_arg_token id="77" token="und"/>
+        <ext_arg_token id="78" token="Bus"/>
+        <ext_arg_token id="79" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="80" token="Den"/>
+        <int_arg_token id="81" token="dritten"/>
+        <int_arg_token id="82" token="Schwerpunkt"/>
+        <int_arg_token id="83" token="bilden"/>
+        <int_arg_token id="84" token="Rentner"/>
+        <int_arg_token id="85" token=","/>
+        <int_arg_token id="86" token="die"/>
+        <int_arg_token id="87" token="häufig"/>
+        <int_arg_token id="88" token="ihre"/>
+        <int_arg_token id="89" token="Einkäufe"/>
+        <int_arg_token id="90" token="oder"/>
+        <int_arg_token id="91" token="Arztbesuche"/>
+        <int_arg_token id="92" token="per"/>
+        <int_arg_token id="93" token="Bus"/>
+        <int_arg_token id="94" token="erledigen"/>
+        <int_arg_token id="95" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="21" pdtb3_sense="Expansion.Instantiation.Arg2-as-instance" type="implicit">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="108" token="Denn"/>
+        <ext_arg_token id="109" token="die"/>
+        <ext_arg_token id="110" token="RVS"/>
+        <ext_arg_token id="111" token="muss"/>
+        <ext_arg_token id="112" token="wirtschaftlich"/>
+        <ext_arg_token id="113" token="arbeiten"/>
+        <ext_arg_token id="114" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="115" token="Busse"/>
+        <int_arg_token id="116" token="können"/>
+        <int_arg_token id="117" token="nur"/>
+        <int_arg_token id="118" token="eingesetzt"/>
+        <int_arg_token id="119" token="werden"/>
+        <int_arg_token id="120" token=","/>
+        <int_arg_token id="121" token="wenn"/>
+        <int_arg_token id="122" token="sie"/>
+        <int_arg_token id="123" token="ausgelastet"/>
+        <int_arg_token id="124" token="sind"/>
+        <int_arg_token id="125" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="22" type="EntRel">
+      <connective_tokens>
+        <implicit_connective/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="126" token="Deshalb"/>
+        <ext_arg_token id="127" token="ist"/>
+        <ext_arg_token id="128" token="es"/>
+        <ext_arg_token id="129" token="lobenswert"/>
+        <ext_arg_token id="130" token=","/>
+        <ext_arg_token id="131" token="dass"/>
+        <ext_arg_token id="132" token="die"/>
+        <ext_arg_token id="133" token="RVS"/>
+        <ext_arg_token id="134" token="sich"/>
+        <ext_arg_token id="135" token="bemüht"/>
+        <ext_arg_token id="136" token=","/>
+        <ext_arg_token id="137" token="so"/>
+        <ext_arg_token id="138" token="schnell"/>
+        <ext_arg_token id="139" token="wie"/>
+        <ext_arg_token id="140" token="möglich"/>
+        <ext_arg_token id="141" token="auf"/>
+        <ext_arg_token id="142" token="Kundenbeschwerden"/>
+        <ext_arg_token id="143" token="zu"/>
+        <ext_arg_token id="144" token="reagieren"/>
+        <ext_arg_token id="145" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="146" token="Die"/>
+        <int_arg_token id="147" token="Berufstätigen"/>
+        <int_arg_token id="148" token="forderten"/>
+        <int_arg_token id="149" token="bessere"/>
+        <int_arg_token id="150" token="Bahnanschlüsse"/>
+        <int_arg_token id="151" token=":"/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="23" pdtb3_sense="Temporal.Asynchronous.Precedence" type="AltLex">
+      <connective_tokens>
+	<connective_token id="175" token="Nun"/>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="160" token="Daraufhin"/>
+        <ext_arg_token id="161" token="schimpften"/>
+        <ext_arg_token id="162" token="Eltern"/>
+        <ext_arg_token id="163" token=","/>
+        <ext_arg_token id="164" token="weil"/>
+        <ext_arg_token id="165" token="ihre"/>
+        <ext_arg_token id="166" token="Kinder"/>
+        <ext_arg_token id="167" token="dadurch"/>
+        <ext_arg_token id="168" token="zu"/>
+        <ext_arg_token id="169" token="lange"/>
+        <ext_arg_token id="170" token="vor"/>
+        <ext_arg_token id="171" token="Schulbeginn"/>
+        <ext_arg_token id="172" token="warten"/>
+        <ext_arg_token id="173" token="müssen"/>
+        <ext_arg_token id="174" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="175" token="Nun"/>
+        <int_arg_token id="176" token="wird"/>
+        <int_arg_token id="177" token="ab"/>
+        <int_arg_token id="178" token="Montag"/>
+        <int_arg_token id="179" token="ein"/>
+        <int_arg_token id="180" token="Sonderbus"/>
+        <int_arg_token id="181" token="die"/>
+        <int_arg_token id="182" token="Schüler"/>
+        <int_arg_token id="183" token="befördern"/>
+        <int_arg_token id="184" token="."/>
+      </int_arg_tokens>
+    </relation>
+    <relation relation_id="24" pdtb3_sense="Temporal.Asynchronous.Precedence" type="implicit">
+      <connective_tokens>
+        <implicit_connective>und</implicit_connective>
+      </connective_tokens>
+      <ext_arg_tokens>
+        <ext_arg_token id="175" token="Nun"/>
+        <ext_arg_token id="176" token="wird"/>
+        <ext_arg_token id="177" token="ab"/>
+        <ext_arg_token id="178" token="Montag"/>
+        <ext_arg_token id="179" token="ein"/>
+        <ext_arg_token id="180" token="Sonderbus"/>
+        <ext_arg_token id="181" token="die"/>
+        <ext_arg_token id="182" token="Schüler"/>
+        <ext_arg_token id="183" token="befördern"/>
+        <ext_arg_token id="184" token="."/>
+      </ext_arg_tokens>
+      <int_arg_tokens>
+        <int_arg_token id="185" token="Mal"/>
+        <int_arg_token id="186" token="sehen"/>
+        <int_arg_token id="187" token=","/>
+        <int_arg_token id="188" token="wer"/>
+        <int_arg_token id="189" token="sich"/>
+        <int_arg_token id="190" token="am"/>
+        <int_arg_token id="191" token="Dienstag"/>
+        <int_arg_token id="192" token="beschwert"/>
+        <int_arg_token id="193" token="."/>
+      </int_arg_tokens>
+    </relation>
+  </relations>
+</discourse>
