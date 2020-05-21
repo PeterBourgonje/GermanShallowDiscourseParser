@@ -317,6 +317,4 @@ if __name__ == '__main__':
     # then done! (back to writing)
 
     
-    #TODO: NOTE (IN DOCS) THAT BERT-CLIENT NEEDS TENSORFLOW==1.10
     #TODO: look into prod mode for flask (https://stackoverflow.com/questions/51025893/flask-at-first-run-do-not-use-the-development-server-in-a-production-environmen)
-    #TODO: check if tensorflow requirement (in req.txt) can be taken out.
