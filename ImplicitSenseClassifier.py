@@ -116,6 +116,8 @@ class ImplicitSenseClassifier():
             else:
                 i_tokens = [x.token for x in sents[i]]
                 j_tokens = [x.token for x in sents[i+1]]
+                i_tokens = utils.bertclient_safe(i_tokens)
+                j_tokens = utils.bertclient_safe(j_tokens)
                 enc = self.bertclient.encode([i_tokens, j_tokens], is_tokenized=True)
                 bertfeats = numpy.concatenate(enc)
                 pred = self.mlp.predict(bertfeats.reshape(1, -1))

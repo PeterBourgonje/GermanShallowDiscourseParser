@@ -3,6 +3,12 @@ import re
 import sys
 from nltk.tree import ParentedTree
 
+def bertclient_safe(tokens):
+    if not tokens:
+        tokens = ['_']
+    tokens = [re.sub('\s+', '_', x) for x in tokens]
+    return tokens
+    
 def listfolder(folder):
     return [os.path.abspath(os.path.join(folder, f)) for f in os.listdir(folder)]
 
@@ -133,7 +139,14 @@ def get_parent_phrase(tree, pos, labels, ct):
             labelnode = climb_tree(tree, nodePosition, labels)
             predictedIntArgTokens = labelnode.leaves()
             return predictedIntArgTokens
-            
+
+def bracketreplace(l):
+    for i, j in enumerate(l):
+        if re.match('\[', j):
+            l[i] = '('
+        elif re.match('\]', j):
+            l[i] = ')'
+    return l
 
 def matchPlainTokensWithIds(plain_tokens, id2Token):
 

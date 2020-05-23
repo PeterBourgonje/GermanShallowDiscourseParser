@@ -134,7 +134,7 @@ class ConnectiveClassifier():
         if tuple(tuple([' '.join(prevsent), sentence, dc])) in self.bertmap:
             bertrep = self.bertmap[tuple(tuple([' '.join(prevsent), sentence, dc]))]
         else:
-            bertrep = self.bertclient.encode([prevsent, tokens, list(dc)], is_tokenized=True)
+            bertrep = self.bertclient.encode([utils.bertclient_safe(prevsent), utils.bertclient_safe(tokens), utils.bertclient_safe(list(dc))], is_tokenized=True)
             self.bertmap[tuple(tuple([' '.join(prevsent), sentence, dc]))] = bertrep
         bertrep = numpy.concatenate(bertrep)
 
@@ -258,9 +258,10 @@ class ConnectiveClassifier():
                         if not utils.iscontinuous(match_positions):
                             for submatch in match_positions:
                                 bertfeats, synfeats = self.getFeatures(sents, sid, dc)
-                                candidates.append(tuple([sents[sid][submatch]]))
-                                X_test_syn.append(synfeats)
-                                X_test_bert.append(bertfeats)
+                                if len(synfeats) and len(bertfeats):
+                                    candidates.append(tuple([sents[sid][submatch]]))
+                                    X_test_syn.append(synfeats)
+                                    X_test_bert.append(bertfeats)
 
                         else:
                             bertfeats, synfeats = self.getFeatures(sents, sid, dc)
@@ -271,9 +272,11 @@ class ConnectiveClassifier():
                                     match_positions.append(match_positions[0]+r)
                             for mp in match_positions:
                                 lc.append(sents[sid][mp])
-                            candidates.append(tuple(lc))
-                            X_test_syn.append(synfeats)
-                            X_test_bert.append(bertfeats)
+                            if len(synfeats) and len(bertfeats):
+                                candidates.append(tuple(lc))
+                                X_test_syn.append(synfeats)
+                                X_test_bert.append(bertfeats)
+
                 elif self.dimlextuples[dc]['type'] == 'discont': # discontinuous connectives
                     if utils.contains_discont_sublist(sentlist, list(dc)):
                         match_positions = utils.get_discont_match_positions(sentlist, list(dc))
@@ -285,9 +288,10 @@ class ConnectiveClassifier():
                         lc = []
                         for mp in match_positions:
                             lc.append(sents[sid][mp])
-                        candidates.append(tuple(lc))
-                        X_test_syn.append(synfeats)
-                        X_test_bert.append(bertfeats)
+                        if len(synfeats) and len(bertfeats):
+                            candidates.append(tuple(lc))
+                            X_test_syn.append(synfeats)
+                            X_test_bert.append(bertfeats)
                         
         
         if candidates: # do not predict if input didn't contain a candidate

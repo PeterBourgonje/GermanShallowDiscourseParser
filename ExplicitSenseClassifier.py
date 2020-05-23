@@ -222,8 +222,7 @@ class ExplicitSenseClassifier():
                     rightarg = extarg
             except IndexError:
                 pass # one of the two (or both) not found/empty
-                
-            enc = self.bertclient.encode([leftarg.split(), rightarg.split(), conn.split()], is_tokenized=True)
+            enc = self.bertclient.encode([utils.bertclient_safe(leftarg.split()), utils.bertclient_safe(rightarg.split()), utils.bertclient_safe(conn.split())], is_tokenized=True)
             bertfeats = numpy.concatenate(enc)
 
             X_test_syn.append(synfeats)

@@ -68,15 +68,18 @@ class ExplicitArgumentExtractor:
         
         # because arg finding uses NLTK tree and positions may be off due to brackets etc., getting back on track with actual Tokens here:
         id2token = {}
+        intargtokens = []
         for i3, j3 in enumerate(refcon.fullSentence.split()):
             diff = refcon.sentenceTokenId - i3
             tokenId = refcon.tokenId - diff
             id2token[tokenId] = j3
         intargtokens = utils.matchPlainTokensWithIds(plain_tokens, id2token)
+        if not intargtokens: # stupid bracket replacing in nltk...
+            replain_tokens = utils.bracketreplace(plain_tokens)
+            intargtokens = utils.matchPlainTokensWithIds(replain_tokens, id2token)
         
         # excluding the connective token(s) from intarg:
         intargtokens = [x for x in intargtokens if not x in [y.tokenId for y in rel.connective]]
-        
         # in PCC, intarg is what comes after second item for discont conns. Guess this is a relatively arbitrary decision.
         if not utils.iscontinuous([x.tokenId for x in rel.connective]):
             intargtokens = [x for x in intargtokens if x > rel.connective[-1].tokenId]

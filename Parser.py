@@ -151,6 +151,66 @@ def relations2json(inp, relations):
     return json.dumps(jso, ensure_ascii=False)
     
 
+def test():
+
+    start = time.time()
+    cc.train()
+    eae.train()
+    esc.train()
+    isc.train()
+
+    testfolder = '/share/pcc2.2/tokenized/'
+    for testfile in os.listdir(testfolder):
+        atf = os.pat h.join(testfolder, testfile)
+        sys.stderr.write('INFO: Processing file: %s\n' % atf)
+        inp = codecs.open(atf).read()
+
+        sents, tokens = custom_tokenize(inp)
+        cc.predict(sents)
+
+        # populating list of relations, starting point are explicits/connectives
+        relations = []
+        _id = 1
+        already_processed = [] # for phrasal connectives...
+        for sid in sents:
+            for i, token in enumerate(sents[sid]):
+                if hasattr(token, 'isConnective') and not token.tokenId in already_processed:
+                    rel = Relation(_id, 'Explicit', testfile)
+                    rel.addConnectiveToken(token)
+                    if hasattr(token, 'multiTokenIds'):
+                        for ot in token.multiTokenIds:
+                            rel.addConnectiveToken(tokens[ot])
+                            already_processed.append(ot)
+                    relations.append(rel)
+                    _id += 1
+
+        eae.predict(relations, sents, tokens)
+        esc.predict(relations)
+
+        newrels = isc.predict(relations, sents)
+        maxrelid = max([x.relationId for x in relations]) if relations else 0
+        for nr in newrels:
+            r = Relation(maxrelid+1, 'Implicit', testfile)
+            maxrelid += 1
+            for t in nr[0]:
+                r.addExtArgToken(t)
+            for t in nr[1]:
+                r.addIntArgToken(t)
+            r.addSense(nr[2])
+            relations.append(r)
+
+        # to json output here
+        jsonstr = relations2json(inp, relations)
+        #print('relations:', jsonstr)
+        assert json.loads(jsonstr)
+
+    end = time.time()
+    hours, rem = divmod(end-start, 3600)
+    minutes, seconds = divmod(rem, 60)
+    
+    sys.stderr.write('INFO: Successfully parsed all files in test folder. Time taken: {:0>2}:{:0>2}:{:0>2}\n.'.format(int(hours), int(minutes), int(seconds)))
+
+
 def main():
     
     inp = 'Wie schwierig es ist, in dieser Region einen Ausbildungsplatz zu finden, haben wir an dieser und anderer Stelle oft und ausführlich bewertet. Trotzdem bemühen sich Unternehmen sowie die Industrie- und Handelskammer Potsdam den Schulabgängern Wege in die Ausbildung aufzuzeigen. Und Beispielsweise gibt es ein mit entweder dies oder das, und dazu gibt es noch anstatt dass aapjes. Entweder bezahlen für die Schülung, oder später im Arsch gehen. Und das ist ein guter erster Schritt. Das weiß jedes Kind, aber nicht jeder hält sich daran. Das Schlimmste aber ist, dass noch heute versucht wird, zu mauscheln. Hier gibt es ein Satz. Hier gibt es noch ein Satz.' 
@@ -304,6 +364,8 @@ def parse():
 if __name__ == '__main__':
 
     #main() # for running without flask
+    #test()
+    
     
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--port", help="port number to start flask app on", default=5000, type=int)
