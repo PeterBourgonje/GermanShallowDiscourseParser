@@ -25,6 +25,16 @@ class DiscourseToken:
     def setSentencePosition(self, val):
         self.sentencePosition = val
 
+    def setPredictedConnective(self, val):
+        self.predictedConnective = val
+
+    def setMultiToken(self, y): # this is only used for evaluation purposes
+        if not hasattr(self, 'multiTokenIds'):
+            self.multiTokenIds = []
+        self.multiTokenIds.append(y)
+    def setDocId(self, y): # user for evaluation purposes only
+        self.docId = y
+
 class DiscourseRelation:
 
     def __init__(self, relationId):

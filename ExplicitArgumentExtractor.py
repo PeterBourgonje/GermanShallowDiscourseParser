@@ -143,9 +143,10 @@ class ExplicitArgumentExtractor:
                                 temparg.append(refcon.tokenId - (ind-i5))
 
             # adding final punctuation here if it's not part of arg (but the only trailing char in the sentence) (Mind indentation level here: only do this for same sentence cases)
+            #assert refcon.fullSentence == ' '.join([x.token for x in sents[refcon.sentenceId]])
             if sents[refcon.sentenceId][-1].token in string.punctuation:
                 temparg.append(sents[refcon.sentenceId][-1].tokenId)
-
+                
 
         # in PCC, extarg is what comes before second item for discont conns. Guess this is a relatively arbitrary decision. Hardcoding a fix here:
         if not utils.iscontinuous([x.tokenId for x in rel.connective]):
@@ -159,7 +160,7 @@ class ExplicitArgumentExtractor:
             
 
     
-    def train(self):
+    def train(self, trainfiles=[]): # second arg is to use only train filtes in cross-evaluation setup (empty by default)
 
         start = time.time()
         sys.stderr.write('INFO: Starting training of explicit argument extractor...\n') # actually, the only thing being trained is/are the position classifiers, since the rest is rule-based
@@ -175,6 +176,10 @@ class ExplicitArgumentExtractor:
         y_train_pos = []
         X_train_samesent = []
         y_train_samesent = []
+
+        # filtering out test files if a list of train fileids is specified
+        if trainfiles:
+            fd = {f:fd[f] for f in fd if f in trainfiles}
 
         for f in fd:
             pccTokens, relations = PCCParser.parseConnectorFile(fd[f]['connectives'])
@@ -235,6 +240,26 @@ class ExplicitArgumentExtractor:
         sys.stderr.write('INFO: Done training explicit argument extractor...({:0>2}:{:0>2}:{:0>2})\n'.format(int(hours), int(minutes), int(seconds)))
 
 
+    def getGoldArgs(self, testfiles):
+
+        connectivefiles = [x for x  in utils.listfolder(os.path.join(self.config['PCC']['pccdir'], 'connectives')) if re.search('/maz-\d+.xml', x)] # filtering out temp/hidden files that may be there
+        syntaxfiles = [x for x  in utils.listfolder(os.path.join(self.config['PCC']['pccdir'], 'syntax')) if re.search('/maz-\d+.xml', x)]
+
+        fd = defaultdict(lambda : defaultdict(str))
+        fd = utils.addAnnotationLayerToDict(connectivefiles, fd, 'connectives')
+        fd = utils.addAnnotationLayerToDict(syntaxfiles, fd, 'syntax')
+
+        # taking test files only
+        fd = {f:fd[f] for f in fd if f in testfiles}
+        goldrels = []
+        for f in fd:
+            pccTokens, relations = PCCParser.parseConnectorFile(fd[f]['connectives'])
+            pccTokens = PCCParser.parseSyntaxFile(fd[f]['syntax'], pccTokens)
+            for rel in relations:
+                if rel.relationType == 'explicit':
+                    goldrels.append(rel)
+        return goldrels
+        
         
     def predict(self, relations, sents, tokens):
 

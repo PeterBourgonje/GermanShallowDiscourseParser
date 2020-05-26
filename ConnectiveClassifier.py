@@ -140,8 +140,119 @@ class ConnectiveClassifier():
 
         return bertrep, synfeats
 
+
+    def evaluate(self, testfiles):
+
+        connectivefiles = [x for x  in utils.listfolder(os.path.join(self.config['PCC']['pccdir'], 'connectives')) if re.search('/maz-\d+.xml', x)] # filtering out temp/hidden files that may be there
+        syntaxfiles = [x for x  in utils.listfolder(os.path.join(self.config['PCC']['pccdir'], 'syntax')) if re.search('/maz-\d+.xml', x)]
+
+        fd = defaultdict(lambda : defaultdict(str))
+        fd = utils.addAnnotationLayerToDict(connectivefiles, fd, 'connectives')
+        fd = utils.addAnnotationLayerToDict(syntaxfiles, fd, 'syntax')
+
+        self.getDimlexCandidates()
+
+        X_test_bert = []
+        X_test_syn = []
+        y_test = []
+        candidates = []
+        predictionTokenIds = []
+
+        # taking test files only
+        fd = {f:fd[f] for f in fd if f in testfiles}
+
+        f2tokens = {}
+        for f in fd:
+            pccTokens, relations = PCCParser.parseConnectorFile(fd[f]['connectives'])
+            pccTokens = PCCParser.parseSyntaxFile(fd[f]['syntax'], pccTokens)
+            sents = PCCParser.wrapTokensInSentences(pccTokens)
+            f2tokens[f] = pccTokens
+            for sid in sents:
+                sentlist = [t.token for t in sents[sid]]
+                sentence = ' '.join(sentlist)
+                for dc in sorted(self.dimlextuples):
+                    isConnective = False
+                    if self.dimlextuples[dc]['type'] == 'cont': # continuous connectives
+                        if utils.contains_sublist(sentlist, list(dc)):
+                            match_positions = utils.get_match_positions(sentlist, list(dc))
+                            if len(dc) > 1: # establishing link between phrasal connectives (continuous)
+                                for mp in match_positions:
+                                    for k in range(mp+1, mp+len(dc)):
+                                        sents[sid][mp].setMultiToken(sents[sid][k].tokenId)
+                                        sents[sid][k].setMultiToken(sents[sid][mp].tokenId)
+                            if not utils.iscontinuous(match_positions):
+                                for submatch in match_positions:
+                                    if sents[sid][submatch].isConnective:
+                                        isConnective = True
+                                    bertfeats, synfeats = self.getFeatures(sents, sid, dc)
+                                    if len(synfeats) and len(bertfeats):
+                                        candidates.append(tuple([sents[sid][submatch]]))
+                                        X_test_syn.append(synfeats)
+                                        X_test_bert.append(bertfeats)
+                                        y_test.append(isConnective)
+                                        predictionTokenIds.append([(f, [sents[sid][submatch].tokenId][0])])
+
+                            else:
+                                if all([sents[sid][x].isConnective for x in match_positions]):
+                                    isConnective = True
+                                bertfeats, synfeats = self.getFeatures(sents, sid, dc)
+                                lc = []
+                                # seems like match_positions returns single position for phrasal continuous matches, so:
+                                if len(dc) > 1:
+                                    for r in range(1, len(dc)):
+                                        match_positions.append(match_positions[0]+r)
+                                for mp in match_positions:
+                                    lc.append(sents[sid][mp])
+                                if len(synfeats) and len(bertfeats):
+                                    candidates.append(tuple(lc))
+                                    X_test_syn.append(synfeats)
+                                    X_test_bert.append(bertfeats)
+                                    y_test.append(isConnective)
+                                    predictionTokenIds.append([(f, sents[sid][mp].tokenId) for mp in match_positions])
+
+                    elif self.dimlextuples[dc]['type'] == 'discont': # discontinuous connectives
+                        if utils.contains_discont_sublist(sentlist, list(dc)):
+                            match_positions = utils.get_discont_match_positions(sentlist, list(dc))
+                            for k in range(len(match_positions)-1): # establishing link between phrasal connectives (discontinuous)
+                                sents[sid][match_positions[k]].setMultiToken(sents[sid][match_positions[k+1]].tokenId)
+                                sents[sid][match_positions[k+1]].setMultiToken(sents[sid][match_positions[k]].tokenId)
+                                # due to known bug in utils.get_discont_match_positions, only one discont conn per sent is detected. Should this behaviour in get_discont_match_positions change, this needs changing too.
+                            if all([sents[sid][x].isConnective for x in match_positions]):
+                                isConnective = True
+                            bertfeats, synfeats = self.getFeatures(sents, sid, dc)
+                            lc = []
+                            for mp in match_positions:
+                                lc.append(sents[sid][mp])
+                            if len(synfeats) and len(bertfeats):
+                                candidates.append(tuple(lc))
+                                X_test_syn.append(synfeats)
+                                X_test_bert.append(bertfeats)
+                                y_test.append(isConnective)
+                                predictionTokenIds.append([(f, sents[sid][mp].tokenId) for mp in match_positions])
+
+        X_test = [X_test_syn, X_test_bert]
+        pred1 = numpy.asarray([clf.predict_proba(X) for clf, X in zip(self.clfs, X_test)])
+        pred2 = numpy.average(pred1, axis=0)
+        pred = numpy.argmax(pred2, axis=1)
+        
+        assert len(pred) == len(candidates)
+        
+        # overriding predictions with dimlex surefires:
+        # one way to speed this up would be to do surefire connectives first, so that they don't even have to be considered during prediction
+        for index, item in enumerate(zip(pred, candidates)):
+            if self.dimlextuples[tuple(x.token for x in item[1])]['surefire']:
+                pred[index] = 1
+
+        for index, p in enumerate(pred):
+            if p:
+                for tupl in predictionTokenIds[index]:
+                    f2tokens[tupl[0]][int(tupl[1])].setPredictedConnective(index)
+
+        return pred, y_test, f2tokens
+
+        
        
-    def train(self):
+    def train(self, trainfiles=[]): # second arg is to use only train filtes in cross-evaluation setup (empty by default)
 
         start = time.time()
         sys.stderr.write('INFO: Starting training of connective classifier...\n')
@@ -174,6 +285,10 @@ class ConnectiveClassifier():
         X_train_bert = []
         X_train_syn = []
         y_train = []
+
+        # filtering out test files if a list of train fileids is specified
+        if trainfiles:
+            fd = {f:fd[f] for f in fd if f in trainfiles}
         
         #for f in tqdm(fd):
         for f in fd:

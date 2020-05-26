@@ -18,6 +18,12 @@ def addAnnotationLayerToDict(flist, fdict, annname):
         fdict[basename][annname] = f
     return fdict
 
+def getDataSplits(numIterations, dataSize):
+    p = int(dataSize / 10)
+    pl = [int(x) for x in range(0, dataSize, p)]
+    pl.append(int(dataSize))    
+    return pl
+
 def contains_sublist(lst, sublst): 
     n = len(sublst)
     return any((sublst == lst[i:i+n]) for i in range(len(lst)-n+1))

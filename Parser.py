@@ -4,11 +4,14 @@ import os
 import sys
 import time
 import json
+import numpy
 import codecs
 import argparse
 import dill as pickle
 from spacy.lang.de import German
+from collections import defaultdict
 from bert_serving.client import BertClient
+from sklearn.metrics import f1_score, precision_score, recall_score
 
 from flask import Flask
 from flask import request
@@ -20,6 +23,7 @@ import ConnectiveClassifier
 import ExplicitArgumentExtractor
 import ExplicitSenseClassifier
 import ImplicitSenseClassifier
+import PCCParser
 
 nlp = German()
 sentencizer = nlp.create_pipe("sentencizer")
@@ -52,6 +56,7 @@ class Token:
         self.multiTokenIds.append(y)
     def setFullSentence(self, val):
         self.fullSentence = val
+
 
 class Relation:
 
@@ -151,6 +156,97 @@ def relations2json(inp, relations):
     return json.dumps(jso, ensure_ascii=False)
     
 
+def evaluate():
+
+    pcc_folder = '/share/pcc2.2/'
+    files = os.listdir(os.path.join(pcc_folder, 'connectives'))
+    numIterations = 10
+    splits = utils.getDataSplits(numIterations, len(files))
+
+    connective_pscores = []
+    connective_rscores = []
+    connective_fscores = []
+    for i in range(numIterations):
+        testfiles = []
+        trainfiles = []
+        for index, _file in enumerate(files):
+            if index >= splits[i] and index <= splits[i+1]:
+                testfiles.append(_file)
+            else:
+                trainfiles.append(_file)
+        cc.train(trainfiles)
+        eae.train(trainfiles)
+        pred, gold, f2tokens = cc.evaluate(testfiles)
+        _cmf = f1_score(gold, pred, average='weighted')
+        _cmp = precision_score(gold, pred, average='weighted')
+        _cmr = recall_score(gold, pred, average='weighted')
+        connective_fscores.append(_cmf)
+        connective_pscores.append(_cmp)
+        connective_rscores.append(_cmr)
+
+        for f in f2tokens:
+            gold_connective_relations = []
+            pred_connective_relations = []
+            already_processed_gold = []
+            already_processed_pred = []
+            _gid = 1
+            _pid = 1
+            ftokens = f2tokens[f]
+            tokens = {}
+            for _id in ftokens:
+                t = ftokens[_id]
+                t.tokenId = int(t.tokenId)
+                t.setDocId(f)
+                t.sentenceTokenId = t.sentencePosition
+                tokens[t.tokenId] = t
+                if t.isConnective and not (f, t.tokenId) in already_processed_gold:
+                    goldrel = Relation(_gid, 'Explicit', f)
+                    goldrel.addConnectiveToken(t)
+                    if hasattr(t, 'multiTokenIds'):
+                        for ot in t.multiTokenIds:
+                            ott = ftokens[int(ot)]
+                            ott.tokenId = int(ott.tokenId)
+                            t.sentenceTokenId = t.sentencePosition
+                            goldrel.addConnectiveToken(ott)
+                            already_processed_gold.append((f, ott.tokenId))
+                    gold_connective_relations.append(goldrel)
+                    _gid += 1
+                if hasattr(t, 'predictedConnective') and not (f, t.tokenId) in already_processed_pred:
+                    predrel = Relation(_pid, 'Explicit', f)
+                    predrel.addConnectiveToken(t)
+                    if hasattr(t, 'multiTokenIds'):
+                        for ot in t.multiTokenIds:
+                            ott = ftokens[int(ot)]
+                            ott.tokenId = int(ott.tokenId)
+                            t.sentenceTokenId = t.sentencePosition
+                            predrel.addConnectiveToken(ott)
+                            already_processed_pred.append((f, ott.tokenId))
+                    pred_connective_relations.append(predrel)
+                    _pid += 1
+
+            sents = PCCParser.wrapTokensInSentences(tokens)
+            eae.predict(gold_connective_relations, sents, tokens)
+            gold_arg_rels = eae.getGoldArgs(testfiles)
+            sys.exit()
+            # continue here! Should have args for gold conn-based prediction (inside gold_connective_relations) and actual args, easy to compare. Next step; comparing actual args to pred conn-based arg tokens...
+            
+            #pred_conn_args = eae.predict(pred_connective_relations, sents, tokens)
+
+            
+        
+
+
+
+                    
+        sys.exit()
+
+    print('Classification report (10-fold cv):')
+    print('\tConnective classification (weighted) average precision-score :', numpy.mean(connective_pscores))
+    print('\tConnective classification (weighted) average recall-score    :', numpy.mean(connective_rscores))
+    print('\tConnective classification (weighted) average f1-score        :', numpy.mean(connective_fscores))
+
+    
+
 def test():
 
     start = time.time()
@@ -161,7 +257,7 @@ def test():
 
     testfolder = '/share/pcc2.2/tokenized/'
     for testfile in os.listdir(testfolder):
-        atf = os.pat h.join(testfolder, testfile)
+        atf = os.path.join(testfolder, testfile)
         sys.stderr.write('INFO: Processing file: %s\n' % atf)
         inp = codecs.open(atf).read()
 
@@ -365,7 +461,8 @@ if __name__ == '__main__':
 
     #main() # for running without flask
     #test()
-    
+    evaluate()
+    sys.exit()
     
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--port", help="port number to start flask app on", default=5000, type=int)
