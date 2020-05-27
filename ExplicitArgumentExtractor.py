@@ -259,8 +259,48 @@ class ExplicitArgumentExtractor:
                 if rel.relationType == 'explicit':
                     goldrels.append(rel)
         return goldrels
-        
-        
+
+    def evaluate(self, pred_relations, gold_relations):
+
+        intarg_tp = 0
+        intarg_fp = 0
+        intarg_fn = 0
+        extarg_tp = 0
+        extarg_fp = 0
+        extarg_fn = 0
+        for grel in gold_relations:
+            grel_conn = sorted([int(x.tokenId) for x in grel.connectiveTokens])
+            grel_intarg = [int(x.tokenId) for x in grel.intArgTokens]
+            grel_extarg = [int(x.tokenId) for x in grel.extArgTokens]
+            found = False
+            for prel in pred_relations:
+                prel_conn = sorted([x.tokenId for x in prel.connective])
+                prel_intarg = [x.tokenId for x in prel.arg2]
+                prel_extarg = [x.tokenId for x in prel.arg1]
+                if prel_conn == grel_conn:
+                    found = True
+                    for tid in set(grel_intarg + prel_intarg):
+                        if tid in grel_intarg and tid in prel_intarg:
+                            intarg_tp += 1
+                        elif tid in grel_intarg:
+                            intarg_fn += 1
+                        elif tid in prel_intarg:
+                            intarg_fp += 1
+                    for tid in set(grel_extarg + prel_extarg):
+                        if tid in grel_extarg and tid in prel_extarg:
+                            extarg_tp += 1
+                        elif tid in grel_extarg:
+                            extarg_fn += 1
+                        elif tid in prel_extarg:
+                            extarg_fp += 1
+            if not found: # count all tokens as false negatives
+                for tid in grel_intarg:
+                    intarg_fn += 1
+                for tid in grel_extarg:
+                    extarg_fn += 1
+
+        return intarg_tp, intarg_fp, intarg_fn, extarg_tp, extarg_fp, extarg_fn
+                    
     def predict(self, relations, sents, tokens):
 
         for rel in relations:

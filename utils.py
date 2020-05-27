@@ -18,6 +18,12 @@ def addAnnotationLayerToDict(flist, fdict, annname):
         fdict[basename][annname] = f
     return fdict
 
+def getPrecisionRecallF1(tp, fp, fn):
+    p = tp / float(tp + fp) if tp + fp > 0 else 0
+    r = tp / float(tp + fn) if tp + fn > 0 else 0
+    f = 2 * ((p * r) / (p + r)) if p + r > 0 else 0
+    return p, r, f
+
 def getDataSplits(numIterations, dataSize):
     p = int(dataSize / 10)
     pl = [int(x) for x in range(0, dataSize, p)]

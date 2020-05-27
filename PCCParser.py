@@ -1,4 +1,5 @@
 import re
+import os
 import sys
 import lxml.etree
 from collections import defaultdict
@@ -59,6 +60,9 @@ class DiscourseRelation:
     def filterIntArgForConnectiveTokens(self):
         self.intArgTokens = [x for x in self.intArgTokens if not x in self.connectiveTokens]
 
+    def setDocId(self, y): # user for evaluation purposes only
+        self.docId = y
+
 def parseConnectorFile(cxml):
 
     tree = lxml.etree.parse(cxml, parser=xmlp)
@@ -87,6 +91,7 @@ def parseConnectorFile(cxml):
             for eat in relation.findall('.//ext_arg_token'):
                 dr.addExtArgToken(tokens[int(eat.get('id'))])
             dr.filterIntArgForConnectiveTokens()
+            dr.setDocId(os.path.splitext(os.path.basename(cxml))[0])
             relations.append(dr)
          
         elif relation.get('type') == 'implicit':
@@ -97,6 +102,7 @@ def parseConnectorFile(cxml):
                 dr.addIntArgToken(tokens[int(iat.get('id'))])
             for eat in relation.findall('.//ext_arg_token'):
                 dr.addExtArgToken(tokens[int(eat.get('id'))])
+            dr.setDocId(os.path.splitext(os.path.basename(cxml))[0])
             relations.append(dr)
 
         # this is where this PCCParser should be continued if other relation types (AltLex, EntRel, NoRel) should also be included, i.e. elif relation.get('type') == 'AltLex':, etc.

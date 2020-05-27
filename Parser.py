@@ -166,7 +166,20 @@ def evaluate():
     connective_pscores = []
     connective_rscores = []
     connective_fscores = []
+    goldconnective_intarg_pscores = []
+    goldconnective_intarg_rscores = []
+    goldconnective_intarg_fscores = []
+    goldconnective_extarg_pscores = []
+    goldconnective_extarg_rscores = []
+    goldconnective_extarg_fscores = []
+    predconnective_intarg_pscores = []
+    predconnective_intarg_rscores = []
+    predconnective_intarg_fscores = []
+    predconnective_extarg_pscores = []
+    predconnective_extarg_rscores = []
+    predconnective_extarg_fscores = []
     for i in range(numIterations):
+        sys.stderr.write('INFO: Starting iteration: %s\n' % str(i+1))
         testfiles = []
         trainfiles = []
         for index, _file in enumerate(files):
@@ -176,6 +189,7 @@ def evaluate():
                 trainfiles.append(_file)
         cc.train(trainfiles)
         eae.train(trainfiles)
+        sys.stderr.write('INFO: Predicting connectives over test data (%s)...\n' % str(i+1))
         pred, gold, f2tokens = cc.evaluate(testfiles)
         _cmf = f1_score(gold, pred, average='weighted')
         _cmp = precision_score(gold, pred, average='weighted')
@@ -184,6 +198,10 @@ def evaluate():
         connective_pscores.append(_cmp)
         connective_rscores.append(_cmr)
 
+        gold_arg_rels = eae.getGoldArgs(testfiles)
+        i_goldconn_tp, i_goldconn_fp, i_goldconn_fn, e_goldconn_tp, e_goldconn_fp, e_goldconn_fn = 0, 0, 0, 0, 0, 0
+        i_predconn_tp, i_predconn_fp, i_predconn_fn, e_predconn_tp, e_predconn_fp, e_predconn_fn = 0, 0, 0, 0, 0, 0
+        sys.stderr.write('INFO: Extracting arguments over test data (%s)...\n' % str(i+1))
         for f in f2tokens:
             gold_connective_relations = []
             pred_connective_relations = []
@@ -226,25 +244,63 @@ def evaluate():
 
             sents = PCCParser.wrapTokensInSentences(tokens)
             eae.predict(gold_connective_relations, sents, tokens)
-            gold_arg_rels = eae.getGoldArgs(testfiles)
-            sys.exit()
-            # continue here! Should have args for gold conn-based prediction (inside gold_connective_relations) and actual args, easy to compare. Next step; comparing actual args to pred conn-based arg tokens...
-            
-            #pred_conn_args = eae.predict(pred_connective_relations, sents, tokens)
+            filegoldargs = [rel for rel in gold_arg_rels if rel.docId == os.path.splitext(f)[0]]
+            intarg_tp, intarg_fp, intarg_fn, extarg_tp, extarg_fp, extarg_fn = eae.evaluate(gold_connective_relations, filegoldargs)
+            i_goldconn_tp += intarg_tp
+            i_goldconn_fp += intarg_fp
+            i_goldconn_fn += intarg_fn
+            e_goldconn_tp += extarg_tp
+            e_goldconn_fp += extarg_fp
+            e_goldconn_fn += extarg_fn
+
+            # now using predicted connectives (instead of gold)
+            eae.predict(pred_connective_relations, sents, tokens)
+            intarg_tp, intarg_fp, intarg_fn, extarg_tp, extarg_fp, extarg_fn = eae.evaluate(pred_connective_relations, filegoldargs)
+            i_predconn_tp += intarg_tp
+            i_predconn_fp += intarg_fp
+            i_predconn_fn += intarg_fn
+            e_predconn_tp += extarg_tp
+            e_predconn_fp += extarg_fp
+            e_predconn_fn += extarg_fn
+
 
             
+        i_goldconn_precision, i_goldconn_recall, i_goldconn_f1 = utils.getPrecisionRecallF1(i_goldconn_tp, i_goldconn_fp, i_goldconn_fn)
+        e_goldconn_precision, e_goldconn_recall, e_goldconn_f1 = utils.getPrecisionRecallF1(e_goldconn_tp, e_goldconn_fp, e_goldconn_fn)
+        goldconnective_intarg_pscores.append(i_goldconn_precision)
+        goldconnective_intarg_rscores.append(i_goldconn_recall)
+        goldconnective_intarg_fscores.append(i_goldconn_f1)
+        goldconnective_extarg_pscores.append(e_goldconn_precision)
+        goldconnective_extarg_rscores.append(e_goldconn_recall)
+        goldconnective_extarg_fscores.append(e_goldconn_f1)
+
+        i_predconn_precision, i_predconn_recall, i_predconn_f1 = utils.getPrecisionRecallF1(i_predconn_tp, i_predconn_fp, i_predconn_fn)
+        e_predconn_precision, e_predconn_recall, e_predconn_f1 = utils.getPrecisionRecallF1(e_predconn_tp, e_predconn_fp, e_predconn_fn)
+        print('deb i pred f:', i_predconn_f1)
+        print('deb e pred f:', e_predconn_f1)
+        predconnective_intarg_pscores.append(i_predconn_precision)
+        predconnective_intarg_rscores.append(i_predconn_recall)
+        predconnective_intarg_fscores.append(i_predconn_f1)
+        predconnective_extarg_pscores.append(e_predconn_precision)
+        predconnective_extarg_rscores.append(e_predconn_recall)
+        predconnective_extarg_fscores.append(e_predconn_f1)
+
         
-
-
-
                     
         sys.exit()
 
+    # TODO: dump this classification report to file as well
     print('Classification report (10-fold cv):')
-    print('\tConnective classification (weighted) average precision-score :', numpy.mean(connective_pscores))
-    print('\tConnective classification (weighted) average recall-score    :', numpy.mean(connective_rscores))
-    print('\tConnective classification (weighted) average f1-score        :', numpy.mean(connective_fscores))
-
+    print('\tConnective classification (weighted) average precision :', numpy.mean(connective_pscores))
+    print('\tConnective classification (weighted) average recall    :', numpy.mean(connective_rscores))
+    print('\tConnective classification (weighted) average f1        :', numpy.mean(connective_fscores))
+    print('\n')
+    print('\tExplicit argument extraction using gold connectives, intarg precision :', numpy.mean(goldconnective_intarg_pscores))
+    print('\tExplicit argument extraction using gold connectives, intarg recall    :', numpy.mean(goldconnective_intarg_rscores))
+    print('\tExplicit argument extraction using gold connectives, intarg f1        :', numpy.mean(goldconnective_intarg_fscores))
+    print('\tExplicit argument extraction using gold connectives, extarg precision :', numpy.mean(goldconnective_extarg_pscores))
+    print('\tExplicit argument extraction using gold connectives, extarg recall    :', numpy.mean(goldconnective_extarg_rscores))
+    print('\tExplicit argument extraction using gold connectives, extarg f1        :', numpy.mean(goldconnective_extarg_fscores))
     
 
 def test():
