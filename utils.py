@@ -137,7 +137,8 @@ def get_right_sibling(tree, pos, ct):
                 parent = pt[nodepos[:-1]].parent()
                 right_sibling = parent.right_sibling()
                 leaves = parent.leaves()
-                leaves = leaves + right_sibling.leaves()
+                if right_sibling:
+                    leaves = leaves + right_sibling.leaves()
                 connindex = leaves.index(ct.token)
                 remainder = [xj for xi, xj in enumerate(leaves) if xi >= connindex]
                 return remainder

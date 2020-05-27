@@ -76,6 +76,24 @@ class Relation:
         self.arg1.append(token)
     def addSense(self, sense):
         self.sense = sense
+
+def convert_reltypes(pcc_relations):
+
+    parser_relations = []
+    for rel in pcc_relations:
+        nr = Relation(int(rel.relationId), rel.relationType, rel.docId)
+        for t in rel.connectiveTokens:
+            t.tokenId = int(t.tokenId)
+            nr.addConnectiveToken(t)
+        for t in rel.intArgTokens:
+            t.tokenId = int(t.tokenId)
+            nr.addIntArgToken(t)
+        for t in rel.extArgTokens:
+            t.tokenId = int(t.tokenId)
+            nr.addExtArgToken(t)
+        nr.addSense(rel.sense)
+        parser_relations.append(nr)
+    return parser_relations
         
 def custom_tokenize(inp):
 
@@ -158,6 +176,8 @@ def relations2json(inp, relations):
 
 def evaluate():
 
+    # this is implemented in a way that is not particularly efficient (all parsing and bert encoding is done for the entire PCC (iteratively over the test folds)). Since it is not meant to be done by the user, not a problem though.
+
     pcc_folder = '/share/pcc2.2/'
     files = os.listdir(os.path.join(pcc_folder, 'connectives'))
     numIterations = 10
@@ -178,6 +198,11 @@ def evaluate():
     predconnective_extarg_pscores = []
     predconnective_extarg_rscores = []
     predconnective_extarg_fscores = []
+    gold_arg_sense_total = 0
+    gold_arg_sense_correct = 0
+    pred_arg_sense_total = 0
+    pred_arg_sense_correct = 0
+    
     for i in range(numIterations):
         sys.stderr.write('INFO: Starting iteration: %s\n' % str(i+1))
         testfiles = []
@@ -189,7 +214,7 @@ def evaluate():
                 trainfiles.append(_file)
         cc.train(trainfiles)
         eae.train(trainfiles)
-        sys.stderr.write('INFO: Predicting connectives over test data (%s)...\n' % str(i+1))
+        esc.train(trainfiles)
         pred, gold, f2tokens = cc.evaluate(testfiles)
         _cmf = f1_score(gold, pred, average='weighted')
         _cmp = precision_score(gold, pred, average='weighted')
@@ -199,9 +224,9 @@ def evaluate():
         connective_rscores.append(_cmr)
 
         gold_arg_rels = eae.getGoldArgs(testfiles)
+        gold_sense_rels = esc.getGoldSenses(testfiles)
         i_goldconn_tp, i_goldconn_fp, i_goldconn_fn, e_goldconn_tp, e_goldconn_fp, e_goldconn_fn = 0, 0, 0, 0, 0, 0
         i_predconn_tp, i_predconn_fp, i_predconn_fn, e_predconn_tp, e_predconn_fp, e_predconn_fn = 0, 0, 0, 0, 0, 0
-        sys.stderr.write('INFO: Extracting arguments over test data (%s)...\n' % str(i+1))
         for f in f2tokens:
             gold_connective_relations = []
             pred_connective_relations = []
@@ -263,7 +288,22 @@ def evaluate():
             e_predconn_fp += extarg_fp
             e_predconn_fn += extarg_fn
 
+            # senses with gold conns+args
+            # first convert PCCParser DiscourseRelation to Parser Relation
+            filegoldargs = convert_reltypes(filegoldargs)
+            esc.predict(filegoldargs)
+            filegoldsenses = [rel for rel in gold_sense_rels if rel.docId == os.path.splitext(f)[0]]
+            gastotal, gascorrect = esc.evaluate(filegoldargs, filegoldsenses)
+            gold_arg_sense_total += gastotal
+            gold_arg_sense_correct += gascorrect
+            
+            # predicted conns+args
+            esc.predict(pred_connective_relations) # by this time also includes predicted args
+            pastotal, pascorrect = esc.evaluate(pred_connective_relations, filegoldsenses)
+            pred_arg_sense_total += pastotal
+            pred_arg_sense_correct += pascorrect
 
+            #sys.exit()
             
         i_goldconn_precision, i_goldconn_recall, i_goldconn_f1 = utils.getPrecisionRecallF1(i_goldconn_tp, i_goldconn_fp, i_goldconn_fn)
         e_goldconn_precision, e_goldconn_recall, e_goldconn_f1 = utils.getPrecisionRecallF1(e_goldconn_tp, e_goldconn_fp, e_goldconn_fn)
@@ -276,8 +316,6 @@ def evaluate():
 
         i_predconn_precision, i_predconn_recall, i_predconn_f1 = utils.getPrecisionRecallF1(i_predconn_tp, i_predconn_fp, i_predconn_fn)
         e_predconn_precision, e_predconn_recall, e_predconn_f1 = utils.getPrecisionRecallF1(e_predconn_tp, e_predconn_fp, e_predconn_fn)
-        print('deb i pred f:', i_predconn_f1)
-        print('deb e pred f:', e_predconn_f1)
         predconnective_intarg_pscores.append(i_predconn_precision)
         predconnective_intarg_rscores.append(i_predconn_recall)
         predconnective_intarg_fscores.append(i_predconn_f1)
@@ -285,9 +323,7 @@ def evaluate():
         predconnective_extarg_rscores.append(e_predconn_recall)
         predconnective_extarg_fscores.append(e_predconn_f1)
 
-        
-                    
-        sys.exit()
+
 
     # TODO: dump this classification report to file as well
     print('Classification report (10-fold cv):')
@@ -301,6 +337,10 @@ def evaluate():
     print('\tExplicit argument extraction using gold connectives, extarg precision :', numpy.mean(goldconnective_extarg_pscores))
     print('\tExplicit argument extraction using gold connectives, extarg recall    :', numpy.mean(goldconnective_extarg_rscores))
     print('\tExplicit argument extraction using gold connectives, extarg f1        :', numpy.mean(goldconnective_extarg_fscores))
+    print('\n')
+    print('\tExplicit sense classification using gold conns+arguments (accuracy) :', float(gold_arg_sense_correct) / gold_arg_sense_total)
+    print('\tExplicit sense classification using pred conns+arguments (accuracy) :', float(pred_arg_sense_correct) / pred_arg_sense_total)
+    
     
 
 def test():

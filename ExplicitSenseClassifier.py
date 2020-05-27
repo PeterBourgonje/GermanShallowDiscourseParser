@@ -113,7 +113,7 @@ class ExplicitSenseClassifier():
         return synfeats, numpy.concatenate(enc)
 
         
-    def train(self):
+    def train(self, trainfiles=[]): # second arg is to use only train filtes in cross-evaluation setup (empty by default)
 
         start = time.time()
         sys.stderr.write('INFO: Starting training of explicit sense classifier...\n')
@@ -136,6 +136,10 @@ class ExplicitSenseClassifier():
         X_train_bert = []
         X_train_syn = []
         y_train = []
+
+        # filtering out test files if a list of train fileids is specified
+        if trainfiles:
+            fd = {f:fd[f] for f in fd if f in trainfiles}
 
         for f in fd:
             pccTokens, relations = PCCParser.parseConnectorFile(fd[f]['connectives'])
@@ -177,7 +181,44 @@ class ExplicitSenseClassifier():
         minutes, seconds = divmod(rem, 60)
         sys.stderr.write('INFO: Done training explicit sense classifier...({:0>2}:{:0>2}:{:0>2})\n'.format(int(hours), int(minutes), int(seconds)))
 
+    def getGoldSenses(self, testfiles):
 
+        connectivefiles = [x for x  in utils.listfolder(os.path.join(self.config['PCC']['pccdir'], 'connectives')) if re.search('/maz-\d+.xml', x)] # filtering out temp/hidden files that may be there
+        syntaxfiles = [x for x  in utils.listfolder(os.path.join(self.config['PCC']['pccdir'], 'syntax')) if re.search('/maz-\d+.xml', x)]
+
+        fd = defaultdict(lambda : defaultdict(str))
+        fd = utils.addAnnotationLayerToDict(connectivefiles, fd, 'connectives')
+        fd = utils.addAnnotationLayerToDict(syntaxfiles, fd, 'syntax')
+
+        # taking test files only
+        fd = {f:fd[f] for f in fd if f in testfiles}
+        goldsenses = []
+        for f in fd:
+            pccTokens, relations = PCCParser.parseConnectorFile(fd[f]['connectives'])
+            pccTokens = PCCParser.parseSyntaxFile(fd[f]['syntax'], pccTokens)
+            for rel in relations:
+                if rel.relationType == 'explicit':
+                    goldsenses.append(rel)
+        return goldsenses
+
+
+    def evaluate(self, pred_relations, gold_relations):
+
+        total = len(gold_relations)
+        correct = 0
+        for grel in gold_relations:
+            grel_conn = sorted([int(x.tokenId) for x in grel.connectiveTokens])
+            found = False
+            for prel in pred_relations:
+                prel_conn = sorted([x.tokenId for x in prel.connective])
+                if prel_conn == grel_conn:
+                    found = True
+                    if grel.sense == prel.sense:
+                        correct += 1
+
+        return total, correct
+
+    
     def predict(self, relations):
 
         X_test_syn = []
