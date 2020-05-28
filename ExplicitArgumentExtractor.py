@@ -51,7 +51,8 @@ class ExplicitArgumentExtractor:
         
     def getIntArg(self, tree, rel, tokens):
 
-        refcon = rel.connective[0]
+        #refcon = rel.connective[0]
+        refcon = rel.connective[-1]
         leavenr = utils.getLeaveNr(refcon, tree)
         
         refconpos = tree.leaf_treeposition(leavenr)
@@ -261,7 +262,58 @@ class ExplicitArgumentExtractor:
                     goldrels.append(rel)
         return goldrels
 
-    def evaluate(self, pred_relations, gold_relations):
+    def evaluate_gold(self, testfiles, f2gold):
+
+        intarg_tp, intarg_fp, intarg_fn, extarg_tp, extarg_fp, extarg_fn = 0,0,0,0,0,0
+        for f in f2gold:
+            if f in testfiles:
+                relations, sents, tokens = f2gold[f]
+                for rel in relations:
+                    if rel.relationType == 'explicit':
+                        connective = ' '.join([x.token for x in rel.connective])
+                        refcon = rel.connective[0]
+                        sentence = refcon.fullSentence
+                        ptree = None
+                        if sentence in self.parsermap:
+                            ptree = self.parsermap[sentence]
+                        else:
+                            tree = self.lexparser.parse(re.sub('\)', ']', re.sub('\(', '[', sentence)).split())
+                            ptreeiter = ParentedTree.convert(tree)
+                            for t in ptreeiter:
+                                ptree = t
+                                self.parsermap[sentence] = ptree
+                                break # always taking the first, assuming that this is the best scoring tree.
+
+                        tempextarg = self.getExtArg(ptree, rel, tokens, sents)
+                        tempintarg = self.getIntArg(ptree, rel, tokens)
+                        # since generally, intarg tokens are easier to predict than extarg tokens, filtering out any intarg tokens that may be in the extarg list
+                        pred_intarg = tempintarg
+                        pred_extarg = [x for x in tempextarg if not x in tempintarg]
+
+                        gold_intarg = rel.arg2
+                        gold_extarg = rel.arg1
+                        # get tp fp fn here
+                        gold_intarg = [x.tokenId for x in gold_intarg]
+                        gold_extarg = [x.tokenId for x in gold_extarg]
+                        for tid in set(gold_intarg + pred_intarg):
+                            if tid in gold_intarg and tid in pred_intarg:
+                                intarg_tp += 1
+                            elif tid in gold_intarg:
+                                intarg_fn += 1
+                            elif tid in pred_intarg:
+                                intarg_fp += 1
+                        for tid in set(gold_extarg + pred_extarg):
+                            if tid in gold_extarg and tid in pred_extarg:
+                                extarg_tp += 1
+                            elif tid in gold_extarg:
+                                extarg_fn += 1
+                            elif tid in pred_extarg:
+                                extarg_fp += 1
+
+        return intarg_tp, intarg_fp, intarg_fn, extarg_tp, extarg_fp, extarg_fn
+                        
+                    
+    def evaluate_pred(self, pred_relations, gold_relations):
 
         intarg_tp = 0
         intarg_fp = 0

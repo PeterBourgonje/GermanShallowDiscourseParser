@@ -8,6 +8,7 @@ import numpy
 import codecs
 import argparse
 import dill as pickle
+from tqdm import tqdm
 from spacy.lang.de import German
 from collections import defaultdict
 from bert_serving.client import BertClient
@@ -84,12 +85,15 @@ def convert_reltypes(pcc_relations):
         nr = Relation(int(rel.relationId), rel.relationType, rel.docId)
         for t in rel.connectiveTokens:
             t.tokenId = int(t.tokenId)
+            t.sentenceTokenId = t.sentencePosition
             nr.addConnectiveToken(t)
         for t in rel.intArgTokens:
             t.tokenId = int(t.tokenId)
+            t.sentenceTokenId = t.sentencePosition
             nr.addIntArgToken(t)
         for t in rel.extArgTokens:
             t.tokenId = int(t.tokenId)
+            t.sentenceTokenId = t.sentencePosition
             nr.addExtArgToken(t)
         nr.addSense(rel.sense)
         parser_relations.append(nr)
@@ -172,37 +176,119 @@ def relations2json(inp, relations):
         jso.append(js)
         
     return json.dumps(jso, ensure_ascii=False)
+
+"""
+def gold_eval(pcc_folder, files, numIterations, splits):
+
+    connectivefiles = [x for x  in utils.listfolder(os.path.join(pcc_folder, 'connectives'))]
+    syntaxfiles = [x for x  in utils.listfolder(os.path.join(pcc_folder, 'syntax'))]
+
+    fd = defaultdict(lambda : defaultdict(str))
+    fd = utils.addAnnotationLayerToDict(connectivefiles, fd, 'connectives')
+    fd = utils.addAnnotationLayerToDict(syntaxfiles, fd, 'syntax')
     
+    f2gold = {}
+    for f in fd:
+        pccTokens, relations = PCCParser.parseConnectorFile(fd[f]['connectives'])
+        pccTokens = PCCParser.parseSyntaxFile(fd[f]['syntax'], pccTokens)
+        sents = PCCParser.wrapTokensInSentences(pccTokens)
+        relations = convert_reltypes(relations)
+        f2gold[f] = (relations, sents, pccTokens)
+
+    intarg_tp, intarg_fp, intarg_fn, extarg_tp, extarg_fp, extarg_fn = 0,0,0,0,0,0
+    explicit_senses_detailed = []
+    explicit_senses_second_level = []
+    explicit_senses_first_level = []
+    implicit_senses_detailed = []
+    implicit_senses_second_level = []
+    implicit_senses_first_level = []
+    for i in range(numIterations):
+        sys.stderr.write('INFO: Starting iteration %s...\n' % str(i+1))
+        testfiles = []
+        trainfiles = []
+        for index, _file in enumerate(files):
+            if index >= splits[i] and index <= splits[i+1]:
+                testfiles.append(_file)
+            else:
+                trainfiles.append(_file)
+        cc.train(trainfiles)
+        eae.train(trainfiles)
+        esc.train(trainfiles)
+        isc.train(trainfiles)
+
+        # connectives
+        pred, gold, f2tokens = cc.evaluate(testfiles)
+        _cmf = f1_score(gold, pred, average='weighted')
+        _cmp = precision_score(gold, pred, average='weighted')
+        _cmr = recall_score(gold, pred, average='weighted')
+        connective_fscores.append(_cmf)
+        connective_pscores.append(_cmp)
+        connective_rscores.append(_cmr)
+
+        # explicit args
+        i_tp, i_fp, i_fn, e_tp, e_fp, e_fn = eae.evaluate_gold(testfiles, f2gold)
+        intarg_tp += i_tp
+        intarg_fp += i_fp
+        intarg_fn += i_fn
+        extarg_tp += e_tp
+        extarg_fp += e_fp
+        extarg_fn += e_fn
+
+        # explicit senses
+        detailed_f1, second_level_f1, first_level_f1 = esc.evaluate_gold(testfiles, f2gold)
+        explicit_senses_detailed.append(detailed_f1)
+        explicit_senses_second_level.append(second_level_f1)
+        explicit_senses_first_level.append(first_level_f1)
+    
+        # implicit relations (senses)
+        detailed_f1, second_level_f1, first_level_f1 = isc.evaluate_gold(testfiles, f2gold)
+        implicit_senses_detailed.append(detailed_f1)
+        implicit_senses_second_level.append(second_level_f1)
+        implicit_senses_first_level.append(first_level_f1)
+    
+    print('connective precision:', numpy.mean(connective_pscores))
+    print('connective recall:', numpy.mean(connective_rscores))
+    print('connective f1:', numpy.mean(connective_fscores))
+    intarg_p, intarg_r, intarg_f = utils.getPrecisionRecallF1(intarg_tp, intarg_fp, intarg_fn)
+    extarg_p, extarg_r, extarg_f = utils.getPrecisionRecallF1(extarg_tp, extarg_fp, extarg_fn)
+    print('intargprf:', intarg_p, intarg_r, intarg_f)
+    print('extargprf:', extarg_p, extarg_r, extarg_f)
+
+    print('Explicit sense full detail:', numpy.mean(explicit_senses_detailed))
+    print('Explicit sense 2nd level:', numpy.mean(explicit_senses_second_level))
+    print('Explicit sense 1st level:', numpy.mean(explicit_senses_first_level))
+
+    print('Implicit sense full detail:', numpy.mean(implicit_senses_detailed))
+    print('Implicit sense 2nd level:', numpy.mean(implicit_senses_second_level))
+    print('Implicit sense 1st level:', numpy.mean(implicit_senses_first_level))
+"""
 
 def evaluate():
-
-    # this is implemented in a way that is not particularly efficient (all parsing and bert encoding is done for the entire PCC (iteratively over the test folds)). Since it is not meant to be done by the user, not a problem though.
 
     pcc_folder = '/share/pcc2.2/'
     files = os.listdir(os.path.join(pcc_folder, 'connectives'))
     numIterations = 10
     splits = utils.getDataSplits(numIterations, len(files))
 
+    #gold_eval(pcc_folder, files, numIterations, splits) # TODO: debug, numbers do not match with those in the papers/old code
+    pred_eval(files, numIterations, splits)
+
+    
+def pred_eval(files, numIterations, splits):
+
+    connective_fscores = []
     connective_pscores = []
     connective_rscores = []
-    connective_fscores = []
-    goldconnective_intarg_pscores = []
-    goldconnective_intarg_rscores = []
-    goldconnective_intarg_fscores = []
-    goldconnective_extarg_pscores = []
-    goldconnective_extarg_rscores = []
-    goldconnective_extarg_fscores = []
-    predconnective_intarg_pscores = []
-    predconnective_intarg_rscores = []
-    predconnective_intarg_fscores = []
-    predconnective_extarg_pscores = []
-    predconnective_extarg_rscores = []
-    predconnective_extarg_fscores = []
-    gold_arg_sense_total = 0
-    gold_arg_sense_correct = 0
-    pred_arg_sense_total = 0
-    pred_arg_sense_correct = 0
-    
+    i_tp, i_fp, i_fn, e_tp, e_fp, e_fn = 0, 0, 0, 0, 0, 0
+    explicit_senses_total = 0
+    explicit_senses_detailed_correct = 0
+    explicit_senses_second_level_correct = 0
+    explicit_senses_first_level_correct = 0
+    implicit_senses_total = 0
+    implicit_senses_detailed_correct = 0
+    implicit_senses_second_level_correct = 0
+    implicit_senses_first_level_correct = 0
+
     for i in range(numIterations):
         sys.stderr.write('INFO: Starting iteration: %s\n' % str(i+1))
         testfiles = []
@@ -215,6 +301,8 @@ def evaluate():
         cc.train(trainfiles)
         eae.train(trainfiles)
         esc.train(trainfiles)
+        isc.train(trainfiles)
+
         pred, gold, f2tokens = cc.evaluate(testfiles)
         _cmf = f1_score(gold, pred, average='weighted')
         _cmp = precision_score(gold, pred, average='weighted')
@@ -225,15 +313,11 @@ def evaluate():
 
         gold_arg_rels = eae.getGoldArgs(testfiles)
         gold_sense_rels = esc.getGoldSenses(testfiles)
-        i_goldconn_tp, i_goldconn_fp, i_goldconn_fn, e_goldconn_tp, e_goldconn_fp, e_goldconn_fn = 0, 0, 0, 0, 0, 0
-        i_predconn_tp, i_predconn_fp, i_predconn_fn, e_predconn_tp, e_predconn_fp, e_predconn_fn = 0, 0, 0, 0, 0, 0
-        for f in f2tokens:
-            gold_connective_relations = []
-            pred_connective_relations = []
-            already_processed_gold = []
-            already_processed_pred = []
-            _gid = 1
-            _pid = 1
+        gold_implicits = isc.getGoldImplicits(testfiles)
+        for f in tqdm(f2tokens):
+            relations = []
+            already_processed = []
+            _rid = 1
             ftokens = f2tokens[f]
             tokens = {}
             for _id in ftokens:
@@ -242,104 +326,71 @@ def evaluate():
                 t.setDocId(f)
                 t.sentenceTokenId = t.sentencePosition
                 tokens[t.tokenId] = t
-                if t.isConnective and not (f, t.tokenId) in already_processed_gold:
-                    goldrel = Relation(_gid, 'Explicit', f)
-                    goldrel.addConnectiveToken(t)
+                if hasattr(t, 'predictedConnective') and not (f, t.tokenId) in already_processed:
+                    rel = Relation(_rid, 'Explicit', f)
+                    rel.addConnectiveToken(t)
                     if hasattr(t, 'multiTokenIds'):
                         for ot in t.multiTokenIds:
                             ott = ftokens[int(ot)]
                             ott.tokenId = int(ott.tokenId)
                             t.sentenceTokenId = t.sentencePosition
-                            goldrel.addConnectiveToken(ott)
-                            already_processed_gold.append((f, ott.tokenId))
-                    gold_connective_relations.append(goldrel)
-                    _gid += 1
-                if hasattr(t, 'predictedConnective') and not (f, t.tokenId) in already_processed_pred:
-                    predrel = Relation(_pid, 'Explicit', f)
-                    predrel.addConnectiveToken(t)
-                    if hasattr(t, 'multiTokenIds'):
-                        for ot in t.multiTokenIds:
-                            ott = ftokens[int(ot)]
-                            ott.tokenId = int(ott.tokenId)
-                            t.sentenceTokenId = t.sentencePosition
-                            predrel.addConnectiveToken(ott)
-                            already_processed_pred.append((f, ott.tokenId))
-                    pred_connective_relations.append(predrel)
-                    _pid += 1
+                            rel.addConnectiveToken(ott)
+                            already_processed.append((f, ott.tokenId))
+                    relations.append(rel)
+                    _rid += 1
 
             sents = PCCParser.wrapTokensInSentences(tokens)
-            eae.predict(gold_connective_relations, sents, tokens)
             filegoldargs = [rel for rel in gold_arg_rels if rel.docId == os.path.splitext(f)[0]]
-            intarg_tp, intarg_fp, intarg_fn, extarg_tp, extarg_fp, extarg_fn = eae.evaluate(gold_connective_relations, filegoldargs)
-            i_goldconn_tp += intarg_tp
-            i_goldconn_fp += intarg_fp
-            i_goldconn_fn += intarg_fn
-            e_goldconn_tp += extarg_tp
-            e_goldconn_fp += extarg_fp
-            e_goldconn_fn += extarg_fn
-
-            # now using predicted connectives (instead of gold)
-            eae.predict(pred_connective_relations, sents, tokens)
-            intarg_tp, intarg_fp, intarg_fn, extarg_tp, extarg_fp, extarg_fn = eae.evaluate(pred_connective_relations, filegoldargs)
-            i_predconn_tp += intarg_tp
-            i_predconn_fp += intarg_fp
-            i_predconn_fn += intarg_fn
-            e_predconn_tp += extarg_tp
-            e_predconn_fp += extarg_fp
-            e_predconn_fn += extarg_fn
-
-            # senses with gold conns+args
-            # first convert PCCParser DiscourseRelation to Parser Relation
-            filegoldargs = convert_reltypes(filegoldargs)
-            esc.predict(filegoldargs)
+            eae.predict(relations, sents, tokens) # by this time relations include connectives
+            intarg_tp, intarg_fp, intarg_fn, extarg_tp, extarg_fp, extarg_fn = eae.evaluate_pred(relations, filegoldargs)
+            i_tp += intarg_tp
+            i_fp += intarg_fp
+            i_fn += intarg_fn
+            e_tp += extarg_tp
+            e_fp += extarg_fp
+            e_fn += extarg_fn
             filegoldsenses = [rel for rel in gold_sense_rels if rel.docId == os.path.splitext(f)[0]]
-            gastotal, gascorrect = esc.evaluate(filegoldargs, filegoldsenses)
-            gold_arg_sense_total += gastotal
-            gold_arg_sense_correct += gascorrect
-            
-            # predicted conns+args
-            esc.predict(pred_connective_relations) # by this time also includes predicted args
-            pastotal, pascorrect = esc.evaluate(pred_connective_relations, filegoldsenses)
-            pred_arg_sense_total += pastotal
-            pred_arg_sense_correct += pascorrect
+            esc.predict(relations) # by this time relations also include args
+            tot, dcor, scor, fcor = esc.evaluate_pred(relations, filegoldsenses)
+            explicit_senses_total += tot
+            explicit_senses_detailed_correct += dcor
+            explicit_senses_second_level_correct += scor
+            explicit_senses_first_level_correct += fcor
+            filegoldimplicits = [rel for rel in gold_implicits if rel.docId == os.path.splitext(f)[0]]
+            isc.predict(relations, sents)
+            itot, idcor, iscor, ifcor = isc.evaluate_pred(relations, filegoldimplicits)
+            implicit_senses_total += tot
+            implicit_senses_detailed_correct += dcor
+            implicit_senses_second_level_correct += scor
+            implicit_senses_first_level_correct += fcor            
 
-            #sys.exit()
-            
-        i_goldconn_precision, i_goldconn_recall, i_goldconn_f1 = utils.getPrecisionRecallF1(i_goldconn_tp, i_goldconn_fp, i_goldconn_fn)
-        e_goldconn_precision, e_goldconn_recall, e_goldconn_f1 = utils.getPrecisionRecallF1(e_goldconn_tp, e_goldconn_fp, e_goldconn_fn)
-        goldconnective_intarg_pscores.append(i_goldconn_precision)
-        goldconnective_intarg_rscores.append(i_goldconn_recall)
-        goldconnective_intarg_fscores.append(i_goldconn_f1)
-        goldconnective_extarg_pscores.append(e_goldconn_precision)
-        goldconnective_extarg_rscores.append(e_goldconn_recall)
-        goldconnective_extarg_fscores.append(e_goldconn_f1)
-
-        i_predconn_precision, i_predconn_recall, i_predconn_f1 = utils.getPrecisionRecallF1(i_predconn_tp, i_predconn_fp, i_predconn_fn)
-        e_predconn_precision, e_predconn_recall, e_predconn_f1 = utils.getPrecisionRecallF1(e_predconn_tp, e_predconn_fp, e_predconn_fn)
-        predconnective_intarg_pscores.append(i_predconn_precision)
-        predconnective_intarg_rscores.append(i_predconn_recall)
-        predconnective_intarg_fscores.append(i_predconn_f1)
-        predconnective_extarg_pscores.append(e_predconn_precision)
-        predconnective_extarg_rscores.append(e_predconn_recall)
-        predconnective_extarg_fscores.append(e_predconn_f1)
-
-
-
-    # TODO: dump this classification report to file as well
-    print('Classification report (10-fold cv):')
-    print('\tConnective classification (weighted) average precision :', numpy.mean(connective_pscores))
-    print('\tConnective classification (weighted) average recall    :', numpy.mean(connective_rscores))
-    print('\tConnective classification (weighted) average f1        :', numpy.mean(connective_fscores))
-    print('\n')
-    print('\tExplicit argument extraction using gold connectives, intarg precision :', numpy.mean(goldconnective_intarg_pscores))
-    print('\tExplicit argument extraction using gold connectives, intarg recall    :', numpy.mean(goldconnective_intarg_rscores))
-    print('\tExplicit argument extraction using gold connectives, intarg f1        :', numpy.mean(goldconnective_intarg_fscores))
-    print('\tExplicit argument extraction using gold connectives, extarg precision :', numpy.mean(goldconnective_extarg_pscores))
-    print('\tExplicit argument extraction using gold connectives, extarg recall    :', numpy.mean(goldconnective_extarg_rscores))
-    print('\tExplicit argument extraction using gold connectives, extarg f1        :', numpy.mean(goldconnective_extarg_fscores))
-    print('\n')
-    print('\tExplicit sense classification using gold conns+arguments (accuracy) :', float(gold_arg_sense_correct) / gold_arg_sense_total)
-    print('\tExplicit sense classification using pred conns+arguments (accuracy) :', float(pred_arg_sense_correct) / pred_arg_sense_total)
+    print('Pipeline results')
+    print('=====================================')
+    print('\tConnectives')
+    print('\tprecision : %f' % numpy.mean(connective_pscores))
+    print('\trecall    : %f' % numpy.mean(connective_rscores))
+    print('\tf1        : %f' % numpy.mean(connective_fscores))
+    print()
+    intarg_p, intarg_r, intarg_f = utils.getPrecisionRecallF1(i_tp, i_fp, i_fn)
+    extarg_p, extarg_r, extarg_f = utils.getPrecisionRecallF1(e_tp, e_fp, e_fn)
+    print('=====================================')
+    print('\tArguments')
+    print('\tprecision : %f' % intarg_p)
+    print('\trecall    : %f' % intarg_r)
+    print('\tf1        : %f' % intarg_f)
+    print()
+    print('=====================================')
+    print('\tExplicit senses')
+    print('\taccuracy third level  : %s' % str(float(explicit_senses_detailed_correct) / explicit_senses_total))
+    print('\taccuracy second level : %s' % str(float(explicit_senses_second_level_correct) / explicit_senses_total))
+    print('\taccuracy third level  : %s' % str(float(explicit_senses_first_level_correct) / explicit_senses_total))
+    print()
+    print('=====================================')
+    print('\tImplicit senses')
+    print('\taccuracy third level  : %s' % str(float(implicit_senses_detailed_correct) / implicit_senses_total))
+    print('\taccuracy second level : %s' % str(float(implicit_senses_second_level_correct) / implicit_senses_total))
+    print('\taccuracy third level  : %s' % str(float(implicit_senses_first_level_correct) / implicit_senses_total))
+    print()
     
     
 
@@ -556,9 +607,8 @@ def parse():
 if __name__ == '__main__':
 
     #main() # for running without flask
-    #test()
-    evaluate()
-    sys.exit()
+    test()
+    #evaluate()
     
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--port", help="port number to start flask app on", default=5000, type=int)
@@ -572,4 +622,3 @@ if __name__ == '__main__':
     # then done! (back to writing)
 
     
-    #TODO: look into prod mode for flask (https://stackoverflow.com/questions/51025893/flask-at-first-run-do-not-use-the-development-server-in-a-production-environmen)
