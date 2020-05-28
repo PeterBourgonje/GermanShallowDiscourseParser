@@ -177,7 +177,7 @@ def relations2json(inp, relations):
         
     return json.dumps(jso, ensure_ascii=False)
 
-"""
+#"""
 def gold_eval(pcc_folder, files, numIterations, splits):
 
     connectivefiles = [x for x  in utils.listfolder(os.path.join(pcc_folder, 'connectives'))]
@@ -211,11 +211,11 @@ def gold_eval(pcc_folder, files, numIterations, splits):
                 testfiles.append(_file)
             else:
                 trainfiles.append(_file)
-        cc.train(trainfiles)
-        eae.train(trainfiles)
+        ###cc.train(trainfiles)
+        ###eae.train(trainfiles)
         esc.train(trainfiles)
-        isc.train(trainfiles)
-
+        ###isc.train(trainfiles)
+        """
         # connectives
         pred, gold, f2tokens = cc.evaluate(testfiles)
         _cmf = f1_score(gold, pred, average='weighted')
@@ -224,7 +224,8 @@ def gold_eval(pcc_folder, files, numIterations, splits):
         connective_fscores.append(_cmf)
         connective_pscores.append(_cmp)
         connective_rscores.append(_cmr)
-
+        """
+        """
         # explicit args
         i_tp, i_fp, i_fn, e_tp, e_fp, e_fn = eae.evaluate_gold(testfiles, f2gold)
         intarg_tp += i_tp
@@ -233,35 +234,42 @@ def gold_eval(pcc_folder, files, numIterations, splits):
         extarg_tp += e_tp
         extarg_fp += e_fp
         extarg_fn += e_fn
-
+        intarg_p, intarg_r, intarg_f = utils.getPrecisionRecallF1(intarg_tp, intarg_fp, intarg_fn)
+        extarg_p, extarg_r, extarg_f = utils.getPrecisionRecallF1(extarg_tp, extarg_fp, extarg_fn)
+        print('interm int f:', intarg_f)
+        print('interm ext f:', extarg_f)
+        """
+        #"""
         # explicit senses
+        #TODO: continue here, debugging why the score deviates from coling20_code semantic version
         detailed_f1, second_level_f1, first_level_f1 = esc.evaluate_gold(testfiles, f2gold)
         explicit_senses_detailed.append(detailed_f1)
         explicit_senses_second_level.append(second_level_f1)
         explicit_senses_first_level.append(first_level_f1)
-    
+        #"""
+        """
         # implicit relations (senses)
         detailed_f1, second_level_f1, first_level_f1 = isc.evaluate_gold(testfiles, f2gold)
         implicit_senses_detailed.append(detailed_f1)
         implicit_senses_second_level.append(second_level_f1)
         implicit_senses_first_level.append(first_level_f1)
-    
-    print('connective precision:', numpy.mean(connective_pscores))
-    print('connective recall:', numpy.mean(connective_rscores))
-    print('connective f1:', numpy.mean(connective_fscores))
+        """
+    #print('connective precision:', numpy.mean(connective_pscores))
+    #print('connective recall:', numpy.mean(connective_rscores))
+    #print('connective f1:', numpy.mean(connective_fscores))
     intarg_p, intarg_r, intarg_f = utils.getPrecisionRecallF1(intarg_tp, intarg_fp, intarg_fn)
     extarg_p, extarg_r, extarg_f = utils.getPrecisionRecallF1(extarg_tp, extarg_fp, extarg_fn)
     print('intargprf:', intarg_p, intarg_r, intarg_f)
     print('extargprf:', extarg_p, extarg_r, extarg_f)
 
-    print('Explicit sense full detail:', numpy.mean(explicit_senses_detailed))
-    print('Explicit sense 2nd level:', numpy.mean(explicit_senses_second_level))
-    print('Explicit sense 1st level:', numpy.mean(explicit_senses_first_level))
+    #print('Explicit sense full detail:', numpy.mean(explicit_senses_detailed))
+    #print('Explicit sense 2nd level:', numpy.mean(explicit_senses_second_level))
+    #print('Explicit sense 1st level:', numpy.mean(explicit_senses_first_level))
 
-    print('Implicit sense full detail:', numpy.mean(implicit_senses_detailed))
-    print('Implicit sense 2nd level:', numpy.mean(implicit_senses_second_level))
-    print('Implicit sense 1st level:', numpy.mean(implicit_senses_first_level))
-"""
+    #print('Implicit sense full detail:', numpy.mean(implicit_senses_detailed))
+    #print('Implicit sense 2nd level:', numpy.mean(implicit_senses_second_level))
+    #print('Implicit sense 1st level:', numpy.mean(implicit_senses_first_level))
+#"""
 
 def evaluate():
 
@@ -270,8 +278,9 @@ def evaluate():
     numIterations = 10
     splits = utils.getDataSplits(numIterations, len(files))
 
-    #gold_eval(pcc_folder, files, numIterations, splits) # TODO: debug, numbers do not match with those in the papers/old code
-    pred_eval(files, numIterations, splits)
+    gold_eval(pcc_folder, files, numIterations, splits) # TODO: debug, numbers do not match with those in the papers/old code
+    sys.exit()
+    #pred_eval(files, numIterations, splits)
 
     
 def pred_eval(files, numIterations, splits):
@@ -607,8 +616,8 @@ def parse():
 if __name__ == '__main__':
 
     #main() # for running without flask
-    test()
-    #evaluate()
+    #test()
+    evaluate()
     
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--port", help="port number to start flask app on", default=5000, type=int)

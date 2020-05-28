@@ -51,8 +51,7 @@ class ExplicitArgumentExtractor:
         
     def getIntArg(self, tree, rel, tokens):
 
-        #refcon = rel.connective[0]
-        refcon = rel.connective[-1]
+        refcon = rel.connective[0]
         leavenr = utils.getLeaveNr(refcon, tree)
         
         refconpos = tree.leaf_treeposition(leavenr)
@@ -85,6 +84,12 @@ class ExplicitArgumentExtractor:
         # in PCC, intarg is what comes after second item for discont conns. Guess this is a relatively arbitrary decision.
         if not utils.iscontinuous([x.tokenId for x in rel.connective]):
             intargtokens = [x for x in intargtokens if x > rel.connective[-1].tokenId]
+        # highly arbitrary as well, but in the PCC, final punctuation signs are part of intarg
+        if intargtokens:
+            if intargtokens[-1] < len(tokens):
+                if tokens[intargtokens[-1]+1].token in string.punctuation:
+                    intargtokens.append(tokens[intargtokens[-1]+1].tokenId)
+
 
         return intargtokens
 
@@ -113,7 +118,8 @@ class ExplicitArgumentExtractor:
         if targetsid in sents:
             for token in sents[targetsid]:
                 temparg.append(token.tokenId)
-
+        """
+        # the following is a more precise approach. Found, though, that just taking the entire predicted sentence (as per a few lines above) results in higher scores on the PCC. Later on, filtering with intarg tokens is done anyway, such that extarg is the mirror image of intarg (if both are in the same sentence).
         if relative_position == 0:
             samesentpos = self.samesentclf.predict(numpy.array(enc_feat).reshape(1, -1))
             if samesentpos[0] == 1: # extarg is predicted after (ref)conn
@@ -148,13 +154,13 @@ class ExplicitArgumentExtractor:
             #assert refcon.fullSentence == ' '.join([x.token for x in sents[refcon.sentenceId]])
             if sents[refcon.sentenceId][-1].token in string.punctuation:
                 temparg.append(sents[refcon.sentenceId][-1].tokenId)
-                
+        """
 
         # in PCC, extarg is what comes before second item for discont conns. Guess this is a relatively arbitrary decision. Hardcoding a fix here:
         if not utils.iscontinuous([x.tokenId for x in rel.connective]):
             temparg = [x for x in range(rel.connective[0].tokenId, rel.connective[-1].tokenId)]
 
-        # filtering out connective tokens (may particularly be needed for phrasal connectives) (and also for discont ones, in which as per line above, connective is included
+        # filtering out connective tokens
         temparg = [x for x in temparg if not x in [y.tokenId for y in rel.connective]]
 
 
@@ -210,6 +216,7 @@ class ExplicitArgumentExtractor:
                     nodePosition = ptree.leaf_treeposition(refcon.sentencePosition)
                     parent = ptree[nodePosition[:-1]].parent()
                     rootroute = utils.getPathToRoot(parent, [])
+                    #feat = [connective, postag, ln, rn, lnpos, rnpos, '-'.join(rootroute), refcon.sentencePosition]
                     feat = [connective, postag, ln, rn, lnpos, rnpos, '-'.join(rootroute), refcon.sentencePosition]
                     enc_feat = [self.encode(v) for v in feat]
                     extargsent = list(set(t.sentenceId for t in rel.extArgTokens))[0] # taking first sent only in case ext arg is spread over multiple sentences
@@ -275,7 +282,7 @@ class ExplicitArgumentExtractor:
                         sentence = refcon.fullSentence
                         ptree = None
                         if sentence in self.parsermap:
-                            ptree = self.parsermap[sentence]
+                            ptree = ParentedTree.convert(self.parsermap[sentence])
                         else:
                             tree = self.lexparser.parse(re.sub('\)', ']', re.sub('\(', '[', sentence)).split())
                             ptreeiter = ParentedTree.convert(tree)
