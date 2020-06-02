@@ -364,7 +364,17 @@ def pred_eval(files, numIterations, splits):
             explicit_senses_second_level_correct += scor
             explicit_senses_first_level_correct += fcor
             filegoldimplicits = [rel for rel in gold_implicits if rel.docId == os.path.splitext(f)[0]]
-            isc.predict(relations, sents)
+            newrels = isc.predict(relations, sents)
+            maxrelid = max([x.relationId for x in relations]) if relations else 0
+            for nr in newrels:
+                r = Relation(maxrelid+1, 'Implicit', f)
+                maxrelid += 1
+                for t in nr[0]:
+                    r.addExtArgToken(t)
+                for t in nr[1]:
+                    r.addIntArgToken(t)
+                r.addSense(nr[2])
+                relations.append(r)
             itot, idcor, iscor, ifcor = isc.evaluate_pred(relations, filegoldimplicits)
             implicit_senses_total += itot
             implicit_senses_detailed_correct += idcor
@@ -619,8 +629,8 @@ if __name__ == '__main__':
 
     #main() # for running without flask
     #test()
-    #evaluate()
-    #sys.exit()
+    evaluate()
+    sys.exit()
     
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--port", help="port number to start flask app on", default=5000, type=int)

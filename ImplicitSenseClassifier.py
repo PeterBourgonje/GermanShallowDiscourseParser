@@ -115,11 +115,13 @@ class ImplicitSenseClassifier():
         fcor = 0
         for grel in gold_relations:
             tot += 1
-            grel_conn = sorted([int(x.tokenId) for x in grel.connectiveTokens])
+            grel_arg1 = sorted([int(x.tokenId) for x in grel.extArgTokens])
+            grel_arg2 = sorted([int(x.tokenId) for x in grel.intArgTokens])
             found = False
             for prel in pred_relations:
-                prel_conn = sorted([x.tokenId for x in prel.connective])
-                if prel_conn == grel_conn:
+                prel_arg1 = sorted([x.tokenId for x in prel.arg1])
+                prel_arg2 = sorted([x.tokenId for x in prel.arg2])
+                if prel_arg1 == grel_arg1 and prel_arg2 == grel_arg2:
                     found = True
                     if grel.sense == prel.sense:
                         dcor += 1
@@ -200,6 +202,7 @@ class ImplicitSenseClassifier():
         for i in range(len(sents)-1):
             if self.explicitRelationExists(relations, i, i+1):
                 pass
+            
             else:
                 i_tokens = [x.token for x in sents[i]]
                 j_tokens = [x.token for x in sents[i+1]]
