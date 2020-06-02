@@ -303,6 +303,7 @@ class ExplicitArgumentExtractor:
                         gold_intarg = [x.tokenId for x in gold_intarg]
                         gold_extarg = [x.tokenId for x in gold_extarg]
                         for tid in set(gold_intarg + pred_intarg):
+                            #if not tokens[int(tid)].token in string.punctuation:
                             if tid in gold_intarg and tid in pred_intarg:
                                 intarg_tp += 1
                             elif tid in gold_intarg:
@@ -310,6 +311,7 @@ class ExplicitArgumentExtractor:
                             elif tid in pred_intarg:
                                 intarg_fp += 1
                         for tid in set(gold_extarg + pred_extarg):
+                            #if not tokens[int(tid)].token in string.punctuation:
                             if tid in gold_extarg and tid in pred_extarg:
                                 extarg_tp += 1
                             elif tid in gold_extarg:

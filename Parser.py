@@ -226,8 +226,8 @@ def gold_eval(pcc_folder, files, numIterations, splits):
         connective_fscores.append(_cmf)
         connective_pscores.append(_cmp)
         connective_rscores.append(_cmr)
-        """
-        """
+    
+
         # explicit args
         i_tp, i_fp, i_fn, e_tp, e_fp, e_fn = eae.evaluate_gold(testfiles, f2gold)
         intarg_tp += i_tp
@@ -238,7 +238,7 @@ def gold_eval(pcc_folder, files, numIterations, splits):
         extarg_fn += e_fn
         intarg_p, intarg_r, intarg_f = utils.getPrecisionRecallF1(intarg_tp, intarg_fp, intarg_fn)
         extarg_p, extarg_r, extarg_f = utils.getPrecisionRecallF1(extarg_tp, extarg_fp, extarg_fn)
-        
+    
         # explicit senses
         detailed_f1, second_level_f1, first_level_f1, tot, cor = esc.evaluate_gold(testfiles, f2gold)
         total += tot
@@ -252,7 +252,7 @@ def gold_eval(pcc_folder, files, numIterations, splits):
         implicit_senses_detailed.append(detailed_f1)
         implicit_senses_second_level.append(second_level_f1)
         implicit_senses_first_level.append(first_level_f1)
-        
+    
     print('connective precision:', numpy.mean(connective_pscores))
     print('connective recall:', numpy.mean(connective_rscores))
     print('connective f1:', numpy.mean(connective_fscores))
@@ -366,10 +366,10 @@ def pred_eval(files, numIterations, splits):
             filegoldimplicits = [rel for rel in gold_implicits if rel.docId == os.path.splitext(f)[0]]
             isc.predict(relations, sents)
             itot, idcor, iscor, ifcor = isc.evaluate_pred(relations, filegoldimplicits)
-            implicit_senses_total += tot
-            implicit_senses_detailed_correct += dcor
-            implicit_senses_second_level_correct += scor
-            implicit_senses_first_level_correct += fcor            
+            implicit_senses_total += itot
+            implicit_senses_detailed_correct += idcor
+            implicit_senses_second_level_correct += iscor
+            implicit_senses_first_level_correct += ifcor            
 
     print('Pipeline results')
     print('=====================================')
@@ -394,13 +394,13 @@ def pred_eval(files, numIterations, splits):
     print('\tExplicit senses')
     print('\taccuracy third level  : %s' % str(float(explicit_senses_detailed_correct) / explicit_senses_total))
     print('\taccuracy second level : %s' % str(float(explicit_senses_second_level_correct) / explicit_senses_total))
-    print('\taccuracy third level  : %s' % str(float(explicit_senses_first_level_correct) / explicit_senses_total))
+    print('\taccuracy first level  : %s' % str(float(explicit_senses_first_level_correct) / explicit_senses_total))
     print()
     print('=====================================')
     print('\tImplicit senses')
     print('\taccuracy third level  : %s' % str(float(implicit_senses_detailed_correct) / implicit_senses_total))
     print('\taccuracy second level : %s' % str(float(implicit_senses_second_level_correct) / implicit_senses_total))
-    print('\taccuracy third level  : %s' % str(float(implicit_senses_first_level_correct) / implicit_senses_total))
+    print('\taccuracy first level  : %s' % str(float(implicit_senses_first_level_correct) / implicit_senses_total))
     print()
     
     
@@ -620,6 +620,7 @@ if __name__ == '__main__':
     #main() # for running without flask
     #test()
     #evaluate()
+    #sys.exit()
     
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--port", help="port number to start flask app on", default=5000, type=int)
