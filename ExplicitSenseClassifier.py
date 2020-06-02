@@ -209,6 +209,8 @@ class ExplicitSenseClassifier():
         X_test_bert = []
         y_test = []
         candidates = []
+        total =0
+        correct = 0
 
         for f in f2gold:
             if f in testfiles:
@@ -287,12 +289,17 @@ class ExplicitSenseClassifier():
                             if s in self.conn2mostfrequent:
                                 top = sorted(self.conn2mostfrequent[s].items(), key = lambda x: x[1], reverse=True)[0][0]
                                 pred[i] = top
+                                
             
             detailed_f1 = f1_score(pred, y_test, average='weighted')
             second_level_f1 = f1_score(['.'.join(x.split('.')[:2]) for x in pred], ['.'.join(x.split('.')[:2]) for x in y_test], average='weighted')
             first_level_f1 = f1_score([x.split('.')[0] for x in pred], [x.split('.')[0] for x in y_test], average='weighted')
+            for pair in zip(pred, y_test):
+                total += 1
+                if pair[0] == pair[1]:
+                    correct += 1
             
-        return detailed_f1, second_level_f1, first_level_f1
+        return detailed_f1, second_level_f1, first_level_f1, total, correct
 
 
     
