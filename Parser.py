@@ -574,7 +574,12 @@ def parse():
     if not hasattr(cc, 'clfs') or not hasattr(eae, 'sentposclf') or not hasattr(esc, 'clfs') or not hasattr(isc, 'mlp'):
         return 'ERROR: Could not find trained models. Are you sure you used the train endpoint?\n'
 
-    if request.args.get('input') == None:
+    inp = None
+    if request.args.get('input'):
+        inp = request.args.get('input')
+    elif request.files['input']:
+        inp = request.files['input'].read().decode('utf-8')
+    else:
         return 'INFO: Please provide input text.\n'
 
     docid = None
@@ -583,8 +588,6 @@ def parse():
     else:
         docid = request.args.get('docid')
 
-        
-    inp = request.args.get('input')
     sents, tokens = custom_tokenize(inp)
     cc.predict(sents)
 
