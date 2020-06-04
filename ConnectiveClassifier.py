@@ -420,8 +420,9 @@ class ConnectiveClassifier():
             # overriding predictions with dimlex surefires:
             # one way to speed this up would be to do surefire connectives first, so that they don't even have to be considered during prediction
             for index, item in enumerate(zip(pred, candidates)):
-                if self.dimlextuples[tuple(x.token for x in item[1])]['surefire']:
-                    pred[index] = 1
+                if tuple(x.token for x in item[1]) in self.dimlextuples:
+                    if self.dimlextuples[tuple(x.token for x in item[1])]['surefire']:
+                        pred[index] = 1
 
             # filtering out submatches (for multiword connectives that also work stand-alone (anstatt dass/anstatt), we get multiple predictions; taking the longest version)
             delpositions = []

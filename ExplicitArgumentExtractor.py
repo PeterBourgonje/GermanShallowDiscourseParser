@@ -86,7 +86,7 @@ class ExplicitArgumentExtractor:
             intargtokens = [x for x in intargtokens if x > rel.connective[-1].tokenId]
         # highly arbitrary as well, but in the PCC, final punctuation signs are part of intarg
         if intargtokens:
-            if intargtokens[-1] < len(tokens):
+            if intargtokens[-1] < len(tokens)-1:
                 if tokens[intargtokens[-1]+1].token in string.punctuation:
                     intargtokens.append(tokens[intargtokens[-1]+1].tokenId)
 

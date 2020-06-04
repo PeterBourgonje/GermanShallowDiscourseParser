@@ -212,10 +212,10 @@ class ExplicitSenseClassifier():
         total =0
         correct = 0
 
-        for f in f2gold:
+        for f in tqdm(f2gold):
             if f in testfiles:
                 relations, sents, tokens = f2gold[f]
-                for rel in relations:
+                for rel in tqdm(relations):
                     if rel.relationType == 'explicit':
                         sentence = rel.connective[0].fullSentence
                         tokens = sentence.split()
@@ -311,7 +311,7 @@ class ExplicitSenseClassifier():
         fcor = 0
         for grel in gold_relations:
             tot += 1
-            grel_conn = sorted([int(x.tokenId) for x in grel.connectiveTokens])
+            grel_conn = sorted([int(x.tokenId)-1 for x in grel.connectiveTokens])
             found = False
             for prel in pred_relations:
                 prel_conn = sorted([x.tokenId for x in prel.connective])
