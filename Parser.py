@@ -568,7 +568,7 @@ def train():
     return 'INFO: Successfully trained models. Time taken: {:0>2}:{:0>2}:{:0>2}\n.'.format(int(hours), int(minutes), int(seconds))
     
 
-@app.route('/parse', methods=['GET'])
+@app.route('/parse', methods=['GET', 'POST'])
 def parse():
 
     if not hasattr(cc, 'clfs') or not hasattr(eae, 'sentposclf') or not hasattr(esc, 'clfs') or not hasattr(isc, 'mlp'):
