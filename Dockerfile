@@ -53,3 +53,5 @@ EXPOSE 5000
 
 ENTRYPOINT ["./docker_start.sh"]
 #CMD ["/bin/bash"]
+
+

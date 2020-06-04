@@ -17,6 +17,7 @@ from sklearn.metrics import f1_score, precision_score, recall_score
 from flask import Flask
 from flask import request
 from flask_cors import CORS
+#from waitress import serve
 
 # custom modules
 import utils
@@ -639,7 +640,7 @@ if __name__ == '__main__':
     argparser.add_argument("--port", help="port number to start flask app on", default=5000, type=int)
     args = argparser.parse_args()
 
-    app.run(host='0.0.0.0', port=args.port,debug=True)
+    app.run(host='0.0.0.0', port=args.port)
     
 
     
