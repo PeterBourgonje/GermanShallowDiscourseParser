@@ -629,8 +629,8 @@ if __name__ == '__main__':
 
     #main() # for running without flask
     #test()
-    evaluate()
-    sys.exit()
+    #evaluate()
+    #sys.exit()
     
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--port", help="port number to start flask app on", default=5000, type=int)
