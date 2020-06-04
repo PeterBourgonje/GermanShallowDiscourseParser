@@ -11,7 +11,7 @@ cd gsdp
 
 spawn python Parser.py
 
-expect "Debugger is active!"
+expect "Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)"
 
 spawn curl localhost:5000/train
 
