@@ -208,10 +208,11 @@ class ImplicitSenseClassifier():
                 j_tokens = [x.token for x in sents[i+1]]
                 i_tokens = utils.bertclient_safe(i_tokens)
                 j_tokens = utils.bertclient_safe(j_tokens)
-                enc = self.bertclient.encode([i_tokens, j_tokens], is_tokenized=True)
-                bertfeats = numpy.concatenate(enc)
-                pred = self.mlp.predict(bertfeats.reshape(1, -1))
-                newrels.append([[t for t in sents[i]], [t for t in sents[i+1]], pred[0]])
+                if re.search('\w+', ' '.join(i_tokens)) and re.search('\w+', ' '.join(j_tokens)): # excluding cases where one of the two is only newlines
+                    enc = self.bertclient.encode([i_tokens, j_tokens], is_tokenized=True)
+                    bertfeats = numpy.concatenate(enc)
+                    pred = self.mlp.predict(bertfeats.reshape(1, -1))
+                    newrels.append([[t for t in sents[i]], [t for t in sents[i+1]], pred[0]])
                 
         return newrels
 
