@@ -180,6 +180,7 @@ def relations2json(inp, relations):
 
 def gold_eval(pcc_folder, files, numIterations, splits):
 
+    sys.stderr.write('INFO: Starting gold evaluation...\n')
     connectivefiles = [x for x  in utils.listfolder(os.path.join(pcc_folder, 'connectives'))]
     syntaxfiles = [x for x  in utils.listfolder(os.path.join(pcc_folder, 'syntax'))]
 
@@ -195,6 +196,9 @@ def gold_eval(pcc_folder, files, numIterations, splits):
         relations = convert_reltypes(relations)
         f2gold[f] = (relations, sents, pccTokens)
 
+    connective_fscores = []
+    connective_pscores = []
+    connective_rscores = []
     intarg_tp, intarg_fp, intarg_fn, extarg_tp, extarg_fp, extarg_fn = 0,0,0,0,0,0
     explicit_senses_detailed = []
     explicit_senses_second_level = []
@@ -284,6 +288,7 @@ def evaluate():
     
 def pred_eval(files, numIterations, splits):
 
+    sys.stderr.write('INFO: Starting pred evaluation...\n')
     connective_fscores = []
     connective_pscores = []
     connective_rscores = []
