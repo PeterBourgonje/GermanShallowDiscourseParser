@@ -122,10 +122,10 @@ def relations2json(inp, relations):
 
     jso = []
     for rel in relations:
-        js = {'ID': rel.relationId,
-              'DocID': rel.docId,
-              'Sense': rel.sense,
-              'Type': rel.relationType}
+        js = {"ID": rel.relationId,
+              "DocID": rel.docId,
+              "Sense": rel.sense,
+              "Type": rel.relationType}
         ### Arg1
         arg1 = {}
         arg1_charspanlist = []
@@ -137,10 +137,10 @@ def relations2json(inp, relations):
             arg1_rawtext += inp[spanlist[0]:spanlist[1]] + ' '
         arg1_rawtext = arg1_rawtext.strip()
         arg1_tokenlist = [[x.span[0], x.span[1], x.tokenId, x.sentenceId, x.sentenceTokenId] for x in rel.arg1]
-        arg1['CharacterSpanList'] = arg1_charspanlist
-        arg1['RawText'] = arg1_rawtext
-        arg1['TokenList'] = arg1_tokenlist
-        js['Arg1'] = arg1
+        arg1["CharacterSpanList"] = arg1_charspanlist
+        arg1["RawText"] = arg1_rawtext
+        arg1["TokenList"] = arg1_tokenlist
+        js["Arg1"] = arg1
 
         ### Arg2
         arg2 = {}
@@ -153,10 +153,10 @@ def relations2json(inp, relations):
             arg2_rawtext += inp[spanlist[0]:spanlist[1]] + ' '
         arg2_rawtext = arg2_rawtext.strip()
         arg2_tokenlist = [[x.span[0], x.span[1], x.tokenId, x.sentenceId, x.sentenceTokenId] for x in rel.arg2]
-        arg2['CharacterSpanList'] = arg2_charspanlist
-        arg2['RawText'] = arg2_rawtext
-        arg2['TokenList'] = arg2_tokenlist
-        js['Arg2'] = arg2
+        arg2["CharacterSpanList"] = arg2_charspanlist
+        arg2["RawText"] = arg2_rawtext
+        arg2["TokenList"] = arg2_tokenlist
+        js["Arg2"] = arg2
 
         ### Conn
         conn = {}
@@ -169,10 +169,10 @@ def relations2json(inp, relations):
             conn_rawtext += inp[spanlist[0]:spanlist[1]] + ' '
         conn_rawtext = conn_rawtext.strip()
         conn_tokenlist = [[x.span[0], x.span[1], x.tokenId, x.sentenceId, x.sentenceTokenId] for x in rel.connective]
-        conn['CharacterSpanList'] = conn_charspanlist
-        conn['RawText'] = conn_rawtext
-        conn['TokenList'] = conn_tokenlist
-        js['Connective'] = conn
+        conn["CharacterSpanList"] = conn_charspanlist
+        conn["RawText"] = conn_rawtext
+        conn["TokenList"] = conn_tokenlist
+        js["Connective"] = conn
 
         jso.append(js)
         
