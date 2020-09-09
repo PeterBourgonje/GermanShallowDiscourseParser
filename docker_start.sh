@@ -25,3 +25,4 @@ bert-serving-start -model_dir /gsdp/bert-base-german-tf-version/ -num_worker=4 -
 cd gsdp
 python Parser.py
 
+# for ELG version, I can already run curl localhost:5000/load so that everything is pre-loaded. Then there is a probe endpoint. If this returns 200, all is good to go. If it returns 500, the bert-serving-server is not (yet) up and running.

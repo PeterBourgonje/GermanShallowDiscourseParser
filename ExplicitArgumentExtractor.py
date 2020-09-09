@@ -248,6 +248,21 @@ class ExplicitArgumentExtractor:
         minutes, seconds = divmod(rem, 60)
         sys.stderr.write('INFO: Done training explicit argument extractor...({:0>2}:{:0>2}:{:0>2})\n'.format(int(hours), int(minutes), int(seconds)))
 
+        #pickle.dump(self.sentposclf, codecs.open('sentposclf.pickle', 'wb'))
+        #pickle.dump(self.samesentclf, codecs.open('samesentclf.pickle', 'wb'))
+        #sys.stderr.write('INFO: Saved classifier to sentposclf.pickle.\n')
+        #sys.stderr.write('INFO: Saved classifier to samesentclf.pickle.\n')
+
+    def load(self):
+
+        if not os.path.exists(os.path.join(os.getcwd(), 'sentposclf.pickle')):
+            return 'ERROR: sentposclf.pickle not found.\n'
+        if not os.path.exists(os.path.join(os.getcwd(), 'samesentclf.pickle')):
+            return 'ERROR: samesentclf.pickle not found.\n'
+
+        self.sentposclf = pickle.load(codecs.open('sentposclf.pickle', 'rb'))
+        self.samesentclf = pickle.load(codecs.open('samesentclf.pickle', 'rb'))
+        
 
     def getGoldArgs(self, testfiles):
 

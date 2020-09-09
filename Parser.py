@@ -14,7 +14,7 @@ from collections import defaultdict
 from bert_serving.client import BertClient
 from sklearn.metrics import f1_score, precision_score, recall_score
 
-from flask import Flask
+from flask import Flask, Response
 from flask import request
 from flask_cors import CORS
 #from waitress import serve
@@ -550,6 +550,33 @@ def main():
         print()
     """
 
+# function to check if bert-serving server is already up and running
+@app.route('/probe', methods=['GET'])
+def probe():
+    try:
+        bertclient = BertClient(timeout=10000) # milliseconds...
+        bertclient.encode(["I'm gone, and I best believe I'm leaving.", "Pack up my belongings then it's off into the evening.", "Now I haven't exactly been embraced by the populace.", "Set sail upon the seven deadly seas of the anonymous."])
+        return Response(response='bert-serving-server up and running.\n', status=200)
+    except TimeoutError:
+        return Response(response='ERROR: Time-out! Please verify that bert-serving server is running (see docs).\n', status=500)
+    
+    
+
+# function to load trained&pickled components
+@app.route('/load', methods=['GET'])
+def load():
+
+    start = time.time()
+    cc.load()
+    eae.load()
+    esc.load()
+    isc.load()
+    end = time.time()
+    hours, rem = divmod(end-start, 3600)
+    minutes, seconds = divmod(rem, 60)
+
+    return 'INFO: Successfully loaded pre-trained components. Time taken: {:0>2}:{:0>2}:{:0>2}\n.'.format(int(hours), int(minutes), int(seconds))
+    
 @app.route('/train', methods=['GET'])
 def train():
 

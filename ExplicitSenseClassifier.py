@@ -118,6 +118,7 @@ class ExplicitSenseClassifier():
 
         start = time.time()
         sys.stderr.write('INFO: Starting training of explicit sense classifier...\n')
+        
         # check if there is a BertServer instance running:
         try:
             self.bertclient = BertClient(timeout=10000) # milliseconds...
@@ -182,6 +183,41 @@ class ExplicitSenseClassifier():
         minutes, seconds = divmod(rem, 60)
         sys.stderr.write('INFO: Done training explicit sense classifier...({:0>2}:{:0>2}:{:0>2})\n'.format(int(hours), int(minutes), int(seconds)))
 
+        #pickle.dump(self.clfs, codecs.open('explicit_sense_classifier.pickle', 'wb'))
+        #pickle.dump(self.le, codecs.open('explicit_label_encoder.pickle', 'wb'))
+        #sys.stderr.write('INFO: Saved labelencoder to explicit_label_encoder.pickle.\n')
+        #sys.stderr.write('INFO: Saved classifier to explicit_sense_classifier.pickle.\n')
+        
+
+    def load(self):
+
+        if not os.path.exists(os.path.join(os.getcwd(), 'explicit_sense_classifier.pickle')):
+            return 'ERROR: explicit_sense_classifier.pickle not found.\n'
+        if not os.path.exists(os.path.join(os.getcwd(), 'explicit_label_encoder.pickle')):
+            return 'ERROR: explicit_label_encoder.pickle not found.\n'
+        
+        """
+        try:
+            self.bertclient = BertClient(timeout=10000) # milliseconds...
+            self.bertclient.encode(["I'm gone, and I best believe I'm leaving.", "Pack up my belongings then it's off into the evening.", "Now I haven't exactly been embraced by the populace.", "Set sail upon the seven deadly seas of the anonymous."])
+        except TimeoutError:
+            sys.stderr.write('ERROR: Time-out! Please verify that bert-serving server is running (see docs).\n') # example call: bert-serving-start -model_dir /share/bert-base-german-cased_tf_version/ -num_worker=4 -max_seq_len=52
+            return
+        """
+        self.clfs = pickle.load(codecs.open('explicit_sense_classifier.pickle', 'rb'))
+        self.le = pickle.load(codecs.open('explicit_label_encoder.pickle', 'rb'))
+
+        self.conn2senses = {}
+        dimlex = DimLexParser.parseXML(os.path.join(self.config['DiMLex']['dimlexdir'], 'DimLex.xml'))
+        for entry in dimlex:
+            altdict = entry.alternativeSpellings
+            senses = entry.sense2Probs.keys()
+            for item in altdict: # canonical form is always in list of alt spellings
+                tupl = tuple(word_tokenize(item))
+                self.conn2senses[tupl] = senses
+
+        
+        
     def getGoldSenses(self, testfiles):
 
         connectivefiles = [x for x  in utils.listfolder(os.path.join(self.config['PCC']['pccdir'], 'connectives')) if re.search('/maz-\d+.xml', x)] # filtering out temp/hidden files that may be there
@@ -329,6 +365,15 @@ class ExplicitSenseClassifier():
     
     def predict(self, relations):
 
+        if not self.bertclient:
+            try:
+                self.bertclient = BertClient(timeout=10000) # milliseconds...
+                self.bertclient.encode(["I'm gone, and I best believe I'm leaving.", "Pack up my belongings then it's off into the evening.", "Now I haven't exactly been embraced by the populace.", "Set sail upon the seven deadly seas of the anonymous."])
+            except TimeoutError:
+                sys.stderr.write('ERROR: Time-out! Please verify that bert-serving server is running (see docs).\n') # example call: bert-serving-start -model_dir /share/bert-base-german-cased_tf_version/ -num_worker=4 -max_seq_len=52
+                return
+
+        
         X_test_syn = []
         X_test_bert = []
         candidates = []

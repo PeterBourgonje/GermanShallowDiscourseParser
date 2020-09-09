@@ -264,13 +264,13 @@ class ConnectiveClassifier():
         except TimeoutError:
             sys.stderr.write('ERROR: Time-out! Please verify that bert-serving server is running (see docs).\n') # example call: bert-serving-start -model_dir /share/bert-base-german-cased_tf_version/ -num_worker=4 -max_seq_len=52
             return
-            # code to start bert-serving server inside python. Rather hacky though, and could not find how to stop server when done, so decided to make it a requirement to manually start this before running the parser (or starting it first in Dockerfile)
-            """
-            sys.argv.extend(['-model_dir', self.config['bert-serving']['modeldir'], '-num_worker', self.config['bert-serving']['numworkers'], '-max_seq_len', '52'])
-            args = get_run_args()
-            bs = BertServer(args)
-            bs.start()
-            """
+        # code to start bert-serving server inside python. Rather hacky though, and could not find how to stop server when done, so decided to make it a requirement to manually start this before running the parser (or starting it first in Dockerfile)
+        """
+        sys.argv.extend(['-model_dir', self.config['bert-serving']['modeldir'], '-num_worker', self.config['bert-serving']['numworkers'], '-max_seq_len', '52'])
+        args = get_run_args()
+        bs = BertServer(args)
+        bs.start()
+        """
         
 
         connectivefiles = [x for x  in utils.listfolder(os.path.join(self.config['PCC']['pccdir'], 'connectives')) if re.search('/maz-\d+.xml', x)] # filtering out temp/hidden files that may be there
@@ -346,12 +346,36 @@ class ConnectiveClassifier():
         minutes, seconds = divmod(rem, 60)
         sys.stderr.write('INFO: Done training connective classifier...({:0>2}:{:0>2}:{:0>2})\n'.format(int(hours), int(minutes), int(seconds)))
 
+        #pickle.dump(self.clfs, codecs.open('connective_classifier.pickle', 'wb'))
+        #sys.stderr.write('INFO: Saved classifier to connective_classifier.pickle.\n')
         
+    def load(self):
 
+        if not os.path.exists(os.path.join(os.getcwd(), 'connective_classifier.pickle')):
+            return 'ERROR: connective_classifier.pickle not found.\n'
+        """
+        try:
+            self.bertclient = BertClient(timeout=10000) # milliseconds...
+            self.bertclient.encode(["I'm gone, and I best believe I'm leaving.", "Pack up my belongings then it's off into the evening.", "Now I haven't exactly been embraced by the populace.", "Set sail upon the seven deadly seas of the anonymous."])
+        except TimeoutError:
+            sys.stderr.write('ERROR: Time-out! Please verify that bert-serving server is running (see docs).\n') # example call: bert-serving-start -model_dir /share/bert-base-german-cased_tf_version/ -num_worker=4 -max_seq_len=52
+            return
+        """
+        self.clfs = pickle.load(codecs.open('connective_classifier.pickle', 'rb'))
+        self.getDimlexCandidates()
+        
     def predict(self, sents):
 
+        if not self.bertclient:
+            try:
+                self.bertclient = BertClient(timeout=10000) # milliseconds...
+                self.bertclient.encode(["I'm gone, and I best believe I'm leaving.", "Pack up my belongings then it's off into the evening.", "Now I haven't exactly been embraced by the populace.", "Set sail upon the seven deadly seas of the anonymous."])
+            except TimeoutError:
+                sys.stderr.write('ERROR: Time-out! Please verify that bert-serving server is running (see docs).\n') # example call: bert-serving-start -model_dir /share/bert-base-german-cased_tf_version/ -num_worker=4 -max_seq_len=52
+                return
+        
         # check if training has happened already
-        if not hasattr(self, 'clfs') or not hasattr(self, 'dimlextuples') or not hasattr(self, 'bertclient'):
+        if not hasattr(self, 'clfs') or not hasattr(self, 'dimlextuples'):
             sys.stderr.write('ERROR: Required attributes not set. Please verify the connective classifier was successfully trained.\n')
             return
         

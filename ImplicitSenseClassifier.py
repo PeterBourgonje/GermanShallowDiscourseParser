@@ -194,10 +194,35 @@ class ImplicitSenseClassifier():
         minutes, seconds = divmod(rem, 60)
         sys.stderr.write('INFO: Done training implicit sense classifier...({:0>2}:{:0>2}:{:0>2})\n'.format(int(hours), int(minutes), int(seconds)))
 
+        #pickle.dump(self.mlp, codecs.open('implicit_sense_classifier.pickle', 'wb'))
+        #sys.stderr.write('INFO: Saved classifier to implicit_sense_classifier.pickle.\n')
+
+    def load(self):
+
+        if not os.path.exists(os.path.join(os.getcwd(), 'implicit_sense_classifier.pickle')):
+            return 'ERROR: implicit_sense_classifier.pickle not found.\n'
+        """
+        try:
+            self.bertclient = BertClient(timeout=10000) # milliseconds...
+            self.bertclient.encode(["I'm gone, and I best believe I'm leaving.", "Pack up my belongings then it's off into the evening.", "Now I haven't exactly been embraced by the populace.", "Set sail upon the seven deadly seas of the anonymous."])
+        except TimeoutError:
+            sys.stderr.write('ERROR: Time-out! Please verify that bert-serving server is running (see docs).\n') # example call: bert-serving-start -model_dir /share/bert-base-german-cased_tf_version/ -num_worker=4 -max_seq_len=52
+            return
+        """
+        self.mlp = pickle.load(codecs.open('implicit_sense_classifier.pickle', 'rb'))
+    
 
 
     def predict(self, relations, sents):
 
+        if not self.bertclient:
+            try:
+                self.bertclient = BertClient(timeout=10000) # milliseconds...
+                self.bertclient.encode(["I'm gone, and I best believe I'm leaving.", "Pack up my belongings then it's off into the evening.", "Now I haven't exactly been embraced by the populace.", "Set sail upon the seven deadly seas of the anonymous."])
+            except TimeoutError:
+                sys.stderr.write('ERROR: Time-out! Please verify that bert-serving server is running (see docs).\n') # example call: bert-serving-start -model_dir /share/bert-base-german-cased_tf_version/ -num_worker=4 -max_seq_len=52
+                return
+        
         newrels = []
         for i in range(len(sents)-1):
             if self.explicitRelationExists(relations, i, i+1):
