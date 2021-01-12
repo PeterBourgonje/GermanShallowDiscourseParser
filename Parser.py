@@ -26,6 +26,7 @@ import ExplicitArgumentExtractor
 import ExplicitSenseClassifier
 import ImplicitSenseClassifier
 import PCCParser
+import olha_viz
 
 nlp = German()
 sentencizer = nlp.create_pipe("sentencizer")
@@ -658,6 +659,10 @@ def parse():
     # to json output here
     jsonstr = relations2json(inp, relations)
 
+    # including option to dump output in brat format required for Olha Zolotarenko's visualisation component (see olha_viz.py)
+    if request.args.get('viz'):
+        jsonstr = olha_viz.convert(inp, jsonstr)
+   
     return jsonstr
 
 
