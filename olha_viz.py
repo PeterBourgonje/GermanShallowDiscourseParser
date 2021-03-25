@@ -40,97 +40,104 @@ def convert(textinput, jsoninput):
     #with open("/Users/apple/ba_visualization/data/olha_example_input.txt") as f:
     #with open(textinput) as f:
         #text = f.readlines()
-    text = textinput.split('\n')
-    text_line = '\t'.join([line.strip() for line in text]) # PB: not sure why text is joined on tabs here. Untested for viz component, may need fixing.
-    docData["text"] = text_line
+    #text = textinput.split('\n')
+    #text_line = ' '.join([line.strip() for line in text])
+    #docData["text"] = text_line
+    text = re.sub('\n', ' ', textinput)
+    docData["text"] = text
 
     docData["entities"] = []
     docData["relations"] = []
-    relationsCounter_ID = 1
-    entitiesCounter_ID = 1
-    relationsARGNAME = 1
-    argnameCounter = 1
+    relations_counter_id = 1
+    entities_counter_id = 1
+    argname_counter = 1
 
     # Add our sentence/text to visualize
 
 
     def relation_spans():
+
         relation_pairs = []
         span_outgoing = []
         span_target = []
         for i in docData["entities"]:
             if i[1] == "Arg1":
                 span_outgoing.append(i[0])
-
             elif i[1] == "Arg2":
                 span_target.append(i[0])
 
-        # print(span_outgoing, span_target)
         for x, y in zip(span_outgoing, span_target):
             pair = (x, y)
             relation_pairs.append(pair)
 
         return relation_pairs
-
-    # Read internal json-file
-    #with open("/Users/apple/ba_visualization/data/olha_example_output.json", "r") as f:
-    #with open(jsoninput, "r") as f:
-    #input_data = json.load(f)
+    
     input_data = json.loads(jsoninput)
     entities = []
 
 
-
+    # SECTION Build docData["entities"]
+    # First level of iteration - every relation in the CoNLL2016 JSON format
+    # E.g. ID : 1,2, ... , n
     for rel in input_data:
-        for key1, value1 in rel.items():
-            # Get the spans
-            if type(value1) == dict:
-                for key2, value2 in value1.items():
-                    if key2 == 'CharacterSpanList':
-                        #  Here we have to go -1 position as brat doesn't count as python from 0
-                        # Could be: "CharacterSpanList": [[405, 457], [543, 590]] - discont
-                        # Or: [] when implicit
+        # Iterating properties of very relation : key-value pairs in the relation
+        # E.g. "ID", "DocID", "Sense" , ...
+        for rel_property_key, rel_property_value in rel.items():
+            # Arguments and connectives have dict values with needed "CharacterSpanList" in it
+            # That's why here is the second iteration:
+            # over the key-value pairs of the "Arg1", "Arg2" and "Connective"
+            if type(rel_property_value) == dict:
+                for entity_key, entity_value in rel_property_value.items():
+                    if entity_key == 'CharacterSpanList':
+                        # Possible values for "CharacterSpanList":
+                        # - [[300, 372]]] - normal case, simple continuous argument/connective
+                        # - [[405, 457], [543, 590]] - discontinuous argument/connective
+                        # - [] - empty argument/connective for implicit relations or
 
-                        if value2:
-                            # entity = ["E" + str(entitiesCounter_ID), key1, [[value2[0][0]-1, value2[0][1]-1]]]
-                            entity = ["E" + str(entitiesCounter_ID), key1, value2]
-                            docData["entities"] += [entity]
-                            entitiesCounter_ID += 1
+                        # WARNING Fix of the bug (22.3.21):
+                        # the tested document contains empty arguments, which was filtered earlier
+                        # and was causing the wrong alignment of the relations
+                        # if entity_value:
 
+                        # Create entity and add to the docData["entities"]
+                        entity = ["E" + str(entities_counter_id), rel_property_key, entity_value]
+                        docData["entities"] += [entity]
+                        # Increase the entity counter id for entity enumeration
+                        entities_counter_id += 1
+
+    # SECTION GET TYPES
     relation_type = []
     for rel in input_data:
-        for key1, value1 in rel.items():
-            if key1 == "Type":
-                relation_type.append(value1)
+        for rel_property_key, rel_property_value in rel.items():
+            if rel_property_key == "Type":
+                relation_type.append(rel_property_value)
 
-    #print(relation_type)
-
+    # SECTION GET SENSES
     for rel in input_data:
-        for key1, value1 in rel.items():
+        for rel_property_key, rel_property_value in rel.items():
             #  Get the senses for relations
-            # if key1 == "Type":
-            #     relation_type = value1
-            if key1 == "Sense":
-                # Could be a random name but lets keep it a a number
-                # target1 = [docData.get('entities')[i] for i in docData]
-                name = str(relation_type[relationsCounter_ID-1]) + '.' + value1
-                # target2 = [docData.get('entities')[0] for i in docData if docData.get('entities')[1] == 'Arg2'][0]
-                relation = ["R" + str(relationsCounter_ID), name, [[str(argnameCounter), relation_spans()[argnameCounter-1][0]], [str(argnameCounter+1), relation_spans()[argnameCounter-1][1]]]]
+            if rel_property_key == "Sense":
+                # Could be a random name but lets keep it as a number
+                name = str(relation_type[relations_counter_id - 1]) + '.' + rel_property_value
+
+                # relation_spans = relation_spans()
+                relation = [
+                    "R" + str(relations_counter_id),
+                    name,
+                    [
+                        [str(argname_counter),
+                         relation_spans()[argname_counter - 1][0]
+                         ],
+                        [str(argname_counter + 1),
+                         relation_spans()[argname_counter - 1][1]
+                         ]
+                    ]
+                ]
+
                 # Format: ['R1', 'REL1', [['1', 'T1'], ['2', 'T2']]],
                 docData["relations"] += [relation]
 
-                relationsCounter_ID += 1
-                argnameCounter += 1
-
-    #print(docData)
-
-
-    # for rel in docData["relations"]:
-    #     for
-
-    # Write to data.json
-    #with open("/Users/apple/ba_visualization/data/converted-types.json", "w") as f:
-    #with open(re.sub('\..*', '', jsoninput) + '.visualisation.json', "w") as f:
-        #json.dump(docData, f)
-    return json.dumps(docData)
-
+                relations_counter_id += 1
+                argname_counter += 1
+                
+    return json.dumps(docData, ensure_ascii=False)
