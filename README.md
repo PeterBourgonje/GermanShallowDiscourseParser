@@ -15,7 +15,8 @@ TBD
 
 ## Installation & Usage
 
-There are two ways to get this parser up and running. The easy way is by building and running the docker version. The slightly more elaborate way is by downloading and installing all requirements yourself. Both are described below.
+The parser is included in the [European Language Grid](https://live.european-language-grid.eu/catalogue/#/resource/service/tool/2206) (ELG), where it can be tried out directly, without any installation (ELG account required though). Due to ELG requirements, the JSON output format differs slightly from the format described in my thesis.
+If you want to install and use the parser locally, you can either run it as a docker container or install it manually. Steps for both procedures are described below.
 
 ### Docker (easy)
 - Clone this repository (`git clone https://github.com/PeterBourgonje/GermanShallowDiscourseParser`)
