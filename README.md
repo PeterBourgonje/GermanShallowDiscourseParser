@@ -11,7 +11,8 @@ You can find a human-readable summary of the licence agreement here:
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 If you use this parser for your research, please cite the following:
-TBD
+
+[Bourgonje, P. (2021). Shallow Discourse Parsing for German. PhD Thesis, Universität Potsdam](https://publishup.uni-potsdam.de/50663).
 
 ## Installation & Usage
 
