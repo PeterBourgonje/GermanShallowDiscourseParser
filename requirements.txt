@@ -8,4 +8,4 @@ flask==1.0.2
 flask_cors==3.0.7
 lxml==4.6.2
 dill==0.2.9
-waitress==1.4.4
+waitress==2.1.1
