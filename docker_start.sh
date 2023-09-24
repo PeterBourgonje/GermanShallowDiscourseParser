@@ -21,7 +21,7 @@
 #spawn ./sleep.sh
 
 #expect "something"
-bert-serving-start -model_dir /gsdp/bert-base-german-tf-version/ -num_worker=4 -max_seq_len=52 &
+bert-serving-start -model_dir /gsdp/bert-base-german-tf-version/ -num_worker=1 -max_seq_len=52 &
 cd gsdp
 python Parser.py
 
