@@ -11,18 +11,15 @@ RUN apt-get -y update &&\
     apt-get update -y
 
 RUN mkdir gsdp
+
 RUN wget https://nlp.stanford.edu/software/stanford-parser-full-2018-10-17.zip
 RUN unzip stanford-parser-full-2018-10-17.zip -d /gsdp/stanford-parser && rm stanford-parser-full-2018-10-17.zip
+
 RUN wget https://int-deepset-models-bert.s3.eu-central-1.amazonaws.com/tensorflow/bert-base-german-cased.zip
 RUN unzip bert-base-german-cased.zip -d /gsdp/bert-base-german-tf-version && rm bert-base-german-cased.zip
 RUN mv /gsdp/bert-base-german-tf-version/bert-base-german-cased.data-00000-of-00001 /gsdp/bert-base-german-tf-version/bert_model.ckpt.data-00000-of-00001
 RUN mv /gsdp/bert-base-german-tf-version/bert-base-german-cased.index /gsdp/bert-base-german-tf-version/bert_model.ckpt.index
 RUN mv /gsdp/bert-base-german-tf-version/bert-base-german-cased.meta /gsdp/bert-base-german-tf-version/bert_model.ckpt.meta
-
-ADD requirements.txt .
-RUN pip3 install -r requirements.txt
-RUN python3 -c "import nltk;nltk.download('punkt')"
-#RUN python3 -m nltk.downloader punkt
 
 
 ADD docker_config.ini /gsdp/config.ini
@@ -35,6 +32,8 @@ ADD Parser.py /gsdp/.
 ADD PCCParser.py /gsdp/.
 ADD utils.py /gsdp/.
 ADD olha_viz.py /gsdp/.
+ADD requirements.txt .
+
 
 ADD bert_client_encodings.pickle /gsdp/.
 ADD pcc_memorymap.pickle /gsdp/.
@@ -49,9 +48,14 @@ ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
 ENV CLASSPATH=/gsdp/stanford-parser/stanford-parser.jar
 
+RUN pip3 install -r requirements.txt
+RUN python3 -c "import nltk;nltk.download('punkt')"
+#RUN python3 -m nltk.downloader punkt
+
 EXPOSE 5000
 
-ENTRYPOINT ["./docker_start.sh"]
-#CMD ["/bin/bash"]
+#RUN chmod +x docker_start.sh
+#ENTRYPOINT ["./docker_start.sh"]
+CMD ["/bin/bash"]
 
 
