@@ -1,7 +1,7 @@
 # GermanShallowDiscourseParser
 
-This Shallow Discourse Parser for German is the (practical) outcome of a PhD Thesis on that very topic.
-Please note that this (version of the) parser relies on libraries that might not be available for your OS/set-up anymore, and a more up-to-date fork is available [here](https://github.com/SophiaRauh/GermanShallowDiscourseParser).
+This Shallow Discourse Parser for German is the (practical) outcome of a PhD Thesis on that very topic.\
+**Please note** that this (version of the) parser relies on libraries that might not be available for your OS/set-up anymore, and a more up-to-date fork is available [here](https://github.com/SophiaRauh/GermanShallowDiscourseParser).
 
 
 ## License
